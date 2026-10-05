@@ -10,6 +10,23 @@ La taille des sprites, la grille de tuiles et les règles de palette se dessinen
 ## 2. Données de départ
 
 - **Idée de base de l'utilisateur** : héros de **96 px de haut sur 48 px de large** (**confirmé par l'utilisateur le 2026-10-05** : 96 de haut, 48 de large, proportion 2:1), tuile de 32 px. 96 px = exactement 3 tuiles.
+- **Formats déjà préenregistrés dans PixelForge** (relevés le 2026-10-05, la tuile de base est de 32 px) :
+
+| Format | Taille | En tuiles de 32 px |
+|---|---|---|
+| Perso (gabarit héros / PNJ debout) | 32×64 | 1×2 |
+| Mob | 64×64 | 2×2 |
+| Élite | 64×96 | 2×3 |
+| Boss | 128×128 | 4×4 |
+| Boss final | 192×160 | 6×5 |
+| Tuiles | 16×16, 32×32 (standard recommandé), 64×64 | – |
+| Planche de transitions 4×4 | 128×128 | 4×4 tuiles |
+| Planche complète 8×8 (auto-tiling Wang / Blob47) | 256×256 | 8×8 tuiles |
+| Icône d'inventaire | 32×32 et 64×64 | – |
+| Prop (meuble, décor) | 64×64 | – |
+| Portrait (dialogue, fiche) | 128×128 | – |
+
+  **Constat important** : ces formats supposent un héros de **64 px de haut** (2 tuiles), pas de 96. Le boss de 128 px fait alors 2× le héros et le boss final de 160 px fait 2,5×, ce qui correspond aux boss courants de l'étude. Avec un héros de 96 px, ces mêmes boss ne feraient que 1,3× et 1,7× : trop petits.
 - **Étude de jeux de référence** (voir `etude-jeux-reference.md`) : un héros de plateforme fait 13 à 17 % de la hauteur de l'image, un héros d'exploration en vue 3/4 fait 10 à 12 %, un boss courant fait 2 à 3× le héros, un boss colosse de 5× est vu en partie.
 - **Outil de génération envisagé : PixelLab (pixellab.ai).** Les contraintes qui comptent pour les tailles sont dans la section 3.
 
@@ -65,17 +82,33 @@ La résolution décide de tout le reste. Les pourcentages de l'écran sont ident
 | Boss courant | 96 à 144 | 6 à 9 | 27 à 40 % | **128×128 ou 256×256** | Entre dans une case |
 | Colosse (5×, vu en partie) | 240 | 15 | 67 % | **256×256** (94 %, juste) | Marge très faible : assemblage de 2 pièces recommandé |
 
+### Scénario C : formats PixelForge actuels conservés, image de 360 px de haut, tuile de 32 px
+
+Aucun format à reconstruire. Tout est déjà aligné sur la grille de 32 px.
+
+| Format actuel | Taille | En tuiles | % de l'écran (image de 360 px) | Rapport au héros | Case PixelLab conseillée | Remarque |
+|---|---|---|---|---|---|---|
+| Perso (héros, PNJ) | 32×64 | 1×2 | 17,8 % | 1× | **128×128** (héros à 50 %) | Haut de la fourchette des jeux de profil (13 à 17 %) |
+| Mob | 64×64 | 2×2 | 17,8 % | 1× | 128×128 | |
+| Élite | 64×96 | 2×3 | 26,7 % | 1,5× | 128×128 | |
+| Boss | 128×128 | 4×4 | 35,6 % | 2× | **256×256** (boss à 50 %) | Une case de 128 serait trop juste |
+| Boss final | 192×160 | 6×5 | 44,4 % | 2,5× | 256×256 | Entre dans le plafond de PixelLab |
+| Colosse vu en partie (5×) | 320 | 10 | 89 % | 5× | assemblage de pièces | Hors des formats actuels |
+
+Ajustement à prévoir dans ce scénario : un **format « Perso 3/4 » de 32×48 px (1×1,5 tuile)** pour l'exploration. À 360 px de haut, il fait 13,3 %, un peu au-dessus des 10 à 12 % des jeux en vue 3/4, mais il garde la grille.
+
 ### Comparaison honnête
 
-| | Scénario A (HD, 96 px) | Scénario B (rétro, 48 px) |
-|---|---|---|
-| Cohérence avec les jeux de référence (proportions) | Oui | Oui |
-| Entre dans les cases de PixelLab | Héros oui ; boss > 2,3× : **assemblage de pièces** | Tout entre, colosse juste |
-| Pixels par image du héros | ≈ 4 600 | ≈ 1 150 (4 fois moins) |
-| Mémoire estimée d'un boss de 80 images | ≈ 20 Mo (case 256) | ≈ 5 à 20 Mo (case 128 ou 256) |
-| Qualité attendue de la génération | Meilleure (plus de pixels) | **À tester** : PixelLab semble plus fiable aux grandes tailles |
-| Pixels réguliers sur téléphone (720, 1080, 1440 px de haut) | Net sur 720 et 1440 seulement | **Net sur les trois** |
-| Changement par rapport à ton pipeline actuel (96 px) | Aucun | Formats PixelForge à refaire |
+| | A : HD, héros de 96 px, image de 720 px | B : rétro, héros de 48 px, image de 360 px, tuile de 16 | C : formats actuels, héros de 64 px, image de 360 px, tuile de 32 |
+|---|---|---|---|
+| Proportions cohérentes avec les jeux de référence | Oui (13,3 %) | Oui (13,3 %) | Oui, en haut de fourchette (17,8 %) |
+| Entre dans les cases de PixelLab | Héros oui ; boss > 2,3× : assemblage | Tout entre, colosse juste | Tout entre, colosse hors formats |
+| Pixels du héros par image | ≈ 4 600 | ≈ 1 150 | ≈ 2 050 |
+| Pixels réguliers sur téléphone (720, 1080, 1440 px de haut) | Net sur 720 et 1440 seulement | Net sur les trois | **Net sur les trois** |
+| Formats PixelForge à refaire | Personnages, monstres, boss (× 1,5) | Tous | **Aucun** |
+| Rapport boss / héros | à définir | à définir | **2× et 2,5×** (déjà en place) |
+| Qualité attendue de PixelLab | Meilleure (plus de pixels) | À tester | À tester (héros dans une case de 128) |
+| Niveau de détail du héros | Élevé | Faible | Moyen |
 
 ## 5. Règles de cohérence (valables dans les deux scénarios)
 
@@ -112,13 +145,21 @@ Liste à compléter après la décision. Pour chaque format : nom, taille de la 
 
 **Formats actuellement préenregistrés dans PixelForge : non communiqués** (l'utilisateur a indiqué des formats pour personnages, monstres et boss, sans leurs tailles). À relever avant de décider lesquels garder.
 
-| Format | Scénario A | Scénario B |
-|---|---|---|
-| Tuile | 32×32 | 16×16 |
-| Héros / PNJ | 128×128 | 64×64 |
-| Petit monstre | 64×64 | 32×32 |
-| Monstre moyen | 256×256 | 128×128 |
-| Boss | 256×256 (pièces au-delà) | 128×128 ou 256×256 |
+| Format | A | B | C (formats actuels) |
+|---|---|---|---|
+| Tuile | 32×32 | 16×16 | 32×32 |
+| Héros / PNJ | 48×96 | 24×48 | **32×64 (déjà présent)** |
+| Mob | 96×96 | 32×32 | **64×64 (déjà présent)** |
+| Élite | 96×144 | 48×72 | **64×96 (déjà présent)** |
+| Boss | 192×192 | 64×64 ou 96×96 | **128×128 (déjà présent)** |
+| Boss final | 288×240 | 96×80 | **192×160 (déjà présent)** |
+| Perso 3/4 | 48×80 | 24×40 | 32×48 (**à ajouter**) |
+| Case PixelLab (héros) | 128 | 64 | 128 |
+| Case PixelLab (boss) | 256 | 128 ou 256 | 256 |
+
+**Formats qui ne dépendent pas du scénario :** planches de tuiles 4×4 (16 tuiles, transitions) et 8×8 (47 tuiles utiles sur 64, auto-tiling Blob47), icônes 32 et 64, prop 64, portrait 128. Ce sont tous des multiples de 32 et des puissances de 2, donc compatibles avec PixelLab.
+
+**Règle à verrouiller :** une seule taille de tuile dans le jeu. Les formats 16 et 64 peuvent rester dans PixelForge comme outils, mais ne sont pas mélangés dans un même niveau.
 
 ## 7 bis. Test à faire avant de verrouiller la décision n° 1
 
@@ -142,13 +183,13 @@ Chaque ligne passe de « À DÉCIDER » à « VERROUILLÉ » avec la date. Aprè
 
 | N° | Décision | Choix | Statut | Date |
 |---|---|---|---|---|
-| 1 | Résolution de l'image (hauteur) | A : 720 / B : 360 | À DÉCIDER | |
+| 1 | Résolution de l'image (hauteur) | A : 720 / B : 360 / C : 360 | À DÉCIDER | |
 | 2 | Largeur extensible, hauteur fixe | Recommandé | À DÉCIDER | |
-| 3 | Taille de la tuile | 32 (A) ou 16 (B) | À DÉCIDER | |
-| 4 | Hauteur du héros de plateforme | 96 (A) ou 48 (B) | À DÉCIDER | |
-| 5 | Largeur du héros | 48 (A) ou 24 (B), proportion 2:1 confirmée | À DÉCIDER (dépend du n° 1) | |
-| 6 | Hauteur du héros en vue 3/4 | 80 (A) ou 40 (B) | À DÉCIDER | |
-| 7 | Boss courant et colosse | voir section 4 | À DÉCIDER | |
+| 3 | Taille de la tuile | 32 (A, C) ou 16 (B) | À DÉCIDER | |
+| 4 | Hauteur du héros de plateforme | 96 (A) / 48 (B) / 64 (C) | À DÉCIDER | |
+| 5 | Largeur du héros | 48 (A) / 24 (B) / 32 (C), proportion 2:1 | À DÉCIDER (dépend du n° 4) | |
+| 6 | Hauteur du héros en vue 3/4 | 80 (A) / 40 (B) / 48 (C) | À DÉCIDER | |
+| 7 | Boss courant et colosse | voir section 4 ; C : 2× et 2,5×, colosse en pièces | À DÉCIDER | |
 | 8 | Contour des sprites (noir, coloré, aucun) | | À DÉCIDER | |
 | 9 | Direction de la lumière | | À DÉCIDER | |
 | 10 | Nombre de couleurs par personnage et par région | 16 / 32 | À DÉCIDER | |
