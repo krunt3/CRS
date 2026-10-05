@@ -1,0 +1,1332 @@
+{
+ "cro01": {
+  "ancien_nom": "Velokrak",
+  "ligne_livre3": 28,
+  "groupe": "crochues"
+ },
+ "cro02": {
+  "ancien_nom": "Velodrak",
+  "ligne_livre3": 227,
+  "groupe": "crochues"
+ },
+ "cro03": {
+  "ancien_nom": "Genokrak",
+  "ligne_livre3": 438,
+  "groupe": "crochues"
+ },
+ "cro04": {
+  "ancien_nom": "Genprak",
+  "ligne_livre3": 592,
+  "groupe": "crochues"
+ },
+ "cro05": {
+  "ancien_nom": "Jagrak",
+  "ligne_livre3": 755,
+  "groupe": "crochues"
+ },
+ "cro06": {
+  "ancien_nom": "Jagidrak",
+  "ligne_livre3": 882,
+  "groupe": "crochues"
+ },
+ "cro07": {
+  "ancien_nom": "Bagirak",
+  "ligne_livre3": 1036,
+  "groupe": "crochues"
+ },
+ "cro08": {
+  "ancien_nom": "Bakurak",
+  "ligne_livre3": 1167,
+  "groupe": "crochues"
+ },
+ "cro09": {
+  "ancien_nom": "Iokrak",
+  "ligne_livre3": 1320,
+  "groupe": "crochues"
+ },
+ "cro10": {
+  "ancien_nom": "Iodrak",
+  "ligne_livre3": 1439,
+  "groupe": "crochues"
+ },
+ "cro11": {
+  "ancien_nom": "Gyplerak",
+  "ligne_livre3": 1607,
+  "groupe": "crochues"
+ },
+ "cro12": {
+  "ancien_nom": "Kut-Varek",
+  "ligne_livre3": 1803,
+  "groupe": "crochues"
+ },
+ "cro13": {
+  "ancien_nom": "Kulurak",
+  "ligne_livre3": 1969,
+  "groupe": "crochues"
+ },
+ "cro14": {
+  "ancien_nom": "Pukeirak",
+  "ligne_livre3": 2157,
+  "groupe": "crochues"
+ },
+ "cro15": {
+  "ancien_nom": "Tzitzak",
+  "ligne_livre3": 2338,
+  "groupe": "crochues"
+ },
+ "cro16": {
+  "ancien_nom": "Aknorak",
+  "ligne_livre3": 2466,
+  "groupe": "crochues"
+ },
+ "cro17": {
+  "ancien_nom": "Garuvorn",
+  "ligne_livre3": 2648,
+  "groupe": "crochues"
+ },
+ "cro18": {
+  "ancien_nom": "Garuvorn Sourd",
+  "ligne_livre3": 2843,
+  "groupe": "crochues"
+ },
+ "cro19": {
+  "ancien_nom": "Seregrak",
+  "ligne_livre3": 2966,
+  "groupe": "crochues"
+ },
+ "cro20": {
+  "ancien_nom": "Gyplerak Violet",
+  "ligne_livre3": 3165,
+  "groupe": "crochues"
+ },
+ "cro21": {
+  "ancien_nom": "Kut-Varek Bleu",
+  "ligne_livre3": 3270,
+  "groupe": "crochues"
+ },
+ "cro22": {
+  "ancien_nom": "Pukeirak des Cimes",
+  "ligne_livre3": 3357,
+  "groupe": "crochues"
+ },
+ "cro23": {
+  "ancien_nom": "Hypnorak",
+  "ligne_livre3": 3435,
+  "groupe": "crochues"
+ },
+ "cro24": {
+  "ancien_nom": "Qurepak",
+  "ligne_livre3": 3670,
+  "groupe": "crochues"
+ },
+ "cro25": {
+  "ancien_nom": "Qurepak Cramoisi",
+  "ligne_livre3": 3859,
+  "groupe": "crochues"
+ },
+ "cro26": {
+  "ancien_nom": "Malfestrak",
+  "ligne_livre3": 3914,
+  "groupe": "crochues"
+ },
+ "cro27": {
+  "ancien_nom": "Gildrak",
+  "ligne_livre3": 4106,
+  "groupe": "crochues"
+ },
+ "cro28": {
+  "ancien_nom": "Jagrak des Abysses",
+  "ligne_livre3": 4273,
+  "groupe": "crochues"
+ },
+ "cro29": {
+  "ancien_nom": "Porkeplumak",
+  "ligne_livre3": 4390,
+  "groupe": "crochues"
+ },
+ "ail01": {
+  "ancien_nom": "Rathavar",
+  "ligne_livre3": 4565,
+  "groupe": "ailees"
+ },
+ "ail02": {
+  "ancien_nom": "Rathavar Azur",
+  "ligne_livre3": 4785,
+  "groupe": "ailees"
+ },
+ "ail03": {
+  "ancien_nom": "Rathavar Argent",
+  "ligne_livre3": 4845,
+  "groupe": "ailees"
+ },
+ "ail04": {
+  "ancien_nom": "Rathiene",
+  "ligne_livre3": 4920,
+  "groupe": "ailees"
+ },
+ "ail05": {
+  "ancien_nom": "Rathiene Incarnate",
+  "ligne_livre3": 5112,
+  "groupe": "ailees"
+ },
+ "ail06": {
+  "ancien_nom": "Rathiene Dorée",
+  "ligne_livre3": 5167,
+  "groupe": "ailees"
+ },
+ "ail07": {
+  "ancien_nom": "Diavorn",
+  "ligne_livre3": 5235,
+  "groupe": "ailees"
+ },
+ "ail08": {
+  "ancien_nom": "Tigrakh",
+  "ligne_livre3": 5422,
+  "groupe": "ailees"
+ },
+ "ail09": {
+  "ancien_nom": "Nargavar",
+  "ligne_livre3": 5615,
+  "groupe": "ailees"
+ },
+ "ail10": {
+  "ancien_nom": "Bariokh",
+  "ligne_livre3": 5804,
+  "groupe": "ailees"
+ },
+ "ail11": {
+  "ancien_nom": "Paolumak",
+  "ligne_livre3": 5988,
+  "groupe": "ailees"
+ },
+ "ail12": {
+  "ancien_nom": "Kushavar",
+  "ligne_livre3": 6165,
+  "groupe": "ailees"
+ },
+ "ail13": {
+  "ancien_nom": "Legianar",
+  "ligne_livre3": 6350,
+  "groupe": "ailees"
+ },
+ "ail14": {
+  "ancien_nom": "Espivarn",
+  "ligne_livre3": 6546,
+  "groupe": "ailees"
+ },
+ "ail15": {
+  "ancien_nom": "Gunkavar",
+  "ligne_livre3": 6709,
+  "groupe": "ailees"
+ },
+ "ail16": {
+  "ancien_nom": "Chamelark",
+  "ligne_livre3": 6903,
+  "groupe": "ailees"
+ },
+ "ail17": {
+  "ancien_nom": "Teostrakh",
+  "ligne_livre3": 7072,
+  "groupe": "ailees"
+ },
+ "ail18": {
+  "ancien_nom": "Zinogavar",
+  "ligne_livre3": 7272,
+  "groupe": "ailees"
+ },
+ "ail19": {
+  "ancien_nom": "Valstrakh",
+  "ligne_livre3": 7465,
+  "groupe": "ailees"
+ },
+ "ail20": {
+  "ancien_nom": "Alatreonak",
+  "ligne_livre3": 7666,
+  "groupe": "ailees"
+ },
+ "ail21": {
+  "ancien_nom": "Namieloth",
+  "ligne_livre3": 7854,
+  "groupe": "ailees"
+ },
+ "ail22": {
+  "ancien_nom": "Orbivarn",
+  "ligne_livre3": 8036,
+  "groupe": "ailees"
+ },
+ "ail23": {
+  "ancien_nom": "Selvarath",
+  "ligne_livre3": 8185,
+  "groupe": "ailees"
+ },
+ "ail24": {
+  "ancien_nom": "Rathavar Noir",
+  "ligne_livre3": 8345,
+  "groupe": "ailees"
+ },
+ "ail25": {
+  "ancien_nom": "Rathavar Jade",
+  "ligne_livre3": 8428,
+  "groupe": "ailees"
+ },
+ "ail26": {
+  "ancien_nom": "Rathavar Cramoisi",
+  "ligne_livre3": 8504,
+  "groupe": "ailees"
+ },
+ "ail27": {
+  "ancien_nom": "Rathavar Doré",
+  "ligne_livre3": 8580,
+  "groupe": "ailees"
+ },
+ "ail28": {
+  "ancien_nom": "Velkhavar",
+  "ligne_livre3": 8660,
+  "groupe": "ailees"
+ },
+ "ail29": {
+  "ancien_nom": "Astarath",
+  "ligne_livre3": 8846,
+  "groupe": "ailees"
+ },
+ "ail30": {
+  "ancien_nom": "Pyrakhov",
+  "ligne_livre3": 8958,
+  "groupe": "ailees"
+ },
+ "ail31": {
+  "ancien_nom": "Caernavak",
+  "ligne_livre3": 9051,
+  "groupe": "ailees"
+ },
+ "ail32": {
+  "ancien_nom": "Vorakveil",
+  "ligne_livre3": 9187,
+  "groupe": "ailees"
+ },
+ "ail33": {
+  "ancien_nom": "Lunavark",
+  "ligne_livre3": 9306,
+  "groupe": "ailees"
+ },
+ "ail34": {
+  "ancien_nom": "Thornavar",
+  "ligne_livre3": 9388,
+  "groupe": "ailees"
+ },
+ "ail35": {
+  "ancien_nom": "Nebulark",
+  "ligne_livre3": 9484,
+  "groupe": "ailees"
+ },
+ "ail36": {
+  "ancien_nom": "Ironveil",
+  "ligne_livre3": 9571,
+  "groupe": "ailees"
+ },
+ "ail37": {
+  "ancien_nom": "Starkveil",
+  "ligne_livre3": 9674,
+  "groupe": "ailees"
+ },
+ "ail38": {
+  "ancien_nom": "Furivarn",
+  "ligne_livre3": 9772,
+  "groupe": "ailees"
+ },
+ "ail39": {
+  "ancien_nom": "Verdanthak",
+  "ligne_livre3": 9869,
+  "groupe": "ailees"
+ },
+ "ail40": {
+  "ancien_nom": "Aurorakh",
+  "ligne_livre3": 9973,
+  "groupe": "ailees"
+ },
+ "ail41": {
+  "ancien_nom": "Vitharnak",
+  "ligne_livre3": 10144,
+  "groupe": "ailees"
+ },
+ "ail42": {
+  "ancien_nom": "Skelvarn",
+  "ligne_livre3": 10279,
+  "groupe": "ailees"
+ },
+ "ail43": {
+  "ancien_nom": "Duravok",
+  "ligne_livre3": 10372,
+  "groupe": "ailees"
+ },
+ "ail44": {
+  "ancien_nom": "Kalidor",
+  "ligne_livre3": 10472,
+  "groupe": "ailees"
+ },
+ "ail45": {
+  "ancien_nom": "Xorvakh",
+  "ligne_livre3": 10556,
+  "groupe": "ailees"
+ },
+ "ail46": {
+  "ancien_nom": "Lethavark",
+  "ligne_livre3": 10737,
+  "groupe": "ailees"
+ },
+ "ter01": {
+  "ancien_nom": "Brachydrak",
+  "ligne_livre3": 11011,
+  "groupe": "terrestres"
+ },
+ "ter02": {
+  "ancien_nom": "Deviljhak",
+  "ligne_livre3": 11174,
+  "groupe": "terrestres"
+ },
+ "ter03": {
+  "ancien_nom": "Giganokrak",
+  "ligne_livre3": 11361,
+  "groupe": "terrestres"
+ },
+ "ter04": {
+  "ancien_nom": "Zinograk",
+  "ligne_livre3": 11526,
+  "groupe": "terrestres"
+ },
+ "ter05": {
+  "ancien_nom": "Uragaanok",
+  "ligne_livre3": 11655,
+  "groupe": "terrestres"
+ },
+ "ter06": {
+  "ancien_nom": "Bariothrak",
+  "ligne_livre3": 11755,
+  "groupe": "terrestres"
+ },
+ "ter07": {
+  "ancien_nom": "Bagelnokrak",
+  "ligne_livre3": 11856,
+  "groupe": "terrestres"
+ },
+ "ter08": {
+  "ancien_nom": "Diablorak",
+  "ligne_livre3": 11951,
+  "groupe": "terrestres"
+ },
+ "ter09": {
+  "ancien_nom": "Glukharak",
+  "ligne_livre3": 12063,
+  "groupe": "terrestres"
+ },
+ "ter10": {
+  "ancien_nom": "Durambarak",
+  "ligne_livre3": 12224,
+  "groupe": "terrestres"
+ },
+ "ter11": {
+  "ancien_nom": "Rajangrak",
+  "ligne_livre3": 12326,
+  "groupe": "terrestres"
+ },
+ "ter12": {
+  "ancien_nom": "Congalarak",
+  "ligne_livre3": 12459,
+  "groupe": "terrestres"
+ },
+ "ter13": {
+  "ancien_nom": "Tigrexrak",
+  "ligne_livre3": 12591,
+  "groupe": "terrestres"
+ },
+ "ter14": {
+  "ancien_nom": "Lagombirak",
+  "ligne_livre3": 12690,
+  "groupe": "terrestres"
+ },
+ "ter15": {
+  "ancien_nom": "Najararak",
+  "ligne_livre3": 12790,
+  "groupe": "terrestres"
+ },
+ "ter16": {
+  "ancien_nom": "Apcarak",
+  "ligne_livre3": 12905,
+  "groupe": "terrestres"
+ },
+ "ter17": {
+  "ancien_nom": "Tetzarak",
+  "ligne_livre3": 13018,
+  "groupe": "terrestres"
+ },
+ "ter18": {
+  "ancien_nom": "Odibarak",
+  "ligne_livre3": 13125,
+  "groupe": "terrestres"
+ },
+ "ter19": {
+  "ancien_nom": "Volviarak",
+  "ligne_livre3": 13229,
+  "groupe": "terrestres"
+ },
+ "ter20": {
+  "ancien_nom": "Mitzarak",
+  "ligne_livre3": 13341,
+  "groupe": "terrestres"
+ },
+ "ter21": {
+  "ancien_nom": "Nergigarak",
+  "ligne_livre3": 13435,
+  "groupe": "terrestres"
+ },
+ "ter22": {
+  "ancien_nom": "Ruinarak",
+  "ligne_livre3": 13544,
+  "groupe": "terrestres"
+ },
+ "lev01": {
+  "ancien_nom": "Lagiacrak",
+  "ligne_livre3": 13721,
+  "groupe": "leviathans"
+ },
+ "lev02": {
+  "ancien_nom": "Ludrothrak",
+  "ligne_livre3": 13966,
+  "groupe": "leviathans"
+ },
+ "lev03": {
+  "ancien_nom": "Gobulrak",
+  "ligne_livre3": 14146,
+  "groupe": "leviathans"
+ },
+ "lev04": {
+  "ancien_nom": "Plesiogarak",
+  "ligne_livre3": 14396,
+  "groupe": "leviathans"
+ },
+ "lev05": {
+  "ancien_nom": "Ceadeurak",
+  "ligne_livre3": 14642,
+  "groupe": "leviathans"
+ },
+ "lev06": {
+  "ancien_nom": "Mizutsugarak",
+  "ligne_livre3": 14859,
+  "groupe": "leviathans"
+ },
+ "lev07": {
+  "ancien_nom": "Jyuratodrak",
+  "ligne_livre3": 15126,
+  "groupe": "leviathans"
+ },
+ "lev08": {
+  "ancien_nom": "Volvidonrak",
+  "ligne_livre3": 15358,
+  "groupe": "leviathans"
+ },
+ "lev09": {
+  "ancien_nom": "Namaiirak",
+  "ligne_livre3": 15578,
+  "groupe": "leviathans"
+ },
+ "lev10": {
+  "ancien_nom": "Uroktarak",
+  "ligne_livre3": 15817,
+  "groupe": "leviathans"
+ },
+ "lev11": {
+  "ancien_nom": "Glaciarak",
+  "ligne_livre3": 16054,
+  "groupe": "leviathans"
+ },
+ "lev12": {
+  "ancien_nom": "Agnaktorak",
+  "ligne_livre3": 16270,
+  "groupe": "leviathans"
+ },
+ "lev13": {
+  "ancien_nom": "Bazelgarak",
+  "ligne_livre3": 16482,
+  "groupe": "leviathans"
+ },
+ "lev14": {
+  "ancien_nom": "Zamtrirak",
+  "ligne_livre3": 16715,
+  "groupe": "leviathans"
+ },
+ "lev15": {
+  "ancien_nom": "Dobogaromak",
+  "ligne_livre3": 16932,
+  "groupe": "leviathans"
+ },
+ "lev16": {
+  "ancien_nom": "Durambalorak",
+  "ligne_livre3": 17118,
+  "groupe": "leviathans"
+ },
+ "lev17": {
+  "ancien_nom": "Nibelgarok",
+  "ligne_livre3": 17290,
+  "groupe": "leviathans"
+ },
+ "lev18": {
+  "ancien_nom": "Gilagarok",
+  "ligne_livre3": 17463,
+  "groupe": "leviathans"
+ },
+ "lev19": {
+  "ancien_nom": "Tetsucabarak",
+  "ligne_livre3": 17678,
+  "groupe": "leviathans"
+ },
+ "lev20": {
+  "ancien_nom": "Borearak",
+  "ligne_livre3": 17816,
+  "groupe": "leviathans"
+ },
+ "lev21": {
+  "ancien_nom": "Pukeigarak",
+  "ligne_livre3": 17967,
+  "groupe": "leviathans"
+ },
+ "lev22": {
+  "ancien_nom": "Lagombarak",
+  "ligne_livre3": 18109,
+  "groupe": "leviathans"
+ },
+ "cra01": {
+  "ancien_nom": "Zinogarvak",
+  "ligne_livre3": 18340,
+  "groupe": "cramponnees"
+ },
+ "cra02": {
+  "ancien_nom": "Nerscylarak",
+  "ligne_livre3": 18558,
+  "groupe": "cramponnees"
+ },
+ "cra03": {
+  "ancien_nom": "Brachydiosrak",
+  "ligne_livre3": 18779,
+  "groupe": "cramponnees"
+ },
+ "cra04": {
+  "ancien_nom": "Odogarak",
+  "ligne_livre3": 18927,
+  "groupe": "cramponnees"
+ },
+ "cra05": {
+  "ancien_nom": "Volganorak",
+  "ligne_livre3": 19054,
+  "groupe": "cramponnees"
+ },
+ "cra06": {
+  "ancien_nom": "Seregiosrak",
+  "ligne_livre3": 19162,
+  "groupe": "cramponnees"
+ },
+ "cra07": {
+  "ancien_nom": "Tigrexrak des Parois",
+  "ligne_livre3": 19284,
+  "groupe": "cramponnees"
+ },
+ "cui01": {
+  "ancien_nom": "Shen-Gaornak",
+  "ligne_livre3": 19426,
+  "groupe": "cuirassees"
+ },
+ "cui02": {
+  "ancien_nom": "Lagiacrus-Terrak",
+  "ligne_livre3": 19652,
+  "groupe": "cuirassees"
+ },
+ "cui03": {
+  "ancien_nom": "Daimyorak",
+  "ligne_livre3": 19854,
+  "groupe": "cuirassees"
+ },
+ "cui04": {
+  "ancien_nom": "Jangarak",
+  "ligne_livre3": 20031,
+  "groupe": "cuirassees"
+ },
+ "cui05": {
+  "ancien_nom": "Carapatorak",
+  "ligne_livre3": 20215,
+  "groupe": "cuirassees"
+ },
+ "cui06": {
+  "ancien_nom": "Stonegarak",
+  "ligne_livre3": 20411,
+  "groupe": "cuirassees"
+ },
+ "cui07": {
+  "ancien_nom": "Zamiterak",
+  "ligne_livre3": 20551,
+  "groupe": "cuirassees"
+ },
+ "cui08": {
+  "ancien_nom": "Banbarak",
+  "ligne_livre3": 20648,
+  "groupe": "cuirassees"
+ },
+ "cui09": {
+  "ancien_nom": "Diablorak Cuirassé",
+  "ligne_livre3": 20746,
+  "groupe": "cuirassees"
+ },
+ "cui10": {
+  "ancien_nom": "Graviosrak",
+  "ligne_livre3": 20846,
+  "groupe": "cuirassees"
+ },
+ "cui11": {
+  "ancien_nom": "Tobikagaromak",
+  "ligne_livre3": 20943,
+  "groupe": "cuirassees"
+ },
+ "cui12": {
+  "ancien_nom": "Selregarak",
+  "ligne_livre3": 21045,
+  "groupe": "cuirassees"
+ },
+ "cui13": {
+  "ancien_nom": "Urangasrak",
+  "ligne_livre3": 21147,
+  "groupe": "cuirassees"
+ },
+ "cui14": {
+  "ancien_nom": "Valvarak",
+  "ligne_livre3": 21233,
+  "groupe": "cuirassees"
+ },
+ "cui15": {
+  "ancien_nom": "Atorarak",
+  "ligne_livre3": 21330,
+  "groupe": "cuirassees"
+ },
+ "cui16": {
+  "ancien_nom": "Tetsarak",
+  "ligne_livre3": 21433,
+  "groupe": "cuirassees"
+ },
+ "fau01": {
+  "ancien_nom": "Zinogarak",
+  "ligne_livre3": 21603,
+  "groupe": "fauves"
+ },
+ "fau02": {
+  "ancien_nom": "Rajang Sacré",
+  "ligne_livre3": 21850,
+  "groupe": "fauves"
+ },
+ "fau03": {
+  "ancien_nom": "Nargavar Sacré",
+  "ligne_livre3": 22057,
+  "groupe": "fauves"
+ },
+ "fau04": {
+  "ancien_nom": "Yian-Garugarak Sacré",
+  "ligne_livre3": 22265,
+  "groupe": "fauves"
+ },
+ "fau05": {
+  "ancien_nom": "Teostrakh",
+  "ligne_livre3": 22375,
+  "groupe": "fauves"
+ },
+ "fau06": {
+  "ancien_nom": "Brachydrak Sacré",
+  "ligne_livre3": 22499,
+  "groupe": "fauves"
+ },
+ "fau07": {
+  "ancien_nom": "Kushavar Sacré",
+  "ligne_livre3": 22611,
+  "groupe": "fauves"
+ },
+ "fau08": {
+  "ancien_nom": "Shagaru Sacré",
+  "ligne_livre3": 22762,
+  "groupe": "fauves"
+ },
+ "fau09": {
+  "ancien_nom": "Zinoralk Sacré",
+  "ligne_livre3": 22880,
+  "groupe": "fauves"
+ },
+ "fau10": {
+  "ancien_nom": "Deviljharak Sacré",
+  "ligne_livre3": 22982,
+  "groupe": "fauves"
+ },
+ "fau11": {
+  "ancien_nom": "Lagombirak Sacré",
+  "ligne_livre3": 23086,
+  "groupe": "fauves"
+ },
+ "fau12": {
+  "ancien_nom": "Graviosrak Sacré",
+  "ligne_livre3": 23196,
+  "groupe": "fauves"
+ },
+ "fau13": {
+  "ancien_nom": "Espivarn Sacré",
+  "ligne_livre3": 23301,
+  "groupe": "fauves"
+ },
+ "fau14": {
+  "ancien_nom": "Uktanarak Sacré",
+  "ligne_livre3": 23408,
+  "groupe": "fauves"
+ },
+ "fau15": {
+  "ancien_nom": "Tigrarak Sacré",
+  "ligne_livre3": 23519,
+  "groupe": "fauves"
+ },
+ "fau16": {
+  "ancien_nom": "Mizurak Sacré",
+  "ligne_livre3": 23630,
+  "groupe": "fauves"
+ },
+ "fau17": {
+  "ancien_nom": "Astalosark Sacré",
+  "ligne_livre3": 23755,
+  "groupe": "fauves"
+ },
+ "fau18": {
+  "ancien_nom": "Chamelarak Sacré",
+  "ligne_livre3": 23854,
+  "groupe": "fauves"
+ },
+ "fau19": {
+  "ancien_nom": "Pukurak Sacré",
+  "ligne_livre3": 23952,
+  "groupe": "fauves"
+ },
+ "fau20": {
+  "ancien_nom": "Chaosrak Sacré",
+  "ligne_livre3": 24048,
+  "groupe": "fauves"
+ },
+ "fau21": {
+  "ancien_nom": "Namurak Sacré",
+  "ligne_livre3": 24142,
+  "groupe": "fauves"
+ },
+ "fau22": {
+  "ancien_nom": "Kulusarak Sacré",
+  "ligne_livre3": 24246,
+  "groupe": "fauves"
+ },
+ "fau23": {
+  "ancien_nom": "Vaytarak Sacré",
+  "ligne_livre3": 24353,
+  "groupe": "fauves"
+ },
+ "dra01": {
+  "ancien_nom": "Teostrakh-Duragon",
+  "ligne_livre3": 24549,
+  "groupe": "dragons"
+ },
+ "dra02": {
+  "ancien_nom": "Kusharak-Duragon",
+  "ligne_livre3": 24771,
+  "groupe": "dragons"
+ },
+ "dra03": {
+  "ancien_nom": "Glaciarak-Duragon",
+  "ligne_livre3": 24876,
+  "groupe": "dragons"
+ },
+ "dra04": {
+  "ancien_nom": "Terragorak-Duragon",
+  "ligne_livre3": 24977,
+  "groupe": "dragons"
+ },
+ "dra05": {
+  "ancien_nom": "Leviagorrak-Duragon",
+  "ligne_livre3": 25079,
+  "groupe": "dragons"
+ },
+ "dra06": {
+  "ancien_nom": "Venomorak-Duragon",
+  "ligne_livre3": 25188,
+  "groupe": "dragons"
+ },
+ "dra07": {
+  "ancien_nom": "Umbrarak-Duragon",
+  "ligne_livre3": 25411,
+  "groupe": "dragons"
+ },
+ "dra08": {
+  "ancien_nom": "Lumarak-Duragon",
+  "ligne_livre3": 25567,
+  "groupe": "dragons"
+ },
+ "dra09": {
+  "ancien_nom": "Mnemarak-Duragon",
+  "ligne_livre3": 25705,
+  "groupe": "dragons"
+ },
+ "dra10": {
+  "ancien_nom": "Valkarak-Duragon",
+  "ligne_livre3": 25807,
+  "groupe": "dragons"
+ },
+ "dra11": {
+  "ancien_nom": "Kronarak-Duragon",
+  "ligne_livre3": 25915,
+  "groupe": "dragons"
+ },
+ "dra12": {
+  "ancien_nom": "Pradorak-Duragon",
+  "ligne_livre3": 26090,
+  "groupe": "dragons"
+ },
+ "dra13": {
+  "ancien_nom": "Voidrak-Duragon",
+  "ligne_livre3": 26230,
+  "groupe": "dragons"
+ },
+ "dra14": {
+  "ancien_nom": "Aquaroak-Duragon",
+  "ligne_livre3": 26311,
+  "groupe": "dragons"
+ },
+ "dra15": {
+  "ancien_nom": "Ferarak-Duragon",
+  "ligne_livre3": 26425,
+  "groupe": "dragons"
+ },
+ "dra16": {
+  "ancien_nom": "Naturarak-Duragon",
+  "ligne_livre3": 26542,
+  "groupe": "dragons"
+ },
+ "dra17": {
+  "ancien_nom": "Sonarak-Duragon",
+  "ligne_livre3": 26662,
+  "groupe": "dragons"
+ },
+ "dra18": {
+  "ancien_nom": "Somnarak-Duragon",
+  "ligne_livre3": 26846,
+  "groupe": "dragons"
+ },
+ "dra19": {
+  "ancien_nom": "Morarak-Duragon",
+  "ligne_livre3": 26980,
+  "groupe": "dragons"
+ },
+ "dra20": {
+  "ancien_nom": "Astrarak-Duragon",
+  "ligne_livre3": 27114,
+  "groupe": "dragons"
+ },
+ "dra21": {
+  "ancien_nom": "Cristalrak-Duragon",
+  "ligne_livre3": 27254,
+  "groupe": "dragons"
+ },
+ "dra22": {
+  "ancien_nom": "Chaosroak-Duragon",
+  "ligne_livre3": 27408,
+  "groupe": "dragons"
+ },
+ "dra23": {
+  "ancien_nom": "Magnetrak-Duragon",
+  "ligne_livre3": 27560,
+  "groupe": "dragons"
+ },
+ "dra24": {
+  "ancien_nom": "Pyroclarak-Duragon",
+  "ligne_livre3": 27700,
+  "groupe": "dragons"
+ },
+ "dra25": {
+  "ancien_nom": "Glacenomrak-Duragon",
+  "ligne_livre3": 27835,
+  "groupe": "dragons"
+ },
+ "dra26": {
+  "ancien_nom": "Geolarak-Duragon",
+  "ligne_livre3": 27973,
+  "groupe": "dragons"
+ },
+ "dra27": {
+  "ancien_nom": "Haloroak-Duragon",
+  "ligne_livre3": 28104,
+  "groupe": "dragons"
+ },
+ "dra28": {
+  "ancien_nom": "Cendrarak-Duragon",
+  "ligne_livre3": 28254,
+  "groupe": "dragons"
+ },
+ "dra29": {
+  "ancien_nom": "Plasmarak-Duragon",
+  "ligne_livre3": 28351,
+  "groupe": "dragons"
+ },
+ "dra30": {
+  "ancien_nom": "Gravitarak-Duragon",
+  "ligne_livre3": 28444,
+  "groupe": "dragons"
+ },
+ "dra31": {
+  "ancien_nom": "Mycorak-Duragon",
+  "ligne_livre3": 28547,
+  "groupe": "dragons"
+ },
+ "dra32": {
+  "ancien_nom": "Acidroak-Duragon",
+  "ligne_livre3": 28641,
+  "groupe": "dragons"
+ },
+ "dra33": {
+  "ancien_nom": "Aurorarak-Duragon",
+  "ligne_livre3": 28735,
+  "groupe": "dragons"
+ },
+ "dra34": {
+  "ancien_nom": "Chromarak-Duragon",
+  "ligne_livre3": 28824,
+  "groupe": "dragons"
+ },
+ "dra35": {
+  "ancien_nom": "Pyrofrak-Duragon",
+  "ligne_livre3": 28913,
+  "groupe": "dragons"
+ },
+ "dra36": {
+  "ancien_nom": "Eternarak-Duragon",
+  "ligne_livre3": 29009,
+  "groupe": "dragons"
+ },
+ "pho01": {
+  "ancien_nom": "Ignisrak — Le Phoenix de Cendre et de Renouveau",
+  "ligne_livre3": 29241,
+  "groupe": "phoenix"
+ },
+ "pho02": {
+  "ancien_nom": "Glacirak — Le Phoenix de Glace Éternelle",
+  "ligne_livre3": 29512,
+  "groupe": "phoenix"
+ },
+ "pho03": {
+  "ancien_nom": "Naturak — Le Phoenix de Forêt Vivante",
+  "ligne_livre3": 29624,
+  "groupe": "phoenix"
+ },
+ "pho04": {
+  "ancien_nom": "Ombrak — Le Phoenix des Ombres Profondes",
+  "ligne_livre3": 29729,
+  "groupe": "phoenix"
+ },
+ "cha01": {
+  "ancien_nom": "Cervarak — Le Cerf des Hauts Bois",
+  "ligne_livre3": 29880,
+  "groupe": "chasse"
+ },
+ "cha02": {
+  "ancien_nom": "Sanglarak — Le Sanglier des Marais",
+  "ligne_livre3": 30021,
+  "groupe": "chasse"
+ },
+ "cha03": {
+  "ancien_nom": "Aurochrak — Le Bœuf Sauvage des Plaines",
+  "ligne_livre3": 30147,
+  "groupe": "chasse"
+ },
+ "cha04": {
+  "ancien_nom": "Ursorak — L'Ours des Cimes",
+  "ligne_livre3": 30270,
+  "groupe": "chasse"
+ },
+ "cha05": {
+  "ancien_nom": "Lynxarak — Le Fantôme des Bois",
+  "ligne_livre3": 30399,
+  "groupe": "chasse"
+ },
+ "cha06": {
+  "ancien_nom": "Louparak — Le Loup des Plaines",
+  "ligne_livre3": 30508,
+  "groupe": "chasse"
+ },
+ "cha07": {
+  "ancien_nom": "Aquilarak — L'Aigle Royal des Hauts Vents",
+  "ligne_livre3": 30623,
+  "groupe": "chasse"
+ },
+ "cha08": {
+  "ancien_nom": "Cascarak — La Truite Géante des Torrents",
+  "ligne_livre3": 30736,
+  "groupe": "chasse"
+ },
+ "cha09": {
+  "ancien_nom": "Bisarak — Le Bison des Steppes",
+  "ligne_livre3": 30843,
+  "groupe": "chasse"
+ },
+ "cha10": {
+  "ancien_nom": "Serparak — Le Grand Serpent Constricteur",
+  "ligne_livre3": 30959,
+  "groupe": "chasse"
+ },
+ "cha11": {
+  "ancien_nom": "Mantirak — Le Cervidé des Marais",
+  "ligne_livre3": 31077,
+  "groupe": "chasse"
+ },
+ "cha12": {
+  "ancien_nom": "Chamoisrak — La Chèvre des Précipices",
+  "ligne_livre3": 31191,
+  "groupe": "chasse"
+ },
+ "cha13": {
+  "ancien_nom": "Crapaudrak — Le Crapaud Géant des Cavernes",
+  "ligne_livre3": 31307,
+  "groupe": "chasse"
+ },
+ "cha14": {
+  "ancien_nom": "Murènorak — La Grande Murène des Eaux Sombres",
+  "ligne_livre3": 31418,
+  "groupe": "chasse"
+ },
+ "cha15": {
+  "ancien_nom": "Vautourak — Le Charognard des Falaises",
+  "ligne_livre3": 31529,
+  "groupe": "chasse"
+ },
+ "cha16": {
+  "ancien_nom": "Crocodarak — Le Saurien des Fleuves",
+  "ligne_livre3": 31643,
+  "groupe": "chasse"
+ },
+ "cha17": {
+  "ancien_nom": "Raijarak — L'Aigle-Cerf des Cimes",
+  "ligne_livre3": 31763,
+  "groupe": "chasse"
+ },
+ "cha18": {
+  "ancien_nom": "Caïmarak — Le Lézard des Marais Tropicaux",
+  "ligne_livre3": 31879,
+  "groupe": "chasse"
+ },
+ "soc01": {
+  "ancien_nom": "Canarak — Le Chien de Palmaria",
+  "ligne_livre3": 32067,
+  "groupe": "sociales"
+ },
+ "soc02": {
+  "ancien_nom": "Félarak — Le Chat Domestique de Palmaria",
+  "ligne_livre3": 32177,
+  "groupe": "sociales"
+ },
+ "soc03": {
+  "ancien_nom": "Équirak — Le Cheval de Palmaria",
+  "ligne_livre3": 32244,
+  "groupe": "sociales"
+ },
+ "soc04": {
+  "ancien_nom": "Baudet-Rak — L'Âne des Routes",
+  "ligne_livre3": 32361,
+  "groupe": "sociales"
+ },
+ "soc05": {
+  "ancien_nom": "Bœurak — Le Bœuf de Labour",
+  "ligne_livre3": 32425,
+  "groupe": "sociales"
+ },
+ "soc06": {
+  "ancien_nom": "Porarak — Le Cochon Domestique",
+  "ligne_livre3": 32485,
+  "groupe": "sociales"
+ },
+ "soc07": {
+  "ancien_nom": "Galarak — La Volaille de Cour",
+  "ligne_livre3": 32546,
+  "groupe": "sociales"
+ },
+ "soc08": {
+  "ancien_nom": "Caprak — La Chèvre Domestique",
+  "ligne_livre3": 32614,
+  "groupe": "sociales"
+ },
+ "soc09": {
+  "ancien_nom": "Ovarak — Le Mouton des Collines",
+  "ligne_livre3": 32671,
+  "groupe": "sociales"
+ },
+ "soc10": {
+  "ancien_nom": "Vacarak — La Vache Laitière",
+  "ligne_livre3": 32732,
+  "groupe": "sociales"
+ },
+ "soc11": {
+  "ancien_nom": "Oarak — L'Oie des Mares",
+  "ligne_livre3": 32787,
+  "groupe": "sociales"
+ },
+ "soc12": {
+  "ancien_nom": "Apirak — L'Abeille de Garde",
+  "ligne_livre3": 32846,
+  "groupe": "sociales"
+ },
+ "soc13": {
+  "ancien_nom": "Pigarak — Le Pigeon Messagère",
+  "ligne_livre3": 32933,
+  "groupe": "sociales"
+ },
+ "soc14": {
+  "ancien_nom": "Bombarak — Le Scarabée de Forge",
+  "ligne_livre3": 32997,
+  "groupe": "sociales"
+ },
+ "soc15": {
+  "ancien_nom": "Séricarak — Le Ver à Soie Géant",
+  "ligne_livre3": 33055,
+  "groupe": "sociales"
+ },
+ "soc16": {
+  "ancien_nom": "Rattarak — Le Rat des Villes",
+  "ligne_livre3": 33110,
+  "groupe": "sociales"
+ },
+ "soc17": {
+  "ancien_nom": "Laprak — Le Lapin des Garennes",
+  "ligne_livre3": 33173,
+  "groupe": "sociales"
+ },
+ "soc18": {
+  "ancien_nom": "Tortarak — La Tortue des Jardins",
+  "ligne_livre3": 33227,
+  "groupe": "sociales"
+ },
+ "soc19": {
+  "ancien_nom": "Grenouarak — La Grenouille des Rizières",
+  "ligne_livre3": 33286,
+  "groupe": "sociales"
+ },
+ "soc20": {
+  "ancien_nom": "Corarak — Le Corbeau des Tours",
+  "ligne_livre3": 33348,
+  "groupe": "sociales"
+ },
+ "soc21": {
+  "ancien_nom": "Héronarak — Le Grand Héron des Marés",
+  "ligne_livre3": 33413,
+  "groupe": "sociales"
+ },
+ "soc22": {
+  "ancien_nom": "Moutonrak — Le Mouflon des Hauts Plateaux",
+  "ligne_livre3": 33467,
+  "groupe": "sociales"
+ },
+ "soc23": {
+  "ancien_nom": "Chauve-Soursarak — La Chauves-Souris des Cavernes",
+  "ligne_livre3": 33518,
+  "groupe": "sociales"
+ },
+ "soc24": {
+  "ancien_nom": "Hérissonrak — L'Hérisson des Jardins",
+  "ligne_livre3": 33575,
+  "groupe": "sociales"
+ },
+ "soc25": {
+  "ancien_nom": "Muletrak — Le Mulet des Cols",
+  "ligne_livre3": 33627,
+  "groupe": "sociales"
+ },
+ "soc26": {
+  "ancien_nom": "Dromadarak — Le Chameau des Déserts",
+  "ligne_livre3": 33681,
+  "groupe": "sociales"
+ },
+ "soc27": {
+  "ancien_nom": "Canardarak — Le Canard des Étangs",
+  "ligne_livre3": 33737,
+  "groupe": "sociales"
+ },
+ "soc28": {
+  "ancien_nom": "Chèvrerak — La Chèvre de Sac",
+  "ligne_livre3": 33791,
+  "groupe": "sociales"
+ },
+ "soc29": {
+  "ancien_nom": "Carperak — La Carpe des Étangs",
+  "ligne_livre3": 33847,
+  "groupe": "sociales"
+ },
+ "soc30": {
+  "ancien_nom": "Saumonarak — Le Saumon des Rivières Froides",
+  "ligne_livre3": 33897,
+  "groupe": "sociales"
+ },
+ "soc31": {
+  "ancien_nom": "Sangsuarak — La Sangsue Médicale",
+  "ligne_livre3": 33945,
+  "groupe": "sociales"
+ },
+ "soc32": {
+  "ancien_nom": "Escargarak — L'Escargot des Jardins et des Cuisines",
+  "ligne_livre3": 34002,
+  "groupe": "sociales"
+ },
+ "soc33": {
+  "ancien_nom": "Renardarak — Le Renard des Lisières",
+  "ligne_livre3": 34051,
+  "groupe": "sociales"
+ },
+ "soc34": {
+  "ancien_nom": "Cigognarak — La Cigogne des Toits",
+  "ligne_livre3": 34103,
+  "groupe": "sociales"
+ },
+ "soc35": {
+  "ancien_nom": "Pieuvrak — La Pieuvre des Ports",
+  "ligne_livre3": 34157,
+  "groupe": "sociales"
+ },
+ "soc36": {
+  "ancien_nom": "Bisonrak — Le Bison du Grand Nord",
+  "ligne_livre3": 34209,
+  "groupe": "sociales"
+ },
+ "soc37": {
+  "ancien_nom": "Chouarak — La Chouette des Greniers",
+  "ligne_livre3": 34262,
+  "groupe": "sociales"
+ },
+ "soc38": {
+  "ancien_nom": "Moustarak — Le Moustique des Zones Humides",
+  "ligne_livre3": 34315,
+  "groupe": "sociales"
+ },
+ "soc39": {
+  "ancien_nom": "Loutrarak — La Loutre des Rivières",
+  "ligne_livre3": 34366,
+  "groupe": "sociales"
+ },
+ "soc40": {
+  "ancien_nom": "Marterak — La Martre des Forêts",
+  "ligne_livre3": 34418,
+  "groupe": "sociales"
+ },
+ "soc41": {
+  "ancien_nom": "Moinearak — Le Moineau des Rues",
+  "ligne_livre3": 34463,
+  "groupe": "sociales"
+ },
+ "soc42": {
+  "ancien_nom": "Aragnarak — L'Araignée de Cave",
+  "ligne_livre3": 34507,
+  "groupe": "sociales"
+ },
+ "soc43": {
+  "ancien_nom": "Hirondarak — L'Hirondelle des Tours",
+  "ligne_livre3": 34559,
+  "groupe": "sociales"
+ }
+}
