@@ -131,3 +131,21 @@ Essai réalisé sur l'essai gratuit de PixelLab : outil « Characters », modèl
 - **Le scénario C est plausible** : un héros de 62 px de haut est lisible et propre. La taille n'est pas le problème.
 - **Reste à tester** : la même chose dans une **case de 128**, puis une **animation** (essai 4, abonnement nécessaire). Une case de 64 sans marge ne permet ni coups d'épée, ni animation par squelette.
 - **À corriger au prochain essai** : remplacer tous les crochets du prompt, préciser le teint et la silhouette, utiliser une image de référence (voir plus bas).
+
+
+## Résultats de l'essai 1 bis (2026-10-05)
+
+Deuxième génération avec le **modèle de prompt non rempli** (crochets laissés tels quels). Même réglages que l'essai 1 : modèle « mannequin », vue de profil, 8 directions, case de 64×64.
+
+| Critère | Résultat | Verdict |
+|---|---|---|
+| Hauteur du héros | 62 px sur les 8 images | OK |
+| Part de la case | 97 %, marge de 1 px sous les pieds | À corriger (case de 128) |
+| Pixels semi-transparents | 0 | OK |
+| Agrandissement caché | aucun | OK |
+| Stabilité hauteur et pieds | écart 0 px | OK |
+| Couleurs | 46 à 48 par image (32 de face), 64 sur l'ensemble | Dépassé (cible 24 à 32) |
+
+**Lecture visuelle :** meilleur que l'essai 1. Le visage est lisible dans les 8 directions (barbe, regard, cicatrice possible), les proportions sont plus ramassées, la silhouette est nette. Tenue : tunique verte, sangles de cuir croisées, une épaulière d'acier, brassards, épée courte à la main, long bâton sur le dos. C'est un bon point de départ, mais **ce n'est pas un personnage choisi** : l'outil a improvisé tous les détails.
+
+Les couleurs restent au-dessus de la cible : réduction à 24 ou 32 couleurs nécessaire dans PixelForge (voir plus haut).
