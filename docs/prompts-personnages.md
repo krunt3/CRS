@@ -101,3 +101,37 @@ blurry, smooth gradients, anti-aliasing, 3D render, painting, photo, text, water
 | Visage trop sombre ou écrasé | `face clearly lit, large eyes, no helmet` |
 | Silhouette trop massive | `athletic proportions, narrow waist` |
 | Couleurs trop nombreuses | remplacer `about 28 colors` par `exactly 24 colors` |
+
+
+## Le chasseur en vue 3/4 (exploration)
+
+**Faisable sur l'essai gratuit** : en case de 64×64, le héros 3/4 mesure environ 48 px de haut (75 % de la case), ce qui correspond au format « Perso 3/4 » de 32×48 px de la bible.
+
+Réglages :
+- Vue : **« low top-down »** d'abord (vue de dessus légèrement inclinée, style Zelda), puis « high top-down » pour comparer. Noms à vérifier dans l'outil.
+- Directions : **4** (sud, ouest, est, nord) ; l'est peut être le miroir de l'ouest.
+- Case 64×64, personnage réglé à environ 48 px de haut.
+
+Prompt : reprendre le prompt complet du personnage 1 en remplaçant la fin par :
+
+```
+... Idle standing pose. Seen in a three-quarter top-down view, camera slightly above, like a classic 16-bit action RPG. Large readable head, simplified face with clear eyes, strong readable silhouette. Scales suggested by a simple two-tone pattern, not individual scales. Dominant colors: red-orange and brown; accents: cream feather tips, teal green, steel gray. Clean pixel art, selective dark outline of one pixel, flat shading with three tones per material, limited palette of about 28 colors, no anti-aliasing, no gradients, no dithering, transparent background.
+```
+
+Pour garder la même famille visuelle que la vue de profil : même palette (`donnees/palette_chasseur_wyverne_32.json`), même contour, même ombrage.
+
+## Prompts d'animation (abonnement requis)
+
+Dans l'outil « Characters », vérifier d'abord les animations prédéfinies (marche, course, attente). Pour les animations sur mesure, décrire le mouvement :
+
+| Animation | Images | Description à donner |
+|---|---|---|
+| Attente | 6 | `standing idle, slow breathing, the greatsword resting on the right shoulder, the feathered cape swaying slightly` |
+| Marche | 8 | `walking forward at a steady pace, greatsword resting on the shoulder, the feathered cape swaying behind` |
+| Course | 8 | `running forward leaning ahead, greatsword held on the shoulder, the feathered cape flowing behind` |
+| Saut | 3 | `jumping: knees bent, rising with the cape lifting, then falling` |
+| Attaque | 6 par coup | `heavy overhead slash with the cleaver greatsword: lifts the blade from the shoulder, swings it down in front, recovers` |
+| Dégâts | 2 | `flinches backward, head tilted back, cape flaring` |
+| Mort | 8 | `falls to his knees then onto his back, the greatsword dropping` |
+
+Conseil de la documentation de l'outil (animation par squelette) : régler la tête sur **« fixed head: always »** pour que le visage reste identique d'une image à l'autre. Utiliser les images de référence et les images figées pour garder la cohérence.

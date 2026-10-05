@@ -42,7 +42,7 @@ La taille des sprites, la grille de tuiles et les règles de palette se dessinen
 | Rotation (changer la direction) : taille maximale | 128×128 par image | Résumé de recherche, **non confirmé** |
 | Animation par squelette : nombre d'images maximum | 16 | Résumé de recherche, **non confirmé** |
 | Qualité à petite taille | meilleure aux grandes tailles ; 16×16 possible mais plus faible | Résumé de recherche, **non confirmé** |
-| Essai gratuit | 40 générations rapides, puis 5 générations lentes par jour ; images jusqu'à 200×200 ; outils limités | Résumé de recherche, **non confirmé** (la page des tarifs ne s'affiche pas sans compte) |
+| Essai gratuit | 40 générations rapides, puis 5 générations lentes par jour ; images limitées à **64×64** (constaté par l'utilisateur le 2026-10-05 ; les résumés de recherche annonçaient 200×200) ; outils limités | Résumé de recherche, **non confirmé** (la page des tarifs ne s'affiche pas sans compte) |
 | Abonnements | Tier 1 ≈ 12 $/mois (≈ 1 000 générations), Tier 2 ≈ 24 $/mois, Tier 3 ≈ 50 $/mois | Résumé de recherche, **non confirmé : à vérifier sur le site** |
 | Tailles de tuile des jeux de tuiles générés | non indiquée | **À vérifier dans l'outil** |
 | Vue de profil, vue de dessus | indiquées comme « vues et directions », sans détail | **À vérifier dans l'outil** |

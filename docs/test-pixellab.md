@@ -15,7 +15,7 @@ Les générateurs d'images généralistes (ChatGPT et équivalents) ne convienne
 
 ## Ce que l'essai gratuit permet
 
-D'après des résumés de recherche, non confirmés : 40 générations rapides, puis 5 plus lentes par jour ; images jusqu'à 200×200 ; outils limités. **L'animation par squelette demande l'abonnement « Tier 1 ».** Les essais 1 à 3 ci-dessous tiennent dans l'essai gratuit ; l'essai 4 demande un mois d'abonnement.
+D'après des résumés de recherche, non confirmés : 40 générations rapides, puis 5 plus lentes par jour ; images limitées à **64×64** (constaté par l'utilisateur le 2026-10-05 ; les résumés de recherche annonçaient 200×200) ; outils limités. **L'animation par squelette demande l'abonnement « Tier 1 ».** Les essais 1 à 3 ci-dessous tiennent dans l'essai gratuit ; l'essai 4 demande un mois d'abonnement.
 
 ## Prompt du héros (à adapter)
 
@@ -149,3 +149,37 @@ Deuxième génération avec le **modèle de prompt non rempli** (crochets laiss�
 **Lecture visuelle :** meilleur que l'essai 1. Le visage est lisible dans les 8 directions (barbe, regard, cicatrice possible), les proportions sont plus ramassées, la silhouette est nette. Tenue : tunique verte, sangles de cuir croisées, une épaulière d'acier, brassards, épée courte à la main, long bâton sur le dos. C'est un bon point de départ, mais **ce n'est pas un personnage choisi** : l'outil a improvisé tous les détails.
 
 Les couleurs restent au-dessus de la cible : réduction à 24 ou 32 couleurs nécessaire dans PixelForge (voir plus haut).
+
+
+## Résultats de l'essai 1 ter : le chasseur en armure de wyverne rouge (2026-10-05)
+
+Génération avec le prompt complet du personnage 1 (voir `prompts-personnages.md`), sur l'essai gratuit : case de **64×64** (**limite constatée de l'essai gratuit**), modèle « mannequin », vue de profil, 8 directions, sans animation.
+
+| Critère | Résultat | Verdict |
+|---|---|---|
+| Hauteur du héros | 60 à 64 px (écart 4) | OK |
+| Part de la case | 94 à 100 % | À corriger (case de 128) |
+| Pieds (bas du personnage) | 61 à 64 px (écart 3) | À voir : écart légèrement supérieur au seuil de 2 px |
+| Pixels semi-transparents, agrandissement caché | 0, aucun | OK |
+| Couleurs | **63 à 64 par image, 95 sur l'ensemble** | Dépassé (cible 24 à 32) |
+
+**Fidélité à la référence :** forte. Retrouvés : cheveux châtains en bataille, mine sérieuse, armure rouge-orange à écailles, grandes plumes orange et crème (devenues une grande cape-ailes), tablier vert d'eau, épée-fendoir ensanglantée sur l'épaule, bottes rouges. Écarts : proportions ramassées (grosse tête, jambes courtes, environ 3,5 têtes de haut contre 7 sur la référence), emblème bronze et détails de ceinture peu lisibles, épée qui masque la tête dans les vues de dos.
+
+**Réduction à une palette commune de 32 couleurs** (les 8 directions partagent la même palette) : le rendu est conservé. Palette enregistrée dans `donnees/palette_chasseur_wyverne_32.json`. Défaut visible : la lame d'acier prend une teinte verdâtre, à retoucher dans PixelForge.
+
+## Plan du mois d'abonnement (Tier 1)
+
+**Pourquoi attendre :** l'essai gratuit est limité à 64×64 et l'animation par squelette demande le Tier 1. Prendre l'abonnement quand les prompts sont prêts et que la liste ci-dessous est préparée, pour utiliser le mois à fond, puis résilier.
+
+| Ordre | À produire | Case | Taille du perso | Critère de réussite |
+|---|---|---|---|---|
+| 1 | Héros de profil, 4 directions | 128 | ≈ 64 px | Hauteur 64 ± 4, marge ≥ 4 px sous les pieds |
+| 2 | Animation d'attente (6 images) et de marche (8 images), vers l'est | 128 | ≈ 64 px | Écart de hauteur ≤ 4 px, pieds ≤ 2 px, aucune couleur nouvelle |
+| 3 | Course (8), saut (3), dégâts (2) | 128 | ≈ 64 px | Idem |
+| 4 | Attaque en 3 temps de l'épée-fendoir (6 images par coup) | 128 | ≈ 64 px | L'épée reste dans la case |
+| 5 | Héros en vue 3/4 (de dessus), 4 directions, marche | 64 ou 128 | ≈ 48 px | Lisible, même palette que le profil |
+| 6 | Boss à 2× le héros | 256 | ≈ 128 px | Lisible, cohérent d'une image à l'autre |
+| 7 | Jeu de tuiles (auto-tiling) de 32 px | – | – | Les bords se raccordent |
+| 8 | Export de tout, test d'import dans Godot | – | – | Les animations tournent à 10 images/s |
+
+**À noter à chaque étape :** nombre de générations consommées, variantes rejetées, temps passé. Le coût en générations de chaque animation n'est pas connu : commencer par les étapes 1 et 2 pour le mesurer avant de planifier le reste.
