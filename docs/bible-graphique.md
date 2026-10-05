@@ -163,6 +163,8 @@ Liste à compléter après la décision. Pour chaque format : nom, taille de la 
 
 ## 7 bis. Test à faire avant de verrouiller la décision n° 1
 
+**Le protocole complet, les prompts et la grille de décision sont dans `test-pixellab.md`. Le script de mesure est `outils/mesure_sprite.py`.** Le scénario C est retenu à titre provisoire : c'est la direction d'origine de l'utilisateur, déjà alignée sur ses formats PixelForge.
+
 Sans abonnement, l'essai gratuit permet de comparer **les images fixes** (génération jusqu'à 200×200). L'animation par squelette demande un abonnement (« Tier 1 »).
 
 **Étape 1, avec l'essai gratuit :**
@@ -183,11 +185,11 @@ Chaque ligne passe de « À DÉCIDER » à « VERROUILLÉ » avec la date. Aprè
 
 | N° | Décision | Choix | Statut | Date |
 |---|---|---|---|---|
-| 1 | Résolution de l'image (hauteur) | A : 720 / B : 360 / C : 360 | À DÉCIDER | |
+| 1 | Résolution de l'image (hauteur) | A : 720 / B : 360 / C : 360 | **PROVISOIRE : C (360 px)**, à confirmer par le test | 2026-10-05 |
 | 2 | Largeur extensible, hauteur fixe | Recommandé | À DÉCIDER | |
-| 3 | Taille de la tuile | 32 (A, C) ou 16 (B) | À DÉCIDER | |
-| 4 | Hauteur du héros de plateforme | 96 (A) / 48 (B) / 64 (C) | À DÉCIDER | |
-| 5 | Largeur du héros | 48 (A) / 24 (B) / 32 (C), proportion 2:1 | À DÉCIDER (dépend du n° 4) | |
+| 3 | Taille de la tuile | 32 (A, C) ou 16 (B) | **PROVISOIRE : 32 px** (formats PixelForge actuels) | 2026-10-05 |
+| 4 | Hauteur du héros de plateforme | 96 (A) / 48 (B) / 64 (C) | **PROVISOIRE : 64 px** (formats PixelForge actuels) | 2026-10-05 |
+| 5 | Largeur du héros | 48 (A) / 24 (B) / 32 (C), proportion 2:1 | **PROVISOIRE : 32 px** | 2026-10-05 |
 | 6 | Hauteur du héros en vue 3/4 | 80 (A) / 40 (B) / 48 (C) | À DÉCIDER | |
 | 7 | Boss courant et colosse | voir section 4 ; C : 2× et 2,5×, colosse en pièces | À DÉCIDER | |
 | 8 | Contour des sprites (noir, coloré, aucun) | | À DÉCIDER | |
