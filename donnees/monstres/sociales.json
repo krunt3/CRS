@@ -1,0 +1,2116 @@
+[
+ {
+  "id": "soc01",
+  "nouveau_nom": "Canarak",
+  "nom_conserve": true,
+  "sous_titre": "Le Compagnon à Oreilles-Voiles",
+  "groupe": "sociales",
+  "rang": "◆ Commun à ◆◆◆ Élite (selon la race et le conditionnement)",
+  "cr": 1,
+  "role_jeu": "ambiance",
+  "taille_garrot_m": 0.6,
+  "hauteur_sprite_px": 22,
+  "hors_format_sprite": false,
+  "element_principal": "Terre",
+  "element_secondaire": null,
+  "etats_infliges": [],
+  "lignee_draconique": false,
+  "terrain": "Habitations, villages, routes",
+  "apparence": {
+   "silhouette": "Quadrupède musclé à poitrail large et queue en faucille, oreilles très longues qui retombent en voiles sur les épaules. Se tient la tête basse, truffe au sol, ou assis bien droit près de son humain.",
+   "trait_distinctif": "De longues oreilles-voiles qui battent comme des fanions quand il court.",
+   "trait_cle": "oreilles-en-voiles",
+   "couleurs": [
+    "fauve doré",
+    "blanc crème",
+    "noir de truffe"
+   ],
+   "rappel_leger": "Fidèle canidé de compagnie, de garde et de travail.",
+   "difference_avec_ancienne": "Version ordinaire sans particularité fantastique, silhouette basse et oreilles pendantes marquées."
+  },
+  "description_courte": "Six races, cent usages : berger, pisteur, garde ou simple compagnon. Une semaine de soins suffit à créer un lien : il suit, alerte et obéit aux gestes simples.",
+  "familier": {
+   "possible": true,
+   "lien_max": "affectif",
+   "difficulte_dd": 6,
+   "roles": [
+    "assistant_combat",
+    "pisteur",
+    "garde",
+    "eclaireur"
+   ],
+   "aide_combat": "Mord la jambe ou la manche d'un adversaire pour le distraire, flaire les traces d'une proie et signale les embuscades. Mis K.O. par la fatigue, il se remet après des soins.",
+   "transport": null,
+   "capacite_transport": null,
+   "age_ideal": "Chiot de 2 à 4 mois",
+   "limite": "Se bat mal contre les très grandes créatures : il fuit si la menace dépasse son courage."
+  }
+ },
+ {
+  "id": "soc02",
+  "nouveau_nom": "Félarak",
+  "nom_conserve": true,
+  "sous_titre": "Le Gardien Silencieux",
+  "groupe": "sociales",
+  "rang": "◆ Commun",
+  "cr": 1,
+  "role_jeu": "ambiance",
+  "taille_garrot_m": 0.3,
+  "hauteur_sprite_px": 11,
+  "hors_format_sprite": false,
+  "element_principal": "Ombre",
+  "element_secondaire": null,
+  "etats_infliges": [],
+  "lignee_draconique": false,
+  "terrain": "Habitations, granges, entrepôts, ports",
+  "apparence": {
+   "silhouette": "Petit fauve souple, dos arqué, queue dressée en point d'interrogation. Ombre chinoise nette grâce à deux oreilles triangulaires et une tête ronde.",
+   "trait_distinctif": "Une tache blanche en forme de lune sur le front.",
+   "trait_cle": "tache-lune-frontale",
+   "couleurs": [
+    "gris cendré",
+    "blanc lune",
+    "vert pâle des yeux"
+   ],
+   "rappel_leger": "Petit chasseur nocturne d'intérieur, discret et indépendant.",
+   "difference_avec_ancienne": "Pelage uni sans rayures de camouflage, marqué par la tache lunaire sur le front."
+  },
+  "description_courte": "Chasseur des rats et des souris dans les granges et les cales. Il ne se dresse pas : il choisit son humain, ou non.",
+  "familier": {
+   "possible": true,
+   "lien_max": "partiel",
+   "difficulte_dd": null,
+   "roles": [
+    "eclaireur",
+    "garde"
+   ],
+   "aide_combat": "Surgit sur un ennemi pour griffer et détourner son attention un instant, ou repère les passages cachés. Il peut s'enfuir fatigué et revient seul.",
+   "transport": null,
+   "capacite_transport": null,
+   "age_ideal": "Chaton recueilli avant 3 mois",
+   "limite": "Il choisit son humain et part si on le contraint."
+  }
+ },
+ {
+  "id": "soc03",
+  "nouveau_nom": "Équirak",
+  "nom_conserve": true,
+  "sous_titre": "La Monture du Monde",
+  "groupe": "sociales",
+  "rang": "◆◆ Rare à ◆◆◆ Élite (selon la race)",
+  "cr": 2,
+  "role_jeu": "ambiance",
+  "taille_garrot_m": 1.6,
+  "hauteur_sprite_px": 59,
+  "hors_format_sprite": false,
+  "element_principal": "Vent",
+  "element_secondaire": null,
+  "etats_infliges": [],
+  "lignee_draconique": false,
+  "terrain": "Routes, plaines, partout où circulent les humains",
+  "apparence": {
+   "silhouette": "Grand quadrupède élancé, encolure arquée, longues jambes, crinière lourde. Les races de trait sont plus massives, aux membres larges et aux sabots velus.",
+   "trait_distinctif": "Une crinière tressée de lanières colorées nouées par les palefreniers.",
+   "trait_cle": "criniere-tressee-rubans",
+   "couleurs": [
+    "alezan brillant",
+    "gris pommelé",
+    "noir de la crinière"
+   ],
+   "rappel_leger": "Grande monture de plaine : voyage, trait lourd, courses et guerre.",
+   "difference_avec_ancienne": "Silhouette plus massive à l'encolure, avec une crinière tressée de rubans."
+  },
+  "description_courte": "Du cheval de trait au pur-sang de course, il transporte, tire et combat. Le cheval de guerre entraîné ne recule pas devant le fracas.",
+  "familier": {
+   "possible": true,
+   "lien_max": "affectif",
+   "difficulte_dd": 10,
+   "roles": [
+    "monture_terre",
+    "bete_de_somme",
+    "assistant_combat"
+   ],
+   "aide_combat": "Le cheval de guerre charge, piétine ou protège son cavalier en esquivant ; il ne combat jamais seul. Il fuit s'il est blessé et se soigne à l'écurie.",
+   "transport": "terrestre",
+   "capacite_transport": "groupe de 2-4",
+   "age_ideal": "Poulain débourré à 3 ans",
+   "limite": "Ne traverse ni mers ni falaises, et un cheval de course s'épuise vite en terrain lourd."
+  }
+ },
+ {
+  "id": "soc04",
+  "nouveau_nom": "Baudet-Rak",
+  "nom_conserve": true,
+  "sous_titre": "La Monture du Peuple",
+  "groupe": "sociales",
+  "rang": "◆ Commun",
+  "cr": 1,
+  "role_jeu": "ambiance",
+  "taille_garrot_m": 1.2,
+  "hauteur_sprite_px": 44,
+  "hors_format_sprite": false,
+  "element_principal": "Terre",
+  "element_secondaire": null,
+  "etats_infliges": [],
+  "lignee_draconique": false,
+  "terrain": "Chemins étroits, terrains accidentés, montagnes",
+  "apparence": {
+   "silhouette": "Quadrupède trapu à grosse tête, longues oreilles droites et dos droit. Il avance par petits pas sûrs sur les sentiers.",
+   "trait_distinctif": "Une croix sombre tracée sur le garrot et les épaules.",
+   "trait_cle": "croix-sur-le-garrot",
+   "couleurs": [
+    "gris souris",
+    "blanc de ventre",
+    "brun de la croix"
+   ],
+   "rappel_leger": "Monture humble de charge pour les chemins difficiles.",
+   "difference_avec_ancienne": "Croix dorsale marquée et grosse tête aux yeux cernés de clair."
+  },
+  "description_courte": "Le plus accessible des animaux de charge. Sûr de pied sur les voies étroites, têtu mais endurant.",
+  "familier": {
+   "possible": true,
+   "lien_max": "affectif",
+   "difficulte_dd": 6,
+   "roles": [
+    "bete_de_somme",
+    "monture_terre"
+   ],
+   "aide_combat": "Rue sur l'ennemi qui s'approche trop et sert de poste de repli chargé de sacs.",
+   "transport": "terrestre",
+   "capacite_transport": "1 personnage",
+   "age_ideal": "Jeune de 2 ans",
+   "limite": "Son entêtement l'arrête net devant ce qui l'effraie."
+  }
+ },
+ {
+  "id": "soc05",
+  "nouveau_nom": "Bœurak",
+  "nom_conserve": true,
+  "sous_titre": "La Force de la Terre",
+  "groupe": "sociales",
+  "rang": "◆◆ Rare",
+  "cr": 3,
+  "role_jeu": "ambiance",
+  "taille_garrot_m": 1.6,
+  "hauteur_sprite_px": 59,
+  "hors_format_sprite": false,
+  "element_principal": "Terre",
+  "element_secondaire": null,
+  "etats_infliges": [],
+  "lignee_draconique": false,
+  "terrain": "Zones agricoles de Palmaria",
+  "apparence": {
+   "silhouette": "Quadrupède massif à large garrot, cornes basses et fanon pendant. Il avance lentement, tête basse sous le joug.",
+   "trait_distinctif": "Un joug sculpté qui laisse des callosités en forme de selle sur le garrot.",
+   "trait_cle": "garrot-calleux-de-joug",
+   "couleurs": [
+    "brun roux",
+    "crème du mufle",
+    "bois sombre du joug"
+   ],
+   "rappel_leger": "Bête de trait puissante, pilier des labours.",
+   "difference_avec_ancienne": "Cornes basses et large garrot calleux plutôt qu'une silhouette cornue fantastique."
+  },
+  "description_courte": "Mâle castré de 1,6 m, il travaille en paire ou par quatre pendant 10 à 15 ans avec le même conducteur.",
+  "familier": {
+   "possible": true,
+   "lien_max": "conditionne",
+   "difficulte_dd": 9,
+   "roles": [
+    "bete_de_somme"
+   ],
+   "aide_combat": "Ne combat pas ; peut former un mur de chair ou charger pour défendre l'attelage s'il est poussé à bout.",
+   "transport": "terrestre",
+   "capacite_transport": "groupe de 2-4",
+   "age_ideal": "Veau dressé à 18 mois",
+   "limite": "Très lent, il ne suit pas une chasse mobile."
+  }
+ },
+ {
+  "id": "soc06",
+  "nouveau_nom": "Porarak",
+  "nom_conserve": true,
+  "sous_titre": "Le Transformateur de Déchets",
+  "groupe": "sociales",
+  "rang": "◆ Commun",
+  "cr": 2,
+  "role_jeu": "ambiance",
+  "taille_garrot_m": 0.8,
+  "hauteur_sprite_px": 29,
+  "hors_format_sprite": false,
+  "element_principal": "Terre",
+  "element_secondaire": null,
+  "etats_infliges": [],
+  "lignee_draconique": false,
+  "terrain": "Fermes, villages, abords des villes",
+  "apparence": {
+   "silhouette": "Quadrupède bas et rond, groin plat, oreilles tombantes, queue en tire-bouchon. Corps massif et pattes courtes.",
+   "trait_distinctif": "Un groin tacheté de rose et de noir en forme de carte.",
+   "trait_cle": "groin-cartographie",
+   "couleurs": [
+    "rose sale",
+    "noir de tache",
+    "blanc du ventre"
+   ],
+   "rappel_leger": "Gros omnivore de ferme qui fouille et recycle tout.",
+   "difference_avec_ancienne": "Taches du groin et des flancs plus nettes que sur l'élevage commun."
+  },
+  "description_courte": "Il transforme les déchets en viande. Il a l'odorat fin : certains éleveurs le dressent à la recherche de truffes.",
+  "familier": {
+   "possible": true,
+   "lien_max": "conditionne",
+   "difficulte_dd": 7,
+   "roles": [
+    "recolte"
+   ],
+   "aide_combat": "Mord le mollet d'un ennemi inattentif ou fait trébucher en fonçant dans les jambes.",
+   "transport": null,
+   "capacite_transport": null,
+   "age_ideal": "Porcelet sevré",
+   "limite": "Il retourne à la fange et ne suit pas les longues routes."
+  }
+ },
+ {
+  "id": "soc07",
+  "nouveau_nom": "Galarak",
+  "nom_conserve": true,
+  "sous_titre": "L'Oiseau des Villages",
+  "groupe": "sociales",
+  "rang": "◆ Commun",
+  "cr": 0.25,
+  "role_jeu": "ambiance",
+  "taille_garrot_m": 0.5,
+  "hauteur_sprite_px": 18,
+  "hors_format_sprite": false,
+  "element_principal": "Neutre",
+  "element_secondaire": null,
+  "etats_infliges": [],
+  "lignee_draconique": false,
+  "terrain": "Cours de ferme, villages, marchés",
+  "apparence": {
+   "silhouette": "Petit oiseau de cour au corps rond, cou court, démarche saccadée et queue relevée. Silhouette connue de basse-cour.",
+   "trait_distinctif": "Une crête dentelée en forme de petite couronne.",
+   "trait_cle": "crete-couronne",
+   "couleurs": [
+    "roux paille",
+    "rouge de crête",
+    "blanc du plumage"
+   ],
+   "rappel_leger": "Volaille commune des villages.",
+   "difference_avec_ancienne": "Crête réduite en couronne et plumage clair sans collerette."
+  },
+  "description_courte": "Source quotidienne d'œufs et de chair. Un coq agité annonce l'arrivée d'étrangers ou d'orages.",
+  "familier": {
+   "possible": true,
+   "lien_max": "partiel",
+   "difficulte_dd": null,
+   "roles": [
+    "signal",
+    "garde"
+   ],
+   "aide_combat": "Cri aigu et agité qui prévient d'un intrus ou d'une bête dans le voisinage, rien de plus.",
+   "transport": null,
+   "capacite_transport": null,
+   "age_ideal": "Poussin élevé en cour",
+   "limite": "Trop craintive pour participer à une chasse."
+  }
+ },
+ {
+  "id": "soc08",
+  "nouveau_nom": "Caprak",
+  "nom_conserve": true,
+  "sous_titre": "La Vache des Pauvres",
+  "groupe": "sociales",
+  "rang": "◆ Commun",
+  "cr": 1,
+  "role_jeu": "ambiance",
+  "taille_garrot_m": 0.8,
+  "hauteur_sprite_px": 29,
+  "hors_format_sprite": false,
+  "element_principal": "Terre",
+  "element_secondaire": null,
+  "etats_infliges": [],
+  "lignee_draconique": false,
+  "terrain": "Partout où vivent des humains",
+  "apparence": {
+   "silhouette": "Quadrupède agile à barbiche, cornes recourbées vers l'arrière, pupilles horizontales et dos plat. Posture curieuse.",
+   "trait_distinctif": "Une barbiche tressée en natte sur le menton.",
+   "trait_cle": "barbiche-natte",
+   "couleurs": [
+    "brun chocolat",
+    "blanc de poitrail",
+    "jaune des yeux"
+   ],
+   "rappel_leger": "Petite ruminante de survie qui broute tout.",
+   "difference_avec_ancienne": "Longue barbiche et pelage mêlé de bandes sombres sur les cuisses."
+  },
+  "description_courte": "Lait, fromage et viande pour les foyers pauvres. Elle grimpe partout et mange ce que d'autres refusent.",
+  "familier": {
+   "possible": true,
+   "lien_max": "conditionne",
+   "difficulte_dd": 6,
+   "roles": [
+    "recolte",
+    "bete_de_somme"
+   ],
+   "aide_combat": "Se campe devant l'ennemi et le charge de ses cornes en cas d'urgence.",
+   "transport": "terrestre",
+   "capacite_transport": "1 personnage",
+   "age_ideal": "Chevreau de 4 mois",
+   "limite": "Fuit devant les fauves et s'échappe de tout enclos."
+  }
+ },
+ {
+  "id": "soc09",
+  "nouveau_nom": "Ovarak",
+  "nom_conserve": true,
+  "sous_titre": "La Laine Vivante",
+  "groupe": "sociales",
+  "rang": "◆ Commun",
+  "cr": 1,
+  "role_jeu": "ambiance",
+  "taille_garrot_m": 0.85,
+  "hauteur_sprite_px": 31,
+  "hors_format_sprite": false,
+  "element_principal": "Terre",
+  "element_secondaire": null,
+  "etats_infliges": [],
+  "lignee_draconique": false,
+  "terrain": "Pâturages de collines et plateaux herbeux",
+  "apparence": {
+   "silhouette": "Quadrupède à toison dense qui l'arrondit en nuage, tête petite, pattes fines. Il avance en troupeau serré.",
+   "trait_distinctif": "Une toison de boucles denses jusqu'aux genoux en forme de nuage.",
+   "trait_cle": "toison-nuage",
+   "couleurs": [
+    "blanc cassé",
+    "gris des pattes",
+    "noir du museau"
+   ],
+   "rappel_leger": "Gros ruminant lainier des collines.",
+   "difference_avec_ancienne": "Toison en nuage jusqu'aux genoux et museau sombre contrasté."
+  },
+  "description_courte": "Il fournit laine et viande. Sans chien de berger, le troupeau se disperse et devient la proie des loups.",
+  "familier": {
+   "possible": true,
+   "lien_max": "conditionne",
+   "difficulte_dd": 7,
+   "roles": [
+    "recolte"
+   ],
+   "aide_combat": "Ne combat pas ; le troupeau peut faire écran ou se disperser pour égarer un fauve.",
+   "transport": null,
+   "capacite_transport": null,
+   "age_ideal": "Agneau élevé en troupeau",
+   "limite": "Craintif, il se dissout au premier danger sans berger."
+  }
+ },
+ {
+  "id": "soc10",
+  "nouveau_nom": "Vacarak",
+  "nom_conserve": true,
+  "sous_titre": "Le Lait du Monde",
+  "groupe": "sociales",
+  "rang": "◆◆ Rare",
+  "cr": 2,
+  "role_jeu": "ambiance",
+  "taille_garrot_m": 1.4,
+  "hauteur_sprite_px": 51,
+  "hors_format_sprite": false,
+  "element_principal": "Terre",
+  "element_secondaire": null,
+  "etats_infliges": [],
+  "lignee_draconique": false,
+  "terrain": "Prairies de plaine et de colline",
+  "apparence": {
+   "silhouette": "Grand quadrupède lourd à pis volumineux, cornes courtes, grandes oreilles et regard placide.",
+   "trait_distinctif": "Des plaques de pelage en carte géographique sur les flancs.",
+   "trait_cle": "robe-en-carte",
+   "couleurs": [
+    "noir et blanc",
+    "rose du mufle",
+    "brun de corne"
+   ],
+   "rappel_leger": "Grande laitière paisible.",
+   "difference_avec_ancienne": "Taches irrégulières en carte plutôt qu'un unique pelage uni."
+  },
+  "description_courte": "Base de l'alimentation des villes. Bonne mère, elle protège son veau d'un coup de corne.",
+  "familier": {
+   "possible": true,
+   "lien_max": "conditionne",
+   "difficulte_dd": 8,
+   "roles": [
+    "recolte"
+   ],
+   "aide_combat": "Se met entre le chasseur et le danger quand elle protège son veau.",
+   "transport": null,
+   "capacite_transport": null,
+   "age_ideal": "Génisse élevée en étable",
+   "limite": "Ne quitte pas son pré et son rythme de traite."
+  }
+ },
+ {
+  "id": "soc11",
+  "nouveau_nom": "Oarak",
+  "nom_conserve": true,
+  "sous_titre": "Le Gardien Criard",
+  "groupe": "sociales",
+  "rang": "◆ Commun",
+  "cr": 0.25,
+  "role_jeu": "ambiance",
+  "taille_garrot_m": 0.6,
+  "hauteur_sprite_px": 22,
+  "hors_format_sprite": false,
+  "element_principal": "Eau",
+  "element_secondaire": null,
+  "etats_infliges": [],
+  "lignee_draconique": false,
+  "terrain": "Mares, étangs, cours de ferme",
+  "apparence": {
+   "silhouette": "Grand oiseau d'eau au long cou, bec large orangé et corps ovale, démarche de canard pesant.",
+   "trait_distinctif": "Un cou long qui se plie en S avant chaque coup de bec.",
+   "trait_cle": "cou-en-s-menacant",
+   "couleurs": [
+    "blanc neige",
+    "orange du bec",
+    "gris des pattes"
+   ],
+   "rappel_leger": "Sentinelle bruyante des cours de ferme.",
+   "difference_avec_ancienne": "Cou pris en S d'attaque et bec large à lamelles visibles."
+  },
+  "description_courte": "4 à 8 kg de volaille, chair, plumes et duvet. Son cri d'alarme est meilleur que celui d'un chien pour prévenir d'un intrus.",
+  "familier": {
+   "possible": true,
+   "lien_max": "partiel",
+   "difficulte_dd": null,
+   "roles": [
+    "garde",
+    "signal"
+   ],
+   "aide_combat": "Cri strident qui alerte le groupe et coups de bec au mollet de qui s'approche trop.",
+   "transport": null,
+   "capacite_transport": null,
+   "age_ideal": "Oison élevé à la mare",
+   "limite": "Peu mobile hors de l'eau, elle ne suit pas une expédition."
+  }
+ },
+ {
+  "id": "soc12",
+  "nouveau_nom": "Apirak",
+  "nom_conserve": true,
+  "sous_titre": "Les Soixante Mille",
+  "groupe": "sociales",
+  "rang": "◆ Commun (essaim individuel) à ◆◆◆ Élite (colonie défensive complète)",
+  "cr": 0.125,
+  "role_jeu": "ambiance",
+  "taille_garrot_m": 0.015,
+  "hauteur_sprite_px": 1,
+  "hors_format_sprite": false,
+  "element_principal": "Terre",
+  "element_secondaire": "Éther",
+  "etats_infliges": [
+   "Poison"
+  ],
+  "lignee_draconique": true,
+  "terrain": "Ruchers, prairies fleuries, lisières",
+  "apparence": {
+   "silhouette": "Insecte minuscule à abdomen rayé et ailes transparentes ; en essaim, un nuage bourdonnant de forme mouvante, lisible comme une grosse tache sombre.",
+   "trait_distinctif": "Un abdomen orné de rayures dorées en anneaux de lumière.",
+   "trait_cle": "abdomen-anneaux-dores",
+   "couleurs": [
+    "jaune ambré",
+    "noir de velours",
+    "ocre des ailes"
+   ],
+   "rappel_leger": "Essaim défensif de piqueurs nombreux.",
+   "difference_avec_ancienne": "Essaim plutôt qu'insecte unique, et rayures dorées en anneaux lumineux."
+  },
+  "description_courte": "Miel, cire et venin. Un essaim défensif de 50 000 individus est un danger de CR 8 pour qui s'approche trop de la ruche.",
+  "familier": {
+   "possible": true,
+   "lien_max": "elevage",
+   "difficulte_dd": 5,
+   "roles": [
+    "recolte",
+    "garde"
+   ],
+   "aide_combat": "L'essaim recouvre la cible et lui inflige le Poison de sa piqûre tandis que le chasseur se replie. Il est dispersé par la fumée et revient à la ruche.",
+   "transport": null,
+   "capacite_transport": null,
+   "age_ideal": "Colonie fondée au printemps",
+   "limite": "Il faut un apiculteur expert et de la fumée ; l'essaim ne quitte pas sa ruche."
+  }
+ },
+ {
+  "id": "soc13",
+  "nouveau_nom": "Pigarak",
+  "nom_conserve": true,
+  "sous_titre": "Les Ailes de la Communication",
+  "groupe": "sociales",
+  "rang": "◆ Commun",
+  "cr": 0.25,
+  "role_jeu": "ambiance",
+  "taille_garrot_m": 0.3,
+  "hauteur_sprite_px": 11,
+  "hors_format_sprite": false,
+  "element_principal": "Vent",
+  "element_secondaire": null,
+  "etats_infliges": [],
+  "lignee_draconique": false,
+  "terrain": "Pigeonniers et villes de Palmaria",
+  "apparence": {
+   "silhouette": "Petit oiseau trapu, tête ronde qui oscille, poitrail gonflé, vol rapide aux battements claquants.",
+   "trait_distinctif": "Un anneau de cuir rouge noué à la patte comme un bracelet de messager.",
+   "trait_cle": "anneau-de-patte-rouge",
+   "couleurs": [
+    "gris bleuté",
+    "vert-violet du col",
+    "rouge de patte"
+   ],
+   "rappel_leger": "Messager ailé dressé au retour au pigeonnier.",
+   "difference_avec_ancienne": "Collier irisé du cou et anneau de messager visible sur la patte."
+  },
+  "description_courte": "Il rentre automatiquement à son pigeonnier d'origine. Le réseau de pigeons relie les villes de l'île.",
+  "familier": {
+   "possible": true,
+   "lien_max": "conditionne",
+   "difficulte_dd": 5,
+   "roles": [
+    "signal",
+    "eclaireur"
+   ],
+   "aide_combat": "Porte un message de ralliement ou de position ; ne combat pas.",
+   "transport": null,
+   "capacite_transport": null,
+   "age_ideal": "Pigeonneau de 6 semaines",
+   "limite": "Ne fait que retourner à un pigeonnier connu."
+  }
+ },
+ {
+  "id": "soc14",
+  "nouveau_nom": "Bombarak",
+  "nom_conserve": true,
+  "sous_titre": "L'Insecte des Métaux",
+  "groupe": "sociales",
+  "rang": "◆ Commun",
+  "cr": 0.25,
+  "role_jeu": "ambiance",
+  "taille_garrot_m": 0.12,
+  "hauteur_sprite_px": 4,
+  "hors_format_sprite": false,
+  "element_principal": "Terre",
+  "element_secondaire": "Feu",
+  "etats_infliges": [],
+  "lignee_draconique": false,
+  "terrain": "Forges, mines de métal, roches chaudes",
+  "apparence": {
+   "silhouette": "Petit coléoptère bombé à carapace de métal, petites pattes courtes et courbées. Il se déplace en file ordonnée.",
+   "trait_distinctif": "Une carapace aux reflets de métal chauffé sur laquelle on lit une trace de cire.",
+   "trait_cle": "carapace-metal-chauffe",
+   "couleurs": [
+    "bronze",
+    "rouge cuivre",
+    "gris acier"
+   ],
+   "rappel_leger": "Petit insecte industriel qui ronge les scories.",
+   "difference_avec_ancienne": "Carapace de métal chauffé en tâches plutôt qu'un simple noir luisant."
+  },
+  "description_courte": "Il nettoie les forges des scories et sécrète une cire utile aux forgerons. Le plus simple à entretenir du catalogue.",
+  "familier": {
+   "possible": true,
+   "lien_max": "elevage",
+   "difficulte_dd": 4,
+   "roles": [
+    "recolte"
+   ],
+   "aide_combat": "Ne combat pas.",
+   "transport": null,
+   "capacite_transport": null,
+   "age_ideal": "Colonie fondée en forge",
+   "limite": "Meurt au froid, ne vit que près de la chaleur."
+  }
+ },
+ {
+  "id": "soc15",
+  "nouveau_nom": "Séricarak",
+  "nom_conserve": true,
+  "sous_titre": "La Fibre du Luxe",
+  "groupe": "sociales",
+  "rang": "◆ Commun",
+  "cr": 0,
+  "role_jeu": "ambiance",
+  "taille_garrot_m": 0.08,
+  "hauteur_sprite_px": 3,
+  "hors_format_sprite": false,
+  "element_principal": "Éther",
+  "element_secondaire": null,
+  "etats_infliges": [],
+  "lignee_draconique": true,
+  "terrain": "Vergers de mûriers en zone tempérée",
+  "apparence": {
+   "silhouette": "Chenille blanche dodue à segments et à petite tête, qui dévore des feuilles. Adulte, un papillon pâle à ailes poudrées.",
+   "trait_distinctif": "Un dos orné de petits anneaux perlés qui luisent comme des perles.",
+   "trait_cle": "dos-a-perles",
+   "couleurs": [
+    "blanc nacré",
+    "vert tendre",
+    "jaune soie"
+   ],
+   "rappel_leger": "Chenille textile des élevages de luxe.",
+   "difference_avec_ancienne": "Chenille à anneaux de perles au dos, papillon pâle sans motif."
+  },
+  "description_courte": "Elle produit la soie de luxe de Palmaria. Pratiquement automatique à élever si les conditions sont maintenues.",
+  "familier": {
+   "possible": true,
+   "lien_max": "elevage",
+   "difficulte_dd": 3,
+   "roles": [
+    "recolte"
+   ],
+   "aide_combat": "Ne combat pas.",
+   "transport": null,
+   "capacite_transport": null,
+   "age_ideal": "Œuf mis en couvaison",
+   "limite": "Ne tolère ni froid ni mauvaises feuilles."
+  }
+ },
+ {
+  "id": "soc16",
+  "nouveau_nom": "Rattarak",
+  "nom_conserve": true,
+  "sous_titre": "L'Envahisseur Ubiquiste",
+  "groupe": "sociales",
+  "rang": "◆ Commun",
+  "cr": 0.125,
+  "role_jeu": "ambiance",
+  "taille_garrot_m": 0.3,
+  "hauteur_sprite_px": 11,
+  "hors_format_sprite": false,
+  "element_principal": "Ombre",
+  "element_secondaire": null,
+  "etats_infliges": [],
+  "lignee_draconique": false,
+  "terrain": "Villes, greniers, ports, égouts",
+  "apparence": {
+   "silhouette": "Petit rongeur allongé à longue queue nue, museau pointu, oreilles rondes. Silhouette basse qui longe les murs.",
+   "trait_distinctif": "Une longue queue nue annelée de gris et de rose.",
+   "trait_cle": "queue-annelee",
+   "couleurs": [
+    "gris sale",
+    "rose de la queue",
+    "noir des yeux"
+   ],
+   "rappel_leger": "Nuisible ubiquiste utilisable en laboratoire.",
+   "difference_avec_ancienne": "Queue annelée et museau fin, loin du rongeur ordinaire."
+  },
+  "description_courte": "Il rôde partout en ville. Les alchimistes en élèvent comme laboratoire vivant.",
+  "familier": {
+   "possible": true,
+   "lien_max": "conditionne",
+   "difficulte_dd": 5,
+   "roles": [
+    "eclaireur",
+    "recolte"
+   ],
+   "aide_combat": "Se faufile dans de petits passages pour récupérer un objet ou repérer un piège.",
+   "transport": null,
+   "capacite_transport": null,
+   "age_ideal": "Jeune de 2 mois",
+   "limite": "Aucune force de combat, il fuit tout danger."
+  }
+ },
+ {
+  "id": "soc17",
+  "nouveau_nom": "Laprak",
+  "nom_conserve": true,
+  "sous_titre": "La Proie Ubiquiste",
+  "groupe": "sociales",
+  "rang": "◆ Commun",
+  "cr": 0.25,
+  "role_jeu": "ambiance",
+  "taille_garrot_m": 0.4,
+  "hauteur_sprite_px": 15,
+  "hors_format_sprite": false,
+  "element_principal": "Terre",
+  "element_secondaire": null,
+  "etats_infliges": [],
+  "lignee_draconique": false,
+  "terrain": "Prairies, lisières, clapiers",
+  "apparence": {
+   "silhouette": "Petit mammifère à longues oreilles et queue en pompon, dos bossu. Bondit en zigzags.",
+   "trait_distinctif": "Une queue blanche en pompon ronde comme une boule de neige.",
+   "trait_cle": "queue-pompon-neige",
+   "couleurs": [
+    "gris brun",
+    "blanc de queue",
+    "rose des oreilles"
+   ],
+   "rappel_leger": "Petit gibier prolifique.",
+   "difference_avec_ancienne": "Queue ronde et oreilles très longues."
+  },
+  "description_courte": "Viande commune. Élevé en clapier à très bas coût, il se reproduit sans effort.",
+  "familier": {
+   "possible": true,
+   "lien_max": "elevage",
+   "difficulte_dd": 3,
+   "roles": [
+    "recolte"
+   ],
+   "aide_combat": "Ne combat pas.",
+   "transport": null,
+   "capacite_transport": null,
+   "age_ideal": "Lapereau sevré",
+   "limite": "Ne sert qu'à l'élevage."
+  }
+ },
+ {
+  "id": "soc18",
+  "nouveau_nom": "Tortarak",
+  "nom_conserve": true,
+  "sous_titre": "La Mémoire Lente",
+  "groupe": "sociales",
+  "rang": "◆ Commun à ◆◆ Rare (selon l'âge)",
+  "cr": 0.25,
+  "role_jeu": "ambiance",
+  "taille_garrot_m": 0.5,
+  "hauteur_sprite_px": 18,
+  "hors_format_sprite": false,
+  "element_principal": "Terre",
+  "element_secondaire": null,
+  "etats_infliges": [],
+  "lignee_draconique": false,
+  "terrain": "Jardins et zones tempérées",
+  "apparence": {
+   "silhouette": "Reptile à carapace en dôme, tête qui sort au bout d'un long cou, pattes épaisses. Se déplace pas à pas.",
+   "trait_distinctif": "Une carapace à anneaux de croissance visibles comme ceux d'un arbre.",
+   "trait_cle": "carapace-anneaux-annuels",
+   "couleurs": [
+    "vert mousse",
+    "brun carapace",
+    "jaune de peau"
+   ],
+   "rappel_leger": "Vieille reptile paisible de jardin.",
+   "difference_avec_ancienne": "Carapace à anneaux marqués, sans piques ni motifs de bataille."
+  },
+  "description_courte": "Elle vit des décennies et revient au jardin qui la nourrit. Plus ancienne, elle passe au rang Rare.",
+  "familier": {
+   "possible": true,
+   "lien_max": "partiel",
+   "difficulte_dd": 3,
+   "roles": [
+    "garde"
+   ],
+   "aide_combat": "Ne combat pas, mais sa carapace peut servir d'abri en cas de danger.",
+   "transport": null,
+   "capacite_transport": null,
+   "age_ideal": "Jeune de 5 ans",
+   "limite": "Extrêmement lente."
+  }
+ },
+ {
+  "id": "soc19",
+  "nouveau_nom": "Grenouarak",
+  "nom_conserve": true,
+  "sous_titre": "Le Chœur des Marais",
+  "groupe": "sociales",
+  "rang": "◆ Commun",
+  "cr": 0,
+  "role_jeu": "ambiance",
+  "taille_garrot_m": 0.1,
+  "hauteur_sprite_px": 4,
+  "hors_format_sprite": false,
+  "element_principal": "Eau",
+  "element_secondaire": null,
+  "etats_infliges": [],
+  "lignee_draconique": false,
+  "terrain": "Mares, rizières, fossés",
+  "apparence": {
+   "silhouette": "Petit batracien à longues pattes arrière, yeux globuleux et sac vocal gonflé.",
+   "trait_distinctif": "Un sac vocal rose gonflé en ballon à chaque chant.",
+   "trait_cle": "sac-vocal-ballon",
+   "couleurs": [
+    "vert pomme",
+    "rose du sac",
+    "jaune du ventre"
+   ],
+   "rappel_leger": "Petit batracien chanteur des marais.",
+   "difference_avec_ancienne": "Sac vocal très gonflé et rose."
+  },
+  "description_courte": "Indicateur écologique sonore des zones humides. Servi aussi en taverne.",
+  "familier": {
+   "possible": false
+  }
+ },
+ {
+  "id": "soc20",
+  "nouveau_nom": "Corarak",
+  "nom_conserve": true,
+  "sous_titre": "L'Espion des Airs",
+  "groupe": "sociales",
+  "rang": "◆ Commun",
+  "cr": 0.25,
+  "role_jeu": "ambiance",
+  "taille_garrot_m": 0.5,
+  "hauteur_sprite_px": 18,
+  "hors_format_sprite": false,
+  "element_principal": "Ombre",
+  "element_secondaire": null,
+  "etats_infliges": [],
+  "lignee_draconique": false,
+  "terrain": "Villes, tours, falaises",
+  "apparence": {
+   "silhouette": "Grand oiseau noir au bec fort et courbe, posture altière, queue en coin. Silhouette nette sur un toit.",
+   "trait_distinctif": "Un reflet bleu-vert iridescent sur la gorge comme un plastron.",
+   "trait_cle": "gorge-iridescente",
+   "couleurs": [
+    "noir",
+    "bleu-vert irisé",
+    "gris du bec"
+   ],
+   "rappel_leger": "Oiseau intelligent et observateur des villes.",
+   "difference_avec_ancienne": "Gorge iridescente et queue en coin."
+  },
+  "description_courte": "Il retient les visages et choisit ceux qu'il suit. Les cités le disent espion.",
+  "familier": {
+   "possible": true,
+   "lien_max": "affectif",
+   "difficulte_dd": 9,
+   "roles": [
+    "eclaireur",
+    "pisteur",
+    "signal"
+   ],
+   "aide_combat": "Survole la zone pour repérer la cible et croasse pour signaler. Peut aussi harceler d'un coup de bec pour détourner un instant l'attention.",
+   "transport": null,
+   "capacite_transport": null,
+   "age_ideal": "Corbillat tombé du nid",
+   "limite": "Il choisit aussi son humain et peut le quitter."
+  }
+ },
+ {
+  "id": "soc21",
+  "nouveau_nom": "Héronarak",
+  "nom_conserve": true,
+  "sous_titre": "Le Pêcheur Immobile",
+  "groupe": "sociales",
+  "rang": "◆ Commun",
+  "cr": 0.5,
+  "role_jeu": "ambiance",
+  "taille_garrot_m": 1.0,
+  "hauteur_sprite_px": 37,
+  "hors_format_sprite": false,
+  "element_principal": "Eau",
+  "element_secondaire": null,
+  "etats_infliges": [],
+  "lignee_draconique": false,
+  "terrain": "Zones humides, lacs, cours d'eau",
+  "apparence": {
+   "silhouette": "Grand échassier gris à cou en S, bec en lance et longues pattes. Immobile dans l'eau.",
+   "trait_distinctif": "Une huppe de deux plumes noires tombant dans le dos.",
+   "trait_cle": "huppe-deux-plumes",
+   "couleurs": [
+    "gris bleu",
+    "blanc du cou",
+    "noir de huppe"
+   ],
+   "rappel_leger": "Grand pêcheur immobile des marais.",
+   "difference_avec_ancienne": "Huppe de deux plumes et dos gris bleuté."
+  },
+  "description_courte": "Gardien des zones humides. La pêche à l'héron est pratiquée dans certaines cultures.",
+  "familier": {
+   "possible": true,
+   "lien_max": "conditionne",
+   "difficulte_dd": 9,
+   "roles": [
+    "recolte",
+    "eclaireur"
+   ],
+   "aide_combat": "Frappe d'un coup de bec précis pour étourdir un ennemi aquatique.",
+   "transport": null,
+   "capacite_transport": null,
+   "age_ideal": "Héronneau de 2 mois",
+   "limite": "Ne quitte pas les zones humides."
+  }
+ },
+ {
+  "id": "soc22",
+  "nouveau_nom": "Moutonrak",
+  "nom_conserve": true,
+  "sous_titre": "La Laine Sauvage",
+  "groupe": "sociales",
+  "rang": "◆◆ Rare",
+  "cr": 4,
+  "role_jeu": "ambiance",
+  "taille_garrot_m": 0.9,
+  "hauteur_sprite_px": 33,
+  "hors_format_sprite": false,
+  "element_principal": "Vent",
+  "element_secondaire": "Terre",
+  "etats_infliges": [],
+  "lignee_draconique": false,
+  "terrain": "Hauts plateaux, pelouses alpines",
+  "apparence": {
+   "silhouette": "Grand ovin sauvage à cornes spiralées épaisses, pattes puissantes et toison courte. Se tient sur les crêtes.",
+   "trait_distinctif": "Des cornes spiralées dont le bout est teinté d'ocre.",
+   "trait_cle": "cornes-spirale-ocre",
+   "couleurs": [
+    "brun fauve",
+    "blanc de croupe",
+    "ocre des cornes"
+   ],
+   "rappel_leger": "Ovin sauvage des hauteurs.",
+   "difference_avec_ancienne": "Cornes en spirale ocre et croupe blanche."
+  },
+  "description_courte": "Entre élevage et nature. Sa laine sauvage est très recherchée.",
+  "familier": {
+   "possible": true,
+   "lien_max": "partiel",
+   "difficulte_dd": 11,
+   "roles": [
+    "recolte"
+   ],
+   "aide_combat": "Charge du front cornu en repoussant l'ennemi.",
+   "transport": null,
+   "capacite_transport": null,
+   "age_ideal": "Jeune élevé en troupeau",
+   "limite": "Semi-sauvage, il retourne aux sommets."
+  }
+ },
+ {
+  "id": "soc23",
+  "nouveau_nom": "Chauve-Soursarak",
+  "nom_conserve": true,
+  "sous_titre": "Les Maîtres des Grottes",
+  "groupe": "sociales",
+  "rang": "◆ Commun",
+  "cr": 0,
+  "role_jeu": "ambiance",
+  "taille_garrot_m": 0.1,
+  "hauteur_sprite_px": 4,
+  "hors_format_sprite": false,
+  "element_principal": "Ombre",
+  "element_secondaire": "Vent",
+  "etats_infliges": [],
+  "lignee_draconique": false,
+  "terrain": "Grottes, tunnels, vieilles cavités",
+  "apparence": {
+   "silhouette": "Petit mammifère volant à ailes de membrane, oreilles pointues, qui pend la tête en bas.",
+   "trait_distinctif": "Des oreilles larges comme des feuilles de saule.",
+   "trait_cle": "oreilles-feuille-saule",
+   "couleurs": [
+    "brun gris",
+    "rose des ailes",
+    "noir de vol"
+   ],
+   "rappel_leger": "Chasseuse d'insectes nocturne des cavernes.",
+   "difference_avec_ancienne": "Oreilles immenses en feuilles de saule."
+  },
+  "description_courte": "L'écholocation lui permet de chasser dans l'obscurité totale. Son guano est précieux.",
+  "familier": {
+   "possible": false
+  }
+ },
+ {
+  "id": "soc24",
+  "nouveau_nom": "Hérissonrak",
+  "nom_conserve": true,
+  "sous_titre": "Le Chasseur Silencieux de la Nuit",
+  "groupe": "sociales",
+  "rang": "◆ Commun",
+  "cr": 0.125,
+  "role_jeu": "ambiance",
+  "taille_garrot_m": 0.25,
+  "hauteur_sprite_px": 9,
+  "hors_format_sprite": false,
+  "element_principal": "Terre",
+  "element_secondaire": null,
+  "etats_infliges": [],
+  "lignee_draconique": false,
+  "terrain": "Jardins, potagers, zones rurales",
+  "apparence": {
+   "silhouette": "Petit mammifère rond couvert de piquants, museau pointu, qui se met en boule.",
+   "trait_distinctif": "Des piquants tachetés de blanc et de brun en alternance.",
+   "trait_cle": "piquants-mouchete",
+   "couleurs": [
+    "brun",
+    "blanc crème",
+    "noir du museau"
+   ],
+   "rappel_leger": "Insectivore nocturne des jardins.",
+   "difference_avec_ancienne": "Piquants alternés brun et blanc."
+  },
+  "description_courte": "Allié des potagers qu'il nettoie des limaces. Il vient quand le jardin lui plaît.",
+  "familier": {
+   "possible": true,
+   "lien_max": "partiel",
+   "difficulte_dd": null,
+   "roles": [
+    "garde"
+   ],
+   "aide_combat": "Se met en boule devant l'ennemi pour piquer ses mains ; sert de leurre.",
+   "transport": null,
+   "capacite_transport": null,
+   "age_ideal": "Jeune trouvé à l'automne",
+   "limite": "Se retire en hiver et ne suit pas l'aventurier."
+  }
+ },
+ {
+  "id": "soc25",
+  "nouveau_nom": "Muletrak",
+  "nom_conserve": true,
+  "sous_titre": "La Robustesse Hybride",
+  "groupe": "sociales",
+  "rang": "◆◆ Rare",
+  "cr": 2,
+  "role_jeu": "ambiance",
+  "taille_garrot_m": 1.4,
+  "hauteur_sprite_px": 51,
+  "hors_format_sprite": false,
+  "element_principal": "Terre",
+  "element_secondaire": "Vent",
+  "etats_infliges": [],
+  "lignee_draconique": false,
+  "terrain": "Cols de montagne, sentiers alpins",
+  "apparence": {
+   "silhouette": "Quadrupède robuste, plus grand que l'âne, oreilles longues et queue fine, aux sabots étroits.",
+   "trait_distinctif": "Un nez blanc comme trempé dans de la farine.",
+   "trait_cle": "nez-de-farine",
+   "couleurs": [
+    "brun noir",
+    "blanc du nez",
+    "gris des sabots"
+   ],
+   "rappel_leger": "Bête de charge de haute montagne.",
+   "difference_avec_ancienne": "Nez blanc contrastant et croupe fine."
+  },
+  "description_courte": "Plus fort que l'âne, plus sûr de pied que le cheval, stérile mais infatigable.",
+  "familier": {
+   "possible": true,
+   "lien_max": "affectif",
+   "difficulte_dd": 8,
+   "roles": [
+    "bete_de_somme",
+    "monture_terre"
+   ],
+   "aide_combat": "Rue pour protéger la charge ; sert de repli.",
+   "transport": "terrestre",
+   "capacite_transport": "1 personnage",
+   "age_ideal": "Jeune de 3 ans",
+   "limite": "Stérile et têtu."
+  }
+ },
+ {
+  "id": "soc26",
+  "nouveau_nom": "Dromadarak",
+  "nom_conserve": true,
+  "sous_titre": "Le Navire du Désert",
+  "groupe": "sociales",
+  "rang": "◆◆ Rare",
+  "cr": 3,
+  "role_jeu": "ambiance",
+  "taille_garrot_m": 1.9,
+  "hauteur_sprite_px": 70,
+  "hors_format_sprite": false,
+  "element_principal": "Terre",
+  "element_secondaire": "Feu",
+  "etats_infliges": [],
+  "lignee_draconique": false,
+  "terrain": "Déserts, steppes arides",
+  "apparence": {
+   "silhouette": "Très grand quadrupède à bosse unique, long cou ondulant et pattes à larges coussinets. Marche balancée.",
+   "trait_distinctif": "Une bosse ornée d'une selle de tissu rayé qui reste fixe.",
+   "trait_cle": "bosse-selle-rayee",
+   "couleurs": [
+    "sable",
+    "ocre",
+    "brun du cou"
+   ],
+   "rappel_leger": "Monture du désert, patiente et endurante.",
+   "difference_avec_ancienne": "Bosse unique, robe sable et cou ondulant."
+  },
+  "description_courte": "Traverse les zones arides plusieurs jours sans boire. Fait avancer les caravanes.",
+  "familier": {
+   "possible": true,
+   "lien_max": "affectif",
+   "difficulte_dd": 10,
+   "roles": [
+    "monture_terre",
+    "bete_de_somme"
+   ],
+   "aide_combat": "Ne combat pas ; crache pour éloigner un animal qui s'approche.",
+   "transport": "terrestre",
+   "capacite_transport": "groupe de 2-4",
+   "age_ideal": "Jeune de 4 ans",
+   "limite": "Ne supporte pas le froid ni l'humidité."
+  }
+ },
+ {
+  "id": "soc27",
+  "nouveau_nom": "Canardarak",
+  "nom_conserve": true,
+  "sous_titre": "Le Palmipède Commun",
+  "groupe": "sociales",
+  "rang": "◆ Commun",
+  "cr": 0.25,
+  "role_jeu": "ambiance",
+  "taille_garrot_m": 0.5,
+  "hauteur_sprite_px": 18,
+  "hors_format_sprite": false,
+  "element_principal": "Eau",
+  "element_secondaire": null,
+  "etats_infliges": [],
+  "lignee_draconique": false,
+  "terrain": "Étangs, mares, rivières lentes",
+  "apparence": {
+   "silhouette": "Oiseau d'eau trapu à bec plat et queue relevée, qui nage en ligne.",
+   "trait_distinctif": "Une tête vert métallique chez le mâle et un collier blanc.",
+   "trait_cle": "tete-vert-collier",
+   "couleurs": [
+    "vert métal",
+    "brun de la femelle",
+    "blanc du collier"
+   ],
+   "rappel_leger": "Palmipède domestique commun.",
+   "difference_avec_ancienne": "Collier blanc net."
+  },
+  "description_courte": "Viande, duvet et plumes. Élevé en basse-cour.",
+  "familier": {
+   "possible": true,
+   "lien_max": "partiel",
+   "difficulte_dd": null,
+   "roles": [
+    "recolte",
+    "signal"
+   ],
+   "aide_combat": "Cancane pour alerter.",
+   "transport": null,
+   "capacite_transport": null,
+   "age_ideal": "Caneton élevé en mare",
+   "limite": "Ne participe pas à une chasse."
+  }
+ },
+ {
+  "id": "soc28",
+  "nouveau_nom": "Chèvrerak",
+  "nom_conserve": true,
+  "sous_titre": "La Monture du Nain",
+  "groupe": "sociales",
+  "rang": "◆ Commun",
+  "cr": 1,
+  "role_jeu": "ambiance",
+  "taille_garrot_m": 0.7,
+  "hauteur_sprite_px": 26,
+  "hors_format_sprite": false,
+  "element_principal": "Terre",
+  "element_secondaire": null,
+  "etats_infliges": [],
+  "lignee_draconique": false,
+  "terrain": "Galeries de mine, tunnels, zones karstiques",
+  "apparence": {
+   "silhouette": "Quadrupède bas et trapu, cornes courtes, dos large portant un sac. Pas sûrs dans l'obscurité.",
+   "trait_distinctif": "Des yeux pâles réfléchissants comme des cabochons de lanterne.",
+   "trait_cle": "yeux-lanternes",
+   "couleurs": [
+    "gris ardoise",
+    "blanc de sac",
+    "jaune des yeux"
+   ],
+   "rappel_leger": "Petite bête de charge souterraine.",
+   "difference_avec_ancienne": "Yeux réfléchissants et sac en bât ajusté."
+  },
+  "description_courte": "Bête de charge des nains dans les tunnels. Sûre de pied sans lumière.",
+  "familier": {
+   "possible": true,
+   "lien_max": "conditionne",
+   "difficulte_dd": 7,
+   "roles": [
+    "bete_de_somme",
+    "monture_terre"
+   ],
+   "aide_combat": "Ne combat pas ; peut se coller à la paroi.",
+   "transport": "terrestre",
+   "capacite_transport": "1 personnage",
+   "age_ideal": "Jeune de 6 mois",
+   "limite": "Mal à l'aise à l'air libre prolongé."
+  }
+ },
+ {
+  "id": "soc29",
+  "nouveau_nom": "Carperak",
+  "nom_conserve": true,
+  "sous_titre": "La Réserve Alimentaire Vivante",
+  "groupe": "sociales",
+  "rang": "◆ Commun",
+  "cr": 0.125,
+  "role_jeu": "ambiance",
+  "taille_garrot_m": 0.75,
+  "hauteur_sprite_px": 27,
+  "hors_format_sprite": false,
+  "element_principal": "Eau",
+  "element_secondaire": null,
+  "etats_infliges": [],
+  "lignee_draconique": false,
+  "terrain": "Étangs, bassins d'élevage",
+  "apparence": {
+   "silhouette": "Poisson épais à longs barbillons, grandes écailles et bouche protractile.",
+   "trait_distinctif": "Des écailles larges comme des pièces de cuivre.",
+   "trait_cle": "ecailles-pieces",
+   "couleurs": [
+    "cuivre",
+    "doré",
+    "vert des nageoires"
+   ],
+   "rappel_leger": "Poisson d'élevage placide.",
+   "difference_avec_ancienne": "Écailles larges en pièces de cuivre."
+  },
+  "description_courte": "Poisson d'étang le plus simple à élever. Réserve alimentaire des bassins.",
+  "familier": {
+   "possible": true,
+   "lien_max": "elevage",
+   "difficulte_dd": 2,
+   "roles": [
+    "recolte"
+   ],
+   "aide_combat": "Ne combat pas.",
+   "transport": null,
+   "capacite_transport": null,
+   "age_ideal": "Alevin",
+   "limite": "Reste dans son bassin."
+  }
+ },
+ {
+  "id": "soc30",
+  "nouveau_nom": "Saumonarak",
+  "nom_conserve": true,
+  "sous_titre": "Le Nomade des Eaux",
+  "groupe": "sociales",
+  "rang": "◆◆ Rare",
+  "cr": 0.25,
+  "role_jeu": "ambiance",
+  "taille_garrot_m": 0.85,
+  "hauteur_sprite_px": 31,
+  "hors_format_sprite": false,
+  "element_principal": "Eau",
+  "element_secondaire": "Vent",
+  "etats_infliges": [],
+  "lignee_draconique": false,
+  "terrain": "Fleuves froids, torrents",
+  "apparence": {
+   "silhouette": "Poisson fuselé à tête pointue, qui bondit les cascades.",
+   "trait_distinctif": "Des flancs rosés en bandes de couleur lors de la migration.",
+   "trait_cle": "flancs-bandes-roses",
+   "couleurs": [
+    "argent",
+    "rose",
+    "gris-bleu"
+   ],
+   "rappel_leger": "Poisson migrateur des rivières froides.",
+   "difference_avec_ancienne": "Flancs rosés en bandes."
+  },
+  "description_courte": "Sa migration rythme l'économie saisonnière. Chair d'exception.",
+  "familier": {
+   "possible": false
+  }
+ },
+ {
+  "id": "soc31",
+  "nouveau_nom": "Sangsuarak",
+  "nom_conserve": true,
+  "sous_titre": "Le Médecin Naturel",
+  "groupe": "sociales",
+  "rang": "◆ Commun",
+  "cr": 0,
+  "role_jeu": "ambiance",
+  "taille_garrot_m": 0.1,
+  "hauteur_sprite_px": 4,
+  "hors_format_sprite": false,
+  "element_principal": "Eau",
+  "element_secondaire": null,
+  "etats_infliges": [
+   "Saignée"
+  ],
+  "lignee_draconique": false,
+  "terrain": "Eaux douces lentes",
+  "apparence": {
+   "silhouette": "Ver mou allongé à ventouses aux deux bouts, qui ondule.",
+   "trait_distinctif": "Une rayure dorsale orange en fil lumineux.",
+   "trait_cle": "rayure-orange-dorsale",
+   "couleurs": [
+    "noir verdâtre",
+    "orange",
+    "brun"
+   ],
+   "rappel_leger": "Petit parasite médicinal.",
+   "difference_avec_ancienne": "Rayure orange dorsale."
+  },
+  "description_courte": "Utilisée en médecine : saignée et anticoagulation. Un usage excessif la rend dangereuse.",
+  "familier": {
+   "possible": true,
+   "lien_max": "elevage",
+   "difficulte_dd": 2,
+   "roles": [
+    "soin"
+   ],
+   "aide_combat": "Posée sur une blessure, elle draine le sang corrompu et soulage le chasseur entre deux assauts.",
+   "transport": null,
+   "capacite_transport": null,
+   "age_ideal": "Jeune de 2 mois",
+   "limite": "Fragile hors de l'eau douce."
+  }
+ },
+ {
+  "id": "soc32",
+  "nouveau_nom": "Escargarak",
+  "nom_conserve": true,
+  "sous_titre": "Le Lent Précieux",
+  "groupe": "sociales",
+  "rang": "◆ Commun",
+  "cr": 0,
+  "role_jeu": "ambiance",
+  "taille_garrot_m": 0.09,
+  "hauteur_sprite_px": 3,
+  "hors_format_sprite": false,
+  "element_principal": "Eau",
+  "element_secondaire": null,
+  "etats_infliges": [],
+  "lignee_draconique": false,
+  "terrain": "Jardins humides, zones tempérées",
+  "apparence": {
+   "silhouette": "Mollusque à coquille spiralée, deux antennes oculaires, corps mou.",
+   "trait_distinctif": "Une coquille en spirale rayée de bandes jaune et brun.",
+   "trait_cle": "coquille-spirale-bandee",
+   "couleurs": [
+    "jaune",
+    "brun",
+    "gris-vert"
+   ],
+   "rappel_leger": "Petit mollusque de cuisine et de médecine.",
+   "difference_avec_ancienne": "Coquille rayée en bandes."
+  },
+  "description_courte": "Alimentation et mucus médicinal. Le plus simple de tous à élever.",
+  "familier": {
+   "possible": true,
+   "lien_max": "elevage",
+   "difficulte_dd": 1,
+   "roles": [
+    "soin",
+    "recolte"
+   ],
+   "aide_combat": "Son mucus apaise les brûlures et les coupures du chasseur.",
+   "transport": null,
+   "capacite_transport": null,
+   "age_ideal": "Œuf en escargotière",
+   "limite": "Craint le sel et la sécheresse."
+  }
+ },
+ {
+  "id": "soc33",
+  "nouveau_nom": "Renardarak",
+  "nom_conserve": true,
+  "sous_titre": "L'Opportuniste Intelligent",
+  "groupe": "sociales",
+  "rang": "◆ Commun",
+  "cr": 2,
+  "role_jeu": "mini_boss",
+  "taille_garrot_m": 0.4,
+  "hauteur_sprite_px": 15,
+  "hors_format_sprite": false,
+  "element_principal": "Ombre",
+  "element_secondaire": null,
+  "etats_infliges": [],
+  "lignee_draconique": false,
+  "terrain": "Lisières de forêts",
+  "apparence": {
+   "silhouette": "Canidé fin à museau pointu, longues oreilles et queue touffue, démarche feutrée.",
+   "trait_distinctif": "Une queue touffue au bout blanc comme une torche.",
+   "trait_cle": "queue-bout-blanc",
+   "couleurs": [
+    "roux",
+    "blanc",
+    "noir des pattes"
+   ],
+   "rappel_leger": "Rusé opportuniste, voleur et chasseur.",
+   "difference_avec_ancienne": "Queue à bout blanc et pattes noires."
+  },
+  "description_courte": "Entre nuisible et auxiliaire. Un renard conditionné reste libre à sa façon et peut voler.",
+  "familier": {
+   "possible": true,
+   "lien_max": "partiel",
+   "difficulte_dd": 12,
+   "roles": [
+    "eclaireur",
+    "pisteur"
+   ],
+   "aide_combat": "Se faufile pour repérer la proie et détourne l'attention de l'ennemi.",
+   "transport": null,
+   "capacite_transport": null,
+   "age_ideal": "Renardeau de 2 mois",
+   "limite": "Indépendant, il peut disparaître avec un objet."
+  }
+ },
+ {
+  "id": "soc34",
+  "nouveau_nom": "Cigognarak",
+  "nom_conserve": true,
+  "sous_titre": "L'Oiseau des Familles",
+  "groupe": "sociales",
+  "rang": "◆◆ Rare",
+  "cr": 1,
+  "role_jeu": "mini_boss",
+  "taille_garrot_m": 1.1,
+  "hauteur_sprite_px": 40,
+  "hors_format_sprite": false,
+  "element_principal": "Vent",
+  "element_secondaire": "Eau",
+  "etats_infliges": [],
+  "lignee_draconique": false,
+  "terrain": "Toits de villages et fermes",
+  "apparence": {
+   "silhouette": "Grand échassier blanc et noir, long bec rouge, qui plane les pattes en arrière.",
+   "trait_distinctif": "Un nid sur les toits aux branches entrelacées en couronne.",
+   "trait_cle": "nid-couronne",
+   "couleurs": [
+    "blanc",
+    "noir des ailes",
+    "rouge du bec"
+   ],
+   "rappel_leger": "Grand oiseau voyageur, symbole des familles.",
+   "difference_avec_ancienne": "Nid-couronne sur le toit."
+  },
+  "description_courte": "Elle chasse les petits animaux de marécage et nidifie sur les toits.",
+  "familier": {
+   "possible": false
+  }
+ },
+ {
+  "id": "soc35",
+  "nouveau_nom": "Pieuvrak",
+  "nom_conserve": true,
+  "sous_titre": "La Fugitive des Docks",
+  "groupe": "sociales",
+  "rang": "◆◆ Rare",
+  "cr": 4,
+  "role_jeu": "mini_boss",
+  "taille_garrot_m": 1.5,
+  "hauteur_sprite_px": 55,
+  "hors_format_sprite": false,
+  "element_principal": "Eau",
+  "element_secondaire": "Ombre",
+  "etats_infliges": [
+   "Poison"
+  ],
+  "lignee_draconique": false,
+  "terrain": "Ports, anfractuosités sous-marines",
+  "apparence": {
+   "silhouette": "Mollusque à tête en dôme et huit bras ondulants, qui change de couleur.",
+   "trait_distinctif": "Des ventouses bleu phosphorescent en rangées.",
+   "trait_cle": "ventouses-bleues",
+   "couleurs": [
+    "rouge corail",
+    "bleu phosphore",
+    "gris"
+   ],
+   "rappel_leger": "Intelligente fugitive des docks.",
+   "difference_avec_ancienne": "Ventouses bleues luisantes."
+  },
+  "description_courte": "Rusée et capable d'ouvrir des coffres. Quelques guildes maritimes l'élèvent.",
+  "familier": {
+   "possible": true,
+   "lien_max": "conditionne",
+   "difficulte_dd": 12,
+   "roles": [
+    "recolte",
+    "eclaireur"
+   ],
+   "aide_combat": "Se glisse dans les cales pour récupérer un objet ou immobiliser un adversaire d'un bras.",
+   "transport": null,
+   "capacite_transport": null,
+   "age_ideal": "Jeune de 6 mois",
+   "limite": "Meurt hors de l'eau salée, vit peu d'années."
+  }
+ },
+ {
+  "id": "soc36",
+  "nouveau_nom": "Bisonrak",
+  "nom_conserve": true,
+  "sous_titre": "Le Gardien des Toundras",
+  "groupe": "sociales",
+  "rang": "◆◆◆ Élite",
+  "cr": 7,
+  "role_jeu": "mini_boss",
+  "taille_garrot_m": 1.8,
+  "hauteur_sprite_px": 66,
+  "hors_format_sprite": false,
+  "element_principal": "Terre",
+  "element_secondaire": "Glace",
+  "etats_infliges": [],
+  "lignee_draconique": false,
+  "terrain": "Toundras arctiques",
+  "apparence": {
+   "silhouette": "Énorme bovidé à bosse, tête basse, épaisse crinière, cornes courtes.",
+   "trait_distinctif": "Une barbe de givre en pointes sous la gueule.",
+   "trait_cle": "barbe-de-givre",
+   "couleurs": [
+    "brun sombre",
+    "blanc givre",
+    "noir"
+   ],
+   "rappel_leger": "Grand herbivore polaire redoutable.",
+   "difference_avec_ancienne": "Barbe de givre en pointes."
+  },
+  "description_courte": "Ressource des peuples polaires. Il charge quand il se sent menacé.",
+  "familier": {
+   "possible": false
+  }
+ },
+ {
+  "id": "soc37",
+  "nouveau_nom": "Chouarak",
+  "nom_conserve": true,
+  "sous_titre": "L'Œil de la Nuit",
+  "groupe": "sociales",
+  "rang": "◆ Commun",
+  "cr": 0.5,
+  "role_jeu": "ambiance",
+  "taille_garrot_m": 0.45,
+  "hauteur_sprite_px": 16,
+  "hors_format_sprite": false,
+  "element_principal": "Ombre",
+  "element_secondaire": null,
+  "etats_infliges": [],
+  "lignee_draconique": false,
+  "terrain": "Granges, tours, charpentes",
+  "apparence": {
+   "silhouette": "Oiseau nocturne à tête ronde en disque facial, yeux immenses.",
+   "trait_distinctif": "Un disque facial en forme de cœur.",
+   "trait_cle": "disque-facial-coeur",
+   "couleurs": [
+    "blanc crème",
+    "brun doré",
+    "noir"
+   ],
+   "rappel_leger": "Chasseur nocturne silencieux.",
+   "difference_avec_ancienne": "Disque facial en cœur."
+  },
+  "description_courte": "Chasse dans le silence total. Fauconnerie de nuit.",
+  "familier": {
+   "possible": true,
+   "lien_max": "conditionne",
+   "difficulte_dd": 10,
+   "roles": [
+    "eclaireur",
+    "pisteur",
+    "signal"
+   ],
+   "aide_combat": "Survole la nuit pour repérer, puis plonge pour griffer.",
+   "transport": null,
+   "capacite_transport": null,
+   "age_ideal": "Jeune à 3 mois",
+   "limite": "Inactive de jour."
+  }
+ },
+ {
+  "id": "soc38",
+  "nouveau_nom": "Moustarak",
+  "nom_conserve": true,
+  "sous_titre": "Le Vecteur Invisible",
+  "groupe": "sociales",
+  "rang": "◆ Commun",
+  "cr": 0,
+  "role_jeu": "ambiance",
+  "taille_garrot_m": 0.005,
+  "hauteur_sprite_px": 0,
+  "hors_format_sprite": false,
+  "element_principal": "Eau",
+  "element_secondaire": null,
+  "etats_infliges": [
+   "Poison"
+  ],
+  "lignee_draconique": false,
+  "terrain": "Eaux stagnantes, marécages",
+  "apparence": {
+   "silhouette": "Minuscule insecte à longue trompe, ailes fines.",
+   "trait_distinctif": "Une trompe rouge teintée de sang.",
+   "trait_cle": "trompe-rouge",
+   "couleurs": [
+    "gris",
+    "noir",
+    "rouge"
+   ],
+   "rappel_leger": "Nuisible vecteur de maladie.",
+   "difference_avec_ancienne": "Trompe rouge."
+  },
+  "description_courte": "Transmet les maladies. Une source de données médicales.",
+  "familier": {
+   "possible": false
+  }
+ },
+ {
+  "id": "soc39",
+  "nouveau_nom": "Loutrarak",
+  "nom_conserve": true,
+  "sous_titre": "La Joueuse des Eaux",
+  "groupe": "sociales",
+  "rang": "◆◆ Rare",
+  "cr": 3,
+  "role_jeu": "mini_boss",
+  "taille_garrot_m": 0.7,
+  "hauteur_sprite_px": 26,
+  "hors_format_sprite": false,
+  "element_principal": "Eau",
+  "element_secondaire": null,
+  "etats_infliges": [],
+  "lignee_draconique": false,
+  "terrain": "Rivières propres, cours rapides",
+  "apparence": {
+   "silhouette": "Mammifère allongé à queue épaisse, pattes palmées, qui glisse dans l'eau.",
+   "trait_distinctif": "Une moustache en vibrisses argentées.",
+   "trait_cle": "vibrisses-argent",
+   "couleurs": [
+    "brun",
+    "crème",
+    "argent"
+   ],
+   "rappel_leger": "Joueuse des rivières.",
+   "difference_avec_ancienne": "Vibrisses argentées."
+  },
+  "description_courte": "Indicateur d'eau pure. Pêche assistée dans certaines cultures.",
+  "familier": {
+   "possible": true,
+   "lien_max": "affectif",
+   "difficulte_dd": 11,
+   "roles": [
+    "recolte",
+    "eclaireur"
+   ],
+   "aide_combat": "Plonge pour récupérer un objet ou distraire une créature aquatique.",
+   "transport": null,
+   "capacite_transport": null,
+   "age_ideal": "Jeune de 3 mois",
+   "limite": "Reste près de l'eau."
+  }
+ },
+ {
+  "id": "soc40",
+  "nouveau_nom": "Marterak",
+  "nom_conserve": true,
+  "sous_titre": "La Chasseuse des Branches",
+  "groupe": "sociales",
+  "rang": "◆◆ Rare",
+  "cr": 2,
+  "role_jeu": "mini_boss",
+  "taille_garrot_m": 0.4,
+  "hauteur_sprite_px": 15,
+  "hors_format_sprite": false,
+  "element_principal": "Ombre",
+  "element_secondaire": "Terre",
+  "etats_infliges": [],
+  "lignee_draconique": false,
+  "terrain": "Forêts de feuillus et de conifères",
+  "apparence": {
+   "silhouette": "Mustélidé élancé à queue fournie, gorge claire, qui court dans les branches.",
+   "trait_distinctif": "Une tache de gorge jaune en bavette.",
+   "trait_cle": "gorge-bavette-jaune",
+   "couleurs": [
+    "brun chocolat",
+    "jaune",
+    "noir"
+   ],
+   "rappel_leger": "Prédatrice agile de la canopée.",
+   "difference_avec_ancienne": "Bavette jaune."
+  },
+  "description_courte": "Chasse les écureuils dans la canopée. Fourrure fine.",
+  "familier": {
+   "possible": false
+  }
+ },
+ {
+  "id": "soc41",
+  "nouveau_nom": "Moinearak",
+  "nom_conserve": true,
+  "sous_titre": "L'Oiseau du Peuple",
+  "groupe": "sociales",
+  "rang": "◆ Commun",
+  "cr": 0,
+  "role_jeu": "ambiance",
+  "taille_garrot_m": 0.15,
+  "hauteur_sprite_px": 5,
+  "hors_format_sprite": false,
+  "element_principal": "Vent",
+  "element_secondaire": null,
+  "etats_infliges": [],
+  "lignee_draconique": false,
+  "terrain": "Villes, villages",
+  "apparence": {
+   "silhouette": "Tout petit oiseau trapu à bec court, qui sautille.",
+   "trait_distinctif": "Une bavette noire sous le bec comme un foulard.",
+   "trait_cle": "bavette-noire-foulard",
+   "couleurs": [
+    "brun gris",
+    "noir",
+    "beige"
+   ],
+   "rappel_leger": "Petit oiseau commun.",
+   "difference_avec_ancienne": "Bavette noire."
+  },
+  "description_courte": "Témoin universel des villes, partout et invisible.",
+  "familier": {
+   "possible": false
+  }
+ },
+ {
+  "id": "soc42",
+  "nouveau_nom": "Aragnarak",
+  "nom_conserve": true,
+  "sous_titre": "La Tisseuse des Ombres",
+  "groupe": "sociales",
+  "rang": "◆ Commun",
+  "cr": 0.25,
+  "role_jeu": "ambiance",
+  "taille_garrot_m": 0.12,
+  "hauteur_sprite_px": 4,
+  "hors_format_sprite": false,
+  "element_principal": "Ombre",
+  "element_secondaire": null,
+  "etats_infliges": [
+   "Poison"
+  ],
+  "lignee_draconique": false,
+  "terrain": "Caves, sous-sols, greniers",
+  "apparence": {
+   "silhouette": "Arachnide à huit pattes fines, abdomen bombé, toile en roue.",
+   "trait_distinctif": "Un abdomen orné d'un motif de sablier clair.",
+   "trait_cle": "abdomen-sablier",
+   "couleurs": [
+    "brun",
+    "gris",
+    "blanc"
+   ],
+   "rappel_leger": "Tisseuse de soie industrielle.",
+   "difference_avec_ancienne": "Sablier clair."
+  },
+  "description_courte": "Soie industrielle. Indicateur souterrain.",
+  "familier": {
+   "possible": true,
+   "lien_max": "elevage",
+   "difficulte_dd": 3,
+   "roles": [
+    "recolte",
+    "garde"
+   ],
+   "aide_combat": "Tend un fil piège pour ralentir un ennemi.",
+   "transport": null,
+   "capacite_transport": null,
+   "age_ideal": "Jeune de 1 mois",
+   "limite": "Fragile hors de la cave."
+  }
+ },
+ {
+  "id": "soc43",
+  "nouveau_nom": "Hirondarak",
+  "nom_conserve": true,
+  "sous_titre": "La Messagère du Printemps",
+  "groupe": "sociales",
+  "rang": "◆ Commun",
+  "cr": 0,
+  "role_jeu": "ambiance",
+  "taille_garrot_m": 0.15,
+  "hauteur_sprite_px": 5,
+  "hors_format_sprite": false,
+  "element_principal": "Vent",
+  "element_secondaire": null,
+  "etats_infliges": [],
+  "lignee_draconique": false,
+  "terrain": "Villes, villages, tours",
+  "apparence": {
+   "silhouette": "Petit oiseau fin à longues ailes et queue en fourche.",
+   "trait_distinctif": "Une queue en fourche à deux longs brins.",
+   "trait_cle": "queue-en-fourche",
+   "couleurs": [
+    "bleu nuit",
+    "crème",
+    "rouge"
+   ],
+   "rappel_leger": "Annonce le printemps.",
+   "difference_avec_ancienne": "Queue à brins."
+  },
+  "description_courte": "Insectivore aérien des villes. Sa venue annonce le printemps.",
+  "familier": {
+   "possible": false
+  }
+ },
+ {
+  "id": "soc44",
+  "nouveau_nom": "Dardinet",
+  "nom_conserve": false,
+  "sous_titre": "Le Petit Bouclier-Lance",
+  "groupe": "sociales",
+  "rang": "◆ Commun",
+  "cr": 1,
+  "role_jeu": "familier_assistant",
+  "taille_garrot_m": 0.45,
+  "hauteur_sprite_px": 16,
+  "hors_format_sprite": false,
+  "element_principal": "Terre",
+  "element_secondaire": null,
+  "etats_infliges": [],
+  "lignee_draconique": false,
+  "terrain": "Lisières, ruines, bords de route",
+  "sapience": "semi-sapient : comprend le langage courant, s'exprime par des cris gutturaux et des gestes",
+  "apparence": {
+   "silhouette": "Petit bipède ramassé aux jambes courtes, tête ronde coiffée d'une coquille de noix, corps couvert d'écailles brun-roux. Il tient une lance d'épine plus haute que lui et un bouclier fait d'une demi-coquille.",
+   "trait_distinctif": "Une coquille de noix en casque vissé sur la tête, percée de deux trous pour les oreilles.",
+   "trait_cle": "casque-coquille-de-noix",
+   "couleurs": [
+    "brun roux",
+    "vert mousse",
+    "ivoire de coquille"
+   ],
+   "rappel_leger": "Petit guerrier compagnon de chasse, brave mais minuscule.",
+   "difference_avec_ancienne": "Espèce entièrement nouvelle, sans fiche ancienne."
+  },
+  "description_courte": "Petit guerrier des lisières, il s'attache à un chasseur qui l'a soigné. Lance d'épine et bouclier de coquille : il se jette devant son compagnon sans mesurer sa taille.",
+  "familier": {
+   "possible": true,
+   "lien_max": "symbiotique",
+   "difficulte_dd": 8,
+   "roles": [
+    "assistant_combat",
+    "garde"
+   ],
+   "aide_combat": "Pique les jambes de la cible avec sa lance d'épine pour la détourner du chasseur et lève son bouclier pour absorber un coup mineur. Il tombe K.O. au premier gros impact et se remet après quelques soins.",
+   "transport": null,
+   "capacite_transport": null,
+   "age_ideal": "Jeune adulte (2 à 4 ans)",
+   "limite": "Sans portée ni force : une créature de CR élevé le met K.O. au premier coup."
+  }
+ },
+ {
+  "id": "soc45",
+  "nouveau_nom": "Ouatiline",
+  "nom_conserve": false,
+  "sous_titre": "La Guérisseuse de Duvet",
+  "groupe": "sociales",
+  "rang": "◆ Commun",
+  "cr": 1,
+  "role_jeu": "familier_assistant",
+  "taille_garrot_m": 0.4,
+  "hauteur_sprite_px": 15,
+  "hors_format_sprite": false,
+  "element_principal": "Éther",
+  "element_secondaire": "Terre",
+  "etats_infliges": [],
+  "lignee_draconique": false,
+  "terrain": "Prairies, clairières, villages de lisière",
+  "sapience": "sapient : parle un français doux et chuchoté, très sensible aux émotions",
+  "apparence": {
+   "silhouette": "Petite créature ronde et duveteuse comme un nuage, à quatre pattes courtes et grandes oreilles-feuilles. Une corne molle sur le front diffuse des vapeurs de tisane.",
+   "trait_distinctif": "Une grande oreille en forme de feuille de menthe, toujours dressée, et un ruban de laine noué autour du cou.",
+   "trait_cle": "oreille-feuille-de-menthe",
+   "couleurs": [
+    "blanc de duvet",
+    "vert menthe",
+    "rose pâle"
+   ],
+   "rappel_leger": "Petit soigneur discret, qui apaise et panse.",
+   "difference_avec_ancienne": "Espèce entièrement nouvelle, sans fiche ancienne."
+  },
+  "description_courte": "Petite créature de duvet qui prépare de la tisane dans un panier sur son dos. Sa vapeur apaise douleurs et fatigues, mais elle fuit le bruit des armes.",
+  "familier": {
+   "possible": true,
+   "lien_max": "affectif",
+   "difficulte_dd": 9,
+   "roles": [
+    "soin"
+   ],
+   "aide_combat": "Diffuse une vapeur de tisane qui rend des points de vie, retire un état (Poison ou Sommeil) et réveille un chasseur K.O. Elle ne peut pas attaquer et fuit si on la prend pour cible.",
+   "transport": null,
+   "capacite_transport": null,
+   "age_ideal": "Jeune adulte (3 ans)",
+   "limite": "Ne combat jamais et épuise ses simples en deux soins ; elle demande du repos."
+  }
+ },
+ {
+  "id": "soc46",
+  "nouveau_nom": "Gratelin",
+  "nom_conserve": false,
+  "sous_titre": "Le Cueilleur à Museau Long",
+  "groupe": "sociales",
+  "rang": "◆ Commun",
+  "cr": 1,
+  "role_jeu": "familier_assistant",
+  "taille_garrot_m": 0.35,
+  "hauteur_sprite_px": 13,
+  "hors_format_sprite": false,
+  "element_principal": "Terre",
+  "element_secondaire": null,
+  "etats_infliges": [],
+  "lignee_draconique": false,
+  "terrain": "Forêts, prairies, falaises basses",
+  "sapience": "semi-sapient : comprend les ordres simples, s'exprime par des reniflements et des petits cris",
+  "apparence": {
+   "silhouette": "Petit fouisseur à long museau pointu et petites mains griffues, dos arrondi, queue courte. Il marche penché, le nez à ras du sol, un sac de toile dans le dos.",
+   "trait_distinctif": "Un museau très long et rose dont le bout ressemble à une petite cuillère.",
+   "trait_cle": "museau-en-cuiller",
+   "couleurs": [
+    "gris taupe",
+    "rose du museau",
+    "brun du sac"
+   ],
+   "rappel_leger": "Petit cueilleur fouineur qui trouve plantes et minerais.",
+   "difference_avec_ancienne": "Espèce entièrement nouvelle, sans fiche ancienne."
+  },
+  "description_courte": "Fouisseur au flair incroyable, il déterre racines, champignons et minerais pour son compagnon. Il collectionne tout ce qui brille, avec fierté.",
+  "familier": {
+   "possible": true,
+   "lien_max": "affectif",
+   "difficulte_dd": 7,
+   "roles": [
+    "recolte",
+    "pisteur"
+   ],
+   "aide_combat": "Pendant la chasse, il récolte plantes et matériaux sur le terrain (bonus de récolte) et peut déterrer un piège ou une cachette. Il ne combat pas.",
+   "transport": null,
+   "capacite_transport": null,
+   "age_ideal": "Jeune de 2 ans",
+   "limite": "Reste à terre ; il s'effondre de fatigue après une longue récolte."
+  }
+ },
+ {
+  "id": "soc47",
+  "nouveau_nom": "Perchenot",
+  "nom_conserve": false,
+  "sous_titre": "L'Éclaireur sur Longues Pattes",
+  "groupe": "sociales",
+  "rang": "◆ Commun",
+  "cr": 1,
+  "role_jeu": "familier_assistant",
+  "taille_garrot_m": 0.55,
+  "hauteur_sprite_px": 20,
+  "hors_format_sprite": false,
+  "element_principal": "Vent",
+  "element_secondaire": null,
+  "etats_infliges": [],
+  "lignee_draconique": false,
+  "terrain": "Collines, hautes herbes, crêtes",
+  "sapience": "semi-sapient : comprend les ordres, s'exprime par des sifflements codés et des pointages",
+  "apparence": {
+   "silhouette": "Petit bipède gracile aux très longues pattes d'échassier, corps minuscule couvert de plumes, cou fin et tête de petit oiseau. Il se tient droit comme un point d'exclamation.",
+   "trait_distinctif": "Une crête de plumes rouges dressées en panache, qui s'incline vers le danger.",
+   "trait_cle": "panache-rouge-directionnel",
+   "couleurs": [
+    "gris perle",
+    "rouge vif de panache",
+    "jaune des pattes"
+   ],
+   "rappel_leger": "Petit éclaireur curieux qui voit loin.",
+   "difference_avec_ancienne": "Espèce entièrement nouvelle, sans fiche ancienne."
+  },
+  "description_courte": "Il grimpe sur un rocher ou sur l'épaule de son compagnon pour scruter la zone, et désigne la proie d'un mouvement de son panache.",
+  "familier": {
+   "possible": true,
+   "lien_max": "symbiotique",
+   "difficulte_dd": 8,
+   "roles": [
+    "eclaireur",
+    "signal"
+   ],
+   "aide_combat": "Il repère la proie et indique sa direction ; en combat, il signale les attaques imminentes de la cible (bonus d'esquive) et révèle ses points faibles. Fragile, il ne combat pas.",
+   "transport": null,
+   "capacite_transport": null,
+   "age_ideal": "Jeune adulte (2 à 3 ans)",
+   "limite": "Très fragile : un cri fort l'effraie et il prend la fuite."
+  }
+ },
+ {
+  "id": "soc48",
+  "nouveau_nom": "Braisillon",
+  "nom_conserve": false,
+  "sous_titre": "Le Cuisinier-Forgeron de Poche",
+  "groupe": "sociales",
+  "rang": "◆ Commun",
+  "cr": 1,
+  "role_jeu": "familier_assistant",
+  "taille_garrot_m": 0.45,
+  "hauteur_sprite_px": 16,
+  "hors_format_sprite": false,
+  "element_principal": "Feu",
+  "element_secondaire": "Terre",
+  "etats_infliges": [],
+  "lignee_draconique": false,
+  "terrain": "Forges, camps, cuisines de relais",
+  "sapience": "sapient : parle volontiers, aime donner des conseils de cuisine",
+  "apparence": {
+   "silhouette": "Petit trapu à corps de salamandre dressé sur deux pattes, queue épaisse et chaude comme un tison. Il porte un chapeau en forme de marmite et un tablier de cuir.",
+   "trait_distinctif": "Un chapeau de marmite en métal martelé qui fume toujours un peu.",
+   "trait_cle": "chapeau-marmite-fumant",
+   "couleurs": [
+    "rouge braise",
+    "noir de tablier",
+    "cuivre du chapeau"
+   ],
+   "rappel_leger": "Petit artisan de camp, cuisinier et forgeron.",
+   "difference_avec_ancienne": "Espèce entièrement nouvelle, sans fiche ancienne."
+  },
+  "description_courte": "Petit artisan à queue de tison. Il cuit des repas qui donnent du courage et ravive la lame de son compagnon avant la chasse.",
+  "familier": {
+   "possible": true,
+   "lien_max": "symbiotique",
+   "difficulte_dd": 9,
+   "roles": [
+    "assistant_combat",
+    "recolte"
+   ],
+   "aide_combat": "Avant la chasse, prépare un repas qui donne un bonus temporaire et aiguise l'arme du chasseur ; en combat, lance une braise sur la cible (brûlure légère).",
+   "transport": null,
+   "capacite_transport": null,
+   "age_ideal": "Jeune adulte (3 à 5 ans)",
+   "limite": "S'éteint dans l'eau et le froid ; sans feu à proximité, il perd ses capacités."
+  }
+ },
+ {
+  "id": "soc49",
+  "nouveau_nom": "Tintouille",
+  "nom_conserve": false,
+  "sous_titre": "La Petite Cloche d'Alarme",
+  "groupe": "sociales",
+  "rang": "◆ Commun",
+  "cr": 1,
+  "role_jeu": "familier_assistant",
+  "taille_garrot_m": 0.35,
+  "hauteur_sprite_px": 13,
+  "hors_format_sprite": false,
+  "element_principal": "Vent",
+  "element_secondaire": "Éther",
+  "etats_infliges": [],
+  "lignee_draconique": false,
+  "terrain": "Villages, routes, ruines",
+  "sapience": "semi-sapient : communique par des tintements codés que son compagnon apprend à lire",
+  "apparence": {
+   "silhouette": "Petite créature à quatre pattes fines, corps rond de lièvre court, deux petites cornes terminées par des clochettes de cuivre qui tintent à chaque mouvement.",
+   "trait_distinctif": "Deux petites cornes ornées de clochettes de cuivre à chaque bout.",
+   "trait_cle": "cornes-a-clochettes",
+   "couleurs": [
+    "beige doré",
+    "cuivre des clochettes",
+    "blanc de ventre"
+   ],
+   "rappel_leger": "Petit guetteur sonore qui prévient d'un danger.",
+   "difference_avec_ancienne": "Espèce entièrement nouvelle, sans fiche ancienne."
+  },
+  "description_courte": "Ses clochettes tintent selon les dangers perçus : un ton pour un fauve, un autre pour un piège. Elle s'enfuit au terrier à la moindre alerte.",
+  "familier": {
+   "possible": true,
+   "lien_max": "affectif",
+   "difficulte_dd": 7,
+   "roles": [
+    "signal",
+    "eclaireur"
+   ],
+   "aide_combat": "Elle sonne l'alarme avant une attaque (bonus d'initiative et d'esquive) et rallie les alliés dispersés d'un tintement. Elle ne combat pas.",
+   "transport": null,
+   "capacite_transport": null,
+   "age_ideal": "Jeune de 1 à 2 ans",
+   "limite": "Ses clochettes révèlent aussi sa position aux ennemis ; étouffées, elle perd son don de signal."
+  }
+ }
+]

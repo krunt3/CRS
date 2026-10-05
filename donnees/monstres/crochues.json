@@ -1,0 +1,1197 @@
+[
+ {
+  "id": "cro01",
+  "nouveau_nom": "Alizade",
+  "sous_titre": "Le Trotteur de Mousse",
+  "groupe": "crochues",
+  "rang": "◆ Commun",
+  "cr": 1,
+  "role_jeu": "membre_de_meute",
+  "taille_garrot_m": 1.2,
+  "hauteur_sprite_px": 44,
+  "hors_format_sprite": false,
+  "element_principal": "Neutre",
+  "element_secondaire": null,
+  "etats_infliges": [],
+  "lignee_draconique": false,
+  "terrain": "Forêts mixtes, sous-bois denses",
+  "apparence": {
+   "silhouette": "Petit bipède fuselé au dos plat, tête tendue en avant et pattes arrière nerveuses ; il court presque à l'horizontale. Les bras sont réduits à deux crochets repliés sous la poitrine. Une longue queue souple finit en pompon touffu.",
+   "trait_distinctif": "Un toupet de lichen vivant pousse en bande le long de son échine et lui tient lieu de camouflage.",
+   "trait_cle": "echine-de-lichen",
+   "couleurs": [
+    "vert mousse",
+    "brun écorce",
+    "crème"
+   ],
+   "rappel_leger": "Petit chasseur de meute rapide et opportuniste des sous-bois.",
+   "difference_avec_ancienne": "Remplace la peau lisse gris-brun et la queue rigide par une échine de lichen et une queue à pompon."
+  },
+  "description_courte": "Les Alizades chassent en bandes de quatre à douze et se fondent dans la mousse. Leurs glandes entre les griffes laissent un musc que les pisteurs utilisent pour masquer leur odeur.",
+  "familier": {
+   "possible": true,
+   "lien_max": "conditionne",
+   "difficulte_dd": null,
+   "roles": [
+    "eclaireur",
+    "pisteur"
+   ],
+   "aide_combat": "Il débusque le gibier, signale les embuscades par un sifflement bref et harcèle les jambes d'un adversaire pour le distraire d'un allié.",
+   "transport": null,
+   "capacite_transport": null,
+   "age_ideal": "Jeune, dès l'éclosion",
+   "limite": "Lien purement conditionné : il régresse vite sans son dresseur et reste sauvage en meute."
+  }
+ },
+ {
+  "id": "cro02",
+  "nouveau_nom": "Dorgane",
+  "sous_titre": "Le Maître des Trotteurs",
+  "groupe": "crochues",
+  "rang": "◆◆ Rare",
+  "cr": 4,
+  "role_jeu": "chef_de_meute",
+  "taille_garrot_m": 1.9,
+  "hauteur_sprite_px": 70,
+  "hors_format_sprite": false,
+  "element_principal": "Neutre",
+  "element_secondaire": null,
+  "etats_infliges": [],
+  "lignee_draconique": false,
+  "terrain": "Forêts mixtes, sous-bois denses",
+  "apparence": {
+   "silhouette": "Grand bipède semi-dressé, poitrail large et cou épais, tête haute qui domine sa meute. Chaque pas fait trembler légèrement le sol. La queue est lourde, en massue plate, et les bras crochus sont plus musclés que ceux des petits.",
+   "trait_distinctif": "Deux cornes torsadées en spirale d'ivoire se dressent sur son front comme un sceptre.",
+   "trait_cle": "cornes-spirales-ivoire",
+   "couleurs": [
+    "brun roux",
+    "ivoire",
+    "vert sombre"
+   ],
+   "rappel_leger": "Chef de meute dressé, qui impose son autorité à une bande de coureurs.",
+   "difference_avec_ancienne": "Remplace la crête en éventail par deux cornes spiralées et remplace l'allure élancée par un poitrail massif."
+  },
+  "description_courte": "Le Dorgane dirige les bandes d'Alizades par la voix et par le musc de dominance. Les pisteurs aguerris s'en servent comme sauf-conduit pour traverser les territoires de meute.",
+  "familier": {
+   "possible": true,
+   "lien_max": "affectif",
+   "difficulte_dd": null,
+   "roles": [
+    "assistant_combat",
+    "monture_terre"
+   ],
+   "aide_combat": "Il charge la cible principale, brise sa garde d'un coup de cornes et, d'un cri de commandement, rallie les petits coureurs sauvages alentour.",
+   "transport": "terrestre",
+   "capacite_transport": "1 personnage",
+   "age_ideal": "Jeune adulte",
+   "limite": "Son lien est long à bâtir et il redevient dominant et capricieux si le dresseur faiblit."
+  }
+ },
+ {
+  "id": "cro03",
+  "nouveau_nom": "Courtaude",
+  "sous_titre": "La Massue Embusquée",
+  "groupe": "crochues",
+  "rang": "◆ Commun",
+  "cr": 2,
+  "role_jeu": "membre_de_meute",
+  "taille_garrot_m": 1.1,
+  "hauteur_sprite_px": 40,
+  "hors_format_sprite": false,
+  "element_principal": "Neutre",
+  "element_secondaire": null,
+  "etats_infliges": [
+   "Paralysie"
+  ],
+  "lignee_draconique": false,
+  "terrain": "Forêts denses, ravins",
+  "apparence": {
+   "silhouette": "Bipède trapu, bas sur pattes, avec une grosse tête carrée et un cou court. Il avance avec lenteur, posant chaque patte avec soin. Vu de côté, il forme un bloc compact prêt à frapper à bout portant.",
+   "trait_distinctif": "Son dos est couvert de plaques d'écorce brune imbriquées en tuiles.",
+   "trait_cle": "dos-en-tuiles-d-ecorce",
+   "couleurs": [
+    "brun noyer",
+    "jaune soufre",
+    "gris lichen"
+   ],
+   "rappel_leger": "Petit frappeur de meute à l'affût, spécialiste de l'embuscade venimeuse.",
+   "difference_avec_ancienne": "Remplace la silhouette simplement trapue par un dos de tuiles d'écorce et un museau jaune soufre."
+  },
+  "description_courte": "Les Courtaudes attendent immobiles au pied des troncs et frappent à bout portant. Leur venin de glande, instable, se dégrade en six heures mais l'alchimie en tire un paralysant prisé des espions.",
+  "familier": {
+   "possible": true,
+   "lien_max": "conditionne",
+   "difficulte_dd": null,
+   "roles": [
+    "assistant_combat",
+    "pisteur"
+   ],
+   "aide_combat": "Il se glisse derrière la cible et la mord pour lui injecter une dose atténuée de venin paralysant qui ralentit ses mouvements.",
+   "transport": null,
+   "capacite_transport": null,
+   "age_ideal": "Jeune uniquement",
+   "limite": "Seuls les jeunes se laissent conditionner ; l'adulte retombe dans son instinct d'embuscade."
+  }
+ },
+ {
+  "id": "cro04",
+  "nouveau_nom": "Cendrasse",
+  "sous_titre": "Le Patient des Ravins",
+  "groupe": "crochues",
+  "rang": "◆◆ Rare",
+  "cr": 5,
+  "role_jeu": "chef_de_meute",
+  "taille_garrot_m": 1.8,
+  "hauteur_sprite_px": 66,
+  "hors_format_sprite": false,
+  "element_principal": "Neutre",
+  "element_secondaire": null,
+  "etats_infliges": [
+   "Paralysie"
+  ],
+  "lignee_draconique": false,
+  "terrain": "Ravins boisés, forêts à sous-bois dense",
+  "apparence": {
+   "silhouette": "Très bas et très large, plus large que haut vu de face, tête projetée au niveau des épaules. Il glisse dans les sous-bois avec un encombrement minimal et sans bruit. Les pattes sont courtes et massives, la queue plate.",
+   "trait_distinctif": "Une gemme laiteuse enchâssée au sommet du crâne pulse lentement comme une veilleuse.",
+   "trait_cle": "gemme-laiteuse-crane",
+   "couleurs": [
+    "gris cendre",
+    "blanc lait",
+    "brun terre"
+   ],
+   "rappel_leger": "Chef de meute silencieux, bas et aplati, maître de l'attente.",
+   "difference_avec_ancienne": "Remplace l'aplat gris sans ornement par un crâne orné d'une gemme pulsante et un corps cendré."
+  },
+  "description_courte": "Le Cendrasse conduit les Courtaudes à l'embuscade et attend, parfois des heures, le moment exact. La gemme de son crâne, de nature inconnue, est réclamée par les alchimistes.",
+  "familier": {
+   "possible": true,
+   "lien_max": "affectif",
+   "difficulte_dd": null,
+   "roles": [
+    "assistant_combat"
+   ],
+   "aide_combat": "Il neutralise une cible en l'immobilisant par la patience : il attend le moment propice puis se jette pour un coup décisif paralysant.",
+   "transport": null,
+   "capacite_transport": null,
+   "age_ideal": "Jeune adulte",
+   "limite": "Très difficile à apprivoiser ; il se retire dès qu'il se sent observé trop longtemps."
+  }
+ },
+ {
+  "id": "cro05",
+  "nouveau_nom": "Brandille",
+  "sous_titre": "Le Glaneur des Lisières",
+  "groupe": "crochues",
+  "rang": "◆ Commun",
+  "cr": 1,
+  "role_jeu": "membre_de_meute",
+  "taille_garrot_m": 1.1,
+  "hauteur_sprite_px": 40,
+  "hors_format_sprite": false,
+  "element_principal": "Neutre",
+  "element_secondaire": null,
+  "etats_infliges": [],
+  "lignee_draconique": false,
+  "terrain": "Forêts variées, zones de transition",
+  "apparence": {
+   "silhouette": "Bipède aviforme de petite taille, posture de course, queue de balancier. Silhouette presque générique mais reconnaissable à sa queue en Y, fourchue comme une brindille. Il s'arrête souvent pour fouiller le sol du bec.",
+   "trait_distinctif": "Sa queue se divise en deux pointes osseuses comme une branche fourchue.",
+   "trait_cle": "queue-fourchue-branche",
+   "couleurs": [
+    "beige paille",
+    "brun terre",
+    "roux pâle"
+   ],
+   "rappel_leger": "Bipède de meute le plus commun, base de toutes les rencontres de lisière.",
+   "difference_avec_ancienne": "Remplace la silhouette neutre sans particularité par une queue fourchue facile à repérer."
+  },
+  "description_courte": "Brandille est la crochue que les débutants apprennent à reconnaître en premier. Elle semble inoffensive ; en nombre, elle encercle et épuise. Son absence de particularité éprouve la vigilance des chasseurs.",
+  "familier": {
+   "possible": true,
+   "lien_max": "conditionne",
+   "difficulte_dd": null,
+   "roles": [
+    "eclaireur"
+   ],
+   "aide_combat": "Il se poste en vigie sur une hauteur, pousse un cri d'alerte à l'approche d'un danger et mord les mollets pour distraire une cible.",
+   "transport": null,
+   "capacite_transport": null,
+   "age_ideal": "Jeune uniquement",
+   "limite": "Conditionnement fragile ; hors compagnie du dresseur, il retourne à la meute."
+  }
+ },
+ {
+  "id": "cro06",
+  "nouveau_nom": "Aurelon",
+  "sous_titre": "Le Veilleur des Lisières",
+  "groupe": "crochues",
+  "rang": "◆◆ Rare",
+  "cr": 4,
+  "role_jeu": "chef_de_meute",
+  "taille_garrot_m": 2.1,
+  "hauteur_sprite_px": 77,
+  "hors_format_sprite": false,
+  "element_principal": "Neutre",
+  "element_secondaire": null,
+  "etats_infliges": [],
+  "lignee_draconique": false,
+  "terrain": "Forêts variées, zones de transition, périphéries habitées",
+  "apparence": {
+   "silhouette": "Grand bipède à l'air presque débonnaire, qui se tient souvent dressé aux deux tiers de sa hauteur pour surveiller. Le cou est long, la tête petite et ronde. Les bras sont longs, les griffes presque délicates, mais la queue est épaisse.",
+   "trait_distinctif": "Sous sa gorge pendent de larges fanons charnus orange, qui s'agitent quand il parle.",
+   "trait_cle": "fanons-gorge-orange",
+   "couleurs": [
+    "beige paille",
+    "orange vif",
+    "brun doux"
+   ],
+   "rappel_leger": "Chef de meute à l'air placide, dont la bienveillance apparente est trompeuse.",
+   "difference_avec_ancienne": "Remplace l'allure débonnaire sans marque par des fanons de gorge orange très visibles et une tête ronde."
+  },
+  "description_courte": "L'Aurelon surveille son territoire debout dans les hautes herbes, parfois jusqu'aux abords des villages. Le plus accessible des chefs de meute, mais son calme cache une charge totale.",
+  "familier": {
+   "possible": true,
+   "lien_max": "affectif",
+   "difficulte_dd": null,
+   "roles": [
+    "assistant_combat",
+    "monture_terre"
+   ],
+   "aide_combat": "Il garde l'équipe, charge l'adversaire qui menace un allié et rassemble les petits Brandilles voisins pour le renfort.",
+   "transport": "terrestre",
+   "capacite_transport": "1 personnage",
+   "age_ideal": "Jeune adulte",
+   "limite": "Il reste territorial près des lisières habitées et refuse de s'éloigner trop de sa zone."
+  }
+ },
+ {
+  "id": "cro07",
+  "nouveau_nom": "Dormelet",
+  "sous_titre": "Le Crapaud Dormeur",
+  "groupe": "crochues",
+  "rang": "◆ Commun",
+  "cr": 2,
+  "role_jeu": "membre_de_meute",
+  "taille_garrot_m": 1.0,
+  "hauteur_sprite_px": 37,
+  "hors_format_sprite": false,
+  "element_principal": "Neutre",
+  "element_secondaire": null,
+  "etats_infliges": [
+   "Sommeil"
+  ],
+  "lignee_draconique": false,
+  "terrain": "Grottes, zones de haute montagne, sous-bois humides",
+  "apparence": {
+   "silhouette": "Petit bipède râblé, avec une tête énorme et plate en proportion du corps. De face, il évoque une grenouille géante debout. Les yeux globuleux sont placés très haut, les pattes courtes, la queue épaisse et conique.",
+   "trait_distinctif": "Son menton porte un sac mandibulaire strié de violet, gonflé comme un ballon avant de cracher.",
+   "trait_cle": "sac-mandibulaire-raye",
+   "couleurs": [
+    "ardoise",
+    "violet pâle",
+    "gris vert"
+   ],
+   "rappel_leger": "Petit bipède de meute à tête de batracien, qui endort ses proies.",
+   "difference_avec_ancienne": "Remplace les poches jugales bleues par un unique sac sous le menton strié de violet."
+  },
+  "description_courte": "Les Dormelets vivent dans les grottes humides et la haute montagne. Leur sac venimeux libère une brume soporifique, mais leur humeur capricieuse rend leur dressage incertain.",
+  "familier": {
+   "possible": true,
+   "lien_max": "conditionne",
+   "difficulte_dd": null,
+   "roles": [
+    "assistant_combat",
+    "pisteur"
+   ],
+   "aide_combat": "Il souffle une bouffée de brume soporifique sur la cible pour la ralentir ; il peut aussi flairer les galeries d'une grotte.",
+   "transport": null,
+   "capacite_transport": null,
+   "age_ideal": "Jeune, avant la saison de mue",
+   "limite": "Comportement imprévisible : il peut s'endormir ou fuir en plein effort."
+  }
+ },
+ {
+  "id": "cro08",
+  "nouveau_nom": "Cabochon",
+  "sous_titre": "Le Souffleur de Brume",
+  "groupe": "crochues",
+  "rang": "◆◆ Rare",
+  "cr": 4,
+  "role_jeu": "chef_de_meute",
+  "taille_garrot_m": 1.7,
+  "hauteur_sprite_px": 62,
+  "hors_format_sprite": false,
+  "element_principal": "Neutre",
+  "element_secondaire": null,
+  "etats_infliges": [
+   "Sommeil"
+  ],
+  "lignee_draconique": false,
+  "terrain": "Zones cavernicoles, haute montagne, crevasses",
+  "apparence": {
+   "silhouette": "Bipède de belle taille mais moins impressionnant que sa tête, très large, comparable à celle d'un crapaud monstrueux. Le corps est élancé, les pattes fines, le cou court. Lors de la parade, la tête semble tripler de volume.",
+   "trait_distinctif": "Deux cabochons lisses de nacre translucide sur les tempes s'illuminent d'un halo lorsqu'il souffle.",
+   "trait_cle": "tempes-de-nacre",
+   "couleurs": [
+    "gris perle",
+    "vert d'eau",
+    "rose pâle"
+   ],
+   "rappel_leger": "Chef de meute à tête massive, maître des brumes qui endorment.",
+   "difference_avec_ancienne": "Remplace les poches jugales bleu roi par deux cabochons nacrés et une teinte perle."
+  },
+  "description_courte": "Le Cabochon conduit les Dormelets dans les crevasses. Sa brume, d'un bleu laiteux, est lourde de somnifère. Sa parade de dominance gonfle toute sa tête avant l'attaque.",
+  "familier": {
+   "possible": true,
+   "lien_max": "affectif",
+   "difficulte_dd": null,
+   "roles": [
+    "assistant_combat"
+   ],
+   "aide_combat": "Il souffle une brume apaisante qui endort ou alourdit les adversaires de petite taille et couvre la retraite d'un compagnon blessé.",
+   "transport": null,
+   "capacite_transport": null,
+   "age_ideal": "Jeune adulte",
+   "limite": "Lien rare et fragile ; il boude longtemps après un conflit avec d'autres créatures."
+  }
+ },
+ {
+  "id": "cro09",
+  "nouveau_nom": "Anguillade",
+  "sous_titre": "Le Fileur des Vases",
+  "groupe": "crochues",
+  "rang": "◆ Commun",
+  "cr": 2,
+  "role_jeu": "membre_de_meute",
+  "taille_garrot_m": 1.1,
+  "hauteur_sprite_px": 40,
+  "hors_format_sprite": false,
+  "element_principal": "Neutre",
+  "element_secondaire": null,
+  "etats_infliges": [
+   "Poison"
+  ],
+  "lignee_draconique": false,
+  "terrain": "Marécages, zones humides, mangroves",
+  "apparence": {
+   "silhouette": "Bipède allongé et fin, taillé pour glisser entre les joncs. La queue longue forme près des quatre cinquièmes de sa longueur et sert de gouvernail. Il avance le cou en S, presque au ras de l'eau.",
+   "trait_distinctif": "Un rideau de membrane dorsale continue court de la nuque à la queue, comme une nageoire d'anguille.",
+   "trait_cle": "rideau-dorsal-membraneux",
+   "couleurs": [
+    "vert vase",
+    "jaune citron",
+    "noir"
+   ],
+   "rappel_leger": "Petit bipède de marais, discret et venimeux.",
+   "difference_avec_ancienne": "Remplace la longue queue seule par un rideau de membrane dorsale continu et une teinte vert vase."
+  },
+  "description_courte": "Les Anguillades filent dans les joncs et mordent sans que l'on voie d'où vient le coup. Leur morsure est difficile à identifier et le dressage est tenu pour impossible.",
+  "familier": {
+   "possible": false
+  }
+ },
+ {
+  "id": "cro10",
+  "nouveau_nom": "Bourbelune",
+  "sous_titre": "Le Serpent de Fange",
+  "groupe": "crochues",
+  "rang": "◆◆ Rare",
+  "cr": 5,
+  "role_jeu": "chef_de_meute",
+  "taille_garrot_m": 1.8,
+  "hauteur_sprite_px": 66,
+  "hors_format_sprite": false,
+  "element_principal": "Neutre",
+  "element_secondaire": null,
+  "etats_infliges": [
+   "Poison"
+  ],
+  "lignee_draconique": false,
+  "terrain": "Marécages profonds, zones de décomposition organique",
+  "apparence": {
+   "silhouette": "Grand bipède longiligne à la colonne très flexible, qui ondule même sur sol ferme, comme une vague. Cou serpentin, bras réduits, queue très longue et épaisse à la base. Il frappe depuis des angles inattendus.",
+   "trait_distinctif": "Deux rangées de pustules luminescentes jaune pâle courent sur ses flancs comme des lanternes de marais.",
+   "trait_cle": "pustules-lanternes-flancs",
+   "couleurs": [
+    "vert vase profond",
+    "jaune pâle",
+    "rouille"
+   ],
+   "rappel_leger": "Chef de meute flexible et vénéneux des marais.",
+   "difference_avec_ancienne": "Remplace la silhouette lisse par des pustules lumineuses sur les flancs et un cou plus serpentin."
+  },
+  "description_courte": "La Bourbelune mène les Anguillades dans les eaux troubles. Sa démarche ondulante défie la défense. Un très vieux sujet peut cristalliser une gemme de marécage, rare butin.",
+  "familier": {
+   "possible": true,
+   "lien_max": "partiel",
+   "difficulte_dd": null,
+   "roles": [
+    "pisteur"
+   ],
+   "aide_combat": "Il flaire les pistes dans les marais, signale les adversaires cachés et, au besoin, mord pour infliger un poison atténué.",
+   "transport": null,
+   "capacite_transport": null,
+   "age_ideal": "Jeune adulte",
+   "limite": "Conditionnement très risqué : la morsure peut se déclencher sans prévenir."
+  }
+ },
+ {
+  "id": "cro11",
+  "nouveau_nom": "Diadelle",
+  "sous_titre": "La Fière au Prisme",
+  "groupe": "crochues",
+  "rang": "◆◆ Rare",
+  "cr": 4,
+  "role_jeu": "mini_boss",
+  "taille_garrot_m": 1.6,
+  "hauteur_sprite_px": 59,
+  "hors_format_sprite": false,
+  "element_principal": "Neutre",
+  "element_secondaire": null,
+  "etats_infliges": [
+   "Éblouissement"
+  ],
+  "lignee_draconique": false,
+  "terrain": "Forêts humides, marges de marécage",
+  "apparence": {
+   "silhouette": "Bipède trapu mais haut sur pattes, droit, tête légèrement relevée, d'un air fier. La tête porte un lourd collier de cristaux. Les bras sont courts et les griffes petites, la queue épaisse et courte.",
+   "trait_distinctif": "Un collier de gouttelettes de cristal pend à des fanons sous son menton et tinte en lançant des éclats.",
+   "trait_cle": "fanons-gouttes-cristal",
+   "couleurs": [
+    "bleu acier",
+    "blanc givre",
+    "ambre"
+   ],
+   "rappel_leger": "Solitaire dressé de forêt humide, qui aveugle ses adversaires par la lumière.",
+   "difference_avec_ancienne": "Remplace la huppe crânienne creuse par des fanons chargés de gouttes de cristal."
+  },
+  "description_courte": "La Diadelle aveugle ses adversaires en faisant éclater la lumière sur ses cristaux. Elle vit seule, en groupes de deux à quatre à la saison des amours. Les artificiers convoitent ses cristaux.",
+  "familier": {
+   "possible": true,
+   "lien_max": "partiel",
+   "difficulte_dd": null,
+   "roles": [
+    "assistant_combat",
+    "signal"
+   ],
+   "aide_combat": "Il fait claquer ses cristaux pour aveugler brièvement la cible, laissant un répit à ses alliés ; il peut aussi lancer un signal lumineux à distance.",
+   "transport": null,
+   "capacite_transport": null,
+   "age_ideal": "Jeune adulte",
+   "limite": "Imprévisible : la lumière l'excite et peut le rendre agressif envers son propre maître."
+  }
+ },
+ {
+  "id": "cro12",
+  "nouveau_nom": "Calorine",
+  "sous_titre": "L'Oreille de Forge",
+  "groupe": "crochues",
+  "rang": "◆◆ Rare",
+  "cr": 5,
+  "role_jeu": "mini_boss",
+  "taille_garrot_m": 1.9,
+  "hauteur_sprite_px": 70,
+  "hors_format_sprite": false,
+  "element_principal": "Feu",
+  "element_secondaire": null,
+  "etats_infliges": [],
+  "lignee_draconique": false,
+  "terrain": "Forêts chaudes, zones volcaniques périphériques",
+  "apparence": {
+   "silhouette": "Grand bipède massif au poitrail bombé, tête portée bas. Une voile de peau veinée se dresse sur la nuque. Les pattes sont épaisses, les bras longs et musclés, la queue en balancier lourde.",
+   "trait_distinctif": "Une voile de peau translucide veinée de rouge se dresse sur sa nuque comme une voile de felouque.",
+   "trait_cle": "voile-nuque-veinee",
+   "couleurs": [
+    "rouge brique",
+    "orange cuivre",
+    "noir charbon"
+   ],
+   "rappel_leger": "Grand solitaire de feu, qui harcèle et ne tolère aucun rival.",
+   "difference_avec_ancienne": "Remplace les oreilles-nageoires par une unique voile de nuque veinée de rouge."
+  },
+  "description_courte": "La Calorine est solitaire stricte. Sa voile de peau, conductrice de chaleur sans brûler, protège du feu et se vend très cher aux forgerons des terres volcaniques.",
+  "familier": {
+   "possible": false
+  }
+ },
+ {
+  "id": "cro13",
+  "nouveau_nom": "Colporin",
+  "sous_titre": "Le Colporteur de Roche",
+  "groupe": "crochues",
+  "rang": "◆◆ Rare",
+  "cr": 3,
+  "role_jeu": "mini_boss",
+  "taille_garrot_m": 1.8,
+  "hauteur_sprite_px": 66,
+  "hors_format_sprite": false,
+  "element_principal": "Neutre",
+  "element_secondaire": null,
+  "etats_infliges": [],
+  "lignee_draconique": false,
+  "terrain": "Zones rocheuses, falaises, cols de montagne",
+  "apparence": {
+   "silhouette": "Grand bipède à la posture droite, aux avant-bras développés en véritables mains. Il porte presque toujours un objet contre la poitrine. La tête est petite et attentive, la queue courte et haute.",
+   "trait_distinctif": "Une poche ventrale en sac de peau lui sert de besace, où cliquettent galets et os.",
+   "trait_cle": "poche-ventrale-galets",
+   "couleurs": [
+    "gris granit",
+    "ocre",
+    "bleu ardoise"
+   ],
+   "rappel_leger": "Solitaire manipulateur, qui lance des pierres et se montre étonnamment sociable.",
+   "difference_avec_ancienne": "Remplace le simple port d'objets par une poche ventrale visible et un gabarit plus voûté."
+  },
+  "description_courte": "Le Colporin ramasse cailloux, os et branches, qu'il garde dans sa poche ventrale. Il lance avec une précision effrayante mais tolère l'homme à distance. Son tendon de bras intéresse les ingénieurs.",
+  "familier": {
+   "possible": true,
+   "lien_max": "affectif",
+   "difficulte_dd": null,
+   "roles": [
+    "assistant_combat",
+    "bete_de_somme",
+    "recolte"
+   ],
+   "aide_combat": "Il lance des pierres sur les points faibles d'une cible, à distance, et peut rapporter des objets ramassés dans sa poche.",
+   "transport": null,
+   "capacite_transport": null,
+   "age_ideal": "Jeune adulte",
+   "limite": "Il garde un goût pour la collection et peut disparaître avec le butin au lieu de le rapporter."
+  }
+ },
+ {
+  "id": "cro14",
+  "nouveau_nom": "Belladine",
+  "sous_titre": "La Danseuse Venimeuse",
+  "groupe": "crochues",
+  "rang": "◆◆ Rare",
+  "cr": 4,
+  "role_jeu": "mini_boss",
+  "taille_garrot_m": 1.7,
+  "hauteur_sprite_px": 62,
+  "hors_format_sprite": false,
+  "element_principal": "Eau",
+  "element_secondaire": null,
+  "etats_infliges": [
+   "Poison"
+  ],
+  "lignee_draconique": false,
+  "terrain": "Forêts humides tropicales, zones riches en végétation",
+  "apparence": {
+   "silhouette": "Bipède élancé, presque fragile, aux longues pattes, au long cou et à la longue queue. Elle se déplace en pas dansants avec des balancements de tête. Le contraste avec le brun-gris des autres crochues est total.",
+   "trait_distinctif": "Des lobes de peau en pétales forment une corolle autour de son cou.",
+   "trait_cle": "corolle-cou-petales",
+   "couleurs": [
+    "vert émeraude",
+    "magenta",
+    "turquoise"
+   ],
+   "rappel_leger": "Solitaire coloré et venimeux, aux couleurs d'avertissement.",
+   "difference_avec_ancienne": "Remplace la palette vert-bleu-violet par une corolle de pétales magenta et turquoise."
+  },
+  "description_courte": "La Belladine annonce son venin par ses couleurs. Son pas de danse hypnotise avant la morsure. Le dressage conditionné est possible mais instable à long terme.",
+  "familier": {
+   "possible": true,
+   "lien_max": "partiel",
+   "difficulte_dd": null,
+   "roles": [
+    "assistant_combat",
+    "signal"
+   ],
+   "aide_combat": "Elle danse devant la cible pour attirer son attention et lui administre une morsure empoisonnée ; ses couleurs servent de signal.",
+   "transport": null,
+   "capacite_transport": null,
+   "age_ideal": "Jeune adulte",
+   "limite": "Instable à long terme : son venin peut se déclencher hors contrôle."
+  }
+ },
+ {
+  "id": "cro15",
+  "nouveau_nom": "Arcelune",
+  "sous_titre": "Le Fanal des Falaises",
+  "groupe": "crochues",
+  "rang": "◆◆ Rare",
+  "cr": 4,
+  "role_jeu": "mini_boss",
+  "taille_garrot_m": 1.8,
+  "hauteur_sprite_px": 66,
+  "hors_format_sprite": false,
+  "element_principal": "Foudre",
+  "element_secondaire": null,
+  "etats_infliges": [
+   "Éblouissement"
+  ],
+  "lignee_draconique": false,
+  "terrain": "Falaises côtières, zones de récif, îles rocheuses",
+  "apparence": {
+   "silhouette": "Bipède trapu et large, bas sur pattes, avec une tête plus haute que large. Il fouille les rochers à la lisière de l'eau, les ailes vestigiales ouvertes pour s'équilibrer sur les galets. La queue est épaisse.",
+   "trait_distinctif": "Derrière chaque œil brille un disque osseux rond comme une lune, blanc-bleu.",
+   "trait_cle": "disques-lunes-nuque",
+   "couleurs": [
+    "gris schiste",
+    "blanc bleuté",
+    "jaune citron"
+   ],
+   "rappel_leger": "Solitaire côtier à signal lumineux, qui éblouit et foudroie.",
+   "difference_avec_ancienne": "Remplace les deux nageoires crâniennes par deux disques osseux ronds, comme des lunes."
+  },
+  "description_courte": "L'Arcelune vit en couple territorial à la saison de nidification. Ses disques osseux produisent un éclair aveuglant. Impossible à dresser.",
+  "familier": {
+   "possible": false
+  }
+ },
+ {
+  "id": "cro16",
+  "nouveau_nom": "Dambrais",
+  "sous_titre": "Le Fileur des Savanes",
+  "groupe": "crochues",
+  "rang": "◆◆ Rare",
+  "cr": 5,
+  "role_jeu": "mini_boss",
+  "taille_garrot_m": 2.0,
+  "hauteur_sprite_px": 73,
+  "hors_format_sprite": false,
+  "element_principal": "Feu",
+  "element_secondaire": null,
+  "etats_infliges": [],
+  "lignee_draconique": false,
+  "terrain": "Plaines arides, savanes, zones semi-désertiques",
+  "apparence": {
+   "silhouette": "Bipède le plus haut sur pattes de sa famille, aux membres postérieurs longs et fins, à la course ample. Cou dressé, tête petite, bras maigres. Les jarrets portent des anneaux noirs.",
+   "trait_distinctif": "Sa queue s'ouvre en éventail de lamelles cornées rouges, déployé à l'horizontale comme celui d'une danseuse.",
+   "trait_cle": "queue-eventail-lamelles",
+   "couleurs": [
+    "sable",
+    "rouge corail",
+    "noir"
+   ],
+   "rappel_leger": "Grand coureur des plaines, rapide et enflammé.",
+   "difference_avec_ancienne": "Remplace la collerette radiale par un éventail de lamelles rouges à la queue et des jarrets annelés."
+  },
+  "description_courte": "Le Dambrais court sur terrain plat à une vitesse que peu de proies égalent. Son éventail concentre la chaleur du soleil. Chose surprenante, un lien affectif est documenté.",
+  "familier": {
+   "possible": true,
+   "lien_max": "affectif",
+   "difficulte_dd": null,
+   "roles": [
+    "monture_terre",
+    "eclaireur"
+   ],
+   "aide_combat": "Il fonce à travers la plaine pour couper la retraite de la cible et enflamme sa queue pour une charge de feu.",
+   "transport": "terrestre",
+   "capacite_transport": "1 personnage",
+   "age_ideal": "Jeune adulte",
+   "limite": "Son endurance s'épuise aux heures chaudes et il refuse de courir hors des plaines."
+  }
+ },
+ {
+  "id": "cro17",
+  "nouveau_nom": "Balafrette",
+  "sous_titre": "Le Visage Sans Retrait",
+  "groupe": "crochues",
+  "rang": "◆◆◆ Élite",
+  "cr": 12,
+  "role_jeu": "boss",
+  "taille_garrot_m": 2.4,
+  "hauteur_sprite_px": 88,
+  "hors_format_sprite": false,
+  "element_principal": "Feu",
+  "element_secondaire": null,
+  "etats_infliges": [
+   "Poison"
+  ],
+  "lignee_draconique": false,
+  "terrain": "Forêts denses et montagneuses, zones de haute altitude",
+  "apparence": {
+   "silhouette": "Corps dense et anguleux, sans la moindre gracilité. Posture basse, tête en avant, bras puissants. Les cicatrices anciennes marquent chaque flanc. Il avance en ligne droite, sans esquive.",
+   "trait_distinctif": "Sa mâchoire inférieure, brisée et ressoudée de travers, laisse un croc pendre hors de la gueule.",
+   "trait_cle": "machoire-ressoudee-torse",
+   "couleurs": [
+    "violet sombre",
+    "noir de forge",
+    "ocre"
+   ],
+   "rappel_leger": "Grande crochue d'élite, agressive et vénéneuse.",
+   "difference_avec_ancienne": "Remplace les cicatrices diffuses par une mâchoire ressoudée de travers et un croc pendant."
+  },
+  "description_courte": "Le Balafrette est la dissonance faite chair : une crochue de taille élite, plus violente qu'une meute entière. Sa gemme pourpre est la plus rare de la famille.",
+  "familier": {
+   "possible": false
+  }
+ },
+ {
+  "id": "cro18",
+  "nouveau_nom": "Delirande",
+  "sous_titre": "Le Furieux Sans Mesure",
+  "groupe": "crochues",
+  "rang": "◆◆◆◆ Légendaire",
+  "cr": 18,
+  "role_jeu": "boss",
+  "taille_garrot_m": 2.6,
+  "hauteur_sprite_px": 95,
+  "hors_format_sprite": false,
+  "element_principal": "Feu",
+  "element_secondaire": null,
+  "etats_infliges": [
+   "Poison"
+  ],
+  "lignee_draconique": false,
+  "terrain": "Variable, s'installe n'importe où",
+  "apparence": {
+   "silhouette": "Le corps du Balafrette, mais déformé, ravagé, avec une posture mal assurée. La tête oscille. Les flancs sont zébrés de sillons suintants. Il charge sans calcul.",
+   "trait_distinctif": "Un œil laiteux et une couronne de pointes cassées entourent son crâne ravagé.",
+   "trait_cle": "oeil-laiteux-pointes-brisees",
+   "couleurs": [
+    "gris cendre",
+    "rouge cru",
+    "vert bilieux"
+   ],
+   "rappel_leger": "Grande crochue légendaire, rendue folle de rage.",
+   "difference_avec_ancienne": "Remplace la musculature anguleuse du modèle par un crâne ravagé, un œil laiteux et des flancs sillonnés."
+  },
+  "description_courte": "Le Delirande est un Balafrette dont l'inhibition de combat est abolie. Il ne reconnaît plus les signaux d'apaisement et attaque tout ce qui bouge. Aucun dressage n'est concevable.",
+  "familier": {
+   "possible": false
+  }
+ },
+ {
+  "id": "cro19",
+  "nouveau_nom": "Damasquine",
+  "sous_titre": "La Lame d'Or des Falaises",
+  "groupe": "crochues",
+  "rang": "◆◆◆ Élite",
+  "cr": 11,
+  "role_jeu": "boss",
+  "taille_garrot_m": 2.2,
+  "hauteur_sprite_px": 81,
+  "hors_format_sprite": false,
+  "element_principal": "Neutre",
+  "element_secondaire": null,
+  "etats_infliges": [
+   "Saignée"
+  ],
+  "lignee_draconique": false,
+  "terrain": "Falaises de haute altitude, zones venteuses",
+  "apparence": {
+   "silhouette": "Bipède élancé et large d'épaules, aux ailes courtes capables de planer le long des falaises. Le corps est taillé pour l'arme : tout est tranchant. La queue est un long balancier effilé.",
+   "trait_distinctif": "Ses écailles-lames dorées se chevauchent en persiennes sur le dos et les ailes.",
+   "trait_cle": "ecailles-persiennes-dorees",
+   "couleurs": [
+    "or",
+    "brun sombre",
+    "blanc sale"
+   ],
+   "rappel_leger": "Grande crochue planeuse, aux écailles-lames, dangereuse de haut.",
+   "difference_avec_ancienne": "Remplace les lames éparses par des écailles en persiennes dorées sur le dos et les ailes."
+  },
+  "description_courte": "La Damasquine chasse en planant le long des falaises et jette ses lames comme des couteaux. Les guildes organisent des expéditions pour récupérer ses écailles dorées.",
+  "familier": {
+   "possible": false
+  }
+ },
+ {
+  "id": "cro20",
+  "nouveau_nom": "Améthyne",
+  "sous_titre": "Le Prisme Violet",
+  "groupe": "crochues",
+  "rang": "◆◆◆ Élite",
+  "cr": 7,
+  "role_jeu": "boss",
+  "taille_garrot_m": 1.6,
+  "hauteur_sprite_px": 59,
+  "hors_format_sprite": false,
+  "element_principal": "Neutre",
+  "element_secondaire": null,
+  "etats_infliges": [
+   "Poison",
+   "Éblouissement"
+  ],
+  "lignee_draconique": false,
+  "terrain": "Marges de marécage, forêts humides toxiques",
+  "apparence": {
+   "silhouette": "Parent de la Diadelle, mais plus ramassé et plus agressif. Le dos est hérissé d'aiguilles de cristal violet, la tête plus petite. La posture reste haute, avec les cristaux tournés vers l'adversaire.",
+   "trait_distinctif": "Son dos est hérissé d'aiguilles d'améthyste qui exhalent une fumée toxique.",
+   "trait_cle": "aiguilles-amethyste-dos",
+   "couleurs": [
+    "violet",
+    "noir",
+    "vert toxique"
+   ],
+   "rappel_leger": "Solitaire cristallin, variante empoisonnée d'un parent plus clair.",
+   "difference_avec_ancienne": "Remplace le collier de gouttes de cristal de la Diadelle par des aiguilles d'améthyste sur le dos."
+  },
+  "description_courte": "L'Améthyne partage l'énergie de ses cristaux entre éblouissement et venin. Son dos exhale une nuée violette quand il se met en chasse. Sauvage et impossible à dresser.",
+  "familier": {
+   "possible": false
+  }
+ },
+ {
+  "id": "cro21",
+  "nouveau_nom": "Brontelle",
+  "sous_titre": "Le Tonnerre des Falaises",
+  "groupe": "crochues",
+  "rang": "◆◆ Rare",
+  "cr": 5,
+  "role_jeu": "mini_boss",
+  "taille_garrot_m": 1.9,
+  "hauteur_sprite_px": 70,
+  "hors_format_sprite": false,
+  "element_principal": "Foudre",
+  "element_secondaire": null,
+  "etats_infliges": [],
+  "lignee_draconique": false,
+  "terrain": "Zones côtières, falaises tempétueuses",
+  "apparence": {
+   "silhouette": "Cousin de l'Arcelune, plus grand et plus dressé, avec un dos de pointes. Il se tient dans le vent, la queue levée. Les griffes sont longues.",
+   "trait_distinctif": "Son dos porte des tiges cornées dressées comme autant de paratonnerres.",
+   "trait_cle": "tiges-paratonnerre-dos",
+   "couleurs": [
+    "bleu nuit",
+    "argent",
+    "jaune"
+   ],
+   "rappel_leger": "Solitaire côtier à foudre accumulée, plus agressif que son cousin.",
+   "difference_avec_ancienne": "Remplace les disques lumineux du cousin par des tiges cornées en paratonnerre sur le dos."
+  },
+  "description_courte": "La Brontelle accumule la charge de l'orage dans les tiges de son dos. Elle frappe en décharge après une longue accumulation. Aucun dressage n'a pu être mené.",
+  "familier": {
+   "possible": false
+  }
+ },
+ {
+  "id": "cro22",
+  "nouveau_nom": "Cressane",
+  "sous_titre": "La Pêcheuse des Cascades",
+  "groupe": "crochues",
+  "rang": "◆◆ Rare",
+  "cr": 4,
+  "role_jeu": "mini_boss",
+  "taille_garrot_m": 1.7,
+  "hauteur_sprite_px": 62,
+  "hors_format_sprite": false,
+  "element_principal": "Eau",
+  "element_secondaire": null,
+  "etats_infliges": [
+   "Poison"
+  ],
+  "lignee_draconique": false,
+  "terrain": "Rivières de montagne, cascades, sources",
+  "apparence": {
+   "silhouette": "Cousine de la Belladine, plus massive, lisse, avec la queue en ruban natatoire. Elle se tient près des chutes. Les pattes sont palmées.",
+   "trait_distinctif": "Sa peau translucide laisse voir un réseau de veines d'eau bleue.",
+   "trait_cle": "peau-translucide-veinee",
+   "couleurs": [
+    "turquoise",
+    "argent",
+    "blanc"
+   ],
+   "rappel_leger": "Solitaire des cascades, au venin aquatique atténué.",
+   "difference_avec_ancienne": "Remplace la corolle colorée du modèle par une peau translucide et des pattes palmées."
+  },
+  "description_courte": "La Cressane chasse au bord des cascades et détecte l'eau pure. Son venin aquatique est moins instable que celui de sa cousine. Les expéditions de montagne l'emploient comme détecteur d'eau potable.",
+  "familier": {
+   "possible": true,
+   "lien_max": "partiel",
+   "difficulte_dd": 11,
+   "roles": [
+    "pisteur",
+    "eclaireur"
+   ],
+   "aide_combat": "Elle flaire les sources et les poisons dans l'eau, et lance un jet d'eau chargé d'un venin léger sur l'ennemi.",
+   "transport": null,
+   "capacite_transport": null,
+   "age_ideal": "Jeune adulte",
+   "limite": "Le lien conditionné tient mieux que celui de sa cousine, mais elle refuse de quitter les cours d'eau."
+  }
+ },
+ {
+  "id": "cro23",
+  "nouveau_nom": "Crinoline",
+  "sous_titre": "Le Rêveur à Crinière",
+  "groupe": "crochues",
+  "rang": "◆◆◆ Élite",
+  "cr": 9,
+  "role_jeu": "boss",
+  "taille_garrot_m": 2.0,
+  "hauteur_sprite_px": 73,
+  "hors_format_sprite": false,
+  "element_principal": "Feu",
+  "element_secondaire": null,
+  "etats_infliges": [
+   "Sommeil"
+  ],
+  "lignee_draconique": false,
+  "terrain": "Forêts profondes, zones thermales boisées",
+  "apparence": {
+   "silhouette": "Grand bipède à la posture basse et lente, comme à demi endormi. La silhouette est plus sophistiquée que brutale. Une longue crinière tombe en jupe jusqu'au sol, ce qui cache les pattes.",
+   "trait_distinctif": "Une jupe de plumes duveteuses rose pâle tombe de sa nuque et laisse échapper de fins filets de fumée.",
+   "trait_cle": "jupe-de-plumes-fumante",
+   "couleurs": [
+    "rose cendre",
+    "gris perle",
+    "orange braise"
+   ],
+   "rappel_leger": "Grande crochue somnolente, entourée de fumée.",
+   "difference_avec_ancienne": "Remplace la crinière simple par une jupe de plumes roses fumantes qui masque les pattes."
+  },
+  "description_courte": "La Crinoline paraît toujours à demi endormie, mais son métabolisme lui laisse une énergie considérable. Sa plume thermique diffuse un effet de zone au simple port.",
+  "familier": {
+   "possible": true,
+   "lien_max": "partiel",
+   "difficulte_dd": null,
+   "roles": [
+    "assistant_combat"
+   ],
+   "aide_combat": "Elle expire une fumée soporifique qui ralentit la cible, laissant le temps de frapper.",
+   "transport": null,
+   "capacite_transport": null,
+   "age_ideal": "Jeune adulte",
+   "limite": "Conditionnement uniquement, avec précautions extrêmes ; sa fumée peut endormir son propre maître."
+  }
+ },
+ {
+  "id": "cro24",
+  "nouveau_nom": "Charivari",
+  "sous_titre": "Le Chœur Trompeur",
+  "groupe": "crochues",
+  "rang": "◆◆ Rare",
+  "cr": 5,
+  "role_jeu": "mini_boss",
+  "taille_garrot_m": 1.8,
+  "hauteur_sprite_px": 66,
+  "hors_format_sprite": false,
+  "element_principal": "Feu",
+  "element_secondaire": "Eau",
+  "etats_infliges": [],
+  "lignee_draconique": false,
+  "terrain": "Forêts mixtes humides, zones côtières boisées",
+  "apparence": {
+   "silhouette": "Bipède à l'apparence composite, comme bâti de pièces d'espèces différentes. La gorge est un soufflet qui triple de volume. Le corps est plus banal. La queue est droite.",
+   "trait_distinctif": "Tout son corps est couvert d'écailles en damier arlequin, rouge-bleu et vert-jaune.",
+   "trait_cle": "damier-arlequin",
+   "couleurs": [
+    "rouge",
+    "bleu",
+    "jaune"
+   ],
+   "rappel_leger": "Solitaire imitateur, dont l'aspect trompe autant que la voix.",
+   "difference_avec_ancienne": "Remplace la crête multicolore à plaques par un damier arlequin sur tout le corps."
+  },
+  "description_courte": "Le Charivari imite n'importe quel son avec sa gorge en soufflet. Sa poche gutturale vaut une fortune chez les luthiers. Son élément alterne entre feu et eau selon la saison.",
+  "familier": {
+   "possible": true,
+   "lien_max": "affectif",
+   "difficulte_dd": null,
+   "roles": [
+    "eclaireur",
+    "signal"
+   ],
+   "aide_combat": "Il imite des cris d'alerte ou de commandement pour tromper un adversaire et relayer des signaux à distance.",
+   "transport": null,
+   "capacite_transport": null,
+   "age_ideal": "Jeune adulte",
+   "limite": "Rare et solide mais bavard : il peut imiter les alertes à contretemps."
+  }
+ },
+ {
+  "id": "cro25",
+  "nouveau_nom": "Clairon",
+  "sous_titre": "Le Souffleur de Forge",
+  "groupe": "crochues",
+  "rang": "◆◆ Rare",
+  "cr": 5,
+  "role_jeu": "mini_boss",
+  "taille_garrot_m": 1.8,
+  "hauteur_sprite_px": 66,
+  "hors_format_sprite": false,
+  "element_principal": "Feu",
+  "element_secondaire": null,
+  "etats_infliges": [],
+  "lignee_draconique": false,
+  "terrain": "Zones volcaniques, forêts tempérées proches de sources de chaleur",
+  "apparence": {
+   "silhouette": "Variante fixe du Charivari, au corps uni, cuivré, plus lourd. La gorge est un pavillon évasé. Le cou est court, la posture ramassée.",
+   "trait_distinctif": "Sa gorge en pavillon de trompette cuivrée crache des flammèches.",
+   "trait_cle": "gorge-pavillon-cuivre",
+   "couleurs": [
+    "cuivre",
+    "noir de suie",
+    "orange"
+   ],
+   "rappel_leger": "Solitaire vocal à flammes, variante fixe d'un imitateur.",
+   "difference_avec_ancienne": "Remplace le damier arlequin par un corps cuivre uni et une gorge évasée en trompette."
+  },
+  "description_courte": "Le Clairon crache des flammes à chaque grand cri et se distingue du Charivari par son élément fixe. Les forges l'emploient comme source de feu contrôlée.",
+  "familier": {
+   "possible": true,
+   "lien_max": "partiel",
+   "difficulte_dd": 14,
+   "roles": [
+    "assistant_combat",
+    "signal"
+   ],
+   "aide_combat": "Il pousse un cri enflammé en cône devant la cible et allume les foyers de signal.",
+   "transport": null,
+   "capacite_transport": null,
+   "age_ideal": "Jeune adulte",
+   "limite": "Les flammes de ses cris rendent l'approche dangereuse."
+  }
+ },
+ {
+  "id": "cro26",
+  "nouveau_nom": "Duvetine",
+  "sous_titre": "Le Passant de Ouate",
+  "groupe": "crochues",
+  "rang": "◆◆◆ Élite",
+  "cr": 10,
+  "role_jeu": "boss",
+  "taille_garrot_m": 1.9,
+  "hauteur_sprite_px": 70,
+  "hors_format_sprite": false,
+  "element_principal": "Vent",
+  "element_secondaire": null,
+  "etats_infliges": [
+   "Sommeil"
+  ],
+  "lignee_draconique": false,
+  "terrain": "Forêts de haute altitude, zones de vents persistants",
+  "apparence": {
+   "silhouette": "Grand bipède silencieux. Les pas ne font aucun bruit. Le corps est comme enveloppé d'un nuage de duvet. Un calme étrange précède son arrivée.",
+   "trait_distinctif": "Ses écailles feutrées gris souris ont un toucher de laine, et sa queue est frangée de lanières ouatées.",
+   "trait_cle": "ecailles-feutrees-grises",
+   "couleurs": [
+    "gris perle",
+    "blanc cassé",
+    "bleu brume"
+   ],
+   "rappel_leger": "Grande crochue silencieuse, qui absorbe les sons autour d'elle.",
+   "difference_avec_ancienne": "Remplace l'aspect d'écailles absorbantes par un feutrage laineux et une queue à franges."
+  },
+  "description_courte": "La Duvetine est la crochue la plus silencieuse : un rayon de cinq mètres d'étouffement précède sa venue. Son écaille absorbante est très prisée des infiltrateurs.",
+  "familier": {
+   "possible": false
+  }
+ },
+ {
+  "id": "cro27",
+  "nouveau_nom": "Anthracine",
+  "sous_titre": "L'Ombre Changeante",
+  "groupe": "crochues",
+  "rang": "◆◆ Rare",
+  "cr": 6,
+  "role_jeu": "mini_boss",
+  "taille_garrot_m": 1.9,
+  "hauteur_sprite_px": 70,
+  "hors_format_sprite": false,
+  "element_principal": "Ombre",
+  "element_secondaire": null,
+  "etats_infliges": [],
+  "lignee_draconique": false,
+  "terrain": "Forêts nocturnes, zones de Corruption légère, falaises ombragées",
+  "apparence": {
+   "silhouette": "Grand bipède dont les contours se brouillent selon la lumière. Le jour, il est sombre et net. La nuit, le profil se fond dans l'obscurité. La queue est longue.",
+   "trait_distinctif": "Ses flancs sont semés de taches claires qui se déplacent comme un ciel étoilé, et ses yeux n'ont pas de pupille.",
+   "trait_cle": "flancs-constelles",
+   "couleurs": [
+    "noir bleuté",
+    "argent",
+    "violet"
+   ],
+   "rappel_leger": "Solitaire nocturne, dissimulé et changeant.",
+   "difference_avec_ancienne": "Remplace les écailles noir-bleu uniformes par des taches claires mobiles et des yeux sans pupille."
+  },
+  "description_courte": "L'Anthracine est difficile à décrire : ses contours changent selon la lumière. Son écaille diffractive offre un camouflage actif aux guildes d'infiltration.",
+  "familier": {
+   "possible": false
+  }
+ },
+ {
+  "id": "cro28",
+  "nouveau_nom": "Blindelle",
+  "sous_titre": "Le Rampant des Catacombes",
+  "groupe": "crochues",
+  "rang": "◆ Commun",
+  "cr": 2,
+  "role_jeu": "membre_de_meute",
+  "taille_garrot_m": 1.0,
+  "hauteur_sprite_px": 37,
+  "hors_format_sprite": false,
+  "element_principal": "Ombre",
+  "element_secondaire": null,
+  "etats_infliges": [],
+  "lignee_draconique": false,
+  "terrain": "Galeries souterraines, catacombes, grottes profondes",
+  "apparence": {
+   "silhouette": "Petit bipède fuselé de même charpente que le trotteur de sous-bois, mais plus ramassé et bas, pour passer sous les plafonds. Le cou est court. La tête est lisse.",
+   "trait_distinctif": "Elle n'a pas d'yeux : deux fossettes lisses et de longues vibrisses tâtent l'air.",
+   "trait_cle": "vibrisses-sans-yeux",
+   "couleurs": [
+    "blanc osseux",
+    "rose",
+    "gris"
+   ],
+   "rappel_leger": "Petit bipède de meute des galeries, aveugle et prévisible.",
+   "difference_avec_ancienne": "Remplace les yeux et le dos de lichen du modèle par des vibrisses et une peau blanche."
+  },
+  "description_courte": "Les Blindelles vivent par bandes de trois à huit dans les catacombes. Aveugles, elles tâtonnent de leurs vibrisses. Leur comportement prévisible en fait des compagnons sûrs.",
+  "familier": {
+   "possible": true,
+   "lien_max": "conditionne",
+   "difficulte_dd": null,
+   "roles": [
+    "eclaireur",
+    "pisteur"
+   ],
+   "aide_combat": "Elle guide dans les galeries obscures par ses vibrisses et signale les vides ou les ennemis proches.",
+   "transport": null,
+   "capacite_transport": null,
+   "age_ideal": "Jeune, dès l'éclosion",
+   "limite": "Elle ne supporte pas la lumière vive du jour et reste cantonnée au sous-sol."
+  }
+ },
+ {
+  "id": "cro29",
+  "nouveau_nom": "Castagnette",
+  "sous_titre": "Le Cliqueteur Plumeux",
+  "groupe": "crochues",
+  "rang": "◆ Commun",
+  "cr": 2,
+  "role_jeu": "membre_de_meute",
+  "taille_garrot_m": 0.9,
+  "hauteur_sprite_px": 33,
+  "hors_format_sprite": false,
+  "element_principal": "Neutre",
+  "element_secondaire": null,
+  "etats_infliges": [],
+  "lignee_draconique": false,
+  "terrain": "Plaines herbeuses, zones de savane, collines basses",
+  "apparence": {
+   "silhouette": "La plus petite crochue, un peu étrange. Le dos et les flancs sont couverts de lamelles cornées, qui se dressent à l'alerte et multiplient son volume. Il court par groupes et gratte le sol.",
+   "trait_distinctif": "Son dos porte des lamelles en demi-coquille qui claquent lorsqu'il secoue.",
+   "trait_cle": "lamelles-coquilles-claquantes",
+   "couleurs": [
+    "ocre",
+    "crème",
+    "bleu canard"
+   ],
+   "rappel_leger": "Petit bipède grégaire des plaines, bruyant et facile à approcher.",
+   "difference_avec_ancienne": "Remplace les plumes-éventails rouge-orange par des lamelles en coquille ocre et bleu canard."
+  },
+  "description_courte": "Castagnette vit en groupes de huit à vingt sans hiérarchie. Les lamelles de son dos claquent à la menace. C'est la plus facile à dresser de toutes les crochues.",
+  "familier": {
+   "possible": true,
+   "lien_max": "conditionne",
+   "difficulte_dd": null,
+   "roles": [
+    "eclaireur",
+    "signal"
+   ],
+   "aide_combat": "Il fait claquer ses lamelles pour donner l'alerte et dérouter les bêtes, et sa petite taille lui permet de se faufiler partout.",
+   "transport": null,
+   "capacite_transport": null,
+   "age_ideal": "Jeune, dès l'éclosion",
+   "limite": "Très docile mais sans courage : il fuit les grands adversaires."
+  }
+ }
+]
