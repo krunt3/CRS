@@ -91,3 +91,43 @@ Mêmes mesures sur les 8 images de marche. Seuils : écart de hauteur ≤ 4 px, 
 ## À consigner dans la bible graphique
 
 Taille retenue, nombre de variantes par essai, résultat de chaque ligne de la grille, temps passé par essai.
+
+
+## Résultats de l'essai 1 (2026-10-05)
+
+Essai réalisé sur l'essai gratuit de PixelLab : outil « Characters », modèle « mannequin », vue de profil (« side »), **8 directions**, case de **64×64** (et non 128×128), sans animation. Le prompt a été collé **avec ses crochets non remplacés** (`[hair color]`, `[skin tone]`, `[dark red]`), donc l'apparence n'est pas celle de krunt.
+
+### Mesures (script `outils/mesure_sprite.py`, 8 images)
+
+| Critère | Seuil | Résultat | Verdict |
+|---|---|---|---|
+| Hauteur du héros | 64 ± 4 px | 62 à 63 px | OK |
+| Part de la case | ≈ 50 % (case de 128) | **97 %** (case de 64) | À corriger : aucune marge |
+| Marge sous les pieds | 4 px | 1 à 2 px | À corriger |
+| Pixels semi-transparents | 0 | 0 | OK |
+| Agrandissement caché | aucun | aucun (x1) | OK |
+| Stabilité hauteur et pieds sur les 8 directions | écart ≤ 4 et ≤ 2 px | 1 et 1 px | OK |
+| Couleurs par image | ≤ 32 | **50 à 55** (58 sur l'ensemble) | **Dépassé** : le prompt demandait environ 16 |
+
+### Lecture visuelle
+
+- **Armure, écharpe, épée, bottes : tous reconnaissables** à 62 px de haut. Les contours sont propres, sans flou ni lissage.
+- **Les proportions sont massives** (épaules très larges, torse épais), alors que le prompt disait « lean athletic ». Largeur mesurée : 39 px (profil) à 57 px (face) pour 62 px de haut, soit bien plus que le gabarit 1:2 des formats PixelForge (32×64).
+- **Le visage est petit et peu expressif.** Lisible de face (sud) et à l'ouest, presque absent de profil à l'est (caché derrière l'épaulière). La peau est pâle, verdâtre : aucun teint n'avait été précisé.
+- **La vue « side » à 8 directions produit des vues de face et de dos droites**, pas des vues de dessus. Elles ne conviennent pas à l'exploration en 3/4 (il faudra une vue de dessus pour ce mode).
+
+### Réduction du nombre de couleurs (réduction automatique, sans retouche)
+
+| Couleurs | Résultat |
+|---|---|
+| 32 | Presque identique à l'original |
+| 24 | Très proche, léger appauvrissement des tons de peau |
+| 16 | Perte nette : la peau devient grise, les reflets du métal disparaissent |
+
+**Conséquence : la règle « 16 couleurs par personnage » de la bible est trop stricte pour ce niveau de détail** sans retouche à la main. À 64 px, **24 à 32 couleurs** par personnage conservent le rendu.
+
+### Verdict provisoire
+
+- **Le scénario C est plausible** : un héros de 62 px de haut est lisible et propre. La taille n'est pas le problème.
+- **Reste à tester** : la même chose dans une **case de 128**, puis une **animation** (essai 4, abonnement nécessaire). Une case de 64 sans marge ne permet ni coups d'épée, ni animation par squelette.
+- **À corriger au prochain essai** : remplacer tous les crochets du prompt, préciser le teint et la silhouette, utiliser une image de référence (voir plus bas).
