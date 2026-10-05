@@ -31,7 +31,7 @@
   "familier": {
    "possible": true,
    "lien_max": "conditionne",
-   "difficulte_dd": null,
+   "difficulte_dd": 12,
    "roles": [
     "eclaireur",
     "pisteur"
@@ -40,7 +40,8 @@
    "transport": null,
    "capacite_transport": null,
    "age_ideal": "Jeune, dès l'éclosion",
-   "limite": "Lien purement conditionné : il régresse vite sans son dresseur et reste sauvage en meute."
+   "limite": "Lien purement conditionné : il régresse vite sans son dresseur et reste sauvage en meute.",
+   "dd_source": "Livre III, section Dressage (phase 1 ou premier DD)"
   },
   "cle_id": "alizade",
   "dressage_possible": true,
@@ -78,7 +79,7 @@
   "familier": {
    "possible": true,
    "lien_max": "affectif",
-   "difficulte_dd": null,
+   "difficulte_dd": 15,
    "roles": [
     "assistant_combat",
     "monture_terre"
@@ -87,7 +88,8 @@
    "transport": "terrestre",
    "capacite_transport": "1 personnage",
    "age_ideal": "Jeune adulte",
-   "limite": "Son lien est long à bâtir et il redevient dominant et capricieux si le dresseur faiblit."
+   "limite": "Son lien est long à bâtir et il redevient dominant et capricieux si le dresseur faiblit.",
+   "dd_source": "Livre III, section Dressage (phase 1 ou premier DD)"
   },
   "cle_id": "dorgane",
   "dressage_possible": true,
@@ -268,7 +270,7 @@
   "familier": {
    "possible": true,
    "lien_max": "affectif",
-   "difficulte_dd": null,
+   "difficulte_dd": 13,
    "roles": [
     "assistant_combat",
     "monture_terre"
@@ -277,7 +279,8 @@
    "transport": "terrestre",
    "capacite_transport": "1 personnage",
    "age_ideal": "Jeune adulte",
-   "limite": "Il reste territorial près des lisières habitées et refuse de s'éloigner trop de sa zone."
+   "limite": "Il reste territorial près des lisières habitées et refuse de s'éloigner trop de sa zone.",
+   "dd_source": "Livre III, section Dressage (phase 1 ou premier DD)"
   },
   "cle_id": "aurelon",
   "dressage_possible": true,
@@ -366,7 +369,7 @@
   "familier": {
    "possible": true,
    "lien_max": "affectif",
-   "difficulte_dd": null,
+   "difficulte_dd": 16,
    "roles": [
     "assistant_combat"
    ],
@@ -374,7 +377,8 @@
    "transport": null,
    "capacite_transport": null,
    "age_ideal": "Jeune adulte",
-   "limite": "Lien rare et fragile ; il boude longtemps après un conflit avec d'autres créatures."
+   "limite": "Lien rare et fragile ; il boude longtemps après un conflit avec d'autres créatures.",
+   "dd_source": "Livre III, section Dressage (phase 1 ou premier DD)"
   },
   "cle_id": "cabochon",
   "dressage_possible": true,
@@ -500,7 +504,7 @@
   "familier": {
    "possible": true,
    "lien_max": "partiel",
-   "difficulte_dd": null,
+   "difficulte_dd": 13,
    "roles": [
     "assistant_combat",
     "signal"
@@ -509,7 +513,8 @@
    "transport": null,
    "capacite_transport": null,
    "age_ideal": "Jeune adulte",
-   "limite": "Imprévisible : la lumière l'excite et peut le rendre agressif envers son propre maître."
+   "limite": "Imprévisible : la lumière l'excite et peut le rendre agressif envers son propre maître.",
+   "dd_source": "Livre III, section Dressage (phase 1 ou premier DD)"
   },
   "cle_id": "diadelle",
   "dressage_possible": true,
@@ -583,7 +588,7 @@
   "familier": {
    "possible": true,
    "lien_max": "affectif",
-   "difficulte_dd": null,
+   "difficulte_dd": 10,
    "roles": [
     "assistant_combat",
     "bete_de_somme",
@@ -593,7 +598,8 @@
    "transport": null,
    "capacite_transport": null,
    "age_ideal": "Jeune adulte",
-   "limite": "Il garde un goût pour la collection et peut disparaître avec le butin au lieu de le rapporter."
+   "limite": "Il garde un goût pour la collection et peut disparaître avec le butin au lieu de le rapporter.",
+   "dd_source": "Livre III, section Dressage (phase 1 ou premier DD)"
   },
   "cle_id": "colporin",
   "dressage_possible": true,
@@ -718,7 +724,7 @@
   "familier": {
    "possible": true,
    "lien_max": "affectif",
-   "difficulte_dd": null,
+   "difficulte_dd": 11,
    "roles": [
     "monture_terre",
     "eclaireur"
@@ -727,7 +733,8 @@
    "transport": "terrestre",
    "capacite_transport": "1 personnage",
    "age_ideal": "Jeune adulte",
-   "limite": "Son endurance s'épuise aux heures chaudes et il refuse de courir hors des plaines."
+   "limite": "Son endurance s'épuise aux heures chaudes et il refuse de courir hors des plaines.",
+   "dd_source": "Livre III, section Dressage (phase 1 ou premier DD)"
   },
   "cle_id": "dambrais",
   "dressage_possible": true,
@@ -1005,7 +1012,7 @@
   "familier": {
    "possible": true,
    "lien_max": "partiel",
-   "difficulte_dd": null,
+   "difficulte_dd": 15,
    "roles": [
     "assistant_combat"
    ],
@@ -1013,7 +1020,8 @@
    "transport": null,
    "capacite_transport": null,
    "age_ideal": "Jeune adulte",
-   "limite": "Conditionnement uniquement, avec précautions extrêmes ; sa fumée peut endormir son propre maître."
+   "limite": "Conditionnement uniquement, avec précautions extrêmes ; sa fumée peut endormir son propre maître.",
+   "dd_source": "Livre III, section Dressage (phase 1 ou premier DD)"
   },
   "cle_id": "crinoline",
   "dressage_possible": true,
@@ -1051,7 +1059,7 @@
   "familier": {
    "possible": true,
    "lien_max": "affectif",
-   "difficulte_dd": null,
+   "difficulte_dd": 12,
    "roles": [
     "eclaireur",
     "signal"
@@ -1060,7 +1068,8 @@
    "transport": null,
    "capacite_transport": null,
    "age_ideal": "Jeune adulte",
-   "limite": "Rare et solide mais bavard : il peut imiter les alertes à contretemps."
+   "limite": "Rare et solide mais bavard : il peut imiter les alertes à contretemps.",
+   "dd_source": "Livre III, section Dressage (phase 1 ou premier DD)"
   },
   "cle_id": "charivari",
   "dressage_possible": true,
@@ -1219,7 +1228,7 @@
   "familier": {
    "possible": true,
    "lien_max": "conditionne",
-   "difficulte_dd": null,
+   "difficulte_dd": 9,
    "roles": [
     "eclaireur",
     "pisteur"
@@ -1228,7 +1237,8 @@
    "transport": null,
    "capacite_transport": null,
    "age_ideal": "Jeune, dès l'éclosion",
-   "limite": "Elle ne supporte pas la lumière vive du jour et reste cantonnée au sous-sol."
+   "limite": "Elle ne supporte pas la lumière vive du jour et reste cantonnée au sous-sol.",
+   "dd_source": "Livre III, section Dressage (phase 1 ou premier DD)"
   },
   "cle_id": "blindelle",
   "dressage_possible": true,
@@ -1266,7 +1276,7 @@
   "familier": {
    "possible": true,
    "lien_max": "conditionne",
-   "difficulte_dd": null,
+   "difficulte_dd": 7,
    "roles": [
     "eclaireur",
     "signal"
@@ -1275,7 +1285,8 @@
    "transport": null,
    "capacite_transport": null,
    "age_ideal": "Jeune, dès l'éclosion",
-   "limite": "Très docile mais sans courage : il fuit les grands adversaires."
+   "limite": "Très docile mais sans courage : il fuit les grands adversaires.",
+   "dd_source": "Livre III, section Dressage (phase 1 ou premier DD)"
   },
   "cle_id": "castagnette",
   "dressage_possible": true,

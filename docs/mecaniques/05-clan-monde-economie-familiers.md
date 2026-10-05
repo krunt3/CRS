@@ -99,7 +99,7 @@ Honneur 0 à 10 : Paria 0-1, Suspect 2-3, Reconnu 4-6 (départ de tous), Estimé
 ### 1.10 Dressage et élevage (Livre III, VI, VII ; JSON)
 
 - Fiche de créature (section VII) : Difficulté, **lien maximal** (Impensable, Partiel/Conditionné, Affectif, Symbiotique), **Intelligence** (Faible à Très élevée, présente seulement sur ~14 fiches), âge idéal, durées minimales. **Trois phases** : Approche (jet AGI + Dressage, DD variable ; la meute, le sang, le territoire modifient le DD), **Jalon narratif** (la créature *choisit* : suivre sans contrainte, défendre le dresseur), Apprentissage (DD qui baisse après N réussites, liste de comportements dressables et non dressables) ; parfois une Phase 4 (second jalon). Une section « Rupture » (par exemple régression après 10 jours sans le dresseur). Conflit : le Livre VI dit « quatre phases » (Approche, Conditionnement, Lien, Rupture) ; conflit résolu par 3 phases + Rupture comme état, comme les fiches.
-- Exemple chiffré (ancien Velokrak, aujourd'hui **Alizade** cro01) : Phase 1 DD 12, Phase 3 DD 10 puis 8 après 3 réussites, lien conditionné, régression après 10 jours. Pour **Dorgane** (cro02, ancien Velodrak, CR 4) : Phase 1 DD 15 (20 en présence de la meute), Phase 3 DD 13 puis 10 après 4 réussites, deux arcs narratifs de durée. Attention : le JSON `donnees/monstres` indique `difficulte_dd: null` pour ces deux créatures alors que le Livre III donne le DD ; 28 des 106 familiers ont un DD nul.
+- Exemple chiffré (**Alizade**, cro01) : Phase 1 DD 12, Phase 3 DD 10 puis 8 après 3 réussites, lien conditionné, régression après 10 jours. Pour **Dorgane** (cro02, CR 4) : Phase 1 DD 15 (20 en présence de la meute), Phase 3 DD 13 puis 10 après 4 réussites, deux arcs narratifs de durée. Attention : le JSON `donnees/monstres` indique `difficulte_dd: null` pour ces deux créatures alors que le Livre III donne le DD ; 28 des 106 familiers ont un DD nul.
 - Métiers : **Éleveur de Créatures** (lignées stables niv. 5, Lignée Signature 10, d'Élite 15, Chef-d'Œuvre Vivant 20, Créature Légendaire Vivante 30 ; DD 8 à 32), **Dresseur de Monstres** (Lien Stable 5, Signature 10, d'Élite 15, Chef-d'Œuvre 20, Lien Runo-Vivant 25, Lien Nommé Vivant 30 ; **niv. 24 « Pacte intentionnel »** pour créature consciente, DD 25), **Maître des Montures** (Monture Stable 5 à Monture Nommée Vivante 30). École T6 Dressage & Domestication : Rang V = **Lien Légendaire** avec une créature de rang III+.
 - Donnée de jeu (`donnees/monstres/*.json`, champ `familier`) : **106 familiers** avec `lien_max` (conditionné 44, affectif 28, partiel 17, symbiotique 9, élevage 8), `difficulte_dd`, `roles`, `aide_combat`, `transport`, `capacite_transport`, `age_ideal`, `limite`. Rôles : éclaireur 39, assistant de combat 33, garde 31, récolte 30, signal 28, pisteur 22, bête de somme 19, monture terrestre 15, soin 8, monture marine 3, monture aérienne 2. Transports : terrestre 21, aérien 2 (Aquilarak cha07, Wistrelle fau03), maritime 2 (Pressoir lev16, Prairelle lev22) plus Poterne lev08 (monture marine sans transport déclaré). Phœnix : « Lien de cycle » symbiotique, jamais dressable.
 
@@ -113,7 +113,7 @@ Les livres sont écrits pour une table qui joue « une phrase par joueur » entr
 
 | Niveau | Contenu | Mode d'écran | Durée réelle |
 |---|---|---|---|
-| Macro (saison) | Contrats, clan, voyage entre zones, tensions, boutique, Bastion | Interface et carte-monde | 3 à 5 h par saison (voir 2.11) |
+| Macro (saison) | Contrats, clan, voyage entre zones, tensions, boutique, Bastion | Interface et carte-monde | 3 à 5 h par saison (voir 2.12) |
 | Méso (étape, zone) | Exploration d'une zone, traque, quêtes de plateforme, rencontres | Vue 3/4 et plateforme | 20 à 60 min |
 | Micro (chasse) | Affrontement | Arène latérale | 10 à 25 min |
 
@@ -172,7 +172,7 @@ Le Retour est une **scène** de 3 à 6 minutes, jamais un écran de butin :
 - La fiche **débloque durablement** une information dans les Archives (comportements d'espèce, visibles dans les prochaines traques : c'est la source du Jeton gratuit des Porteurs) ;
 - Une Consignation **complète** après chasse significative donne Faveur +1 chez les Porteurs ; **refuser** : Faveur −1 puis perte progressive de l'accès aux Archives (le seuil du livre : « isolement informationnel ») ;
 - Les cicatrices s'affichent sur le portrait du héros dans le Carnet.
-La Consignation est le **pont naturel entre le jeu et la table** : elle est la source lisible du journal (voir 2.10).
+La Consignation est le **pont naturel entre le jeu et la table** : elle est la source lisible du journal (voir 2.11).
 
 ### 2.4 Campagne, progression collective, jalons
 
@@ -186,7 +186,7 @@ La Consignation est le **pont naturel entre le jeu et la table** : elle est la s
 | Bastion (collectif) | Défense réussie, ou palier d'Ancrage atteint avec jalon préalable | Palier d'Ancrage |
 | Honneur | Acte public irréversible (Récit, serment, trahison) | Variation d'Honneur par saut |
 
-Progression « collective » : Tension et Ancrage sont **par partie** (le groupe de la sauvegarde) ; Faveurs et Honneur sont **par héros**. Chaque saison (voir 2.11) calcule un **bilan** : jalons gagnés, tensions avancées, Faveurs modifiées, conséquences ouvertes. Cadence cible : 1 jalon individuel et 0,5 collectif par saison en moyenne (le livre : 2 à 4 individuels et 1 collectif par arc de 3 à 5 sessions ; une saison valant ~1,3 session).
+Progression « collective » : Tension et Ancrage sont **par partie** (le groupe de la sauvegarde) ; Faveurs et Honneur sont **par héros**. Chaque saison (voir 2.12) calcule un **bilan** : jalons gagnés, tensions avancées, Faveurs modifiées, conséquences ouvertes. Cadence cible : 1 jalon individuel et 0,5 collectif par saison en moyenne (le livre : 2 à 4 individuels et 1 collectif par arc de 3 à 5 sessions ; une saison valant ~1,3 session).
 
 **Structure des arcs en saisons (à tester)** : Arc 1 Établissement = 4 saisons (Ancrage 0 vers 8, 3 à 5 créatures ◆ à ◆◆), Arc 2 Confrontation = 5 saisons (Ancrage 8 vers 13, 2 à 3 créatures ◆◆ à ◆◆◆, au moins un pic de Tension 9-10), Arc 3 Résolution = 3 saisons (créature légendaire et Terres Inconnues). Total 12 saisons (3 années de monde), 40 à 60 h de jeu. Trop long pour une première campagne : la démo n'en joue qu'une moitié (voir 6).
 
