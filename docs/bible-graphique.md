@@ -214,3 +214,13 @@ Chaque ligne passe de « À DÉCIDER » à « VERROUILLÉ » avec la date. Aprè
 - PixelLab, site : https://www.pixellab.ai/
 - PixelLab, API : https://www.pixellab.ai/pixellab-api et https://api.pixellab.ai/v2/docs
 - Étude de jeux de référence : `etude-jeux-reference.md`
+
+## Mise à jour du 2026-10-05 : précisions de krunt
+
+- **Hauteur d'image 360 px confirmée** (pas 720). Les téléphones plus larges voient l'image zoomée en nombre entier (×2, ×3, ×4). Choix HD abandonné : rétro à 360 px.
+- **Boss : jusqu'à 320 px de haut**, c'est le maximum que krunt a vu proposé par PixelLab. À vérifier à l'abonnement (le tableau des contraintes de ce document parle de cases de 256 pour l'animation par squelette). 320 px = 5× un héros de 64 px, mais 89 % de la hauteur d'une image de 360 px : prévoir une caméra qui montre le boss en partie ou le réserver aux grands boss. Remplace « Boss 128×128 / final 192×160 » pour les grands boss ; les mobs et élites restent comme au scénario C.
+- **Quatre personnages jouables** : une seule histoire, quatre joueurs. Chaque personnage a ses origines, ses affinités de clan, son arbre de compétences, ses métiers, éventuellement un animal dressé. Coût réel : quatre personnages à générer, nettoyer et animer (chacun 32 couleurs, profil + 3/4). Faisable si PixelLab fait l'animation ; on construit d'abord un seul héros jusqu'à la démo.
+- **Vue 3/4 : low top-down retenue** (high top-down testé, pas convaincant).
+- **Colosse assemblé : reporté** à plus tard.
+- **À faire par krunt** : ajouter le format « Perso 3/4 32×48 » dans PixelForge.
+- **Reste à faire** : abonnement PixelLab, régénérer le profil avec le prompt simplifié, tester animation, un boss et les tuiles.
