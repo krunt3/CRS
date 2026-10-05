@@ -206,3 +206,22 @@ Génération avec le prompt du personnage 1 (fin remplacée par la version 3/4),
 **Contrainte découverte :** l'animation par squelette de PixelLab n'accepte que des cases de **16, 32, 64, 128 ou 256 px** (documentation). Une case de **48 ne pourra pas être animée par squelette**. Pour le héros 3/4, utiliser une **case de 64 avec un personnage d'environ 48 px**.
 
 **Correction à apporter au prompt :** simplifier fortement l'armure à cette taille (grandes surfaces à deux tons, pas de motif d'écailles). Voir `prompts-personnages.md`.
+
+
+## Résultats de l'essai 3/4 v2 : prompt simplifié (2026-10-05)
+
+Génération avec le prompt v2 (armure en aplats à deux tons, sans écailles). Vue « low top-down », 8 directions, **case de 64×64**, essai gratuit.
+
+| Critère | Résultat | Verdict |
+|---|---|---|
+| Hauteur du héros | **58 à 62 px** (cible 48 ± 4) | **Hors cible** : le réglage de taille du personnage n'a pas été appliqué, il remplit la case |
+| Part de la case | 91 à 97 % | Aucune marge pour animer |
+| Pieds | écart de 3 px | À voir (seuil 2 px) |
+| Pixels semi-transparents, agrandissement caché | 0, aucun | OK |
+| Couleurs | 64 par image, 97 sur l'ensemble | Dépassé |
+
+**Lecture visuelle :** nettement plus propre et lisible que la v1. Le visage est net (sourcils, yeux, bouche), l'épée est franche, la cape-ailes orange forme une grande surface lisible, le tablier vert d'eau ressort. Pertes par rapport à la référence : les plaques de plumes aux épaules sont devenues une cape, les éclaboussures de sang sur la lame ont disparu (« plain steel blade »), l'emblème bronze n'est plus visible.
+
+**Attention à la comparaison :** la v2 est plus lisible en partie parce qu'elle a **62 px de haut au lieu de 47** pour la v1. On ne peut donc pas conclure que le prompt simplifié tient à 48 px.
+
+**Conséquence de choix :** à 62 px, le héros en vue 3/4 a la même taille que le héros de profil (17,8 % d'une image de 360 px). Les jeux en vue 3/4 mesurés sont plutôt à 10 à 12 %.
