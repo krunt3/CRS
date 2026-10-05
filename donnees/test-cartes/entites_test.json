@@ -1,0 +1,232 @@
+{
+ "note": "Entités de la zone de test (champs à recréer dans LDtk ou Godot). Hauteurs en pixels à 36,6 px/m (héros 64 px = 1,75 m).",
+ "entites": [
+  {
+   "type": "monstre",
+   "id": "cro02",
+   "cle_id": "dorgane",
+   "nom": "Dorgane",
+   "role_jeu": "chef_de_meute",
+   "rang": "◆◆ Rare",
+   "cr": 4,
+   "hauteur_px": 70,
+   "largeur_px_provisoire": 112,
+   "sprite_provisoire": "sprites/monstres_silhouettes/silhouette_dorgane.png",
+   "dressage_possible": true,
+   "dd_dressage": 15,
+   "element": "Neutre"
+  },
+  {
+   "type": "monstre",
+   "id": "cro01",
+   "cle_id": "alizade",
+   "nom": "Alizade",
+   "role_jeu": "membre_de_meute",
+   "rang": "◆ Commun",
+   "cr": 1,
+   "hauteur_px": 44,
+   "largeur_px_provisoire": 70,
+   "sprite_provisoire": "sprites/monstres_silhouettes/silhouette_alizade.png",
+   "dressage_possible": true,
+   "dd_dressage": 12,
+   "element": "Neutre"
+  },
+  {
+   "type": "monstre",
+   "id": "cro03",
+   "cle_id": "courtaude",
+   "nom": "Courtaude",
+   "role_jeu": "membre_de_meute",
+   "rang": "◆ Commun",
+   "cr": 2,
+   "hauteur_px": 40,
+   "largeur_px_provisoire": 64,
+   "sprite_provisoire": "sprites/monstres_silhouettes/silhouette_courtaude.png",
+   "dressage_possible": true,
+   "dd_dressage": null,
+   "element": "Neutre"
+  },
+  {
+   "type": "monstre",
+   "id": "ail01",
+   "cle_id": "fauranthe",
+   "nom": "Fauranthe",
+   "role_jeu": "boss",
+   "rang": "◆◆◆ Élite",
+   "cr": 14,
+   "hauteur_px": 117,
+   "largeur_px_provisoire": 187,
+   "sprite_provisoire": "sprites/monstres_silhouettes/silhouette_fauranthe.png",
+   "dressage_possible": false,
+   "dd_dressage": null,
+   "element": "Feu"
+  },
+  {
+   "type": "monstre",
+   "id": "ail24",
+   "cle_id": "ioliane",
+   "nom": "Ioliane",
+   "role_jeu": "boss",
+   "rang": "◆◆◆◆ Légendaire",
+   "cr": 18,
+   "hauteur_px": 121,
+   "largeur_px_provisoire": 193,
+   "sprite_provisoire": "sprites/monstres_silhouettes/silhouette_ioliane.png",
+   "dressage_possible": false,
+   "dd_dressage": null,
+   "element": "Feu"
+  },
+  {
+   "type": "monstre",
+   "id": "fau03",
+   "cle_id": "wistrelle",
+   "nom": "Wistrelle",
+   "role_jeu": "boss",
+   "rang": "◆◆◆ Élite",
+   "cr": 11,
+   "hauteur_px": 59,
+   "largeur_px_provisoire": 94,
+   "sprite_provisoire": "sprites/monstres_silhouettes/silhouette_wistrelle.png",
+   "dressage_possible": true,
+   "dd_dressage": 18,
+   "element": "Ombre"
+  },
+  {
+   "type": "monstre",
+   "id": "lev16",
+   "cle_id": "pressoir",
+   "nom": "Pressoir",
+   "role_jeu": "boss",
+   "rang": "◆◆◆ Élite",
+   "cr": 12,
+   "hauteur_px": 73,
+   "largeur_px_provisoire": 116,
+   "sprite_provisoire": "sprites/monstres_silhouettes/silhouette_pressoir.png",
+   "dressage_possible": true,
+   "dd_dressage": 14,
+   "element": "Eau"
+  },
+  {
+   "type": "monstre",
+   "id": "ter01",
+   "cle_id": "maltuile",
+   "nom": "Maltuile",
+   "role_jeu": "mini_boss",
+   "rang": "◆◆ Rare",
+   "cr": 5,
+   "hauteur_px": 102,
+   "largeur_px_provisoire": 163,
+   "sprite_provisoire": "sprites/monstres_silhouettes/silhouette_maltuile.png",
+   "dressage_possible": true,
+   "dd_dressage": 12,
+   "element": "Feu"
+  },
+  {
+   "type": "familier",
+   "id": "soc44",
+   "cle_id": "dardinet",
+   "nom": "Dardinet",
+   "role_jeu": "familier_assistant",
+   "rang": "◆ Commun",
+   "cr": 1,
+   "hauteur_px": 16,
+   "largeur_px_provisoire": 32,
+   "sprite_provisoire": "sprites/monstres_silhouettes/silhouette_dardinet.png",
+   "dressage_possible": true,
+   "dd_dressage": 8,
+   "element": "Terre"
+  },
+  {
+   "type": "familier",
+   "id": "soc45",
+   "cle_id": "ouatiline",
+   "nom": "Ouatiline",
+   "role_jeu": "familier_assistant",
+   "rang": "◆ Commun",
+   "cr": 1,
+   "hauteur_px": 15,
+   "largeur_px_provisoire": 32,
+   "sprite_provisoire": "sprites/monstres_silhouettes/silhouette_ouatiline.png",
+   "dressage_possible": true,
+   "dd_dressage": 9,
+   "element": "Éther"
+  },
+  {
+   "type": "monstre",
+   "id": "cha01",
+   "cle_id": "cervarak",
+   "nom": "Cervarak",
+   "role_jeu": "ambiance",
+   "rang": "◆◆ Rare",
+   "cr": 5,
+   "hauteur_px": 51,
+   "largeur_px_provisoire": 81,
+   "sprite_provisoire": "sprites/monstres_silhouettes/silhouette_cervarak.png",
+   "dressage_possible": true,
+   "dd_dressage": 12,
+   "element": "Terre"
+  },
+  {
+   "type": "pnj",
+   "id": "pnj_test_01",
+   "nom": "Garde du Poste 7 (provisoire)",
+   "hauteur_px": 48,
+   "tags": [
+    "marches",
+    "poste"
+   ]
+  },
+  {
+   "type": "pnj",
+   "id": "pnj_test_02",
+   "nom": "Pisteur du clan (provisoire)",
+   "hauteur_px": 48,
+   "tags": [
+    "clan",
+    "traque"
+   ]
+  },
+  {
+   "type": "declencheur_quete",
+   "id": "hook_test_01",
+   "nom": "Amorce : Convoi Fantôme (zone test)",
+   "tags": [
+    "marches",
+    "hook"
+   ]
+  },
+  {
+   "type": "point_traque",
+   "id": "traque_test_01",
+   "nom": "Traces fraîches",
+   "jeton": 1
+  },
+  {
+   "type": "point_traque",
+   "id": "traque_test_02",
+   "nom": "Marques sur un tronc",
+   "jeton": 2
+  },
+  {
+   "type": "point_traque",
+   "id": "traque_test_03",
+   "nom": "Nid de meute",
+   "jeton": 3
+  },
+  {
+   "type": "piege",
+   "id": "piege_test_01",
+   "nom": "Emplacement de piège"
+  },
+  {
+   "type": "recolte",
+   "id": "recolte_test_01",
+   "nom": "Gisement ou plante"
+  },
+  {
+   "type": "depart_joueur",
+   "id": "start_01",
+   "nom": "Départ du héros (64 px profil / 48 px vue 3/4)"
+  }
+ ]
+}

@@ -1,0 +1,222 @@
+[
+ {
+  "fichier": "tuiles_topdown/terrain_wang_4_coins.png",
+  "taille": "512x512",
+  "grille_32": true,
+  "usage": "Terrain autotile (herbe, terre, eau) : test des Terrains de Godot et des règles auto de LDtk",
+  "titre": "Wang 4 corner tiles",
+  "auteur": "Madware",
+  "licence": "CC0",
+  "page": "https://opengameart.org/content/wang-4-corner-tiles"
+ },
+ {
+  "fichier": "tuiles_topdown/sol_herbe_sable.png",
+  "taille": "320x384",
+  "grille_32": true,
+  "usage": "Sol herbe/sable avec transitions",
+  "titre": "32x32 Water and land Map Tilesets",
+  "auteur": "wokste",
+  "licence": "CC0",
+  "page": "https://opengameart.org/content/32x32-water-and-land-map-tilesets"
+ },
+ {
+  "fichier": "tuiles_topdown/eau.png",
+  "taille": "256x256",
+  "grille_32": true,
+  "usage": "Eau avec rivages",
+  "titre": "32x32 Water and land Map Tilesets",
+  "auteur": "wokste",
+  "licence": "CC0",
+  "page": "https://opengameart.org/content/32x32-water-and-land-map-tilesets"
+ },
+ {
+  "fichier": "tuiles_topdown/sol_pierre_terre.png",
+  "taille": "224x160",
+  "grille_32": true,
+  "usage": "Sol pierre, terre sur herbe",
+  "titre": "Ground tiles top view",
+  "auteur": "AntumDeluge",
+  "licence": "CC0",
+  "page": "https://opengameart.org/content/ground-tiles-top-view"
+ },
+ {
+  "fichier": "tuiles_topdown/herbe_variantes.png",
+  "taille": "256x128",
+  "grille_32": true,
+  "usage": "Variantes d'herbe",
+  "titre": "Grass Tiles [32x32]",
+  "auteur": "MedicineStorm",
+  "licence": "CC0",
+  "page": "https://opengameart.org/content/grass-tiles-32x32-0"
+ },
+ {
+  "fichier": "tuiles_topdown/chemin_pierre_herbe.png",
+  "taille": "256x256",
+  "grille_32": true,
+  "usage": "Chemin de pierre, bordures d'herbe",
+  "titre": "Top-down simple tile-sets",
+  "auteur": "voir la page",
+  "licence": "CC0",
+  "page": "https://opengameart.org/content/top-down-simple-tile-sets"
+ },
+ {
+  "fichier": "tuiles_topdown/happyland_eau_herbe.png",
+  "taille": "256x96",
+  "grille_32": true,
+  "usage": "Petit set eau/herbe",
+  "titre": "Happyland tileset",
+  "auteur": "Eiyeron",
+  "licence": "CC0",
+  "page": "https://opengameart.org/content/happyland-tileset"
+ },
+ {
+  "fichier": "tuiles_topdown/mur_rocheux.png",
+  "taille": "96x96",
+  "grille_32": true,
+  "usage": "Mur rocheux",
+  "titre": "Rock Wall Tileset",
+  "auteur": "JustinLewis",
+  "licence": "CC0",
+  "page": "https://opengameart.org/content/rock-wall-tileset"
+ },
+ {
+  "fichier": "tuiles_donjon/ruines_mythiques.png",
+  "taille": "1536x448",
+  "grille_32": true,
+  "usage": "Ruines, falaises, escaliers (site dangereux, arène)",
+  "titre": "Mythical Ruins Tileset",
+  "auteur": "voec",
+  "licence": "CC0",
+  "page": "https://opengameart.org/content/mythical-ruins-tileset"
+ },
+ {
+  "fichier": "tuiles_donjon/grotte_pourpre.png",
+  "taille": "640x288",
+  "grille_32": true,
+  "usage": "Grotte (Ruines profondes, Fosse naturelle)",
+  "titre": "Outdoor 32x32 tileset",
+  "auteur": "Snabisch",
+  "licence": "CC0",
+  "page": "https://opengameart.org/content/outdoor-32x32-tileset"
+ },
+ {
+  "fichier": "tuiles_plateforme/plateforme_foret.png",
+  "taille": "576x320",
+  "grille_32": true,
+  "usage": "Plateforme forêt : sol, arbres, arbustes, rochers, panneau, grotte",
+  "titre": "Tileset Platform Forest.",
+  "auteur": "pechvogel",
+  "licence": "CC0",
+  "page": "https://opengameart.org/content/tileset-platform-forest"
+ },
+ {
+  "fichier": "tuiles_plateforme/plateforme_terre.png",
+  "taille": "288x480",
+  "grille_32": true,
+  "usage": "Plateforme terre et herbe",
+  "titre": "2D 32x32 platformer tileset",
+  "auteur": "Voxi",
+  "licence": "CC0",
+  "page": "https://opengameart.org/content/2d-32x32-platformer-tileset"
+ },
+ {
+  "fichier": "tuiles_plateforme/plateforme_boue_herbe.png",
+  "taille": "192x224",
+  "grille_32": true,
+  "usage": "Plateforme boue et herbe",
+  "titre": "TileSet 2D Platformer [32x32]",
+  "auteur": "voir la page",
+  "licence": "CC0",
+  "page": "https://opengameart.org/content/tileset-2d-platformer-32x32"
+ },
+ {
+  "fichier": "sprites/heros_et_pnj/base_32x48.png",
+  "taille": "96x192",
+  "grille_32": true,
+  "usage": "Mannequin 32×48, 3 colonnes × 4 directions : héros provisoire (vue 3/4)",
+  "titre": "Simple 32x48 base sprite.",
+  "auteur": "skrjablin",
+  "licence": "CC0",
+  "page": "https://opengameart.org/content/simple-32x48-base-sprite"
+ },
+ {
+  "fichier": "sprites/heros_et_pnj/perso_anime_32.png",
+  "taille": "256x320",
+  "grille_32": true,
+  "usage": "Personnage animé 32 px",
+  "titre": "Tileset and Characters - Unfinished",
+  "auteur": "DezrasDragons",
+  "licence": "CC0",
+  "page": "https://opengameart.org/content/tileset-and-characters-unfinished"
+ },
+ {
+  "fichier": "sprites/ennemis_provisoires/zombie_squelette.png",
+  "taille": "288x256",
+  "grille_32": true,
+  "usage": "Ennemis provisoires 32 px (marche 4 directions)",
+  "titre": "Zombie and Skeleton 32x48",
+  "auteur": "Redshrike",
+  "licence": "CC0",
+  "page": "https://opengameart.org/content/zombie-and-skeleton-32x48"
+ },
+ {
+  "fichier": "sprites/ennemis_provisoires/chauve_souris_repos.png",
+  "taille": "128x32",
+  "grille_32": true,
+  "usage": "Petit volant 32 px",
+  "titre": "Bat - 32x32",
+  "auteur": "voir la page",
+  "licence": "CC0",
+  "page": "https://opengameart.org/content/bat-32x32-0"
+ },
+ {
+  "fichier": "sprites/ennemis_provisoires/chauve_souris_droite.png",
+  "taille": "96x32",
+  "grille_32": true,
+  "usage": "Petit volant 32 px, vers la droite",
+  "titre": "Bat - 32x32",
+  "auteur": "voir la page",
+  "licence": "CC0",
+  "page": "https://opengameart.org/content/bat-32x32-0"
+ },
+ {
+  "fichier": "decor_extras_grille_a_verifier/village_eau_arbres.png",
+  "taille": "944x720",
+  "grille_32": false,
+  "usage": "Village, eau, arbres, chemins : grille non multiple de 32 (944×720), à vérifier à l'import",
+  "titre": "Tileset and Characters - Unfinished",
+  "auteur": "DezrasDragons",
+  "licence": "CC0",
+  "page": "https://opengameart.org/content/tileset-and-characters-unfinished"
+ },
+ {
+  "fichier": "decor_extras_grille_a_verifier/aventure_arbres_herbe.png",
+  "taille": "1664x816",
+  "grille_32": false,
+  "usage": "Arbres, herbe, terre, objets (1664×816), grille à vérifier",
+  "titre": "Adventure Tileset (Unfinished)",
+  "auteur": "Baŝto",
+  "licence": "CC0",
+  "page": "https://opengameart.org/content/adventure-tileset-unfinished"
+ },
+ {
+  "fichier": "decor_extras_grille_a_verifier/cabane.png",
+  "taille": "232x233",
+  "grille_32": false,
+  "usage": "Cabane (232×233), objet",
+  "titre": "32-pixel Set - Log Cabin",
+  "auteur": "William.Thompsonj",
+  "licence": "CC0",
+  "page": "https://opengameart.org/content/32-pixel-set-log-cabin"
+ },
+ {
+  "fichier": "decor_extras_grille_a_verifier/arbres_buissons.png",
+  "taille": "288x160",
+  "grille_32": true,
+  "usage": "Arbres et buissons (herbe incluse)",
+  "titre": "Trees & Bushes",
+  "auteur": "Luis Zuno (@ansimuz) ; mis en ligne par Arachnibot",
+  "licence": "CC0",
+  "page": "https://opengameart.org/content/trees-bushes"
+ }
+]
