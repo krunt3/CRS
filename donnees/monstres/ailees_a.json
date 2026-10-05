@@ -1,0 +1,792 @@
+[
+ {
+  "id": "ail01",
+  "nouveau_nom": "Fauranthe",
+  "sous_titre": "Le Croisé de Safran",
+  "groupe": "ailees_a",
+  "rang": "◆◆◆ Élite",
+  "cr": 14,
+  "role_jeu": "boss",
+  "taille_garrot_m": 3.2,
+  "hauteur_sprite_px": 117,
+  "hors_format_sprite": false,
+  "element_principal": "Feu",
+  "element_secondaire": null,
+  "etats_infliges": [],
+  "lignee_draconique": false,
+  "terrain": "Forêts montagneuses, hautes vallées",
+  "apparence": {
+   "silhouette": "Grand volant au cou long et à la tête plate en pelle, planant sur des ailes à voiles ajourées comme des lanternes de papier. Au sol, il se tient accroupi sur quatre appuis (ailes repliées en poings), dos bas et croupe haute. Queue souple terminée en éventail de plumes-flammes.",
+   "trait_distinctif": "Ses membranes alaires sont percées de fenêtres ovales translucides qui rougeoient comme des lanternes quand il chauffe.",
+   "trait_cle": "voiles-ajourees-lanterne",
+   "couleurs": [
+    "safran",
+    "cuivre terni",
+    "crème"
+   ],
+   "rappel_leger": "Grand souverain volant des vallées, crachant le feu, solitaire et territorial.",
+   "difference_avec_ancienne": "Silhouette quadrupède basse à voiles ajourées et tête en pelle, au lieu d'un bipède vertical à ailes en delta pleines."
+  },
+  "description_courte": "Les ailes à fenêtres rougeoyantes signalent le souverain des hautes vallées. Territorial, il crache des gerbes de feu en piqué. Les pisteurs le repèrent à ses lanternes de chair avant de l'entendre.",
+  "familier": {
+   "possible": false
+  }
+ },
+ {
+  "id": "ail02",
+  "nouveau_nom": "Evanelle",
+  "sous_titre": "La Flamme d'Azur",
+  "groupe": "ailees_a",
+  "rang": "◆◆◆ Élite",
+  "cr": 15,
+  "role_jeu": "boss",
+  "taille_garrot_m": 3.2,
+  "hauteur_sprite_px": 117,
+  "hors_format_sprite": false,
+  "element_principal": "Feu",
+  "element_secondaire": null,
+  "etats_infliges": [],
+  "lignee_draconique": false,
+  "terrain": "Très haute altitude, zones tempétueuses",
+  "apparence": {
+   "silhouette": "Voilure en V étroit, corps fin et allongé, tête en pointe de lance portée bas. Les fenêtres alaires s'alignent en chapelet le long du bras, comme un vitrail éclaté. Queue courte et large, en pagaie.",
+   "trait_distinctif": "Une traîne de flammes bleues s'échappe de ses articulations d'ailes et dessine des arcs dans le ciel d'orage.",
+   "trait_cle": "traine-flamme-articulaire",
+   "couleurs": [
+    "bleu glacier",
+    "gris tempête",
+    "blanc fumée"
+   ],
+   "rappel_leger": "Grande volante de feu des hautes tempêtes, plus agressive et plus rapide que ses cousines des vallées.",
+   "difference_avec_ancienne": "Plus fine, flammes aux articulations plutôt qu'au corps entier, palette froide."
+  },
+  "description_courte": "Cousine des cimes de Fauranthe, elle brûle d'un feu bleu né des articulations. Les orages ne l'éteignent pas : ils l'attisent. Dangereuse par sa vitesse en piqué, elle abandonne rarement une proie blessée.",
+  "familier": {
+   "possible": false
+  }
+ },
+ {
+  "id": "ail03",
+  "nouveau_nom": "Gérophane",
+  "sous_titre": "Le Soleil Déchu",
+  "groupe": "ailees_a",
+  "rang": "◆◆◆◆ Légendaire",
+  "cr": 20,
+  "role_jeu": "boss",
+  "taille_garrot_m": 3.4,
+  "hauteur_sprite_px": 124,
+  "hors_format_sprite": false,
+  "element_principal": "Feu",
+  "element_secondaire": null,
+  "etats_infliges": [],
+  "lignee_draconique": true,
+  "terrain": "Zones isolées de haute montagne, solitaire absolu",
+  "apparence": {
+   "silhouette": "Colosse ailé aux ailes plus larges que longues, portées en arche haute. Corps massif et trapu, tête ornée d'un disque osseux dressé derrière le crâne. Au sol, il s'appuie sur les poignets des ailes comme un grand félin affalé.",
+   "trait_distinctif": "Un disque d'os poli, fendu en rayons, brille derrière sa nuque comme un soleil de bronze.",
+   "trait_cle": "disque-solaire-nuque",
+   "couleurs": [
+    "bronze fauve",
+    "or rouillé",
+    "noir de suie"
+   ],
+   "rappel_leger": "Souverain légendaire du feu, vestige de lignée draconique, nid caché sur des sommets déserts.",
+   "difference_avec_ancienne": "Disque osseux rayonnant et posture de grand félin, loin de toute silhouette de bipède vertical."
+  },
+  "description_courte": "Vestige d'une lignée draconique, il porte un disque d'os fendu dont le rayonnement aveugle l'imprudent. Solitaire absolu, il règne sur des sommets sans sentier. Aucun chasseur n'en revient sans une brûlure.",
+  "familier": {
+   "possible": false
+  }
+ },
+ {
+  "id": "ail04",
+  "nouveau_nom": "Fiélinde",
+  "sous_titre": "La Fileuse des Cimes",
+  "groupe": "ailees_a",
+  "rang": "◆◆◆ Élite",
+  "cr": 13,
+  "role_jeu": "boss",
+  "taille_garrot_m": 3.0,
+  "hauteur_sprite_px": 110,
+  "hors_format_sprite": false,
+  "element_principal": "Feu",
+  "element_secondaire": null,
+  "etats_infliges": [
+   "Poison"
+  ],
+  "lignee_draconique": false,
+  "terrain": "Forêts denses, sous-bois épais",
+  "apparence": {
+   "silhouette": "Volante compacte aux ailes rondes et courtes, lui permettant de virer entre les troncs. Cou en S, petite tête triangulaire, corps rond sur de longues pattes fines. Quatre filaments de queue traînent derrière elle comme des fils tendus.",
+   "trait_distinctif": "Quatre longs filaments soyeux jaunes pendent de sa queue et collent aux branches, formant des toiles de venin.",
+   "trait_cle": "filaments-de-queue-toile",
+   "couleurs": [
+    "vert mousse",
+    "jaune soufre",
+    "brun-noir"
+   ],
+   "rappel_leger": "Grande volante de sous-bois, agile et venimeuse, qui piège avant de mordre.",
+   "difference_avec_ancienne": "Ailes rondes, filaments de queue et pattes de fileuse, au lieu d'une agile en V à queue piquante."
+  },
+  "description_courte": "Agile entre les troncs, elle tisse des filaments gluants chargés de venin d'un arbre à l'autre. Les chasseurs mal avisés se retrouvent entravés avant de la voir. Sa glande est prisée des alchimistes.",
+  "familier": {
+   "possible": false
+  }
+ },
+ {
+  "id": "ail05",
+  "nouveau_nom": "Églantaure",
+  "sous_titre": "La Dame des Épines Roses",
+  "groupe": "ailees_a",
+  "rang": "◆◆◆ Élite",
+  "cr": 14,
+  "role_jeu": "boss",
+  "taille_garrot_m": 3.1,
+  "hauteur_sprite_px": 113,
+  "hors_format_sprite": false,
+  "element_principal": "Feu",
+  "element_secondaire": null,
+  "etats_infliges": [
+   "Poison"
+  ],
+  "lignee_draconique": false,
+  "terrain": "Forêts tropicales, végétation dense et humide",
+  "apparence": {
+   "silhouette": "Parente des Fiélinde, un peu plus trapue. Ailes rondes bordées de franges, dos hérissé de courtes aiguilles en rosette, tête étroite à long bec corné.",
+   "trait_distinctif": "Des rosettes d'aiguilles rose vif, semblables à des fleurs d'églantier, couvrent son dos et distillent un venin renforcé.",
+   "trait_cle": "rosettes-aiguilles-roses",
+   "couleurs": [
+    "rose corail",
+    "vert bouteille",
+    "ivoire"
+   ],
+   "rappel_leger": "Grande volante tropicale venimeuse, ennemie des chasseurs mal protégés.",
+   "difference_avec_ancienne": "Dos à rosettes d'aiguilles, bec corné et coloris floral au lieu d'un dos lisse à venin vert."
+  },
+  "description_courte": "Ses rosettes d'aiguilles roses ressemblent à des fleurs, ce qui trompe les cueilleurs. Elle les agite en vol pour disperser un venin concentré. Zones humides uniquement.",
+  "familier": {
+   "possible": false
+  }
+ },
+ {
+  "id": "ail06",
+  "nouveau_nom": "Hérébrune",
+  "sous_titre": "La Mère des Mille Racines",
+  "groupe": "ailees_a",
+  "rang": "◆◆◆◆ Légendaire",
+  "cr": 19,
+  "role_jeu": "boss",
+  "taille_garrot_m": 3.3,
+  "hauteur_sprite_px": 121,
+  "hors_format_sprite": false,
+  "element_principal": "Feu",
+  "element_secondaire": null,
+  "etats_infliges": [
+   "Poison"
+  ],
+  "lignee_draconique": true,
+  "terrain": "Forêts anciennes, végétation millénaire",
+  "apparence": {
+   "silhouette": "Grand corps noueux aux ailes en frondaison, tête surmontée de bois fourchus. Pattes épaisses, griffes en crochets. Se confond avec un arbre foudroyé quand elle se pose.",
+   "trait_distinctif": "De longues racines aériennes pendent de son ventre et de ses ailes, ruisselantes de sève toxique luminescente.",
+   "trait_cle": "racines-aeriennes-pendantes",
+   "couleurs": [
+    "brun écorce",
+    "vert phosphorescent",
+    "gris lichen"
+   ],
+   "rappel_leger": "Souveraine légendaire des forêts, venimeuse et d'ascendance draconique.",
+   "difference_avec_ancienne": "Bois fourchus, racines pendantes et allure d'arbre mort, loin de toute silhouette de parente agile."
+  },
+  "description_courte": "Les forêts millénaires l'abritent. Ses racines pendantes ruissellent d'une sève lumineuse mortelle. Lignée draconique attestée, elle protège son territoire comme une mère jalouse.",
+  "familier": {
+   "possible": false
+  }
+ },
+ {
+  "id": "ail07",
+  "nouveau_nom": "Haubergue",
+  "sous_titre": "Le Bélier des Dunes",
+  "groupe": "ailees_a",
+  "rang": "◆◆◆ Élite",
+  "cr": 15,
+  "role_jeu": "boss",
+  "taille_garrot_m": 3.5,
+  "hauteur_sprite_px": 128,
+  "hors_format_sprite": false,
+  "element_principal": "Terre",
+  "element_secondaire": null,
+  "etats_infliges": [],
+  "lignee_draconique": false,
+  "terrain": "Déserts, plaines arides, zones rocheuses ouvertes",
+  "apparence": {
+   "silhouette": "Massive volante à tête basse et large, ailes courtes et épaisses repliées comme des boucliers. Dos bossu, pattes antérieures en piliers. Deux cornes spiralées partent des épaules et pointent vers l'avant, au ras des yeux.",
+   "trait_distinctif": "Ses deux cornes, spiralées comme des coquilles d'escargot, naissent sur les épaules et non sur le crâne.",
+   "trait_cle": "cornes-spirales-epaulieres",
+   "couleurs": [
+    "ocre sable",
+    "brun tuile",
+    "blanc os"
+   ],
+   "rappel_leger": "Grande volante cuirassée conçue pour la charge frontale, plus agressive chez la femelle.",
+   "difference_avec_ancienne": "Cornes sur les épaules, dos bossu et ailes en boucliers."
+  },
+  "description_courte": "Montagne de muscle, il charge tête basse, cornes d'épaule en avant. Les femelles défendent leur territoire avec plus de violence que les mâles. Ses cornes servent de lances aux chefs de clan.",
+  "familier": {
+   "possible": false
+  }
+ },
+ {
+  "id": "ail08",
+  "nouveau_nom": "Éolithe",
+  "sous_titre": "Le Vieux Fossile du Vent",
+  "groupe": "ailees_a",
+  "rang": "◆◆◆ Élite",
+  "cr": 13,
+  "role_jeu": "boss",
+  "taille_garrot_m": 3.3,
+  "hauteur_sprite_px": 121,
+  "hors_format_sprite": false,
+  "element_principal": "Vent",
+  "element_secondaire": null,
+  "etats_infliges": [],
+  "lignee_draconique": false,
+  "terrain": "Zones rocheuses de haute altitude, canyons tempétueux",
+  "apparence": {
+   "silhouette": "Massif et archaïque : ailes épaisses à trois doigts griffus, gueule très large, dos voûté couvert de plaques lisses. Marche lourdement sur les phalanges des ailes. Queue épaisse en moignon.",
+   "trait_distinctif": "Les plaques de son dos sont percées de petites ouvertures qui sifflent comme un orgue quand il vole.",
+   "trait_cle": "plaques-dorsales-sifflantes",
+   "couleurs": [
+    "gris schiste",
+    "vert-de-gris",
+    "beige craie"
+   ],
+   "rappel_leger": "Grande volante primitive, rustique, solitaire, maître des vents de canyon.",
+   "difference_avec_ancienne": "Plaques percées en tuyaux d'orgue et marche sur phalanges."
+  },
+  "description_courte": "Les naturalistes y lisent des traits très anciens. Son dos percé siffle en vol, annonçant sa venue dans les canyons. Solitaire, il défend chaque courant d'air comme un bien propre.",
+  "familier": {
+   "possible": false
+  }
+ },
+ {
+  "id": "ail09",
+  "nouveau_nom": "Estuarelle",
+  "sous_titre": "La Plongeuse d'Orage",
+  "groupe": "ailees_a",
+  "rang": "◆◆◆ Élite",
+  "cr": 12,
+  "role_jeu": "boss",
+  "taille_garrot_m": 2.8,
+  "hauteur_sprite_px": 102,
+  "hors_format_sprite": false,
+  "element_principal": "Eau",
+  "element_secondaire": "Foudre",
+  "etats_infliges": [],
+  "lignee_draconique": false,
+  "terrain": "Côtes rocheuses, baies, deltas",
+  "apparence": {
+   "silhouette": "Corps fusiforme, cou long et mince, ailes étroites comme des rames. Queue plate verticale en nageoire. Tête en bec effilé. Rase les vagues avant de plonger.",
+   "trait_distinctif": "Un liseré d'arcs électriques bleutés court le long de ses nageoires dorsales quand elle émerge.",
+   "trait_cle": "nageoires-dorsales-arcs",
+   "couleurs": [
+    "bleu ardoise",
+    "argent",
+    "turquoise"
+   ],
+   "rappel_leger": "Grande volante aquatique, prédatrice côtière électrique.",
+   "difference_avec_ancienne": "Nageoires dorsales à arcs et bec effilé de plongeur."
+  },
+  "description_courte": "Rasant les vagues, elle plonge sans bruit et ressort dans une gerbe d'éclairs. Les couples côtiers défendent baies et deltas. Sa membrane imperméable équipe les navigateurs de haut rang.",
+  "familier": {
+   "possible": false
+  }
+ },
+ {
+  "id": "ail10",
+  "nouveau_nom": "Ghislune",
+  "sous_titre": "Le Veilleur Sans Bruit",
+  "groupe": "ailees_a",
+  "rang": "◆◆◆ Élite",
+  "cr": 11,
+  "role_jeu": "boss",
+  "taille_garrot_m": 2.4,
+  "hauteur_sprite_px": 88,
+  "hors_format_sprite": false,
+  "element_principal": "Ombre",
+  "element_secondaire": "Vent",
+  "etats_infliges": [],
+  "lignee_draconique": false,
+  "terrain": "Forêts nocturnes, jungle dense",
+  "apparence": {
+   "silhouette": "Légère, aux grandes ailes larges et rondes, tête plate d'oiseau de nuit, yeux énormes. Corps mince, pattes courtes. Plumes-écailles frangées qui étouffent tout bruit.",
+   "trait_distinctif": "Deux yeux blancs sans pupille s'allument en phosphorescence et laissent des traînées pâles dans le noir.",
+   "trait_cle": "yeux-blancs-sans-pupille",
+   "couleurs": [
+    "gris cendre",
+    "bleu nuit",
+    "blanc laiteux"
+   ],
+   "rappel_leger": "Grande volante nocturne silencieuse, embusquée dans la canopée.",
+   "difference_avec_ancienne": "Yeux sans pupille, frange de plumes et tête plate."
+  },
+  "description_courte": "On ne l'entend jamais. Seuls deux yeux pâles trahissent sa présence, une fraction de seconde avant l'attaque. Chasse la nuit, solitaire absolu.",
+  "familier": {
+   "possible": false
+  }
+ },
+ {
+  "id": "ail11",
+  "nouveau_nom": "Frimalle",
+  "sous_titre": "La Blanche de Famille",
+  "groupe": "ailees_a",
+  "rang": "◆◆ Rare",
+  "cr": 8,
+  "role_jeu": "boss",
+  "taille_garrot_m": 2.6,
+  "hauteur_sprite_px": 95,
+  "hors_format_sprite": false,
+  "element_principal": "Glace",
+  "element_secondaire": "Eau",
+  "etats_infliges": [],
+  "lignee_draconique": false,
+  "terrain": "Zones enneigées, toundra, cols alpins",
+  "apparence": {
+   "silhouette": "Silhouette de grand rapace blanc, ailes larges et douces, cou plus court qu'il n'y paraît. Marche prudemment, queue en éventail court. Vit en petit groupe.",
+   "trait_distinctif": "Un collier de duvet épais et givré enserre son cou, tel une fourrure.",
+   "trait_cle": "collier-duvet-givre",
+   "couleurs": [
+    "blanc neige",
+    "bleu pâle",
+    "gris perle"
+   ],
+   "rappel_leger": "Grande volante des neiges, grégaire, d'allure paisible mais redoutable en groupe.",
+   "difference_avec_ancienne": "Collier de duvet et cou court, loin d'une silhouette de wyverne classique."
+  },
+  "description_courte": "Les clans nordiques en font un symbole de pureté. Elle vit en famille élargie et frappe en formation. Elle seule se laisse élever, à condition d'être prise toute jeune.",
+  "familier": {
+   "possible": true,
+   "lien_max": "conditionne",
+   "difficulte_dd": 12,
+   "roles": [
+    "eclaireur",
+    "signal",
+    "assistant_combat"
+   ],
+   "aide_combat": "Le familier distrait la cible par des cris et des piqués rasants et gèle une zone de sol d'un crachat de givre. Épuisé, il se replie, fatigué, et se soigne après la chasse.",
+   "transport": null,
+   "capacite_transport": null,
+   "age_ideal": "Oisillon (0 à 3 mois), intégré dans un groupe humain constant",
+   "limite": "Lien seulement conditionné : il traite le groupe humain comme sa famille et devient sauvage s'il en est séparé."
+  }
+ },
+ {
+  "id": "ail12",
+  "nouveau_nom": "Fumerolle",
+  "sous_titre": "Le Bâtisseur de Cendres",
+  "groupe": "ailees_a",
+  "rang": "◆◆◆ Élite",
+  "cr": 12,
+  "role_jeu": "boss",
+  "taille_garrot_m": 3.1,
+  "hauteur_sprite_px": 113,
+  "hors_format_sprite": false,
+  "element_principal": "Terre",
+  "element_secondaire": "Feu",
+  "etats_infliges": [],
+  "lignee_draconique": false,
+  "terrain": "Zones volcaniques, déserts de cendres",
+  "apparence": {
+   "silhouette": "Corps lourd en gros blocs, ailes de pierre fissurée, tête basse en forme de bloc. Pattes courtes et larges. Ressemble à un tas de décombres jusqu'à ce qu'il bouge.",
+   "trait_distinctif": "Des fissures lumineuses orange parcourent son dos et laissent échapper des volutes de fumée.",
+   "trait_cle": "fissures-fumantes-dorsales",
+   "couleurs": [
+    "brun-rouge sombre",
+    "orange braise",
+    "noir basalte"
+   ],
+   "rappel_leger": "Grande volante volcanique, lourde, nourrie de chaleur.",
+   "difference_avec_ancienne": "Fumées et fissures à ciel ouvert, ailes de pierre, tête en bloc."
+  },
+  "description_courte": "On dirait un fragment de volcan qui aurait pris l'air. Ses fissures rougeoient la nuit et fument de jour. Un fragment de fissure chauffe une maison pendant des années.",
+  "familier": {
+   "possible": false
+  }
+ },
+ {
+  "id": "ail13",
+  "nouveau_nom": "Fléchenne",
+  "sous_titre": "La Flèche Grise",
+  "groupe": "ailees_a",
+  "rang": "◆◆◆ Élite",
+  "cr": 13,
+  "role_jeu": "boss",
+  "taille_garrot_m": 2.7,
+  "hauteur_sprite_px": 99,
+  "hors_format_sprite": false,
+  "element_principal": "Vent",
+  "element_secondaire": "Foudre",
+  "etats_infliges": [],
+  "lignee_draconique": false,
+  "terrain": "Zones de vents violents, plateaux élevés",
+  "apparence": {
+   "silhouette": "Corps en fuseau, ailes immenses et étroites, tête en pointe. Queue longue terminée par deux lames fines. Plus vite que le vent.",
+   "trait_distinctif": "Deux rubans de peau translucide flottent derrière ses chevilles et claquent comme des fouets.",
+   "trait_cle": "rubans-de-cheville-fouet",
+   "couleurs": [
+    "gris acier",
+    "argent",
+    "bleu orage"
+   ],
+   "rappel_leger": "Grande volante de vitesse, éclair gris dans la tempête.",
+   "difference_avec_ancienne": "Rubans aux chevilles, queue à deux lames, fuseau étiré."
+  },
+  "description_courte": "À peine visible en vol, elle fend les tempêtes à vitesse extrême. Ses rubans claquent avec un bruit de fouet, annonçant le piqué. Solitaire absolu.",
+  "familier": {
+   "possible": false
+  }
+ },
+ {
+  "id": "ail14",
+  "nouveau_nom": "Gerbélin",
+  "sous_titre": "Le Porte-Paratonnerre",
+  "groupe": "ailees_a",
+  "rang": "◆◆ Rare",
+  "cr": 8,
+  "role_jeu": "boss",
+  "taille_garrot_m": 2.5,
+  "hauteur_sprite_px": 92,
+  "hors_format_sprite": false,
+  "element_principal": "Foudre",
+  "element_secondaire": null,
+  "etats_infliges": [],
+  "lignee_draconique": false,
+  "terrain": "Hauts plateaux, falaises exposées",
+  "apparence": {
+   "silhouette": "Taille moyenne, tête portant deux cornes jaunes en tire-bouchon. Ailes larges, dos souple, queue plate comme une pagaie.",
+   "trait_distinctif": "Deux cornes jaunes torsadées en tire-bouchon dressent la foudre vers le ciel.",
+   "trait_cle": "cornes-tire-bouchon-jaunes",
+   "couleurs": [
+    "jaune électrique",
+    "brun clair",
+    "gris poussière"
+   ],
+   "rappel_leger": "Grande volante d'orage, attire les éclairs et les stocke.",
+   "difference_avec_ancienne": "Cornes torsadées en tire-bouchon et queue en pagaie."
+  },
+  "description_courte": "Elle lève ses cornes torsadées vers le ciel et attire la foudre volontairement. Les artisans des Cités Libres recherchent ses cornes pour les paratonnerres.",
+  "familier": {
+   "possible": false
+  }
+ },
+ {
+  "id": "ail15",
+  "nouveau_nom": "Eufrasine",
+  "sous_titre": "Le Visible Venimeux",
+  "groupe": "ailees_a",
+  "rang": "◆◆◆ Élite",
+  "cr": 13,
+  "role_jeu": "boss",
+  "taille_garrot_m": 3.0,
+  "hauteur_sprite_px": 110,
+  "hors_format_sprite": false,
+  "element_principal": "Vent",
+  "element_secondaire": null,
+  "etats_infliges": [
+   "Poison"
+  ],
+  "lignee_draconique": false,
+  "terrain": "Forêts denses de basse altitude, zones tropicales",
+  "apparence": {
+   "silhouette": "Grand corps violet foncé, ailes larges, tête courte. Épaules, flancs et base des ailes portent des sacs gonflés jaunes. Elle marche en les exhibant.",
+   "trait_distinctif": "Sept sacs venimeux jaune-vert, gonflés comme des ballons, illuminent son corps dans l'ombre.",
+   "trait_cle": "sacs-venimeux-ballons",
+   "couleurs": [
+    "violet noir",
+    "jaune-vert fluo",
+    "gris plomb"
+   ],
+   "rappel_leger": "Grande volante venimeuse aux couleurs d'avertissement.",
+   "difference_avec_ancienne": "Sacs ballons visibles, tête courte, démarche d'exhibition."
+  },
+  "description_courte": "Elle veut qu'on la voie. Ses sacs luisent la nuit et se gonflent avant chaque émission de venin. Mortellement patiente.",
+  "familier": {
+   "possible": false
+  }
+ },
+ {
+  "id": "ail16",
+  "nouveau_nom": "Hermétis",
+  "sous_titre": "Le Caché dans l'Écorce",
+  "groupe": "ailees_a",
+  "rang": "◆◆◆ Élite",
+  "cr": 11,
+  "role_jeu": "boss",
+  "taille_garrot_m": 2.6,
+  "hauteur_sprite_px": 95,
+  "hors_format_sprite": false,
+  "element_principal": "Neutre",
+  "element_secondaire": null,
+  "etats_infliges": [],
+  "lignee_draconique": false,
+  "terrain": "Forêts mixtes, végétation variée",
+  "apparence": {
+   "silhouette": "Corps lisse et allongé, ailes repliées en feuilles, tête étroite aux yeux globuleux indépendants. Se plaque aux troncs.",
+   "trait_distinctif": "Ses yeux globuleux tournent chacun de leur côté, et sa peau change de couleur par vagues.",
+   "trait_cle": "yeux-globuleux-independants",
+   "couleurs": [
+    "vert tilleul",
+    "brun écorce",
+    "rouge colère"
+   ],
+   "rappel_leger": "Grande volante de camouflage, tapie en embuscade.",
+   "difference_avec_ancienne": "Yeux indépendants et ailes en feuilles."
+  },
+  "description_courte": "Les novices ne la croient pas réelle jusqu'à la première morsure. Sa peau épouse tronc et feuillage. Elle rougit quand sa fureur monte.",
+  "familier": {
+   "possible": false
+  }
+ },
+ {
+  "id": "ail17",
+  "nouveau_nom": "Galatéane",
+  "sous_titre": "La Couronne Mouvante",
+  "groupe": "ailees_a",
+  "rang": "◆◆◆◆ Légendaire",
+  "cr": 17,
+  "role_jeu": "boss",
+  "taille_garrot_m": 3.4,
+  "hauteur_sprite_px": 124,
+  "hors_format_sprite": false,
+  "element_principal": "Feu",
+  "element_secondaire": null,
+  "etats_infliges": [],
+  "lignee_draconique": true,
+  "terrain": "Zones isolées de haute montagne, forêts vierges",
+  "apparence": {
+   "silhouette": "Corps allongé et gracieux, quatre ailes en croix, cou ondulant. Tête fine ornée d'une couronne mobile de sept plaques nacrées. Queue en ruban.",
+   "trait_distinctif": "Sept plaques nacrées flottent librement autour de sa tête et tournent comme une couronne.",
+   "trait_cle": "couronne-de-sept-plaques",
+   "couleurs": [
+    "or pâle",
+    "nacre",
+    "rouge grenat"
+   ],
+   "rappel_leger": "Légendaire d'une beauté troublante, souveraine solitaire du feu.",
+   "difference_avec_ancienne": "Quatre ailes et plaques flottantes de couronne."
+  },
+  "description_courte": "Les guildes la décrivent comme belle. Ses sept plaques de crête, toutes différentes, sont des cadeaux diplomatiques. Posséder les sept d'un même individu est un honneur.",
+  "familier": {
+   "possible": false
+  }
+ },
+ {
+  "id": "ail18",
+  "nouveau_nom": "Géodelise",
+  "sous_titre": "La Tempête de Verre Blanc",
+  "groupe": "ailees_a",
+  "rang": "◆◆◆ Élite",
+  "cr": 14,
+  "role_jeu": "boss",
+  "taille_garrot_m": 3.3,
+  "hauteur_sprite_px": 121,
+  "hors_format_sprite": false,
+  "element_principal": "Glace",
+  "element_secondaire": null,
+  "etats_infliges": [],
+  "lignee_draconique": true,
+  "terrain": "Zones glaciaires, toundras profondes",
+  "apparence": {
+   "silhouette": "Corps trapu, ailes bordées de cristaux, tête en bélier de glace. Marche lourde. En vol de face, on dirait une tempête.",
+   "trait_distinctif": "Des cristaux bleu-blanc, de cinq à trente centimètres, hérissent son échine comme des orgues de verre.",
+   "trait_cle": "cristaux-orgue-echine",
+   "couleurs": [
+    "blanc glacial",
+    "bleu cobalt",
+    "gris clair"
+   ],
+   "rappel_leger": "Grande volante glaciaire hérissée de cristaux, d'ascendance draconique.",
+   "difference_avec_ancienne": "Échine en orgues de cristal et tête en bélier."
+  },
+  "description_courte": "Ses cristaux ne fondent jamais. Vu de face en vol, il ressemble à un blizzard en marche. Lignée draconique attestée.",
+  "familier": {
+   "possible": false
+  }
+ },
+ {
+  "id": "ail19",
+  "nouveau_nom": "Hégémone",
+  "sous_titre": "Le Trône de l'Orage",
+  "groupe": "ailees_a",
+  "rang": "◆◆◆◆ Légendaire",
+  "cr": 21,
+  "role_jeu": "boss",
+  "taille_garrot_m": 4.0,
+  "hauteur_sprite_px": 146,
+  "hors_format_sprite": false,
+  "element_principal": "Foudre",
+  "element_secondaire": null,
+  "etats_infliges": [],
+  "lignee_draconique": true,
+  "terrain": "Zones de tempêtes permanentes, sommets au-dessus des nuages",
+  "apparence": {
+   "silhouette": "Colosse angulaire aux ailes en voûtes, membres en piliers, tête carrée surmontée de deux cornes en arc. Posé, il évoque une cathédrale.",
+   "trait_distinctif": "Deux cornes en arc géantes reliées par un fil d'éclairs permanent encadrent sa tête.",
+   "trait_cle": "cornes-arc-fil-eclair",
+   "couleurs": [
+    "gris basalte",
+    "bleu électrique",
+    "or terni"
+   ],
+   "rappel_leger": "Légendaire colossal d'orage, plus grand que ses semblables.",
+   "difference_avec_ancienne": "Cornes en arc reliées d'éclairs et silhouette de cathédrale."
+  },
+  "description_courte": "Colossal, il domine tous ses semblables. Un fil d'éclairs relie ses cornes en permanence. Aucun congénère à 800 km.",
+  "familier": {
+   "possible": false
+  }
+ },
+ {
+  "id": "ail20",
+  "nouveau_nom": "Éburnale",
+  "sous_titre": "Le Silence Blanc",
+  "groupe": "ailees_a",
+  "rang": "◆◆◆◆ Légendaire",
+  "cr": 19,
+  "role_jeu": "boss",
+  "taille_garrot_m": 3.8,
+  "hauteur_sprite_px": 139,
+  "hors_format_sprite": false,
+  "element_principal": "Éther",
+  "element_secondaire": null,
+  "etats_infliges": [],
+  "lignee_draconique": true,
+  "terrain": "Très haute altitude, au-dessus des nuages",
+  "apparence": {
+   "silhouette": "Silhouette fine, ailes immenses et translucides, tête lisse sans cornes. Totalement blanc. Vol sans bruit.",
+   "trait_distinctif": "Une fine membrane alvéolée translucide s'étale entre ses ailes comme une toile de cire.",
+   "trait_cle": "membrane-alveolee-cire",
+   "couleurs": [
+    "blanc absolu",
+    "ivoire lumineux",
+    "argent"
+   ],
+   "rappel_leger": "Légendaire de pure lignée draconique, blanc éclatant.",
+   "difference_avec_ancienne": "Membrane de cire et tête lisse."
+  },
+  "description_courte": "Blanc absolu, de la pointe du museau à l'extrémité des ailes. Difficile à regarder en plein soleil. Évite toute rencontre.",
+  "familier": {
+   "possible": false
+  }
+ },
+ {
+  "id": "ail21",
+  "nouveau_nom": "Fêlurine",
+  "sous_titre": "Le Reflet du Gouffre",
+  "groupe": "ailees_a",
+  "rang": "◆◆◆ Élite",
+  "cr": 15,
+  "role_jeu": "boss",
+  "taille_garrot_m": 3.2,
+  "hauteur_sprite_px": 117,
+  "hors_format_sprite": false,
+  "element_principal": "Ombre",
+  "element_secondaire": null,
+  "etats_infliges": [],
+  "lignee_draconique": true,
+  "terrain": "Falaises abyssales, bords de gouffres",
+  "apparence": {
+   "silhouette": "Écailles convexes laquées, corps sombre, tête effilée, ailes en arc. Posée, elle reflète la falaise.",
+   "trait_distinctif": "Ses écailles bombées renvoient une image déformée et sombre de ce qui l'entoure.",
+   "trait_cle": "ecailles-miroir-bombees",
+   "couleurs": [
+    "noir laqué",
+    "violet profond",
+    "argent terne"
+   ],
+   "rappel_leger": "Grande volante à reflets trompeurs, d'ascendance draconique.",
+   "difference_avec_ancienne": "Écailles miroir bombées et ailes en arc."
+  },
+  "description_courte": "Posée sur une falaise, elle reflète la falaise. Un chasseur croit voir un gouffre là où elle attend.",
+  "familier": {
+   "possible": false
+  }
+ },
+ {
+  "id": "ail22",
+  "nouveau_nom": "Fougerande",
+  "sous_titre": "La Forêt qui Plane",
+  "groupe": "ailees_a",
+  "rang": "◆◆ Rare",
+  "cr": 9,
+  "role_jeu": "boss",
+  "taille_garrot_m": 2.7,
+  "hauteur_sprite_px": 99,
+  "hors_format_sprite": false,
+  "element_principal": "Vent",
+  "element_secondaire": "Terre",
+  "etats_infliges": [],
+  "lignee_draconique": false,
+  "terrain": "Forêts à canopée haute, jungles",
+  "apparence": {
+   "silhouette": "Corps couvert de mousses et de lianes, ailes en frondes. Tête cachée sous un feuillage. De loin, on dirait un arbre.",
+   "trait_distinctif": "Des plants de fougère poussent le long de ses ailes, ondulant en vol.",
+   "trait_cle": "ailes-frondes-de-fougere",
+   "couleurs": [
+    "vert fougère",
+    "brun humus",
+    "jaune pâle"
+   ],
+   "rappel_leger": "Grande volante couverte de végétation, camouflée dans la canopée.",
+   "difference_avec_ancienne": "Ailes en frondes de fougère."
+  },
+  "description_courte": "Une jungle personnelle pousse sur son dos. Difficile à distinguer d'un arbre, elle chasse depuis la canopée.",
+  "familier": {
+   "possible": false
+  }
+ },
+ {
+  "id": "ail23",
+  "nouveau_nom": "Escarbille",
+  "sous_titre": "La Braise Voyageuse",
+  "groupe": "ailees_a",
+  "rang": "◆◆ Rare",
+  "cr": 7,
+  "role_jeu": "boss",
+  "taille_garrot_m": 2.5,
+  "hauteur_sprite_px": 92,
+  "hors_format_sprite": false,
+  "element_principal": "Feu",
+  "element_secondaire": null,
+  "etats_infliges": [],
+  "lignee_draconique": false,
+  "terrain": "Zones après incendie, cendres chaudes",
+  "apparence": {
+   "silhouette": "Gris-noir de cendre, avec des points de braise sous les écailles. Corps maigre, ailes en lambeaux. Se pose dans les cendres et disparaît.",
+   "trait_distinctif": "Des points de braise isolés clignotent sous ses écailles comme des escarbilles dans un foyer.",
+   "trait_cle": "points-de-braise-ecailles",
+   "couleurs": [
+    "gris cendre",
+    "orange braise",
+    "noir charbon"
+   ],
+   "rappel_leger": "Grande volante des lendemains d'incendie.",
+   "difference_avec_ancienne": "Points de braise ponctuels et ailes en lambeaux."
+  },
+  "description_courte": "Elle suit les incendies de forêt. Immobile dans les cendres, elle est presque invisible. Seule espèce de feu dressable, sur un jeune.",
+  "familier": {
+   "possible": true,
+   "lien_max": "conditionne",
+   "difficulte_dd": null,
+   "roles": [
+    "assistant_combat",
+    "pisteur"
+   ],
+   "aide_combat": "Le familier allume des foyers de braise sous les pieds de la cible et la harcèle de petites brûlures. Fatigué, il se replie, puis il est soigné.",
+   "transport": null,
+   "capacite_transport": null,
+   "age_ideal": "Jeune capturé avant 3 mois en zone d'incendie contrôlé",
+   "limite": "Environ 35 % de réussite chez les jeunes ; adulte, il redevient sauvage."
+  }
+ }
+]

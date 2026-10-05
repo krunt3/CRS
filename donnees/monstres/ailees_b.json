@@ -1,0 +1,790 @@
+[
+ {
+  "id": "ail24",
+  "nouveau_nom": "Ioliane",
+  "sous_titre": "La Braise sous les Feuilles",
+  "groupe": "ailees_b",
+  "rang": "◆◆◆◆ Légendaire",
+  "cr": 18,
+  "role_jeu": "boss",
+  "taille_garrot_m": 3.3,
+  "hauteur_sprite_px": 121,
+  "hors_format_sprite": false,
+  "element_principal": "Feu",
+  "element_secondaire": "Ombre",
+  "etats_infliges": [],
+  "lignee_draconique": false,
+  "terrain": "Forêts nocturnes profondes, sous-bois dense",
+  "apparence": {
+   "silhouette": "Wyverne large et basse, ailes courtes et arrondies comme des feuilles de hêtre, repliées en cape. Cou épais, tête plate de rapace nocturne, queue en éventail serré. Se lit en ombre comme un grand hibou cuirassé.",
+   "trait_distinctif": "Des braises vives logées dans des alvéoles du dos s'allument et s'éteignent une à une, comme des lucioles.",
+   "trait_cle": "dos-alveoles-braises",
+   "couleurs": [
+    "noir de suie",
+    "orange braise",
+    "vert mousse sombre"
+   ],
+   "rappel_leger": "Grand volant de feu nocturne, chasseur embusqué sous la canopée.",
+   "difference_avec_ancienne": "Tête de rapace et ailes de cape au lieu d'une silhouette de wyverne classique, et braises ponctuelles plutôt qu'un corps embrasé."
+  },
+  "description_courte": "Variété rare de feu nocturne des forêts closes. Les pisteurs signalent d'abord des points rougeoyants dans le noir, puis plus rien. Elle chasse à l'ouïe, ailes pliées, et incendie la canopée par rafales brèves.",
+  "familier": {
+   "possible": false
+  }
+ },
+ {
+  "id": "ail25",
+  "nouveau_nom": "Ligneroc",
+  "sous_titre": "Le Patriarche des Racines",
+  "groupe": "ailees_b",
+  "rang": "◆◆◆ Élite",
+  "cr": 14,
+  "role_jeu": "boss",
+  "taille_garrot_m": 3.1,
+  "hauteur_sprite_px": 113,
+  "hors_format_sprite": false,
+  "element_principal": "Feu",
+  "element_secondaire": "Terre",
+  "etats_infliges": [],
+  "lignee_draconique": false,
+  "terrain": "Forêts primaires, arbres millénaires",
+  "apparence": {
+   "silhouette": "Wyverne trapue à quatre appuis au sol, dos voûté et écorcé, ailes étroites et rugueuses. Tête carrée, mâchoire large, queue massive terminée en nœud de bois.",
+   "trait_distinctif": "Une écorce fossile couvre son dos, fendue par des veines de feu orange qui s'élargissent au combat.",
+   "trait_cle": "dos-ecorce-fendue",
+   "couleurs": [
+    "brun écorce",
+    "gris lichen",
+    "orange cendre"
+   ],
+   "rappel_leger": "Grand volant de feu massif des forêts anciennes, à la fois arbre et braise.",
+   "difference_avec_ancienne": "Corps trapu couvert d'écorce, queue en nœud de bois, là où l'ancienne forme était plus élancée."
+  },
+  "description_courte": "Les bûcherons le confondent avec une souche tant qu'il dort. Éveillé, il fend son écorce et crache un feu bas qui rampe dans les racines, au point de rallumer des foyers éteints depuis des jours.",
+  "familier": {
+   "possible": false
+  }
+ },
+ {
+  "id": "ail26",
+  "nouveau_nom": "Kasmerune",
+  "sous_titre": "Le Soleil Posé",
+  "groupe": "ailees_b",
+  "rang": "◆◆◆◆ Légendaire",
+  "cr": 17,
+  "role_jeu": "boss",
+  "taille_garrot_m": 3.4,
+  "hauteur_sprite_px": 124,
+  "hors_format_sprite": false,
+  "element_principal": "Feu",
+  "element_secondaire": null,
+  "etats_infliges": [],
+  "lignee_draconique": false,
+  "terrain": "Zones volcaniques, étendues arides chaudes",
+  "apparence": {
+   "silhouette": "Wyverne haute sur pattes, cou long et incurvé, quatre ailes membraneuses étagées en deux paires. Tête étroite en pointe, queue fine terminée en lame plate.",
+   "trait_distinctif": "Quatre ailes superposées au bord translucide jaune, qui brillent comme un vitrail de forge.",
+   "trait_cle": "quatre-ailes-vitrail",
+   "couleurs": [
+    "jaune solaire",
+    "blanc chauffé",
+    "rouge basalte"
+   ],
+   "rappel_leger": "Grand volant de feu extrême des terres brûlées, au vol de paire d'ailes en tandem.",
+   "difference_avec_ancienne": "Quatre ailes et corps élancé plutôt qu'une silhouette à deux ailes sombre et massive."
+  },
+  "description_courte": "Documentée sur les caldeiras les plus chaudes, elle ne se pose qu'après avoir tourné longtemps au-dessus de sa proie. Sa transition de phase très précoce surprend les équipes mal préparées.",
+  "familier": {
+   "possible": false
+  }
+ },
+ {
+  "id": "ail27",
+  "nouveau_nom": "Ildarion",
+  "sous_titre": "Le Roi des Cimes Mortes",
+  "groupe": "ailees_b",
+  "rang": "◆◆◆◆ Légendaire",
+  "cr": 22,
+  "role_jeu": "boss",
+  "taille_garrot_m": 3.6,
+  "hauteur_sprite_px": 132,
+  "hors_format_sprite": false,
+  "element_principal": "Feu",
+  "element_secondaire": null,
+  "etats_infliges": [],
+  "lignee_draconique": true,
+  "terrain": "Montagne isolée, forêts vierges d'altitude",
+  "apparence": {
+   "silhouette": "Colossale wyverne à longue encolure, ailes d'envergure démesurée au repos pendues comme des voiles. Corps de félin étiré, tête cornue à six pointes alignées en couronne plate.",
+   "trait_distinctif": "Une couronne de six cornes plates disposées en demi-cercle autour du crâne, chacune d'une teinte de braise différente.",
+   "trait_cle": "couronne-six-cornes",
+   "couleurs": [
+    "blanc ivoire",
+    "cuivre rouge",
+    "bleu nuit"
+   ],
+   "rappel_leger": "Souverain volant de feu d'ascendance draconique, apex des forêts d'altitude.",
+   "difference_avec_ancienne": "Couronne de cornes plates et corps félin, contre un crâne uni et une posture reptilienne."
+  },
+  "description_courte": "Les récits de haute montagne en parlent comme d'un roi. Son envergure de seize mètres couvre des vallées entières et sa couronne signale l'humeur : chaque corne s'embrase tour à tour avant le souffle.",
+  "familier": {
+   "possible": false
+  }
+ },
+ {
+  "id": "ail28",
+  "nouveau_nom": "Jastrève",
+  "sous_titre": "Le Veilleur de Gouffre",
+  "groupe": "ailees_b",
+  "rang": "◆◆◆ Élite",
+  "cr": 13,
+  "role_jeu": "boss",
+  "taille_garrot_m": 3.2,
+  "hauteur_sprite_px": 117,
+  "hors_format_sprite": false,
+  "element_principal": "Foudre",
+  "element_secondaire": null,
+  "etats_infliges": [],
+  "lignee_draconique": true,
+  "terrain": "Falaises à gouffres, plaines rocheuses, zones de corruption ancienne",
+  "apparence": {
+   "silhouette": "Wyverne fusiforme, ailes larges et plates, tête massive et lourde portée bas. Pas de crête ni d'ornement, silhouette austère comme une pierre taillée.",
+   "trait_distinctif": "Une plaque crânienne fossile fendue d'éclairs bleus s'étend du front au garrot comme un casque de pierre.",
+   "trait_cle": "casque-fossile-eclairs",
+   "couleurs": [
+    "gris ardoise",
+    "bleu électrique",
+    "blanc os"
+   ],
+   "rappel_leger": "Grand volant solitaire de foudre, version archaïque et territoriale de la wyverne.",
+   "difference_avec_ancienne": "Plaque fossile en casque et tonalité ardoise, contre un aspect de corps nu sans particularité."
+  },
+  "description_courte": "Solitaire absolu, il veille un gouffre des jours durant avant de fondre sur l'intrus. Sa plaque crânienne, très prisée des bâtisseurs, craquelle de lumière quand l'orage monte.",
+  "familier": {
+   "possible": false
+  }
+ },
+ {
+  "id": "ail29",
+  "nouveau_nom": "Ivrelle",
+  "sous_titre": "La Paire des Steppes",
+  "groupe": "ailees_b",
+  "rang": "◆◆ Rare",
+  "cr": 7,
+  "role_jeu": "mini_boss",
+  "taille_garrot_m": 2.4,
+  "hauteur_sprite_px": 88,
+  "hors_format_sprite": false,
+  "element_principal": "Ombre",
+  "element_secondaire": "Foudre",
+  "etats_infliges": [],
+  "lignee_draconique": false,
+  "terrain": "Plaines dégagées, hautes herbes, steppes",
+  "apparence": {
+   "silhouette": "Wyverne légère à pattes longues, ailes étroites, cou en S. La femelle, plus grande, porte une tête fine ; le mâle, plus petit, une tête plus ronde.",
+   "trait_distinctif": "Des taches blanches dorsales dessinent une constellation propre à chaque individu, qui crépite avant la décharge.",
+   "trait_cle": "taches-constellation-dos",
+   "couleurs": [
+    "bleu-noir",
+    "blanc astral",
+    "violet pâle"
+   ],
+   "rappel_leger": "Petit volant de plaine en couple, ombre et orage nocturnes.",
+   "difference_avec_ancienne": "Constellation lisible sur le dos et dimorphisme marqué, contre une peau unie."
+  },
+  "description_courte": "Toujours aperçue en couple, la paire quadrille les steppes à la tombée du jour. Les taches dorsales, différentes d'un individu à l'autre, servent aux pisteurs à reconnaître chaque couple.",
+  "familier": {
+   "possible": false
+  }
+ },
+ {
+  "id": "ail30",
+  "nouveau_nom": "Liparande",
+  "sous_titre": "La Coulée Vivante",
+  "groupe": "ailees_b",
+  "rang": "◆◆◆ Élite",
+  "cr": 12,
+  "role_jeu": "boss",
+  "taille_garrot_m": 3.0,
+  "hauteur_sprite_px": 110,
+  "hors_format_sprite": false,
+  "element_principal": "Feu",
+  "element_secondaire": "Terre",
+  "etats_infliges": [],
+  "lignee_draconique": false,
+  "terrain": "Volcans actifs, coulées de lave, caldeiras",
+  "apparence": {
+   "silhouette": "Wyverne ramassée, ailes en demi-lune, large cou épais. Le corps alterne plaques noires et fissures incandescentes, lisible en pavage irrégulier.",
+   "trait_distinctif": "Sa peau forme un pavage de plaques noires séparées par des fissures de lave qui changent de place.",
+   "trait_cle": "peau-pavage-lave",
+   "couleurs": [
+    "noir basalte",
+    "orange fondu",
+    "gris cendre"
+   ],
+   "rappel_leger": "Grand volant de feu des volcans, à la peau de roche en mouvement.",
+   "difference_avec_ancienne": "Pavage mobile de plaques et de fissures, plutôt qu'une peau en bandes alternées."
+  },
+  "description_courte": "On la repère de loin à la manière dont ses fissures migrent d'une chasse à l'autre. Les plaques refroidies durcissent comme du basalte, puis se brisent pour libérer de la lave fraîche.",
+  "familier": {
+   "possible": false
+  }
+ },
+ {
+  "id": "ail31",
+  "nouveau_nom": "Kerwenn",
+  "sous_titre": "La Tempête Seule",
+  "groupe": "ailees_b",
+  "rang": "◆◆◆ Élite",
+  "cr": 11,
+  "role_jeu": "boss",
+  "taille_garrot_m": 3.0,
+  "hauteur_sprite_px": 110,
+  "hors_format_sprite": false,
+  "element_principal": "Eau",
+  "element_secondaire": "Vent",
+  "etats_infliges": [],
+  "lignee_draconique": false,
+  "terrain": "Côtes à falaises, zones tempétueuses côtières",
+  "apparence": {
+   "silhouette": "Wyverne fine à ailes en faux, tête conique aux narines hautes, corps profilé de marin. Queue courte aplatie, comme un gouvernail.",
+   "trait_distinctif": "Une collerette de voiles membraneux gris autour du cou se gonfle d'embruns et tourbillonne en vent.",
+   "trait_cle": "collerette-voiles-embruns",
+   "couleurs": [
+    "gris tempête",
+    "vert-de-gris",
+    "blanc écume"
+   ],
+   "rappel_leger": "Grand volant côtier de tempête, maître des embruns.",
+   "difference_avec_ancienne": "Collerette de voiles et corps de marin, contre un aspect plus rugueux."
+  },
+  "description_courte": "Les marins de la côte croient la tempête vivante. L'animal crée autour de lui un vortex de brume salée dans lequel il disparaît, puis frappe de côté, porté par des vents que lui seul domine.",
+  "familier": {
+   "possible": false
+  }
+ },
+ {
+  "id": "ail32",
+  "nouveau_nom": "Kénothe",
+  "sous_titre": "Le Creux du Ciel",
+  "groupe": "ailees_b",
+  "rang": "◆◆◆ Élite",
+  "cr": 14,
+  "role_jeu": "boss",
+  "taille_garrot_m": 3.3,
+  "hauteur_sprite_px": 121,
+  "hors_format_sprite": false,
+  "element_principal": "Ombre",
+  "element_secondaire": null,
+  "etats_infliges": [],
+  "lignee_draconique": true,
+  "terrain": "Zones de vide, plateaux nus, zones mortes",
+  "apparence": {
+   "silhouette": "Wyverne aux contours flous, ailes fendues en lanières comme des haillons, tête effilée sans yeux visibles. Semble découpée dans le ciel.",
+   "trait_distinctif": "Aucune texture visible : une silhouette noire dont les bords fument en fils de brume sombre.",
+   "trait_cle": "bords-brume-noire",
+   "couleurs": [
+    "noir absolu",
+    "gris fumée",
+    "violet éteint"
+   ],
+   "rappel_leger": "Grand volant d'ombre et de vide, prédateur solitaire des zones mortes.",
+   "difference_avec_ancienne": "Ailes déchiquetées en lanières et bords fumants, contre un corps net et poli."
+  },
+  "description_courte": "Les naturalistes l'observent de loin et de travers : de face, l'œil glisse. Elle ne laisse aucune trace au sol et chasse les créatures qui s'attardent sur les plateaux sans vie.",
+  "familier": {
+   "possible": false
+  }
+ },
+ {
+  "id": "ail33",
+  "nouveau_nom": "Iselune",
+  "sous_titre": "La Pêcheuse d'Argent",
+  "groupe": "ailees_b",
+  "rang": "◆◆ Rare",
+  "cr": 8,
+  "role_jeu": "mini_boss",
+  "taille_garrot_m": 2.6,
+  "hauteur_sprite_px": 95,
+  "hors_format_sprite": false,
+  "element_principal": "Eau",
+  "element_secondaire": "Ombre",
+  "etats_infliges": [],
+  "lignee_draconique": false,
+  "terrain": "Côtes à marées, lacs de montagne",
+  "apparence": {
+   "silhouette": "Wyverne élancée à long bec, ailes de mouette géante, pattes palmées. Posture haute au bord de l'eau.",
+   "trait_distinctif": "Des écailles en miroir sur les flancs, qui s'éclairent comme des pièces d'argent à la pleine lune.",
+   "trait_cle": "ecailles-miroir-lune",
+   "couleurs": [
+    "argent froid",
+    "bleu marine",
+    "blanc perle"
+   ],
+   "rappel_leger": "Petit volant lunaire lié aux marées, pêcheur à bec long.",
+   "difference_avec_ancienne": "Long bec et flancs en miroir, contre un museau court et une peau terne."
+  },
+  "description_courte": "Solitaire sauf aux nuits de pleine lune, où les individus se rassemblent sur les grèves. Ils pêchent alors dans l'eau noire, argentés de la tête à la queue.",
+  "familier": {
+   "possible": false
+  }
+ },
+ {
+  "id": "ail34",
+  "nouveau_nom": "Jonquine",
+  "sous_titre": "La Paire Hérissée",
+  "groupe": "ailees_b",
+  "rang": "◆◆ Rare",
+  "cr": 7,
+  "role_jeu": "mini_boss",
+  "taille_garrot_m": 2.5,
+  "hauteur_sprite_px": 92,
+  "hors_format_sprite": false,
+  "element_principal": "Terre",
+  "element_secondaire": null,
+  "etats_infliges": [
+   "Poison"
+  ],
+  "lignee_draconique": false,
+  "terrain": "Garrigues, végétation épineuse, zones arbustives sèches",
+  "apparence": {
+   "silhouette": "Wyverne basse, ailes courtes, corps en bloc recouvert d'épines. Se lit en boule de ronces à deux têtes lorsqu'un couple se serre.",
+   "trait_distinctif": "Des épines creuses en rangs de couleur ocre et vert, qui se dressent en brosse sur le dos et la queue.",
+   "trait_cle": "epines-brosse-ocre",
+   "couleurs": [
+    "ocre sec",
+    "vert épine",
+    "brun terre"
+   ],
+   "rappel_leger": "Petite volante de garrigue défendue par ses épines venimeuses.",
+   "difference_avec_ancienne": "Épines en brosse organisées en rangs, au lieu d'une masse d'épines éparses."
+  },
+  "description_courte": "Le couple se défend toujours en bloc, dos contre dos. Les épines, creuses, injectent un venin irritant ; seul un dresseur patient obtient un lien conditionné, et à grand-peine.",
+  "familier": {
+   "possible": true,
+   "lien_max": "conditionne",
+   "difficulte_dd": 14,
+   "roles": [
+    "garde",
+    "assistant_combat"
+   ],
+   "aide_combat": "Le familier se place en défense et hérisse ses épines pour détourner la cible, parfois en lui infligeant un venin irritant. Il peut être mis K.O. par fatigue, puis soigné.",
+   "transport": null,
+   "capacite_transport": null,
+   "age_ideal": "Jeune, couplé dès le plus jeune âge",
+   "limite": "Dressage conditionné très difficile et lié à son compagnon ; il redevient farouche loin du dresseur."
+  }
+ },
+ {
+  "id": "ail35",
+  "nouveau_nom": "Imbrelle",
+  "sous_titre": "L'Absente des Lacs",
+  "groupe": "ailees_b",
+  "rang": "◆◆ Rare",
+  "cr": 8,
+  "role_jeu": "mini_boss",
+  "taille_garrot_m": 2.5,
+  "hauteur_sprite_px": 92,
+  "hors_format_sprite": false,
+  "element_principal": "Vent",
+  "element_secondaire": "Eau",
+  "etats_infliges": [],
+  "lignee_draconique": false,
+  "terrain": "Brume permanente, lacs de montagne, côtes brumeuses",
+  "apparence": {
+   "silhouette": "Wyverne effilée et translucide, ailes de gaze, tête plate et étroite. Se lit en lambeau de nuage.",
+   "trait_distinctif": "Des écailles translucides gouttent en permanence et font une traîne de gouttelettes derrière elle.",
+   "trait_cle": "traine-gouttelettes",
+   "couleurs": [
+    "blanc laiteux",
+    "gris perle",
+    "bleu glacier"
+   ],
+   "rappel_leger": "Petit volant de brume, difficile à voir, attaque par surprise.",
+   "difference_avec_ancienne": "Traîne de gouttes et peau de gaze, contre un corps opalescent compact."
+  },
+  "description_courte": "On la remarque au sillage de gouttes qu'elle laisse, jamais à elle-même. Elle frappe depuis les bancs de brume puis se fond dans les nuages bas.",
+  "familier": {
+   "possible": false
+  }
+ },
+ {
+  "id": "ail36",
+  "nouveau_nom": "Kuprion",
+  "sous_titre": "Le Mangeur de Filons",
+  "groupe": "ailees_b",
+  "rang": "◆◆◆ Élite",
+  "cr": 12,
+  "role_jeu": "boss",
+  "taille_garrot_m": 3.1,
+  "hauteur_sprite_px": 113,
+  "hors_format_sprite": false,
+  "element_principal": "Terre",
+  "element_secondaire": "Foudre",
+  "etats_infliges": [],
+  "lignee_draconique": false,
+  "terrain": "Minerais affleurants, mines abandonnées, roches ferrugineuses",
+  "apparence": {
+   "silhouette": "Wyverne lourde et anguleuse, ailes de tôle étroites, mâchoire large de broyeur. Queue en massue plate.",
+   "trait_distinctif": "Des plaques de cuivre vert-de-grisé sur le dos, d'où jaillissent des arcs lorsqu'il frotte ses ailes.",
+   "trait_cle": "plaques-cuivre-vert",
+   "couleurs": [
+    "vert-de-gris",
+    "cuivre rouge",
+    "gris plomb"
+   ],
+   "rappel_leger": "Grand volant minéralivore, à l'armure de métal et aux décharges.",
+   "difference_avec_ancienne": "Plaques de cuivre oxydé et mâchoire de broyeur, contre un aspect argent et rouille."
+  },
+  "description_courte": "Il ronge les filons à même la roche et en tire des écailles de métal. Les mineurs reconnaissent sa présence aux étincelles dans les galeries abandonnées.",
+  "familier": {
+   "possible": false
+  }
+ },
+ {
+  "id": "ail37",
+  "nouveau_nom": "Ithaline",
+  "sous_titre": "La Reine du Ciel Clair",
+  "groupe": "ailees_b",
+  "rang": "◆◆◆ Élite",
+  "cr": 11,
+  "role_jeu": "boss",
+  "taille_garrot_m": 2.7,
+  "hauteur_sprite_px": 99,
+  "hors_format_sprite": false,
+  "element_principal": "Glace",
+  "element_secondaire": null,
+  "etats_infliges": [],
+  "lignee_draconique": true,
+  "terrain": "Altitudes extrêmes, ciel clair et froid permanent",
+  "apparence": {
+   "silhouette": "Wyverne élancée à très grande envergure, poitrail profond, ailes en lame de planeur. Queue longue à plumes de givre.",
+   "trait_distinctif": "Des plumes de givre en éventail sur la queue, qui tintent comme des clochettes de verre.",
+   "trait_cle": "queue-plumes-givre",
+   "couleurs": [
+    "blanc glacial",
+    "bleu céleste",
+    "argent pâle"
+   ],
+   "rappel_leger": "Grand volant de haute altitude, glace et souffle draconique.",
+   "difference_avec_ancienne": "Plumes de givre et ailes de planeur, contre un corps compact."
+  },
+  "description_courte": "Au-dessus de trois mille mètres, elle plane sans effort dans un air que d'autres fuient. On entend d'abord le tintement de sa queue, puis le froid.",
+  "familier": {
+   "possible": false
+  }
+ },
+ {
+  "id": "ail38",
+  "nouveau_nom": "Jirelant",
+  "sous_titre": "La Rage des Gorges",
+  "groupe": "ailees_b",
+  "rang": "◆◆ Rare",
+  "cr": 7,
+  "role_jeu": "mini_boss",
+  "taille_garrot_m": 2.6,
+  "hauteur_sprite_px": 95,
+  "hors_format_sprite": false,
+  "element_principal": "Vent",
+  "element_secondaire": null,
+  "etats_infliges": [],
+  "lignee_draconique": false,
+  "terrain": "Vents violents, gorges, canyons exposés",
+  "apparence": {
+   "silhouette": "Wyverne ramassée, ailes courtes et larges, mâchoire en étau. Dos bossu, cou ramassé.",
+   "trait_distinctif": "Une crête osseuse en lame en travers du front, tranchante comme un soc, qui fend l'air devant elle.",
+   "trait_cle": "crete-soc-frontale",
+   "couleurs": [
+    "brun rouille",
+    "jaune poussière",
+    "gris pierre"
+   ],
+   "rappel_leger": "Petit volant de canyon, agressif et immédiat.",
+   "difference_avec_ancienne": "Crête frontale en soc et corps bossu, contre un museau lisse."
+  },
+  "description_courte": "Elle attaque sans la pause d'observation des autres wyvernes. Toute silhouette dans son canyon déclenche un plongeon immédiat, tête baissée.",
+  "familier": {
+   "possible": false
+  }
+ },
+ {
+  "id": "ail39",
+  "nouveau_nom": "Lorélie",
+  "sous_titre": "L'Amie des Nichées",
+  "groupe": "ailees_b",
+  "rang": "◆◆ Rare",
+  "cr": 6,
+  "role_jeu": "mini_boss",
+  "taille_garrot_m": 2.5,
+  "hauteur_sprite_px": 92,
+  "hors_format_sprite": false,
+  "element_principal": "Terre",
+  "element_secondaire": "Vent",
+  "etats_infliges": [],
+  "lignee_draconique": false,
+  "terrain": "Forêts tempérées, végétation stable",
+  "apparence": {
+   "silhouette": "Wyverne trapue au dos garni de creux et de bosses, ailes larges, tête douce. Fourrure d'écailles en plumes sur les épaules.",
+   "trait_distinctif": "Des niches creusées dans les épaules et le dos, où nichent oiseaux et petits mammifères.",
+   "trait_cle": "dos-niches-habitees",
+   "couleurs": [
+    "brun feuille",
+    "vert mousse",
+    "crème"
+   ],
+   "rappel_leger": "Petite volante de forêt symbiotique, abri vivant.",
+   "difference_avec_ancienne": "Niches habitées sur le dos et regard doux, contre un pelage plus ordinaire."
+  },
+  "description_courte": "Seule wyverne de son groupe à nouer un lien affectif. Des oiseaux nichent dans ses épaules ; elle les protège et en tire des alertes. Une rare compagne de chasse.",
+  "familier": {
+   "possible": true,
+   "lien_max": "affectif",
+   "difficulte_dd": null,
+   "roles": [
+    "eclaireur",
+    "soin",
+    "signal"
+   ],
+   "aide_combat": "Les oiseaux de ses niches donnent l'alerte et distraient la cible, tandis que la créature protège le chasseur blessé. Elle peut être mise K.O. par fatigue, puis soignée.",
+   "transport": null,
+   "capacite_transport": null,
+   "age_ideal": "Jeune adulte, lien patient avec ses habitants",
+   "limite": "Le lien repose sur ses nichées : si elles quittent le dos, elle redevient territoriale."
+  }
+ },
+ {
+  "id": "ail40",
+  "nouveau_nom": "Janusque",
+  "sous_titre": "La Moitié et l'Autre",
+  "groupe": "ailees_b",
+  "rang": "◆◆◆ Élite",
+  "cr": 10,
+  "role_jeu": "boss",
+  "taille_garrot_m": 3.0,
+  "hauteur_sprite_px": 110,
+  "hors_format_sprite": false,
+  "element_principal": "Feu",
+  "element_secondaire": "Glace",
+  "etats_infliges": [],
+  "lignee_draconique": false,
+  "terrain": "Lisières toundra/forêt boréale",
+  "apparence": {
+   "silhouette": "Wyverne symétrique en apparence, ailes opposées, corps fendu en deux demi-têtes. Ligne verticale au centre du corps.",
+   "trait_distinctif": "Le corps est partagé en deux par une ligne médiane : un côté rouge-orange, l'autre blanc-bleu, avec une crête en damier à la jonction.",
+   "trait_cle": "partage-damier-median",
+   "couleurs": [
+    "rouge-orange",
+    "blanc-bleu",
+    "noir de jonction"
+   ],
+   "rappel_leger": "Grand volant à deux températures opposées.",
+   "difference_avec_ancienne": "Jonction en damier et alternance des côtés, contre une division nette en deux couleurs."
+  },
+  "description_courte": "Deux températures se disputent son corps. Son tissu de jonction, qui supporte feu et glace en contact, intéresse beaucoup les alchimistes des résistances élémentaires.",
+  "familier": {
+   "possible": false
+  }
+ },
+ {
+  "id": "ail41",
+  "nouveau_nom": "Jaulinde",
+  "sous_titre": "La Danseuse de Dunes",
+  "groupe": "ailees_b",
+  "rang": "◆◆ Rare",
+  "cr": 6,
+  "role_jeu": "mini_boss",
+  "taille_garrot_m": 2.4,
+  "hauteur_sprite_px": 88,
+  "hors_format_sprite": false,
+  "element_principal": "Vent",
+  "element_secondaire": null,
+  "etats_infliges": [
+   "Poison"
+  ],
+  "lignee_draconique": false,
+  "terrain": "Déserts arides, dunes, sable fin",
+  "apparence": {
+   "silhouette": "Wyverne très légère à longue queue ondulée, ailes minces, cou fin. Pattes arrière fines.",
+   "trait_distinctif": "Une queue en forme de manche à air qui dissémine des spores venimeuses dans son sillage.",
+   "trait_cle": "queue-manche-spores",
+   "couleurs": [
+    "jaune sable",
+    "brun-rouge",
+    "ocre pâle"
+   ],
+   "rappel_leger": "Petit volant du désert qui répand du venin dans l'air.",
+   "difference_avec_ancienne": "Queue en manche à air qui libère des spores, contre un jet venimeux focalisé."
+  },
+  "description_courte": "Elle vole en rubans dans le vent de dune et sème derrière elle un nuage irritant. Les pisteurs apprennent à se placer dans le vent.",
+  "familier": {
+   "possible": false
+  }
+ },
+ {
+  "id": "ail42",
+  "nouveau_nom": "Lissoir",
+  "sous_titre": "Le Voleur de Nuit",
+  "groupe": "ailees_b",
+  "rang": "◆◆ Rare",
+  "cr": 5,
+  "role_jeu": "mini_boss",
+  "taille_garrot_m": 2.5,
+  "hauteur_sprite_px": 92,
+  "hors_format_sprite": false,
+  "element_principal": "Ombre",
+  "element_secondaire": null,
+  "etats_infliges": [],
+  "lignee_draconique": false,
+  "terrain": "Prairies, plaines d'élevage, zones agricoles",
+  "apparence": {
+   "silhouette": "Wyverne effilée, silencieuse, ailes longues et étroites, tête de chouette. Dessous plus clair que le dos.",
+   "trait_distinctif": "Un disque facial de plumes d'écailles grises, comme celui d'une chouette, surmonté de deux petites aigrettes.",
+   "trait_cle": "disque-facial-aigrettes",
+   "couleurs": [
+    "gris très sombre",
+    "gris cendre",
+    "blanc fumé"
+   ],
+   "rappel_leger": "Petit volant nocturne silencieux des campagnes.",
+   "difference_avec_ancienne": "Disque facial et aigrettes, contre une silhouette lisse sans tête marquée."
+  },
+  "description_courte": "Il rôde sur les pâtures la nuit, sans bruit. Les éleveurs partagent sans heurt leurs terres avec plusieurs d'entre eux, qui ne se disputent jamais.",
+  "familier": {
+   "possible": false
+  }
+ },
+ {
+  "id": "ail43",
+  "nouveau_nom": "Lithorne",
+  "sous_titre": "Le Bloc Qui Vole",
+  "groupe": "ailees_b",
+  "rang": "◆◆◆ Élite",
+  "cr": 13,
+  "role_jeu": "boss",
+  "taille_garrot_m": 3.2,
+  "hauteur_sprite_px": 117,
+  "hors_format_sprite": false,
+  "element_principal": "Terre",
+  "element_secondaire": null,
+  "etats_infliges": [],
+  "lignee_draconique": false,
+  "terrain": "Plateaux de granit, massifs anciens",
+  "apparence": {
+   "silhouette": "Wyverne massive et lourde, ailes épaisses, pattes courtes. Posture de bloc de roche.",
+   "trait_distinctif": "Des écailles de granit à grain visible, parsemées de mica qui scintille au soleil.",
+   "trait_cle": "ecailles-granit-mica",
+   "couleurs": [
+    "gris granit",
+    "rose pierre",
+    "argent mica"
+   ],
+   "rappel_leger": "Grand volant de rocher, lent et robuste, qui régénère.",
+   "difference_avec_ancienne": "Grain de granit et paillettes de mica, contre un gris uniforme."
+  },
+  "description_courte": "Lent mais presque indestructible, il se régénère au fil du combat. Le couple niche sur les plateaux, et on a vu un mâle porter sa compagne blessée.",
+  "familier": {
+   "possible": false
+  }
+ },
+ {
+  "id": "ail44",
+  "nouveau_nom": "Ilvanne",
+  "sous_titre": "La Faucheuse de Blé",
+  "groupe": "ailees_b",
+  "rang": "◆◆ Rare",
+  "cr": 6,
+  "role_jeu": "mini_boss",
+  "taille_garrot_m": 2.3,
+  "hauteur_sprite_px": 84,
+  "hors_format_sprite": false,
+  "element_principal": "Vent",
+  "element_secondaire": null,
+  "etats_infliges": [],
+  "lignee_draconique": false,
+  "terrain": "Grandes plaines, prairies, zones agricoles étendues",
+  "apparence": {
+   "silhouette": "Wyverne fine à ailes en faux, queue en V, corps léger.",
+   "trait_distinctif": "Des ailes en lames dentelées comme des faucilles, qui couchent les céréales à son passage.",
+   "trait_cle": "ailes-faucilles-dentelees",
+   "couleurs": [
+    "jaune paille",
+    "vert tendre",
+    "brun doré"
+   ],
+   "rappel_leger": "Petit volant des plaines, rapide et tranchant.",
+   "difference_avec_ancienne": "Ailes dentelées en faucilles et queue en V."
+  },
+  "description_courte": "Elle rase les champs à basse altitude, ses ailes tranchant les épis. Les fermiers repèrent son passage aux sillons couchés dans le blé.",
+  "familier": {
+   "possible": false
+  }
+ },
+ {
+  "id": "ail45",
+  "nouveau_nom": "Kalmaros",
+  "sous_titre": "Le Gouffre Qui Remonte",
+  "groupe": "ailees_b",
+  "rang": "◆◆◆◆ Légendaire",
+  "cr": 20,
+  "role_jeu": "boss",
+  "taille_garrot_m": 3.7,
+  "hauteur_sprite_px": 135,
+  "hors_format_sprite": false,
+  "element_principal": "Eau",
+  "element_secondaire": null,
+  "etats_infliges": [],
+  "lignee_draconique": true,
+  "terrain": "Côtes à abysses, fosses océaniques, estuaires profonds",
+  "apparence": {
+   "silhouette": "Colossale wyverne amphibie, ailes-nageoires larges, corps de raie. Tête plate, bouche large, queue en gouvernail.",
+   "trait_distinctif": "Des ailes-nageoires dont la membrane bleue est ornée d'anneaux lumineux comme ceux des poissons des abysses.",
+   "trait_cle": "ailes-nageoires-anneaux",
+   "couleurs": [
+    "bleu abyssal",
+    "turquoise lumineux",
+    "gris ardoise"
+   ],
+   "rappel_leger": "Colosse volant et plongeur des profondeurs.",
+   "difference_avec_ancienne": "Ailes-nageoires à anneaux lumineux et corps de raie, contre un corps de wyverne ordinaire."
+  },
+  "description_courte": "Elle plonge à trois cents mètres, y reste quarante minutes, puis remonte et reprend le vol. Sa membrane hybride est le matériau le plus cher des architectes navals.",
+  "familier": {
+   "possible": false
+  }
+ },
+ {
+  "id": "ail46",
+  "nouveau_nom": "Lyssanthe",
+  "sous_titre": "La Floraison Noire",
+  "groupe": "ailees_b",
+  "rang": "◆◆◆◆ Légendaire",
+  "cr": 22,
+  "role_jeu": "boss",
+  "taille_garrot_m": 4.2,
+  "hauteur_sprite_px": 154,
+  "hors_format_sprite": false,
+  "element_principal": "Éther",
+  "element_secondaire": "Ombre",
+  "etats_infliges": [
+   "Poison"
+  ],
+  "lignee_draconique": true,
+  "terrain": "Zones de corruption active ou ancienne",
+  "apparence": {
+   "silhouette": "Colossale wyverne tordue, ailes comme des feuilles d'arbre pourri, cou épais, tête de fleur ouverte. Corps noir veiné de violet.",
+   "trait_distinctif": "Une corolle de crocs transparents en pétales autour du museau, qui s'ouvre sur une bouche de venin.",
+   "trait_cle": "museau-corolle-crocs",
+   "couleurs": [
+    "noir pourpre",
+    "violet toxique",
+    "vert maladif"
+   ],
+   "rappel_leger": "Colosse de corruption, la nature empoisonnée faite chair.",
+   "difference_avec_ancienne": "Museau en corolle de crocs et ailes de feuilles, contre un corps lisse et veiné."
+  },
+  "description_courte": "Là où elle s'installe, la corruption s'étend. Son croc transparent contient le venin draconique le plus concentré connu.",
+  "familier": {
+   "possible": false
+  }
+ }
+]

@@ -1,0 +1,805 @@
+[
+ {
+  "id": "lev01",
+  "nouveau_nom": "Quiverne",
+  "sous_titre": "La Guivre d'Orage",
+  "groupe": "leviathans",
+  "rang": "◆◆◆ Élite",
+  "cr": 11,
+  "role_jeu": "boss",
+  "taille_garrot_m": 1.8,
+  "hauteur_sprite_px": 66,
+  "hors_format_sprite": false,
+  "element_principal": "Foudre",
+  "element_secondaire": "Eau",
+  "etats_infliges": [],
+  "lignee_draconique": false,
+  "terrain": "Deltas, estuaires, côtes peu profondes",
+  "apparence": {
+   "silhouette": "Long serpent d'eau à corps cylindrique et queue en rame verticale, deux minuscules nageoires-pattes avant. Il dresse le tiers avant du corps hors de l'eau, tête basse, comme une corde tendue.",
+   "trait_distinctif": "Une rangée de lanternes ovales translucides court le long des flancs et s'allume par vagues.",
+   "trait_cle": "lanternes-de-flanc",
+   "couleurs": [
+    "vert bouteille",
+    "jaune citron électrique",
+    "gris plomb"
+   ],
+   "rappel_leger": "Serpent de mer électrique, prédateur d'estuaire.",
+   "difference_avec_ancienne": "Corps vert sombre à lanternes lumineuses de flanc, au lieu d'un bleu-gris à corne dorsale ; tête lisse et plate."
+  },
+  "description_courte": "Les pisteurs la repèrent à ses lanternes qui pulsent sous la vase des estuaires. Chaque décharge éclaire les eaux troubles. Territoire strict, aucune tolérance envers ses semblables.",
+  "familier": {
+   "possible": false
+  }
+ },
+ {
+  "id": "lev02",
+  "nouveau_nom": "Pontelin",
+  "sous_titre": "Le Patriarche des Pontons",
+  "groupe": "leviathans",
+  "rang": "◆◆ Rare",
+  "cr": 7,
+  "role_jeu": "chef_de_meute",
+  "taille_garrot_m": 1.4,
+  "hauteur_sprite_px": 51,
+  "hors_format_sprite": false,
+  "element_principal": "Eau",
+  "element_secondaire": null,
+  "etats_infliges": [],
+  "lignee_draconique": false,
+  "terrain": "Côtes rocheuses, récifs, lagons",
+  "apparence": {
+   "silhouette": "Corps trapu et fuselé à nageoires larges, museau court et épais. Le mâle se tient dressé sur ses nageoires avant, torse bombé, au centre de son harpon de femelles plus fines.",
+   "trait_distinctif": "Un large disque de peau tendue, orné de taches rondes, s'ouvre derrière sa nuque comme une collerette de parade.",
+   "trait_cle": "collerette-a-ocelles",
+   "couleurs": [
+    "bleu ardoise",
+    "crème",
+    "orange brique"
+   ],
+   "rappel_leger": "Mâle dominant de côte entouré de son groupe, tolérant envers l'homme.",
+   "difference_avec_ancienne": "Collerette ronde à ocelles et corps trapu, au lieu d'une grande nageoire dorsale élancée."
+  },
+  "description_courte": "Le plus familier des grands marins : son harpon investit les ports secondaires et les zones de pêche. Le mâle ouvre sa collerette pour intimider avant de charger, et les femelles encerclent la cible.",
+  "familier": {
+   "possible": false
+  }
+ },
+ {
+  "id": "lev03",
+  "nouveau_nom": "Ronvéal",
+  "sous_titre": "Le Tronc des Eaux Noires",
+  "groupe": "leviathans",
+  "rang": "◆◆◆◆ Légendaire",
+  "cr": 17,
+  "role_jeu": "boss",
+  "taille_garrot_m": 2.0,
+  "hauteur_sprite_px": 73,
+  "hors_format_sprite": false,
+  "element_principal": "Eau",
+  "element_secondaire": "Feu",
+  "etats_infliges": [],
+  "lignee_draconique": false,
+  "terrain": "Grands fleuves, marécages profonds, bayous",
+  "apparence": {
+   "silhouette": "Colosse blindé à quatre pattes écartées, tête énorme en forme de pelle plate, queue en pagaie. Immobile, il passe pour un tronc dérivant ; debout, il est un mur de plaques.",
+   "trait_distinctif": "Son dos porte des bourgeons de plaques hautes comme des cheminées d'où filtre un gaz pâle qui s'enflamme.",
+   "trait_cle": "plaques-cheminees-fumantes",
+   "couleurs": [
+    "vert-brun de vase",
+    "gris charbon",
+    "orange braise"
+   ],
+   "rappel_leger": "Géant cuirassé de fleuve, embusqué comme un tronc.",
+   "difference_avec_ancienne": "Cheminées fumantes sur le dos et tête en pelle, au lieu de dos hérissé de bosses et museau de reptile classique."
+  },
+  "description_courte": "Terreur millénaire des fleuves : on ne le distingue d'un tronc qu'à la fumée qui sort de son dos. Son gaz s'enflamme au contact de l'air. Cuirasse comparable à l'acier selon les forgerons.",
+  "familier": {
+   "possible": false
+  }
+ },
+ {
+  "id": "lev04",
+  "nouveau_nom": "Quenouille",
+  "sous_titre": "La Fileuse du Lac",
+  "groupe": "leviathans",
+  "rang": "◆◆◆ Élite",
+  "cr": 12,
+  "role_jeu": "boss",
+  "taille_garrot_m": 2.2,
+  "hauteur_sprite_px": 81,
+  "hors_format_sprite": false,
+  "element_principal": "Eau",
+  "element_secondaire": "Glace",
+  "etats_infliges": [],
+  "lignee_draconique": false,
+  "terrain": "Lacs de montagne profonds, lacs glaciaires",
+  "apparence": {
+   "silhouette": "Corps massif en tonneau dont seule la bosse dorsale perce la surface, et long cou gracile qui émerge à part. À contre-jour, on croit voir deux créatures distinctes.",
+   "trait_distinctif": "Son cou est enroulé de lanières de peau pendantes, pâles comme de la laine filée.",
+   "trait_cle": "cou-en-quenouille",
+   "couleurs": [
+    "blanc laiteux",
+    "bleu nuit",
+    "gris perle"
+   ],
+   "rappel_leger": "Créature de légende lacustre au long cou émergeant de la brume.",
+   "difference_avec_ancienne": "Cou frangé de lanières laineuses et tête en fuseau, au lieu d'un cou nu et d'une tête ronde."
+  },
+  "description_courte": "Source de tous les récits de monstres de lac. Seul son cou s'élève de la brume, frangé comme une fibre filée. Un seul individu par lac assez profond. Vertèbres très prisées des ingénieurs.",
+  "familier": {
+   "possible": false
+  }
+ },
+ {
+  "id": "lev05",
+  "nouveau_nom": "Ponantis",
+  "sous_titre": "Le Soleil Noyé",
+  "groupe": "leviathans",
+  "rang": "◆◆◆◆ Légendaire",
+  "cr": 19,
+  "role_jeu": "boss",
+  "taille_garrot_m": 3.5,
+  "hauteur_sprite_px": 128,
+  "hors_format_sprite": false,
+  "element_principal": "Feu",
+  "element_secondaire": "Eau",
+  "etats_infliges": [],
+  "lignee_draconique": false,
+  "terrain": "Haute mer, courants chauds, dorsales sous-marines",
+  "apparence": {
+   "silhouette": "Le plus vaste des grands marins : corps fuselé, tête haute et large au front plat, gueule à ouverture verticale. Il traîne un sillage de vapeur sur la houle.",
+   "trait_distinctif": "Son front est incrusté d'un cratère rond d'où jaillit un panache de vapeur éclairé de rouge.",
+   "trait_cle": "front-cratere-vapeur",
+   "couleurs": [
+    "bleu abyssal",
+    "rouge cuivre",
+    "blanc vapeur"
+   ],
+   "rappel_leger": "Colosse océanique alimenté par la chaleur des profondeurs.",
+   "difference_avec_ancienne": "Cratère fumant sur le front et flancs cuivrés, au lieu d'un dos de baleine à fanons lisse."
+  },
+  "description_courte": "Plus grand des Léviathans : 18 m, 30 à 40 tonnes. Un couple règne sur des milliers de km². Sa chambre interne bout l'eau en continu, et les ingénieurs navals rêvent de la mettre en machine.",
+  "familier": {
+   "possible": false
+  }
+ },
+ {
+  "id": "lev06",
+  "nouveau_nom": "Rainelle",
+  "sous_titre": "La Gardienne des Sources",
+  "groupe": "leviathans",
+  "rang": "◆◆◆ Élite",
+  "cr": 9,
+  "role_jeu": "boss",
+  "taille_garrot_m": 1.2,
+  "hauteur_sprite_px": 44,
+  "hors_format_sprite": false,
+  "element_principal": "Eau",
+  "element_secondaire": null,
+  "etats_infliges": [
+   "Poison"
+  ],
+  "lignee_draconique": false,
+  "terrain": "Sources et rivières de montagne, eaux pures rapides",
+  "apparence": {
+   "silhouette": "Amphibien bas et très allongé, quatre pattes courtes écartées, grosse tête plate et queue épaisse. Il rampe plaqué au sol et se redresse sur les pattes avant pour menacer.",
+   "trait_distinctif": "Sa peau nue est parsemée de ventouses rondes et luisantes, aux bords liserés de bleu vif.",
+   "trait_cle": "ventouses-liserees",
+   "couleurs": [
+    "brun olive",
+    "bleu cobalt",
+    "jaune pâle"
+   ],
+   "rappel_leger": "Grand amphibien venimeux gardien d'une source.",
+   "difference_avec_ancienne": "Ventouses liserées de bleu sur peau lisse et palette cobalt/olive, au lieu d'un mucus uniforme."
+  },
+  "description_courte": "Habitant des eaux les plus pures, il les empoisonne à volonté par son mucus. Couples fidèles à leur source. La glande neutralisée donne le venin soluble le plus précieux des apothicaires.",
+  "familier": {
+   "possible": true,
+   "lien_max": "affectif",
+   "difficulte_dd": 17,
+   "roles": [
+    "assistant_combat",
+    "recolte"
+   ],
+   "aide_combat": "Il se place dans l'eau ou sur la berge et enduit une cible de mucus, lui infligeant Poison. Il peut être mis K.O. par la fatigue et se rétablit après soin.",
+   "transport": null,
+   "capacite_transport": null,
+   "age_ideal": "Juvénile tiré d'une source",
+   "limite": "Reste lié à l'eau pure et fragile hors de l'eau ; le dressage exige une patience extrême."
+  }
+ },
+ {
+  "id": "lev07",
+  "nouveau_nom": "Ruchevase",
+  "sous_titre": "Le Marais qui Marche",
+  "groupe": "leviathans",
+  "rang": "◆◆◆ Élite",
+  "cr": 11,
+  "role_jeu": "boss",
+  "taille_garrot_m": 1.6,
+  "hauteur_sprite_px": 59,
+  "hors_format_sprite": false,
+  "element_principal": "Eau",
+  "element_secondaire": "Terre",
+  "etats_infliges": [],
+  "lignee_draconique": false,
+  "terrain": "Marécages, tourbières, deltas à végétation dense",
+  "apparence": {
+   "silhouette": "Longue silhouette basse, couverte d'une couche de boue et de mousse qui masque ses contours. Il émerge d'un coup, comme une butte qui se soulève.",
+   "trait_distinctif": "Des touffes de roseaux et de nénuphars repoussent vivantes sur son échine.",
+   "trait_cle": "jardin-sur-l-echine",
+   "couleurs": [
+    "brun tourbe",
+    "vert mousse",
+    "ocre limon"
+   ],
+   "rappel_leger": "Prédateur de marais indiscernable du paysage.",
+   "difference_avec_ancienne": "Végétation vivante sur le dos et museau court de lézard-pelle, au lieu d'un simple camouflage de boue."
+  },
+  "description_courte": "Presque impossible à distinguer sans formation : sa boue et ses roseaux sont vivants. Lorsque le marais bouge, il est déjà trop tard. Ses écailles à micro-crochets retiennent la végétation.",
+  "familier": {
+   "possible": false
+  }
+ },
+ {
+  "id": "lev08",
+  "nouveau_nom": "Poterne",
+  "sous_titre": "La Tortue des Gorges",
+  "groupe": "leviathans",
+  "rang": "◆◆ Rare",
+  "cr": 7,
+  "role_jeu": "mini_boss",
+  "taille_garrot_m": 1.1,
+  "hauteur_sprite_px": 40,
+  "hors_format_sprite": false,
+  "element_principal": "Eau",
+  "element_secondaire": "Feu",
+  "etats_infliges": [],
+  "lignee_draconique": false,
+  "terrain": "Rivières rapides, gorges fluviales",
+  "apparence": {
+   "silhouette": "Animal trapu à carapace continue en dôme, pattes palmées courtes et tête étroite qui rentre à demi sous la voûte. Sa carapace fume légèrement sur l'eau froide.",
+   "trait_distinctif": "Sa carapace est percée d'une arche centrale, comme une petite porte de rempart, d'où sortent des jets de vapeur.",
+   "trait_cle": "carapace-a-poterne",
+   "couleurs": [
+    "gris pierre",
+    "rouge rouille",
+    "vert mousse"
+   ],
+   "rappel_leger": "Blindé de rivière à carapace chauffante.",
+   "difference_avec_ancienne": "Carapace en dôme percée d'une arche, au lieu d'un blindage plat et lisse."
+  },
+  "description_courte": "Seul de son groupe à porter une carapace d'émail qui chauffe au repos. Couple stable dans les rapides. Les forgerons doivent gainer leurs outils pour travailler sa dépouille.",
+  "familier": {
+   "possible": true,
+   "lien_max": "conditionne",
+   "difficulte_dd": 13,
+   "roles": [
+    "monture_mer",
+    "garde"
+   ],
+   "aide_combat": "Il se met en travers du courant et bloque l'accès avec sa carapace chaude. Il se retire K.O. à bout de fatigue, soigné ensuite.",
+   "transport": null,
+   "capacite_transport": "1 personnage",
+   "age_ideal": "Œuf ou juvénile",
+   "limite": "Cantonné aux eaux courantes ; la chaleur de sa carapace le rend dangereux à manipuler."
+  }
+ },
+ {
+  "id": "lev09",
+  "nouveau_nom": "Pharélune",
+  "sous_titre": "Le Fanal des Abysses",
+  "groupe": "leviathans",
+  "rang": "◆◆◆◆ Légendaire",
+  "cr": 18,
+  "role_jeu": "boss",
+  "taille_garrot_m": 2.8,
+  "hauteur_sprite_px": 102,
+  "hors_format_sprite": false,
+  "element_principal": "Eau",
+  "element_secondaire": null,
+  "etats_infliges": [],
+  "lignee_draconique": true,
+  "terrain": "Abysses océaniques (500 à 2 500 m)",
+  "apparence": {
+   "silhouette": "Corps massif et long, lisse, très sombre, tête étroite à mâchoire basse. Il avance en glissant, presque sans mouvement visible, à la limite de la lumière.",
+   "trait_distinctif": "Une longue tige souple porte une sphère pâle au-dessus de la mâchoire, en guise de lampe.",
+   "trait_cle": "tige-a-sphere-pale",
+   "couleurs": [
+    "noir d'encre",
+    "blanc os",
+    "bleu spectral"
+   ],
+   "rappel_leger": "Prédateur d'abysse attirant ses proies par la lumière.",
+   "difference_avec_ancienne": "Tige unique à sphère pâle devant la gueule et corps sans écailles visibles, au lieu d'un éclairage multiple."
+  },
+  "description_courte": "Créature la plus profonde du catalogue, rôdeur à 2 500 m de fond. Il leurre ses proies avec sa lampe, puis les détecte à 300 m par son organe de pression. Solitaire absolu.",
+  "familier": {
+   "possible": false
+  }
+ },
+ {
+  "id": "lev10",
+  "nouveau_nom": "Pyrisse",
+  "sous_titre": "Le Serpent Vitriol",
+  "groupe": "leviathans",
+  "rang": "◆◆◆ Élite",
+  "cr": 10,
+  "role_jeu": "boss",
+  "taille_garrot_m": 1.4,
+  "hauteur_sprite_px": 51,
+  "hors_format_sprite": false,
+  "element_principal": "Feu",
+  "element_secondaire": null,
+  "etats_infliges": [
+   "Poison"
+  ],
+  "lignee_draconique": false,
+  "terrain": "Lacs volcaniques acides, caldeiras",
+  "apparence": {
+   "silhouette": "Long serpent d'eau jaune soufre, sans membres, qui flotte à la surface. Sa gueule s'ouvre en entonnoir large, formant une pelle creuse.",
+   "trait_distinctif": "Des cristaux de soufre jaunes hérissent sa crête dorsale comme des dents de scie.",
+   "trait_cle": "cretes-de-soufre",
+   "couleurs": [
+    "jaune soufre",
+    "brun orangé",
+    "vert-de-gris"
+   ],
+   "rappel_leger": "Serpent d'eau corrosive de lac volcanique.",
+   "difference_avec_ancienne": "Gueule en entonnoir et crête de cristaux de soufre, au lieu d'un corps lisse."
+  },
+  "description_courte": "Sa peau jaune se fond dans les lacs d'acide où il vit seul. Il crache un jet qui dissout la pierre. La glande acide est irremplaçable pour la gravure alchimique.",
+  "familier": {
+   "possible": false
+  }
+ },
+ {
+  "id": "lev11",
+  "nouveau_nom": "Rimaille",
+  "sous_titre": "Le Spectre des Glaciers",
+  "groupe": "leviathans",
+  "rang": "◆◆◆ Élite",
+  "cr": 12,
+  "role_jeu": "boss",
+  "taille_garrot_m": 2.0,
+  "hauteur_sprite_px": 73,
+  "hors_format_sprite": false,
+  "element_principal": "Glace",
+  "element_secondaire": null,
+  "etats_infliges": [],
+  "lignee_draconique": true,
+  "terrain": "Rivières sous-glaciaires, eaux de fonte",
+  "apparence": {
+   "silhouette": "Long corps cylindrique aplatissable, pâle et translucide, tête effilée comme un coin. Il se coule dans les fissures de la glace et resurgit d'un trou.",
+   "trait_distinctif": "Dix-sept nodules de cristal poussent en grappe le long de son dos, brillant d'une lueur bleue interne.",
+   "trait_cle": "nodules-de-cristal-dorsaux",
+   "couleurs": [
+    "blanc translucide",
+    "bleu glacier",
+    "argent"
+   ],
+   "rappel_leger": "Fantôme froid des fonds de glacier, intangible et rapide.",
+   "difference_avec_ancienne": "Nodules cristallins internes et corps translucide, au lieu d'une glace projetée en dehors du corps."
+  },
+  "description_courte": "Habitant des couloirs d'eau de fonte à -8°C, il nage dans une obscurité totale. Ses nodules cristallins, produits à l'intérieur, sont une réserve d'énergie dragonne stable.",
+  "familier": {
+   "possible": false
+  }
+ },
+ {
+  "id": "lev12",
+  "nouveau_nom": "Ponceline",
+  "sous_titre": "La Pierre qui Bout",
+  "groupe": "leviathans",
+  "rang": "◆◆◆◆ Légendaire",
+  "cr": 15,
+  "role_jeu": "boss",
+  "taille_garrot_m": 2.1,
+  "hauteur_sprite_px": 77,
+  "hors_format_sprite": false,
+  "element_principal": "Feu",
+  "element_secondaire": "Terre",
+  "etats_infliges": [],
+  "lignee_draconique": false,
+  "terrain": "Sources géothermales, roche poreuse, hydrothermal peu profond",
+  "apparence": {
+   "silhouette": "Long corps aplati, hérissé de plaques grises percées de pores, tête en coin, quatre pattes courtes. Son corps fume de partout.",
+   "trait_distinctif": "Son dos est un damier de plaques poreuses, claires comme de la pierre ponce, qui sifflent en relâchant la vapeur.",
+   "trait_cle": "plaques-ponce-sifflantes",
+   "couleurs": [
+    "gris ponce",
+    "rouge magma",
+    "blanc soufré"
+   ],
+   "rappel_leger": "Créature volcanique à peau de roche, indifférente à la chaleur.",
+   "difference_avec_ancienne": "Plaques claires et poreuses en damier, au lieu de plaques sombres et lisses."
+  },
+  "description_courte": "Ses eaux de vie atteignent 80°C : elle repousse les limites thermiques du Bestiaire. Ses plaques de silicium sifflent en vapeur. Matière à mi-chemin de l'écaille et de la céramique.",
+  "familier": {
+   "possible": false
+  }
+ },
+ {
+  "id": "lev13",
+  "nouveau_nom": "Papilonde",
+  "sous_titre": "Le Bombardier des Roseaux",
+  "groupe": "leviathans",
+  "rang": "◆◆◆ Élite",
+  "cr": 13,
+  "role_jeu": "boss",
+  "taille_garrot_m": 2.2,
+  "hauteur_sprite_px": 81,
+  "hors_format_sprite": false,
+  "element_principal": "Vent",
+  "element_secondaire": "Foudre",
+  "etats_infliges": [],
+  "lignee_draconique": false,
+  "terrain": "Lacs à végétation dense, grandes rivières",
+  "apparence": {
+   "silhouette": "Corps lourd de nageur, deux paires d'ailes membraneuses repliées contre les flancs, cou court. Il jaillit de l'eau, plane quelques secondes, retombe comme une pierre.",
+   "trait_distinctif": "Ses quatre ailes portent chacune un grand œil de papillon peint, bordé de blanc.",
+   "trait_cle": "ailes-a-quatre-yeux",
+   "couleurs": [
+    "vert roseau",
+    "jaune pollen",
+    "violet sombre"
+   ],
+   "rappel_leger": "Grand nageur bondissant, bombardier planeur.",
+   "difference_avec_ancienne": "Quatre ailes à yeux peints et corps ramassé, au lieu de deux ailes nues sur corps allongé."
+  },
+  "description_courte": "Il bondit hors de l'eau, plane 60 à 90 secondes à 40 m d'altitude, puis retombe avec ses spores chargés d'électricité statique. Ses ailes sont uniques dans le groupe.",
+  "familier": {
+   "possible": false
+  }
+ },
+ {
+  "id": "lev14",
+  "nouveau_nom": "Quiétin",
+  "sous_titre": "Le Silence du Fleuve",
+  "groupe": "leviathans",
+  "rang": "◆◆◆ Élite",
+  "cr": 10,
+  "role_jeu": "boss",
+  "taille_garrot_m": 1.7,
+  "hauteur_sprite_px": 62,
+  "hors_format_sprite": false,
+  "element_principal": "Eau",
+  "element_secondaire": "Ombre",
+  "etats_infliges": [],
+  "lignee_draconique": false,
+  "terrain": "Grands fleuves profonds, eaux limoneuses",
+  "apparence": {
+   "silhouette": "Serpent long et lisse, sans membres visibles, tête effilée à bec court. Il glisse en ne laissant aucun remous, et sa silhouette n'est qu'une ombre.",
+   "trait_distinctif": "Une bande de poils fins, comme du velours, couvre sa nuque et ses flancs et amortit tout bruit.",
+   "trait_cle": "nuque-de-velours",
+   "couleurs": [
+    "brun limon",
+    "gris cendre",
+    "noir velouté"
+   ],
+   "rappel_leger": "Embusqué silencieux de grand fleuve, prédateur discret.",
+   "difference_avec_ancienne": "Pelage de velours sur la nuque et corps lisse sombre, au lieu d'un corps à tête élaborée."
+  },
+  "description_courte": "Il nage sans turbulence mesurable, à 20 km/h. Les pêcheurs ne l'entendent jamais venir. Attaché à un tronçon de fleuve. Ses micro-écailles intéressent les ingénieurs navals.",
+  "familier": {
+   "possible": true,
+   "lien_max": "affectif",
+   "difficulte_dd": 16,
+   "roles": [
+    "pisteur",
+    "eclaireur"
+   ],
+   "aide_combat": "Il suit les proies sous la surface sans bruit et signale leur position, puis piège une cible dans un remous. Il est mis K.O. par la fatigue, soigné ensuite.",
+   "transport": null,
+   "capacite_transport": null,
+   "age_ideal": "Juvénile",
+   "limite": "Reste attaché à son tronçon de fleuve ; il ne suit le dresseur que sur un cours d'eau connu."
+  }
+ },
+ {
+  "id": "lev15",
+  "nouveau_nom": "Réglisse",
+  "sous_titre": "La Noyée de la Forêt",
+  "groupe": "leviathans",
+  "rang": "◆◆◆ Élite",
+  "cr": 11,
+  "role_jeu": "boss",
+  "taille_garrot_m": 1.6,
+  "hauteur_sprite_px": 59,
+  "hors_format_sprite": false,
+  "element_principal": "Ombre",
+  "element_secondaire": "Eau",
+  "etats_infliges": [
+   "Poison"
+  ],
+  "lignee_draconique": false,
+  "terrain": "Rivières noires de forêt tropicale",
+  "apparence": {
+   "silhouette": "Grand serpent d'eau noir et lisse, tête petite et ronde, avançant en vagues serrées. Une fois dans l'eau sombre, seule une bande claire trahit sa présence.",
+   "trait_distinctif": "Ses yeux sont couverts d'une paupière transparente d'un blanc de lait, comme un voile.",
+   "trait_cle": "paupieres-de-lait",
+   "couleurs": [
+    "noir réglisse",
+    "brun tanin",
+    "blanc laiteux"
+   ],
+   "rappel_leger": "Chasseuse d'eaux noires, mimétique et empoisonnante.",
+   "difference_avec_ancienne": "Paupières laiteuses et corps noir à petite tête ronde, au lieu d'un camouflage tacheté."
+  },
+  "description_courte": "Elle règne dans les rivières couleur de thé : le tanin masque son corps et son poison. Chasseuse solitaire. Ses morsures laissent un poison végétal lent.",
+  "familier": {
+   "possible": false
+  }
+ },
+ {
+  "id": "lev16",
+  "nouveau_nom": "Pressoir",
+  "sous_titre": "Le Broyeur de l'Estuaire",
+  "groupe": "leviathans",
+  "rang": "◆◆◆ Élite",
+  "cr": 12,
+  "role_jeu": "boss",
+  "taille_garrot_m": 2.0,
+  "hauteur_sprite_px": 73,
+  "hors_format_sprite": false,
+  "element_principal": "Eau",
+  "element_secondaire": "Terre",
+  "etats_infliges": [],
+  "lignee_draconique": false,
+  "terrain": "Estuaires, confluences, embouchures",
+  "apparence": {
+   "silhouette": "Corps robuste à section ovale, tête large et massive, gueule broyeuse à plaques. Il avance au fond, lourd, en soulevant des nuages de limon.",
+   "trait_distinctif": "Deux grandes plaques de corne, plates comme des meules, se referment à l'avant de sa gueule.",
+   "trait_cle": "machoire-a-meules",
+   "couleurs": [
+    "gris limon",
+    "vert algue",
+    "brun roux"
+   ],
+   "rappel_leger": "Gros broyeur de fond d'estuaire, lent et puissant.",
+   "difference_avec_ancienne": "Mâchoire à meules cornées au lieu de dents, et dos lisse."
+  },
+  "description_courte": "Maître de l'estuaire : il broie coquilles et épaves entre ses meules. Un grand estuaire en tolère deux ou trois. Les guildes portuaires l'ont longtemps dressé pour curer les chenaux.",
+  "familier": {
+   "possible": true,
+   "lien_max": "conditionne",
+   "difficulte_dd": 14,
+   "roles": [
+    "monture_mer",
+    "bete_de_somme"
+   ],
+   "aide_combat": "Il charge une cible de front et brise ses défenses, mais reste lent à manœuvrer. Il peut être K.O. par la fatigue, puis se rétablit.",
+   "transport": "maritime",
+   "capacite_transport": "groupe de 2-4",
+   "age_ideal": "Juvénile",
+   "limite": "Ne quitte pas les eaux d'estuaire et ses abords ; trop lent pour une longue traversée en haute mer."
+  }
+ },
+ {
+  "id": "lev17",
+  "nouveau_nom": "Remoulin",
+  "sous_titre": "Le Tourbillon du Fjord",
+  "groupe": "leviathans",
+  "rang": "◆◆◆ Élite",
+  "cr": 13,
+  "role_jeu": "boss",
+  "taille_garrot_m": 2.1,
+  "hauteur_sprite_px": 77,
+  "hors_format_sprite": false,
+  "element_principal": "Eau",
+  "element_secondaire": "Glace",
+  "etats_infliges": [],
+  "lignee_draconique": false,
+  "terrain": "Fjords profonds, bras de mer étroits",
+  "apparence": {
+   "silhouette": "Corps long et rond comme une cordée, tête fuselée sans cou marqué. Il progresse en spirale et noue ses anneaux autour du courant.",
+   "trait_distinctif": "Une spirale blanche, enroulée comme une vis, court du museau jusqu'à la queue.",
+   "trait_cle": "spirale-blanche-helicoidale",
+   "couleurs": [
+    "bleu fjord",
+    "blanc spirale",
+    "gris schiste"
+   ],
+   "rappel_leger": "Grand nageur de courants, enroulé comme un tire-bouchon.",
+   "difference_avec_ancienne": "Spirale blanche hélicoïdale sur le corps et tête fuselée, au lieu d'un corps uni."
+  },
+  "description_courte": "Il nage dans les courants inverses des fjords en formant des spirales qui piègent ses proies. Un couple stable règne sur chaque fjord. Les marins redoutent ses remous glacés.",
+  "familier": {
+   "possible": false
+  }
+ },
+ {
+  "id": "lev18",
+  "nouveau_nom": "Pastenor",
+  "sous_titre": "La Dalle Foudroyante",
+  "groupe": "leviathans",
+  "rang": "◆◆◆ Élite",
+  "cr": 11,
+  "role_jeu": "boss",
+  "taille_garrot_m": 1.5,
+  "hauteur_sprite_px": 55,
+  "hors_format_sprite": false,
+  "element_principal": "Foudre",
+  "element_secondaire": null,
+  "etats_infliges": [
+   "Poison"
+  ],
+  "lignee_draconique": false,
+  "terrain": "Fonds peu profonds, récifs, plateaux continentaux",
+  "apparence": {
+   "silhouette": "Corps plat en losange, quasi circulaire, ondulant sur le sable avec une queue-fouet. Il s'enfouit en un instant sous le sable ne laissant que deux yeux.",
+   "trait_distinctif": "Son dos est tapissé de taches rondes brillantes qui s'allument en séquence juste avant la décharge.",
+   "trait_cle": "dos-a-taches-lumineuses",
+   "couleurs": [
+    "sable",
+    "bleu lagon",
+    "jaune néon"
+   ],
+   "rappel_leger": "Prédateur de fond plat, enfoui et brutal.",
+   "difference_avec_ancienne": "Dos à taches lumineuses en séquence et queue-fouet, au lieu d'un corps plat uni."
+  },
+  "description_courte": "Il se cache sous le sable : on ne voit que ses yeux, puis ses taches s'allument. Sa décharge mêle poison et courant. La glande est précieuse mais trop dangereuse à manipuler.",
+  "familier": {
+   "possible": false
+  }
+ },
+ {
+  "id": "lev19",
+  "nouveau_nom": "Pétillon",
+  "sous_titre": "L'Anguille aux Étincelles",
+  "groupe": "leviathans",
+  "rang": "◆◆ Rare",
+  "cr": 5,
+  "role_jeu": "mini_boss",
+  "taille_garrot_m": 0.6,
+  "hauteur_sprite_px": 22,
+  "hors_format_sprite": false,
+  "element_principal": "Foudre",
+  "element_secondaire": "Eau",
+  "etats_infliges": [],
+  "lignee_draconique": false,
+  "terrain": "Récifs coralliens peu profonds, lagunes",
+  "apparence": {
+   "silhouette": "Anguille géante de 3,2 m, sans membres, tête légèrement aplatie, queue rubanée. Elle serpente entre les coraux, corps tendu comme un fouet.",
+   "trait_distinctif": "Des paillettes lumineuses couvrent son dos et scintillent à chaque contraction.",
+   "trait_cle": "dos-paillete-lumineux",
+   "couleurs": [
+    "turquoise",
+    "or pâle",
+    "gris perle"
+   ],
+   "rappel_leger": "Petite anguille électrique de récif, vive et sociable.",
+   "difference_avec_ancienne": "Dos pailleté scintillant et teintes turquoise, au lieu d'une anguille ordinaire."
+  },
+  "description_courte": "Le plus petit et le plus accessible des marins. Couple sur un récif, elle étincelle de nuit. Facile à apprivoiser, elle sert de guide dans les passes de lagon.",
+  "familier": {
+   "possible": true,
+   "lien_max": "conditionne",
+   "difficulte_dd": 10,
+   "roles": [
+    "eclaireur",
+    "pisteur",
+    "signal"
+   ],
+   "aide_combat": "Elle fonce sur une cible et la décharge pour l'étourdir, puis elle éclaire la zone d'un scintillement. Elle est mise K.O. par la fatigue, puis soignée.",
+   "transport": null,
+   "capacite_transport": null,
+   "age_ideal": "Juvénile",
+   "limite": "Ne quitte pas les eaux chaudes peu profondes ; elle régresse loin de son dresseur."
+  }
+ },
+ {
+  "id": "lev20",
+  "nouveau_nom": "Rostrégel",
+  "sous_titre": "Le Souverain des Banquises",
+  "groupe": "leviathans",
+  "rang": "◆◆◆◆ Légendaire",
+  "cr": 16,
+  "role_jeu": "boss",
+  "taille_garrot_m": 2.5,
+  "hauteur_sprite_px": 92,
+  "hors_format_sprite": false,
+  "element_principal": "Glace",
+  "element_secondaire": null,
+  "etats_infliges": [],
+  "lignee_draconique": true,
+  "terrain": "Mers arctiques, banquise",
+  "apparence": {
+   "silhouette": "Corps massif d'orque géante avec un cou serpentin et une grande nageoire dorsale en lame. Il brise la glace en la soulevant par le dessous.",
+   "trait_distinctif": "Son front porte un unique rostre de glace, long comme un mât, qui perce la banquise.",
+   "trait_cle": "rostre-de-glace",
+   "couleurs": [
+    "noir d'ardoise",
+    "blanc banquise",
+    "bleu glacial"
+   ],
+   "rappel_leger": "Souverain polaire solitaire, briseur de glace.",
+   "difference_avec_ancienne": "Rostre de glace unique sur le front et nageoire en lame, au lieu d'un corps pommelé."
+  },
+  "description_courte": "Maître des mers arctiques, il règne sans rival. Plus solitaire de tous les marins, il brise la banquise de son rostre et poursuit les navires sur des lieues.",
+  "familier": {
+   "possible": false
+  }
+ },
+ {
+  "id": "lev21",
+  "nouveau_nom": "Ruisselet",
+  "sous_titre": "Le Pêcheur de Torrent",
+  "groupe": "leviathans",
+  "rang": "◆◆◆ Élite",
+  "cr": 9,
+  "role_jeu": "boss",
+  "taille_garrot_m": 1.3,
+  "hauteur_sprite_px": 48,
+  "hors_format_sprite": false,
+  "element_principal": "Eau",
+  "element_secondaire": null,
+  "etats_infliges": [
+   "Paralysie"
+  ],
+  "lignee_draconique": false,
+  "terrain": "Torrents et lacs de haute altitude",
+  "apparence": {
+   "silhouette": "Corps bas et effilé de truite géante, quatre nageoires-pattes courtes, tête en bec de héron. Il saute en escalade les chutes d'eau.",
+   "trait_distinctif": "Un éventail de trois filaments porte des barbillons venimeux au bout, comme une canne à pêche.",
+   "trait_cle": "trois-lignes-barbillons",
+   "couleurs": [
+    "gris argent",
+    "bleu torrent",
+    "vert mousse"
+   ],
+   "rappel_leger": "Chasseur de torrent d'altitude à venin paralysant.",
+   "difference_avec_ancienne": "Triple filament à barbillons et bec de héron, au lieu d'un museau lisse."
+  },
+  "description_courte": "Il vit dans l'eau pauvre en oxygène des torrents à 2 500 m. Ses filaments paralysent la proie avant la morsure. Couple sur un réseau de torrents.",
+  "familier": {
+   "possible": false
+  }
+ },
+ {
+  "id": "lev22",
+  "nouveau_nom": "Prairelle",
+  "sous_titre": "La Dame de la Lagune",
+  "groupe": "leviathans",
+  "rang": "◆◆◆ Élite",
+  "cr": 10,
+  "role_jeu": "boss",
+  "taille_garrot_m": 1.5,
+  "hauteur_sprite_px": 55,
+  "hors_format_sprite": false,
+  "element_principal": "Eau",
+  "element_secondaire": "Terre",
+  "etats_infliges": [],
+  "lignee_draconique": false,
+  "terrain": "Lagunes côtières, mangroves, herbiers",
+  "apparence": {
+   "silhouette": "Corps aplati, large et souple, à quatre palettes natatoires ; tête arrondie. Elle glisse dans les herbiers comme une pelouse qui ondule.",
+   "trait_distinctif": "Des franges vertes en lanières comme des herbes marines bordent tout son corps.",
+   "trait_cle": "franges-d-herbier",
+   "couleurs": [
+    "vert tendre",
+    "brun mangrove",
+    "turquoise"
+   ],
+   "rappel_leger": "Grande nageuse de lagune, fondue dans les herbiers.",
+   "difference_avec_ancienne": "Franges d'herbier tout autour du corps et palettes à quatre membres, au lieu d'un corps lisse."
+  },
+  "description_courte": "Elle se fond dans les herbiers de la lagune où elle vit en couple. Pacifique envers qui respecte son eau, redoutable sinon. Une guilde côtière la dresse depuis des années.",
+  "familier": {
+   "possible": true,
+   "lien_max": "affectif",
+   "difficulte_dd": 15,
+   "roles": [
+    "monture_mer",
+    "eclaireur"
+   ],
+   "aide_combat": "Elle déroule ses franges pour piéger une cible et la retient en eau peu profonde. Elle est mise K.O. par la fatigue, puis soignée.",
+   "transport": "maritime",
+   "capacite_transport": "groupe de 2-4",
+   "age_ideal": "Juvénile",
+   "limite": "Reste liée à sa lagune ; ne s'éloigne pas de la côte plus de quelques jours."
+  }
+ }
+]

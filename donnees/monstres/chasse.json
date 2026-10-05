@@ -1,0 +1,782 @@
+[
+ {
+  "id": "cha01",
+  "nouveau_nom": "Cervarak",
+  "sous_titre": "Le Seigneur du Sous-Bois",
+  "groupe": "chasse",
+  "rang": "◆◆ Rare",
+  "cr": 5,
+  "role_jeu": "ambiance",
+  "taille_garrot_m": 1.4,
+  "hauteur_sprite_px": 51,
+  "hors_format_sprite": false,
+  "element_principal": "Terre",
+  "element_secondaire": null,
+  "etats_infliges": [],
+  "lignee_draconique": false,
+  "terrain": "Forêts tempérées mixtes, lisières boisées, zones de chênaies et hêtraies",
+  "apparence": {
+   "silhouette": "Grand cerf à encolure épaisse et poitrail large, pattes fines. Ses bois ramifiés se dressent haut en couronne au-dessus de la tête.",
+   "trait_distinctif": "Ses bois sont fendus en deux de bas en haut, comme deux hautes demi-couronnes jumelles.",
+   "trait_cle": "bois-de-cerf-fendu",
+   "couleurs": [
+    "brun roux",
+    "crème",
+    "vert mousse"
+   ],
+   "rappel_leger": "Proie noble de forêt, gibier de prestige.",
+   "difference_avec_ancienne": "Aucun changement d'espèce ; c'est un cerf ordinaire en version fantasy."
+  },
+  "description_courte": "Cerf des hauts bois vivant en hardes. Proie noble, il offre venaison, cuir et bois. Les mâles solitaires du rut sont dangereux. Approche sous le vent conseillée.",
+  "familier": {
+   "possible": true,
+   "lien_max": "conditionne",
+   "difficulte_dd": 12,
+   "roles": [
+    "bete_de_somme",
+    "monture_terre",
+    "eclaireur"
+   ],
+   "aide_combat": "Dressé, il peut porter le gibier et le matériel, et alerter d'un bruit d'approche par un brame bref. Il évite le combat et fuit si un danger l'approche.",
+   "transport": "terrestre",
+   "capacite_transport": "1 personnage",
+   "age_ideal": "Jeune capturé, avant le rut",
+   "limite": "Les mâles en rut redeviennent sauvages et violents, et le cerf ne supporte pas les charges lourdes longtemps."
+  },
+  "nom_conserve": true
+ },
+ {
+  "id": "cha02",
+  "nouveau_nom": "Sanglarak",
+  "sous_titre": "La Bête du Sous-Bois Dense",
+  "groupe": "chasse",
+  "rang": "◆◆ Rare",
+  "cr": 6,
+  "role_jeu": "ambiance",
+  "taille_garrot_m": 1.1,
+  "hauteur_sprite_px": 40,
+  "hors_format_sprite": false,
+  "element_principal": "Terre",
+  "element_secondaire": null,
+  "etats_infliges": [],
+  "lignee_draconique": false,
+  "terrain": "Forêts à sous-bois dense, zones marécageuses forestières, chênaies à glands",
+  "apparence": {
+   "silhouette": "Sanglier massif à garrot haut et arrière-train bas. Tête en coin, crinière dressée sur l'échine, défenses courbes.",
+   "trait_distinctif": "Une crête de poils raides couleur rouille court du museau jusqu'à la queue, comme une brosse hérissée.",
+   "trait_cle": "crete-de-soies-rouille",
+   "couleurs": [
+    "brun boue",
+    "roux",
+    "gris fer"
+   ],
+   "rappel_leger": "Proie difficile de sous-bois, matière première précieuse.",
+   "difference_avec_ancienne": "Même espèce ordinaire en version fantasy."
+  },
+  "description_courte": "Sanglier des marais boisés vivant en compagnies. Les mâles adultes sont solitaires et chargent à vue. Cuir, défenses et viande très recherchés.",
+  "familier": {
+   "possible": true,
+   "lien_max": "conditionne",
+   "difficulte_dd": 10,
+   "roles": [
+    "assistant_combat",
+    "pisteur",
+    "recolte"
+   ],
+   "aide_combat": "Dressé par un porcher, il fouit le sol pour trouver truffes et traces, et charge une cible isolée pour la désorienter. Il peut être mis K.O. (essoufflement) puis soigné.",
+   "transport": null,
+   "capacite_transport": null,
+   "age_ideal": "Marcassin, avant six mois",
+   "limite": "Il redevient imprévisible adulte et ne répond qu'à son porcher."
+  },
+  "nom_conserve": true
+ },
+ {
+  "id": "cha03",
+  "nouveau_nom": "Aurochrak",
+  "sous_titre": "La Force des Steppes",
+  "groupe": "chasse",
+  "rang": "◆◆◆ Élite",
+  "cr": 7,
+  "role_jeu": "ambiance",
+  "taille_garrot_m": 1.8,
+  "hauteur_sprite_px": 66,
+  "hors_format_sprite": false,
+  "element_principal": "Terre",
+  "element_secondaire": null,
+  "etats_infliges": [],
+  "lignee_draconique": false,
+  "terrain": "Grandes plaines herbeuses, steppes, prairies ouvertes, zones de transition forêt-plaine",
+  "apparence": {
+   "silhouette": "Bœuf immense à garrot en bosse, fanons lourds, cornes longues en lyre. Il avance tête basse comme une masse.",
+   "trait_distinctif": "Ses cornes se terminent en pointes blanches cerclées de bandes de cuivre naturelles.",
+   "trait_cle": "cornes-lyre-cerclees",
+   "couleurs": [
+    "noir fauve",
+    "beige",
+    "cuivre"
+   ],
+   "rappel_leger": "Bœuf sauvage géant, symbole de puissance.",
+   "difference_avec_ancienne": "Même espèce ordinaire en version fantasy."
+  },
+  "description_courte": "Gros bœuf sauvage des plaines vivant en troupeaux hiérarchisés. Domestiqué depuis des siècles pour le labour. Sa charge brise les clôtures et les chasseurs imprudents.",
+  "familier": {
+   "possible": true,
+   "lien_max": "conditionne",
+   "difficulte_dd": 11,
+   "roles": [
+    "bete_de_somme",
+    "monture_terre"
+   ],
+   "aide_combat": "Dressé au labour et au bât, il charge l'ennemi qui menace le campement sur ordre. Il peut être mis K.O. (épuisement) puis se repose.",
+   "transport": "terrestre",
+   "capacite_transport": "groupe de 2-4",
+   "age_ideal": "Veau élevé en troupeau",
+   "limite": "Il est lent, ne supporte ni le galop long ni les terrains accidentés."
+  },
+  "nom_conserve": true
+ },
+ {
+  "id": "cha04",
+  "nouveau_nom": "Ursorak",
+  "sous_titre": "Le Solitaire des Hauteurs",
+  "groupe": "chasse",
+  "rang": "◆◆◆ Élite",
+  "cr": 8,
+  "role_jeu": "mini_boss",
+  "taille_garrot_m": 1.6,
+  "hauteur_sprite_px": 59,
+  "hors_format_sprite": false,
+  "element_principal": "Terre",
+  "element_secondaire": null,
+  "etats_infliges": [],
+  "lignee_draconique": false,
+  "terrain": "Zones de montagne boisée (800 à 2 500 m d'altitude), forêts de haute altitude, zones de torrent",
+  "apparence": {
+   "silhouette": "Grand ours au dos bossu et pattes avant fortes. Debout, il domine un homme de loin, museau long et oreilles rondes.",
+   "trait_distinctif": "Un collier de fourrure claire en forme de croissant marque sa gorge, et ses griffes sont blanches.",
+   "trait_cle": "collier-croissant-clair",
+   "couleurs": [
+    "brun noir",
+    "crème",
+    "gris pierre"
+   ],
+   "rappel_leger": "Prédateur omnivore de montagne.",
+   "difference_avec_ancienne": "Même espèce ordinaire en version fantasy."
+  },
+  "description_courte": "Ours des hautes forêts de montagne. Mère protectrice avec oursons pendant dix-huit mois. Sa puissance en fait une proie de prestige et un grand danger.",
+  "familier": {
+   "possible": true,
+   "lien_max": "partiel",
+   "difficulte_dd": 14,
+   "roles": [
+    "assistant_combat",
+    "garde"
+   ],
+   "aide_combat": "Élevé jeune, il se dresse à l'ordre pour effrayer et bloquer une cible. Il peut être mis K.O. (blessures) puis soigné mais il s'enfuit si l'état est grave.",
+   "transport": null,
+   "capacite_transport": null,
+   "age_ideal": "Ourson capturé",
+   "limite": "Pratique rare et risquée : il devient incontrôlable adulte sans dresseur et reste toujours imprévisible."
+  },
+  "nom_conserve": true
+ },
+ {
+  "id": "cha05",
+  "nouveau_nom": "Lynxarak",
+  "sous_titre": "Le Fantôme des Bois",
+  "groupe": "chasse",
+  "rang": "◆◆ Rare",
+  "cr": 4,
+  "role_jeu": "mini_boss",
+  "taille_garrot_m": 0.7,
+  "hauteur_sprite_px": 26,
+  "hors_format_sprite": false,
+  "element_principal": "Ombre",
+  "element_secondaire": null,
+  "etats_infliges": [],
+  "lignee_draconique": false,
+  "terrain": "Forêts boréales, zones de haute végétation à couverture dense, forêts montagneuses",
+  "apparence": {
+   "silhouette": "Félin ramassé à pattes hautes et queue courte. Oreilles pointues, large collerette de poils sur les joues.",
+   "trait_distinctif": "Chaque oreille porte un long pinceau de poils noir qui frémit au moindre bruit.",
+   "trait_cle": "oreilles-pinceaux-noirs",
+   "couleurs": [
+    "gris tacheté",
+    "blanc cassé",
+    "noir"
+   ],
+   "rappel_leger": "Prédateur médian et silencieux des forêts.",
+   "difference_avec_ancienne": "Même espèce ordinaire en version fantasy."
+  },
+  "description_courte": "Lynx des forêts boréales, solitaire et silencieux. Il chasse à l'affût de nuit. Son pelage est recherché. Certaines guildes le dressent comme gardien.",
+  "familier": {
+   "possible": true,
+   "lien_max": "partiel",
+   "difficulte_dd": 13,
+   "roles": [
+    "garde",
+    "eclaireur",
+    "pisteur"
+   ],
+   "aide_combat": "Dressé en gardien, il surveille un camp de nuit et signale les intrus par un feulement bref. Il peut mordre une cible isolée. Il peut être mis K.O. (fatigue) puis soigné.",
+   "transport": null,
+   "capacite_transport": null,
+   "age_ideal": "Chaton",
+   "limite": "Il reste solitaire et indépendant : il refuse de travailler en groupe ou de jour."
+  },
+  "nom_conserve": true
+ },
+ {
+  "id": "cha06",
+  "nouveau_nom": "Louparak",
+  "sous_titre": "La Meute en Mouvement",
+  "groupe": "chasse",
+  "rang": "◆◆ Rare (individu) / ◆◆◆ Élite (meute de 8+)",
+  "cr": 4,
+  "role_jeu": "chef_de_meute",
+  "taille_garrot_m": 0.9,
+  "hauteur_sprite_px": 33,
+  "hors_format_sprite": false,
+  "element_principal": "Terre",
+  "element_secondaire": null,
+  "etats_infliges": [],
+  "lignee_draconique": false,
+  "terrain": "Plaines, steppes, zones de transition forêt-plaine, vallées larges",
+  "apparence": {
+   "silhouette": "Loup élancé à poitrail profond et pattes longues. Museau fin, queue basse touffue, oreilles dressées.",
+   "trait_distinctif": "Il porte une bande de poils clairs en selle sur l'échine, comme une housse de cavalier.",
+   "trait_cle": "selle-pale-sur-echine",
+   "couleurs": [
+    "gris fumé",
+    "blanc",
+    "brun"
+   ],
+   "rappel_leger": "Prédateur social des plaines, chien de chasse ancestral.",
+   "difference_avec_ancienne": "Même espèce ordinaire en version fantasy."
+  },
+  "description_courte": "Loup des plaines, dangereux surtout en meute (huit individus et plus). Dressé depuis des siècles comme chien de chasse et de garde. Le chef coordonne les attaques.",
+  "familier": {
+   "possible": true,
+   "lien_max": "affectif",
+   "difficulte_dd": 12,
+   "roles": [
+    "assistant_combat",
+    "pisteur",
+    "garde",
+    "eclaireur"
+   ],
+   "aide_combat": "Le loup dressé suit une piste, bloque une proie par les flancs et renforce une attaque ciblée. Il peut être mis K.O. (fatigue, blessure légère) puis soigné.",
+   "transport": null,
+   "capacite_transport": null,
+   "age_ideal": "Louveteau, avant trois mois",
+   "limite": "Il suit son dresseur mais retourne à sa meute si l'attache se rompt ; il ne supporte pas l'isolement."
+  },
+  "nom_conserve": true
+ },
+ {
+  "id": "cha07",
+  "nouveau_nom": "Aquilarak",
+  "sous_titre": "Le Seigneur des Courants",
+  "groupe": "chasse",
+  "rang": "◆◆ Rare",
+  "cr": 4,
+  "role_jeu": "mini_boss",
+  "taille_garrot_m": 0.8,
+  "hauteur_sprite_px": 29,
+  "hors_format_sprite": false,
+  "element_principal": "Vent",
+  "element_secondaire": null,
+  "etats_infliges": [],
+  "lignee_draconique": false,
+  "terrain": "Falaises, zones de montagne ouverte, plaines à vents dominants, côtes à falaises",
+  "apparence": {
+   "silhouette": "Grand aigle à large envergure, tête plate et bec fort. Au repos il se tient droit sur son perchoir, ailes serrées.",
+   "trait_distinctif": "Les plumes de sa nuque forment une collerette dorée en étoile.",
+   "trait_cle": "nuque-collerette-doree",
+   "couleurs": [
+    "brun sombre",
+    "or",
+    "blanc"
+   ],
+   "rappel_leger": "Prédateur aérien majestueux, oiseau de fauconnerie.",
+   "difference_avec_ancienne": "Même espèce ordinaire en version fantasy."
+  },
+  "description_courte": "Aigle royal des hauts vents, maître des courants montagnards. Fauconnerie depuis quatre siècles. Fond sur sa proie à vitesse extrême depuis grande hauteur.",
+  "familier": {
+   "possible": true,
+   "lien_max": "affectif",
+   "difficulte_dd": 11,
+   "roles": [
+    "eclaireur",
+    "signal",
+    "assistant_combat",
+    "monture_vol"
+   ],
+   "aide_combat": "Il repère les proies de loin, signale une cible et pique sur un point faible pour la distraire. Monture aérienne légère pour un personnage de petite taille sur de courtes distances. Il peut être mis K.O. (épuisement) puis soigné.",
+   "transport": "aerien",
+   "capacite_transport": "1 personnage",
+   "age_ideal": "Poussin élevé à la main",
+   "limite": "Il ne porte qu'un personnage léger sur de courtes distances et il se fatigue vite par vent faible."
+  },
+  "nom_conserve": true
+ },
+ {
+  "id": "cha08",
+  "nouveau_nom": "Cascarak",
+  "sous_titre": "La Reine des Eaux Vives",
+  "groupe": "chasse",
+  "rang": "◆◆ Rare",
+  "cr": 3,
+  "role_jeu": "ambiance",
+  "taille_garrot_m": 0.3,
+  "hauteur_sprite_px": 11,
+  "hors_format_sprite": false,
+  "element_principal": "Eau",
+  "element_secondaire": null,
+  "etats_infliges": [],
+  "lignee_draconique": false,
+  "terrain": "Torrents de montagne froids et oxygénés, zones de rapides, lacs de montagne froids",
+  "apparence": {
+   "silhouette": "Grande truite fuselée à tête plate et mâchoire forte. Elle remonte le courant, nageoires en éventail.",
+   "trait_distinctif": "Son flanc porte une rangée de points rouges cerclés de blanc comme des perles.",
+   "trait_cle": "flanc-perles-rouges",
+   "couleurs": [
+    "argent",
+    "vert olive",
+    "rouge"
+   ],
+   "rappel_leger": "Proie aquatique majeure des torrents.",
+   "difference_avec_ancienne": "Même espèce ordinaire en version fantasy."
+  },
+  "description_courte": "Truite géante des torrents froids et oxygénés. Elle bondit les chutes. Pêche difficile, chair recherchée.",
+  "familier": {
+   "possible": false,
+   "raison": "Comportement aquatique incompatible avec le dressage."
+  },
+  "nom_conserve": true
+ },
+ {
+  "id": "cha09",
+  "nouveau_nom": "Bisarak",
+  "sous_titre": "Le Troupeau Infini",
+  "groupe": "chasse",
+  "rang": "◆◆◆ Élite",
+  "cr": 6,
+  "role_jeu": "ambiance",
+  "taille_garrot_m": 1.7,
+  "hauteur_sprite_px": 62,
+  "hors_format_sprite": false,
+  "element_principal": "Terre",
+  "element_secondaire": null,
+  "etats_infliges": [],
+  "lignee_draconique": false,
+  "terrain": "Grandes steppes, prairies ouvertes à hautes herbes, zones de prairie continentale",
+  "apparence": {
+   "silhouette": "Grand bison au garrot en montagne de poils, tête lourde basse et cornes courtes. Arrière-train étroit.",
+   "trait_distinctif": "Une barbe de longs poils sombres tombe de son menton jusqu'aux genoux comme une cape.",
+   "trait_cle": "barbe-longue-jusqu-aux-genoux",
+   "couleurs": [
+    "brun foncé",
+    "roux",
+    "noir"
+   ],
+   "rappel_leger": "Gros bovin de steppe, moteur écologique.",
+   "difference_avec_ancienne": "Même espèce ordinaire en version fantasy."
+  },
+  "description_courte": "Bison des grandes steppes. Ses troupeaux fertilisent les plaines. Difficilement dressé pour le labour profond. Il charge s'il est acculé.",
+  "familier": {
+   "possible": true,
+   "lien_max": "conditionne",
+   "difficulte_dd": 14,
+   "roles": [
+    "bete_de_somme"
+   ],
+   "aide_combat": "Utilisé comme animal de trait, il ne combat pas mais peut charger sur ordre pour dégager un passage. Il peut être mis K.O. (épuisement) puis se repose.",
+   "transport": "terrestre",
+   "capacite_transport": "groupe de 2-4",
+   "age_ideal": "Veau",
+   "limite": "Il reste nerveux et ne supporte pas les espaces clos ni les foules."
+  },
+  "nom_conserve": true
+ },
+ {
+  "id": "cha10",
+  "nouveau_nom": "Serparak",
+  "sous_titre": "L'Étrangleur des Forêts Chaudes",
+  "groupe": "chasse",
+  "rang": "◆◆◆ Élite",
+  "cr": 7,
+  "role_jeu": "mini_boss",
+  "taille_garrot_m": 0.4,
+  "hauteur_sprite_px": 15,
+  "hors_format_sprite": false,
+  "element_principal": "Terre",
+  "element_secondaire": "Ombre",
+  "etats_infliges": [],
+  "lignee_draconique": false,
+  "terrain": "Forêts tropicales, zones humides chaudes, marécages forestiers, rivières de forêt tropicale",
+  "apparence": {
+   "silhouette": "Long serpent massif aux anneaux épais, tête en losange et corps cylindrique. Au repos il s'enroule en spirale.",
+   "trait_distinctif": "Son dos porte une série de losanges bruns bordés de crème, comme un damier étiré.",
+   "trait_cle": "dos-damier-de-losanges",
+   "couleurs": [
+    "brun olive",
+    "crème",
+    "noir"
+   ],
+   "rappel_leger": "Constricteur géant des forêts chaudes.",
+   "difference_avec_ancienne": "Même espèce ordinaire en version fantasy."
+  },
+  "description_courte": "Serpent constricteur de sept à neuf mètres. Il étouffe sa proie avant de l'avaler. Peau et chair appréciées.",
+  "familier": {
+   "possible": true,
+   "lien_max": "partiel",
+   "difficulte_dd": 13,
+   "roles": [
+    "garde",
+    "assistant_combat"
+   ],
+   "aide_combat": "Il peut être posté dans une installation pour chasser les nuisibles, ou enrouler une cible pour l'immobiliser sur ordre. Il peut être mis K.O. (froid, fatigue) puis soigné.",
+   "transport": null,
+   "capacite_transport": null,
+   "age_ideal": "Juvénile",
+   "limite": "Il demande chaleur et nourriture régulière et se montre imprévisible hors de son abri."
+  },
+  "nom_conserve": true
+ },
+ {
+  "id": "cha11",
+  "nouveau_nom": "Mantirak",
+  "sous_titre": "Le Roi des Zones Humides",
+  "groupe": "chasse",
+  "rang": "◆◆ Rare",
+  "cr": 5,
+  "role_jeu": "ambiance",
+  "taille_garrot_m": 1.5,
+  "hauteur_sprite_px": 55,
+  "hors_format_sprite": false,
+  "element_principal": "Eau",
+  "element_secondaire": "Terre",
+  "etats_infliges": [],
+  "lignee_draconique": false,
+  "terrain": "Marais, zones humides, rives de fleuves à végétation dense, deltas intérieurs",
+  "apparence": {
+   "silhouette": "Grand cervidé à encolure longue, bosse de garrot et museau large. Ses pattes hautes terminent en sabots larges.",
+   "trait_distinctif": "Ses bois forment deux larges palmes plates en éventail.",
+   "trait_cle": "bois-palmes-en-eventail",
+   "couleurs": [
+    "brun-gris",
+    "vert vase",
+    "crème"
+   ],
+   "rappel_leger": "Roi des marais, gros cervidé aquatique.",
+   "difference_avec_ancienne": "Même espèce ordinaire en version fantasy."
+  },
+  "description_courte": "Grand cervidé des marais, dépendant de son milieu humide. Il traverse l'eau profonde. Proie difficile, à approcher en barque.",
+  "familier": {
+   "possible": false,
+   "raison": "Dépendance physique au milieu marécageux."
+  },
+  "nom_conserve": true
+ },
+ {
+  "id": "cha12",
+  "nouveau_nom": "Chamoisrak",
+  "sous_titre": "L'Acrobate des Falaises",
+  "groupe": "chasse",
+  "rang": "◆◆ Rare",
+  "cr": 4,
+  "role_jeu": "ambiance",
+  "taille_garrot_m": 0.9,
+  "hauteur_sprite_px": 33,
+  "hors_format_sprite": false,
+  "element_principal": "Vent",
+  "element_secondaire": "Terre",
+  "etats_infliges": [],
+  "lignee_draconique": false,
+  "terrain": "Zones de falaises rocheuses, escarpements alpins, zones de rocher nu au-dessus de 1 500 m",
+  "apparence": {
+   "silhouette": "Chèvre trapue à pattes sûres, corps compact, cornes courtes en crochet. Elle se campe sur la roche comme une statue.",
+   "trait_distinctif": "Une bande noire court de l'oeil au museau et ses sabots sont blancs, comme chaussés de chaussettes.",
+   "trait_cle": "sabots-chaussettes-blanches",
+   "couleurs": [
+    "gris pierre",
+    "blanc",
+    "noir"
+   ],
+   "rappel_leger": "Chèvre de falaises, laine précieuse.",
+   "difference_avec_ancienne": "Même espèce ordinaire en version fantasy."
+  },
+  "description_courte": "Chèvre des précipices alpins, d'équilibre prodigieux. Élevée en montagne pour sa laine fine. Proie inatteignable en sauvage.",
+  "familier": {
+   "possible": true,
+   "lien_max": "conditionne",
+   "difficulte_dd": 11,
+   "roles": [
+    "bete_de_somme",
+    "recolte",
+    "eclaireur"
+   ],
+   "aide_combat": "Dressée, elle porte du matériel sur les sentes escarpées et trouve les chemins sûrs. Elle fuit le combat. Elle peut être mise K.O. (chute légère) puis soignée.",
+   "transport": "terrestre",
+   "capacite_transport": "1 personnage",
+   "age_ideal": "Chevreau",
+   "limite": "Elle ne se déplace bien qu'en terrain rocheux et refuse les plaines."
+  },
+  "nom_conserve": true
+ },
+ {
+  "id": "cha13",
+  "nouveau_nom": "Crapaudrak",
+  "sous_titre": "L'Ambusqueur Souterrain",
+  "groupe": "chasse",
+  "rang": "◆◆ Rare",
+  "cr": 4,
+  "role_jeu": "ambiance",
+  "taille_garrot_m": 0.6,
+  "hauteur_sprite_px": 22,
+  "hors_format_sprite": false,
+  "element_principal": "Eau",
+  "element_secondaire": "Ombre",
+  "etats_infliges": [
+   "Poison"
+  ],
+  "lignee_draconique": false,
+  "terrain": "Zones de grottes humides, réseaux karstiques, berges souterraines, zones de source sous-terraine",
+  "apparence": {
+   "silhouette": "Gros crapaud écrasé au sol, tête large, yeux globuleux. Les pattes arrière sont repliées sous lui.",
+   "trait_distinctif": "Son dos est couvert de verrues pâles qui luisent faiblement dans l'obscurité.",
+   "trait_cle": "dos-verrues-luminescentes",
+   "couleurs": [
+    "vert grotte",
+    "gris pâle",
+    "jaune"
+   ],
+   "rappel_leger": "Ambusqueur des grottes, proie venimeuse.",
+   "difference_avec_ancienne": "Même espèce ordinaire en version fantasy."
+  },
+  "description_courte": "Crapaud géant des grottes humides, il attend immobile. Sa peau sécrète un poison léger. Le plus simple des animaux endémiques à dresser.",
+  "familier": {
+   "possible": true,
+   "lien_max": "conditionne",
+   "difficulte_dd": 9,
+   "roles": [
+    "assistant_combat",
+    "garde"
+   ],
+   "aide_combat": "Posté en garde, il avertit par un coassement. En chasse il crache une sécrétion qui empoisonne légèrement la cible. Il peut être mis K.O. (dessèchement) puis réhydraté.",
+   "transport": null,
+   "capacite_transport": null,
+   "age_ideal": "Têtard ou jeune",
+   "limite": "Il dépend de l'humidité et se dessèche loin de son bassin."
+  },
+  "nom_conserve": true
+ },
+ {
+  "id": "cha14",
+  "nouveau_nom": "Murènorak",
+  "sous_titre": "La Terreur des Criques",
+  "groupe": "chasse",
+  "rang": "◆◆◆ Élite",
+  "cr": 6,
+  "role_jeu": "mini_boss",
+  "taille_garrot_m": 0.25,
+  "hauteur_sprite_px": 9,
+  "hors_format_sprite": false,
+  "element_principal": "Eau",
+  "element_secondaire": "Ombre",
+  "etats_infliges": [],
+  "lignee_draconique": false,
+  "terrain": "Zones de récifs côtiers, grottes sous-marines, anfractuosités de fond marin, eaux sombres à rochers",
+  "apparence": {
+   "silhouette": "Long corps serpentin sans nageoires pectorales, tête plate et mâchoires largement fendues. Elle émerge d'une fissure à demi.",
+   "trait_distinctif": "Une seconde mâchoire rétractile jaillit de sa gorge comme une dent de rechange.",
+   "trait_cle": "gorge-seconde-machoire",
+   "couleurs": [
+    "vert sombre",
+    "jaune pâle",
+    "noir"
+   ],
+   "rappel_leger": "Prédateur côtier embusqué.",
+   "difference_avec_ancienne": "Même espèce ordinaire en version fantasy."
+  },
+  "description_courte": "Grande murène des récifs et grottes sous-marines, de trois mètres. Embusquée dans les crevasses. Morsure grave, chair recherchée.",
+  "familier": {
+   "possible": false,
+   "raison": "Non dressable."
+  },
+  "nom_conserve": true
+ },
+ {
+  "id": "cha15",
+  "nouveau_nom": "Vautourak",
+  "sous_titre": "Le Nettoyeur du Ciel",
+  "groupe": "chasse",
+  "rang": "◆◆ Rare",
+  "cr": 3,
+  "role_jeu": "ambiance",
+  "taille_garrot_m": 0.9,
+  "hauteur_sprite_px": 33,
+  "hors_format_sprite": false,
+  "element_principal": "Vent",
+  "element_secondaire": "Terre",
+  "etats_infliges": [],
+  "lignee_draconique": false,
+  "terrain": "Falaises rocheuses, zones de montagne ouverte, steppes arides — partout où il y a des carcasses",
+  "apparence": {
+   "silhouette": "Grand charognard à large envergure, cou nu et long, tête petite. Il plane en cercle sur les courants chauds.",
+   "trait_distinctif": "Son cou nu est entouré d'une collerette de plumes crème en anneau épais.",
+   "trait_cle": "cou-nu-collerette-anneau",
+   "couleurs": [
+    "brun",
+    "crème",
+    "rose pâle"
+   ],
+   "rappel_leger": "Charognard des falaises, indicateur de carcasses.",
+   "difference_avec_ancienne": "Même espèce ordinaire en version fantasy."
+  },
+  "description_courte": "Vautour des falaises, il signale les carcasses. Utilisé comme messager de courte distance. Il nettoie le ciel des cadavres.",
+  "familier": {
+   "possible": true,
+   "lien_max": "conditionne",
+   "difficulte_dd": 10,
+   "roles": [
+    "signal",
+    "eclaireur",
+    "pisteur"
+   ],
+   "aide_combat": "Il repère les carcasses et les proies blessées d'en haut et signale en cercles. Il porte de courts messages. Il peut être mis K.O. (épuisement) puis soigné.",
+   "transport": null,
+   "capacite_transport": null,
+   "age_ideal": "Poussin",
+   "limite": "Il ne porte pas de personnage, ne tient pas le combat et se disperse loin de la nourriture."
+  },
+  "nom_conserve": true
+ },
+ {
+  "id": "cha16",
+  "nouveau_nom": "Crocodarak",
+  "sous_titre": "L'Attente Immobile",
+  "groupe": "chasse",
+  "rang": "◆◆◆ Élite",
+  "cr": 8,
+  "role_jeu": "mini_boss",
+  "taille_garrot_m": 0.5,
+  "hauteur_sprite_px": 18,
+  "hors_format_sprite": false,
+  "element_principal": "Eau",
+  "element_secondaire": "Terre",
+  "etats_infliges": [],
+  "lignee_draconique": false,
+  "terrain": "Rives de grands fleuves tropicaux, deltas à végétation dense, zones de marécage chaud, lacs peu profonds chaud",
+  "apparence": {
+   "silhouette": "Long saurien bas sur pattes, queue épaisse en rame et mâchoires larges. Il flotte à fleur d'eau.",
+   "trait_distinctif": "Sa crête de dos forme des plaques régulières en dents de scie bordées de jaune.",
+   "trait_cle": "dos-plaques-bordees-jaunes",
+   "couleurs": [
+    "vert sombre",
+    "jaune",
+    "brun"
+   ],
+   "rappel_leger": "Seigneur des berges, prédateur embusqué.",
+   "difference_avec_ancienne": "Même espèce ordinaire en version fantasy."
+  },
+  "description_courte": "Grand crocodile de fleuve de près de quatre mètres. Il attend immobile et saisit d'un seul coup. Dressage possible mais très risqué et peu utile.",
+  "familier": {
+   "possible": true,
+   "lien_max": "conditionne",
+   "difficulte_dd": 14,
+   "roles": [
+    "garde"
+   ],
+   "aide_combat": "Posté en garde à un gué, il interdit le passage. Il peut être mis K.O. (froid) puis réchauffé.",
+   "transport": null,
+   "capacite_transport": null,
+   "age_ideal": "Œuf ou jeune",
+   "limite": "Extrêmement risqué : il attaque son dresseur à la moindre faim et reste hors de l'eau mal à l'aise."
+  },
+  "nom_conserve": true
+ },
+ {
+  "id": "cha17",
+  "nouveau_nom": "Gryphelan",
+  "sous_titre": "La Chimère Alpine",
+  "groupe": "chasse",
+  "rang": "◆◆◆ Élite",
+  "cr": 9,
+  "role_jeu": "boss",
+  "taille_garrot_m": 1.3,
+  "hauteur_sprite_px": 48,
+  "hors_format_sprite": false,
+  "element_principal": "Vent",
+  "element_secondaire": "Éther",
+  "etats_infliges": [],
+  "lignee_draconique": true,
+  "terrain": "Zones alpines extrêmes (2 500 à 4 500 m), parois de haute montagne, cols de haute altitude",
+  "apparence": {
+   "silhouette": "Grand aigle au cou court, qui porte une ramure de cerf ; pattes de rapace, ailes larges, queue courte. Il se campe sur les crêtes.",
+   "trait_distinctif": "Ses bois sont d'un or luisant, fins comme des antennes, et se terminent en pointes de cristal.",
+   "trait_cle": "bois-dores-pointes-cristal",
+   "couleurs": [
+    "gris acier",
+    "blanc",
+    "or"
+   ],
+   "rappel_leger": "Hybride de prédateur des hauts sommets, rare et craint.",
+   "difference_avec_ancienne": "Nom neuf (l'ancien est trop proche d'un monstre connu) ; même hybride fantasy aigle-cerf."
+  },
+  "description_courte": "Chimère des altitudes extrêmes, mi-aigle mi-cerf. Individus très rares. Territoire d'altitude et vols longs, donc jamais approché. Foudroie la proie de loin.",
+  "familier": {
+   "possible": false,
+   "raison": "Territoire d'altitude incompatible et individu trop rare."
+  },
+  "nom_conserve": false
+ },
+ {
+  "id": "cha18",
+  "nouveau_nom": "Caïmarak",
+  "sous_titre": "Le Moniteur des Chaleurs",
+  "groupe": "chasse",
+  "rang": "◆◆ Rare",
+  "cr": 5,
+  "role_jeu": "ambiance",
+  "taille_garrot_m": 0.3,
+  "hauteur_sprite_px": 11,
+  "hors_format_sprite": false,
+  "element_principal": "Eau",
+  "element_secondaire": "Terre",
+  "etats_infliges": [],
+  "lignee_draconique": false,
+  "terrain": "Zones tropicales humides, berges de fleuves tropicaux, zones de forêt à sol humide chaud",
+  "apparence": {
+   "silhouette": "Long lézard bas sur pattes, queue plus longue que le corps, langue fine. Il rampe, ventre au sol.",
+   "trait_distinctif": "Sa langue est bleu vif et rayée de noir, très visible quand il la sort.",
+   "trait_cle": "langue-bleue-rayee",
+   "couleurs": [
+    "vert olive",
+    "jaune",
+    "noir"
+   ],
+   "rappel_leger": "Moniteur semi-aquatique de chaleur.",
+   "difference_avec_ancienne": "Même espèce ordinaire en version fantasy."
+  },
+  "description_courte": "Grand lézard moniteur des berges tropicales. Il nage et grimpe. Gardien de cave et chasseur de rongeurs.",
+  "familier": {
+   "possible": true,
+   "lien_max": "conditionne",
+   "difficulte_dd": 11,
+   "roles": [
+    "garde",
+    "assistant_combat",
+    "pisteur"
+   ],
+   "aide_combat": "Gardien de cave, il traque les rongeurs et mord les voleurs aux jambes. Il peut être mis K.O. (froid) puis réchauffé.",
+   "transport": null,
+   "capacite_transport": null,
+   "age_ideal": "Juvénile",
+   "limite": "Il a besoin de chaleur humide et devient léthargique au froid."
+  },
+  "nom_conserve": true
+ }
+]

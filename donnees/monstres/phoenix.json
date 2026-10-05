@@ -1,0 +1,186 @@
+[
+ {
+  "id": "pho01",
+  "nouveau_nom": "Ignisrak",
+  "sous_titre": "Le Cycle de Cendre",
+  "groupe": "phoenix",
+  "rang": "◆◆◆ Élite (selon le cycle de vie actuel — ◆◆ en phase de renaissance, ◆◆◆◆ en pleine maturité de cycle)",
+  "cr": 11,
+  "role_jeu": "boss",
+  "taille_garrot_m": 1.1,
+  "hauteur_sprite_px": 40,
+  "hors_format_sprite": false,
+  "element_principal": "Feu",
+  "element_secondaire": null,
+  "etats_infliges": [],
+  "lignee_draconique": true,
+  "terrain": "Forêts post-incendie, zones de régénération après catastrophe thermique, sites de combustion ancienne",
+  "apparence": {
+   "silhouette": "Grand oiseau à longue queue en gerbe, ailes larges aux rémiges effilées comme des flammèches. Il se tient droit sur les cendres, cou haut, avec un panache qui se dresse au-dessus de la tête.",
+   "trait_distinctif": "Ses plumes de queue se consument sans fin en braises qui retombent en pluie de cendre tiède.",
+   "trait_cle": "queue-braises-tombantes",
+   "couleurs": [
+    "rouge braise",
+    "noir charbon",
+    "or pâle"
+   ],
+   "rappel_leger": "Grand rapace mythique de feu et de renaissance.",
+   "difference_avec_ancienne": "Fiche d'origine sans apparence détaillée : silhouette et palette établies ici."
+  },
+  "description_courte": "Oiseau de feu qui renaît de ses cendres après chaque cycle. Son plumage change selon la phase : braises, flammes, cendre. Rarement approché hors des forêts calcinées.",
+  "familier": {
+   "possible": true,
+   "lien_max": "symbiotique",
+   "difficulte_dd": null,
+   "roles": [
+    "signal",
+    "eclaireur"
+   ],
+   "aide_combat": "Pendant un lien de cycle, le phœnix survole la chasse et embrase brièvement une cible ou un terrain, offrant diversion et lumière. Il peut être mis K.O. (épuisement de cycle) et se régénère ensuite.",
+   "transport": null,
+   "capacite_transport": null,
+   "age_ideal": "Lien de cycle, à l'éclosion ou à la renaissance",
+   "limite": "Aucun dressage possible : seul un lien de cycle rare le lie à un porteur, et il rompt dès que son cycle l'emporte."
+  },
+  "nom_conserve": true,
+  "note": "à réconcilier avec l'Atlas (phœnix primordiaux)"
+ },
+ {
+  "id": "pho02",
+  "nouveau_nom": "Glacirak",
+  "sous_titre": "La Permanence du Froid",
+  "groupe": "phoenix",
+  "rang": "◆◆◆ Élite",
+  "cr": 11,
+  "role_jeu": "boss",
+  "taille_garrot_m": 1.2,
+  "hauteur_sprite_px": 44,
+  "hors_format_sprite": false,
+  "element_principal": "Glace",
+  "element_secondaire": null,
+  "etats_infliges": [],
+  "lignee_draconique": true,
+  "terrain": "Zones glaciaires tempérées, forêts nordiques à enneigement persistant, régions à lacs gelés saisonniers",
+  "apparence": {
+   "silhouette": "Oiseau élancé à cou de cygne, ailes fines semblables à des lames de givre déployées. La longue queue ressemble à un éventail de cristaux.",
+   "trait_distinctif": "Son plumage est un entrelacs de cristaux de glace translucides qui tintent quand il bouge.",
+   "trait_cle": "plumage-cristaux-tintants",
+   "couleurs": [
+    "blanc givre",
+    "bleu glacier",
+    "argent"
+   ],
+   "rappel_leger": "Grand oiseau mythique de glace et de permanence.",
+   "difference_avec_ancienne": "Fiche d'origine sans apparence détaillée : silhouette et palette établies ici."
+  },
+  "description_courte": "Phœnix des régions nordiques, il se cristallise en hiver et fond au printemps pour renaître. Son chant fait geler la rosée. Les pisteurs le signalent près des lacs gelés.",
+  "familier": {
+   "possible": true,
+   "lien_max": "symbiotique",
+   "difficulte_dd": null,
+   "roles": [
+    "signal",
+    "eclaireur"
+   ],
+   "aide_combat": "Lié par le cristal, il gèle le sol sous la proie ou fait écran de givre pour couvrir la retraite. Il peut être mis K.O. (fonte de ses cristaux) et se reforme au repos.",
+   "transport": null,
+   "capacite_transport": null,
+   "age_ideal": "Lien de cristal, à l'éclosion",
+   "limite": "Aucun dressage possible : le lien de cristal n'existe qu'en hiver et se brise à la fonte."
+  },
+  "nom_conserve": true,
+  "note": "à réconcilier avec l'Atlas (phœnix primordiaux)"
+ },
+ {
+  "id": "pho03",
+  "nouveau_nom": "Naturak",
+  "sous_titre": "La Forêt qui Marche",
+  "groupe": "phoenix",
+  "rang": "◆◆◆ Élite",
+  "cr": 10,
+  "role_jeu": "boss",
+  "taille_garrot_m": 1.0,
+  "hauteur_sprite_px": 37,
+  "hors_format_sprite": false,
+  "element_principal": "Terre",
+  "element_secondaire": "Éther",
+  "etats_infliges": [],
+  "lignee_draconique": true,
+  "terrain": "Forêts primaires anciennes, zones à canopée totale, forêts à forte biodiversité mycorrhizienne",
+  "apparence": {
+   "silhouette": "Oiseau trapu aux ailes en frondes de fougère, queue en branches souples. Perché, il ressemble à une souche vivante couverte de feuilles.",
+   "trait_distinctif": "Des fleurs et des champignons poussent sur son dos et sa nuque et changent avec les saisons.",
+   "trait_cle": "dos-jardin-vivant",
+   "couleurs": [
+    "vert mousse",
+    "brun écorce",
+    "jaune pollen"
+   ],
+   "rappel_leger": "Grand oiseau mythique de forêt et de croissance.",
+   "difference_avec_ancienne": "Fiche d'origine sans apparence détaillée : silhouette et palette établies ici."
+  },
+  "description_courte": "Phœnix des forêts primaires, il renaît en graine puis en rejeton. Il vit en symbiose avec les réseaux de champignons. Rare, jamais chassé : tuer un naturak flétrit la clairière.",
+  "familier": {
+   "possible": true,
+   "lien_max": "symbiotique",
+   "difficulte_dd": null,
+   "roles": [
+    "soin",
+    "recolte"
+   ],
+   "aide_combat": "Lié par le lien sylvain, il fait pousser lierres et racines pour entraver la proie et soigne le chasseur par spores apaisantes. Il peut être mis K.O. (flétrissement) puis se redresse.",
+   "transport": null,
+   "capacite_transport": null,
+   "age_ideal": "Lien sylvain, à l'éclosion",
+   "limite": "Aucun dressage possible : le lien sylvain ne tient qu'en forêt ancienne et s'éteint loin de la canopée."
+  },
+  "nom_conserve": true,
+  "note": "à réconcilier avec l'Atlas (phœnix primordiaux)"
+ },
+ {
+  "id": "pho04",
+  "nouveau_nom": "Ombrak",
+  "sous_titre": "Le Cycle de la Nuit",
+  "groupe": "phoenix",
+  "rang": "◆◆◆ Élite",
+  "cr": 11,
+  "role_jeu": "boss",
+  "taille_garrot_m": 0.9,
+  "hauteur_sprite_px": 33,
+  "hors_format_sprite": false,
+  "element_principal": "Ombre",
+  "element_secondaire": null,
+  "etats_infliges": [],
+  "lignee_draconique": true,
+  "terrain": "Zones de grottes profondes, abysses souterrains, forêts à obscurité quasi-totale",
+  "apparence": {
+   "silhouette": "Petit phœnix sombre à tête allongée et bec fin, ailes courtes et rondes, queue en rubans flous. En vol il n'est qu'une tache sans bords.",
+   "trait_distinctif": "Son corps n'a pas de contours nets : des volutes d'ombre s'en détachent comme de la fumée noire, et deux yeux pâles flottent.",
+   "trait_cle": "corps-fumee-sans-contour",
+   "couleurs": [
+    "noir encre",
+    "violet nuit",
+    "gris cendre"
+   ],
+   "rappel_leger": "Grand oiseau mythique de nuit et d'abysses.",
+   "difference_avec_ancienne": "Fiche d'origine sans apparence détaillée : silhouette et palette établies ici."
+  },
+  "description_courte": "Le plus rare et le plus discret des phœnix, il vit dans les grottes sans lumière. Il meurt et renaît à chaque lune noire. Peu de chasseurs peuvent dire l'avoir vu.",
+  "familier": {
+   "possible": true,
+   "lien_max": "symbiotique",
+   "difficulte_dd": null,
+   "roles": [
+    "eclaireur",
+    "signal"
+   ],
+   "aide_combat": "Lié par le lien d'ombre, il aveugle la proie dans l'obscurité et guide le chasseur dans les grottes. Il peut être mis K.O. (dissipation) puis se reforme dans l'ombre.",
+   "transport": null,
+   "capacite_transport": null,
+   "age_ideal": "Lien d'ombre, à l'éclosion",
+   "limite": "Aucun dressage possible : le lien d'ombre est le plus rare et le plus complexe, et il lâche à la première lumière vive."
+  },
+  "nom_conserve": true,
+  "note": "à réconcilier avec l'Atlas (phœnix primordiaux)"
+ }
+]
