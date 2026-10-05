@@ -1,5 +1,4 @@
 # Écoles, Postures, Métiers et arbres de compétences : création et progression des quatre personnages
-
 Document de conception du Jeu B (Android, Godot 4, 2D pixel art). Rédigé le 2026-10-05. Domaine : création de personnage, Écoles, Postures, Métiers, arbres de compétences, progression, gestion des quatre personnages.
 
 Sources lues : Livre I ch. 2, 3, 4 (création, Écoles, Métiers, Posture, Compétences) ; Livre II ch. 3 (jalons) et §4 des codes régionaux (20 régions) ; Livre VI en entier (14 + 8 + 7 Écoles, Postures, modes de Mana, secrètes, index) ; Livre VII ch. 1-2 et fiches Chasseur-Pisteur, Dépeceur, Éleveur, Dresseur, Trappeur (tables 1-30 relues) ; Livre VIII ch. 1-3, 5-6 ; Livre IX ch. 3 et 5, tableau des 14 armes. Les 25 autres fiches de Métiers n'ont pas été relues ligne à ligne (balayage de structure par l'audit précédent).
@@ -17,9 +16,7 @@ Statut : proposition, rien n'est validé par krunt. Tous les chiffres de jeu son
 ---
 
 ## 1. Ce que disent les livres
-
 ### 1.1 Les trois couches (Livre I ch. 3, Livre VI ch. 1)
-
 | Couche | Question | Contenu | Progression dans les livres |
 |---|---|---|---|
 | École | Comment ? | 5 rangs, 1 Technique par rang, mode de récupération du Mana, tabou | Rang I à V, jamais « par points » : moment narratif fort |
@@ -29,7 +26,6 @@ Statut : proposition, rien n'est validé par krunt. Tous les chiffres de jeu son
 Phrase du Livre I ch. 3 §5 à retenir : « pas un système de classes, pas un arbre de talents, mais trois questions distinctes ». Un arbre de compétences est donc une **traduction** (nécessaire pour un jeu vidéo), pas une fidélité au livre. Voir §2.
 
 ### 1.2 Création de personnage (Livre I ch. 3 §7, 10 étapes)
-
 | Étape | Règle | Chiffres |
 |---|---|---|
 | 1 | La phrase (qui est-il, quelle tension) | texte libre |
@@ -48,34 +44,20 @@ Livre VIII ch. 1 ajoute : **6 Points d'Avantage (PA)** et **1 Handicap Majeur ob
 Les attributs secondaires sont dérivés : Défense = AGI+END, Initiative = AGI+VOL, Précision = AGI+ESP, Résistance mentale = VOL+ESP, Autorité sociale = PRE+Honneur. Les Compétences vont de 0 à 5 (21 Compétences listées).
 
 ### 1.3 Les 20 régions d'origine (Livre II ch. 4 §4, tableau d20 ; Livre IX ch. 3 pour les extrêmes)
-
 | d20 | Région | Avantage principal | Contrainte principale |
 |---|---|---|---|
-| 1 | Cœur Impérial | Avantage vs autorités, +1 Réputation | Désobéissance publique = −1 Honneur |
-| 2 | Provinces Nobles | +1 Statut, cercles nobles | Obligations familiales |
 | 3 | Cités Libres Marchandes | Avantage négociation | Dettes contraignantes |
 | 4 | Hautes Terres Claniques | **+1 VOL**, résiste à la peur clanique | Vendettas de clan |
-| 5 | Forêts Totémiques | Bonus survie/traque | −1 social en ville |
 | 6 | Îles des Serments | **+1 END**, résilience après échec critique | Refuser un défi = −1 Honneur |
-| 7 | Marches Frontalières | Avantage en terrain hostile | Réputation instable ailleurs |
-| 8 | Terres Ravagées | Résistance corruption | Marques permanentes |
-| 9 | Déserts Rouges | Survie extrême | −1 social urbain, impulsivité punie |
 | 10 | Sanctuaires Éthériques | Avantage rituels | Dogmes stricts |
-| 11 | Cités Astrales | Savoir rare | −1 pratique |
-| 12 | Failles du Monde | Avantage magie risquée | Corruption progressive |
 | 13 | Royaumes Marins | Avantage aquatique | −1 hors mer après 2 sessions |
-| 14 | Archipels Nomades | +1 mobilité, esquive | Autorité rejetée |
-| 15 | Royaumes de l'Ombre | Avantage discrétion | Réputation négative (bloc Ordre) |
-| 16 | Cités Voilées | Avantage tromperie | Pas de liens sincères officiels |
-| 17 | Théocraties Sacrées | Protection corruption | Surveillance si transgression |
-| 18 | Terres des Prophètes | Avantage intuition | Destin imposé |
-| 19 | Confluences | Bonus polyvalent | Identité floue |
 | 20 | Terres Sans Nom | Liberté totale | Aucun réseau |
+
+Les 14 autres régions suivent le même format (avantage narratif, contrainte, structure de rattachement) ; table complète : Livre II ch. 4 §4.
 
 Constat chiffré : seules **deux** régions (4 et 6) donnent un bonus d'attribut explicite ; les 18 autres sont des « avantages » narratifs sans valeur numérique. Livre IX ajoute pour chaque région un « Avantage Cheater » et un « Malus Inhumain » (ex. Îles des Serments : « L'Épreuve Suprême », transformer un échec critique en réussite héroïque, contre « Toujours Plus Haut », chaque réussite impose une épreuve plus dangereuse), réservés aux campagnes avancées. Le Livre I annonce une table d'origine « §4 de ce chapitre » qui n'existe pas (le §4 est la Posture) : la table réelle est dans le Livre II.
 
 ### 1.4 Les Écoles (Livre VI)
-
 **Inventaire** : 14 Martiales (une arme, une philosophie, un tabou), 8 Mystiques (un élément ou domaine, des interdits doctrinaux), 7 Techniques (savoirs pratiques, rangs I-V avec « capacité clé », pas de Techniques de combat), 4 domaines Interdits (Nécrotechnie, Manipulation mémorielle, Corruption dirigée, Pactes abyssaux : jamais à la création, jalon narratif obligatoire), 15 Techniques Secrètes en 5 familles (hors rang, pas plus puissantes qu un rang V, découvertes).
 
 **Rangs et coûts** : une Technique par rang. Rangs I, II, III : 2 Mana ; IV : 3 Mana ; V : 4 ou 5 Mana. Titres : Aspirant, Initié, Disciple, Maître, Pilier. La table du Livre VI §13.6 donne le Mana typique : rang I 6-8, II 8-10, III 10-12, IV 12-15, V 15+.
@@ -117,7 +99,6 @@ Constat chiffré : seules **deux** régions (4 et 6) donnent un bonus d'attribut
 **Compatibilités** : « une école = une incompatibilité » (une seule École principale ; deux Écoles martiales sont incompatibles ; une École mystique peut coexister avec une martiale). Changer d'École est une rupture doctrinale avec perte d'Honneur. Compatibilité conseillée Posture x École au Livre VI §13.5.
 
 ### 1.5 Les Postures (Livre VI ch. 4-7, Livre I ch. 3 §4)
-
 **Quatre naturelles**, 4 Techniques chacune, toutes à **2 Endurance** :
 
 | Posture | Rôle | Techniques |
@@ -134,7 +115,6 @@ Constat chiffré : seules **deux** régions (4 et 6) donnent un bonus d'attribut
 **Questionnaire** : 5 questions (menace, victoire, sacrifice, ennemi plus fort, question ouverte du MJ), chaque réponse pointe vers une Posture (tableau Livre VI §4.1).
 
 ### 1.6 Les 30 Métiers (Livre VII)
-
 | Bloc | Métiers |
 |---|---|
 | 1. Artisans & Techniques | Forgeron d'Armures, Forgeron d'Armes, Artisan d'Éther, Runiste/Glyphiste, Alchimiste, Herboriste/Botaniste |
@@ -146,13 +126,11 @@ Constat chiffré : seules **deux** régions (4 et 6) donnent un bonus d'attribut
 Chaque fiche contient : statut social par tranche de 5 niveaux, synergies naturelles, « métier en tension », 5 variantes culturelles, un tableau des niveaux 1 à 30 (compétence, outil/condition, **DD du test**, capacité débloquée) et **6 paliers de signature** (5, 10, 15, 20, 25, 30). Les DD vont de 8 (niveau 1) à 32 (niveau 30) ; ils baissent aux niveaux 6 (11) et 17 (18) dans toutes les fiches. XP cumulée (Livre IX ch. 5, **identique pour les 30 métiers**) : 700 (niv. 5), 3 200 (10), 9 200 (15), 20 200 (20), 39 200 (25), 72 000 (30). Règle : 2 Métiers, secondaire plus lent. Synergies recommandées (Livre VII ch. 2) : Forgeron d'Armes + Chasseur-Pisteur, Forgeron d'Armures + Dépeceur, Alchimiste + Herboriste, Cartographe + Maître des Montures, Chasseur-Pisteur + Trappeur Élémentaire, Instructeur + tout (progression plus lente), etc. Combinaisons instables : Occultiste + Médecin, Mage Noir + Mage Blanc, Espion + Sentinelle.
 
 ### 1.7 Jalons (Livre II ch. 3)
-
 Cinq types : Métier, Compétence, Posture, Bastion, Honneur. Un jalon se déclenche quand le monde **voit et reconnaît** un acte. Cadence indicative pour 4 joueurs : 2 à 4 jalons individuels et 1 collectif par arc de 3 à 5 sessions. La Trinité Acte / Trace / Conséquence est la grille de lecture. Il n'existe **pas de jalon d'École** alors que le Livre I exige un « moment narratif fort » pour chaque rang : lacune comblée au §6.
 
 ---
 
 ## 2. Diagnostic critique : ce qu'il faut couper, fusionner, ajouter
-
 **Verdict en trois lignes.** Le livre décrit une identité à trois couches, riche et cohérente, mais **sa progression est faite pour un maître de jeu humain** (« le MJ valide »). Un jeu vidéo n'a pas de MJ : il lui faut des déclencheurs mesurables. Et 29 Écoles + 30 Métiers x 30 niveaux représentent environ 1 500 points de contenu pour un développeur seul ; la démo n'en peut porter que 1 %.
 
 **Ce que les chiffres disent du volume :**
@@ -191,9 +169,7 @@ Cinq types : Métier, Compétence, Posture, Bastion, Honneur. Un jalon se décle
 ---
 
 ## 3. Traduction en mécaniques de jeu vidéo
-
 ### 3.1 Principes de conversion (valables pour tout le document)
-
 | Concept du livre | Dans le jeu | Raison |
 |---|---|---|
 | 1 round | **4 secondes** réelles | durée d'un enchaînement lisible ; à tester |
@@ -207,7 +183,6 @@ Cinq types : Métier, Compétence, Posture, Bastion, Honneur. Un jalon se décle
 | Distances | 1 m = 32 px (héros de 64 px = 2 m environ) | à confirmer avec le domaine combat |
 
 ### 3.2 Jauges (Livre I ch. 2)
-
 | Jauge | Formule | Dans le jeu |
 |---|---|---|
 | Vitalité | 4 + END (7 à 16 cases) | segments de cœur ; la case vide « cicatrice » : à 0, hors de combat 6 s puis relevé par allié, sinon échec de chasse |
@@ -216,7 +191,6 @@ Cinq types : Métier, Compétence, Posture, Bastion, Honneur. Un jalon se décle
 | Honneur | 0-10 | jamais affiché en chiffre (le livre le cache au joueur) : jauge de 5 états (Paria, Suspect, Reconnu, Estimé, Légendaire) visible en écran Clan |
 
 ### 3.3 Attributs : effet en jeu (hypothèse à tester)
-
 | Attribut | Effet |
 |---|---|
 | FOR | dégâts de mêlée x(1 + 0,04 x (FOR − 6)) ; charge portable |
@@ -227,7 +201,6 @@ Cinq types : Métier, Compétence, Posture, Bastion, Honneur. Un jalon se décle
 | PRE | options de dialogue et gains d'Honneur au Récit ; Autorité sociale |
 
 ### 3.4 Les modes de Mana en temps réel
-
 | Mode | Règle de jeu | Régulateur anti-abus | Public visé |
 |---|---|---|---|
 | Flux | +1 Mana par touche (une fois par 6 s au maximum), +1 par esquive/dash de 96 px ou plus, +2 par esquive parfaite ou parade réussie | plafond environ 12 Mana/min | joueur mobile, agressif |
@@ -238,24 +211,19 @@ Cinq types : Métier, Compétence, Posture, Bastion, Honneur. Un jalon se décle
 Revenu moyen visé : environ 8 Mana/min en combat actif (hors Rituel : réservoir x1,25 en compensation). La règle « à 0 Mana, Technique à crédit en Endurance » est conservée parce qu'elle donne un choix tendu au lieu d'un bouton grisé.
 
 ### 3.5 Postures en jeu
-
 Les Techniques de Posture (2 Endurance) sont des **boutons de rôle** avec recharge de 6 s ; elles s'insèrent dans le même sélecteur que les Techniques d'École (§5.7). Traductions principales :
 
 | Posture | Technique | Effet jeu (à tester) |
 |---|---|---|
 | Loup | Appel de Meute | cible d'allié : Ouverture 3 s ; en solo, le partenaire IA ou le familier reçoit l'Ouverture |
-| Loup | Sacrifice de Meute | −1,5 case de Vitalité, tous alliés Avantage 4 s |
 | Faucon | Lecture du Terrain | affiche 4 s la barre de Vitalité de la créature, ses états et sa prochaine attaque télégraphiée (+0,6 s de préavis) |
-| Faucon | Prédiction | choisir parmi 3 icônes l'attaque suivante : si juste, groupe Avantage 4 s |
 | Ours | Provocation | 4 s, la créature cible l'Ours ; alliés : Ouverture |
 | Ours | Interposition | redirige le prochain coup reçu par l'allié désigné (dégâts sur l'Ours) |
 | Félin | Frappe Décisive (Posture) | x2 dégâts du prochain coup ; si raté : subit 50 % des dégâts qu'il aurait infligés |
-| Félin | Patience du Prédateur | 4 s sans attaquer : prochaine touche Avantage et ignorant Désavantage |
 
 **Résonance** : après un changement de Posture (jalon), un emplacement « Résonance » est créé ; la condition narrative devient un **contexte détectable** (liste de 3 contextes par Technique, ex. Interposition : un allié sous 30 % de Vitalité est ciblé). Une fois par chasse, gratuite. La règle du livre « le MJ juge » est impossible : un contexte par Technique est le prix à payer.
 
 ### 3.6 Jets de Métier : du d20 au mini-jeu
-
 Le test d20 + attribut + Compétence contre DD devient une **marge** : m = B + 10 − DD, avec B = attribut + Compétence + niveau de métier / 3 (invention, à tester) :
 
 | Marge | État du test | Ce qui se passe |
@@ -270,9 +238,7 @@ Les DD des fiches (8 à 32) deviennent les **difficultés des cibles** (une trac
 ---
 
 ## 4. Création de personnage : écrans et prologue jouable
-
 ### 4.1 Principe
-
 Quatre personnages écrits d'une seule histoire, jouables chacun par un joueur réel. Il ne faut donc **ni d20 d'origine ni création libre complète dans la démo**. Deux parcours :
 
 - **Parcours Histoire** (par défaut, jeu) : le personnage est prédéfini ; le joueur prend des décisions qui comptent (Posture, Handicap, Métier secondaire, répartition de 12 points d'attributs libres autour d'un gabarit).
@@ -281,7 +247,6 @@ Quatre personnages écrits d'une seule histoire, jouables chacun par un joueur r
 Règle : le même schéma de données (§5.8) pour les deux.
 
 ### 4.2 Proposition provisoire des quatre personnages (à valider par krunt)
-
 Les quatre personnages n'existent pas encore dans les documents (seul un sprite de chasseur à grande lame est défini dans `docs/prompts-personnages.md`). Cette répartition couvre les 4 Postures (4 rôles de coopération), 4 modes de Mana distincts et les métiers de la démo.
 
 | | Perso 1 | Perso 2 | Perso 3 | Perso 4 |
@@ -297,7 +262,6 @@ Les quatre personnages n'existent pas encore dans les documents (seul un sprite 
 Note : Posture et École de tous les personnages se croisent (Faucon + Marées Liées : « tension créative », le livre ne la recommande pas, ce qui en fait un bon personnage). Le Félin et Coup Final partagent un nom de Technique (« Frappe Décisive ») : renommer l'une dans les données (`cf_t5` / `pos_felin_t1`) pour éviter la collision.
 
 ### 4.3 Flux de création (écrans)
-
 | # | Écran | Ce que le joueur fait | Durée visée |
 |---|---|---|---|
 | C1 | Choix du personnage | 4 cartes (portrait 64 px agrandi, phrase d'accroche, rôle), indication des places coop prises | 20 s |
@@ -314,7 +278,6 @@ Note : Posture et École de tous les personnages se croisent (Faucon + Marées L
 Total démo : environ 4 minutes de menus, ce qui est acceptable parce que le prologue (4.4) porte le reste. Si cela dépasse 5 minutes, couper C3 et C5 (valeurs fixées).
 
 ### 4.4 Le prologue jouable (questionnaire de Posture en scènes)
-
 Le questionnaire en 5 questions (Livre I §4.3) devient **4 vignettes jouées + 1 choix narratif** (la question du MJ), au cours d'un prologue de 8 à 12 minutes par personnage, mêlant les trois modes de jeu. Aucune étiquette de Posture n'apparaît : le jeu note les comportements.
 
 | Question du livre | Vignette de jeu | Ce que le jeu mesure | Loup / Faucon / Ours / Félin |
@@ -330,32 +293,19 @@ Règle de décision : chaque vignette ajoute 1 point à une Posture, la question
 **Un prologue par personnage** (4 prologues de 8 à 12 minutes) est un **gros coût de contenu** : 40 minutes de jeu à produire. Version économique : un prologue commun de 15 minutes (une chasse de nécessité) où chaque joueur traverse les 4 vignettes avec son personnage, avec 3 lignes de dialogue spécifiques par personnage. Recommandation : commencer par la version économique.
 
 ### 4.5 Avantages et Handicaps : catalogue minimal jouable
-
 | Type | Nom (Livre VIII) | Règle de jeu mesurable |
 |---|---|---|
 | Av. Majeur 3 PA | Maîtrise de Combat | +1 attaque ou défense (fixe), 1 manœuvre exclusive (une variante de Technique) |
 | Av. Majeur 3 PA | Présence Martiale | 1re attaque ennemie du combat : Désavantage sur les ◆ ; immunité peur 1 fois par chasse |
-| Av. Majeur 3 PA | Corps Endurci | coups ≤ 2 dégâts ignorés hors chasse ; Épuisé retiré 1 fois par chasse |
-| Av. Majeur 3 PA | Nom Respecté | +2 aux dialogues avec autorités ; condition Honneur ≥ 5, suspendu à Honneur ≤ 0 |
-| Av. Mineur 1 PA | Réflexes Affûtés | +1 Initiative ; Posture Défensive (+1 défense si immobile) |
 | Hand. Majeur +3 PA | Paria | −2 aux dialogues institutionnels ; certaines boutiques fermées |
 | Hand. Majeur +3 PA | Dette de Sang | une quête-dette par acte, refus = conséquence grave au journal |
-| Hand. Mineur +1 PA | Attachement Exploitable | un PNJ est pris en otage ou menacé dans une quête par acte |
 
 Le Handicap devient un **événement déclenché par le journal** (ex. « Dette de Sang : à la fin de chaque acte, ajouter la quête-dette »), ce qui remplace « le MJ active un Handicap par session ». Le catalogue complet de 40 est à réduire à 22 (12 + 10) pour la v1.
-
-### 4.6 Origines et axes culturels dans le jeu
-
-- Origine = **valeurs de départ** (région, +1 attribut pour 4 et 6, Honneur ±1) et **table de réactions** des PNJ de l'histoire (3 variantes de dialogue au plus par scène clé).
-- Axes culturels = **8 à 10 variables de dialogue** (Combat Devoir/Nécessité/Expression change les gains d'Honneur au Récit : fuir un combat = −1 pour Devoir, 0 pour Nécessité).
-- Mettre l'origine en **choix** (pas de d20) : le hasard est hostile à un récit à quatre personnages écrits.
 
 ---
 
 ## 5. Système d'arbres de compétences
-
 ### 5.1 Architecture générale
-
 Un personnage possède **trois familles d'arbres** (une par couche d'identité) :
 
 | Arbre | Combien | Contenu | Nœuds typiques |
@@ -367,7 +317,6 @@ Un personnage possède **trois familles d'arbres** (une par couche d'identité) 
 Un nœud est de l'un des types : `technique` (canonique, issue d'un livre), `variante` (modifie une Technique, mutuellement exclusive par paire), `passif`, `capacite` (niveau de métier), `signature` (palier 5/10/15/20/25/30), `sommet` (capstone), `porte` (condition narrative sans effet).
 
 ### 5.2 Trois sources de déblocage, une seule monnaie
-
 | Source | Déblocage | Coût |
 |---|---|---|
 | **Rang d'École** (I à V) | les Techniques canoniques s'obtiennent **gratuitement** au rang, jamais achetées (fidélité au livre : « 1 par rang ») | 0 PS, mais **jalon d'École** requis |
@@ -377,7 +326,6 @@ Un nœud est de l'un des types : `technique` (canonique, issue d'un livre), `var
 **Gain de PS** : +1 par niveau de Métier principal (de 2 à 30 : 29 PS), +1 par **deux** niveaux du secondaire (14 PS), +2 par jalon (Rang d'École, Posture, Honneur ; environ 12 jalons = 24 PS). Total d'une campagne complète : environ **67 PS**, contre environ 11 PS (École, exemple A) + 14 PS (École mystique, exemple B) + 12 PS (Métier de chasse, exemple C) à tout acheter dans une branche : un joueur ne remplit jamais tout, il choisit.
 
 ### 5.3 Prérequis et verrous
-
 - `requiert` : liste de nœuds (ET). Au plus **2** prérequis par nœud (lisibilité sur 360 px).
 - `requiert_au_moins_un` : OU (utilisé pour les variantes d'un même rang).
 - `porte` : `{type: "rang_ecole"|"niveau_metier"|"jalon"|"honneur"|"posture"|"metier_secondaire"|"objet", valeur}`.
@@ -385,7 +333,6 @@ Un nœud est de l'un des types : `technique` (canonique, issue d'un livre), `var
 - Les **interdits doctrinaux** sont des `interdits_effets` de l'École (liste d'étiquettes) : un nœud de l'arbre ne peut pas porter un effet dont l'étiquette y figure. Exemple Marées Liées : `["degats_directs","assechement"]` ; Cendres Vives : `["soin_direct"]`. Un script de validation (comme `outils/valider_monstres.py`) rejette un nœud en infraction. C'est l'implémentation la moins chère d'un interdit.
 
 ### 5.4 Le tabou comme règle de jeu (Livre VI : « un tabou par École »)
-
 Chaque École porte un **tabou** avec un détecteur, un compteur et une sanction, tous mesurables :
 
 | Champ | Valeur générique |
@@ -397,7 +344,6 @@ Chaque École porte un **tabou** avec un détecteur, un compteur et une sanction
 | récompense | **épreuve du rang V** : réussir une chasse de l'École sans aucune violation débloque le sommet de l'arbre |
 
 ### 5.5 Respec
-
 | Quoi | Règle |
 |---|---|
 | Techniques canoniques, portes, rangs, niveaux | **non remboursables** (c'est de l'histoire, pas un choix de build) |
@@ -407,21 +353,17 @@ Chaque École porte un **tabou** avec un détecteur, un compteur et une sanction
 | Changer de Posture | jalon narratif uniquement ; crée une Résonance (§3.5) |
 
 ### 5.6 Limites tactiles (360 px de haut)
-
 - Une barre d'action de **7 touches maximum** en chasse : Attaque, Esquive, 3 emplacements de Techniques (École ou Posture, au choix), Objet, Ordre au familier.
 - Le joueur équipe **3 Techniques** (4 au rang IV) parmi toutes celles qu'il possède ; l'équipement se fait au Camp et au prologue de chasse, pas pendant l'action.
 - Cibles tactiles **44 x 44 px minimum** (environ 9 mm sur un téléphone de 7 cm de haut).
 - Écran d'arbre : défilement vertical, **5 colonnes** (les 5 rangs) x **3 lignes** (branches) ; pas de pincement ni de glisser précis.
 - Achat d'un nœud : **appui long de 0,6 s** pour confirmer (pas de double tape accidentel) ; détail du nœud en bas, jamais en fenêtre flottante.
 - Une information, une couleur : disponible (couleur pleine), verrouillé par porte (cadenas + condition), verrouillé par PS manquants (grisé + coût), exclu (rayé).
-- Aucun nœud ne demande de lire plus de **12 mots** en jeu : le texte long vit dans le Codex.
 
 ### 5.7 Sélecteur de Techniques en chasse
-
 L1, L2, L3 : trois boutons ronds de 56 px dans la zone pouce droit, au-dessus d'Attaque ; **appui bref** = utilisation, **appui maintenu** = version « chargée » si la Technique en a une (Charge Profonde). Chaque bouton montre : icône, coût (point bleu = Mana, point jaune = Endurance), anneau de recharge. Si Mana insuffisant : bouton orange avec « à crédit ».
 
 ### 5.8 Schéma de données CharForge (JSON)
-
 Un fichier par arbre, versionné. Clés en français, `snake_case`, comme les fiches `donnees/monstres/*.json`.
 
 ```json
@@ -485,7 +427,6 @@ Champs obligatoires d'un nœud : `id`, `type`, `titre`, `requiert`, `cout_ps`, `
 ```
 
 ### 5.9 Exemple A : École martiale **Coup Final** (Livre VI ch. 8 École 1), chiffré
-
 Grande Lame, d10, mode **Ancrage**, tabou « Frapper sans intention de conclure ». Mana max : 6, 8, 10, 12, 15 aux rangs I à V.
 
 **Tronc canonique (gratuit au rang, jalon d'École requis)** :
@@ -516,7 +457,6 @@ Mode Ancrage : +1 Mana par 4 s immobile, +2 par garde tenue 4 s, +1 par coup abs
 **Totaux** : 5 canoniques + 8 branches = 13 nœuds ; 14 PS pour tout acheter, 12 PS sans les exclusifs doublons (un seul de cf_v2a/b et cf_v4a/b : 2 + 2 + 1 + 1 + 2 + 3 = 11 PS). Un joueur de rang V a donc dépensé environ 11 PS sur environ 67 PS.
 
 ### 5.10 Exemple B : École mystique **Marées Liées** (Livre VI ch. 9 École 1), chiffré
-
 Eau, mode **Rituel**, interdits « destruction brutale, assèchement volontaire » : `interdits_effets: ["degats_directs","assechement"]`, donc **aucune Technique de cette École n'inflige de dégâts** : elle contrôle, protège, ouvre des passages. C'est la raison pour laquelle elle sert aussi dans les **quêtes de plateforme** (ponts d'eau).
 
 **Mana** : 6, 8, 10, 12, 15 (+25 % de réservoir en compensation : 8, 10, 12, 15, 19). **Rituel** : remplissage complet en 6 s immobile à une **Halte** ; +1 Mana par plein de gourde à un point d'eau (3/4 et plateforme) ; aucun gain en combat.
@@ -535,7 +475,7 @@ Eau, mode **Rituel**, interdits « destruction brutale, assèchement volontaire 
 |---|---|---|---|---|---|
 | ml_m1 | Courants | Zone élargie | ml_t1 | 1 | rayon +25 % |
 | ml_m2 | Courants | Lit durable | ml_t1 | 1 | durée +2 s |
-| ml_m3 | Courants | Eau claire | ml_t3, ml_m1 | 2 | la zone retire 1 état négatif (poison, brûlure) aux alliés/s |
+| ml_m3 | Courants | Eau claire | ml_t3, ml_m1 | 2 | la zone retire 1 état négatif (poison, brûlure) aux alliés dans la zone |
 | ml_f1 | Formes | Barrière épaisse | ml_t2 | 1 | barrière absorbe 2 coups |
 | ml_f2 | Formes | Pont long | ml_t2 | 1 | pont 192 px |
 | ml_f3 | Formes | Jet d'étourdissement | ml_t2, ml_t3 | 2 | le jet applique Déséquilibré 1,5 s |
@@ -546,7 +486,6 @@ Eau, mode **Rituel**, interdits « destruction brutale, assèchement volontaire 
 **Totaux** : 5 canoniques + 9 branches = 14 nœuds ; 14 PS pour tout acheter. Tabou : l'interdit est atteint **par conception** (aucun effet de dégât ne peut être ajouté) : coût d'implémentation nul, et c'est le bon modèle pour les 8 Écoles Mystiques.
 
 ### 5.11 Exemple C : Métier de chasse **Chasseur-Pisteur** (Livre VII bloc 2), chiffré
-
 **Tronc : niveaux 1 à 10 (capacités du livre, effets de jeu proposés, XP de jeu cumulée, voir §6.1)** :
 
 | Niv. | XP cumulée jeu | DD (livre) | Capacité du livre | Effet de jeu (à tester) |
@@ -568,11 +507,11 @@ Tranche 11-15 (DD 17 à 20) : Créatures rares, lecture multi-indices, traque si
 
 | Id | Branche | Nom | Requiert | PS | Effet |
 |---|---|---|---|---|---|
-| cp_var | Variante | Forestier (pièges naturels, discrétion) | niv. 5 | 2 | −15 % de détection ; pièges de végétation sans consommable |
-| cp_var | Variante | Désertique (traces minérales) | niv. 5 | 2 | lit les traces sur roche/sable ; |
-| cp_var | Variante | Montagnard (traque verticale) | niv. 5 | 2 | traces en plateforme verticale ; Endurance +1 |
-| cp_var | Variante | Marécageux (pistage olfactif et sonore) | niv. 5 | 2 | détection sonore 360° dans 160 px |
-| cp_var | Variante | Nocturne | niv. 5 | 2 | vision de nuit, traces visibles dans l'obscurité |
+| cp_var_forestier | Variante | Forestier (pièges naturels, discrétion) | niv. 5 | 2 | −15 % de détection ; pièges de végétation sans consommable |
+| cp_var_desertique | Variante | Désertique (traces minérales) | niv. 5 | 2 | lit les traces sur roche et sable |
+| cp_var_montagnard | Variante | Montagnard (traque verticale) | niv. 5 | 2 | traces en plateforme verticale ; Endurance +1 |
+| cp_var_marecageux | Variante | Marécageux (pistage olfactif et sonore) | niv. 5 | 2 | détection sonore 360° dans 160 px |
+| cp_var_nocturne | Variante | Nocturne | niv. 5 | 2 | vision de nuit, traces visibles dans l'obscurité |
 | cp_b1 | Pistes | Lecteur patient | niv. 3 | 1 | la fenêtre de lecture d'indice s'élargit de 0,3 s |
 | cp_b2 | Pistes | Œil du chasseur | cp_b1, niv. 5 | 2 | le 2e Jeton d'une chasse est gratuit |
 | cp_b3 | Pistes | Contre-vent | niv. 6 | 1 | l'odeur du joueur est masquée à 60 % |
@@ -583,27 +522,10 @@ Les variantes culturelles sont **exclusives entre elles** (une par personnage, c
 
 **Dépeceur (même structure, niveaux 1 à 10, capacités du livre)** : 1 Cuir brut ; 2 Viande exploitable ; 3 Trophées simples ; 4 Griffes, dents ; **5 Peau Maîtrisée** (analyse anatomique +10 %) ; 6 Cuirs résistants ; 7 Catalyseurs (venins) ; 8 Plaques organiques ; 9 Matériaux durables (conservation +15 %) ; **10 Extraction Signature**. Dans le jeu, c'est un **mini-jeu de dépeçage** (lignes de coupe à tracer au doigt sur la silhouette de la créature, tolérance selon marge, voir §3.6) : chaque capacité ouvre un matériau ou une qualité (Standard, Supérieure, Rare). C'est la meilleure interface tactile du Métier : tracer = intuitif.
 
-### 5.12 Exemple D (court) : arbre de Posture **Ours**
-
-| Id | Nœud | Source | Porte | PS |
-|---|---|---|---|---|
-| po_t1 | Provocation | Livre VI ch. 4 | création | 0 |
-| po_t2 | Ancrage | idem | création | 0 |
-| po_t3 | Interposition | idem | jalon de Posture 1 (premier sacrifice public) | 0 |
-| po_t4 | Mur de Chair | idem | jalon de Posture 2 | 0 |
-| po_p1 | Tenir la ligne (−1 case de dégâts quand planté) | ajout | po_t2 | 1 |
-| po_p2 | Écho de la Meute (Provocation donne une Ouverture à 2 alliés) | ajout | po_t1 + po_p1 | 2 |
-| po_l | Porte Légendaire : Tortue Noire / Dragon Azur | Livre VI ch. 5 | Honneur ≥ 7 + jalon majeur | porte |
-| po_u | emplacement de Résonance (après un changement de Posture) | Livre VI ch. 7 | jalon de Posture | porte |
-
-Les 4 Techniques naturelles sont **toutes accordées** dans la démo (il n'y en a que quatre) ; en v1 les 2 premières à la création, les 2 suivantes par jalon de Posture, pour éviter qu un jeu court n'expose tout.
-
 ---
 
 ## 6. Courbe de progression
-
 ### 6.1 XP par Métier (niveaux 1 à 30, plafond 30)
-
 XP de livre (Livre IX ch. 5, identique aux 30 métiers) x **0,1** pour le jeu. Les niveaux intermédiaires suivent une courbe croissante par tranche (à tester) :
 
 | Niveau | XP jeu | Niveau | XP jeu | Niveau | XP jeu |
@@ -633,7 +555,6 @@ XP de livre (Livre IX ch. 5, identique aux 30 métiers) x **0,1** pour le jeu. L
 | Jalon de Retour au Clan (Récit) | +25 % de l'XP de la chasse, tous métiers actifs | encourage le Récit |
 
 ### 6.2 Rythme visé (à tester)
-
 Hypothèse : une activité = 25 minutes de jeu (chasse) ou 15 minutes (quête de plateforme) ; campagne complète = 60 à 80 heures.
 
 | Palier | XP à gagner dans la tranche | CR typique | XP par chasse | Chasses environ | Niveau atteint à environ |
@@ -648,7 +569,6 @@ Hypothèse : une activité = 25 minutes de jeu (chasse) ou 15 minutes (quête de
 Le niveau 30 du métier principal est un **objectif de fin de jeu / après-jeu** ; le métier secondaire s'arrête vers 15-20. Le « un personnage par campagne » du brief est lu ainsi : la **Posture Suprême** (Dragon Ancien) n'est atteignable que par **un seul** des quatre personnages (Livre VI ch. 6), le niveau 30 de métier est atteignable par tous.
 
 ### 6.3 Jalons narratifs : paliers 5, 10, 15, 20, 25, 30
-
 L'XP monte jusqu'au seuil du palier puis **s'accumule en attente** : le niveau suivant ne s'ouvre qu'après le **jalon de palier**, une quête d'épreuve. Définition mesurable d'un jalon (condition lue dans le journal PocketBase) :
 
 ```json
@@ -667,11 +587,9 @@ L'XP monte jusqu'au seuil du palier puis **s'accumule en attente** : le niveau s
 - **Jalon d'Honneur** : l'Honneur change par sauts (Livre II) : +1 / +2 / −2 par événement du Retour au Clan.
 
 ### 6.4 Rang de contrat (pas de niveau de joueur)
+Chaque contrat affiche une recommandation en rangs et étoiles, pas un niveau : ◆ Commun (CR 1-4) rang I-II, ★ ; ◆◆ Rare (CR 5-9) rang II-III, ★ à ★★ ; ◆◆◆ Élite (CR 10-15) rang III-IV, ★★ ; ◆◆◆◆ Légendaire (CR 16+) rang IV-V, ★★ à ★★★.
 
-Pas de niveau global : chaque contrat de chasse affiche une **recommandation en rangs et étoiles**.
-
-| Créature | Rang d'École conseillé | Étoile du métier conseillée |
-|---|---|---|
+---|---|---|
 | ◆ Commun (CR 1-4) | I-II | ★ (niveaux 1-5) |
 | ◆◆ Rare (CR 5-9) | II-III | ★ à ★★ |
 | ◆◆◆ Élite (CR 10-15) | III-IV | ★★ |
@@ -680,34 +598,21 @@ Pas de niveau global : chaque contrat de chasse affiche une **recommandation en 
 ---
 
 ## 7. Gestion des quatre personnages
-
 ### 7.1 Différences
-
-| Dimension | Ce qui diffère | Visible à l'écran par |
-|---|---|---|
-| Corps | palette et silhouette (domaine sprites) | 64 px, couleurs de région |
-| Origine | région, Honneur, réactions PNJ, 1 attribut | dialogues, boutiques |
-| École | arme, mode de Mana, 5 Techniques | arme, barre d'action |
-| Posture | rôle de groupe, 4 Techniques de Posture | 2 boutons de rôle |
-| Métier | activités, matériaux, quêtes | mini-jeux, Camp |
-| Familier | animal apprivoisé (domaine dressage) | compagnon à l'écran |
+Chaque personnage diffère par le corps (palette, silhouette), l'origine (région, Honneur, réactions des PNJ, 1 attribut), l'École (arme, mode de Mana, 5 Techniques), la Posture (rôle de groupe), les Métiers (mini-jeux, matériaux, quêtes) et le familier (domaine dressage).
 
 ### 7.2 Synergies de groupe (coopération entre joueurs réels)
-
 Les 4 Postures couvrent les 4 rôles ; les synergies utiles à chaque mode :
 
 | Combo | Effet de jeu | Source |
 |---|---|---|
 | Ours Provocation + Loup Appel de Meute | l'Ours attire l'attention, le Loup donne l'Ouverture au Félin qui frappe | Livre VI Posture + Ouverture |
 | Faucon Point Faible → Félin Ciblage Vital | +25 % puis ignore 2 armure sur la partie marquée | Livre VI ch. 4 |
-| Marées Liées zone + Coup Final charge | la cible ralentie est plus facile à toucher avec la Charge Profonde | École x École |
 | Résonances Rythme de Guerre | +1 aux jets d'attaque de tous pendant 2 rounds → +10 % de dégâts 8 s | Livre VI Résonances II |
-| Dépeceur + Forgeron d'Armures | matériaux organiques utilisés par la forge (synergie du Livre VII) | Livre VII ch. 2 |
 
 Règle de design : **aucune synergie n'est obligatoire** ; chaque personnage doit être viable seul avec un partenaire IA. Le coop apporte du plaisir et de la puissance, pas la possibilité de gagner.
 
 ### 7.3 Coopération
-
 - 1 à 4 joueurs par chasse. Chaque joueur contrôle **son** personnage et garde ses arbres.
 - Solo : un **partenaire IA** (un des trois autres personnages, choisi au lobby) avec un comportement scripté simple (utilise ses Techniques de Posture quand les conditions sont réunies). Pas trois alliés IA : lisibilité à 360 px.
 - Les jalons individuels (Métier, École, Posture) se gagnent seuls ; les jalons collectifs (Bastion, jalon d'Honneur de groupe) profitent à tous (Livre II : « jalons de Bastion toujours collectifs »).
@@ -715,7 +620,6 @@ Règle de design : **aucune synergie n'est obligatoire** ; chaque personnage doi
 - Variable de contenu : la chasse s'ajuste au nombre de joueurs (Vitalité de la créature x(1 + 0,6 x (n − 1)) : 1,0 / 1,6 / 2,2 / 2,8 ; dégâts inchangés ; à tester par le domaine combat).
 
 ### 7.4 Équilibrage de départ (tout à tester)
-
 | Réglage | Valeur initiale | Raison |
 |---|---|---|
 | Mana max rang I à V | 6, 8, 10, 12, 15 ; +25 % pour Rituel | table du Livre VI |
@@ -735,42 +639,17 @@ Test d'équilibrage recommandé avant toute extension : un **banc de simulation*
 ---
 
 ## 8. Modèle de données et PocketBase
-
-Collections (réutilisent le journal d'événements du brief) :
-
-| Collection | Champs principaux | Remarque |
-|---|---|---|
-| `personnages` | id, nom, phrase, origine_id, axes_culturels (json), attributs (json 6 valeurs), avantages (json), handicaps (json), honneur, posture_id, ecole_id, rang_ecole, metiers (json), corps/palette | export CharForge |
-| `progression_perso` | perso_id, points_savoir, noeuds_debloques (json), equipement_techniques, respec (json), modifie_le | schéma §5.8 |
-| `arbres` | fichiers JSON statiques versionnés (`donnees/arbres/*.json`) | pas dans PocketBase : dans le dépôt, comme `donnees/monstres/` |
-| `jalons` | id, type, perso_id, palier, conditions_json, valide_le, temoin_pnj | conditions lues dans le journal |
-| `evenements` (existant) | acte, trace, consequence, perso_ids, chasse_id, qualite, jetons_utilises | Trinité du Livre II |
-
-`donnees/arbres/` doit contenir : `ecole_*.json`, `metier_bloc2_chasse.json`, `posture_naturelle.json`, `posture_legendaire.json`, plus un `valider_arbres.py` (même esprit que `outils/valider_monstres.py` : ids uniques, prérequis acycliques, `interdits_effets` respectés, ≤ 2 prérequis, coûts entiers).
+Collections : `personnages` (identité, attributs, avantages, handicaps, Honneur, École, Posture, métiers ; export CharForge), `progression_perso` (schéma §5.8), `jalons` (id, type, perso_id, palier, conditions_json, témoin, date), `evenements` existant (Acte, Trace, Conséquence, `perso_ids`, chasse, qualité, Jetons). Les **arbres** vivent dans le dépôt (`donnees/arbres/ecole_*.json`, `metier_bloc2_chasse.json`, `posture_naturelle.json`, `posture_legendaire.json`), comme `donnees/monstres/`, avec un `outils/valider_arbres.py` (ids uniques, prérequis acycliques, au plus 2 prérequis, `interdits_effets` respectés, coûts entiers).
 
 ---
 
-## 9. Écrans et états de la progression
-
-| # | Écran | Contenu | Accès |
-|---|---|---|---|
-| P1 | Fiche du personnage | portrait, jauges, attributs, École/Posture/Métiers, étoiles, Honneur par états | Camp, menu |
-| P2 | Arbre (3 onglets : École, Posture, Métier) | nœuds par colonne de rang, PS disponibles, bouton « Respec » | Camp seulement (pas en chasse) |
-| P3 | Détail d'un nœud | texte ≤ 12 mots, coût, conditions, aperçu animé 3 s | appui sur un nœud |
-| P4 | Équipement des Techniques | 3-4 emplacements, glisser depuis la liste | Camp, préparation de chasse |
-| P5 | Journal des jalons | jalons accomplis, épreuves disponibles, témoins | menu |
-| P6 | Épreuve de palier | quête proposée par un PNJ témoin | carte 3/4 |
-| P7 | Résumé de fin de chasse | XP par métier, jetons, jalons débloqués, PS gagnés | après chasse |
-| P8 | Lobby coop | 4 places, personnage et Posture de chacun, avertissement doublons | menu |
-
-États d'un nœud : `masque` (condition non vue, pour éviter le spoil), `verrouille_porte`, `verrouille_ps`, `disponible`, `achete`, `exclu`, `equipe`. Transitions : `disponible` → `achete` (appui long, PS déduits) ; `achete` → `disponible` (respec) ; `disponible` → `exclu` (choix de la variante opposée).
+## 9. Écrans de progression
+Huit écrans : P1 fiche du personnage ; P2 arbre en 3 onglets (École, Posture, Métier), au Camp seulement ; P3 détail d'un nœud (12 mots au plus) ; P4 équipement des Techniques (3-4 emplacements) ; P5 journal des jalons et épreuves ; P6 épreuve de palier (quête d'un PNJ témoin) ; P7 résumé de fin de chasse (XP par métier, Jetons, PS) ; P8 lobby coop (4 places, doublons signalés). États d'un nœud : `masque`, `verrouille_porte`, `verrouille_ps`, `disponible`, `achete`, `exclu`, `equipe`. Transitions : `disponible` vers `achete` (appui long) ; `achete` vers `disponible` (respec) ; `disponible` vers `exclu` (variante opposée choisie).
 
 ---
 
 ## 10. Portée démo (16 mars 2028) et feuille de route
-
 ### 10.1 Sous-ensemble minimal pour la démo (1 zone, 1 chasse, 2-3 quêtes)
-
 | Élément | Démo | Pourquoi |
 |---|---|---|
 | Personnages | 4 jouables, parcours Histoire, prologue commun de 15 min | l'histoire est à quatre |
@@ -785,7 +664,6 @@ Collections (réutilisent le journal d'événements du brief) :
 Le nombre de Techniques à animer (12 + 8 = 20) reste énorme pour un artiste seul : chaque Technique a au moins une animation (4 à 8 images à 64 px). Si le budget d'images est serré (500 à 800 images cibles, `docs/livres-crs-vers-jeu-b.md`), garder **2 Techniques par École** dans la démo (rangs I-II) et reporter le rang III à la v0.2.
 
 ### 10.2 Feuille de route par versions
-
 | Version | Contenu | Estimation |
 |---|---|---|
 | **v0.1** (démo 2028-03) | §10.1 ; arbre en lecture + achat ; pas de respec | |
@@ -800,27 +678,22 @@ Le nombre de Techniques à animer (12 + 8 = 20) reste énorme pour un artiste se
 ---
 
 ## 11. Questions ouvertes (pour krunt)
-
 1. **Quatre personnages prédéfinis ou création libre dans le jeu ?** Recommandation : prédéfinis (parcours Histoire) pour le jeu, création libre uniquement dans CharForge et pour la table. Une création libre à quatre personnages dilue l'histoire et multiplie les cas à tester.
 2. **Les quatre personnages : proposition du §4.2 (Félin / Ours / Loup / Faucon) acceptée ?** À défaut, donner leur concept en deux lignes chacun : toute la répartition d'Écoles et de Métiers en découle.
 3. **« Niveau 30 plafond, un seul personnage par campagne » : interprétation correcte ?** Recommandation : niveau 30 atteignable par tout le monde (après-jeu), Posture Suprême unique par campagne.
 4. **Points de Savoir : une monnaie unique ou une par arbre ?** Recommandation : une seule (moins d'écrans, plus de choix).
 5. **Coût en contenu des jalons.** Un jalon avec témoin PNJ par palier, par métier et par École, c'est des centaines de quêtes. Recommandation : modèles générés + 1 jalon écrit à la main par personnage et par palier de rang d'École uniquement (16 quêtes).
 6. **Niveaux de métier 16 à 30 : les écrire ou les laisser « vides » ?** Recommandation : écrire seulement les 4 signatures 15/20/25/30 et accepter le reste comme gain de tolérance, tant que le jeu n'a pas atteint ces niveaux.
-7. **Bloc 5 « Magie » : supprimer ?** Recommandation : oui, il double les Écoles Mystiques.
-8. **Écoles Techniques : fusionner dans les métiers et le Bastion ?** Recommandation : oui.
-9. **Honnêteté sur l'ampleur.** 29 Écoles et 30 Métiers ne tiennent pas dans un jeu solo/coop tactile développé seul en 18 mois : **plafond réaliste v1.0 = 11 Écoles et 12 Métiers**. Valider ce plafond maintenant évite d'écrire des tables que le jeu n'ouvrira jamais.
-10. **Coop en ligne ou local ?** Le brief parle de 4 joueurs réels : si c'est du réseau, le coût d'infrastructure dépasse largement celui des arbres. Recommandation : v0.1 en solo + partenaire IA, coop locale ou asynchrone (journal partagé) avant tout réseau temps réel.
-11. **Tabou : sanction « Dissonance » acceptable ?** Recommandation : oui, car elle rend le tabou visible sans punir fort ; l'Honneur −1 n'arrive qu'au Retour au Clan.
-12. **Mana de départ : table du Livre VI (6 à 8) ou règle du Livre I (2 x rang) ?** Recommandation : table du Livre VI, déjà retenue ici ; corriger le Livre I.
-13. **Compétences (21) : conserver ?** Recommandation : réduire à 8, valeurs fixes dans la démo, répartition libre en v0.2.
-14. **Résonance** : les « conditions narratives » doivent être remplacées par 3 contextes détectables par Technique. Valider ce principe avant de l'écrire.
-15. **Ouverture en solo** : le partenaire IA reçoit-il l'Ouverture, ou l'Ouverture est-elle supprimée en solo (remplacée par un bonus personnel) ? Recommandation : bonus personnel (réduction de recharge de 3 s) en solo.
+7. **Bloc 5 « Magie » supprimé et Écoles Techniques fondues dans les métiers et le Bastion ?** Recommandation : oui aux deux (§2).
+8. **Honnêteté sur l'ampleur.** 29 Écoles et 30 Métiers ne tiennent pas dans un jeu solo/coop tactile développé seul en 18 mois : **plafond réaliste v1.0 = 11 Écoles et 12 Métiers**. Valider ce plafond maintenant évite d'écrire des tables que le jeu n'ouvrira jamais.
+9. **Coop en ligne ou local ?** Le brief parle de 4 joueurs réels : si c'est du réseau, le coût d'infrastructure dépasse largement celui des arbres. Recommandation : v0.1 en solo + partenaire IA, coop locale ou asynchrone (journal partagé) avant tout réseau temps réel.
+10. **Mana de départ : table du Livre VI (6 à 8) ou règle du Livre I (2 x rang) ?** Recommandation : table du Livre VI, déjà retenue ici ; corriger le Livre I.
+11. **Résonance** : les « conditions narratives » doivent être remplacées par 3 contextes détectables par Technique. Valider ce principe avant de l'écrire.
+12. **Ouverture en solo** : le partenaire IA reçoit-il l'Ouverture, ou l'Ouverture est-elle supprimée en solo (remplacée par un bonus personnel) ? Recommandation : bonus personnel (réduction de recharge de 3 s) en solo.
 
 ---
 
 ## 12. Ponts avec les autres domaines
-
 - **Combat (Livre III, dégâts, états, phases)** : attend les valeurs de base de l'arme, la table des états (Exposé, Déséquilibré, Épuisé, En Transe), la longueur du « round » (4 s) et la règle de dégâts (modèle Livre I) ; ce chapitre n'exprime les dégâts qu'en multiplicateurs.
 - **Arènes et chasses** : attend l'emplacement des **Haltes** (Rituel), les points d'eau (Marées Liées), les murs et structures (Fracas, Fracas Juste), et les parties de créature ciblables (brisure).
 - **Dressage et familiers (106)** : attend le format des ordres de familier et les compétences de l'École Dressage/du métier Dresseur ; les nœuds `cp_syn*` et Dresseur supposent ce format.
