@@ -44,7 +44,10 @@
    "capacite_transport": null,
    "age_ideal": "Chiot de 2 à 4 mois",
    "limite": "Se bat mal contre les très grandes créatures : il fuit si la menace dépasse son courage."
-  }
+  },
+  "cle_id": "canarak",
+  "dressage_possible": true,
+  "ancienne_cle_id": "canarak"
  },
  {
   "id": "soc02",
@@ -89,7 +92,10 @@
    "capacite_transport": null,
    "age_ideal": "Chaton recueilli avant 3 mois",
    "limite": "Il choisit son humain et part si on le contraint."
-  }
+  },
+  "cle_id": "felarak",
+  "dressage_possible": true,
+  "ancienne_cle_id": "felarak"
  },
  {
   "id": "soc03",
@@ -135,7 +141,10 @@
    "capacite_transport": "groupe de 2-4",
    "age_ideal": "Poulain débourré à 3 ans",
    "limite": "Ne traverse ni mers ni falaises, et un cheval de course s'épuise vite en terrain lourd."
-  }
+  },
+  "cle_id": "equirak",
+  "dressage_possible": true,
+  "ancienne_cle_id": "equirak"
  },
  {
   "id": "soc04",
@@ -180,7 +189,10 @@
    "capacite_transport": "1 personnage",
    "age_ideal": "Jeune de 2 ans",
    "limite": "Son entêtement l'arrête net devant ce qui l'effraie."
-  }
+  },
+  "cle_id": "baudet-rak",
+  "dressage_possible": true,
+  "ancienne_cle_id": "baudet-rak"
  },
  {
   "id": "soc05",
@@ -224,7 +236,10 @@
    "capacite_transport": "groupe de 2-4",
    "age_ideal": "Veau dressé à 18 mois",
    "limite": "Très lent, il ne suit pas une chasse mobile."
-  }
+  },
+  "cle_id": "b-urak",
+  "dressage_possible": true,
+  "ancienne_cle_id": "b-urak"
  },
  {
   "id": "soc06",
@@ -268,7 +283,10 @@
    "capacite_transport": null,
    "age_ideal": "Porcelet sevré",
    "limite": "Il retourne à la fange et ne suit pas les longues routes."
-  }
+  },
+  "cle_id": "porarak",
+  "dressage_possible": true,
+  "ancienne_cle_id": "porarak"
  },
  {
   "id": "soc07",
@@ -313,7 +331,10 @@
    "capacite_transport": null,
    "age_ideal": "Poussin élevé en cour",
    "limite": "Trop craintive pour participer à une chasse."
-  }
+  },
+  "cle_id": "galarak",
+  "dressage_possible": true,
+  "ancienne_cle_id": "galarak"
  },
  {
   "id": "soc08",
@@ -358,7 +379,10 @@
    "capacite_transport": "1 personnage",
    "age_ideal": "Chevreau de 4 mois",
    "limite": "Fuit devant les fauves et s'échappe de tout enclos."
-  }
+  },
+  "cle_id": "caprak",
+  "dressage_possible": true,
+  "ancienne_cle_id": "caprak"
  },
  {
   "id": "soc09",
@@ -402,7 +426,10 @@
    "capacite_transport": null,
    "age_ideal": "Agneau élevé en troupeau",
    "limite": "Craintif, il se dissout au premier danger sans berger."
-  }
+  },
+  "cle_id": "ovarak",
+  "dressage_possible": true,
+  "ancienne_cle_id": "ovarak"
  },
  {
   "id": "soc10",
@@ -446,7 +473,10 @@
    "capacite_transport": null,
    "age_ideal": "Génisse élevée en étable",
    "limite": "Ne quitte pas son pré et son rythme de traite."
-  }
+  },
+  "cle_id": "vacarak",
+  "dressage_possible": true,
+  "ancienne_cle_id": "vacarak"
  },
  {
   "id": "soc11",
@@ -491,7 +521,10 @@
    "capacite_transport": null,
    "age_ideal": "Oison élevé à la mare",
    "limite": "Peu mobile hors de l'eau, elle ne suit pas une expédition."
-  }
+  },
+  "cle_id": "oarak",
+  "dressage_possible": true,
+  "ancienne_cle_id": "oarak"
  },
  {
   "id": "soc12",
@@ -538,7 +571,10 @@
    "capacite_transport": null,
    "age_ideal": "Colonie fondée au printemps",
    "limite": "Il faut un apiculteur expert et de la fumée ; l'essaim ne quitte pas sa ruche."
-  }
+  },
+  "cle_id": "apirak",
+  "dressage_possible": true,
+  "ancienne_cle_id": "apirak"
  },
  {
   "id": "soc13",
@@ -583,7 +619,10 @@
    "capacite_transport": null,
    "age_ideal": "Pigeonneau de 6 semaines",
    "limite": "Ne fait que retourner à un pigeonnier connu."
-  }
+  },
+  "cle_id": "pigarak",
+  "dressage_possible": true,
+  "ancienne_cle_id": "pigarak"
  },
  {
   "id": "soc14",
@@ -627,7 +666,10 @@
    "capacite_transport": null,
    "age_ideal": "Colonie fondée en forge",
    "limite": "Meurt au froid, ne vit que près de la chaleur."
-  }
+  },
+  "cle_id": "bombarak",
+  "dressage_possible": true,
+  "ancienne_cle_id": "bombarak"
  },
  {
   "id": "soc15",
@@ -671,7 +713,10 @@
    "capacite_transport": null,
    "age_ideal": "Œuf mis en couvaison",
    "limite": "Ne tolère ni froid ni mauvaises feuilles."
-  }
+  },
+  "cle_id": "sericarak",
+  "dressage_possible": true,
+  "ancienne_cle_id": "sericarak"
  },
  {
   "id": "soc16",
@@ -716,7 +761,10 @@
    "capacite_transport": null,
    "age_ideal": "Jeune de 2 mois",
    "limite": "Aucune force de combat, il fuit tout danger."
-  }
+  },
+  "cle_id": "rattarak",
+  "dressage_possible": true,
+  "ancienne_cle_id": "rattarak"
  },
  {
   "id": "soc17",
@@ -760,7 +808,10 @@
    "capacite_transport": null,
    "age_ideal": "Lapereau sevré",
    "limite": "Ne sert qu'à l'élevage."
-  }
+  },
+  "cle_id": "laprak",
+  "dressage_possible": true,
+  "ancienne_cle_id": "laprak"
  },
  {
   "id": "soc18",
@@ -804,7 +855,10 @@
    "capacite_transport": null,
    "age_ideal": "Jeune de 5 ans",
    "limite": "Extrêmement lente."
-  }
+  },
+  "cle_id": "tortarak",
+  "dressage_possible": true,
+  "ancienne_cle_id": "tortarak"
  },
  {
   "id": "soc19",
@@ -838,7 +892,10 @@
   "description_courte": "Indicateur écologique sonore des zones humides. Servi aussi en taverne.",
   "familier": {
    "possible": false
-  }
+  },
+  "cle_id": "grenouarak",
+  "dressage_possible": false,
+  "ancienne_cle_id": "grenouarak"
  },
  {
   "id": "soc20",
@@ -884,7 +941,10 @@
    "capacite_transport": null,
    "age_ideal": "Corbillat tombé du nid",
    "limite": "Il choisit aussi son humain et peut le quitter."
-  }
+  },
+  "cle_id": "corarak",
+  "dressage_possible": true,
+  "ancienne_cle_id": "corarak"
  },
  {
   "id": "soc21",
@@ -929,7 +989,10 @@
    "capacite_transport": null,
    "age_ideal": "Héronneau de 2 mois",
    "limite": "Ne quitte pas les zones humides."
-  }
+  },
+  "cle_id": "heronarak",
+  "dressage_possible": true,
+  "ancienne_cle_id": "heronarak"
  },
  {
   "id": "soc22",
@@ -973,7 +1036,10 @@
    "capacite_transport": null,
    "age_ideal": "Jeune élevé en troupeau",
    "limite": "Semi-sauvage, il retourne aux sommets."
-  }
+  },
+  "cle_id": "moutonrak",
+  "dressage_possible": true,
+  "ancienne_cle_id": "moutonrak"
  },
  {
   "id": "soc23",
@@ -1007,7 +1073,10 @@
   "description_courte": "L'écholocation lui permet de chasser dans l'obscurité totale. Son guano est précieux.",
   "familier": {
    "possible": false
-  }
+  },
+  "cle_id": "chauve-soursarak",
+  "dressage_possible": false,
+  "ancienne_cle_id": "chauve-soursarak"
  },
  {
   "id": "soc24",
@@ -1051,7 +1120,10 @@
    "capacite_transport": null,
    "age_ideal": "Jeune trouvé à l'automne",
    "limite": "Se retire en hiver et ne suit pas l'aventurier."
-  }
+  },
+  "cle_id": "herissonrak",
+  "dressage_possible": true,
+  "ancienne_cle_id": "herissonrak"
  },
  {
   "id": "soc25",
@@ -1096,7 +1168,10 @@
    "capacite_transport": "1 personnage",
    "age_ideal": "Jeune de 3 ans",
    "limite": "Stérile et têtu."
-  }
+  },
+  "cle_id": "muletrak",
+  "dressage_possible": true,
+  "ancienne_cle_id": "muletrak"
  },
  {
   "id": "soc26",
@@ -1141,7 +1216,10 @@
    "capacite_transport": "groupe de 2-4",
    "age_ideal": "Jeune de 4 ans",
    "limite": "Ne supporte pas le froid ni l'humidité."
-  }
+  },
+  "cle_id": "dromadarak",
+  "dressage_possible": true,
+  "ancienne_cle_id": "dromadarak"
  },
  {
   "id": "soc27",
@@ -1186,7 +1264,10 @@
    "capacite_transport": null,
    "age_ideal": "Caneton élevé en mare",
    "limite": "Ne participe pas à une chasse."
-  }
+  },
+  "cle_id": "canardarak",
+  "dressage_possible": true,
+  "ancienne_cle_id": "canardarak"
  },
  {
   "id": "soc28",
@@ -1231,7 +1312,10 @@
    "capacite_transport": "1 personnage",
    "age_ideal": "Jeune de 6 mois",
    "limite": "Mal à l'aise à l'air libre prolongé."
-  }
+  },
+  "cle_id": "chevrerak",
+  "dressage_possible": true,
+  "ancienne_cle_id": "chevrerak"
  },
  {
   "id": "soc29",
@@ -1275,7 +1359,10 @@
    "capacite_transport": null,
    "age_ideal": "Alevin",
    "limite": "Reste dans son bassin."
-  }
+  },
+  "cle_id": "carperak",
+  "dressage_possible": true,
+  "ancienne_cle_id": "carperak"
  },
  {
   "id": "soc30",
@@ -1309,7 +1396,10 @@
   "description_courte": "Sa migration rythme l'économie saisonnière. Chair d'exception.",
   "familier": {
    "possible": false
-  }
+  },
+  "cle_id": "saumonarak",
+  "dressage_possible": false,
+  "ancienne_cle_id": "saumonarak"
  },
  {
   "id": "soc31",
@@ -1355,7 +1445,10 @@
    "capacite_transport": null,
    "age_ideal": "Jeune de 2 mois",
    "limite": "Fragile hors de l'eau douce."
-  }
+  },
+  "cle_id": "sangsuarak",
+  "dressage_possible": true,
+  "ancienne_cle_id": "sangsuarak"
  },
  {
   "id": "soc32",
@@ -1400,7 +1493,10 @@
    "capacite_transport": null,
    "age_ideal": "Œuf en escargotière",
    "limite": "Craint le sel et la sécheresse."
-  }
+  },
+  "cle_id": "escargarak",
+  "dressage_possible": true,
+  "ancienne_cle_id": "escargarak"
  },
  {
   "id": "soc33",
@@ -1445,7 +1541,10 @@
    "capacite_transport": null,
    "age_ideal": "Renardeau de 2 mois",
    "limite": "Indépendant, il peut disparaître avec un objet."
-  }
+  },
+  "cle_id": "renardarak",
+  "dressage_possible": true,
+  "ancienne_cle_id": "renardarak"
  },
  {
   "id": "soc34",
@@ -1479,7 +1578,10 @@
   "description_courte": "Elle chasse les petits animaux de marécage et nidifie sur les toits.",
   "familier": {
    "possible": false
-  }
+  },
+  "cle_id": "cigognarak",
+  "dressage_possible": false,
+  "ancienne_cle_id": "cigognarak"
  },
  {
   "id": "soc35",
@@ -1526,7 +1628,10 @@
    "capacite_transport": null,
    "age_ideal": "Jeune de 6 mois",
    "limite": "Meurt hors de l'eau salée, vit peu d'années."
-  }
+  },
+  "cle_id": "pieuvrak",
+  "dressage_possible": true,
+  "ancienne_cle_id": "pieuvrak"
  },
  {
   "id": "soc36",
@@ -1560,7 +1665,10 @@
   "description_courte": "Ressource des peuples polaires. Il charge quand il se sent menacé.",
   "familier": {
    "possible": false
-  }
+  },
+  "cle_id": "bisonrak",
+  "dressage_possible": false,
+  "ancienne_cle_id": "bisonrak"
  },
  {
   "id": "soc37",
@@ -1606,7 +1714,10 @@
    "capacite_transport": null,
    "age_ideal": "Jeune à 3 mois",
    "limite": "Inactive de jour."
-  }
+  },
+  "cle_id": "chouarak",
+  "dressage_possible": true,
+  "ancienne_cle_id": "chouarak"
  },
  {
   "id": "soc38",
@@ -1642,7 +1753,10 @@
   "description_courte": "Transmet les maladies. Une source de données médicales.",
   "familier": {
    "possible": false
-  }
+  },
+  "cle_id": "moustarak",
+  "dressage_possible": false,
+  "ancienne_cle_id": "moustarak"
  },
  {
   "id": "soc39",
@@ -1687,7 +1801,10 @@
    "capacite_transport": null,
    "age_ideal": "Jeune de 3 mois",
    "limite": "Reste près de l'eau."
-  }
+  },
+  "cle_id": "loutrarak",
+  "dressage_possible": true,
+  "ancienne_cle_id": "loutrarak"
  },
  {
   "id": "soc40",
@@ -1721,7 +1838,10 @@
   "description_courte": "Chasse les écureuils dans la canopée. Fourrure fine.",
   "familier": {
    "possible": false
-  }
+  },
+  "cle_id": "marterak",
+  "dressage_possible": false,
+  "ancienne_cle_id": "marterak"
  },
  {
   "id": "soc41",
@@ -1755,7 +1875,10 @@
   "description_courte": "Témoin universel des villes, partout et invisible.",
   "familier": {
    "possible": false
-  }
+  },
+  "cle_id": "moinearak",
+  "dressage_possible": false,
+  "ancienne_cle_id": "moinearak"
  },
  {
   "id": "soc42",
@@ -1802,7 +1925,10 @@
    "capacite_transport": null,
    "age_ideal": "Jeune de 1 mois",
    "limite": "Fragile hors de la cave."
-  }
+  },
+  "cle_id": "aragnarak",
+  "dressage_possible": true,
+  "ancienne_cle_id": "aragnarak"
  },
  {
   "id": "soc43",
@@ -1836,7 +1962,10 @@
   "description_courte": "Insectivore aérien des villes. Sa venue annonce le printemps.",
   "familier": {
    "possible": false
-  }
+  },
+  "cle_id": "hirondarak",
+  "dressage_possible": false,
+  "ancienne_cle_id": "hirondarak"
  },
  {
   "id": "soc44",
@@ -1882,7 +2011,9 @@
    "capacite_transport": null,
    "age_ideal": "Jeune adulte (2 à 4 ans)",
    "limite": "Sans portée ni force : une créature de CR élevé le met K.O. au premier coup."
-  }
+  },
+  "cle_id": "dardinet",
+  "dressage_possible": true
  },
  {
   "id": "soc45",
@@ -1927,7 +2058,9 @@
    "capacite_transport": null,
    "age_ideal": "Jeune adulte (3 ans)",
    "limite": "Ne combat jamais et épuise ses simples en deux soins ; elle demande du repos."
-  }
+  },
+  "cle_id": "ouatiline",
+  "dressage_possible": true
  },
  {
   "id": "soc46",
@@ -1973,7 +2106,9 @@
    "capacite_transport": null,
    "age_ideal": "Jeune de 2 ans",
    "limite": "Reste à terre ; il s'effondre de fatigue après une longue récolte."
-  }
+  },
+  "cle_id": "gratelin",
+  "dressage_possible": true
  },
  {
   "id": "soc47",
@@ -2019,7 +2154,9 @@
    "capacite_transport": null,
    "age_ideal": "Jeune adulte (2 à 3 ans)",
    "limite": "Très fragile : un cri fort l'effraie et il prend la fuite."
-  }
+  },
+  "cle_id": "perchenot",
+  "dressage_possible": true
  },
  {
   "id": "soc48",
@@ -2065,7 +2202,9 @@
    "capacite_transport": null,
    "age_ideal": "Jeune adulte (3 à 5 ans)",
    "limite": "S'éteint dans l'eau et le froid ; sans feu à proximité, il perd ses capacités."
-  }
+  },
+  "cle_id": "braisillon",
+  "dressage_possible": true
  },
  {
   "id": "soc49",
@@ -2111,6 +2250,8 @@
    "capacite_transport": null,
    "age_ideal": "Jeune de 1 à 2 ans",
    "limite": "Ses clochettes révèlent aussi sa position aux ennemis ; étouffées, elle perd son don de signal."
-  }
+  },
+  "cle_id": "tintouille",
+  "dressage_possible": true
  }
 ]

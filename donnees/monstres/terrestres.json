@@ -41,7 +41,10 @@
    "capacite_transport": "groupe de 2-4",
    "age_ideal": "Jeune de moins de 3 mois (conditionnement de 4 mois minimum)",
    "limite": "Ne suit son maître que sur terrain connu et défend uniquement sa zone immédiate ; redevient capricieux s'il est longtemps éloigné de son dresseur."
-  }
+  },
+  "cle_id": "maltuile",
+  "dressage_possible": true,
+  "ancienne_cle_id": "brachydrak"
  },
  {
   "id": "ter02",
@@ -76,7 +79,10 @@
   "description_courte": "Charognard colossal des marais chauds. Son haleine précède sa silhouette, et sa salive empoisonne toute plaie. Les autres bêtes désertent son territoire. Les guildes exigent filtres et antidotes.",
   "familier": {
    "possible": false
-  }
+  },
+  "cle_id": "mortelaine",
+  "dressage_possible": false,
+  "ancienne_cle_id": "deviljhak"
  },
  {
   "id": "ter03",
@@ -109,7 +115,10 @@
   "description_courte": "La plus massive des bipèdes ordinaires. Chacun de ses pas creuse le sol, et les colonnes de pierre de son dos résonnent à des lieues. Aucune autre grande bête ne survit longtemps sur son territoire.",
   "familier": {
    "possible": false
-  }
+  },
+  "cle_id": "orgelane",
+  "dressage_possible": false,
+  "ancienne_cle_id": "giganokrak"
  },
  {
   "id": "ter04",
@@ -142,7 +151,10 @@
   "description_courte": "Tueur silencieux des taillis denses. Chaque arête de son corps coupe, jusqu'au bord de ses plaques dorsales. Il fauche les fourrés pour dégager ses charges, puis revient finir ce qu'il a blessé.",
   "familier": {
    "possible": false
-  }
+  },
+  "cle_id": "nervaille",
+  "dressage_possible": false,
+  "ancienne_cle_id": "zinograk"
  },
  {
   "id": "ter05",
@@ -175,7 +187,10 @@
   "description_courte": "Hôte des cavernes, elle s'enroule en sphère et dévale les galeries à pleine vitesse. Ses évents laissent fuir un gaz qui s'enflamme au moindre choc. Les mineurs la redoutent plus que l'éboulement.",
   "familier": {
    "possible": false
-  }
+  },
+  "cle_id": "oubliette",
+  "dressage_possible": false,
+  "ancienne_cle_id": "uragaanok"
  },
  {
   "id": "ter06",
@@ -219,7 +234,10 @@
    "capacite_transport": "1 personnage",
    "age_ideal": "Non précisé (conditionnement long, froid de -20 °C minimum)",
    "limite": "Le dressage ne tient qu'en froid extrême ; en climat doux il s'agite, surchauffe et peut redevenir sauvage."
-  }
+  },
+  "cle_id": "nevelune",
+  "dressage_possible": true,
+  "ancienne_cle_id": "bariothrak"
  },
  {
   "id": "ter07",
@@ -252,7 +270,10 @@
   "description_courte": "Grande bête de plaine, danseuse à la saison des amours. Sa collerette cuivrée se tend, crépite et décharge des arcs sur ses rivaux. Les chasseurs guettent l'instant où elle replie sa parure.",
   "familier": {
    "possible": false
-  }
+  },
+  "cle_id": "mazurque",
+  "dressage_possible": false,
+  "ancienne_cle_id": "bagelnokrak"
  },
  {
   "id": "ter08",
@@ -285,7 +306,10 @@
   "description_courte": "Maître de la savane, il impose son territoire sur des lieues. Rapide malgré sa masse, il charge front baissé et fend le sol à coups de crâne. Le dos fissuré luit au crépuscule.",
   "familier": {
    "possible": false
-  }
+  },
+  "cle_id": "ocremont",
+  "dressage_possible": false,
+  "ancienne_cle_id": "diablorak"
  },
  {
   "id": "ter09",
@@ -318,7 +342,10 @@
   "description_courte": "Né des coulées, il se revêt de scories noircies qui tombent en lambeaux fumants au combat. Dessous, la peau rougeoie. La chasse est une course contre la fonte de son armure.",
   "familier": {
    "possible": false
-  }
+  },
+  "cle_id": "machefer",
+  "dressage_possible": false,
+  "ancienne_cle_id": "glukharak"
  },
  {
   "id": "ter10",
@@ -351,7 +378,10 @@
   "description_courte": "Les mineurs le reconnaissent à ses cônes de calcaire, plus hauts à chaque coup reçu. Plus on le frappe, plus il durcit. Les chasseurs avisés frappent vite et se retirent.",
   "familier": {
    "possible": false
-  }
+  },
+  "cle_id": "marnelin",
+  "dressage_possible": false,
+  "ancienne_cle_id": "durambarak"
  },
  {
   "id": "ter11",
@@ -384,7 +414,10 @@
   "description_courte": "Le plus petit, mais le plus dense. Il frappe de ses poings noueux qui crépitent d'arcs bleus. Les chasseurs le décrivent comme un orage compact, d'une agressivité sans pareille envers les siens.",
   "familier": {
    "possible": false
-  }
+  },
+  "cle_id": "nuagrin",
+  "dressage_possible": false,
+  "ancienne_cle_id": "rajangrak"
  },
  {
   "id": "ter12",
@@ -431,7 +464,10 @@
    "capacite_transport": null,
    "age_ideal": "Non précisé (jeunes de préférence)",
    "limite": "Le dresseur doit porter un masque intégral pendant tout le conditionnement ; les spores restent un risque pour les alliés non protégés."
-  }
+  },
+  "cle_id": "morillane",
+  "dressage_possible": true,
+  "ancienne_cle_id": "congalarak"
  },
  {
   "id": "ter13",
@@ -464,7 +500,10 @@
   "description_courte": "Dormeur des falaises qui plane sur plusieurs dizaines de mètres. Sa voile caudale le porte jusqu'au fond des canyons. Il ne vole pas, mais retombe sur sa proie comme un poids.",
   "familier": {
    "possible": false
-  }
+  },
+  "cle_id": "ouessane",
+  "dressage_possible": false,
+  "ancienne_cle_id": "tigrexrak"
  },
  {
   "id": "ter14",
@@ -499,7 +538,10 @@
   "description_courte": "Presque indétectable dans la vase. Son sac gulaire déverse une glu ambrée qui prend en quelques instants. Les chasseurs recommandent de ne jamais combattre à pied dans l'eau stagnante.",
   "familier": {
    "possible": false
-  }
+  },
+  "cle_id": "melassine",
+  "dressage_possible": false,
+  "ancienne_cle_id": "lagombirak"
  },
  {
   "id": "ter15",
@@ -534,7 +576,10 @@
   "description_courte": "Rampante et massive, elle porte ses venins comme des fruits mûrs. Chaque poche percée libère une toxine différente. Le chasseur prudent la poursuit avec un arsenal complet d'antidotes.",
   "familier": {
    "possible": false
-  }
+  },
+  "cle_id": "mancenille",
+  "dressage_possible": false,
+  "ancienne_cle_id": "najararak"
  },
  {
   "id": "ter16",
@@ -567,7 +612,10 @@
   "description_courte": "Presque jamais vue, jamais entendue. Elle se dissout en brume dans la pénombre et ne laisse aucune empreinte. Les pisteurs apprennent à repérer le froid de son passage.",
   "familier": {
    "possible": false
-  }
+  },
+  "cle_id": "nyctale",
+  "dressage_possible": false,
+  "ancienne_cle_id": "apcarak"
  },
  {
   "id": "ter17",
@@ -600,7 +648,10 @@
   "description_courte": "Armure vivante du désert. Chaque plaque renvoie la chaleur et les souffles élémentaires vers leur source. Les chasseurs avisés évitent le feu et préfèrent les armes de choc.",
   "familier": {
    "possible": false
-  }
+  },
+  "cle_id": "mirodine",
+  "dressage_possible": false,
+  "ancienne_cle_id": "tetzarak"
  },
  {
   "id": "ter18",
@@ -633,7 +684,10 @@
   "description_courte": "Elle vit surtout sous terre dans un réseau de galeries personnel. Un simple soulèvement du sol trahit sa position. Les fermiers abandonnent les champs où elle s'installe.",
   "familier": {
    "possible": false
-  }
+  },
+  "cle_id": "mortaise",
+  "dressage_possible": false,
+  "ancienne_cle_id": "odibarak"
  },
  {
   "id": "ter19",
@@ -666,7 +720,10 @@
   "description_courte": "Sa queue gonflée de gaz explose à chaque coup qui la perce. Les graminées sèches prennent feu autour d'elle. Les chasseurs tranchent de loin ou éloignent le combat de l'herbe.",
   "familier": {
    "possible": false
-  }
+  },
+  "cle_id": "nitrine",
+  "dressage_possible": false,
+  "ancienne_cle_id": "volviarak"
  },
  {
   "id": "ter20",
@@ -712,7 +769,10 @@
    "capacite_transport": null,
    "age_ideal": "Jeune de moins de 2 mois (conditionnement de 3 mois minimum)",
    "limite": "Reste une bête d'embuscade : elle n'engage pas les grandes proies de front, et son camouflage la rend difficile à suivre dans l'herbe haute."
-  }
+  },
+  "cle_id": "mousseline",
+  "dressage_possible": true,
+  "ancienne_cle_id": "mitzarak"
  },
  {
   "id": "ter21",
@@ -745,7 +805,10 @@
   "description_courte": "Elle boit l'énergie draconique de l'air et des coups. Ses géodes s'allument avant la décharge. Les chasseurs expérimentés la harcèlent sans lui offrir de souffle à absorber.",
   "familier": {
    "possible": false
-  }
+  },
+  "cle_id": "mnemire",
+  "dressage_possible": false,
+  "ancienne_cle_id": "nergigarak"
  },
  {
   "id": "ter22",
@@ -778,6 +841,9 @@
   "description_courte": "Forteresse de roche mouvante des massifs reculés. Ses strates dorsales s'écaillent comme une falaise sous l'orage. Une veine d'énergie draconique y circule. Aucun chasseur ne l'approche sans escorte.",
   "familier": {
    "possible": false
-  }
+  },
+  "cle_id": "noroche",
+  "dressage_possible": false,
+  "ancienne_cle_id": "ruinarak"
  }
 ]

@@ -41,7 +41,10 @@
    "capacite_transport": null,
    "age_ideal": "Jeune, dès l'éclosion",
    "limite": "Lien purement conditionné : il régresse vite sans son dresseur et reste sauvage en meute."
-  }
+  },
+  "cle_id": "alizade",
+  "dressage_possible": true,
+  "ancienne_cle_id": "velokrak"
  },
  {
   "id": "cro02",
@@ -85,7 +88,10 @@
    "capacite_transport": "1 personnage",
    "age_ideal": "Jeune adulte",
    "limite": "Son lien est long à bâtir et il redevient dominant et capricieux si le dresseur faiblit."
-  }
+  },
+  "cle_id": "dorgane",
+  "dressage_possible": true,
+  "ancienne_cle_id": "velodrak"
  },
  {
   "id": "cro03",
@@ -131,7 +137,10 @@
    "capacite_transport": null,
    "age_ideal": "Jeune uniquement",
    "limite": "Seuls les jeunes se laissent conditionner ; l'adulte retombe dans son instinct d'embuscade."
-  }
+  },
+  "cle_id": "courtaude",
+  "dressage_possible": true,
+  "ancienne_cle_id": "genokrak"
  },
  {
   "id": "cro04",
@@ -176,7 +185,10 @@
    "capacite_transport": null,
    "age_ideal": "Jeune adulte",
    "limite": "Très difficile à apprivoiser ; il se retire dès qu'il se sent observé trop longtemps."
-  }
+  },
+  "cle_id": "cendrasse",
+  "dressage_possible": true,
+  "ancienne_cle_id": "genprak"
  },
  {
   "id": "cro05",
@@ -219,7 +231,10 @@
    "capacite_transport": null,
    "age_ideal": "Jeune uniquement",
    "limite": "Conditionnement fragile ; hors compagnie du dresseur, il retourne à la meute."
-  }
+  },
+  "cle_id": "brandille",
+  "dressage_possible": true,
+  "ancienne_cle_id": "jagrak"
  },
  {
   "id": "cro06",
@@ -263,7 +278,10 @@
    "capacite_transport": "1 personnage",
    "age_ideal": "Jeune adulte",
    "limite": "Il reste territorial près des lisières habitées et refuse de s'éloigner trop de sa zone."
-  }
+  },
+  "cle_id": "aurelon",
+  "dressage_possible": true,
+  "ancienne_cle_id": "jagidrak"
  },
  {
   "id": "cro07",
@@ -309,7 +327,10 @@
    "capacite_transport": null,
    "age_ideal": "Jeune, avant la saison de mue",
    "limite": "Comportement imprévisible : il peut s'endormir ou fuir en plein effort."
-  }
+  },
+  "cle_id": "dormelet",
+  "dressage_possible": true,
+  "ancienne_cle_id": "bagirak"
  },
  {
   "id": "cro08",
@@ -354,7 +375,10 @@
    "capacite_transport": null,
    "age_ideal": "Jeune adulte",
    "limite": "Lien rare et fragile ; il boude longtemps après un conflit avec d'autres créatures."
-  }
+  },
+  "cle_id": "cabochon",
+  "dressage_possible": true,
+  "ancienne_cle_id": "bakurak"
  },
  {
   "id": "cro09",
@@ -389,7 +413,10 @@
   "description_courte": "Les Anguillades filent dans les joncs et mordent sans que l'on voie d'où vient le coup. Leur morsure est difficile à identifier et le dressage est tenu pour impossible.",
   "familier": {
    "possible": false
-  }
+  },
+  "cle_id": "anguillade",
+  "dressage_possible": false,
+  "ancienne_cle_id": "iokrak"
  },
  {
   "id": "cro10",
@@ -434,7 +461,10 @@
    "capacite_transport": null,
    "age_ideal": "Jeune adulte",
    "limite": "Conditionnement très risqué : la morsure peut se déclencher sans prévenir."
-  }
+  },
+  "cle_id": "bourbelune",
+  "dressage_possible": true,
+  "ancienne_cle_id": "iodrak"
  },
  {
   "id": "cro11",
@@ -480,7 +510,10 @@
    "capacite_transport": null,
    "age_ideal": "Jeune adulte",
    "limite": "Imprévisible : la lumière l'excite et peut le rendre agressif envers son propre maître."
-  }
+  },
+  "cle_id": "diadelle",
+  "dressage_possible": true,
+  "ancienne_cle_id": "gyplerak"
  },
  {
   "id": "cro12",
@@ -513,7 +546,10 @@
   "description_courte": "La Calorine est solitaire stricte. Sa voile de peau, conductrice de chaleur sans brûler, protège du feu et se vend très cher aux forgerons des terres volcaniques.",
   "familier": {
    "possible": false
-  }
+  },
+  "cle_id": "calorine",
+  "dressage_possible": false,
+  "ancienne_cle_id": "kut-varek"
  },
  {
   "id": "cro13",
@@ -558,7 +594,10 @@
    "capacite_transport": null,
    "age_ideal": "Jeune adulte",
    "limite": "Il garde un goût pour la collection et peut disparaître avec le butin au lieu de le rapporter."
-  }
+  },
+  "cle_id": "colporin",
+  "dressage_possible": true,
+  "ancienne_cle_id": "kulurak"
  },
  {
   "id": "cro14",
@@ -604,7 +643,10 @@
    "capacite_transport": null,
    "age_ideal": "Jeune adulte",
    "limite": "Instable à long terme : son venin peut se déclencher hors contrôle."
-  }
+  },
+  "cle_id": "belladine",
+  "dressage_possible": true,
+  "ancienne_cle_id": "pukeirak"
  },
  {
   "id": "cro15",
@@ -639,7 +681,10 @@
   "description_courte": "L'Arcelune vit en couple territorial à la saison de nidification. Ses disques osseux produisent un éclair aveuglant. Impossible à dresser.",
   "familier": {
    "possible": false
-  }
+  },
+  "cle_id": "arcelune",
+  "dressage_possible": false,
+  "ancienne_cle_id": "tzitzak"
  },
  {
   "id": "cro16",
@@ -683,7 +728,10 @@
    "capacite_transport": "1 personnage",
    "age_ideal": "Jeune adulte",
    "limite": "Son endurance s'épuise aux heures chaudes et il refuse de courir hors des plaines."
-  }
+  },
+  "cle_id": "dambrais",
+  "dressage_possible": true,
+  "ancienne_cle_id": "aknorak"
  },
  {
   "id": "cro17",
@@ -718,7 +766,10 @@
   "description_courte": "Le Balafrette est la dissonance faite chair : une crochue de taille élite, plus violente qu'une meute entière. Sa gemme pourpre est la plus rare de la famille.",
   "familier": {
    "possible": false
-  }
+  },
+  "cle_id": "balafrette",
+  "dressage_possible": false,
+  "ancienne_cle_id": "garuvorn"
  },
  {
   "id": "cro18",
@@ -753,7 +804,10 @@
   "description_courte": "Le Delirande est un Balafrette dont l'inhibition de combat est abolie. Il ne reconnaît plus les signaux d'apaisement et attaque tout ce qui bouge. Aucun dressage n'est concevable.",
   "familier": {
    "possible": false
-  }
+  },
+  "cle_id": "delirande",
+  "dressage_possible": false,
+  "ancienne_cle_id": "garuvorn-sourd"
  },
  {
   "id": "cro19",
@@ -788,7 +842,10 @@
   "description_courte": "La Damasquine chasse en planant le long des falaises et jette ses lames comme des couteaux. Les guildes organisent des expéditions pour récupérer ses écailles dorées.",
   "familier": {
    "possible": false
-  }
+  },
+  "cle_id": "damasquine",
+  "dressage_possible": false,
+  "ancienne_cle_id": "seregrak"
  },
  {
   "id": "cro20",
@@ -824,7 +881,10 @@
   "description_courte": "L'Améthyne partage l'énergie de ses cristaux entre éblouissement et venin. Son dos exhale une nuée violette quand il se met en chasse. Sauvage et impossible à dresser.",
   "familier": {
    "possible": false
-  }
+  },
+  "cle_id": "amethyne",
+  "dressage_possible": false,
+  "ancienne_cle_id": "gyplerak-violet"
  },
  {
   "id": "cro21",
@@ -857,7 +917,10 @@
   "description_courte": "La Brontelle accumule la charge de l'orage dans les tiges de son dos. Elle frappe en décharge après une longue accumulation. Aucun dressage n'a pu être mené.",
   "familier": {
    "possible": false
-  }
+  },
+  "cle_id": "brontelle",
+  "dressage_possible": false,
+  "ancienne_cle_id": "kut-varek-bleu"
  },
  {
   "id": "cro22",
@@ -903,7 +966,10 @@
    "capacite_transport": null,
    "age_ideal": "Jeune adulte",
    "limite": "Le lien conditionné tient mieux que celui de sa cousine, mais elle refuse de quitter les cours d'eau."
-  }
+  },
+  "cle_id": "cressane",
+  "dressage_possible": true,
+  "ancienne_cle_id": "pukeirak-des-cimes"
  },
  {
   "id": "cro23",
@@ -948,7 +1014,10 @@
    "capacite_transport": null,
    "age_ideal": "Jeune adulte",
    "limite": "Conditionnement uniquement, avec précautions extrêmes ; sa fumée peut endormir son propre maître."
-  }
+  },
+  "cle_id": "crinoline",
+  "dressage_possible": true,
+  "ancienne_cle_id": "hypnorak"
  },
  {
   "id": "cro24",
@@ -992,7 +1061,10 @@
    "capacite_transport": null,
    "age_ideal": "Jeune adulte",
    "limite": "Rare et solide mais bavard : il peut imiter les alertes à contretemps."
-  }
+  },
+  "cle_id": "charivari",
+  "dressage_possible": true,
+  "ancienne_cle_id": "qurepak"
  },
  {
   "id": "cro25",
@@ -1036,7 +1108,10 @@
    "capacite_transport": null,
    "age_ideal": "Jeune adulte",
    "limite": "Les flammes de ses cris rendent l'approche dangereuse."
-  }
+  },
+  "cle_id": "clairon",
+  "dressage_possible": true,
+  "ancienne_cle_id": "qurepak-cramoisi"
  },
  {
   "id": "cro26",
@@ -1071,7 +1146,10 @@
   "description_courte": "La Duvetine est la crochue la plus silencieuse : un rayon de cinq mètres d'étouffement précède sa venue. Son écaille absorbante est très prisée des infiltrateurs.",
   "familier": {
    "possible": false
-  }
+  },
+  "cle_id": "duvetine",
+  "dressage_possible": false,
+  "ancienne_cle_id": "malfestrak"
  },
  {
   "id": "cro27",
@@ -1104,7 +1182,10 @@
   "description_courte": "L'Anthracine est difficile à décrire : ses contours changent selon la lumière. Son écaille diffractive offre un camouflage actif aux guildes d'infiltration.",
   "familier": {
    "possible": false
-  }
+  },
+  "cle_id": "anthracine",
+  "dressage_possible": false,
+  "ancienne_cle_id": "gildrak"
  },
  {
   "id": "cro28",
@@ -1148,7 +1229,10 @@
    "capacite_transport": null,
    "age_ideal": "Jeune, dès l'éclosion",
    "limite": "Elle ne supporte pas la lumière vive du jour et reste cantonnée au sous-sol."
-  }
+  },
+  "cle_id": "blindelle",
+  "dressage_possible": true,
+  "ancienne_cle_id": "jagrak-des-abysses"
  },
  {
   "id": "cro29",
@@ -1192,6 +1276,9 @@
    "capacite_transport": null,
    "age_ideal": "Jeune, dès l'éclosion",
    "limite": "Très docile mais sans courage : il fuit les grands adversaires."
-  }
+  },
+  "cle_id": "castagnette",
+  "dressage_possible": true,
+  "ancienne_cle_id": "porkeplumak"
  }
 ]

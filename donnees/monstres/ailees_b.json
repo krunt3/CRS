@@ -30,7 +30,10 @@
   "description_courte": "Variété rare de feu nocturne des forêts closes. Les pisteurs signalent d'abord des points rougeoyants dans le noir, puis plus rien. Elle chasse à l'ouïe, ailes pliées, et incendie la canopée par rafales brèves.",
   "familier": {
    "possible": false
-  }
+  },
+  "cle_id": "ioliane",
+  "dressage_possible": false,
+  "ancienne_cle_id": "rathavar-noir"
  },
  {
   "id": "ail25",
@@ -63,7 +66,10 @@
   "description_courte": "Les bûcherons le confondent avec une souche tant qu'il dort. Éveillé, il fend son écorce et crache un feu bas qui rampe dans les racines, au point de rallumer des foyers éteints depuis des jours.",
   "familier": {
    "possible": false
-  }
+  },
+  "cle_id": "ligneroc",
+  "dressage_possible": false,
+  "ancienne_cle_id": "rathavar-jade"
  },
  {
   "id": "ail26",
@@ -96,7 +102,10 @@
   "description_courte": "Documentée sur les caldeiras les plus chaudes, elle ne se pose qu'après avoir tourné longtemps au-dessus de sa proie. Sa transition de phase très précoce surprend les équipes mal préparées.",
   "familier": {
    "possible": false
-  }
+  },
+  "cle_id": "kasmerune",
+  "dressage_possible": false,
+  "ancienne_cle_id": "rathavar-cramoisi"
  },
  {
   "id": "ail27",
@@ -129,7 +138,10 @@
   "description_courte": "Les récits de haute montagne en parlent comme d'un roi. Son envergure de seize mètres couvre des vallées entières et sa couronne signale l'humeur : chaque corne s'embrase tour à tour avant le souffle.",
   "familier": {
    "possible": false
-  }
+  },
+  "cle_id": "ildarion",
+  "dressage_possible": false,
+  "ancienne_cle_id": "rathavar-dore"
  },
  {
   "id": "ail28",
@@ -162,7 +174,10 @@
   "description_courte": "Solitaire absolu, il veille un gouffre des jours durant avant de fondre sur l'intrus. Sa plaque crânienne, très prisée des bâtisseurs, craquelle de lumière quand l'orage monte.",
   "familier": {
    "possible": false
-  }
+  },
+  "cle_id": "jastreve",
+  "dressage_possible": false,
+  "ancienne_cle_id": "velkhavar"
  },
  {
   "id": "ail29",
@@ -195,7 +210,10 @@
   "description_courte": "Toujours aperçue en couple, la paire quadrille les steppes à la tombée du jour. Les taches dorsales, différentes d'un individu à l'autre, servent aux pisteurs à reconnaître chaque couple.",
   "familier": {
    "possible": false
-  }
+  },
+  "cle_id": "ivrelle",
+  "dressage_possible": false,
+  "ancienne_cle_id": "astarath"
  },
  {
   "id": "ail30",
@@ -228,7 +246,10 @@
   "description_courte": "On la repère de loin à la manière dont ses fissures migrent d'une chasse à l'autre. Les plaques refroidies durcissent comme du basalte, puis se brisent pour libérer de la lave fraîche.",
   "familier": {
    "possible": false
-  }
+  },
+  "cle_id": "liparande",
+  "dressage_possible": false,
+  "ancienne_cle_id": "pyrakhov"
  },
  {
   "id": "ail31",
@@ -261,7 +282,10 @@
   "description_courte": "Les marins de la côte croient la tempête vivante. L'animal crée autour de lui un vortex de brume salée dans lequel il disparaît, puis frappe de côté, porté par des vents que lui seul domine.",
   "familier": {
    "possible": false
-  }
+  },
+  "cle_id": "kerwenn",
+  "dressage_possible": false,
+  "ancienne_cle_id": "caernavak"
  },
  {
   "id": "ail32",
@@ -294,7 +318,10 @@
   "description_courte": "Les naturalistes l'observent de loin et de travers : de face, l'œil glisse. Elle ne laisse aucune trace au sol et chasse les créatures qui s'attardent sur les plateaux sans vie.",
   "familier": {
    "possible": false
-  }
+  },
+  "cle_id": "kenothe",
+  "dressage_possible": false,
+  "ancienne_cle_id": "vorakveil"
  },
  {
   "id": "ail33",
@@ -327,7 +354,10 @@
   "description_courte": "Solitaire sauf aux nuits de pleine lune, où les individus se rassemblent sur les grèves. Ils pêchent alors dans l'eau noire, argentés de la tête à la queue.",
   "familier": {
    "possible": false
-  }
+  },
+  "cle_id": "iselune",
+  "dressage_possible": false,
+  "ancienne_cle_id": "lunavark"
  },
  {
   "id": "ail34",
@@ -373,7 +403,10 @@
    "capacite_transport": null,
    "age_ideal": "Jeune, couplé dès le plus jeune âge",
    "limite": "Dressage conditionné très difficile et lié à son compagnon ; il redevient farouche loin du dresseur."
-  }
+  },
+  "cle_id": "jonquine",
+  "dressage_possible": true,
+  "ancienne_cle_id": "thornavar"
  },
  {
   "id": "ail35",
@@ -406,7 +439,10 @@
   "description_courte": "On la remarque au sillage de gouttes qu'elle laisse, jamais à elle-même. Elle frappe depuis les bancs de brume puis se fond dans les nuages bas.",
   "familier": {
    "possible": false
-  }
+  },
+  "cle_id": "imbrelle",
+  "dressage_possible": false,
+  "ancienne_cle_id": "nebulark"
  },
  {
   "id": "ail36",
@@ -439,7 +475,10 @@
   "description_courte": "Il ronge les filons à même la roche et en tire des écailles de métal. Les mineurs reconnaissent sa présence aux étincelles dans les galeries abandonnées.",
   "familier": {
    "possible": false
-  }
+  },
+  "cle_id": "kuprion",
+  "dressage_possible": false,
+  "ancienne_cle_id": "ironveil"
  },
  {
   "id": "ail37",
@@ -472,7 +511,10 @@
   "description_courte": "Au-dessus de trois mille mètres, elle plane sans effort dans un air que d'autres fuient. On entend d'abord le tintement de sa queue, puis le froid.",
   "familier": {
    "possible": false
-  }
+  },
+  "cle_id": "ithaline",
+  "dressage_possible": false,
+  "ancienne_cle_id": "starkveil"
  },
  {
   "id": "ail38",
@@ -505,7 +547,10 @@
   "description_courte": "Elle attaque sans la pause d'observation des autres wyvernes. Toute silhouette dans son canyon déclenche un plongeon immédiat, tête baissée.",
   "familier": {
    "possible": false
-  }
+  },
+  "cle_id": "jirelant",
+  "dressage_possible": false,
+  "ancienne_cle_id": "furivarn"
  },
  {
   "id": "ail39",
@@ -550,7 +595,10 @@
    "capacite_transport": null,
    "age_ideal": "Jeune adulte, lien patient avec ses habitants",
    "limite": "Le lien repose sur ses nichées : si elles quittent le dos, elle redevient territoriale."
-  }
+  },
+  "cle_id": "lorelie",
+  "dressage_possible": true,
+  "ancienne_cle_id": "verdanthak"
  },
  {
   "id": "ail40",
@@ -583,7 +631,10 @@
   "description_courte": "Deux températures se disputent son corps. Son tissu de jonction, qui supporte feu et glace en contact, intéresse beaucoup les alchimistes des résistances élémentaires.",
   "familier": {
    "possible": false
-  }
+  },
+  "cle_id": "janusque",
+  "dressage_possible": false,
+  "ancienne_cle_id": "aurorakh"
  },
  {
   "id": "ail41",
@@ -618,7 +669,10 @@
   "description_courte": "Elle vole en rubans dans le vent de dune et sème derrière elle un nuage irritant. Les pisteurs apprennent à se placer dans le vent.",
   "familier": {
    "possible": false
-  }
+  },
+  "cle_id": "jaulinde",
+  "dressage_possible": false,
+  "ancienne_cle_id": "vitharnak"
  },
  {
   "id": "ail42",
@@ -651,7 +705,10 @@
   "description_courte": "Il rôde sur les pâtures la nuit, sans bruit. Les éleveurs partagent sans heurt leurs terres avec plusieurs d'entre eux, qui ne se disputent jamais.",
   "familier": {
    "possible": false
-  }
+  },
+  "cle_id": "lissoir",
+  "dressage_possible": false,
+  "ancienne_cle_id": "skelvarn"
  },
  {
   "id": "ail43",
@@ -684,7 +741,10 @@
   "description_courte": "Lent mais presque indestructible, il se régénère au fil du combat. Le couple niche sur les plateaux, et on a vu un mâle porter sa compagne blessée.",
   "familier": {
    "possible": false
-  }
+  },
+  "cle_id": "lithorne",
+  "dressage_possible": false,
+  "ancienne_cle_id": "duravok"
  },
  {
   "id": "ail44",
@@ -717,7 +777,10 @@
   "description_courte": "Elle rase les champs à basse altitude, ses ailes tranchant les épis. Les fermiers repèrent son passage aux sillons couchés dans le blé.",
   "familier": {
    "possible": false
-  }
+  },
+  "cle_id": "ilvanne",
+  "dressage_possible": false,
+  "ancienne_cle_id": "kalidor"
  },
  {
   "id": "ail45",
@@ -750,7 +813,10 @@
   "description_courte": "Elle plonge à trois cents mètres, y reste quarante minutes, puis remonte et reprend le vol. Sa membrane hybride est le matériau le plus cher des architectes navals.",
   "familier": {
    "possible": false
-  }
+  },
+  "cle_id": "kalmaros",
+  "dressage_possible": false,
+  "ancienne_cle_id": "xorvakh"
  },
  {
   "id": "ail46",
@@ -785,6 +851,9 @@
   "description_courte": "Là où elle s'installe, la corruption s'étend. Son croc transparent contient le venin draconique le plus concentré connu.",
   "familier": {
    "possible": false
-  }
+  },
+  "cle_id": "lyssanthe",
+  "dressage_possible": false,
+  "ancienne_cle_id": "lethavark"
  }
 ]

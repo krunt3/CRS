@@ -43,7 +43,10 @@
    "age_ideal": "Jeune capturé, avant le rut",
    "limite": "Les mâles en rut redeviennent sauvages et violents, et le cerf ne supporte pas les charges lourdes longtemps."
   },
-  "nom_conserve": true
+  "nom_conserve": true,
+  "cle_id": "cervarak",
+  "dressage_possible": true,
+  "ancienne_cle_id": "cervarak"
  },
  {
   "id": "cha02",
@@ -89,7 +92,10 @@
    "age_ideal": "Marcassin, avant six mois",
    "limite": "Il redevient imprévisible adulte et ne répond qu'à son porcher."
   },
-  "nom_conserve": true
+  "nom_conserve": true,
+  "cle_id": "sanglarak",
+  "dressage_possible": true,
+  "ancienne_cle_id": "sanglarak"
  },
  {
   "id": "cha03",
@@ -134,7 +140,10 @@
    "age_ideal": "Veau élevé en troupeau",
    "limite": "Il est lent, ne supporte ni le galop long ni les terrains accidentés."
   },
-  "nom_conserve": true
+  "nom_conserve": true,
+  "cle_id": "aurochrak",
+  "dressage_possible": true,
+  "ancienne_cle_id": "aurochrak"
  },
  {
   "id": "cha04",
@@ -179,7 +188,10 @@
    "age_ideal": "Ourson capturé",
    "limite": "Pratique rare et risquée : il devient incontrôlable adulte sans dresseur et reste toujours imprévisible."
   },
-  "nom_conserve": true
+  "nom_conserve": true,
+  "cle_id": "ursorak",
+  "dressage_possible": true,
+  "ancienne_cle_id": "ursorak"
  },
  {
   "id": "cha05",
@@ -225,7 +237,10 @@
    "age_ideal": "Chaton",
    "limite": "Il reste solitaire et indépendant : il refuse de travailler en groupe ou de jour."
   },
-  "nom_conserve": true
+  "nom_conserve": true,
+  "cle_id": "lynxarak",
+  "dressage_possible": true,
+  "ancienne_cle_id": "lynxarak"
  },
  {
   "id": "cha06",
@@ -272,7 +287,10 @@
    "age_ideal": "Louveteau, avant trois mois",
    "limite": "Il suit son dresseur mais retourne à sa meute si l'attache se rompt ; il ne supporte pas l'isolement."
   },
-  "nom_conserve": true
+  "nom_conserve": true,
+  "cle_id": "louparak",
+  "dressage_possible": true,
+  "ancienne_cle_id": "louparak"
  },
  {
   "id": "cha07",
@@ -319,7 +337,10 @@
    "age_ideal": "Poussin élevé à la main",
    "limite": "Il ne porte qu'un personnage léger sur de courtes distances et il se fatigue vite par vent faible."
   },
-  "nom_conserve": true
+  "nom_conserve": true,
+  "cle_id": "aquilarak",
+  "dressage_possible": true,
+  "ancienne_cle_id": "aquilarak"
  },
  {
   "id": "cha08",
@@ -354,7 +375,10 @@
    "possible": false,
    "raison": "Comportement aquatique incompatible avec le dressage."
   },
-  "nom_conserve": true
+  "nom_conserve": true,
+  "cle_id": "cascarak",
+  "dressage_possible": false,
+  "ancienne_cle_id": "cascarak"
  },
  {
   "id": "cha09",
@@ -398,7 +422,10 @@
    "age_ideal": "Veau",
    "limite": "Il reste nerveux et ne supporte pas les espaces clos ni les foules."
   },
-  "nom_conserve": true
+  "nom_conserve": true,
+  "cle_id": "bisarak",
+  "dressage_possible": true,
+  "ancienne_cle_id": "bisarak"
  },
  {
   "id": "cha10",
@@ -443,7 +470,10 @@
    "age_ideal": "Juvénile",
    "limite": "Il demande chaleur et nourriture régulière et se montre imprévisible hors de son abri."
   },
-  "nom_conserve": true
+  "nom_conserve": true,
+  "cle_id": "serparak",
+  "dressage_possible": true,
+  "ancienne_cle_id": "serparak"
  },
  {
   "id": "cha11",
@@ -478,7 +508,10 @@
    "possible": false,
    "raison": "Dépendance physique au milieu marécageux."
   },
-  "nom_conserve": true
+  "nom_conserve": true,
+  "cle_id": "mantirak",
+  "dressage_possible": false,
+  "ancienne_cle_id": "mantirak"
  },
  {
   "id": "cha12",
@@ -524,7 +557,10 @@
    "age_ideal": "Chevreau",
    "limite": "Elle ne se déplace bien qu'en terrain rocheux et refuse les plaines."
   },
-  "nom_conserve": true
+  "nom_conserve": true,
+  "cle_id": "chamoisrak",
+  "dressage_possible": true,
+  "ancienne_cle_id": "chamoisrak"
  },
  {
   "id": "cha13",
@@ -571,7 +607,10 @@
    "age_ideal": "Têtard ou jeune",
    "limite": "Il dépend de l'humidité et se dessèche loin de son bassin."
   },
-  "nom_conserve": true
+  "nom_conserve": true,
+  "cle_id": "crapaudrak",
+  "dressage_possible": true,
+  "ancienne_cle_id": "crapaudrak"
  },
  {
   "id": "cha14",
@@ -606,7 +645,10 @@
    "possible": false,
    "raison": "Non dressable."
   },
-  "nom_conserve": true
+  "nom_conserve": true,
+  "cle_id": "murenorak",
+  "dressage_possible": false,
+  "ancienne_cle_id": "murenorak"
  },
  {
   "id": "cha15",
@@ -652,7 +694,10 @@
    "age_ideal": "Poussin",
    "limite": "Il ne porte pas de personnage, ne tient pas le combat et se disperse loin de la nourriture."
   },
-  "nom_conserve": true
+  "nom_conserve": true,
+  "cle_id": "vautourak",
+  "dressage_possible": true,
+  "ancienne_cle_id": "vautourak"
  },
  {
   "id": "cha16",
@@ -696,7 +741,10 @@
    "age_ideal": "Œuf ou jeune",
    "limite": "Extrêmement risqué : il attaque son dresseur à la moindre faim et reste hors de l'eau mal à l'aise."
   },
-  "nom_conserve": true
+  "nom_conserve": true,
+  "cle_id": "crocodarak",
+  "dressage_possible": true,
+  "ancienne_cle_id": "crocodarak"
  },
  {
   "id": "cha17",
@@ -731,7 +779,10 @@
    "possible": false,
    "raison": "Territoire d'altitude incompatible et individu trop rare."
   },
-  "nom_conserve": false
+  "nom_conserve": false,
+  "cle_id": "gryphelan",
+  "dressage_possible": false,
+  "ancienne_cle_id": "raijarak"
  },
  {
   "id": "cha18",
@@ -777,6 +828,9 @@
    "age_ideal": "Juvénile",
    "limite": "Il a besoin de chaleur humide et devient léthargique au froid."
   },
-  "nom_conserve": true
+  "nom_conserve": true,
+  "cle_id": "caimarak",
+  "dressage_possible": true,
+  "ancienne_cle_id": "caimarak"
  }
 ]

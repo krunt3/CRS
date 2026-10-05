@@ -12,19 +12,30 @@
   "hors_format_sprite": false,
   "element_principal": "Ombre",
   "element_secondaire": "Éther",
-  "etats_infliges": ["Sommeil"],
+  "etats_infliges": [
+   "Sommeil"
+  ],
   "lignee_draconique": false,
   "terrain": "Forêts anciennes denses, lisières entre zones habitées et sauvages",
   "apparence": {
-    "silhouette": "Grand canidé massif aux épaules hautes et au dos voûté, tête large et basse, oreilles rabattues. Son pelage long frange en lambeaux autour du corps, ce qui brouille le contour en ombre chinoise : on croit voir deux loups décalés.",
-    "trait_distinctif": "Une collerette de poils flottants, pâles et vaporeux, ceint son cou comme un voile de brume qui garde un temps la forme de ses mouvements.",
-    "trait_cle": "collerette-de-brume-flottante",
-    "couleurs": ["anthracite mat", "violet de nuit", "gris cendre pâle"],
-    "rappel_leger": "Grand prédateur de meute des forêts sombres, chef furtif qui endort ses proies.",
-    "difference_avec_ancienne": "Au lieu d'un loup entier noyé dans l'obscurité, c'est une collerette de brume flottante qui brouille la silhouette, avec une palette violette et grise."
+   "silhouette": "Grand canidé massif aux épaules hautes et au dos voûté, tête large et basse, oreilles rabattues. Son pelage long frange en lambeaux autour du corps, ce qui brouille le contour en ombre chinoise : on croit voir deux loups décalés.",
+   "trait_distinctif": "Une collerette de poils flottants, pâles et vaporeux, ceint son cou comme un voile de brume qui garde un temps la forme de ses mouvements.",
+   "trait_cle": "collerette-de-brume-flottante",
+   "couleurs": [
+    "anthracite mat",
+    "violet de nuit",
+    "gris cendre pâle"
+   ],
+   "rappel_leger": "Grand prédateur de meute des forêts sombres, chef furtif qui endort ses proies.",
+   "difference_avec_ancienne": "Au lieu d'un loup entier noyé dans l'obscurité, c'est une collerette de brume flottante qui brouille la silhouette, avec une palette violette et grise."
   },
   "description_courte": "Les pisteurs le signalent à ses yeux d'abord, toujours trop tard. Le chef de meute marche au centre d'un halo de poils flottants qui avale le contour. Rester éveillé près de lui exige une volonté de fer.",
-  "familier": {"possible": false}
+  "familier": {
+   "possible": false
+  },
+  "cle_id": "vigerne",
+  "dressage_possible": false,
+  "ancienne_cle_id": "zinogarak"
  },
  {
   "id": "fau02",
@@ -39,19 +50,30 @@
   "hors_format_sprite": false,
   "element_principal": "Éther",
   "element_secondaire": null,
-  "etats_infliges": ["Éblouissement"],
+  "etats_infliges": [
+   "Éblouissement"
+  ],
   "lignee_draconique": true,
   "terrain": "Sommets exposés, hauts plateaux ensoleillés, falaises du sud",
   "apparence": {
-    "silhouette": "Grand primate trapu aux bras interminables qui traînent presque au sol, épaules monumentales et tête petite enfoncée entre elles. Il marche appuyé sur les phalanges puis se dresse d'un coup en bipède, bras levés en arc.",
-    "trait_distinctif": "Un disque de cristal clair, taillé comme une lentille, est enchâssé au milieu de son poitrail et jette des rayons mobiles quand il respire.",
-    "trait_cle": "lentille-de-cristal-sternale",
-    "couleurs": ["ambre miel", "blanc crème", "bronze cuivré"],
-    "rappel_leger": "Grand gardien solitaire des hauteurs, source de lumière vivante aveuglant ses adversaires.",
-    "difference_avec_ancienne": "La fourrure dorée entière devient un pelage ambré plus sobre, et la luminosité se concentre dans une lentille de cristal sur la poitrine."
+   "silhouette": "Grand primate trapu aux bras interminables qui traînent presque au sol, épaules monumentales et tête petite enfoncée entre elles. Il marche appuyé sur les phalanges puis se dresse d'un coup en bipède, bras levés en arc.",
+   "trait_distinctif": "Un disque de cristal clair, taillé comme une lentille, est enchâssé au milieu de son poitrail et jette des rayons mobiles quand il respire.",
+   "trait_cle": "lentille-de-cristal-sternale",
+   "couleurs": [
+    "ambre miel",
+    "blanc crème",
+    "bronze cuivré"
+   ],
+   "rappel_leger": "Grand gardien solitaire des hauteurs, source de lumière vivante aveuglant ses adversaires.",
+   "difference_avec_ancienne": "La fourrure dorée entière devient un pelage ambré plus sobre, et la luminosité se concentre dans une lentille de cristal sur la poitrine."
   },
   "description_courte": "Unique dans son territoire, il se dresse à l'aube face au soleil, la lentille de son poitrail renvoyant des gerbes de lumière. Les offrandes déposées au pied des falaises le calment ; les intrus sont aveuglés puis chassés.",
-  "familier": {"possible": false}
+  "familier": {
+   "possible": false
+  },
+  "cle_id": "zolmeir",
+  "dressage_possible": false,
+  "ancienne_cle_id": "rajang-sacre"
  },
  {
   "id": "fau03",
@@ -66,29 +88,42 @@
   "hors_format_sprite": false,
   "element_principal": "Ombre",
   "element_secondaire": "Éther",
-  "etats_infliges": ["Éblouissement"],
+  "etats_infliges": [
+   "Éblouissement"
+  ],
   "lignee_draconique": false,
   "terrain": "Lisières entre plaines et forêts, falaises à vue dégagée",
   "apparence": {
-    "silhouette": "Rapace géant à grandes ailes larges et arrondies, queue courte en éventail, serres lourdes et tête ronde sans huppe. Au repos, il se tient très droit, aile repliée comme une cape.",
-    "trait_distinctif": "Ses plumes sont divisées net le long du corps : moitié gauche noire de jais, moitié droite blanc éclatant, ligne de partage verticale du bec à la queue.",
-    "trait_cle": "plumage-parti-gauche-droite",
-    "couleurs": ["noir de jais", "blanc éclatant", "or pâle (bec et serres)"],
-    "rappel_leger": "Grand rapace de falaise, double nature de lumière et d'ombre, compagnon de vol rare.",
-    "difference_avec_ancienne": "Le contraste dessus noir et dessous blanc devient un plumage partagé verticalement, gauche noir et droite blanc."
+   "silhouette": "Rapace géant à grandes ailes larges et arrondies, queue courte en éventail, serres lourdes et tête ronde sans huppe. Au repos, il se tient très droit, aile repliée comme une cape.",
+   "trait_distinctif": "Ses plumes sont divisées net le long du corps : moitié gauche noire de jais, moitié droite blanc éclatant, ligne de partage verticale du bec à la queue.",
+   "trait_cle": "plumage-parti-gauche-droite",
+   "couleurs": [
+    "noir de jais",
+    "blanc éclatant",
+    "or pâle (bec et serres)"
+   ],
+   "rappel_leger": "Grand rapace de falaise, double nature de lumière et d'ombre, compagnon de vol rare.",
+   "difference_avec_ancienne": "Le contraste dessus noir et dessous blanc devient un plumage partagé verticalement, gauche noir et droite blanc."
   },
   "description_courte": "Moitié nuit, moitié jour : l'oiseau plane au-dessus des falaises en tournant lentement, un côté dans l'ombre, l'autre dans l'éclat. Vit en couple fidèle. Trois liens symbiotiques seulement ont été consignés.",
   "familier": {
-    "possible": true,
-    "lien_max": "symbiotique",
-    "difficulte_dd": 18,
-    "roles": ["eclaireur", "monture_vol", "signal"],
-    "aide_combat": "Il plane au-dessus du champ de bataille et révèle les positions et les angles morts ; d'un cri, il avertit des attaques venant du dos. Il peut éblouir brièvement une cible par un battement de son aile blanche.",
-    "transport": "aerien",
-    "capacite_transport": "1 personnage",
-    "age_ideal": "Jeune, lien noué avant la maturité (la fiche cite 3 cas documentés)",
-    "limite": "Le plus difficile à lier : il refuse tout cavalier tant que le lien n'est pas complet et ne vole jamais loin de son partenaire de couple."
-  }
+   "possible": true,
+   "lien_max": "symbiotique",
+   "difficulte_dd": 18,
+   "roles": [
+    "eclaireur",
+    "monture_vol",
+    "signal"
+   ],
+   "aide_combat": "Il plane au-dessus du champ de bataille et révèle les positions et les angles morts ; d'un cri, il avertit des attaques venant du dos. Il peut éblouir brièvement une cible par un battement de son aile blanche.",
+   "transport": "aerien",
+   "capacite_transport": "1 personnage",
+   "age_ideal": "Jeune, lien noué avant la maturité (la fiche cite 3 cas documentés)",
+   "limite": "Le plus difficile à lier : il refuse tout cavalier tant que le lien n'est pas complet et ne vole jamais loin de son partenaire de couple."
+  },
+  "cle_id": "wistrelle",
+  "dressage_possible": true,
+  "ancienne_cle_id": "nargavar-sacre"
  },
  {
   "id": "fau04",
@@ -107,15 +142,24 @@
   "lignee_draconique": false,
   "terrain": "Lisières de forêt, marges de désert, zones inter-tidales",
   "apparence": {
-    "silhouette": "Grand échassier élancé au cou en S, pattes fines et hautes, large envergure ; sur le sol, il avance à pas lents, cou rétracté puis lancé. En vol, les pattes pendent derrière en croix avec le corps.",
-    "trait_distinctif": "Deux longues rémiges centrales traînent derrière lui comme des rubans de braise orange qui se consument sans jamais disparaître.",
-    "trait_cle": "rubans-de-braise-caudaux",
-    "couleurs": ["blanc os", "orange braise", "gris fumée"],
-    "rappel_leger": "Grand oiseau grégaire de lisière dont les signaux de feu rassemblent le groupe.",
-    "difference_avec_ancienne": "Le plumage doré devient un blanc osseux, la chaleur étant portée par deux rubans de braise à l'arrière."
+   "silhouette": "Grand échassier élancé au cou en S, pattes fines et hautes, large envergure ; sur le sol, il avance à pas lents, cou rétracté puis lancé. En vol, les pattes pendent derrière en croix avec le corps.",
+   "trait_distinctif": "Deux longues rémiges centrales traînent derrière lui comme des rubans de braise orange qui se consument sans jamais disparaître.",
+   "trait_cle": "rubans-de-braise-caudaux",
+   "couleurs": [
+    "blanc os",
+    "orange braise",
+    "gris fumée"
+   ],
+   "rappel_leger": "Grand oiseau grégaire de lisière dont les signaux de feu rassemblent le groupe.",
+   "difference_avec_ancienne": "Le plumage doré devient un blanc osseux, la chaleur étant portée par deux rubans de braise à l'arrière."
   },
   "description_courte": "Vit en groupes de cinq à quinze, la plus grande société des Fauves Sacrés. Leurs rubans de braise servent de signaux entre lisières ; les villages riverains lisent ces feux comme une annonce de saison.",
-  "familier": {"possible": false}
+  "familier": {
+   "possible": false
+  },
+  "cle_id": "zephyrine",
+  "dressage_possible": false,
+  "ancienne_cle_id": "yian-garugarak-sacre"
  },
  {
   "id": "fau05",
@@ -130,19 +174,30 @@
   "hors_format_sprite": false,
   "element_principal": "Éther",
   "element_secondaire": null,
-  "etats_infliges": ["Éblouissement"],
+  "etats_infliges": [
+   "Éblouissement"
+  ],
   "lignee_draconique": true,
   "terrain": "Forêt primaire ancienne, sites de temples, zones à histoire magique dense",
   "apparence": {
-    "silhouette": "Très grand félin long et élégant, dos creux, membres fins et queue épaisse qui se relève en point d'interrogation. Sa tête fine est couronnée d'un halo discret de poils dressés.",
-    "trait_distinctif": "Un anneau de poils clairs, rigides comme des rayons, entoure sa tête en couronne solaire et s'allume au lever du jour.",
-    "trait_cle": "couronne-de-poils-solaire",
-    "couleurs": ["blanc d'ivoire", "or pâle", "vert mousse (marques)"],
-    "rappel_leger": "Grand félin légendaire des forêts anciennes, objet de vénération et de silence.",
-    "difference_avec_ancienne": "Le blanc-or marqué de motifs devient un pelage ivoire strié de mousse, avec une couronne de poils rayonnants autour de la tête."
+   "silhouette": "Très grand félin long et élégant, dos creux, membres fins et queue épaisse qui se relève en point d'interrogation. Sa tête fine est couronnée d'un halo discret de poils dressés.",
+   "trait_distinctif": "Un anneau de poils clairs, rigides comme des rayons, entoure sa tête en couronne solaire et s'allume au lever du jour.",
+   "trait_cle": "couronne-de-poils-solaire",
+   "couleurs": [
+    "blanc d'ivoire",
+    "or pâle",
+    "vert mousse (marques)"
+   ],
+   "rappel_leger": "Grand félin légendaire des forêts anciennes, objet de vénération et de silence.",
+   "difference_avec_ancienne": "Le blanc-or marqué de motifs devient un pelage ivoire strié de mousse, avec une couronne de poils rayonnants autour de la tête."
   },
   "description_courte": "Un seul individu par grande région, et peu l'ont vu. Les prêtres des temples disent qu'il marche à l'aube. Les pisteurs rapportent surtout une couronne de lumière entre les troncs, puis un silence.",
-  "familier": {"possible": false}
+  "familier": {
+   "possible": false
+  },
+  "cle_id": "weliandre",
+  "dressage_possible": false,
+  "ancienne_cle_id": "teostrakh"
  },
  {
   "id": "fau06",
@@ -161,25 +216,36 @@
   "lignee_draconique": true,
   "terrain": "Zones de transition entre cultures et sauvage, abords de communautés forestières",
   "apparence": {
-    "silhouette": "Félin massif aux pattes avant épaisses et à l'arrière-train plus bas, tête carrée à mâchoire forte, queue courte et touffue. Il avance en balançant l'épaule, pattes écartées comme un lutteur.",
-    "trait_distinctif": "Une crinière courte de poils bruns hérissés ne couvre que sa nuque et ses épaules, comme un col de fourrure d'ancien soldat.",
-    "trait_cle": "col-de-fourrure-sombre",
-    "couleurs": ["brun roux", "ocre rouille", "noir charbon (rayures)"],
-    "rappel_leger": "Grand félin territorial protecteur des abords de villages, calme tant qu'on ne touche pas aux siens.",
-    "difference_avec_ancienne": "Le pelage orange rayé devient un roux brun plus massif avec un col de fourrure sur la nuque, et un corps plus trapu."
+   "silhouette": "Félin massif aux pattes avant épaisses et à l'arrière-train plus bas, tête carrée à mâchoire forte, queue courte et touffue. Il avance en balançant l'épaule, pattes écartées comme un lutteur.",
+   "trait_distinctif": "Une crinière courte de poils bruns hérissés ne couvre que sa nuque et ses épaules, comme un col de fourrure d'ancien soldat.",
+   "trait_cle": "col-de-fourrure-sombre",
+   "couleurs": [
+    "brun roux",
+    "ocre rouille",
+    "noir charbon (rayures)"
+   ],
+   "rappel_leger": "Grand félin territorial protecteur des abords de villages, calme tant qu'on ne touche pas aux siens.",
+   "difference_avec_ancienne": "Le pelage orange rayé devient un roux brun plus massif avec un col de fourrure sur la nuque, et un corps plus trapu."
   },
   "description_courte": "Couple territorial attaché aux communautés voisines. Il lui suffit de s'asseoir à la lisière pour que bandits et bêtes affamées passent leur chemin. Une guilde protectrice sait nouer un lien affectif avec lui.",
   "familier": {
-    "possible": true,
-    "lien_max": "affectif",
-    "difficulte_dd": 16,
-    "roles": ["garde", "assistant_combat", "monture_terre"],
-    "aide_combat": "Il se place devant son dresseur et attire les attaques à lui par des charges d'épaule et un rugissement qui fait reculer les petites bêtes. Il enflamme brièvement ses griffes pour frapper une cible désignée.",
-    "transport": "terrestre",
-    "capacite_transport": "1 personnage",
-    "age_ideal": "Jeune adulte, lié par un programme de guilde protectrice",
-    "limite": "Territorial : il refuse de s'éloigner des communautés qu'il protège pour de longs voyages et se montre hostile aux inconnus."
-  }
+   "possible": true,
+   "lien_max": "affectif",
+   "difficulte_dd": 16,
+   "roles": [
+    "garde",
+    "assistant_combat",
+    "monture_terre"
+   ],
+   "aide_combat": "Il se place devant son dresseur et attire les attaques à lui par des charges d'épaule et un rugissement qui fait reculer les petites bêtes. Il enflamme brièvement ses griffes pour frapper une cible désignée.",
+   "transport": "terrestre",
+   "capacite_transport": "1 personnage",
+   "age_ideal": "Jeune adulte, lié par un programme de guilde protectrice",
+   "limite": "Territorial : il refuse de s'éloigner des communautés qu'il protège pour de longs voyages et se montre hostile aux inconnus."
+  },
+  "cle_id": "vantorin",
+  "dressage_possible": true,
+  "ancienne_cle_id": "brachydrak-sacre"
  },
  {
   "id": "fau07",
@@ -198,15 +264,24 @@
   "lignee_draconique": false,
   "terrain": "Zones de brouillard persistant, vallées encaissées humides",
   "apparence": {
-    "silhouette": "Énorme bovin bas sur pattes, épaules en bosse, tête portée très bas, large mufle et cornes courtes et massives vers l'avant. Marche lente, quasi rituelle.",
-    "trait_distinctif": "Des mousses et des lichens pâles poussent en bandes sur son dos et ses cornes, et gouttent de rosée en permanence.",
-    "trait_cle": "lichens-ruisselants-dorsaux",
-    "couleurs": ["gris bleu", "vert lichen", "blanc nacre (cornes)"],
-    "rappel_leger": "Colosse paisible des vallées embrumées, gardien lent et obstiné de sites chargés de souvenirs.",
-    "difference_avec_ancienne": "Le pelage humide à halo de gouttelettes devient un dos couvert de lichens ruisselants et des cornes nacrées plus courtes."
+   "silhouette": "Énorme bovin bas sur pattes, épaules en bosse, tête portée très bas, large mufle et cornes courtes et massives vers l'avant. Marche lente, quasi rituelle.",
+   "trait_distinctif": "Des mousses et des lichens pâles poussent en bandes sur son dos et ses cornes, et gouttent de rosée en permanence.",
+   "trait_cle": "lichens-ruisselants-dorsaux",
+   "couleurs": [
+    "gris bleu",
+    "vert lichen",
+    "blanc nacre (cornes)"
+   ],
+   "rappel_leger": "Colosse paisible des vallées embrumées, gardien lent et obstiné de sites chargés de souvenirs.",
+   "difference_avec_ancienne": "Le pelage humide à halo de gouttelettes devient un dos couvert de lichens ruisselants et des cornes nacrées plus courtes."
   },
   "description_courte": "Immobile, il se confond avec un rocher moussu. Mû par une lenteur délibérée, il garde des sites où il s'en souvient de tout. Les chasseurs-pisteurs préviennent : ne jamais lui barrer la route.",
-  "familier": {"possible": false}
+  "familier": {
+   "possible": false
+  },
+  "cle_id": "wimbrun",
+  "dressage_possible": false,
+  "ancienne_cle_id": "kushavar-sacre"
  },
  {
   "id": "fau08",
@@ -225,15 +300,24 @@
   "lignee_draconique": true,
   "terrain": "Anciens champs de bataille, cimetières, lieux de mort massive",
   "apparence": {
-    "silhouette": "Grand félin décharné aux membres démesurés, échine saillante, tête petite et allongée. Il marche sur la pointe des pattes, cou tendu bas, sans un bruit.",
-    "trait_distinctif": "Sa queue, très longue et nue comme un fouet d'os, se termine par une touffe de poils blancs qui luit froidement.",
-    "trait_cle": "queue-nue-a-pinceau",
-    "couleurs": ["blanc osseux", "bleu de glace", "gris de cendre"],
-    "rappel_leger": "Félin solitaire et silencieux des lieux de mort, apparition tranquille dans la brume.",
-    "difference_avec_ancienne": "Le fauve blanc lumineux de forme de guépard devient un félin décharné avec une longue queue nue à pinceau lumineux."
+   "silhouette": "Grand félin décharné aux membres démesurés, échine saillante, tête petite et allongée. Il marche sur la pointe des pattes, cou tendu bas, sans un bruit.",
+   "trait_distinctif": "Sa queue, très longue et nue comme un fouet d'os, se termine par une touffe de poils blancs qui luit froidement.",
+   "trait_cle": "queue-nue-a-pinceau",
+   "couleurs": [
+    "blanc osseux",
+    "bleu de glace",
+    "gris de cendre"
+   ],
+   "rappel_leger": "Félin solitaire et silencieux des lieux de mort, apparition tranquille dans la brume.",
+   "difference_avec_ancienne": "Le fauve blanc lumineux de forme de guépard devient un félin décharné avec une longue queue nue à pinceau lumineux."
   },
   "description_courte": "Nul ne l'entend jamais. Il traverse les champs d'anciennes batailles en ligne droite, sans chasser ni fuir. Les naturalistes le décrivent comme un passeur plus qu'un prédateur, et le plus solitaire des solitaires.",
-  "familier": {"possible": false}
+  "familier": {
+   "possible": false
+  },
+  "cle_id": "xalmene",
+  "dressage_possible": false,
+  "ancienne_cle_id": "shagaru-sacre"
  },
  {
   "id": "fau09",
@@ -252,15 +336,24 @@
   "lignee_draconique": true,
   "terrain": "Sources naturelles, bassins de montagne, zones de pluie régulière",
   "apparence": {
-    "silhouette": "Louve élancée, haute sur pattes, museau pointu et oreilles très grandes dressées. Pelage ras sur le corps, long aux pattes et à la queue en balai de gouttes.",
-    "trait_distinctif": "Ses oreilles sont translucides et veinées de bleu, avec une goutte d'eau qui s'y forme et tombe à chaque mouvement.",
-    "trait_cle": "oreilles-translucides-gouttantes",
-    "couleurs": ["bleu ardoise", "blanc de perle", "turquoise pâle"],
-    "rappel_leger": "Meute matriarcale de grands canidés des sources, appelés par les peuples arides pour la pluie.",
-    "difference_avec_ancienne": "Au lieu d'un pelage entier perlé, seules les grandes oreilles translucides gouttent, et le corps est plus effilé."
+   "silhouette": "Louve élancée, haute sur pattes, museau pointu et oreilles très grandes dressées. Pelage ras sur le corps, long aux pattes et à la queue en balai de gouttes.",
+   "trait_distinctif": "Ses oreilles sont translucides et veinées de bleu, avec une goutte d'eau qui s'y forme et tombe à chaque mouvement.",
+   "trait_cle": "oreilles-translucides-gouttantes",
+   "couleurs": [
+    "bleu ardoise",
+    "blanc de perle",
+    "turquoise pâle"
+   ],
+   "rappel_leger": "Meute matriarcale de grands canidés des sources, appelés par les peuples arides pour la pluie.",
+   "difference_avec_ancienne": "Au lieu d'un pelage entier perlé, seules les grandes oreilles translucides gouttent, et le corps est plus effilé."
   },
   "description_courte": "La matriarche, la plus affine des quatre à huit loups, guide la meute de source en source. Plusieurs cultures arides lui adressent des supplications. On ne l'a jamais vue dressée, mais souvent suivie.",
-  "familier": {"possible": false}
+  "familier": {
+   "possible": false
+  },
+  "cle_id": "welisse",
+  "dressage_possible": false,
+  "ancienne_cle_id": "zinoralk-sacre"
  },
  {
   "id": "fau10",
@@ -275,19 +368,30 @@
   "hors_format_sprite": false,
   "element_principal": "Ombre",
   "element_secondaire": null,
-  "etats_infliges": ["Paralysie"],
+  "etats_infliges": [
+   "Paralysie"
+  ],
   "lignee_draconique": true,
   "terrain": "Grottes profondes, réseaux karstiques, souterrains denses en Ombre",
   "apparence": {
-    "silhouette": "Grand canidé noir au tronc anormalement mince, côtes saillantes et ventre creusé comme un tunnel, pattes longues et tête allongée. Il se déplace par bonds légers presque sans toucher le sol.",
-    "trait_distinctif": "Un trou ovale traverse son flanc de part en part : on voit la paroi de la grotte à travers lui, bordé de poils fins.",
-    "trait_cle": "trou-traversant-le-flanc",
-    "couleurs": ["noir d'encre", "gris de roche", "bleu minéral (yeux)"],
-    "rappel_leger": "Grand prédateur solitaire des grottes, silhouette vide et inquiétante.",
-    "difference_avec_ancienne": "Le corps creux sans repère précis devient un animal percé d'un trou net au flanc, plus mince et plus long."
+   "silhouette": "Grand canidé noir au tronc anormalement mince, côtes saillantes et ventre creusé comme un tunnel, pattes longues et tête allongée. Il se déplace par bonds légers presque sans toucher le sol.",
+   "trait_distinctif": "Un trou ovale traverse son flanc de part en part : on voit la paroi de la grotte à travers lui, bordé de poils fins.",
+   "trait_cle": "trou-traversant-le-flanc",
+   "couleurs": [
+    "noir d'encre",
+    "gris de roche",
+    "bleu minéral (yeux)"
+   ],
+   "rappel_leger": "Grand prédateur solitaire des grottes, silhouette vide et inquiétante.",
+   "difference_avec_ancienne": "Le corps creux sans repère précis devient un animal percé d'un trou net au flanc, plus mince et plus long."
   },
   "description_courte": "Un par réseau karstique. Sa masse est étrangement faible pour sa taille, et les chasseurs affirment que les cavernes semblent respirer avec lui. Aucun lien n'a jamais été consigné.",
-  "familier": {"possible": false}
+  "familier": {
+   "possible": false
+  },
+  "cle_id": "zovide",
+  "dressage_possible": false,
+  "ancienne_cle_id": "deviljharak-sacre"
  },
  {
   "id": "fau11",
@@ -306,25 +410,36 @@
   "lignee_draconique": true,
   "terrain": "Abords de villages anciens, communautés de longue date, cimetières familiaux",
   "apparence": {
-    "silhouette": "Canidé de taille moyenne à poitrail large, pattes courtes et robustes, oreilles tombantes et queue fournie portée haute. Il s'assoit souvent, droit, à la lisière d'un village.",
-    "trait_distinctif": "Des cordons de fourrure tressée pendent de ses oreilles et de sa queue, noués comme des rubans portés en offrande.",
-    "trait_cle": "cordons-de-fourrure-noues",
-    "couleurs": ["brun noisette", "orange rouille", "crème"],
-    "rappel_leger": "Chien-loup gardien d'une communauté, sentinelle fidèle qui sent les liens entre ses gens.",
-    "difference_avec_ancienne": "Les fils lumineux courant dans la fourrure deviennent des cordons de fourrure tressés et noués, visibles de jour."
+   "silhouette": "Canidé de taille moyenne à poitrail large, pattes courtes et robustes, oreilles tombantes et queue fournie portée haute. Il s'assoit souvent, droit, à la lisière d'un village.",
+   "trait_distinctif": "Des cordons de fourrure tressée pendent de ses oreilles et de sa queue, noués comme des rubans portés en offrande.",
+   "trait_cle": "cordons-de-fourrure-noues",
+   "couleurs": [
+    "brun noisette",
+    "orange rouille",
+    "crème"
+   ],
+   "rappel_leger": "Chien-loup gardien d'une communauté, sentinelle fidèle qui sent les liens entre ses gens.",
+   "difference_avec_ancienne": "Les fils lumineux courant dans la fourrure deviennent des cordons de fourrure tressés et noués, visibles de jour."
   },
   "description_courte": "Un par communauté, et il sait qui s'aime. Les villageois le nourrissent à la lisière ; il reconnaît les disputes comme les réconciliations. Six liens symbiotiques ont été consignés.",
   "familier": {
-    "possible": true,
-    "lien_max": "symbiotique",
-    "difficulte_dd": 17,
-    "roles": ["garde", "pisteur", "signal"],
-    "aide_combat": "Il renifle une piste ou un compagnon perdu et guide le groupe, et il grogne pour signaler l'approche d'un danger. En combat, il mord les jambes d'un adversaire pour protéger un allié blessé.",
-    "transport": null,
-    "capacite_transport": null,
-    "age_ideal": "Adulte, déjà attaché à une communauté (6 cas documentés)",
-    "limite": "Il ne suit que si le dresseur reste lié à sa communauté d'origine : s'il s'en éloigne trop longtemps, il dépérit et revient seul."
-  }
+   "possible": true,
+   "lien_max": "symbiotique",
+   "difficulte_dd": 17,
+   "roles": [
+    "garde",
+    "pisteur",
+    "signal"
+   ],
+   "aide_combat": "Il renifle une piste ou un compagnon perdu et guide le groupe, et il grogne pour signaler l'approche d'un danger. En combat, il mord les jambes d'un adversaire pour protéger un allié blessé.",
+   "transport": null,
+   "capacite_transport": null,
+   "age_ideal": "Adulte, déjà attaché à une communauté (6 cas documentés)",
+   "limite": "Il ne suit que si le dresseur reste lié à sa communauté d'origine : s'il s'en éloigne trop longtemps, il dépérit et revient seul."
+  },
+  "cle_id": "wenlis",
+  "dressage_possible": true,
+  "ancienne_cle_id": "lagombirak-sacre"
  },
  {
   "id": "fau12",
@@ -343,25 +458,36 @@
   "lignee_draconique": true,
   "terrain": "Volcans actifs, forges anciennes, sites d'artisanat séculaires",
   "apparence": {
-    "silhouette": "Ours puissant au dos en dôme, avant-train énorme, pattes larges et museau court. Il se dresse parfois comme un forgeron au repos, bras ballants.",
-    "trait_distinctif": "Une plaque dorsale rugueuse de suie et d'obsidienne couvre son dos entre les omoplates, striée de fissures rougeoyantes.",
-    "trait_cle": "dos-d-obsidienne-fissure",
-    "couleurs": ["noir obsidienne", "rouge braise", "brun de suie"],
-    "rappel_leger": "Grand ours de volcan, compagnon d'atelier, dur à l'ouvrage et chaleureux avec les siens.",
-    "difference_avec_ancienne": "L'ours brun-roux aux griffes durcies devient un ours à dos d'obsidienne fissuré, au pelage sombre de suie."
+   "silhouette": "Ours puissant au dos en dôme, avant-train énorme, pattes larges et museau court. Il se dresse parfois comme un forgeron au repos, bras ballants.",
+   "trait_distinctif": "Une plaque dorsale rugueuse de suie et d'obsidienne couvre son dos entre les omoplates, striée de fissures rougeoyantes.",
+   "trait_cle": "dos-d-obsidienne-fissure",
+   "couleurs": [
+    "noir obsidienne",
+    "rouge braise",
+    "brun de suie"
+   ],
+   "rappel_leger": "Grand ours de volcan, compagnon d'atelier, dur à l'ouvrage et chaleureux avec les siens.",
+   "difference_avec_ancienne": "L'ours brun-roux aux griffes durcies devient un ours à dos d'obsidienne fissuré, au pelage sombre de suie."
   },
   "description_courte": "Un par grande forge. Il dort près des fours et sent le métal bon ou mauvais. Les maîtres forgerons transmettent son lien de génération en génération ; quatre forges légendaires l'ont fait.",
   "familier": {
-    "possible": true,
-    "lien_max": "affectif",
-    "difficulte_dd": 16,
-    "roles": ["assistant_combat", "garde", "recolte"],
-    "aide_combat": "Il charge à la gueule ouverte et pose ses pattes brûlantes sur une cible désignée ; il peut aussi fendre des rochers pour dégager un passage. Il se retire, essoufflé, après de gros efforts.",
-    "transport": null,
-    "capacite_transport": null,
-    "age_ideal": "Jeune adulte, lié au sein d'une forge (4 cas documentés)",
-    "limite": "Il ne quitte pas sa forge d'origine plus de quelques jours et supporte mal le froid ; il renâcle devant les inconnus."
-  }
+   "possible": true,
+   "lien_max": "affectif",
+   "difficulte_dd": 16,
+   "roles": [
+    "assistant_combat",
+    "garde",
+    "recolte"
+   ],
+   "aide_combat": "Il charge à la gueule ouverte et pose ses pattes brûlantes sur une cible désignée ; il peut aussi fendre des rochers pour dégager un passage. Il se retire, essoufflé, après de gros efforts.",
+   "transport": null,
+   "capacite_transport": null,
+   "age_ideal": "Jeune adulte, lié au sein d'une forge (4 cas documentés)",
+   "limite": "Il ne quitte pas sa forge d'origine plus de quelques jours et supporte mal le froid ; il renâcle devant les inconnus."
+  },
+  "cle_id": "vassemar",
+  "dressage_possible": true,
+  "ancienne_cle_id": "graviosrak-sacre"
  },
  {
   "id": "fau13",
@@ -376,19 +502,30 @@
   "hors_format_sprite": false,
   "element_principal": "Foudre",
   "element_secondaire": null,
-  "etats_infliges": ["Paralysie"],
+  "etats_infliges": [
+   "Paralysie"
+  ],
   "lignee_draconique": true,
   "terrain": "Hauts plateaux venteux, zones d'orage, crêtes de montagne",
   "apparence": {
-    "silhouette": "Grand félin sec et haut, ventre étroit, long cou, tête fine et queue en fouet. Il se tient souvent immobile, tête haute, face au vent, comme un juge sur son estrade.",
-    "trait_distinctif": "Deux longues vibrisses métalliques sortent de chaque côté de son museau, rigides comme des tiges, et crépitent d'étincelles.",
-    "trait_cle": "vibrisses-en-tiges-metalliques",
-    "couleurs": ["gris argent", "bleu électrique", "noir d'orage"],
-    "rappel_leger": "Grand félin des crêtes dont les éclairs rendent le verdict, figure de serment et de jugement.",
-    "difference_avec_ancienne": "Les filaments lumineux courant dans le pelage deviennent de longues vibrisses de métal crépitantes autour du museau."
+   "silhouette": "Grand félin sec et haut, ventre étroit, long cou, tête fine et queue en fouet. Il se tient souvent immobile, tête haute, face au vent, comme un juge sur son estrade.",
+   "trait_distinctif": "Deux longues vibrisses métalliques sortent de chaque côté de son museau, rigides comme des tiges, et crépitent d'étincelles.",
+   "trait_cle": "vibrisses-en-tiges-metalliques",
+   "couleurs": [
+    "gris argent",
+    "bleu électrique",
+    "noir d'orage"
+   ],
+   "rappel_leger": "Grand félin des crêtes dont les éclairs rendent le verdict, figure de serment et de jugement.",
+   "difference_avec_ancienne": "Les filaments lumineux courant dans le pelage deviennent de longues vibrisses de métal crépitantes autour du museau."
   },
   "description_courte": "Les tribus des plateaux la prennent à témoin de leurs serments. Les éclairs qu'elle appelle semblent ne frapper que les parjures. Parfois deux se retrouvent pour juger, sans qu'on sache qui est jugé.",
-  "familier": {"possible": false}
+  "familier": {
+   "possible": false
+  },
+  "cle_id": "zeviane",
+  "dressage_possible": false,
+  "ancienne_cle_id": "espivarn-sacre"
  },
  {
   "id": "fau14",
@@ -407,15 +544,24 @@
   "lignee_draconique": true,
   "terrain": "Forêts primaires de grande ancienneté, lieux dits \"cœur du monde\"",
   "apparence": {
-    "silhouette": "Immense serpent sans membres, mince pour sa longueur, qui s'enroule en spirale autour d'un tronc comme une liane. La tête, plate et sage, repose au sommet de la spire, à hauteur d'homme.",
-    "trait_distinctif": "Son dos porte une ligne continue de petites pousses d'arbre et de champignons nacrés, comme une forêt miniature qui voyage avec lui.",
-    "trait_cle": "forets-miniatures-sur-le-dos",
-    "couleurs": ["vert mousse", "brun d'écorce", "blanc nacré"],
-    "rappel_leger": "Serpent géant et sage des forêts anciennes, oracle plus que prédateur.",
-    "difference_avec_ancienne": "Le serpent nu devient un serpent couvert d'une ligne de jeunes arbres et champignons sur le dos, coloré de mousses."
+   "silhouette": "Immense serpent sans membres, mince pour sa longueur, qui s'enroule en spirale autour d'un tronc comme une liane. La tête, plate et sage, repose au sommet de la spire, à hauteur d'homme.",
+   "trait_distinctif": "Son dos porte une ligne continue de petites pousses d'arbre et de champignons nacrés, comme une forêt miniature qui voyage avec lui.",
+   "trait_cle": "forets-miniatures-sur-le-dos",
+   "couleurs": [
+    "vert mousse",
+    "brun d'écorce",
+    "blanc nacré"
+   ],
+   "rappel_leger": "Serpent géant et sage des forêts anciennes, oracle plus que prédateur.",
+   "difference_avec_ancienne": "Le serpent nu devient un serpent couvert d'une ligne de jeunes arbres et champignons sur le dos, coloré de mousses."
   },
   "description_courte": "Les naturalistes se disputent depuis deux siècles pour le classer parmi les Fauves. Vivant à l'écart, il laisse venir ceux qui cherchent conseil. On le consulte comme on consulterait un très vieil arbre.",
-  "familier": {"possible": false}
+  "familier": {
+   "possible": false
+  },
+  "cle_id": "ysophene",
+  "dressage_possible": false,
+  "ancienne_cle_id": "uktanarak-sacre"
  },
  {
   "id": "fau15",
@@ -430,29 +576,42 @@
   "hors_format_sprite": false,
   "element_principal": "Neutre",
   "element_secondaire": null,
-  "etats_infliges": ["Saignée"],
+  "etats_infliges": [
+   "Saignée"
+  ],
   "lignee_draconique": true,
   "terrain": "Forêts denses, savanes, prairies riches en proies",
   "apparence": {
-    "silhouette": "Grand félin tout en muscle, dos horizontal, cou épais, tête grosse et pattes ramassées. Il avance bas, épaules roulant, la queue tendue au ras du sol.",
-    "trait_distinctif": "Des rayures sombres en chevrons dessinent sur son dos une suite de flèches orientées vers sa tête.",
-    "trait_cle": "rayures-en-chevrons-fleches",
-    "couleurs": ["fauve terne", "brun chocolat", "ambre (yeux)"],
-    "rappel_leger": "Grand félin solitaire à l'affût, la plus pure incarnation du prédateur.",
-    "difference_avec_ancienne": "Le félin rayé banal devient un fauve à chevrons fléchés sur le dos, plus trapu et d'un fauve plus terne."
+   "silhouette": "Grand félin tout en muscle, dos horizontal, cou épais, tête grosse et pattes ramassées. Il avance bas, épaules roulant, la queue tendue au ras du sol.",
+   "trait_distinctif": "Des rayures sombres en chevrons dessinent sur son dos une suite de flèches orientées vers sa tête.",
+   "trait_cle": "rayures-en-chevrons-fleches",
+   "couleurs": [
+    "fauve terne",
+    "brun chocolat",
+    "ambre (yeux)"
+   ],
+   "rappel_leger": "Grand félin solitaire à l'affût, la plus pure incarnation du prédateur.",
+   "difference_avec_ancienne": "Le félin rayé banal devient un fauve à chevrons fléchés sur le dos, plus trapu et d'un fauve plus terne."
   },
   "description_courte": "Territoire immense, proies abondantes. Il ne joue pas, ne défend rien : il chasse. Trois guildes de chasse ont conditionné des sujets, à force de patience et de discipline plus que d'affection.",
   "familier": {
-    "possible": true,
-    "lien_max": "conditionne",
-    "difficulte_dd": 16,
-    "roles": ["assistant_combat", "pisteur", "monture_terre"],
-    "aide_combat": "Il suit une piste, se jette sur une cible isolée et la plaque au sol, ouvrant une brèche à son maître. Il s'arrête sur un ordre et peut être mis K.O. par fatigue.",
-    "transport": "terrestre",
-    "capacite_transport": "1 personnage",
-    "age_ideal": "Jeune sujet conditionné en guilde de chasse (3 cas documentés)",
-    "limite": "Le conditionnement n'est qu'une laisse : sans entraînement régulier, il régresse et redevient un prédateur solitaire."
-  }
+   "possible": true,
+   "lien_max": "conditionne",
+   "difficulte_dd": 16,
+   "roles": [
+    "assistant_combat",
+    "pisteur",
+    "monture_terre"
+   ],
+   "aide_combat": "Il suit une piste, se jette sur une cible isolée et la plaque au sol, ouvrant une brèche à son maître. Il s'arrête sur un ordre et peut être mis K.O. par fatigue.",
+   "transport": "terrestre",
+   "capacite_transport": "1 personnage",
+   "age_ideal": "Jeune sujet conditionné en guilde de chasse (3 cas documentés)",
+   "limite": "Le conditionnement n'est qu'une laisse : sans entraînement régulier, il régresse et redevient un prédateur solitaire."
+  },
+  "cle_id": "xarvane",
+  "dressage_possible": true,
+  "ancienne_cle_id": "tigrarak-sacre"
  },
  {
   "id": "fau16",
@@ -471,25 +630,36 @@
   "lignee_draconique": true,
   "terrain": "Forêts à sources pures, zones de végétation médicinale, abords de lieux de soin",
   "apparence": {
-    "silhouette": "Grand cervidé gracile, cou long, pattes fines, tête fine à grandes oreilles. Les bois sont courts et recourbés vers l'arrière, comme des feuilles de saule.",
-    "trait_distinctif": "Un petit bassin naturel se forme dans le creux de ses bois recourbés et déborde en filets qui dessinent des larmes sur ses flancs.",
-    "trait_cle": "bois-en-coupe-debordante",
-    "couleurs": ["blanc crème", "vert d'eau", "rose pâle (naseaux)"],
-    "rappel_leger": "Grand cervidé guérisseur des forêts à sources, dont la seule présence apaise.",
-    "difference_avec_ancienne": "Les bois translucides lumineux deviennent des bois courts en coupe qui retiennent l'eau, et la lumière verte disparaît."
+   "silhouette": "Grand cervidé gracile, cou long, pattes fines, tête fine à grandes oreilles. Les bois sont courts et recourbés vers l'arrière, comme des feuilles de saule.",
+   "trait_distinctif": "Un petit bassin naturel se forme dans le creux de ses bois recourbés et déborde en filets qui dessinent des larmes sur ses flancs.",
+   "trait_cle": "bois-en-coupe-debordante",
+   "couleurs": [
+    "blanc crème",
+    "vert d'eau",
+    "rose pâle (naseaux)"
+   ],
+   "rappel_leger": "Grand cervidé guérisseur des forêts à sources, dont la seule présence apaise.",
+   "difference_avec_ancienne": "Les bois translucides lumineux deviennent des bois courts en coupe qui retiennent l'eau, et la lumière verte disparaît."
   },
   "description_courte": "Couple stable ; quatre individus rassemblés sur les sites de guérison. L'eau de ses bois soulage fièvres et plaies. Les programmes médicaux savent nouer un lien affectif avec elle.",
   "familier": {
-    "possible": true,
-    "lien_max": "affectif",
-    "difficulte_dd": 15,
-    "roles": ["soin", "eclaireur", "recolte"],
-    "aide_combat": "Elle verse l'eau de ses bois sur un allié blessé pour refermer ses plaies et dissipe les poisons légers. Elle se tient à l'écart de la mêlée et fuit si le combat l'atteint.",
-    "transport": null,
-    "capacite_transport": null,
-    "age_ideal": "Adulte, sur un site de guérison (programmes médicaux documentés)",
-    "limite": "Fragile et craintive : elle ne se bat pas, et son eau perd son pouvoir si elle est loin des forêts à sources pures."
-  }
+   "possible": true,
+   "lien_max": "affectif",
+   "difficulte_dd": 15,
+   "roles": [
+    "soin",
+    "eclaireur",
+    "recolte"
+   ],
+   "aide_combat": "Elle verse l'eau de ses bois sur un allié blessé pour refermer ses plaies et dissipe les poisons légers. Elle se tient à l'écart de la mêlée et fuit si le combat l'atteint.",
+   "transport": null,
+   "capacite_transport": null,
+   "age_ideal": "Adulte, sur un site de guérison (programmes médicaux documentés)",
+   "limite": "Fragile et craintive : elle ne se bat pas, et son eau perd son pouvoir si elle est loin des forêts à sources pures."
+  },
+  "cle_id": "verandine",
+  "dressage_possible": true,
+  "ancienne_cle_id": "mizurak-sacre"
  },
  {
   "id": "fau17",
@@ -508,15 +678,24 @@
   "lignee_draconique": true,
   "terrain": "Lieux sacrés anciens, temples en ruine, zones de lignes de pouvoir",
   "apparence": {
-    "silhouette": "Serpent moyen aux anneaux hauts, qui se tient dressé en S devant son visiteur, tête arrondie et ventre pâle ; les anneaux se lisent comme un ressort en ombre chinoise.",
-    "trait_distinctif": "Une double rangée de clochettes de corne court sur sa queue et tinte quand les lignes de pouvoir vibrent.",
-    "trait_cle": "queue-a-clochettes-de-corne",
-    "couleurs": ["bleu paon", "or terni", "blanc lait"],
-    "rappel_leger": "Serpent oraculaire des temples ruinés, sage et distant, qui parle par signes.",
-    "difference_avec_ancienne": "Le serpent à crête de plumes devient un serpent lisse dont la queue porte des clochettes de corne."
+   "silhouette": "Serpent moyen aux anneaux hauts, qui se tient dressé en S devant son visiteur, tête arrondie et ventre pâle ; les anneaux se lisent comme un ressort en ombre chinoise.",
+   "trait_distinctif": "Une double rangée de clochettes de corne court sur sa queue et tinte quand les lignes de pouvoir vibrent.",
+   "trait_cle": "queue-a-clochettes-de-corne",
+   "couleurs": [
+    "bleu paon",
+    "or terni",
+    "blanc lait"
+   ],
+   "rappel_leger": "Serpent oraculaire des temples ruinés, sage et distant, qui parle par signes.",
+   "difference_avec_ancienne": "Le serpent à crête de plumes devient un serpent lisse dont la queue porte des clochettes de corne."
   },
   "description_courte": "Seul dans ses ruines, il répond aux visiteurs par des tintements dont les prêtres tirent des présages. Les lignes de pouvoir le font vibrer ; on se tait devant lui.",
-  "familier": {"possible": false}
+  "familier": {
+   "possible": false
+  },
+  "cle_id": "zyphoe",
+  "dressage_possible": false,
+  "ancienne_cle_id": "astalosark-sacre"
  },
  {
   "id": "fau18",
@@ -535,15 +714,24 @@
   "lignee_draconique": true,
   "terrain": "Cimetières anciens, nécropoles, lieux de mémoire des disparus",
   "apparence": {
-    "silhouette": "Grand canidé gris maigre, tête un peu basse, long museau, grandes pattes. Son ombre portée est plus longue que lui et ne suit pas toujours son mouvement.",
-    "trait_distinctif": "Il porte deux queues de longueur inégale, l'une réelle et l'autre pâle et translucide, qui se balancent à contretemps.",
-    "trait_cle": "double-queue-translucide",
-    "couleurs": ["gris de plomb", "blanc de cire", "vert de lune (yeux)"],
-    "rappel_leger": "Canidé gardien des lieux de mort, à la frontière entre les vivants et les disparus.",
-    "difference_avec_ancienne": "Le corps entier dédoublé en image fantôme devient un canidé à double queue, dont la seconde est translucide."
+   "silhouette": "Grand canidé gris maigre, tête un peu basse, long museau, grandes pattes. Son ombre portée est plus longue que lui et ne suit pas toujours son mouvement.",
+   "trait_distinctif": "Il porte deux queues de longueur inégale, l'une réelle et l'autre pâle et translucide, qui se balancent à contretemps.",
+   "trait_cle": "double-queue-translucide",
+   "couleurs": [
+    "gris de plomb",
+    "blanc de cire",
+    "vert de lune (yeux)"
+   ],
+   "rappel_leger": "Canidé gardien des lieux de mort, à la frontière entre les vivants et les disparus.",
+   "difference_avec_ancienne": "Le corps entier dédoublé en image fantôme devient un canidé à double queue, dont la seconde est translucide."
   },
   "description_courte": "Couple stable des nécropoles, il garde les tombes ancestrales. On dit qu'il distingue les vivants des morts à l'odeur. Les pisteurs évitent de croiser sa seconde queue.",
-  "familier": {"possible": false}
+  "familier": {
+   "possible": false
+  },
+  "cle_id": "vesperan",
+  "dressage_possible": false,
+  "ancienne_cle_id": "chamelarak-sacre"
  },
  {
   "id": "fau19",
@@ -562,25 +750,36 @@
   "lignee_draconique": true,
   "terrain": "Zones agricoles anciennes, jardins, vergers centenaires",
   "apparence": {
-    "silhouette": "Bête ronde et robuste sur pattes courtes, cou épais et barbiche ; les cornes forment une lyre double dressée au-dessus du front. Elle se déplace en troupeau serré, tête basse.",
-    "trait_distinctif": "Ses cornes sont translucides, vert tendre, et abritent des petites graines visibles qui roulent à l'intérieur quand elle remue la tête.",
-    "trait_cle": "cornes-lyre-aux-graines",
-    "couleurs": ["brun noisette", "vert tendre", "crème"],
-    "rappel_leger": "Petit herbivore grégaire des vergers, docile et utile aux cultivateurs.",
-    "difference_avec_ancienne": "Les cornes spiralées de cristal deviennent des cornes en lyre creuses contenant des graines, et le pelage est plus noisette."
+   "silhouette": "Bête ronde et robuste sur pattes courtes, cou épais et barbiche ; les cornes forment une lyre double dressée au-dessus du front. Elle se déplace en troupeau serré, tête basse.",
+   "trait_distinctif": "Ses cornes sont translucides, vert tendre, et abritent des petites graines visibles qui roulent à l'intérieur quand elle remue la tête.",
+   "trait_cle": "cornes-lyre-aux-graines",
+   "couleurs": [
+    "brun noisette",
+    "vert tendre",
+    "crème"
+   ],
+   "rappel_leger": "Petit herbivore grégaire des vergers, docile et utile aux cultivateurs.",
+   "difference_avec_ancienne": "Les cornes spiralées de cristal deviennent des cornes en lyre creuses contenant des graines, et le pelage est plus noisette."
   },
   "description_courte": "Troupeau de huit à vingt têtes qui suit les circuits des vergers et fertilise sur son passage. Le plus accessible des Fauves Sacrés : les cultivateurs s'en servent depuis des générations.",
   "familier": {
-    "possible": true,
-    "lien_max": "conditionne",
-    "difficulte_dd": 10,
-    "roles": ["bete_de_somme", "recolte", "signal"],
-    "aide_combat": "Elle ne combat guère : elle distrait l'ennemi en bêlant et en se plaçant devant les blessés. Ses cornes libèrent des graines qui font germer un peu de couvert végétal.",
-    "transport": "terrestre",
-    "capacite_transport": "groupe de 2-4",
-    "age_ideal": "Jeune, élevée en troupeau avec les cultivateurs",
-    "limite": "Peureuse et lente : elle n'accompagne pas en terrain hostile et dépérit loin de son troupeau et des cultures."
-  }
+   "possible": true,
+   "lien_max": "conditionne",
+   "difficulte_dd": 10,
+   "roles": [
+    "bete_de_somme",
+    "recolte",
+    "signal"
+   ],
+   "aide_combat": "Elle ne combat guère : elle distrait l'ennemi en bêlant et en se plaçant devant les blessés. Ses cornes libèrent des graines qui font germer un peu de couvert végétal.",
+   "transport": "terrestre",
+   "capacite_transport": "groupe de 2-4",
+   "age_ideal": "Jeune, élevée en troupeau avec les cultivateurs",
+   "limite": "Peureuse et lente : elle n'accompagne pas en terrain hostile et dépérit loin de son troupeau et des cultures."
+  },
+  "cle_id": "virelin",
+  "dressage_possible": true,
+  "ancienne_cle_id": "pukurak-sacre"
  },
  {
   "id": "fau20",
@@ -599,15 +798,24 @@
   "lignee_draconique": true,
   "terrain": "Carrefours multiples, marchés permanents, lieux d'interactions denses",
   "apparence": {
-    "silhouette": "Félin souple aux pattes longues et à l'arrière-train haut, tête petite, oreilles pointues. Sa démarche est irrégulière, elle s'arrête et repart sans raison apparente.",
-    "trait_distinctif": "Ses taches sont de petites formes de dés, de pièces et de clefs qui se déplacent lentement sur son pelage en une journée.",
-    "trait_cle": "taches-en-des-et-pieces",
-    "couleurs": ["jaune paille", "brun doré", "noir d'encre (taches)"],
-    "rappel_leger": "Félin tacheté des marchés, présence imprévisible qui fait le hasard.",
-    "difference_avec_ancienne": "Les taches abstraites qui se redistribuent deviennent de petits motifs de dés, de pièces et de clefs qui glissent sur la robe."
+   "silhouette": "Félin souple aux pattes longues et à l'arrière-train haut, tête petite, oreilles pointues. Sa démarche est irrégulière, elle s'arrête et repart sans raison apparente.",
+   "trait_distinctif": "Ses taches sont de petites formes de dés, de pièces et de clefs qui se déplacent lentement sur son pelage en une journée.",
+   "trait_cle": "taches-en-des-et-pieces",
+   "couleurs": [
+    "jaune paille",
+    "brun doré",
+    "noir d'encre (taches)"
+   ],
+   "rappel_leger": "Félin tacheté des marchés, présence imprévisible qui fait le hasard.",
+   "difference_avec_ancienne": "Les taches abstraites qui se redistribuent deviennent de petits motifs de dés, de pièces et de clefs qui glissent sur la robe."
   },
   "description_courte": "Un par place de marché majeure. Les marchands la jugent porte-bonheur, mais ses taches changent de forme et de place : nul ne s'y fie. Elle ne cherche personne, et ne s'en va pas.",
-  "familier": {"possible": false}
+  "familier": {
+   "possible": false
+  },
+  "cle_id": "zardelle",
+  "dressage_possible": false,
+  "ancienne_cle_id": "chaosrak-sacre"
  },
  {
   "id": "fau21",
@@ -622,29 +830,43 @@
   "hors_format_sprite": false,
   "element_principal": "Neutre",
   "element_secondaire": null,
-  "etats_infliges": ["Sommeil"],
+  "etats_infliges": [
+   "Sommeil"
+  ],
   "lignee_draconique": true,
   "terrain": "Abords de villages avec enfants, écoles, espaces de jeu établis",
   "apparence": {
-    "silhouette": "Grande lionne ramassée, tête ronde et rassurante, épaules larges, ventre bas. Elle se couche volontiers en demi-cercle, queue ramenée autour d'une aire de jeu.",
-    "trait_distinctif": "Son pelage ventral est rose pâle et très duveteux, avec une poche de fourrure en creux sous le poitrail, comme un nid souple.",
-    "trait_cle": "poche-de-fourrure-ventrale",
-    "couleurs": ["beige sable", "rose pâle", "crème laine"],
-    "rappel_leger": "Grande lionne protectrice des enfants, douce mais redoutable si on les menace.",
-    "difference_avec_ancienne": "La lionne au ronronnement devient une lionne ramassée avec une poche de fourrure rose sous le poitrail."
+   "silhouette": "Grande lionne ramassée, tête ronde et rassurante, épaules larges, ventre bas. Elle se couche volontiers en demi-cercle, queue ramenée autour d'une aire de jeu.",
+   "trait_distinctif": "Son pelage ventral est rose pâle et très duveteux, avec une poche de fourrure en creux sous le poitrail, comme un nid souple.",
+   "trait_cle": "poche-de-fourrure-ventrale",
+   "couleurs": [
+    "beige sable",
+    "rose pâle",
+    "crème laine"
+   ],
+   "rappel_leger": "Grande lionne protectrice des enfants, douce mais redoutable si on les menace.",
+   "difference_avec_ancienne": "La lionne au ronronnement devient une lionne ramassée avec une poche de fourrure rose sous le poitrail."
   },
   "description_courte": "Lionne protectrice des villages avec enfants : les petits dorment contre elle. Gare à qui s'approche trop. Son lien affectif est le plus souvent consigné des Fauves Sacrés.",
   "familier": {
-    "possible": true,
-    "lien_max": "affectif",
-    "difficulte_dd": 14,
-    "roles": ["garde", "soin", "assistant_combat", "monture_terre"],
-    "aide_combat": "Elle protège un allié affaibli en s'interposant et endort un ennemi par son ronronnement grave. Elle réconforte les blessés pour accélérer leur récupération après la chasse.",
-    "transport": "terrestre",
-    "capacite_transport": "1 personnage",
-    "age_ideal": "Adulte, lié à une communauté avec enfants",
-    "limite": "Elle refuse de s'éloigner des enfants de sa communauté et devient féroce dès qu'un petit est en danger, au risque de ne plus obéir."
-  }
+   "possible": true,
+   "lien_max": "affectif",
+   "difficulte_dd": 14,
+   "roles": [
+    "garde",
+    "soin",
+    "assistant_combat",
+    "monture_terre"
+   ],
+   "aide_combat": "Elle protège un allié affaibli en s'interposant et endort un ennemi par son ronronnement grave. Elle réconforte les blessés pour accélérer leur récupération après la chasse.",
+   "transport": "terrestre",
+   "capacite_transport": "1 personnage",
+   "age_ideal": "Adulte, lié à une communauté avec enfants",
+   "limite": "Elle refuse de s'éloigner des enfants de sa communauté et devient féroce dès qu'un petit est en danger, au risque de ne plus obéir."
+  },
+  "cle_id": "velouine",
+  "dressage_possible": true,
+  "ancienne_cle_id": "namurak-sacre"
  },
  {
   "id": "fau22",
@@ -663,15 +885,24 @@
   "lignee_draconique": true,
   "terrain": "Marais gelés, étangs immobiles en hiver, lacs de montagne gelés",
   "apparence": {
-    "silhouette": "Oiseau de rivage à longs doigts et gros bec court, ramassé, cou enfoncé, ailes larges. Il reste debout sur un pied, comme une statue au milieu de la glace.",
-    "trait_distinctif": "Une longue huppe de plumes cristallines retombe sur sa nuque en cascade et tinte quand il bouge.",
-    "trait_cle": "huppe-de-cristal-cascade",
-    "couleurs": ["blanc givré", "bleu pervenche", "gris d'étain"],
-    "rappel_leger": "Grand oiseau des marais pris par le gel, contemplatif, immobile des heures.",
-    "difference_avec_ancienne": "Le héron élancé à plumes cristallines devient un oiseau trapu à gros bec et huppe de cristal retombante."
+   "silhouette": "Oiseau de rivage à longs doigts et gros bec court, ramassé, cou enfoncé, ailes larges. Il reste debout sur un pied, comme une statue au milieu de la glace.",
+   "trait_distinctif": "Une longue huppe de plumes cristallines retombe sur sa nuque en cascade et tinte quand il bouge.",
+   "trait_cle": "huppe-de-cristal-cascade",
+   "couleurs": [
+    "blanc givré",
+    "bleu pervenche",
+    "gris d'étain"
+   ],
+   "rappel_leger": "Grand oiseau des marais pris par le gel, contemplatif, immobile des heures.",
+   "difference_avec_ancienne": "Le héron élancé à plumes cristallines devient un oiseau trapu à gros bec et huppe de cristal retombante."
   },
   "description_courte": "Solitaire, il guette des heures sur la glace d'un étang. Les rencontres entre individus sont rares. Les contemplatifs disent qu'il arrête le temps ; les chasseurs, qu'il arrête surtout leurs flèches.",
-  "familier": {"possible": false}
+  "familier": {
+   "possible": false
+  },
+  "cle_id": "yvernelle",
+  "dressage_possible": false,
+  "ancienne_cle_id": "kulusarak-sacre"
  },
  {
   "id": "fau23",
@@ -690,14 +921,23 @@
   "lignee_draconique": true,
   "terrain": "Zones de silence : hautes altitudes, vallées isolées, bibliothèques anciennes",
   "apparence": {
-    "silhouette": "Grande panthère basse, souple, au long dos et aux pattes épaisses, tête ronde et petites oreilles. Elle glisse au sol comme de l'eau noire, la queue ramenée le long du flanc.",
-    "trait_distinctif": "Ses larges coussinets sont bordés d'une frange de poils gris touffus, comme des chaussons, et l'extrémité de sa queue est blanche.",
-    "trait_cle": "pattes-en-chaussons-de-poils",
-    "couleurs": ["noir velours", "gris de brume", "blanc neige (bout de queue)"],
-    "rappel_leger": "Grand félin noir, silencieux, qui apaise les lieux de recueillement.",
-    "difference_avec_ancienne": "La panthère noire unie reçoit des pattes en chaussons de poils gris et un bout de queue blanc."
+   "silhouette": "Grande panthère basse, souple, au long dos et aux pattes épaisses, tête ronde et petites oreilles. Elle glisse au sol comme de l'eau noire, la queue ramenée le long du flanc.",
+   "trait_distinctif": "Ses larges coussinets sont bordés d'une frange de poils gris touffus, comme des chaussons, et l'extrémité de sa queue est blanche.",
+   "trait_cle": "pattes-en-chaussons-de-poils",
+   "couleurs": [
+    "noir velours",
+    "gris de brume",
+    "blanc neige (bout de queue)"
+   ],
+   "rappel_leger": "Grand félin noir, silencieux, qui apaise les lieux de recueillement.",
+   "difference_avec_ancienne": "La panthère noire unie reçoit des pattes en chaussons de poils gris et un bout de queue blanc."
   },
   "description_courte": "Un seul par dix kilomètres à la ronde. Autour d'elle, les bruits semblent s'éteindre ; seul son souffle fait entendre ce silence. On la trouve en altitude ou dans les anciennes bibliothèques.",
-  "familier": {"possible": false}
+  "familier": {
+   "possible": false
+  },
+  "cle_id": "yoluve",
+  "dressage_possible": false,
+  "ancienne_cle_id": "vaytarak-sacre"
  }
 ]

@@ -30,7 +30,10 @@
   "description_courte": "Les pisteurs la repèrent à ses lanternes qui pulsent sous la vase des estuaires. Chaque décharge éclaire les eaux troubles. Territoire strict, aucune tolérance envers ses semblables.",
   "familier": {
    "possible": false
-  }
+  },
+  "cle_id": "quiverne",
+  "dressage_possible": false,
+  "ancienne_cle_id": "lagiacrak"
  },
  {
   "id": "lev02",
@@ -63,7 +66,10 @@
   "description_courte": "Le plus familier des grands marins : son harpon investit les ports secondaires et les zones de pêche. Le mâle ouvre sa collerette pour intimider avant de charger, et les femelles encerclent la cible.",
   "familier": {
    "possible": false
-  }
+  },
+  "cle_id": "pontelin",
+  "dressage_possible": false,
+  "ancienne_cle_id": "ludrothrak"
  },
  {
   "id": "lev03",
@@ -96,7 +102,10 @@
   "description_courte": "Terreur millénaire des fleuves : on ne le distingue d'un tronc qu'à la fumée qui sort de son dos. Son gaz s'enflamme au contact de l'air. Cuirasse comparable à l'acier selon les forgerons.",
   "familier": {
    "possible": false
-  }
+  },
+  "cle_id": "ronveal",
+  "dressage_possible": false,
+  "ancienne_cle_id": "gobulrak"
  },
  {
   "id": "lev04",
@@ -129,7 +138,10 @@
   "description_courte": "Source de tous les récits de monstres de lac. Seul son cou s'élève de la brume, frangé comme une fibre filée. Un seul individu par lac assez profond. Vertèbres très prisées des ingénieurs.",
   "familier": {
    "possible": false
-  }
+  },
+  "cle_id": "quenouille",
+  "dressage_possible": false,
+  "ancienne_cle_id": "plesiogarak"
  },
  {
   "id": "lev05",
@@ -162,7 +174,10 @@
   "description_courte": "Plus grand des Léviathans : 18 m, 30 à 40 tonnes. Un couple règne sur des milliers de km². Sa chambre interne bout l'eau en continu, et les ingénieurs navals rêvent de la mettre en machine.",
   "familier": {
    "possible": false
-  }
+  },
+  "cle_id": "ponantis",
+  "dressage_possible": false,
+  "ancienne_cle_id": "ceadeurak"
  },
  {
   "id": "lev06",
@@ -208,7 +223,10 @@
    "capacite_transport": null,
    "age_ideal": "Juvénile tiré d'une source",
    "limite": "Reste lié à l'eau pure et fragile hors de l'eau ; le dressage exige une patience extrême."
-  }
+  },
+  "cle_id": "rainette",
+  "dressage_possible": true,
+  "ancienne_cle_id": "mizutsugarak"
  },
  {
   "id": "lev07",
@@ -241,7 +259,10 @@
   "description_courte": "Presque impossible à distinguer sans formation : sa boue et ses roseaux sont vivants. Lorsque le marais bouge, il est déjà trop tard. Ses écailles à micro-crochets retiennent la végétation.",
   "familier": {
    "possible": false
-  }
+  },
+  "cle_id": "ruchevase",
+  "dressage_possible": false,
+  "ancienne_cle_id": "jyuratodrak"
  },
  {
   "id": "lev08",
@@ -285,7 +306,10 @@
    "capacite_transport": "1 personnage",
    "age_ideal": "Œuf ou juvénile",
    "limite": "Cantonné aux eaux courantes ; la chaleur de sa carapace le rend dangereux à manipuler."
-  }
+  },
+  "cle_id": "poterne",
+  "dressage_possible": true,
+  "ancienne_cle_id": "volvidonrak"
  },
  {
   "id": "lev09",
@@ -318,7 +342,10 @@
   "description_courte": "Créature la plus profonde du catalogue, rôdeur à 2 500 m de fond. Il leurre ses proies avec sa lampe, puis les détecte à 300 m par son organe de pression. Solitaire absolu.",
   "familier": {
    "possible": false
-  }
+  },
+  "cle_id": "pharelune",
+  "dressage_possible": false,
+  "ancienne_cle_id": "namaiirak"
  },
  {
   "id": "lev10",
@@ -353,7 +380,10 @@
   "description_courte": "Sa peau jaune se fond dans les lacs d'acide où il vit seul. Il crache un jet qui dissout la pierre. La glande acide est irremplaçable pour la gravure alchimique.",
   "familier": {
    "possible": false
-  }
+  },
+  "cle_id": "pyrisse",
+  "dressage_possible": false,
+  "ancienne_cle_id": "uroktarak"
  },
  {
   "id": "lev11",
@@ -386,7 +416,10 @@
   "description_courte": "Habitant des couloirs d'eau de fonte à -8°C, il nage dans une obscurité totale. Ses nodules cristallins, produits à l'intérieur, sont une réserve d'énergie dragonne stable.",
   "familier": {
    "possible": false
-  }
+  },
+  "cle_id": "rimaille",
+  "dressage_possible": false,
+  "ancienne_cle_id": "glaciarak"
  },
  {
   "id": "lev12",
@@ -419,7 +452,10 @@
   "description_courte": "Ses eaux de vie atteignent 80°C : elle repousse les limites thermiques du Bestiaire. Ses plaques de silicium sifflent en vapeur. Matière à mi-chemin de l'écaille et de la céramique.",
   "familier": {
    "possible": false
-  }
+  },
+  "cle_id": "ponceline",
+  "dressage_possible": false,
+  "ancienne_cle_id": "agnaktorak"
  },
  {
   "id": "lev13",
@@ -452,7 +488,10 @@
   "description_courte": "Il bondit hors de l'eau, plane 60 à 90 secondes à 40 m d'altitude, puis retombe avec ses spores chargés d'électricité statique. Ses ailes sont uniques dans le groupe.",
   "familier": {
    "possible": false
-  }
+  },
+  "cle_id": "papilonde",
+  "dressage_possible": false,
+  "ancienne_cle_id": "bazelgarak"
  },
  {
   "id": "lev14",
@@ -496,7 +535,10 @@
    "capacite_transport": null,
    "age_ideal": "Juvénile",
    "limite": "Reste attaché à son tronçon de fleuve ; il ne suit le dresseur que sur un cours d'eau connu."
-  }
+  },
+  "cle_id": "quietin",
+  "dressage_possible": true,
+  "ancienne_cle_id": "zamtrirak"
  },
  {
   "id": "lev15",
@@ -531,7 +573,10 @@
   "description_courte": "Elle règne dans les rivières couleur de thé : le tanin masque son corps et son poison. Chasseuse solitaire. Ses morsures laissent un poison végétal lent.",
   "familier": {
    "possible": false
-  }
+  },
+  "cle_id": "reglisse",
+  "dressage_possible": false,
+  "ancienne_cle_id": "dobogaromak"
  },
  {
   "id": "lev16",
@@ -575,7 +620,10 @@
    "capacite_transport": "groupe de 2-4",
    "age_ideal": "Juvénile",
    "limite": "Ne quitte pas les eaux d'estuaire et ses abords ; trop lent pour une longue traversée en haute mer."
-  }
+  },
+  "cle_id": "pressoir",
+  "dressage_possible": true,
+  "ancienne_cle_id": "durambalorak"
  },
  {
   "id": "lev17",
@@ -608,7 +656,10 @@
   "description_courte": "Il nage dans les courants inverses des fjords en formant des spirales qui piègent ses proies. Un couple stable règne sur chaque fjord. Les marins redoutent ses remous glacés.",
   "familier": {
    "possible": false
-  }
+  },
+  "cle_id": "remoulin",
+  "dressage_possible": false,
+  "ancienne_cle_id": "nibelgarok"
  },
  {
   "id": "lev18",
@@ -643,7 +694,10 @@
   "description_courte": "Il se cache sous le sable : on ne voit que ses yeux, puis ses taches s'allument. Sa décharge mêle poison et courant. La glande est précieuse mais trop dangereuse à manipuler.",
   "familier": {
    "possible": false
-  }
+  },
+  "cle_id": "pastenor",
+  "dressage_possible": false,
+  "ancienne_cle_id": "gilagarok"
  },
  {
   "id": "lev19",
@@ -688,7 +742,10 @@
    "capacite_transport": null,
    "age_ideal": "Juvénile",
    "limite": "Ne quitte pas les eaux chaudes peu profondes ; elle régresse loin de son dresseur."
-  }
+  },
+  "cle_id": "petillon",
+  "dressage_possible": true,
+  "ancienne_cle_id": "tetsucabarak"
  },
  {
   "id": "lev20",
@@ -721,7 +778,10 @@
   "description_courte": "Maître des mers arctiques, il règne sans rival. Plus solitaire de tous les marins, il brise la banquise de son rostre et poursuit les navires sur des lieues.",
   "familier": {
    "possible": false
-  }
+  },
+  "cle_id": "rostregel",
+  "dressage_possible": false,
+  "ancienne_cle_id": "borearak"
  },
  {
   "id": "lev21",
@@ -756,7 +816,10 @@
   "description_courte": "Il vit dans l'eau pauvre en oxygène des torrents à 2 500 m. Ses filaments paralysent la proie avant la morsure. Couple sur un réseau de torrents.",
   "familier": {
    "possible": false
-  }
+  },
+  "cle_id": "ruisselet",
+  "dressage_possible": false,
+  "ancienne_cle_id": "pukeigarak"
  },
  {
   "id": "lev22",
@@ -800,6 +863,9 @@
    "capacite_transport": "groupe de 2-4",
    "age_ideal": "Juvénile",
    "limite": "Reste liée à sa lagune ; ne s'éloigne pas de la côte plus de quelques jours."
-  }
+  },
+  "cle_id": "prairelle",
+  "dressage_possible": true,
+  "ancienne_cle_id": "lagombarak"
  }
 ]

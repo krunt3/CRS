@@ -30,7 +30,10 @@
   "description_courte": "Crustacé des côtes de lave, il se chauffe jusqu'à faire bouillir l'eau alentour. Sa cheminée dorsale fume avant l'attaque : signe d'alerte pour les pêcheurs de Cap-Basalte.",
   "familier": {
    "possible": false
-  }
+  },
+  "cle_id": "tisonnier",
+  "dressage_possible": false,
+  "ancienne_cle_id": "shen-gaornak"
  },
  {
   "id": "cui02",
@@ -63,7 +66,10 @@
   "description_courte": "Il guette dans les canyons sous-marins, immobile comme un trépied. Ses anneaux de lumière s'allument en séquence juste avant la décharge. Territorialisme extrême : aucun partage.",
   "familier": {
    "possible": false
-  }
+  },
+  "cle_id": "tramail",
+  "dressage_possible": false,
+  "ancienne_cle_id": "lagiacrus-terrak"
  },
  {
   "id": "cui03",
@@ -108,7 +114,10 @@
    "capacite_transport": null,
    "age_ideal": "juvénile élevé en vivier (programme d'aquaculture)",
    "limite": "Confiné aux zones d'élevage marines : sauvage dès qu'il quitte son vivier."
-  }
+  },
+  "cle_id": "tamarel",
+  "dressage_possible": true,
+  "ancienne_cle_id": "daimyorak"
  },
  {
   "id": "cui04",
@@ -143,7 +152,10 @@
   "description_courte": "Embusqué dans les dunes, il ne laisse dépasser que son dard ambré. Le venin visible dans la pointe sert d'avertissement, rarement lu à temps. Solitaire exclusif.",
   "familier": {
    "possible": false
-  }
+  },
+  "cle_id": "sirocal",
+  "dressage_possible": false,
+  "ancienne_cle_id": "jangarak"
  },
  {
   "id": "cui05",
@@ -189,7 +201,10 @@
    "capacite_transport": "groupe de 2-4",
    "age_ideal": "jeune individu élevé selon les traditions agricoles",
    "limite": "Déplacement très lent (3 m par round) ; sa carapace pèse trop lourd pour franchir ponts et gués étroits."
-  }
+  },
+  "cle_id": "terrelin",
+  "dressage_possible": true,
+  "ancienne_cle_id": "carapatorak"
  },
  {
   "id": "cui06",
@@ -222,7 +237,10 @@
   "description_courte": "On le prend pour un éboulis jusqu'à ce qu'il bouge. Sa crête de quartz rose se lit de loin. Solitaire absolu, il défend son versant de roche avec obstination.",
   "familier": {
    "possible": false
-  }
+  },
+  "cle_id": "stelian",
+  "dressage_possible": false,
+  "ancienne_cle_id": "stonegarak"
  },
  {
   "id": "cui07",
@@ -267,7 +285,10 @@
    "capacite_transport": null,
    "age_ideal": "jeune de moins de 3 mois",
    "limite": "Le conditionnement s'efface après six semaines d'absence du dresseur, mais se rétablit vite."
-  }
+  },
+  "cle_id": "salpine",
+  "dressage_possible": true,
+  "ancienne_cle_id": "zamiterak"
  },
  {
   "id": "cui08",
@@ -300,7 +321,10 @@
   "description_courte": "Installé depuis des années sur un récif, il ne se distingue plus du corail. Les étincelles qui parcourent ses polypes sont le seul indice de sa présence.",
   "familier": {
    "possible": false
-  }
+  },
+  "cle_id": "syrtelle",
+  "dressage_possible": false,
+  "ancienne_cle_id": "banbarak"
  },
  {
   "id": "cui09",
@@ -333,7 +357,10 @@
   "description_courte": "Rien ne tolère sa présence. Quand l'arc saute entre ses pinces centrales, l'eau bout. Même les équipes Légendaires n'engagent qu'à distance.",
   "familier": {
    "possible": false
-  }
+  },
+  "cle_id": "tourmentin",
+  "dressage_possible": false,
+  "ancienne_cle_id": "diablorak-cuirasse"
  },
  {
   "id": "cui10",
@@ -366,7 +393,10 @@
   "description_courte": "Vit entre glace et marée, patinant d'une flaque gelée à l'autre. Les couples saisonniers se retrouvent chaque hiver sur les mêmes plages.",
   "familier": {
    "possible": false
-  }
+  },
+  "cle_id": "stalline",
+  "dressage_possible": false,
+  "ancienne_cle_id": "graviosrak"
  },
  {
   "id": "cui11",
@@ -412,7 +442,10 @@
    "capacite_transport": null,
    "age_ideal": "jeune individu conditionné en milieu agricole",
    "limite": "Technique de déplacement plutôt que dressage fonctionnel : le conditionnement dure environ deux mois."
-  }
+  },
+  "cle_id": "sabotin",
+  "dressage_possible": true,
+  "ancienne_cle_id": "tobikagaromak"
  },
  {
   "id": "cui12",
@@ -445,7 +478,10 @@
   "description_courte": "Dérivant sans territoire dans les eaux profondes, il ne se remarque qu'au pâle battement de ses anneaux. Les marins le croient un mauvais présage.",
   "familier": {
    "possible": false
-  }
+  },
+  "cle_id": "tenebelle",
+  "dressage_possible": false,
+  "ancienne_cle_id": "selregarak"
  },
  {
   "id": "cui13",
@@ -480,7 +516,10 @@
   "description_courte": "Il ne chasse pas : on le heurte. Ses épines vitreuses se dressent vers la menace en collerette. Les pêcheurs de récif apprennent à repérer leurs pointes violettes.",
   "familier": {
    "possible": false
-  }
+  },
+  "cle_id": "spinelle",
+  "dressage_possible": false,
+  "ancienne_cle_id": "urangasrak"
  },
  {
   "id": "cui14",
@@ -513,7 +552,10 @@
   "description_courte": "En eau claire on ne voit que ses points lumineux, comme des étoiles. Il chasse à la limite de l'eau trouble pour jaillir sans être vu.",
   "familier": {
    "possible": false
-  }
+  },
+  "cle_id": "tulline",
+  "dressage_possible": false,
+  "ancienne_cle_id": "valvarak"
  },
  {
   "id": "cui15",
@@ -548,7 +590,10 @@
   "description_courte": "Elle jaillit des fissures du récif, casquée de pied en cap sur la tête. Son venin se mêle à des décharges. Territoire d'anfractuosité à ne pas approcher.",
   "familier": {
    "possible": false
-  }
+  },
+  "cle_id": "sarbacane",
+  "dressage_possible": false,
+  "ancienne_cle_id": "atorarak"
  },
  {
   "id": "cui16",
@@ -593,6 +638,9 @@
    "capacite_transport": null,
    "age_ideal": "jeune adopté par une famille d'éleveurs (tradition pastorale)",
    "limite": "Lien affectif avec un groupe précis seulement : sauvage avec les étrangers et en couple territorial."
-  }
+  },
+  "cle_id": "tournelle",
+  "dressage_possible": true,
+  "ancienne_cle_id": "tetsarak"
  }
 ]

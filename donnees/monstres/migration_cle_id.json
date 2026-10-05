@@ -1,0 +1,1861 @@
+{
+ "_note": "Clés estimées : slug de l'ancien nom (à confronter aux cle_id réels de ForgeSuite-Data/charforge/bestiary.json). Plusieurs entrées = homonymes dans le Livre III.",
+ "table": {
+  "rathavar": [
+   {
+    "id": "ail01",
+    "cle_id": "fauranthe",
+    "nouveau_nom": "Fauranthe"
+   }
+  ],
+  "rathavar-azur": [
+   {
+    "id": "ail02",
+    "cle_id": "evanelle",
+    "nouveau_nom": "Evanelle"
+   }
+  ],
+  "rathavar-argent": [
+   {
+    "id": "ail03",
+    "cle_id": "gerophane",
+    "nouveau_nom": "Gérophane"
+   }
+  ],
+  "rathiene": [
+   {
+    "id": "ail04",
+    "cle_id": "fielinde",
+    "nouveau_nom": "Fiélinde"
+   }
+  ],
+  "rathiene-incarnate": [
+   {
+    "id": "ail05",
+    "cle_id": "eglantine",
+    "nouveau_nom": "Églantine"
+   }
+  ],
+  "rathiene-doree": [
+   {
+    "id": "ail06",
+    "cle_id": "herebrune",
+    "nouveau_nom": "Hérébrune"
+   }
+  ],
+  "diavorn": [
+   {
+    "id": "ail07",
+    "cle_id": "haubergue",
+    "nouveau_nom": "Haubergue"
+   }
+  ],
+  "tigrakh": [
+   {
+    "id": "ail08",
+    "cle_id": "eolithe",
+    "nouveau_nom": "Éolithe"
+   }
+  ],
+  "nargavar": [
+   {
+    "id": "ail09",
+    "cle_id": "estuarelle",
+    "nouveau_nom": "Estuarelle"
+   }
+  ],
+  "bariokh": [
+   {
+    "id": "ail10",
+    "cle_id": "ghislune",
+    "nouveau_nom": "Ghislune"
+   }
+  ],
+  "paolumak": [
+   {
+    "id": "ail11",
+    "cle_id": "frimalle",
+    "nouveau_nom": "Frimalle"
+   }
+  ],
+  "kushavar": [
+   {
+    "id": "ail12",
+    "cle_id": "fumerolle",
+    "nouveau_nom": "Fumerolle"
+   }
+  ],
+  "legianar": [
+   {
+    "id": "ail13",
+    "cle_id": "flechenne",
+    "nouveau_nom": "Fléchenne"
+   }
+  ],
+  "espivarn": [
+   {
+    "id": "ail14",
+    "cle_id": "gerbelin",
+    "nouveau_nom": "Gerbélin"
+   }
+  ],
+  "gunkavar": [
+   {
+    "id": "ail15",
+    "cle_id": "eufrasine",
+    "nouveau_nom": "Eufrasine"
+   }
+  ],
+  "chamelark": [
+   {
+    "id": "ail16",
+    "cle_id": "hermetis",
+    "nouveau_nom": "Hermétis"
+   }
+  ],
+  "teostrakh": [
+   {
+    "id": "ail17",
+    "cle_id": "galateane",
+    "nouveau_nom": "Galatéane"
+   },
+   {
+    "id": "dra01",
+    "cle_id": "ysmerande",
+    "nouveau_nom": "Ysmérande"
+   },
+   {
+    "id": "fau05",
+    "cle_id": "weliandre",
+    "nouveau_nom": "Wéliandre"
+   }
+  ],
+  "zinogavar": [
+   {
+    "id": "ail18",
+    "cle_id": "geodelise",
+    "nouveau_nom": "Géodelise"
+   }
+  ],
+  "valstrakh": [
+   {
+    "id": "ail19",
+    "cle_id": "hegemone",
+    "nouveau_nom": "Hégémone"
+   }
+  ],
+  "alatreonak": [
+   {
+    "id": "ail20",
+    "cle_id": "eburnale",
+    "nouveau_nom": "Éburnale"
+   }
+  ],
+  "namieloth": [
+   {
+    "id": "ail21",
+    "cle_id": "felurine",
+    "nouveau_nom": "Fêlurine"
+   }
+  ],
+  "orbivarn": [
+   {
+    "id": "ail22",
+    "cle_id": "fougerande",
+    "nouveau_nom": "Fougerande"
+   }
+  ],
+  "selvarath": [
+   {
+    "id": "ail23",
+    "cle_id": "escarbille",
+    "nouveau_nom": "Escarbille"
+   }
+  ],
+  "rathavar-noir": [
+   {
+    "id": "ail24",
+    "cle_id": "ioliane",
+    "nouveau_nom": "Ioliane"
+   }
+  ],
+  "rathavar-jade": [
+   {
+    "id": "ail25",
+    "cle_id": "ligneroc",
+    "nouveau_nom": "Ligneroc"
+   }
+  ],
+  "rathavar-cramoisi": [
+   {
+    "id": "ail26",
+    "cle_id": "kasmerune",
+    "nouveau_nom": "Kasmerune"
+   }
+  ],
+  "rathavar-dore": [
+   {
+    "id": "ail27",
+    "cle_id": "ildarion",
+    "nouveau_nom": "Ildarion"
+   }
+  ],
+  "velkhavar": [
+   {
+    "id": "ail28",
+    "cle_id": "jastreve",
+    "nouveau_nom": "Jastrève"
+   }
+  ],
+  "astarath": [
+   {
+    "id": "ail29",
+    "cle_id": "ivrelle",
+    "nouveau_nom": "Ivrelle"
+   }
+  ],
+  "pyrakhov": [
+   {
+    "id": "ail30",
+    "cle_id": "liparande",
+    "nouveau_nom": "Liparande"
+   }
+  ],
+  "caernavak": [
+   {
+    "id": "ail31",
+    "cle_id": "kerwenn",
+    "nouveau_nom": "Kerwenn"
+   }
+  ],
+  "vorakveil": [
+   {
+    "id": "ail32",
+    "cle_id": "kenothe",
+    "nouveau_nom": "Kénothe"
+   }
+  ],
+  "lunavark": [
+   {
+    "id": "ail33",
+    "cle_id": "iselune",
+    "nouveau_nom": "Iselune"
+   }
+  ],
+  "thornavar": [
+   {
+    "id": "ail34",
+    "cle_id": "jonquine",
+    "nouveau_nom": "Jonquine"
+   }
+  ],
+  "nebulark": [
+   {
+    "id": "ail35",
+    "cle_id": "imbrelle",
+    "nouveau_nom": "Imbrelle"
+   }
+  ],
+  "ironveil": [
+   {
+    "id": "ail36",
+    "cle_id": "kuprion",
+    "nouveau_nom": "Kuprion"
+   }
+  ],
+  "starkveil": [
+   {
+    "id": "ail37",
+    "cle_id": "ithaline",
+    "nouveau_nom": "Ithaline"
+   }
+  ],
+  "furivarn": [
+   {
+    "id": "ail38",
+    "cle_id": "jirelant",
+    "nouveau_nom": "Jirelant"
+   }
+  ],
+  "verdanthak": [
+   {
+    "id": "ail39",
+    "cle_id": "lorelie",
+    "nouveau_nom": "Lorélie"
+   }
+  ],
+  "aurorakh": [
+   {
+    "id": "ail40",
+    "cle_id": "janusque",
+    "nouveau_nom": "Janusque"
+   }
+  ],
+  "vitharnak": [
+   {
+    "id": "ail41",
+    "cle_id": "jaulinde",
+    "nouveau_nom": "Jaulinde"
+   }
+  ],
+  "skelvarn": [
+   {
+    "id": "ail42",
+    "cle_id": "lissoir",
+    "nouveau_nom": "Lissoir"
+   }
+  ],
+  "duravok": [
+   {
+    "id": "ail43",
+    "cle_id": "lithorne",
+    "nouveau_nom": "Lithorne"
+   }
+  ],
+  "kalidor": [
+   {
+    "id": "ail44",
+    "cle_id": "ilvanne",
+    "nouveau_nom": "Ilvanne"
+   }
+  ],
+  "xorvakh": [
+   {
+    "id": "ail45",
+    "cle_id": "kalmaros",
+    "nouveau_nom": "Kalmaros"
+   }
+  ],
+  "lethavark": [
+   {
+    "id": "ail46",
+    "cle_id": "lyssanthe",
+    "nouveau_nom": "Lyssanthe"
+   }
+  ],
+  "cervarak": [
+   {
+    "id": "cha01",
+    "cle_id": "cervarak",
+    "nouveau_nom": "Cervarak"
+   }
+  ],
+  "sanglarak": [
+   {
+    "id": "cha02",
+    "cle_id": "sanglarak",
+    "nouveau_nom": "Sanglarak"
+   }
+  ],
+  "aurochrak": [
+   {
+    "id": "cha03",
+    "cle_id": "aurochrak",
+    "nouveau_nom": "Aurochrak"
+   }
+  ],
+  "ursorak": [
+   {
+    "id": "cha04",
+    "cle_id": "ursorak",
+    "nouveau_nom": "Ursorak"
+   }
+  ],
+  "lynxarak": [
+   {
+    "id": "cha05",
+    "cle_id": "lynxarak",
+    "nouveau_nom": "Lynxarak"
+   }
+  ],
+  "louparak": [
+   {
+    "id": "cha06",
+    "cle_id": "louparak",
+    "nouveau_nom": "Louparak"
+   }
+  ],
+  "aquilarak": [
+   {
+    "id": "cha07",
+    "cle_id": "aquilarak",
+    "nouveau_nom": "Aquilarak"
+   }
+  ],
+  "cascarak": [
+   {
+    "id": "cha08",
+    "cle_id": "cascarak",
+    "nouveau_nom": "Cascarak"
+   }
+  ],
+  "bisarak": [
+   {
+    "id": "cha09",
+    "cle_id": "bisarak",
+    "nouveau_nom": "Bisarak"
+   }
+  ],
+  "serparak": [
+   {
+    "id": "cha10",
+    "cle_id": "serparak",
+    "nouveau_nom": "Serparak"
+   }
+  ],
+  "mantirak": [
+   {
+    "id": "cha11",
+    "cle_id": "mantirak",
+    "nouveau_nom": "Mantirak"
+   }
+  ],
+  "chamoisrak": [
+   {
+    "id": "cha12",
+    "cle_id": "chamoisrak",
+    "nouveau_nom": "Chamoisrak"
+   }
+  ],
+  "crapaudrak": [
+   {
+    "id": "cha13",
+    "cle_id": "crapaudrak",
+    "nouveau_nom": "Crapaudrak"
+   }
+  ],
+  "murenorak": [
+   {
+    "id": "cha14",
+    "cle_id": "murenorak",
+    "nouveau_nom": "Murènorak"
+   }
+  ],
+  "vautourak": [
+   {
+    "id": "cha15",
+    "cle_id": "vautourak",
+    "nouveau_nom": "Vautourak"
+   }
+  ],
+  "crocodarak": [
+   {
+    "id": "cha16",
+    "cle_id": "crocodarak",
+    "nouveau_nom": "Crocodarak"
+   }
+  ],
+  "raijarak": [
+   {
+    "id": "cha17",
+    "cle_id": "gryphelan",
+    "nouveau_nom": "Gryphelan"
+   }
+  ],
+  "caimarak": [
+   {
+    "id": "cha18",
+    "cle_id": "caimarak",
+    "nouveau_nom": "Caïmarak"
+   }
+  ],
+  "zinogarvak": [
+   {
+    "id": "cra01",
+    "cle_id": "staviel",
+    "nouveau_nom": "Staviel"
+   }
+  ],
+  "nerscylarak": [
+   {
+    "id": "cra02",
+    "cle_id": "tessane",
+    "nouveau_nom": "Tessane"
+   }
+  ],
+  "brachydiosrak": [
+   {
+    "id": "cra03",
+    "cle_id": "ulhemar",
+    "nouveau_nom": "Ulhemar"
+   }
+  ],
+  "odogarak": [
+   {
+    "id": "cra04",
+    "cle_id": "serelin",
+    "nouveau_nom": "Sérelin"
+   }
+  ],
+  "volganorak": [
+   {
+    "id": "cra05",
+    "cle_id": "scorine",
+    "nouveau_nom": "Scorine"
+   }
+  ],
+  "seregiosrak": [
+   {
+    "id": "cra06",
+    "cle_id": "talvire",
+    "nouveau_nom": "Talvire"
+   }
+  ],
+  "tigrexrak-des-parois": [
+   {
+    "id": "cra07",
+    "cle_id": "urtelle",
+    "nouveau_nom": "Urtelle"
+   }
+  ],
+  "velokrak": [
+   {
+    "id": "cro01",
+    "cle_id": "alizade",
+    "nouveau_nom": "Alizade"
+   }
+  ],
+  "velodrak": [
+   {
+    "id": "cro02",
+    "cle_id": "dorgane",
+    "nouveau_nom": "Dorgane"
+   }
+  ],
+  "genokrak": [
+   {
+    "id": "cro03",
+    "cle_id": "courtaude",
+    "nouveau_nom": "Courtaude"
+   }
+  ],
+  "genprak": [
+   {
+    "id": "cro04",
+    "cle_id": "cendrasse",
+    "nouveau_nom": "Cendrasse"
+   }
+  ],
+  "jagrak": [
+   {
+    "id": "cro05",
+    "cle_id": "brandille",
+    "nouveau_nom": "Brandille"
+   }
+  ],
+  "jagidrak": [
+   {
+    "id": "cro06",
+    "cle_id": "aurelon",
+    "nouveau_nom": "Aurelon"
+   }
+  ],
+  "bagirak": [
+   {
+    "id": "cro07",
+    "cle_id": "dormelet",
+    "nouveau_nom": "Dormelet"
+   }
+  ],
+  "bakurak": [
+   {
+    "id": "cro08",
+    "cle_id": "cabochon",
+    "nouveau_nom": "Cabochon"
+   }
+  ],
+  "iokrak": [
+   {
+    "id": "cro09",
+    "cle_id": "anguillade",
+    "nouveau_nom": "Anguillade"
+   }
+  ],
+  "iodrak": [
+   {
+    "id": "cro10",
+    "cle_id": "bourbelune",
+    "nouveau_nom": "Bourbelune"
+   }
+  ],
+  "gyplerak": [
+   {
+    "id": "cro11",
+    "cle_id": "diadelle",
+    "nouveau_nom": "Diadelle"
+   }
+  ],
+  "kut-varek": [
+   {
+    "id": "cro12",
+    "cle_id": "calorine",
+    "nouveau_nom": "Calorine"
+   }
+  ],
+  "kulurak": [
+   {
+    "id": "cro13",
+    "cle_id": "colporin",
+    "nouveau_nom": "Colporin"
+   }
+  ],
+  "pukeirak": [
+   {
+    "id": "cro14",
+    "cle_id": "belladine",
+    "nouveau_nom": "Belladine"
+   }
+  ],
+  "tzitzak": [
+   {
+    "id": "cro15",
+    "cle_id": "arcelune",
+    "nouveau_nom": "Arcelune"
+   }
+  ],
+  "aknorak": [
+   {
+    "id": "cro16",
+    "cle_id": "dambrais",
+    "nouveau_nom": "Dambrais"
+   }
+  ],
+  "garuvorn": [
+   {
+    "id": "cro17",
+    "cle_id": "balafrette",
+    "nouveau_nom": "Balafrette"
+   }
+  ],
+  "garuvorn-sourd": [
+   {
+    "id": "cro18",
+    "cle_id": "delirande",
+    "nouveau_nom": "Delirande"
+   }
+  ],
+  "seregrak": [
+   {
+    "id": "cro19",
+    "cle_id": "damasquine",
+    "nouveau_nom": "Damasquine"
+   }
+  ],
+  "gyplerak-violet": [
+   {
+    "id": "cro20",
+    "cle_id": "amethyne",
+    "nouveau_nom": "Améthyne"
+   }
+  ],
+  "kut-varek-bleu": [
+   {
+    "id": "cro21",
+    "cle_id": "brontelle",
+    "nouveau_nom": "Brontelle"
+   }
+  ],
+  "pukeirak-des-cimes": [
+   {
+    "id": "cro22",
+    "cle_id": "cressane",
+    "nouveau_nom": "Cressane"
+   }
+  ],
+  "hypnorak": [
+   {
+    "id": "cro23",
+    "cle_id": "crinoline",
+    "nouveau_nom": "Crinoline"
+   }
+  ],
+  "qurepak": [
+   {
+    "id": "cro24",
+    "cle_id": "charivari",
+    "nouveau_nom": "Charivari"
+   }
+  ],
+  "qurepak-cramoisi": [
+   {
+    "id": "cro25",
+    "cle_id": "clairon",
+    "nouveau_nom": "Clairon"
+   }
+  ],
+  "malfestrak": [
+   {
+    "id": "cro26",
+    "cle_id": "duvetine",
+    "nouveau_nom": "Duvetine"
+   }
+  ],
+  "gildrak": [
+   {
+    "id": "cro27",
+    "cle_id": "anthracine",
+    "nouveau_nom": "Anthracine"
+   }
+  ],
+  "jagrak-des-abysses": [
+   {
+    "id": "cro28",
+    "cle_id": "blindelle",
+    "nouveau_nom": "Blindelle"
+   }
+  ],
+  "porkeplumak": [
+   {
+    "id": "cro29",
+    "cle_id": "castagnette",
+    "nouveau_nom": "Castagnette"
+   }
+  ],
+  "shen-gaornak": [
+   {
+    "id": "cui01",
+    "cle_id": "tisonnier",
+    "nouveau_nom": "Tisonnier"
+   }
+  ],
+  "lagiacrus-terrak": [
+   {
+    "id": "cui02",
+    "cle_id": "tramail",
+    "nouveau_nom": "Tramail"
+   }
+  ],
+  "daimyorak": [
+   {
+    "id": "cui03",
+    "cle_id": "tamarel",
+    "nouveau_nom": "Tamarel"
+   }
+  ],
+  "jangarak": [
+   {
+    "id": "cui04",
+    "cle_id": "sirocal",
+    "nouveau_nom": "Sirocal"
+   }
+  ],
+  "carapatorak": [
+   {
+    "id": "cui05",
+    "cle_id": "terrelin",
+    "nouveau_nom": "Terrelin"
+   }
+  ],
+  "stonegarak": [
+   {
+    "id": "cui06",
+    "cle_id": "stelian",
+    "nouveau_nom": "Stélian"
+   }
+  ],
+  "zamiterak": [
+   {
+    "id": "cui07",
+    "cle_id": "salpine",
+    "nouveau_nom": "Salpine"
+   }
+  ],
+  "banbarak": [
+   {
+    "id": "cui08",
+    "cle_id": "syrtelle",
+    "nouveau_nom": "Syrtelle"
+   }
+  ],
+  "diablorak-cuirasse": [
+   {
+    "id": "cui09",
+    "cle_id": "tourmentin",
+    "nouveau_nom": "Tourmentin"
+   }
+  ],
+  "graviosrak": [
+   {
+    "id": "cui10",
+    "cle_id": "stalline",
+    "nouveau_nom": "Stalline"
+   }
+  ],
+  "tobikagaromak": [
+   {
+    "id": "cui11",
+    "cle_id": "sabotin",
+    "nouveau_nom": "Sabotin"
+   }
+  ],
+  "selregarak": [
+   {
+    "id": "cui12",
+    "cle_id": "tenebelle",
+    "nouveau_nom": "Tenebelle"
+   }
+  ],
+  "urangasrak": [
+   {
+    "id": "cui13",
+    "cle_id": "spinelle",
+    "nouveau_nom": "Spinelle"
+   }
+  ],
+  "valvarak": [
+   {
+    "id": "cui14",
+    "cle_id": "tulline",
+    "nouveau_nom": "Tulline"
+   }
+  ],
+  "atorarak": [
+   {
+    "id": "cui15",
+    "cle_id": "sarbacane",
+    "nouveau_nom": "Sarbacane"
+   }
+  ],
+  "tetsarak": [
+   {
+    "id": "cui16",
+    "cle_id": "tournelle",
+    "nouveau_nom": "Tournelle"
+   }
+  ],
+  "kusharak": [
+   {
+    "id": "dra02",
+    "cle_id": "zhelnai",
+    "nouveau_nom": "Zhelnaï"
+   }
+  ],
+  "glaciarak": [
+   {
+    "id": "dra03",
+    "cle_id": "ethrimel",
+    "nouveau_nom": "Ethrimel"
+   },
+   {
+    "id": "lev11",
+    "cle_id": "rimaille",
+    "nouveau_nom": "Rimaille"
+   }
+  ],
+  "terragorak": [
+   {
+    "id": "dra04",
+    "cle_id": "ulmunde",
+    "nouveau_nom": "Ulmunde"
+   }
+  ],
+  "leviagorrak": [
+   {
+    "id": "dra05",
+    "cle_id": "nyssouane",
+    "nouveau_nom": "Nyssouane"
+   }
+  ],
+  "venomorak": [
+   {
+    "id": "dra06",
+    "cle_id": "oilarmine",
+    "nouveau_nom": "Oïlarmine"
+   }
+  ],
+  "umbrarak": [
+   {
+    "id": "dra07",
+    "cle_id": "nyctheuil",
+    "nouveau_nom": "Nyctheuil"
+   }
+  ],
+  "lumarak": [
+   {
+    "id": "dra08",
+    "cle_id": "ysolane",
+    "nouveau_nom": "Ysolane"
+   }
+  ],
+  "mnemarak": [
+   {
+    "id": "dra09",
+    "cle_id": "zhoumai",
+    "nouveau_nom": "Zhoumaï"
+   }
+  ],
+  "valkarak": [
+   {
+    "id": "dra10",
+    "cle_id": "oiveane",
+    "nouveau_nom": "Oïvéane"
+   }
+  ],
+  "kronarak": [
+   {
+    "id": "dra11",
+    "cle_id": "ysclepse",
+    "nouveau_nom": "Ysclepse"
+   }
+  ],
+  "pradorak": [
+   {
+    "id": "dra12",
+    "cle_id": "zhyrmael",
+    "nouveau_nom": "Zhyrmaël"
+   }
+  ],
+  "voidrak": [
+   {
+    "id": "dra13",
+    "cle_id": "oinome",
+    "nouveau_nom": "Oïnomé"
+   }
+  ],
+  "aquaroak": [
+   {
+    "id": "dra14",
+    "cle_id": "ysourene",
+    "nouveau_nom": "Ysourène"
+   }
+  ],
+  "ferarak": [
+   {
+    "id": "dra15",
+    "cle_id": "ulenclume",
+    "nouveau_nom": "Ulenclume"
+   }
+  ],
+  "naturarak": [
+   {
+    "id": "dra16",
+    "cle_id": "zheliane",
+    "nouveau_nom": "Zhéliane"
+   }
+  ],
+  "sonarak": [
+   {
+    "id": "dra17",
+    "cle_id": "ulcantre",
+    "nouveau_nom": "Ulcantre"
+   }
+  ],
+  "somnarak": [
+   {
+    "id": "dra18",
+    "cle_id": "nyloreis",
+    "nouveau_nom": "Nyloreïs"
+   }
+  ],
+  "morarak": [
+   {
+    "id": "dra19",
+    "cle_id": "zhaluine",
+    "nouveau_nom": "Zhaluine"
+   }
+  ],
+  "astrarak": [
+   {
+    "id": "dra20",
+    "cle_id": "ethyrane",
+    "nouveau_nom": "Ethyrane"
+   }
+  ],
+  "cristalrak": [
+   {
+    "id": "dra21",
+    "cle_id": "ulquartine",
+    "nouveau_nom": "Ulquartine"
+   }
+  ],
+  "chaosroak": [
+   {
+    "id": "dra22",
+    "cle_id": "zhizanne",
+    "nouveau_nom": "Zhizanne"
+   }
+  ],
+  "magnetrak": [
+   {
+    "id": "dra23",
+    "cle_id": "nyorbite",
+    "nouveau_nom": "Nyorbite"
+   }
+  ],
+  "pyroclarak": [
+   {
+    "id": "dra24",
+    "cle_id": "ulmagrone",
+    "nouveau_nom": "Ulmagrone"
+   }
+  ],
+  "glacenomrak": [
+   {
+    "id": "dra25",
+    "cle_id": "ysnoirelle",
+    "nouveau_nom": "Ysnoirelle"
+   }
+  ],
+  "geolarak": [
+   {
+    "id": "dra26",
+    "cle_id": "ethzelte",
+    "nouveau_nom": "Ethzelte"
+   }
+  ],
+  "haloroak": [
+   {
+    "id": "dra27",
+    "cle_id": "oisalmene",
+    "nouveau_nom": "Oïsalmène"
+   }
+  ],
+  "cendrarak": [
+   {
+    "id": "dra28",
+    "cle_id": "ulscorie",
+    "nouveau_nom": "Ulscorie"
+   }
+  ],
+  "plasmarak": [
+   {
+    "id": "dra29",
+    "cle_id": "zheonide",
+    "nouveau_nom": "Zhéonide"
+   }
+  ],
+  "gravitarak": [
+   {
+    "id": "dra30",
+    "cle_id": "ulbrodene",
+    "nouveau_nom": "Ulbrodène"
+   }
+  ],
+  "mycorak": [
+   {
+    "id": "dra31",
+    "cle_id": "oifilande",
+    "nouveau_nom": "Oïfilande"
+   }
+  ],
+  "acidroak": [
+   {
+    "id": "dra32",
+    "cle_id": "zhurevine",
+    "nouveau_nom": "Zhurévine"
+   }
+  ],
+  "aurorarak": [
+   {
+    "id": "dra33",
+    "cle_id": "ysvelune",
+    "nouveau_nom": "Ysvélune"
+   }
+  ],
+  "chromarak": [
+   {
+    "id": "dra34",
+    "cle_id": "nyprisel",
+    "nouveau_nom": "Nyprisel"
+   }
+  ],
+  "pyrofrak": [
+   {
+    "id": "dra35",
+    "cle_id": "oibleuline",
+    "nouveau_nom": "Oïbleuline"
+   }
+  ],
+  "eternarak": [
+   {
+    "id": "dra36",
+    "cle_id": "ysendure",
+    "nouveau_nom": "Ysenduré"
+   }
+  ],
+  "zinogarak": [
+   {
+    "id": "fau01",
+    "cle_id": "vigerne",
+    "nouveau_nom": "Vigerne"
+   }
+  ],
+  "rajang-sacre": [
+   {
+    "id": "fau02",
+    "cle_id": "zolmeir",
+    "nouveau_nom": "Zolmeir"
+   }
+  ],
+  "nargavar-sacre": [
+   {
+    "id": "fau03",
+    "cle_id": "wistrelle",
+    "nouveau_nom": "Wistrelle"
+   }
+  ],
+  "yian-garugarak-sacre": [
+   {
+    "id": "fau04",
+    "cle_id": "zephyrine",
+    "nouveau_nom": "Zéphyrine"
+   }
+  ],
+  "brachydrak-sacre": [
+   {
+    "id": "fau06",
+    "cle_id": "vantorin",
+    "nouveau_nom": "Vantorin"
+   }
+  ],
+  "kushavar-sacre": [
+   {
+    "id": "fau07",
+    "cle_id": "wimbrun",
+    "nouveau_nom": "Wimbrun"
+   }
+  ],
+  "shagaru-sacre": [
+   {
+    "id": "fau08",
+    "cle_id": "xalmene",
+    "nouveau_nom": "Xalmène"
+   }
+  ],
+  "zinoralk-sacre": [
+   {
+    "id": "fau09",
+    "cle_id": "welisse",
+    "nouveau_nom": "Wélisse"
+   }
+  ],
+  "deviljharak-sacre": [
+   {
+    "id": "fau10",
+    "cle_id": "zovide",
+    "nouveau_nom": "Zovide"
+   }
+  ],
+  "lagombirak-sacre": [
+   {
+    "id": "fau11",
+    "cle_id": "wenlis",
+    "nouveau_nom": "Wenlis"
+   }
+  ],
+  "graviosrak-sacre": [
+   {
+    "id": "fau12",
+    "cle_id": "vassemar",
+    "nouveau_nom": "Vassemar"
+   }
+  ],
+  "espivarn-sacre": [
+   {
+    "id": "fau13",
+    "cle_id": "zeviane",
+    "nouveau_nom": "Zéviane"
+   }
+  ],
+  "uktanarak-sacre": [
+   {
+    "id": "fau14",
+    "cle_id": "ysophene",
+    "nouveau_nom": "Ysophène"
+   }
+  ],
+  "tigrarak-sacre": [
+   {
+    "id": "fau15",
+    "cle_id": "xarvane",
+    "nouveau_nom": "Xarvane"
+   }
+  ],
+  "mizurak-sacre": [
+   {
+    "id": "fau16",
+    "cle_id": "verandine",
+    "nouveau_nom": "Vérandine"
+   }
+  ],
+  "astalosark-sacre": [
+   {
+    "id": "fau17",
+    "cle_id": "zyphoe",
+    "nouveau_nom": "Zyphoé"
+   }
+  ],
+  "chamelarak-sacre": [
+   {
+    "id": "fau18",
+    "cle_id": "vesperan",
+    "nouveau_nom": "Vespéran"
+   }
+  ],
+  "pukurak-sacre": [
+   {
+    "id": "fau19",
+    "cle_id": "virelin",
+    "nouveau_nom": "Virelin"
+   }
+  ],
+  "chaosrak-sacre": [
+   {
+    "id": "fau20",
+    "cle_id": "zardelle",
+    "nouveau_nom": "Zardelle"
+   }
+  ],
+  "namurak-sacre": [
+   {
+    "id": "fau21",
+    "cle_id": "velouine",
+    "nouveau_nom": "Vélouine"
+   }
+  ],
+  "kulusarak-sacre": [
+   {
+    "id": "fau22",
+    "cle_id": "yvernelle",
+    "nouveau_nom": "Yvernelle"
+   }
+  ],
+  "vaytarak-sacre": [
+   {
+    "id": "fau23",
+    "cle_id": "yoluve",
+    "nouveau_nom": "Yoluve"
+   }
+  ],
+  "lagiacrak": [
+   {
+    "id": "lev01",
+    "cle_id": "quiverne",
+    "nouveau_nom": "Quiverne"
+   }
+  ],
+  "ludrothrak": [
+   {
+    "id": "lev02",
+    "cle_id": "pontelin",
+    "nouveau_nom": "Pontelin"
+   }
+  ],
+  "gobulrak": [
+   {
+    "id": "lev03",
+    "cle_id": "ronveal",
+    "nouveau_nom": "Ronvéal"
+   }
+  ],
+  "plesiogarak": [
+   {
+    "id": "lev04",
+    "cle_id": "quenouille",
+    "nouveau_nom": "Quenouille"
+   }
+  ],
+  "ceadeurak": [
+   {
+    "id": "lev05",
+    "cle_id": "ponantis",
+    "nouveau_nom": "Ponantis"
+   }
+  ],
+  "mizutsugarak": [
+   {
+    "id": "lev06",
+    "cle_id": "rainette",
+    "nouveau_nom": "Rainette"
+   }
+  ],
+  "jyuratodrak": [
+   {
+    "id": "lev07",
+    "cle_id": "ruchevase",
+    "nouveau_nom": "Ruchevase"
+   }
+  ],
+  "volvidonrak": [
+   {
+    "id": "lev08",
+    "cle_id": "poterne",
+    "nouveau_nom": "Poterne"
+   }
+  ],
+  "namaiirak": [
+   {
+    "id": "lev09",
+    "cle_id": "pharelune",
+    "nouveau_nom": "Pharélune"
+   }
+  ],
+  "uroktarak": [
+   {
+    "id": "lev10",
+    "cle_id": "pyrisse",
+    "nouveau_nom": "Pyrisse"
+   }
+  ],
+  "agnaktorak": [
+   {
+    "id": "lev12",
+    "cle_id": "ponceline",
+    "nouveau_nom": "Ponceline"
+   }
+  ],
+  "bazelgarak": [
+   {
+    "id": "lev13",
+    "cle_id": "papilonde",
+    "nouveau_nom": "Papilonde"
+   }
+  ],
+  "zamtrirak": [
+   {
+    "id": "lev14",
+    "cle_id": "quietin",
+    "nouveau_nom": "Quiétin"
+   }
+  ],
+  "dobogaromak": [
+   {
+    "id": "lev15",
+    "cle_id": "reglisse",
+    "nouveau_nom": "Réglisse"
+   }
+  ],
+  "durambalorak": [
+   {
+    "id": "lev16",
+    "cle_id": "pressoir",
+    "nouveau_nom": "Pressoir"
+   }
+  ],
+  "nibelgarok": [
+   {
+    "id": "lev17",
+    "cle_id": "remoulin",
+    "nouveau_nom": "Remoulin"
+   }
+  ],
+  "gilagarok": [
+   {
+    "id": "lev18",
+    "cle_id": "pastenor",
+    "nouveau_nom": "Pastenor"
+   }
+  ],
+  "tetsucabarak": [
+   {
+    "id": "lev19",
+    "cle_id": "petillon",
+    "nouveau_nom": "Pétillon"
+   }
+  ],
+  "borearak": [
+   {
+    "id": "lev20",
+    "cle_id": "rostregel",
+    "nouveau_nom": "Rostrégel"
+   }
+  ],
+  "pukeigarak": [
+   {
+    "id": "lev21",
+    "cle_id": "ruisselet",
+    "nouveau_nom": "Ruisselet"
+   }
+  ],
+  "lagombarak": [
+   {
+    "id": "lev22",
+    "cle_id": "prairelle",
+    "nouveau_nom": "Prairelle"
+   }
+  ],
+  "ignisrak": [
+   {
+    "id": "pho01",
+    "cle_id": "ignisrak",
+    "nouveau_nom": "Ignisrak"
+   }
+  ],
+  "glacirak": [
+   {
+    "id": "pho02",
+    "cle_id": "glacirak",
+    "nouveau_nom": "Glacirak"
+   }
+  ],
+  "naturak": [
+   {
+    "id": "pho03",
+    "cle_id": "naturak",
+    "nouveau_nom": "Naturak"
+   }
+  ],
+  "ombrak": [
+   {
+    "id": "pho04",
+    "cle_id": "ombrak",
+    "nouveau_nom": "Ombrak"
+   }
+  ],
+  "canarak": [
+   {
+    "id": "soc01",
+    "cle_id": "canarak",
+    "nouveau_nom": "Canarak"
+   }
+  ],
+  "felarak": [
+   {
+    "id": "soc02",
+    "cle_id": "felarak",
+    "nouveau_nom": "Félarak"
+   }
+  ],
+  "equirak": [
+   {
+    "id": "soc03",
+    "cle_id": "equirak",
+    "nouveau_nom": "Équirak"
+   }
+  ],
+  "baudet-rak": [
+   {
+    "id": "soc04",
+    "cle_id": "baudet-rak",
+    "nouveau_nom": "Baudet-Rak"
+   }
+  ],
+  "b-urak": [
+   {
+    "id": "soc05",
+    "cle_id": "b-urak",
+    "nouveau_nom": "Bœurak"
+   }
+  ],
+  "porarak": [
+   {
+    "id": "soc06",
+    "cle_id": "porarak",
+    "nouveau_nom": "Porarak"
+   }
+  ],
+  "galarak": [
+   {
+    "id": "soc07",
+    "cle_id": "galarak",
+    "nouveau_nom": "Galarak"
+   }
+  ],
+  "caprak": [
+   {
+    "id": "soc08",
+    "cle_id": "caprak",
+    "nouveau_nom": "Caprak"
+   }
+  ],
+  "ovarak": [
+   {
+    "id": "soc09",
+    "cle_id": "ovarak",
+    "nouveau_nom": "Ovarak"
+   }
+  ],
+  "vacarak": [
+   {
+    "id": "soc10",
+    "cle_id": "vacarak",
+    "nouveau_nom": "Vacarak"
+   }
+  ],
+  "oarak": [
+   {
+    "id": "soc11",
+    "cle_id": "oarak",
+    "nouveau_nom": "Oarak"
+   }
+  ],
+  "apirak": [
+   {
+    "id": "soc12",
+    "cle_id": "apirak",
+    "nouveau_nom": "Apirak"
+   }
+  ],
+  "pigarak": [
+   {
+    "id": "soc13",
+    "cle_id": "pigarak",
+    "nouveau_nom": "Pigarak"
+   }
+  ],
+  "bombarak": [
+   {
+    "id": "soc14",
+    "cle_id": "bombarak",
+    "nouveau_nom": "Bombarak"
+   }
+  ],
+  "sericarak": [
+   {
+    "id": "soc15",
+    "cle_id": "sericarak",
+    "nouveau_nom": "Séricarak"
+   }
+  ],
+  "rattarak": [
+   {
+    "id": "soc16",
+    "cle_id": "rattarak",
+    "nouveau_nom": "Rattarak"
+   }
+  ],
+  "laprak": [
+   {
+    "id": "soc17",
+    "cle_id": "laprak",
+    "nouveau_nom": "Laprak"
+   }
+  ],
+  "tortarak": [
+   {
+    "id": "soc18",
+    "cle_id": "tortarak",
+    "nouveau_nom": "Tortarak"
+   }
+  ],
+  "grenouarak": [
+   {
+    "id": "soc19",
+    "cle_id": "grenouarak",
+    "nouveau_nom": "Grenouarak"
+   }
+  ],
+  "corarak": [
+   {
+    "id": "soc20",
+    "cle_id": "corarak",
+    "nouveau_nom": "Corarak"
+   }
+  ],
+  "heronarak": [
+   {
+    "id": "soc21",
+    "cle_id": "heronarak",
+    "nouveau_nom": "Héronarak"
+   }
+  ],
+  "moutonrak": [
+   {
+    "id": "soc22",
+    "cle_id": "moutonrak",
+    "nouveau_nom": "Moutonrak"
+   }
+  ],
+  "chauve-soursarak": [
+   {
+    "id": "soc23",
+    "cle_id": "chauve-soursarak",
+    "nouveau_nom": "Chauve-Soursarak"
+   }
+  ],
+  "herissonrak": [
+   {
+    "id": "soc24",
+    "cle_id": "herissonrak",
+    "nouveau_nom": "Hérissonrak"
+   }
+  ],
+  "muletrak": [
+   {
+    "id": "soc25",
+    "cle_id": "muletrak",
+    "nouveau_nom": "Muletrak"
+   }
+  ],
+  "dromadarak": [
+   {
+    "id": "soc26",
+    "cle_id": "dromadarak",
+    "nouveau_nom": "Dromadarak"
+   }
+  ],
+  "canardarak": [
+   {
+    "id": "soc27",
+    "cle_id": "canardarak",
+    "nouveau_nom": "Canardarak"
+   }
+  ],
+  "chevrerak": [
+   {
+    "id": "soc28",
+    "cle_id": "chevrerak",
+    "nouveau_nom": "Chèvrerak"
+   }
+  ],
+  "carperak": [
+   {
+    "id": "soc29",
+    "cle_id": "carperak",
+    "nouveau_nom": "Carperak"
+   }
+  ],
+  "saumonarak": [
+   {
+    "id": "soc30",
+    "cle_id": "saumonarak",
+    "nouveau_nom": "Saumonarak"
+   }
+  ],
+  "sangsuarak": [
+   {
+    "id": "soc31",
+    "cle_id": "sangsuarak",
+    "nouveau_nom": "Sangsuarak"
+   }
+  ],
+  "escargarak": [
+   {
+    "id": "soc32",
+    "cle_id": "escargarak",
+    "nouveau_nom": "Escargarak"
+   }
+  ],
+  "renardarak": [
+   {
+    "id": "soc33",
+    "cle_id": "renardarak",
+    "nouveau_nom": "Renardarak"
+   }
+  ],
+  "cigognarak": [
+   {
+    "id": "soc34",
+    "cle_id": "cigognarak",
+    "nouveau_nom": "Cigognarak"
+   }
+  ],
+  "pieuvrak": [
+   {
+    "id": "soc35",
+    "cle_id": "pieuvrak",
+    "nouveau_nom": "Pieuvrak"
+   }
+  ],
+  "bisonrak": [
+   {
+    "id": "soc36",
+    "cle_id": "bisonrak",
+    "nouveau_nom": "Bisonrak"
+   }
+  ],
+  "chouarak": [
+   {
+    "id": "soc37",
+    "cle_id": "chouarak",
+    "nouveau_nom": "Chouarak"
+   }
+  ],
+  "moustarak": [
+   {
+    "id": "soc38",
+    "cle_id": "moustarak",
+    "nouveau_nom": "Moustarak"
+   }
+  ],
+  "loutrarak": [
+   {
+    "id": "soc39",
+    "cle_id": "loutrarak",
+    "nouveau_nom": "Loutrarak"
+   }
+  ],
+  "marterak": [
+   {
+    "id": "soc40",
+    "cle_id": "marterak",
+    "nouveau_nom": "Marterak"
+   }
+  ],
+  "moinearak": [
+   {
+    "id": "soc41",
+    "cle_id": "moinearak",
+    "nouveau_nom": "Moinearak"
+   }
+  ],
+  "aragnarak": [
+   {
+    "id": "soc42",
+    "cle_id": "aragnarak",
+    "nouveau_nom": "Aragnarak"
+   }
+  ],
+  "hirondarak": [
+   {
+    "id": "soc43",
+    "cle_id": "hirondarak",
+    "nouveau_nom": "Hirondarak"
+   }
+  ],
+  "brachydrak": [
+   {
+    "id": "ter01",
+    "cle_id": "maltuile",
+    "nouveau_nom": "Maltuile"
+   }
+  ],
+  "deviljhak": [
+   {
+    "id": "ter02",
+    "cle_id": "mortelaine",
+    "nouveau_nom": "Mortelaine"
+   }
+  ],
+  "giganokrak": [
+   {
+    "id": "ter03",
+    "cle_id": "orgelane",
+    "nouveau_nom": "Orgelane"
+   }
+  ],
+  "zinograk": [
+   {
+    "id": "ter04",
+    "cle_id": "nervaille",
+    "nouveau_nom": "Nervaille"
+   }
+  ],
+  "uragaanok": [
+   {
+    "id": "ter05",
+    "cle_id": "oubliette",
+    "nouveau_nom": "Oubliette"
+   }
+  ],
+  "bariothrak": [
+   {
+    "id": "ter06",
+    "cle_id": "nevelune",
+    "nouveau_nom": "Névelune"
+   }
+  ],
+  "bagelnokrak": [
+   {
+    "id": "ter07",
+    "cle_id": "mazurque",
+    "nouveau_nom": "Mazurque"
+   }
+  ],
+  "diablorak": [
+   {
+    "id": "ter08",
+    "cle_id": "ocremont",
+    "nouveau_nom": "Ocremont"
+   }
+  ],
+  "glukharak": [
+   {
+    "id": "ter09",
+    "cle_id": "machefer",
+    "nouveau_nom": "Mâchefer"
+   }
+  ],
+  "durambarak": [
+   {
+    "id": "ter10",
+    "cle_id": "marnelin",
+    "nouveau_nom": "Marnelin"
+   }
+  ],
+  "rajangrak": [
+   {
+    "id": "ter11",
+    "cle_id": "nuagrin",
+    "nouveau_nom": "Nuagrin"
+   }
+  ],
+  "congalarak": [
+   {
+    "id": "ter12",
+    "cle_id": "morillane",
+    "nouveau_nom": "Morillane"
+   }
+  ],
+  "tigrexrak": [
+   {
+    "id": "ter13",
+    "cle_id": "ouessane",
+    "nouveau_nom": "Ouessane"
+   }
+  ],
+  "lagombirak": [
+   {
+    "id": "ter14",
+    "cle_id": "melassine",
+    "nouveau_nom": "Mélassine"
+   }
+  ],
+  "najararak": [
+   {
+    "id": "ter15",
+    "cle_id": "mancenille",
+    "nouveau_nom": "Mancenille"
+   }
+  ],
+  "apcarak": [
+   {
+    "id": "ter16",
+    "cle_id": "nyctale",
+    "nouveau_nom": "Nyctale"
+   }
+  ],
+  "tetzarak": [
+   {
+    "id": "ter17",
+    "cle_id": "mirodine",
+    "nouveau_nom": "Mirodine"
+   }
+  ],
+  "odibarak": [
+   {
+    "id": "ter18",
+    "cle_id": "mortaise",
+    "nouveau_nom": "Mortaise"
+   }
+  ],
+  "volviarak": [
+   {
+    "id": "ter19",
+    "cle_id": "nitrine",
+    "nouveau_nom": "Nitrine"
+   }
+  ],
+  "mitzarak": [
+   {
+    "id": "ter20",
+    "cle_id": "mousseline",
+    "nouveau_nom": "Mousseline"
+   }
+  ],
+  "nergigarak": [
+   {
+    "id": "ter21",
+    "cle_id": "mnemire",
+    "nouveau_nom": "Mnémire"
+   }
+  ],
+  "ruinarak": [
+   {
+    "id": "ter22",
+    "cle_id": "noroche",
+    "nouveau_nom": "Noroche"
+   }
+  ]
+ }
+}

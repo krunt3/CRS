@@ -31,7 +31,10 @@
   "description_courte": "Colosse des caldeiras dont le dos fume comme une fonderie. Les pisteurs signalent qu'il ne quitte jamais son cratère sans que les rivières de lave ne changent de lit.",
   "familier": {
    "possible": false
-  }
+  },
+  "cle_id": "ysmerande",
+  "dressage_possible": false,
+  "ancienne_cle_id": "teostrakh"
  },
  {
   "id": "dra02",
@@ -67,7 +70,10 @@
   "description_courte": "Presque jamais vu depuis le sol. Les côtiers le connaissent à ses nuées stationnaires et à la pluie d'arcs qui précède son passage ; seuls les guetteurs de haute crête ont aperçu ses ailes.",
   "familier": {
    "possible": false
-  }
+  },
+  "cle_id": "zhelnai",
+  "dressage_possible": false,
+  "ancienne_cle_id": "kusharak"
  },
  {
   "id": "dra03",
@@ -101,7 +107,10 @@
   "description_courte": "Veilleur du grand froid, signalé par une corne bleue émergeant des glaces. Les explorateurs notent que le climat local se refroidit durablement après son séjour.",
   "familier": {
    "possible": false
-  }
+  },
+  "cle_id": "ethrimel",
+  "dressage_possible": false,
+  "ancienne_cle_id": "glaciarak"
  },
  {
   "id": "dra04",
@@ -135,7 +144,10 @@
   "description_courte": "On le confond avec le relief. Les cartographes ont dû corriger plusieurs cartes quand une « crête » s'est déplacée de trois lieues en une saison.",
   "familier": {
    "possible": false
-  }
+  },
+  "cle_id": "ulmunde",
+  "dressage_possible": false,
+  "ancienne_cle_id": "terragorak"
  },
  {
   "id": "dra05",
@@ -169,7 +181,10 @@
   "description_courte": "Signalé par les plongeurs-cloches et les sondeurs de fosse. Ses anneaux lumineux, parfois visibles à la surface par mer calme, passent pour un présage de marée anormale.",
   "familier": {
    "possible": false
-  }
+  },
+  "cle_id": "nyssouane",
+  "dressage_possible": false,
+  "ancienne_cle_id": "leviagorrak"
  },
  {
   "id": "dra06",
@@ -205,7 +220,10 @@
   "description_courte": "Les herboristes de canopée connaissent ses traces violettes qui tuent la mousse. Un bassin entier de biodiversité peut s'effondrer et renaître autour de lui.",
   "familier": {
    "possible": false
-  }
+  },
+  "cle_id": "oilarmine",
+  "dressage_possible": false,
+  "ancienne_cle_id": "venomorak"
  },
  {
   "id": "dra07",
@@ -239,7 +257,10 @@
   "description_courte": "Les torches s'éteignent plus vite en sa présence. Les spéléologues ne rapportent de lui que des relevés de lumière anormalement faibles.",
   "familier": {
    "possible": false
-  }
+  },
+  "cle_id": "nyctheuil",
+  "dressage_possible": false,
+  "ancienne_cle_id": "umbrarak"
  },
  {
   "id": "dra08",
@@ -275,7 +296,10 @@
   "description_courte": "Quand il passe, les ombres disparaissent sur plusieurs lieues. Les veilleurs de désert utilisent des verres fumés pour le regarder en face.",
   "familier": {
    "possible": false
-  }
+  },
+  "cle_id": "ysolane",
+  "dressage_possible": false,
+  "ancienne_cle_id": "lumarak"
  },
  {
   "id": "dra09",
@@ -309,7 +333,10 @@
   "description_courte": "On parle de lui comme d'une bibliothèque qui marche. Les archivistes l'approchent avec offrandes de papier et reviennent parfois avec des phrases dont personne ne se souvient.",
   "familier": {
    "possible": false
-  }
+  },
+  "cle_id": "zhoumai",
+  "dressage_possible": false,
+  "ancienne_cle_id": "mnemarak"
  },
  {
   "id": "dra10",
@@ -343,7 +370,10 @@
   "description_courte": "Il se déplace avec les courants-jets, dont il modifie la route. Les marins prévoient la météo d'une saison d'après les spirales de nuages qu'il laisse.",
   "familier": {
    "possible": false
-  }
+  },
+  "cle_id": "oiveane",
+  "dressage_possible": false,
+  "ancienne_cle_id": "valkarak"
  },
  {
   "id": "dra11",
@@ -377,7 +407,10 @@
   "description_courte": "Les témoins le décrivent en double ou en triple, à des endroits différents. Les chroniqueurs prétendent qu'il revisite des batailles qui n'ont pas eu lieu.",
   "familier": {
    "possible": false
-  }
+  },
+  "cle_id": "ysclepse",
+  "dressage_possible": false,
+  "ancienne_cle_id": "kronarak"
  },
  {
   "id": "dra12",
@@ -411,7 +444,10 @@
   "description_courte": "Le plus redouté de la tradition ; une seule apparition est consignée par génération. Ses anneaux sont comparés à un instrument de mesure du ciel.",
   "familier": {
    "possible": false
-  }
+  },
+  "cle_id": "zhyrmael",
+  "dressage_possible": false,
+  "ancienne_cle_id": "pradorak"
  },
  {
   "id": "dra13",
@@ -445,7 +481,10 @@
   "description_courte": "Nul n'a pu établir s'il s'agit d'une créature. Les notes de chasseurs divergent sur tout sauf sur l'impression de manque qu'il laisse.",
   "familier": {
    "possible": false
-  }
+  },
+  "cle_id": "oinome",
+  "dressage_possible": false,
+  "ancienne_cle_id": "voidrak"
  },
  {
   "id": "dra14",
@@ -479,7 +518,10 @@
   "description_courte": "On dit que chaque grand fleuve est né d'un de ses repos. Les riverains déposent des offrandes aux vasques des sources où il aurait dormi.",
   "familier": {
    "possible": false
-  }
+  },
+  "cle_id": "ysourene",
+  "dressage_possible": false,
+  "ancienne_cle_id": "aquaroak"
  },
  {
   "id": "dra15",
@@ -513,7 +555,10 @@
   "description_courte": "On entend son pas dans les galeries avant de le voir. Les mineurs affirment que les veines se reforment derrière lui, plus riches.",
   "familier": {
    "possible": false
-  }
+  },
+  "cle_id": "ulenclume",
+  "dressage_possible": false,
+  "ancienne_cle_id": "ferarak"
  },
  {
   "id": "dra16",
@@ -547,7 +592,10 @@
   "description_courte": "Sur son dos nichent mille espèces. Les naturalistes y ont recensé des variétés absentes du reste de l'archipel.",
   "familier": {
    "possible": false
-  }
+  },
+  "cle_id": "zheliane",
+  "dressage_possible": false,
+  "ancienne_cle_id": "naturarak"
  },
  {
   "id": "dra17",
@@ -581,7 +629,10 @@
   "description_courte": "On l'entend avant de le voir. Les chanteurs de canyon disent qu'il répond à leurs notes et que certains accords l'apaisent ou le mettent en colère.",
   "familier": {
    "possible": false
-  }
+  },
+  "cle_id": "ulcantre",
+  "dressage_possible": false,
+  "ancienne_cle_id": "sonarak"
  },
  {
   "id": "dra18",
@@ -617,7 +668,10 @@
   "description_courte": "Les villages voisins se couchent tôt et dorment longtemps. Les voyageurs qui s'approchent s'assoupissent et se réveillent des jours plus tard, rassérénés.",
   "familier": {
    "possible": false
-  }
+  },
+  "cle_id": "nyloreis",
+  "dressage_possible": false,
+  "ancienne_cle_id": "somnarak"
  },
  {
   "id": "dra19",
@@ -653,7 +707,10 @@
   "description_courte": "On l'aperçoit près des lieux de grande migration ou de bataille. Les anciens lui laissent une bougie et ne le regardent pas droit.",
   "familier": {
    "possible": false
-  }
+  },
+  "cle_id": "zhaluine",
+  "dressage_possible": false,
+  "ancienne_cle_id": "morarak"
  },
  {
   "id": "dra20",
@@ -689,7 +746,10 @@
   "description_courte": "On le repère aux constellations anormales qui apparaissent certaines nuits claires. Les astronomes de la Tour ont consigné sa position pendant quarante ans.",
   "familier": {
    "possible": false
-  }
+  },
+  "cle_id": "ethyrane",
+  "dressage_possible": false,
+  "ancienne_cle_id": "astrarak"
  },
  {
   "id": "dra21",
@@ -723,7 +783,10 @@
   "description_courte": "Il s'immobilise des années et on le prend pour un monument. Les joailliers n'osent plus entrer dans la région où il repose.",
   "familier": {
    "possible": false
-  }
+  },
+  "cle_id": "ulquartine",
+  "dressage_possible": false,
+  "ancienne_cle_id": "cristalrak"
  },
  {
   "id": "dra22",
@@ -757,7 +820,10 @@
   "description_courte": "Les rapports divergent sur tout. Les chasseurs s'accordent seulement sur l'asymétrie et sur les orages qui éclatent par ciel clair.",
   "familier": {
    "possible": false
-  }
+  },
+  "cle_id": "zhizanne",
+  "dressage_possible": false,
+  "ancienne_cle_id": "chaosroak"
  },
  {
   "id": "dra23",
@@ -793,7 +859,10 @@
   "description_courte": "Les boussoles s'affolent à plusieurs lieues. Les navigateurs notent son orientation fixe quand il dort.",
   "familier": {
    "possible": false
-  }
+  },
+  "cle_id": "nyorbite",
+  "dressage_possible": false,
+  "ancienne_cle_id": "magnetrak"
  },
  {
   "id": "dra24",
@@ -827,7 +896,10 @@
   "description_courte": "On suit sa progression à des coulées inédites dans les tunnels. Il se glisse sous la lave refroidie et s'en couvre comme d'un manteau.",
   "familier": {
    "possible": false
-  }
+  },
+  "cle_id": "ulmagrone",
+  "dressage_possible": false,
+  "ancienne_cle_id": "pyroclarak"
  },
  {
   "id": "dra25",
@@ -861,7 +933,10 @@
   "description_courte": "Les baleiniers évitent les eaux où la glace devient noire. Ceux qui l'ont vu parlent d'un dos hérissé de mâts sombres.",
   "familier": {
    "possible": false
-  }
+  },
+  "cle_id": "ysnoirelle",
+  "dressage_possible": false,
+  "ancienne_cle_id": "glacenomrak"
  },
  {
   "id": "dra26",
@@ -897,7 +972,10 @@
   "description_courte": "Il annonce les secousses de plusieurs jours. Les sismologues notent des éclairs au ras du sol lors de ses déplacements.",
   "familier": {
    "possible": false
-  }
+  },
+  "cle_id": "ethzelte",
+  "dressage_possible": false,
+  "ancienne_cle_id": "geolarak"
  },
  {
   "id": "dra27",
@@ -931,7 +1009,10 @@
   "description_courte": "Les caravaniers le prennent pour une saline. Il conserve, dit-on, tout ce qui meurt sur ses rives intacts pendant des siècles.",
   "familier": {
    "possible": false
-  }
+  },
+  "cle_id": "oisalmene",
+  "dressage_possible": false,
+  "ancienne_cle_id": "haloroak"
  },
  {
   "id": "dra28",
@@ -965,7 +1046,10 @@
   "description_courte": "Il rôde sur les terres brûlées. Les forestiers lui attribuent les incendies qui repartent des cendres froides, sans cause.",
   "familier": {
    "possible": false
-  }
+  },
+  "cle_id": "ulscorie",
+  "dressage_possible": false,
+  "ancienne_cle_id": "cendrarak"
  },
  {
   "id": "dra29",
@@ -1001,7 +1085,10 @@
   "description_courte": "Il a laissé des traces de verre fondu au sommet de plusieurs pics. Les foudroyeurs de la Tour le suivent aux aurores roses.",
   "familier": {
    "possible": false
-  }
+  },
+  "cle_id": "zheonide",
+  "dressage_possible": false,
+  "ancienne_cle_id": "plasmarak"
  },
  {
   "id": "dra30",
@@ -1035,7 +1122,10 @@
   "description_courte": "Sa taille varie selon la densité de la roche. Autour de lui, la poussière monte au lieu de tomber et les pierres lentement s'enroulent.",
   "familier": {
    "possible": false
-  }
+  },
+  "cle_id": "ulbrodene",
+  "dressage_possible": false,
+  "ancienne_cle_id": "gravitarak"
  },
  {
   "id": "dra31",
@@ -1071,7 +1161,10 @@
   "description_courte": "Un cercle de champignons se forme à chacun de ses passages et se relie aux autres. Les forestiers y voient un seul organisme.",
   "familier": {
    "possible": false
-  }
+  },
+  "cle_id": "oifilande",
+  "dressage_possible": false,
+  "ancienne_cle_id": "mycorak"
  },
  {
   "id": "dra32",
@@ -1107,7 +1200,10 @@
   "description_courte": "Les sources deviennent jaunes là où il s'abreuve. Les grottes de la région portent des trous inexplicables.",
   "familier": {
    "possible": false
-  }
+  },
+  "cle_id": "zhurevine",
+  "dressage_possible": false,
+  "ancienne_cle_id": "acidroak"
  },
  {
   "id": "dra33",
@@ -1143,7 +1239,10 @@
   "description_courte": "Les nuits polaires s'éclairent à son passage. Les trappeurs interrompent la chasse pour le regarder passer.",
   "familier": {
    "possible": false
-  }
+  },
+  "cle_id": "ysvelune",
+  "dressage_possible": false,
+  "ancienne_cle_id": "aurorarak"
  },
  {
   "id": "dra34",
@@ -1179,7 +1278,10 @@
   "description_courte": "On le repère aux arcs-en-ciel sans pluie. Il est presque invisible hors du soleil.",
   "familier": {
    "possible": false
-  }
+  },
+  "cle_id": "nyprisel",
+  "dressage_possible": false,
+  "ancienne_cle_id": "chromarak"
  },
  {
   "id": "dra35",
@@ -1213,7 +1315,10 @@
   "description_courte": "Ses flammes ne chauffent pas. Les mains qui s'en approchent reviennent engourdies et les gelées couvrent les prairies.",
   "familier": {
    "possible": false
-  }
+  },
+  "cle_id": "oibleuline",
+  "dressage_possible": false,
+  "ancienne_cle_id": "pyrofrak"
  },
  {
   "id": "dra36",
@@ -1247,6 +1352,9 @@
   "description_courte": "On le prend pour un monument. Les moines de la région affirment qu'il n'a pas bougé depuis la fondation de leur ordre.",
   "familier": {
    "possible": false
-  }
+  },
+  "cle_id": "ysendure",
+  "dressage_possible": false,
+  "ancienne_cle_id": "eternarak"
  }
 ]

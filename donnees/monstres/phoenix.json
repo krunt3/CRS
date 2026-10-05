@@ -43,7 +43,10 @@
    "limite": "Aucun dressage possible : seul un lien de cycle rare le lie à un porteur, et il rompt dès que son cycle l'emporte."
   },
   "nom_conserve": true,
-  "note": "à réconcilier avec l'Atlas (phœnix primordiaux)"
+  "note": "à réconcilier avec l'Atlas (phœnix primordiaux)",
+  "cle_id": "ignisrak",
+  "dressage_possible": true,
+  "ancienne_cle_id": "ignisrak"
  },
  {
   "id": "pho02",
@@ -89,7 +92,10 @@
    "limite": "Aucun dressage possible : le lien de cristal n'existe qu'en hiver et se brise à la fonte."
   },
   "nom_conserve": true,
-  "note": "à réconcilier avec l'Atlas (phœnix primordiaux)"
+  "note": "à réconcilier avec l'Atlas (phœnix primordiaux)",
+  "cle_id": "glacirak",
+  "dressage_possible": true,
+  "ancienne_cle_id": "glacirak"
  },
  {
   "id": "pho03",
@@ -135,7 +141,10 @@
    "limite": "Aucun dressage possible : le lien sylvain ne tient qu'en forêt ancienne et s'éteint loin de la canopée."
   },
   "nom_conserve": true,
-  "note": "à réconcilier avec l'Atlas (phœnix primordiaux)"
+  "note": "à réconcilier avec l'Atlas (phœnix primordiaux)",
+  "cle_id": "naturak",
+  "dressage_possible": true,
+  "ancienne_cle_id": "naturak"
  },
  {
   "id": "pho04",
@@ -181,6 +190,9 @@
    "limite": "Aucun dressage possible : le lien d'ombre est le plus rare et le plus complexe, et il lâche à la première lumière vive."
   },
   "nom_conserve": true,
-  "note": "à réconcilier avec l'Atlas (phœnix primordiaux)"
+  "note": "à réconcilier avec l'Atlas (phœnix primordiaux)",
+  "cle_id": "ombrak",
+  "dressage_possible": true,
+  "ancienne_cle_id": "ombrak"
  }
 ]

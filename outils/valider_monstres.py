@@ -21,7 +21,7 @@ def main():
     anciens = {k: norm(v['ancien_nom'].split(' — ')[0].replace('-Duragon', '')) for k, v in corr.items()}
     recs = []
     for f in sorted(glob.glob(os.path.join(D, '*.json'))):
-        if os.path.basename(f) == 'correspondance.json': continue
+        if os.path.basename(f) in ('correspondance.json','migration_cle_id.json'): continue
         for r in json.load(open(f)): r['_f'] = os.path.basename(f); recs.append(r)
     err = []
     names = {}; traits = {}

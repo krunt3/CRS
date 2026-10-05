@@ -30,7 +30,10 @@
   "description_courte": "Les ailes à fenêtres rougeoyantes signalent le souverain des hautes vallées. Territorial, il crache des gerbes de feu en piqué. Les pisteurs le repèrent à ses lanternes de chair avant de l'entendre.",
   "familier": {
    "possible": false
-  }
+  },
+  "cle_id": "fauranthe",
+  "dressage_possible": false,
+  "ancienne_cle_id": "rathavar"
  },
  {
   "id": "ail02",
@@ -63,7 +66,10 @@
   "description_courte": "Cousine des cimes de Fauranthe, elle brûle d'un feu bleu né des articulations. Les orages ne l'éteignent pas : ils l'attisent. Dangereuse par sa vitesse en piqué, elle abandonne rarement une proie blessée.",
   "familier": {
    "possible": false
-  }
+  },
+  "cle_id": "evanelle",
+  "dressage_possible": false,
+  "ancienne_cle_id": "rathavar-azur"
  },
  {
   "id": "ail03",
@@ -96,7 +102,10 @@
   "description_courte": "Vestige d'une lignée draconique, il porte un disque d'os fendu dont le rayonnement aveugle l'imprudent. Solitaire absolu, il règne sur des sommets sans sentier. Aucun chasseur n'en revient sans une brûlure.",
   "familier": {
    "possible": false
-  }
+  },
+  "cle_id": "gerophane",
+  "dressage_possible": false,
+  "ancienne_cle_id": "rathavar-argent"
  },
  {
   "id": "ail04",
@@ -131,7 +140,10 @@
   "description_courte": "Agile entre les troncs, elle tisse des filaments gluants chargés de venin d'un arbre à l'autre. Les chasseurs mal avisés se retrouvent entravés avant de la voir. Sa glande est prisée des alchimistes.",
   "familier": {
    "possible": false
-  }
+  },
+  "cle_id": "fielinde",
+  "dressage_possible": false,
+  "ancienne_cle_id": "rathiene"
  },
  {
   "id": "ail05",
@@ -166,7 +178,10 @@
   "description_courte": "Ses rosettes d'aiguilles roses ressemblent à des fleurs, ce qui trompe les cueilleurs. Elle les agite en vol pour disperser un venin concentré. Zones humides uniquement.",
   "familier": {
    "possible": false
-  }
+  },
+  "cle_id": "eglantine",
+  "dressage_possible": false,
+  "ancienne_cle_id": "rathiene-incarnate"
  },
  {
   "id": "ail06",
@@ -201,7 +216,10 @@
   "description_courte": "Les forêts millénaires l'abritent. Ses racines pendantes ruissellent d'une sève lumineuse mortelle. Lignée draconique attestée, elle protège son territoire comme une mère jalouse.",
   "familier": {
    "possible": false
-  }
+  },
+  "cle_id": "herebrune",
+  "dressage_possible": false,
+  "ancienne_cle_id": "rathiene-doree"
  },
  {
   "id": "ail07",
@@ -234,7 +252,10 @@
   "description_courte": "Montagne de muscle, il charge tête basse, cornes d'épaule en avant. Les femelles défendent leur territoire avec plus de violence que les mâles. Ses cornes servent de lances aux chefs de clan.",
   "familier": {
    "possible": false
-  }
+  },
+  "cle_id": "haubergue",
+  "dressage_possible": false,
+  "ancienne_cle_id": "diavorn"
  },
  {
   "id": "ail08",
@@ -267,7 +288,10 @@
   "description_courte": "Les naturalistes y lisent des traits très anciens. Son dos percé siffle en vol, annonçant sa venue dans les canyons. Solitaire, il défend chaque courant d'air comme un bien propre.",
   "familier": {
    "possible": false
-  }
+  },
+  "cle_id": "eolithe",
+  "dressage_possible": false,
+  "ancienne_cle_id": "tigrakh"
  },
  {
   "id": "ail09",
@@ -300,7 +324,10 @@
   "description_courte": "Rasant les vagues, elle plonge sans bruit et ressort dans une gerbe d'éclairs. Les couples côtiers défendent baies et deltas. Sa membrane imperméable équipe les navigateurs de haut rang.",
   "familier": {
    "possible": false
-  }
+  },
+  "cle_id": "estuarelle",
+  "dressage_possible": false,
+  "ancienne_cle_id": "nargavar"
  },
  {
   "id": "ail10",
@@ -333,7 +360,10 @@
   "description_courte": "On ne l'entend jamais. Seuls deux yeux pâles trahissent sa présence, une fraction de seconde avant l'attaque. Chasse la nuit, solitaire absolu.",
   "familier": {
    "possible": false
-  }
+  },
+  "cle_id": "ghislune",
+  "dressage_possible": false,
+  "ancienne_cle_id": "bariokh"
  },
  {
   "id": "ail11",
@@ -378,7 +408,10 @@
    "capacite_transport": null,
    "age_ideal": "Oisillon (0 à 3 mois), intégré dans un groupe humain constant",
    "limite": "Lien seulement conditionné : il traite le groupe humain comme sa famille et devient sauvage s'il en est séparé."
-  }
+  },
+  "cle_id": "frimalle",
+  "dressage_possible": true,
+  "ancienne_cle_id": "paolumak"
  },
  {
   "id": "ail12",
@@ -411,7 +444,10 @@
   "description_courte": "On dirait un fragment de volcan qui aurait pris l'air. Ses fissures rougeoient la nuit et fument de jour. Un fragment de fissure chauffe une maison pendant des années.",
   "familier": {
    "possible": false
-  }
+  },
+  "cle_id": "fumerolle",
+  "dressage_possible": false,
+  "ancienne_cle_id": "kushavar"
  },
  {
   "id": "ail13",
@@ -444,7 +480,10 @@
   "description_courte": "À peine visible en vol, elle fend les tempêtes à vitesse extrême. Ses rubans claquent avec un bruit de fouet, annonçant le piqué. Solitaire absolu.",
   "familier": {
    "possible": false
-  }
+  },
+  "cle_id": "flechenne",
+  "dressage_possible": false,
+  "ancienne_cle_id": "legianar"
  },
  {
   "id": "ail14",
@@ -477,7 +516,10 @@
   "description_courte": "Elle lève ses cornes torsadées vers le ciel et attire la foudre volontairement. Les artisans des Cités Libres recherchent ses cornes pour les paratonnerres.",
   "familier": {
    "possible": false
-  }
+  },
+  "cle_id": "gerbelin",
+  "dressage_possible": false,
+  "ancienne_cle_id": "espivarn"
  },
  {
   "id": "ail15",
@@ -512,7 +554,10 @@
   "description_courte": "Elle veut qu'on la voie. Ses sacs luisent la nuit et se gonflent avant chaque émission de venin. Mortellement patiente.",
   "familier": {
    "possible": false
-  }
+  },
+  "cle_id": "eufrasine",
+  "dressage_possible": false,
+  "ancienne_cle_id": "gunkavar"
  },
  {
   "id": "ail16",
@@ -545,7 +590,10 @@
   "description_courte": "Les novices ne la croient pas réelle jusqu'à la première morsure. Sa peau épouse tronc et feuillage. Elle rougit quand sa fureur monte.",
   "familier": {
    "possible": false
-  }
+  },
+  "cle_id": "hermetis",
+  "dressage_possible": false,
+  "ancienne_cle_id": "chamelark"
  },
  {
   "id": "ail17",
@@ -578,7 +626,10 @@
   "description_courte": "Les guildes la décrivent comme belle. Ses sept plaques de crête, toutes différentes, sont des cadeaux diplomatiques. Posséder les sept d'un même individu est un honneur.",
   "familier": {
    "possible": false
-  }
+  },
+  "cle_id": "galateane",
+  "dressage_possible": false,
+  "ancienne_cle_id": "teostrakh"
  },
  {
   "id": "ail18",
@@ -611,7 +662,10 @@
   "description_courte": "Ses cristaux ne fondent jamais. Vu de face en vol, il ressemble à un blizzard en marche. Lignée draconique attestée.",
   "familier": {
    "possible": false
-  }
+  },
+  "cle_id": "geodelise",
+  "dressage_possible": false,
+  "ancienne_cle_id": "zinogavar"
  },
  {
   "id": "ail19",
@@ -644,7 +698,10 @@
   "description_courte": "Colossal, il domine tous ses semblables. Un fil d'éclairs relie ses cornes en permanence. Aucun congénère à 800 km.",
   "familier": {
    "possible": false
-  }
+  },
+  "cle_id": "hegemone",
+  "dressage_possible": false,
+  "ancienne_cle_id": "valstrakh"
  },
  {
   "id": "ail20",
@@ -677,7 +734,10 @@
   "description_courte": "Blanc absolu, de la pointe du museau à l'extrémité des ailes. Difficile à regarder en plein soleil. Évite toute rencontre.",
   "familier": {
    "possible": false
-  }
+  },
+  "cle_id": "eburnale",
+  "dressage_possible": false,
+  "ancienne_cle_id": "alatreonak"
  },
  {
   "id": "ail21",
@@ -710,7 +770,10 @@
   "description_courte": "Posée sur une falaise, elle reflète la falaise. Un chasseur croit voir un gouffre là où elle attend.",
   "familier": {
    "possible": false
-  }
+  },
+  "cle_id": "felurine",
+  "dressage_possible": false,
+  "ancienne_cle_id": "namieloth"
  },
  {
   "id": "ail22",
@@ -743,7 +806,10 @@
   "description_courte": "Une jungle personnelle pousse sur son dos. Difficile à distinguer d'un arbre, elle chasse depuis la canopée.",
   "familier": {
    "possible": false
-  }
+  },
+  "cle_id": "fougerande",
+  "dressage_possible": false,
+  "ancienne_cle_id": "orbivarn"
  },
  {
   "id": "ail23",
@@ -787,6 +853,9 @@
    "capacite_transport": null,
    "age_ideal": "Jeune capturé avant 3 mois en zone d'incendie contrôlé",
    "limite": "Environ 35 % de réussite chez les jeunes ; adulte, il redevient sauvage."
-  }
+  },
+  "cle_id": "escarbille",
+  "dressage_possible": true,
+  "ancienne_cle_id": "selvarath"
  }
 ]

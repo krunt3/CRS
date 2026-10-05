@@ -30,7 +30,10 @@
   "description_courte": "Grimpeur de paroi aux griffes en peigne qui crépitent d'électricité. Les couples se partagent un pan de falaise et le défendent avec une fureur d'orage. Approche déconseillée par temps sec.",
   "familier": {
    "possible": false
-  }
+  },
+  "cle_id": "staviel",
+  "dressage_possible": false,
+  "ancienne_cle_id": "zinogarvak"
  },
  {
   "id": "cra02",
@@ -65,7 +68,10 @@
   "description_courte": "Solitaire absolue des cavernes de paroi, elle file des toiles de soie venimeuse tendues sur des gouffres. Les tisserands légendaires paient cher sa soie de combat.",
   "familier": {
    "possible": false
-  }
+  },
+  "cle_id": "tessane",
+  "dressage_possible": false,
+  "ancienne_cle_id": "nerscylarak"
  },
  {
   "id": "cra03",
@@ -98,7 +104,10 @@
   "description_courte": "Un seul par falaise assez haute. Son halo d'os pâle se voit de loin les nuits d'orage. Sa chasse est rare et mortelle, même pour les équipes de rang Légendaire.",
   "familier": {
    "possible": false
-  }
+  },
+  "cle_id": "ulhemar",
+  "dressage_possible": false,
+  "ancienne_cle_id": "brachydiosrak"
  },
  {
   "id": "cra04",
@@ -143,7 +152,10 @@
    "capacite_transport": null,
    "age_ideal": "jeune adulte conditionné par programme de surveillance (reprise de la fiche : dressage conditionné DD 12)",
    "limite": "Reste une sauvage peu docile : il répond à des signaux codés visibles et se détourne si le programme de nourrissage est interrompu."
-  }
+  },
+  "cle_id": "serelin",
+  "dressage_possible": true,
+  "ancienne_cle_id": "odogarak"
  },
  {
   "id": "cra05",
@@ -176,7 +188,10 @@
   "description_courte": "Hôte des flancs de volcan, elle se confond avec la lave refroidie. Seules les braises de son dos trahissent sa présence. Solitaire, elle chasse à l'embuscade dans la cendre.",
   "familier": {
    "possible": false
-  }
+  },
+  "cle_id": "scorine",
+  "dressage_possible": false,
+  "ancienne_cle_id": "volganorak"
  },
  {
   "id": "cra06",
@@ -211,7 +226,10 @@
   "description_courte": "Plus qu'un grimpeur, un tueur de précision : ses faux repliables sectionnent les tendons avant que la proie ne comprenne. Les chasseurs expérimentés apprennent à lire ses postures.",
   "familier": {
    "possible": false
-  }
+  },
+  "cle_id": "talvire",
+  "dressage_possible": false,
+  "ancienne_cle_id": "seregiosrak"
  },
  {
   "id": "cra07",
@@ -256,6 +274,9 @@
    "capacite_transport": null,
    "age_ideal": "jeune conditionné selon des techniques adaptées de celles d'un grand prédateur de plaine",
    "limite": "Le signal de dressage est une vibration frappée sur la paroi, pas un son ; il redevient agressif sur terrain plat."
-  }
+  },
+  "cle_id": "urtelle",
+  "dressage_possible": true,
+  "ancienne_cle_id": "tigrexrak-des-parois"
  }
 ]
