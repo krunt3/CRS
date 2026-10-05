@@ -32,6 +32,7 @@ Rédigé le 2026-10-04.
 | 10 | Données, sauvegarde, palettes, lien CRS | Sauvegarde, export du personnage, changement de couleurs |
 | 11 | Effets, performance, export Android | Un APK sur ton téléphone |
 | 12 | Projet : la première chasse | Tout assemblé, avec une liste de contrôle |
+| 13 | Animation et hitbox, cours complet (à lire avec les modules 3 et 7) | Budget d'images, phases d'une attaque, hitbox par arme |
 
 Suis les modules dans l'ordre. Chacun se termine par un **exercice** : ne passe pas au suivant tant qu'il n'est pas fait.
 
