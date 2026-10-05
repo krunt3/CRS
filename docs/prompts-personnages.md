@@ -135,3 +135,19 @@ Dans l'outil « Characters », vérifier d'abord les animations prédéfinies (m
 | Mort | 8 | `falls to his knees then onto his back, the greatsword dropping` |
 
 Conseil de la documentation de l'outil (animation par squelette) : régler la tête sur **« fixed head: always »** pour que le visage reste identique d'une image à l'autre. Utiliser les images de référence et les images figées pour garder la cohérence.
+
+
+## Le chasseur en vue 3/4, version simplifiée pour 48 px (v2)
+
+À utiliser parce que la première version (armure à écailles) devient du bruit à 48 px de haut. Réglages : vue « low top-down », **case de 64×64**, personnage réglé à **environ 48 px de haut** (la case doit être une des tailles acceptées par l'animation : 64).
+
+```
+A young human monster hunter in his early twenties, athletic build, fair skin, messy short brown hair, serious frown, no beard. Very simple design for a tiny sprite: red-orange armor made of large flat color areas with only two tones, no scale pattern, no small details; large orange feather-shaped shoulder plates and a long orange feathered cape forming one big readable shape; a teal-green cloth tabard; brown belt and boots; a huge cleaver greatsword with a plain steel blade resting on his right shoulder. Face clearly lit, large dark eyes, light skin. Three-quarter top-down view, camera slightly above, like a classic 16-bit action RPG. Idle standing pose. Strong readable silhouette. Clean pixel art, selective dark outline of one pixel, flat shading with only two tones per material, limited palette of about 24 colors, no anti-aliasing, no gradients, no dithering, no noise, no texture, transparent background.
+```
+
+Champ négatif : `scales pattern, small details, texture, noise, speckle, gradients, blurry, 3D render, painting, photo, text`.
+
+Remarques :
+- **4 directions suffisent en vue 3/4** (sud, nord, est, et l'ouest en miroir de l'est). Le miroir place l'épée sur l'épaule gauche : acceptable si le personnage est considéré comme ambidextre dans le jeu ; sinon générer l'ouest séparément.
+- **Même palette que la vue de profil** (`donnees/palette_chasseur_wyverne_32.json`) pour que le personnage reste cohérent.
+- Si le résultat reste trop chargé : remplacer `about 24 colors` par `exactly 20 colors`, ou passer le personnage à 56 px de haut (même taille de case, plus de pixels pour le détail).

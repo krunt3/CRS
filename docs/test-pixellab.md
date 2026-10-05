@@ -183,3 +183,26 @@ Génération avec le prompt complet du personnage 1 (voir `prompts-personnages.m
 | 8 | Export de tout, test d'import dans Godot | – | – | Les animations tournent à 10 images/s |
 
 **À noter à chaque étape :** nombre de générations consommées, variantes rejetées, temps passé. Le coût en générations de chaque animation n'est pas connu : commencer par les étapes 1 et 2 pour le mesurer avant de planifier le reste.
+
+
+## Résultats de l'essai 3/4 : vue « low top-down » (2026-10-05)
+
+Génération avec le prompt du personnage 1 (fin remplacée par la version 3/4), sur l'essai gratuit : vue **« low top-down »**, 8 directions, modèle « mannequin », sans animation. **Case de 48×48** (et non 64×64).
+
+| Critère | Résultat | Verdict |
+|---|---|---|
+| Hauteur du héros | 42 à 47 px (cible 48 ± 4) | OK, mais écart de 5 px entre directions (les vues de dos sont plus petites) |
+| Part de la case | 88 à 98 % | Aucune marge pour animer |
+| Pieds (bas du personnage) | écart de 2 px | OK |
+| Pixels semi-transparents, agrandissement caché | 0, aucun | OK |
+| Couleurs | **64 par image, 115 sur l'ensemble** | Très au-dessus de la cible (24 à 32) |
+
+**Lecture visuelle :**
+- Le personnage reste **reconnaissable** : mêmes cheveux, même épée sur l'épaule, même cape-ailes orange, même tablier vert d'eau. La continuité avec la vue de profil est bonne.
+- **Le visage est lisible** de face et de trois quarts (yeux sombres, cheveux), mais plus rude qu'à 64 px.
+- **L'armure est devenue du bruit** : le motif d'écailles se transforme en taches orange, noires et crème à fort contraste, et la vue de face est moins lisible que la vue de profil à 64 px. La cape-ailes vue de dos, en grandes surfaces, se lit très bien.
+- La vue « low top-down » reste proche d'une vue de face avec un léger angle : c'est ce qu'on attend d'une vue 3/4 à la Sea of Stars.
+
+**Contrainte découverte :** l'animation par squelette de PixelLab n'accepte que des cases de **16, 32, 64, 128 ou 256 px** (documentation). Une case de **48 ne pourra pas être animée par squelette**. Pour le héros 3/4, utiliser une **case de 64 avec un personnage d'environ 48 px**.
+
+**Correction à apporter au prompt :** simplifier fortement l'armure à cette taille (grandes surfaces à deux tons, pas de motif d'écailles). Voir `prompts-personnages.md`.
