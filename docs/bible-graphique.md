@@ -117,7 +117,7 @@ Ajustement à prévoir dans ce scénario : un **format « Perso 3/4 » de 32×48
 3. **La ligne de sol dans chaque case est à la même place** : les pieds se posent à 1/16 de la hauteur de la case en partant du bas (8 px pour une case de 128, 4 px pour une case de 64). Le point d'ancrage dans Godot est le bas-centre.
 4. **Le héros occupe environ 75 % de sa case**, pour laisser la place aux armes et aux effets.
 5. **Les hitbox sont définies en tuiles, pas au pixel** : zone vulnérable du héros d'environ 1 tuile de large et 2,5 à 2,75 tuiles de haut.
-6. **Palette de 24 à 32 couleurs par personnage** (une réduction automatique à 16 couleurs abîme les tons de peau et les reflets, voir `test-pixellab.md`), **32 couleurs par région**, une fois les images générées réduites (étape de nettoyage dans PixelForge).
+6. **Palette de 32 couleurs par personnage, 40 si un matériau (acier) en demande plus** et partagée entre les vues de profil et 3/4 (une réduction automatique à 16 couleurs abîme les tons de peau et les reflets, voir `test-pixellab.md`), **32 couleurs par région**, une fois les images générées réduites (étape de nettoyage dans PixelForge).
 7. **Les boss sont définis par leur hauteur en tuiles** (6, 9 ou 15), pas en pixels.
 8. **Vue de profil : une direction dessinée et un miroir. Vue 3/4 : trois directions dessinées (bas, haut, côté) et un miroir.**
 
@@ -190,7 +190,7 @@ Chaque ligne passe de « À DÉCIDER » à « VERROUILLÉ » avec la date. Aprè
 | 3 | Taille de la tuile | 32 (A, C) ou 16 (B) | **PROVISOIRE : 32 px** (formats PixelForge actuels) | 2026-10-05 |
 | 4 | Hauteur du héros de plateforme | 96 (A) / 48 (B) / 64 (C) | **PROVISOIRE : 64 px** (formats PixelForge actuels) | 2026-10-05 |
 | 5 | Largeur du héros | 48 (A) / 24 (B) / 32 (C), proportion 2:1 | **PROVISOIRE : 32 px** | 2026-10-05 |
-| 6 | Hauteur du héros en vue 3/4 | 80 (A) / 40 (B) / 48 (C) | À DÉCIDER | |
+| 6 | Hauteur du héros en vue 3/4 | 80 (A) / 40 (B) / 48 (C) | **PROVISOIRE : 44 à 48 px (C)**, confirmé par l'essai du 2026-10-05 (44 px lisibles) | 2026-10-05 |
 | 7 | Boss courant et colosse | voir section 4 ; C : 2× et 2,5×, colosse en pièces | À DÉCIDER | |
 | 8 | Contour des sprites (noir, coloré, aucun) | | À DÉCIDER | |
 | 9 | Direction de la lumière | | À DÉCIDER | |

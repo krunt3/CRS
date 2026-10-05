@@ -225,3 +225,26 @@ Génération avec le prompt v2 (armure en aplats à deux tons, sans écailles). 
 **Attention à la comparaison :** la v2 est plus lisible en partie parce qu'elle a **62 px de haut au lieu de 47** pour la v1. On ne peut donc pas conclure que le prompt simplifié tient à 48 px.
 
 **Conséquence de choix :** à 62 px, le héros en vue 3/4 a la même taille que le héros de profil (17,8 % d'une image de 360 px). Les jeux en vue 3/4 mesurés sont plutôt à 10 à 12 %.
+
+
+## Résultats de l'essai 3/4 v2 à 44 px (2026-10-05)
+
+Même prompt v2 (armure simplifiée), mais généré en **case de 48×48** (contournement : le personnage remplit la case), vue « low top-down », 8 directions, essai gratuit.
+
+| Critère | Résultat | Verdict |
+|---|---|---|
+| Hauteur du héros | **42 à 44 px** (écart 2) | Dans la fourchette des jeux en vue 3/4 (10 à 12 % de 360 px = 36 à 43 px) |
+| Pieds | écart de 2 px | OK |
+| Pixels semi-transparents, agrandissement caché | 0, aucun | OK |
+| Couleurs | 50 à 64 par image, 89 sur l'ensemble | Dépassé (réduction nécessaire) |
+
+**Conclusion : le prompt simplifié tient à 44 px.** Le visage reste lisible (plus sobre qu'à 62 px), la cape-ailes orange forme une grande surface nette, l'épée et le tablier ressortent. Le héros 3/4 mesure 12,2 % d'une image de 360 px : **le scénario C est confirmé pour la vue 3/4** (format « Perso 3/4 » de 32×48 px : le personnage de 44 px dans une case de 48, ou de 44 px dans une case de 64 pour l'animation).
+
+**Pertes par rapport à la référence :** plaques de plumes aux épaules, éclaboussures de sang, emblème bronze (non redemandés dans le prompt v2).
+
+**Cohérence entre les vues :** le profil (armure à écailles, lame ensanglantée) et le 3/4 (armure en aplats, lame nue) sont de la même famille mais pas du même niveau de détail. Pour l'animation, le design simplifié est préférable : un motif d'écailles clignote d'une image à l'autre, des aplats restent stables.
+
+**Palette unique pour les deux vues** (16 images : 8 de profil, 8 de 3/4) :
+- 32 couleurs : rendu conservé, la lame d'acier tire sur le vert-gris ;
+- 40 couleurs : lame correcte.
+Palettes enregistrées : `donnees/palette_chasseur_wyverne_v2_32.json` et `donnees/palette_chasseur_wyverne_v2_40.json`. Générées automatiquement, à retoucher dans PixelForge.
