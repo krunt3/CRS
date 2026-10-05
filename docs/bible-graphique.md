@@ -9,7 +9,7 @@ La taille des sprites, la grille de tuiles et les règles de palette se dessinen
 
 ## 2. Données de départ
 
-- **Idée de base de l'utilisateur** : héros de **96 px de haut sur 48 px de large** *(interprétation à confirmer : hauteur × largeur)*, tuile de 32 px. 96 px = exactement 3 tuiles.
+- **Idée de base de l'utilisateur** : héros de **96 px de haut sur 48 px de large** (**confirmé par l'utilisateur le 2026-10-05** : 96 de haut, 48 de large, proportion 2:1), tuile de 32 px. 96 px = exactement 3 tuiles.
 - **Étude de jeux de référence** (voir `etude-jeux-reference.md`) : un héros de plateforme fait 13 à 17 % de la hauteur de l'image, un héros d'exploration en vue 3/4 fait 10 à 12 %, un boss courant fait 2 à 3× le héros, un boss colosse de 5× est vu en partie.
 - **Outil de génération envisagé : PixelLab (pixellab.ai).** Les contraintes qui comptent pour les tailles sont dans la section 3.
 
@@ -25,6 +25,8 @@ La taille des sprites, la grille de tuiles et les règles de palette se dessinen
 | Rotation (changer la direction) : taille maximale | 128×128 par image | Résumé de recherche, **non confirmé** |
 | Animation par squelette : nombre d'images maximum | 16 | Résumé de recherche, **non confirmé** |
 | Qualité à petite taille | meilleure aux grandes tailles ; 16×16 possible mais plus faible | Résumé de recherche, **non confirmé** |
+| Essai gratuit | 40 générations rapides, puis 5 générations lentes par jour ; images jusqu'à 200×200 ; outils limités | Résumé de recherche, **non confirmé** (la page des tarifs ne s'affiche pas sans compte) |
+| Abonnements | Tier 1 ≈ 12 $/mois (≈ 1 000 générations), Tier 2 ≈ 24 $/mois, Tier 3 ≈ 50 $/mois | Résumé de recherche, **non confirmé : à vérifier sur le site** |
 | Tailles de tuile des jeux de tuiles générés | non indiquée | **À vérifier dans l'outil** |
 | Vue de profil, vue de dessus | indiquées comme « vues et directions », sans détail | **À vérifier dans l'outil** |
 
@@ -108,6 +110,8 @@ Avec PixelLab, jusqu'à 16 images par animation d'après un résumé de recherch
 
 Liste à compléter après la décision. Pour chaque format : nom, taille de la case, ligne de sol, ancrage, palette.
 
+**Formats actuellement préenregistrés dans PixelForge : non communiqués** (l'utilisateur a indiqué des formats pour personnages, monstres et boss, sans leurs tailles). À relever avant de décider lesquels garder.
+
 | Format | Scénario A | Scénario B |
 |---|---|---|
 | Tuile | 32×32 | 16×16 |
@@ -115,6 +119,22 @@ Liste à compléter après la décision. Pour chaque format : nom, taille de la 
 | Petit monstre | 64×64 | 32×32 |
 | Monstre moyen | 256×256 | 128×128 |
 | Boss | 256×256 (pièces au-delà) | 128×128 ou 256×256 |
+
+## 7 bis. Test à faire avant de verrouiller la décision n° 1
+
+Sans abonnement, l'essai gratuit permet de comparer **les images fixes** (génération jusqu'à 200×200). L'animation par squelette demande un abonnement (« Tier 1 »).
+
+**Étape 1, avec l'essai gratuit :**
+1. Générer le **même héros** (96×48 en case 128, puis 48×24 en case 64) avec la même description.
+2. Comparer la lisibilité (visage, armure, arme) et le nombre de générations à relancer pour obtenir un résultat acceptable.
+3. Réduire la version 128 à 64 dans PixelForge et la comparer à la version générée directement en 64.
+
+**Étape 2, avec un mois d'abonnement (si l'étape 1 est concluante) :**
+1. Animer un cycle de marche de 8 images dans chaque taille.
+2. Noter le temps passé, les générations relancées et la cohérence d'une image à l'autre.
+3. Animer un boss à 2× le héros dans une case de 256.
+
+**Résultat à consigner ici :** taille retenue, temps mesuré par animation, taux de générations rejetées.
 
 ## 8. Décisions à verrouiller
 
@@ -126,7 +146,7 @@ Chaque ligne passe de « À DÉCIDER » à « VERROUILLÉ » avec la date. Aprè
 | 2 | Largeur extensible, hauteur fixe | Recommandé | À DÉCIDER | |
 | 3 | Taille de la tuile | 32 (A) ou 16 (B) | À DÉCIDER | |
 | 4 | Hauteur du héros de plateforme | 96 (A) ou 48 (B) | À DÉCIDER | |
-| 5 | Largeur du héros | 48 (A) ou 24 (B) *(à confirmer)* | À DÉCIDER | |
+| 5 | Largeur du héros | 48 (A) ou 24 (B), proportion 2:1 confirmée | À DÉCIDER (dépend du n° 1) | |
 | 6 | Hauteur du héros en vue 3/4 | 80 (A) ou 40 (B) | À DÉCIDER | |
 | 7 | Boss courant et colosse | voir section 4 | À DÉCIDER | |
 | 8 | Contour des sprites (noir, coloré, aucun) | | À DÉCIDER | |
@@ -135,7 +155,7 @@ Chaque ligne passe de « À DÉCIDER » à « VERROUILLÉ » avec la date. Aprè
 | 11 | Budget d'animation par personnage | voir section 6 | À DÉCIDER | |
 | 12 | Personnalisation (corps de base + palettes) | | À DÉCIDER | |
 | 13 | Nombre de personnages jouables de la démo | | À DÉCIDER | |
-| 14 | Outil de génération et son abonnement | PixelLab | À DÉCIDER | |
+| 14 | Outil de génération et son abonnement | PixelLab ; abonnement prévu plus tard, à l'usage réel (essai gratuit d'abord) | À DÉCIDER | |
 
 ## 9. Procédure pour changer une décision verrouillée
 
