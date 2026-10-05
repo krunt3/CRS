@@ -364,7 +364,7 @@
   "apparence": {
    "silhouette": "Corps haut et étroit, dressé sur ses pattes arrière comme un sablier, avec une tête en bas et une tête-coiffe en haut. Deux ailes translucides, doublées d'images fantômes. Le contour paraît doublé d'un deuxième contour décalé.",
    "trait_distinctif": "Chacun de ses mouvements laisse une image rémanente qui le suit une seconde en retard, de sorte qu'il paraît toujours dédoublé.",
-   "trait_cle": "contour-double-rematent",
+   "trait_cle": "contour-double-remanent",
    "couleurs": [
     "bronze terni",
     "gris poussière",
@@ -640,7 +640,7 @@
   "apparence": {
    "silhouette": "Silhouette haute et décharnée, longs membres, cou courbé en faux. Ailes en lanternes de papier fines. Le visage est un crâne lisse en bec.",
    "trait_distinctif": "Il porte une lanterne de cristal blanc accrochée au bout d'un fin appendice qui dépasse du front, pour guider les âmes.",
-   "trait_cle": "lanterne-pend-du-front",
+   "trait_cle": "lanterne-frontale-cristal",
    "couleurs": [
     "blanc os",
     "bleu pâle",
@@ -1166,7 +1166,7 @@
   "apparence": {
    "silhouette": "Corps de verre transparent, quadrupède fin, ailes en lamelles de verre. La tête est un prisme. Il ne se voit qu'à travers sa lumière.",
    "trait_distinctif": "Son corps transparent décompose la lumière en un arc-en-ciel qui se projette autour de lui.",
-   "trait_cle": "corps-verre-arc-en-ciel",
+   "trait_cle": "corps-verre-prismatique",
    "couleurs": [
     "transparent",
     "irisé",
