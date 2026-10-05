@@ -11,14 +11,14 @@ Rédigé d'après le récit vocal de krunt. Les mentions « à confirmer » sont
 | **SceneForge** | Scénarios pour le CRSVTT : scènes, personnages, lieux, musiques assemblés en trame de MJ | Première ébauche, 60 à 70 % | Compléter si besoin ; ne doit pas devenir grosse | faible |
 | **MindForge** | « Deuxième cerveau » | Finalisée | Usage par krunt | — |
 | **DBForge** | Sauvegarde hors ligne et transfert vers le serveur en ligne | Prochaine grosse application | Réglages du serveur (basculer vers un NAS si le portable lâche), saisie graphique de la base ; peu complexe | **haute** |
-| **QuickForge** (« quelques forges ») | Calculatrice du MJ en session VTT | Pour plus tard, sera sûrement intégrée au CRSVTT | — | plus tard |
+| **CalcForge** (transcrit « quelques forges ») | Calculatrice du MJ en session VTT | Pour plus tard, sera sûrement intégrée au CRSVTT | — | plus tard |
 | **ReaderForge** | Lire, modifier, annoter des PDF et des fichiers Markdown | Moins utile (krunt passe par Claude pour relire les PDF et travaille en Markdown) | Peut-être une interface PC | faible |
 | **StoryForge** | Récit/canon | Finie | — | — |
-| **PixelForge** | Pixel art | Finalisée ; trois choses à intégrer (voir le journal mémoire de l'autre session) | Format « Perso 3/4 32×48 », taille de sprite à la création d'un document, lien avec ConfyUI (local, à la manière de PixelLab) | **haute** |
-| **SketchForge** | Dessin standard, portraits | Pour usage personnel ; pas nécessaire au jeu | Peut-être ConfyUI en local | faible |
+| **PixelForge** | Pixel art | Finalisée ; trois choses à intégrer (voir le journal mémoire de l'autre session) | Format « Perso 3/4 32×48 », taille de sprite à la création d'un document, lien avec ComfyUI en local (transcrit « ConfigUI » ; à la manière de PixelLab) | **haute** |
+| **SketchForge** | Dessin standard, portraits | Pour usage personnel ; pas nécessaire au jeu | Peut-être ComfyUI en local | faible |
 | **InkForge** | Dessin vectoriel | Finalisée ; plus nécessaire | — | — |
 | **SoundForge** | Musique | Finalisée à 80 % ; deux versions (Android, PC plus performante) | Revoir l'interface PC (quelques jours à une semaine max), puis éprouver | moyenne |
-| **LightForge** | Retouche photo (type Lightroom/Photoshop) | Fonctionnelle, sans IA | IA locale plus tard (ConfyUI, intégration de Claude pour des commandes comme « ouvre la main ») ; pas pour la démo | plus tard |
+| **LightForge** | Retouche photo (type Lightroom/Photoshop) | Fonctionnelle, sans IA | IA locale plus tard (ComfyUI, intégration de Claude pour des commandes comme « ouvre la main ») ; pas pour la démo | plus tard |
 | **VideoForge** | Montage vidéo léger (fondus, zoom, ralentis, texte, glisser-déposer) | Pas faite | Simple : enregistrement d'écran du téléphone puis montage léger ; pas un After Effects | faible |
 | **CRSVTT** | Plateforme de JDR en ligne | Pas faite | Après la démo du jeu ; ce sera l'application la plus complexe | après la démo |
 | **RPG solo (Jeu B)** | Le jeu vidéo | Après les outils | La démo d'abord | après outils |
