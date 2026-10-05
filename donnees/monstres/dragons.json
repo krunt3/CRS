@@ -1,0 +1,1252 @@
+[
+ {
+  "id": "dra01",
+  "nouveau_nom": "Ysmérande",
+  "sous_titre": "Le Forgeron des Caldeiras",
+  "groupe": "dragons",
+  "rang": "◆◆◆◆ Légendaire",
+  "cr": 24,
+  "role_jeu": "evenement_cinematique",
+  "taille_garrot_m": 12.0,
+  "hauteur_sprite_px": 439,
+  "hors_format_sprite": true,
+  "element_principal": "Feu",
+  "element_secondaire": "Terre",
+  "etats_infliges": [],
+  "lignee_draconique": true,
+  "terrain": "Volcans, caldeiras actives, dorsales volcaniques",
+  "apparence": {
+   "silhouette": "Corps massif et bas, porté sur quatre pattes en piliers, le cou court et le crâne large comme une enclume. Deux paires d'ailes membraneuses dont la plus petite, vers la croupe, reste souvent repliée. Ombre chinoise de forge trapue, hérissée de cheminées dorsales.",
+   "trait_distinctif": "Le dos est couvert de tubes de basalte creux qui exhalent des filets de fumée rouge, comme une rangée de cheminées.",
+   "trait_cle": "dos-de-cheminees-basalte",
+   "couleurs": [
+    "basalte noir",
+    "rouge braise",
+    "gris cendre"
+   ],
+   "rappel_leger": "Cataclysme volcanique vivant, grand dragon de feu solitaire et territorial.",
+   "difference_avec_ancienne": "Remplace la créature à surface incandescente lisse par un colosse trapu à cheminées de basalte et quatre ailes inégales.",
+   "signature_cinematique": "Une rangée de panaches rouges se dresse un instant sur la crête de la caldeira, puis la montagne semble respirer."
+  },
+  "description_courte": "Colosse des caldeiras dont le dos fume comme une fonderie. Les pisteurs signalent qu'il ne quitte jamais son cratère sans que les rivières de lave ne changent de lit.",
+  "familier": {
+   "possible": false
+  }
+ },
+ {
+  "id": "dra02",
+  "nouveau_nom": "Zhelnaï",
+  "sous_titre": "Le Cavalier des Nuées Noires",
+  "groupe": "dragons",
+  "rang": "◆◆◆◆ Légendaire",
+  "cr": 22,
+  "role_jeu": "evenement_cinematique",
+  "taille_garrot_m": 9.0,
+  "hauteur_sprite_px": 329,
+  "hors_format_sprite": true,
+  "element_principal": "Foudre",
+  "element_secondaire": "Vent",
+  "etats_infliges": [
+   "Paralysie"
+  ],
+  "lignee_draconique": true,
+  "terrain": "Haute atmosphère, tempêtes permanentes, crêtes exposées",
+  "apparence": {
+   "silhouette": "Corps long et mince, presque plat, sans pattes arrière visibles, deux ailes immenses taillées en lames effilées. La tête, en fer de lance, porte deux filaments sensibles qui traînent derrière lui sur plusieurs mètres. Silhouette de raie céleste.",
+   "trait_distinctif": "Deux filaments translucides partent de la nuque et crépitent d'arcs bleus sur toute leur longueur, tels des fouets de lumière.",
+   "trait_cle": "filaments-fouets-electriques",
+   "couleurs": [
+    "bleu orage",
+    "blanc éclair",
+    "ardoise"
+   ],
+   "rappel_leger": "Grand volant de tempête, dragon des hauteurs que l'on n'entend que de loin.",
+   "difference_avec_ancienne": "Remplace la masse tempétueuse invisible par un corps de raie élancé à deux filaments électriques.",
+   "signature_cinematique": "Une nuée sombre dérive au-dessus du port, striée d'éclairs verticaux, et deux fils de lumière ondulent sous les nuages."
+  },
+  "description_courte": "Presque jamais vu depuis le sol. Les côtiers le connaissent à ses nuées stationnaires et à la pluie d'arcs qui précède son passage ; seuls les guetteurs de haute crête ont aperçu ses ailes.",
+  "familier": {
+   "possible": false
+  }
+ },
+ {
+  "id": "dra03",
+  "nouveau_nom": "Ethrimel",
+  "sous_titre": "Le Veilleur des Banquises",
+  "groupe": "dragons",
+  "rang": "◆◆◆◆ Légendaire",
+  "cr": 23,
+  "role_jeu": "evenement_cinematique",
+  "taille_garrot_m": 11.0,
+  "hauteur_sprite_px": 403,
+  "hors_format_sprite": true,
+  "element_principal": "Glace",
+  "element_secondaire": null,
+  "etats_infliges": [],
+  "lignee_draconique": true,
+  "terrain": "Régions polaires, calottes glaciaires, permafrost profond",
+  "apparence": {
+   "silhouette": "Quadrupède épais, tête basse, dos voûté comme une moraine. Les ailes, courtes et rigides, sont repliées en voiles de glace sur les flancs. Une longue queue lourde traîne un sillage de givre.",
+   "trait_distinctif": "Une unique corne de glace translucide, longue et torsadée comme un narval géant, jaillit du front et sert de repère aux navigateurs.",
+   "trait_cle": "corne-de-glace-torsadee",
+   "couleurs": [
+    "blanc bleuté",
+    "vert glacier",
+    "gris acier"
+   ],
+   "rappel_leger": "Colosse polaire, grand dragon de glace dormant sous les calottes.",
+   "difference_avec_ancienne": "Remplace la silhouette fourrée par un corps de moraine à corne unique de glace torsadée.",
+   "signature_cinematique": "Une corne de glace bleue perce la brume polaire, immobile, plus haute que la tour de guet."
+  },
+  "description_courte": "Veilleur du grand froid, signalé par une corne bleue émergeant des glaces. Les explorateurs notent que le climat local se refroidit durablement après son séjour.",
+  "familier": {
+   "possible": false
+  }
+ },
+ {
+  "id": "dra04",
+  "nouveau_nom": "Ulmunde",
+  "sous_titre": "Le Dos des Montagnes",
+  "groupe": "dragons",
+  "rang": "◆◆◆◆ Légendaire",
+  "cr": 23,
+  "role_jeu": "evenement_cinematique",
+  "taille_garrot_m": 14.0,
+  "hauteur_sprite_px": 512,
+  "hors_format_sprite": true,
+  "element_principal": "Terre",
+  "element_secondaire": null,
+  "etats_infliges": [],
+  "lignee_draconique": true,
+  "terrain": "Zones tectoniques actives, montagnes en formation",
+  "apparence": {
+   "silhouette": "Corps énorme couché plus que debout, des épaules en falaise et une tête petite et plate, presque enterrée. Quatre membres puissants aux griffes comme des socs de charrue. Seul son profil de crête rocheuse le trahit.",
+   "trait_distinctif": "Des strates de roche sédimentaire, visibles comme les pages d'un livre, forment son dos et se détachent en dalles quand il se redresse.",
+   "trait_cle": "dos-strates-sedimentaires",
+   "couleurs": [
+    "ocre strié",
+    "brun terre",
+    "vert mousse"
+   ],
+   "rappel_leger": "Titan tellurique, plus grand que les autres dragons, que l'on prend pour une montagne.",
+   "difference_avec_ancienne": "Remplace l'allure de colosse cuirassé par un corps à strates feuilletées qui imite une chaîne montagneuse.",
+   "signature_cinematique": "Une crête rocheuse bouge lentement contre le ciel et des éboulis dévalent dans la vallée."
+  },
+  "description_courte": "On le confond avec le relief. Les cartographes ont dû corriger plusieurs cartes quand une « crête » s'est déplacée de trois lieues en une saison.",
+  "familier": {
+   "possible": false
+  }
+ },
+ {
+  "id": "dra05",
+  "nouveau_nom": "Nyssouane",
+  "sous_titre": "Le Long Silence des Fosses",
+  "groupe": "dragons",
+  "rang": "◆◆◆◆ Légendaire",
+  "cr": 23,
+  "role_jeu": "evenement_cinematique",
+  "taille_garrot_m": 3,
+  "hauteur_sprite_px": 110,
+  "hors_format_sprite": true,
+  "element_principal": "Eau",
+  "element_secondaire": "Ombre",
+  "etats_infliges": [],
+  "lignee_draconique": true,
+  "terrain": "Abysses océaniques, fosses des grandes dorsales",
+  "apparence": {
+   "silhouette": "Corps de serpent de mer de soixante-dix mètres, sans pattes ni ailes, ondulant verticalement dans les fosses. Tête aplatie à gueule en cloche, presque aveugle. Les anneaux du corps s'étirent à l'horizontale sur plusieurs centaines de mètres.",
+   "trait_distinctif": "Des anneaux lumineux bleu pâle courent le long du flanc, s'allumant l'un après l'autre comme une procession de lanternes sous l'eau.",
+   "trait_cle": "anneaux-lanternes-abyssaux",
+   "couleurs": [
+    "bleu nuit",
+    "turquoise pâle",
+    "noir encre"
+   ],
+   "rappel_leger": "Léviathan abyssal, serpent de mer colossal qui ne remonte qu'en d'extrêmes occasions.",
+   "difference_avec_ancienne": "Remplace le corps massif par un long serpent à anneaux lumineux séquentiels.",
+   "signature_cinematique": "Sous la nuit marine, une file de lueurs bleues défile lentement sous la quille des navires."
+  },
+  "description_courte": "Signalé par les plongeurs-cloches et les sondeurs de fosse. Ses anneaux lumineux, parfois visibles à la surface par mer calme, passent pour un présage de marée anormale.",
+  "familier": {
+   "possible": false
+  }
+ },
+ {
+  "id": "dra06",
+  "nouveau_nom": "Oïlarmine",
+  "sous_titre": "La Sève Qui Tue",
+  "groupe": "dragons",
+  "rang": "◆◆◆◆ Légendaire",
+  "cr": 22,
+  "role_jeu": "evenement_cinematique",
+  "taille_garrot_m": 10.0,
+  "hauteur_sprite_px": 366,
+  "hors_format_sprite": true,
+  "element_principal": "Terre",
+  "element_secondaire": "Eau",
+  "etats_infliges": [
+   "Poison"
+  ],
+  "lignee_draconique": true,
+  "terrain": "Forêts tropicales anciennes à fort endémisme",
+  "apparence": {
+   "silhouette": "Corps trapu et recourbé, porté sur six membres fins comme des échasses de mangrove. Le cou est long et noueux, la tête orchidée d'excroissances. Tout le contour est brouillé de lianes pendantes.",
+   "trait_distinctif": "Six pattes d'échassier à articulations de racines aériennes, laissant derrière elles des empreintes de liquide violet qui fument.",
+   "trait_cle": "six-pattes-racines-aeriennes",
+   "couleurs": [
+    "vert mangrove",
+    "violet suc",
+    "brun humide"
+   ],
+   "rappel_leger": "Grand bipède-quadrupède de jungle, empoisonneur d'écosystèmes.",
+   "difference_avec_ancienne": "Remplace la forme reptilienne par un animal à six échasses de racines et tête d'orchidée.",
+   "signature_cinematique": "Une ombre à six jambes enjambe la canopée et la brume prend une teinte violette."
+  },
+  "description_courte": "Les herboristes de canopée connaissent ses traces violettes qui tuent la mousse. Un bassin entier de biodiversité peut s'effondrer et renaître autour de lui.",
+  "familier": {
+   "possible": false
+  }
+ },
+ {
+  "id": "dra07",
+  "nouveau_nom": "Nyctheuil",
+  "sous_titre": "Le Sans-Lune",
+  "groupe": "dragons",
+  "rang": "◆◆◆◆ Légendaire",
+  "cr": 22,
+  "role_jeu": "evenement_cinematique",
+  "taille_garrot_m": 9.0,
+  "hauteur_sprite_px": 329,
+  "hors_format_sprite": true,
+  "element_principal": "Ombre",
+  "element_secondaire": null,
+  "etats_infliges": [],
+  "lignee_draconique": true,
+  "terrain": "Obscurité permanente : grottes, forêts à canopée dense",
+  "apparence": {
+   "silhouette": "Corps fin, longs membres, silhouette de chauve-souris étirée dont les ailes sont des draperies déchirées. La tête est dépourvue d'yeux visibles ; seules deux cavités sombres s'ouvrent dans la face. Il se tient suspendu plus qu'il ne se pose.",
+   "trait_distinctif": "Ses ailes en lambeaux absorbent la lumière : tout ce qui est derrière lui semble s'effacer, comme une tache d'encre.",
+   "trait_cle": "ailes-lambeaux-absorbantes",
+   "couleurs": [
+    "noir mat",
+    "violet très sombre",
+    "gris fumée"
+   ],
+   "rappel_leger": "Grand volant nocturne, dragon d'ombre qui rend la lumière inutile.",
+   "difference_avec_ancienne": "Remplace la forme dense et sombre par un corps suspendu à ailes de draperie qui effacent l'arrière-plan.",
+   "signature_cinematique": "Une zone de nuit ronde découpe le ciel étoilé, plus noire que tout le reste."
+  },
+  "description_courte": "Les torches s'éteignent plus vite en sa présence. Les spéléologues ne rapportent de lui que des relevés de lumière anormalement faibles.",
+  "familier": {
+   "possible": false
+  }
+ },
+ {
+  "id": "dra08",
+  "nouveau_nom": "Ysolane",
+  "sous_titre": "L'Œil du Midi",
+  "groupe": "dragons",
+  "rang": "◆◆◆◆ Légendaire",
+  "cr": 22,
+  "role_jeu": "evenement_cinematique",
+  "taille_garrot_m": 8.0,
+  "hauteur_sprite_px": 293,
+  "hors_format_sprite": true,
+  "element_principal": "Éther",
+  "element_secondaire": null,
+  "etats_infliges": [
+   "Éblouissement"
+  ],
+  "lignee_draconique": true,
+  "terrain": "Zones de lumière maximale : tropiques, déserts clairs",
+  "apparence": {
+   "silhouette": "Corps élancé et symétrique, queue en éventail, quatre ailes en pétales disposées en croix. Tête petite à collerette radiée. Vue de loin, elle forme un disque aux rayons.",
+   "trait_distinctif": "Une collerette de plumes de verre rayonne autour de la tête en roue de soleil et projette de longs faisceaux dorés.",
+   "trait_cle": "collerette-rosace-solaire",
+   "couleurs": [
+    "or pâle",
+    "blanc nacré",
+    "cuivre rose"
+   ],
+   "rappel_leger": "Grand dragon radieux, évoquant un astre vivant.",
+   "difference_avec_ancienne": "Remplace l'allure aurorale par un corps symétrique à quatre ailes en croix et collerette rayonnante.",
+   "signature_cinematique": "Un disque doré aux rayons nets se lève à l'ouest, sans que le soleil ait bougé."
+  },
+  "description_courte": "Quand il passe, les ombres disparaissent sur plusieurs lieues. Les veilleurs de désert utilisent des verres fumés pour le regarder en face.",
+  "familier": {
+   "possible": false
+  }
+ },
+ {
+  "id": "dra09",
+  "nouveau_nom": "Zhoumaï",
+  "sous_titre": "Le Palimpseste Vivant",
+  "groupe": "dragons",
+  "rang": "◆◆◆◆ Légendaire",
+  "cr": 20,
+  "role_jeu": "evenement_cinematique",
+  "taille_garrot_m": 11.0,
+  "hauteur_sprite_px": 403,
+  "hors_format_sprite": true,
+  "element_principal": "Éther",
+  "element_secondaire": null,
+  "etats_infliges": [],
+  "lignee_draconique": true,
+  "terrain": "Ruines et sites d'occupation ancienne",
+  "apparence": {
+   "silhouette": "Corps allongé et calme, assis comme un sphinx, très haut sur ses membres antérieurs. Le cou courbe vers le sol comme pour lire. Silhouette de sage accroupi, hérissée de plaques.",
+   "trait_distinctif": "Sa peau est couverte de glyphes en relief qui changent de position lentement, comme les lignes d'un manuscrit qu'on récrit.",
+   "trait_cle": "peau-glyphes-mouvants",
+   "couleurs": [
+    "sépia",
+    "or vieilli",
+    "vert de gris"
+   ],
+   "rappel_leger": "Dragon sage de la tradition, que l'on consulte plus qu'on ne le combat.",
+   "difference_avec_ancienne": "Remplace la figure du gardien par un sphinx couvert de glyphes en relief mouvants.",
+   "signature_cinematique": "Une main immense, aux griffes calmes, se pose sur la muraille et gratte lentement dans la pierre une ligne de signes."
+  },
+  "description_courte": "On parle de lui comme d'une bibliothèque qui marche. Les archivistes l'approchent avec offrandes de papier et reviennent parfois avec des phrases dont personne ne se souvient.",
+  "familier": {
+   "possible": false
+  }
+ },
+ {
+  "id": "dra10",
+  "nouveau_nom": "Oïvéane",
+  "sous_titre": "Le Souffle des Hautes Strates",
+  "groupe": "dragons",
+  "rang": "◆◆◆◆ Légendaire",
+  "cr": 21,
+  "role_jeu": "evenement_cinematique",
+  "taille_garrot_m": 7.0,
+  "hauteur_sprite_px": 256,
+  "hors_format_sprite": true,
+  "element_principal": "Vent",
+  "element_secondaire": null,
+  "etats_infliges": [],
+  "lignee_draconique": true,
+  "terrain": "Très haute atmosphère, courants-jets",
+  "apparence": {
+   "silhouette": "Forme de flèche ailée de très longue envergure, fuselée, le corps presque réduit à une tige. Les pattes sont repliées et invisibles. Une queue en banderole torsadée sert de gouvernail.",
+   "trait_distinctif": "Une queue en ruban long de vingt mètres, plissée comme un étendard, ondule et laisse des traînées de nuages en spirale.",
+   "trait_cle": "queue-ruban-en-spirale",
+   "couleurs": [
+    "blanc ciel",
+    "bleu pâle",
+    "argent"
+   ],
+   "rappel_leger": "Grand voyageur céleste, dragon de vents sans aucun contact avec le sol.",
+   "difference_avec_ancienne": "Remplace la silhouette stricte par une flèche fuselée à queue en ruban plissé.",
+   "signature_cinematique": "Une spirale de cirrus se déroule très haut, comme tirée par un fil invisible."
+  },
+  "description_courte": "Il se déplace avec les courants-jets, dont il modifie la route. Les marins prévoient la météo d'une saison d'après les spirales de nuages qu'il laisse.",
+  "familier": {
+   "possible": false
+  }
+ },
+ {
+  "id": "dra11",
+  "nouveau_nom": "Ysclepse",
+  "sous_titre": "Le Sablier des Batailles",
+  "groupe": "dragons",
+  "rang": "◆◆◆◆ Légendaire",
+  "cr": 23,
+  "role_jeu": "evenement_cinematique",
+  "taille_garrot_m": 10.0,
+  "hauteur_sprite_px": 366,
+  "hors_format_sprite": true,
+  "element_principal": "Éther",
+  "element_secondaire": "Ombre",
+  "etats_infliges": [],
+  "lignee_draconique": true,
+  "terrain": "Sites historiques de forte densité : champs de bataille anciens",
+  "apparence": {
+   "silhouette": "Corps haut et étroit, dressé sur ses pattes arrière comme un sablier, avec une tête en bas et une tête-coiffe en haut. Deux ailes translucides, doublées d'images fantômes. Le contour paraît doublé d'un deuxième contour décalé.",
+   "trait_distinctif": "Chacun de ses mouvements laisse une image rémanente qui le suit une seconde en retard, de sorte qu'il paraît toujours dédoublé.",
+   "trait_cle": "contour-double-rematent",
+   "couleurs": [
+    "bronze terni",
+    "gris poussière",
+    "bleu sépia"
+   ],
+   "rappel_leger": "Dragon du temps, figure rare de légende, qui ne se laisse pas voir d'un seul coup.",
+   "difference_avec_ancienne": "Remplace la masse sombre par un corps de sablier à contour décalé dédoublé.",
+   "signature_cinematique": "Sur la muraille, deux ombres de dragon se superposent avec un léger retard et ne se rejoignent jamais."
+  },
+  "description_courte": "Les témoins le décrivent en double ou en triple, à des endroits différents. Les chroniqueurs prétendent qu'il revisite des batailles qui n'ont pas eu lieu.",
+  "familier": {
+   "possible": false
+  }
+ },
+ {
+  "id": "dra12",
+  "nouveau_nom": "Zhyrmaël",
+  "sous_titre": "La Source Sans Visage",
+  "groupe": "dragons",
+  "rang": "◆◆◆◆ Légendaire",
+  "cr": 26,
+  "role_jeu": "evenement_cinematique",
+  "taille_garrot_m": 13.0,
+  "hauteur_sprite_px": 476,
+  "hors_format_sprite": true,
+  "element_principal": "Éther",
+  "element_secondaire": "Feu",
+  "etats_infliges": [],
+  "lignee_draconique": true,
+  "terrain": "Centres d'énergie primordiale, ambiance maximale de Dragon",
+  "apparence": {
+   "silhouette": "Corps parfaitement symétrique et lisse, sans traits d'espèce précis, entre serpent et félin, quatre ailes. La tête est un fuseau sans yeux. Il évoque une statue achevée que l'on aurait polie.",
+   "trait_distinctif": "Une couronne de six anneaux concentriques flotte derrière la nuque et tourne lentement comme un astrolabe.",
+   "trait_cle": "couronne-six-anneaux",
+   "couleurs": [
+    "blanc ivoire",
+    "or pâle",
+    "bleu profond"
+   ],
+   "rappel_leger": "Dragon des origines, archétype du plus puissant de tous.",
+   "difference_avec_ancienne": "Remplace la forme protéiforme par un corps de statue lisse à couronne de six anneaux.",
+   "signature_cinematique": "Six cercles de lumière s'alignent derrière un nuage, puis la nuit se met à pâlir comme une aube."
+  },
+  "description_courte": "Le plus redouté de la tradition ; une seule apparition est consignée par génération. Ses anneaux sont comparés à un instrument de mesure du ciel.",
+  "familier": {
+   "possible": false
+  }
+ },
+ {
+  "id": "dra13",
+  "nouveau_nom": "Oïnomé",
+  "sous_titre": "Le Sans-Visage",
+  "groupe": "dragons",
+  "rang": "◆◆◆◆ Légendaire (?)",
+  "cr": null,
+  "role_jeu": "evenement_cinematique",
+  "taille_garrot_m": null,
+  "hauteur_sprite_px": null,
+  "hors_format_sprite": true,
+  "element_principal": "Neutre",
+  "element_secondaire": "Ombre",
+  "etats_infliges": [],
+  "lignee_draconique": false,
+  "terrain": "Inconnu, lieux variables",
+  "apparence": {
+   "silhouette": "Aucune silhouette stable : les témoins décrivent tantôt un trou en forme de dragon, tantôt un manque dans le paysage. Les bords sont nets mais la surface ne reflète rien. Il est lisible comme un vide découpé.",
+   "trait_distinctif": "Un contour de dragon dont l'intérieur est une absence parfaite : on voit le décor à travers lui, déformé comme dans un verre fêlé.",
+   "trait_cle": "contour-vide-deforme",
+   "couleurs": [
+    "transparent",
+    "gris cendre",
+    "noir de verre"
+   ],
+   "rappel_leger": "Apparition indéfinissable, entre dragon et phénomène, jamais décrit deux fois pareil.",
+   "difference_avec_ancienne": "Remplace l'absence totale de forme par un contour net dont l'intérieur est un vide déformant.",
+   "signature_cinematique": "Au milieu du ciel, une découpe en forme de dragon dans laquelle les étoiles sont déplacées."
+  },
+  "description_courte": "Nul n'a pu établir s'il s'agit d'une créature. Les notes de chasseurs divergent sur tout sauf sur l'impression de manque qu'il laisse.",
+  "familier": {
+   "possible": false
+  }
+ },
+ {
+  "id": "dra14",
+  "nouveau_nom": "Ysourène",
+  "sous_titre": "La Première Rosée",
+  "groupe": "dragons",
+  "rang": "◆◆◆◆ Légendaire",
+  "cr": 21,
+  "role_jeu": "evenement_cinematique",
+  "taille_garrot_m": 8.0,
+  "hauteur_sprite_px": 293,
+  "hors_format_sprite": true,
+  "element_principal": "Eau",
+  "element_secondaire": null,
+  "etats_infliges": [],
+  "lignee_draconique": true,
+  "terrain": "Sources primordiales, bassins de naissance des grands fleuves",
+  "apparence": {
+   "silhouette": "Corps élancé et fluide, posé sur quatre pattes palmées, cou long de héron. Les ailes sont des voiles minces et humides. Son dos est creusé en vasques en cascade.",
+   "trait_distinctif": "Le dos forme de petites vasques étagées d'où l'eau claire déborde en cascades miniatures et alimente de vraies sources.",
+   "trait_cle": "dos-vasques-en-cascade",
+   "couleurs": [
+    "bleu source",
+    "vert mousse",
+    "blanc écume"
+   ],
+   "rappel_leger": "Dragon d'eau douce, bienfaiteur et territorial, évoquant un esprit de fleuve.",
+   "difference_avec_ancienne": "Remplace l'allure de pluie en nuage par un dos en vasques à cascades miniatures.",
+   "signature_cinematique": "Une brume fine monte d'un vallon, et une cascade tombe soudain du flanc d'une colline."
+  },
+  "description_courte": "On dit que chaque grand fleuve est né d'un de ses repos. Les riverains déposent des offrandes aux vasques des sources où il aurait dormi.",
+  "familier": {
+   "possible": false
+  }
+ },
+ {
+  "id": "dra15",
+  "nouveau_nom": "Ulenclume",
+  "sous_titre": "Le Marteau des Veines",
+  "groupe": "dragons",
+  "rang": "◆◆◆◆ Légendaire",
+  "cr": 22,
+  "role_jeu": "evenement_cinematique",
+  "taille_garrot_m": 11.0,
+  "hauteur_sprite_px": 403,
+  "hors_format_sprite": true,
+  "element_principal": "Terre",
+  "element_secondaire": "Feu",
+  "etats_infliges": [],
+  "lignee_draconique": true,
+  "terrain": "Massifs métallifères exceptionnels",
+  "apparence": {
+   "silhouette": "Corps râblé en forme de bloc, carré, quatre membres cylindriques comme des pistons. Tête rectangulaire à mâchoire cisaillante. Ailes réduites à de grandes lames repliées en arrière.",
+   "trait_distinctif": "La queue se termine par un bloc de métal brut en forme d'enclume, constellé de rivets naturels.",
+   "trait_cle": "queue-enclume-rivetee",
+   "couleurs": [
+    "gris fer",
+    "cuivre oxydé",
+    "orange forge"
+   ],
+   "rappel_leger": "Colosse métallique, dragon-forge qui se nourrit de minerai.",
+   "difference_avec_ancienne": "Remplace l'allure de métal vivant fluide par un corps de bloc articulé à queue-enclume.",
+   "signature_cinematique": "Un coup de marteau lointain résonne dans la montagne, puis une griffe de fer sort de la roche."
+  },
+  "description_courte": "On entend son pas dans les galeries avant de le voir. Les mineurs affirment que les veines se reforment derrière lui, plus riches.",
+  "familier": {
+   "possible": false
+  }
+ },
+ {
+  "id": "dra16",
+  "nouveau_nom": "Zhéliane",
+  "sous_titre": "Le Cœur de la Canopée",
+  "groupe": "dragons",
+  "rang": "◆◆◆◆ Légendaire",
+  "cr": 21,
+  "role_jeu": "evenement_cinematique",
+  "taille_garrot_m": 9.0,
+  "hauteur_sprite_px": 329,
+  "hors_format_sprite": true,
+  "element_principal": "Terre",
+  "element_secondaire": "Eau",
+  "etats_infliges": [],
+  "lignee_draconique": true,
+  "terrain": "Forêts primaires, zones de biodiversité maximale",
+  "apparence": {
+   "silhouette": "Corps bas et large, couvert de mousse, quatre pattes massives, silhouette de colline boisée. Sa tête s'orne de branches de bois vivant. Des oiseaux et des insectes nichent sur son dos.",
+   "trait_distinctif": "Un arbre entier pousse sur son dos, avec son feuillage et ses nids, et change de saison avec lui.",
+   "trait_cle": "arbre-sur-le-dos",
+   "couleurs": [
+    "vert tendre",
+    "brun écorce",
+    "jaune feuille"
+   ],
+   "rappel_leger": "Dragon-forêt, doux colosse que les druides tiennent pour sacré.",
+   "difference_avec_ancienne": "Remplace l'entrelacs de lianes par un colosse mousseux portant un arbre complet sur le dos.",
+   "signature_cinematique": "Un arbre immense se met en marche à l'orée du bois, ses feuilles virant à l'automne en quelques heures."
+  },
+  "description_courte": "Sur son dos nichent mille espèces. Les naturalistes y ont recensé des variétés absentes du reste de l'archipel.",
+  "familier": {
+   "possible": false
+  }
+ },
+ {
+  "id": "dra17",
+  "nouveau_nom": "Ulcantre",
+  "sous_titre": "La Grande Corne des Gorges",
+  "groupe": "dragons",
+  "rang": "◆◆◆◆ Légendaire",
+  "cr": 21,
+  "role_jeu": "evenement_cinematique",
+  "taille_garrot_m": 9.0,
+  "hauteur_sprite_px": 329,
+  "hors_format_sprite": true,
+  "element_principal": "Vent",
+  "element_secondaire": "Terre",
+  "etats_infliges": [],
+  "lignee_draconique": true,
+  "terrain": "Canyons et grottes-cathédrales à acoustique exceptionnelle",
+  "apparence": {
+   "silhouette": "Corps tubulaire, tête à gueule évasée comme un pavillon de cor. Quatre membres grêles, un dos parcouru de tuyaux. Posture de héron, cou tendu.",
+   "trait_distinctif": "Une rangée de tuyaux d'orgue en os, sur le dos, rend un accord différent selon le vent.",
+   "trait_cle": "dos-tuyaux-d-orgue",
+   "couleurs": [
+    "ivoire",
+    "bleu ardoise",
+    "rouille"
+   ],
+   "rappel_leger": "Dragon-voix, évoquant un instrument naturel géant.",
+   "difference_avec_ancienne": "Remplace la voix massive par un corps de pavillon à tuyaux d'orgue dorsaux.",
+   "signature_cinematique": "Un accord grave monte des gorges, et un long pavillon d'os se découpe sur la falaise."
+  },
+  "description_courte": "On l'entend avant de le voir. Les chanteurs de canyon disent qu'il répond à leurs notes et que certains accords l'apaisent ou le mettent en colère.",
+  "familier": {
+   "possible": false
+  }
+ },
+ {
+  "id": "dra18",
+  "nouveau_nom": "Nyloreïs",
+  "sous_titre": "Le Dormeur Sans Fond",
+  "groupe": "dragons",
+  "rang": "◆◆◆◆ Légendaire",
+  "cr": 20,
+  "role_jeu": "evenement_cinematique",
+  "taille_garrot_m": 8.0,
+  "hauteur_sprite_px": 293,
+  "hors_format_sprite": true,
+  "element_principal": "Ombre",
+  "element_secondaire": "Éther",
+  "etats_infliges": [
+   "Sommeil"
+  ],
+  "lignee_draconique": true,
+  "terrain": "Zones de dormance prolongée, grand calme",
+  "apparence": {
+   "silhouette": "Corps roulé en cercle, tête posée sur la queue, comme un chat géant en sommeil. Ailes repliées en cocon autour de lui. Respire à peine.",
+   "trait_distinctif": "Il dort enroulé dans un cocon de soie nacrée qui flotte légèrement au-dessus du sol, entouré de papillons de nuit.",
+   "trait_cle": "cocon-de-soie-flottant",
+   "couleurs": [
+    "bleu nuit",
+    "perle",
+    "lilas"
+   ],
+   "rappel_leger": "Dragon du rêve, que l'on n'approche jamais éveillé.",
+   "difference_avec_ancienne": "Remplace l'allure d'architecte par un animal endormi dans un cocon flottant.",
+   "signature_cinematique": "Un cocon blanc flotte au-dessus d'une prairie, des papillons de nuit en tournent autour par milliers."
+  },
+  "description_courte": "Les villages voisins se couchent tôt et dorment longtemps. Les voyageurs qui s'approchent s'assoupissent et se réveillent des jours plus tard, rassérénés.",
+  "familier": {
+   "possible": false
+  }
+ },
+ {
+  "id": "dra19",
+  "nouveau_nom": "Zhaluine",
+  "sous_titre": "Le Passeur Sans Rame",
+  "groupe": "dragons",
+  "rang": "◆◆◆◆ Légendaire",
+  "cr": 22,
+  "role_jeu": "evenement_cinematique",
+  "taille_garrot_m": 10.0,
+  "hauteur_sprite_px": 366,
+  "hors_format_sprite": true,
+  "element_principal": "Ombre",
+  "element_secondaire": "Éther",
+  "etats_infliges": [
+   "Saignée"
+  ],
+  "lignee_draconique": true,
+  "terrain": "Zones de mort naturelle fréquente, passages migratoires",
+  "apparence": {
+   "silhouette": "Silhouette haute et décharnée, longs membres, cou courbé en faux. Ailes en lanternes de papier fines. Le visage est un crâne lisse en bec.",
+   "trait_distinctif": "Il porte une lanterne de cristal blanc accrochée au bout d'un fin appendice qui dépasse du front, pour guider les âmes.",
+   "trait_cle": "lanterne-pend-du-front",
+   "couleurs": [
+    "blanc os",
+    "bleu pâle",
+    "noir"
+   ],
+   "rappel_leger": "Dragon de la mort, silhouette de passeur funèbre.",
+   "difference_avec_ancienne": "Remplace l'allure sinistre par un échassier-faux à lanterne frontale de cristal.",
+   "signature_cinematique": "Une lueur blanche flotte à la lisière du champ de bataille, et la brume s'écarte devant elle."
+  },
+  "description_courte": "On l'aperçoit près des lieux de grande migration ou de bataille. Les anciens lui laissent une bougie et ne le regardent pas droit.",
+  "familier": {
+   "possible": false
+  }
+ },
+ {
+  "id": "dra20",
+  "nouveau_nom": "Ethyrane",
+  "sous_titre": "Le Feu de la Veillée",
+  "groupe": "dragons",
+  "rang": "◆◆◆◆ Légendaire",
+  "cr": 22,
+  "role_jeu": "evenement_cinematique",
+  "taille_garrot_m": 9.0,
+  "hauteur_sprite_px": 329,
+  "hors_format_sprite": true,
+  "element_principal": "Feu",
+  "element_secondaire": "Éther",
+  "etats_infliges": [
+   "Éblouissement"
+  ],
+  "lignee_draconique": true,
+  "terrain": "Hautes altitudes à atmosphère claire",
+  "apparence": {
+   "silhouette": "Corps ramassé, tête de rapace, trois paires d'ailes superposées qui rappellent une étoile à six branches. Il plane à très haute altitude, immobile.",
+   "trait_distinctif": "Six ailes disposées en étoile portent à leur extrémité des perles de feu blanc qui scintillent comme des constellations.",
+   "trait_cle": "six-ailes-en-etoile",
+   "couleurs": [
+    "blanc chaud",
+    "or",
+    "bleu de nuit"
+   ],
+   "rappel_leger": "Dragon de feu céleste, comparé à une comète patiente.",
+   "difference_avec_ancienne": "Remplace l'allure de feu stellaire diffus par un corps ramassé à six ailes en étoile.",
+   "signature_cinematique": "Une constellation de six points avance lentement sur le ciel, plus basse que les autres étoiles."
+  },
+  "description_courte": "On le repère aux constellations anormales qui apparaissent certaines nuits claires. Les astronomes de la Tour ont consigné sa position pendant quarante ans.",
+  "familier": {
+   "possible": false
+  }
+ },
+ {
+  "id": "dra21",
+  "nouveau_nom": "Ulquartine",
+  "sous_titre": "L'Éclat Parfait",
+  "groupe": "dragons",
+  "rang": "◆◆◆◆ Légendaire",
+  "cr": 21,
+  "role_jeu": "evenement_cinematique",
+  "taille_garrot_m": 10.0,
+  "hauteur_sprite_px": 366,
+  "hors_format_sprite": true,
+  "element_principal": "Terre",
+  "element_secondaire": "Éther",
+  "etats_infliges": [],
+  "lignee_draconique": true,
+  "terrain": "Formations cristallines géantes, haute pureté minérale",
+  "apparence": {
+   "silhouette": "Corps anguleux, entièrement facetté, comme une sculpture taillée. Quatre membres à angles droits. Tête en prisme, queue en obélisque.",
+   "trait_distinctif": "Le corps est un seul cristal de quartz taillé en facettes qui renvoie les rayons comme un miroir.",
+   "trait_cle": "corps-facette-quartz",
+   "couleurs": [
+    "blanc glacé",
+    "rose pâle",
+    "lilas"
+   ],
+   "rappel_leger": "Dragon-cristal, statue vivante, évoquant un joyau.",
+   "difference_avec_ancienne": "Remplace l'ordre abstrait par un corps entièrement facetté de quartz.",
+   "signature_cinematique": "Une arête de cristal luit sur la crête et jette un arc-en-ciel immobile sur la muraille."
+  },
+  "description_courte": "Il s'immobilise des années et on le prend pour un monument. Les joailliers n'osent plus entrer dans la région où il repose.",
+  "familier": {
+   "possible": false
+  }
+ },
+ {
+  "id": "dra22",
+  "nouveau_nom": "Zhizanne",
+  "sous_titre": "La Fêlure Mouvante",
+  "groupe": "dragons",
+  "rang": "◆◆◆◆ Légendaire",
+  "cr": 22,
+  "role_jeu": "evenement_cinematique",
+  "taille_garrot_m": 10,
+  "hauteur_sprite_px": 366,
+  "hors_format_sprite": true,
+  "element_principal": "Neutre",
+  "element_secondaire": "Foudre",
+  "etats_infliges": [],
+  "lignee_draconique": true,
+  "terrain": "Zones d'instabilité, météo chronique imprévisible",
+  "apparence": {
+   "silhouette": "Corps asymétrique : une aile de chauve-souris, une aile de plume, trois pattes d'un côté, deux de l'autre. Le crâne est de travers. La silhouette change à chaque observation.",
+   "trait_distinctif": "Un corps en patchwork : chaque moitié est celle d'un animal différent, et leur couture jette des étincelles.",
+   "trait_cle": "corps-patchwork-asymetrique",
+   "couleurs": [
+    "rouge brique",
+    "vert acide",
+    "gris plomb"
+   ],
+   "rappel_leger": "Dragon du chaos, créature imprévisible, jamais deux fois pareil.",
+   "difference_avec_ancienne": "Remplace la forme changeante floue par un patchwork volontairement asymétrique.",
+   "signature_cinematique": "Une aile de plumes et une aile de cuir battent à contretemps dans un ciel soudain agité."
+  },
+  "description_courte": "Les rapports divergent sur tout. Les chasseurs s'accordent seulement sur l'asymétrie et sur les orages qui éclatent par ciel clair.",
+  "familier": {
+   "possible": false
+  }
+ },
+ {
+  "id": "dra23",
+  "nouveau_nom": "Nyorbite",
+  "sous_titre": "Le Pôle Vivant",
+  "groupe": "dragons",
+  "rang": "◆◆◆◆ Légendaire",
+  "cr": 21,
+  "role_jeu": "evenement_cinematique",
+  "taille_garrot_m": 10.0,
+  "hauteur_sprite_px": 366,
+  "hors_format_sprite": true,
+  "element_principal": "Foudre",
+  "element_secondaire": "Terre",
+  "etats_infliges": [
+   "Paralysie"
+  ],
+  "lignee_draconique": true,
+  "terrain": "Zones géomagnétiques actives, minerais ferreux",
+  "apparence": {
+   "silhouette": "Corps en forme de boussole : une tête et une queue alignées nord-sud, quatre pattes en croix. Les écailles sont de petites limailles dressées. Il dort aligné.",
+   "trait_distinctif": "Un anneau de limaille de fer flotte autour de son cou, hérissé selon le champ magnétique.",
+   "trait_cle": "anneau-de-limaille-flottant",
+   "couleurs": [
+    "gris fer",
+    "bleu nuit",
+    "argent"
+   ],
+   "rappel_leger": "Dragon-aimant, évoquant une boussole géante.",
+   "difference_avec_ancienne": "Remplace l'allure de pôle à pointes par un corps de boussole à collier de limaille.",
+   "signature_cinematique": "Une couronne de limaille se soulève du sol et s'oriente d'un seul coup vers le nord."
+  },
+  "description_courte": "Les boussoles s'affolent à plusieurs lieues. Les navigateurs notent son orientation fixe quand il dort.",
+  "familier": {
+   "possible": false
+  }
+ },
+ {
+  "id": "dra24",
+  "nouveau_nom": "Ulmagrone",
+  "sous_titre": "Le Cœur de Roche Liquide",
+  "groupe": "dragons",
+  "rang": "◆◆◆◆ Légendaire",
+  "cr": 22,
+  "role_jeu": "evenement_cinematique",
+  "taille_garrot_m": 13.0,
+  "hauteur_sprite_px": 476,
+  "hors_format_sprite": true,
+  "element_principal": "Feu",
+  "element_secondaire": "Terre",
+  "etats_infliges": [],
+  "lignee_draconique": true,
+  "terrain": "Lave en surface, tunnels de lave anciens",
+  "apparence": {
+   "silhouette": "Corps massif à croûte noire fissurée, avancé en rampant, six membres courts. Les fissures laissent filtrer une lueur orangée. La tête se fond dans le cou.",
+   "trait_distinctif": "Sa croûte se fend à chaque pas et laisse apparaître un cœur de lave qui coule en ruisselets sur ses flancs.",
+   "trait_cle": "croute-fissuree-lave",
+   "couleurs": [
+    "noir croûte",
+    "orange lave",
+    "jaune soufre"
+   ],
+   "rappel_leger": "Dragon-volcan, géant rampant des tunnels de lave.",
+   "difference_avec_ancienne": "Remplace la roche en fusion lisse par une croûte fissurée qui coule.",
+   "signature_cinematique": "Un ruisseau de lave neuf traverse un champ noirci, puis une patte énorme émerge du flot."
+  },
+  "description_courte": "On suit sa progression à des coulées inédites dans les tunnels. Il se glisse sous la lave refroidie et s'en couvre comme d'un manteau.",
+  "familier": {
+   "possible": false
+  }
+ },
+ {
+  "id": "dra25",
+  "nouveau_nom": "Ysnoirelle",
+  "sous_titre": "Le Froid Sans Lumière",
+  "groupe": "dragons",
+  "rang": "◆◆◆◆ Légendaire",
+  "cr": 22,
+  "role_jeu": "evenement_cinematique",
+  "taille_garrot_m": 9.0,
+  "hauteur_sprite_px": 329,
+  "hors_format_sprite": true,
+  "element_principal": "Glace",
+  "element_secondaire": "Ombre",
+  "etats_infliges": [],
+  "lignee_draconique": true,
+  "terrain": "Abysses arctiques, eaux à -2 degrés en profondeur",
+  "apparence": {
+   "silhouette": "Corps fuselé, nageant plutôt que marchant, nageoires qui font office d'ailes. Tête plate, mâchoires longues. Surface lisse comme de l'obsidienne.",
+   "trait_distinctif": "Des aiguilles de glace noire, longues comme des mâts, hérissent son dos et se brisent en poussière sombre.",
+   "trait_cle": "aiguilles-de-glace-noire",
+   "couleurs": [
+    "noir obsidienne",
+    "bleu marine",
+    "blanc glacé"
+   ],
+   "rappel_leger": "Dragon abyssal glacial, requin-dragon des mers polaires.",
+   "difference_avec_ancienne": "Remplace la forme massive de gel par un corps fuselé à aiguilles de glace noire.",
+   "signature_cinematique": "Une forêt d'aiguilles noires fend la banquise sans un bruit, puis s'enfonce."
+  },
+  "description_courte": "Les baleiniers évitent les eaux où la glace devient noire. Ceux qui l'ont vu parlent d'un dos hérissé de mâts sombres.",
+  "familier": {
+   "possible": false
+  }
+ },
+ {
+  "id": "dra26",
+  "nouveau_nom": "Ethzelte",
+  "sous_titre": "Le Grondement des Failles",
+  "groupe": "dragons",
+  "rang": "◆◆◆◆ Légendaire",
+  "cr": 21,
+  "role_jeu": "evenement_cinematique",
+  "taille_garrot_m": 10.0,
+  "hauteur_sprite_px": 366,
+  "hors_format_sprite": true,
+  "element_principal": "Foudre",
+  "element_secondaire": "Terre",
+  "etats_infliges": [
+   "Paralysie"
+  ],
+  "lignee_draconique": true,
+  "terrain": "Failles actives, zones de subduction",
+  "apparence": {
+   "silhouette": "Corps puissant et anguleux, quatre pattes aux griffes en fourche. Une paire d'ailes réduites en nageoires de pierre. Le front est ouvert d'une fissure rougeoyante.",
+   "trait_distinctif": "Une fissure lumineuse zigzague sur le torse comme une faille, et ses bords crépitent de décharges jaunes.",
+   "trait_cle": "fissure-torse-lumineuse",
+   "couleurs": [
+    "gris pierre",
+    "jaune électrique",
+    "brun roux"
+   ],
+   "rappel_leger": "Dragon-séisme, bête sismique porteuse d'éclairs.",
+   "difference_avec_ancienne": "Remplace la masse tectonique par un torse fissuré où crépitent des arcs jaunes.",
+   "signature_cinematique": "Le sol se fend en zigzag, une lueur jaune court dans la faille, puis un flanc de pierre se redresse."
+  },
+  "description_courte": "Il annonce les secousses de plusieurs jours. Les sismologues notent des éclairs au ras du sol lors de ses déplacements.",
+  "familier": {
+   "possible": false
+  }
+ },
+ {
+  "id": "dra27",
+  "nouveau_nom": "Oïsalmène",
+  "sous_titre": "La Mer Blanche",
+  "groupe": "dragons",
+  "rang": "◆◆◆◆ Légendaire",
+  "cr": 21,
+  "role_jeu": "evenement_cinematique",
+  "taille_garrot_m": 9.0,
+  "hauteur_sprite_px": 329,
+  "hors_format_sprite": true,
+  "element_principal": "Eau",
+  "element_secondaire": "Terre",
+  "etats_infliges": [],
+  "lignee_draconique": true,
+  "terrain": "Mers salines intérieures, déserts de sel",
+  "apparence": {
+   "silhouette": "Corps étalé, bas, plat comme une crêpe de sel, six courtes pattes en nageoires. La tête est sans forme précise, ornée de cristaux. Sa peau est blanche et craquelée.",
+   "trait_distinctif": "Son dos est une croûte de sel blanc craquelé d'où sortent des tours cristallines roses.",
+   "trait_cle": "dos-croute-sel-tours",
+   "couleurs": [
+    "blanc sel",
+    "rose cristal",
+    "bleu lagune"
+   ],
+   "rappel_leger": "Dragon-saline, géant prostré des déserts blancs.",
+   "difference_avec_ancienne": "Remplace la blancheur lisse par une croûte craquelée de sel à tours cristallines.",
+   "signature_cinematique": "Un banc de sel blanc se soulève lentement et des tours roses se découpent sur l'horizon."
+  },
+  "description_courte": "Les caravaniers le prennent pour une saline. Il conserve, dit-on, tout ce qui meurt sur ses rives intacts pendant des siècles.",
+  "familier": {
+   "possible": false
+  }
+ },
+ {
+  "id": "dra28",
+  "nouveau_nom": "Ulscorie",
+  "sous_titre": "Ce Qu'Il Reste du Feu",
+  "groupe": "dragons",
+  "rang": "◆◆◆◆ Légendaire",
+  "cr": 21,
+  "role_jeu": "evenement_cinematique",
+  "taille_garrot_m": 9.0,
+  "hauteur_sprite_px": 329,
+  "hors_format_sprite": true,
+  "element_principal": "Feu",
+  "element_secondaire": "Ombre",
+  "etats_infliges": [],
+  "lignee_draconique": true,
+  "terrain": "Zones d'incendie ancien, caldeiras éteintes",
+  "apparence": {
+   "silhouette": "Corps maigre et gris, ossature apparente, ailes déchirées comme des voiles brûlées. Il avance courbé, lentement. Contours tremblants de cendre.",
+   "trait_distinctif": "Des braises minuscules brillent dans les creux de ses côtes et un nuage de cendre le suit à chaque pas.",
+   "trait_cle": "cotes-braises-cendre",
+   "couleurs": [
+    "gris cendre",
+    "rouge braise",
+    "noir carbone"
+   ],
+   "rappel_leger": "Dragon de cendre, spectre d'un grand dragon de feu.",
+   "difference_avec_ancienne": "Remplace la forme résiduelle abstraite par un squelette gris aux braises dans les côtes.",
+   "signature_cinematique": "Une silhouette de cendre se détache sur la forêt brûlée, des braises clignotent dans sa poitrine."
+  },
+  "description_courte": "Il rôde sur les terres brûlées. Les forestiers lui attribuent les incendies qui repartent des cendres froides, sans cause.",
+  "familier": {
+   "possible": false
+  }
+ },
+ {
+  "id": "dra29",
+  "nouveau_nom": "Zhéonide",
+  "sous_titre": "Le Quatrième Feu",
+  "groupe": "dragons",
+  "rang": "◆◆◆◆ Légendaire",
+  "cr": 23,
+  "role_jeu": "evenement_cinematique",
+  "taille_garrot_m": 8.0,
+  "hauteur_sprite_px": 293,
+  "hors_format_sprite": true,
+  "element_principal": "Foudre",
+  "element_secondaire": "Feu",
+  "etats_infliges": [
+   "Éblouissement"
+  ],
+  "lignee_draconique": true,
+  "terrain": "Foudre à haute fréquence, aurores, haute atmosphère",
+  "apparence": {
+   "silhouette": "Corps en spirale, sans membres définis, enroulé comme un ressort. Tête à bec fin, queue en flamme. Le contour se brouille à chaque instant.",
+   "trait_distinctif": "Son corps est une spirale de plasma rose qui se resserre et se détend comme un ressort lumineux.",
+   "trait_cle": "corps-spirale-plasma",
+   "couleurs": [
+    "rose vif",
+    "violet",
+    "blanc bleuté"
+   ],
+   "rappel_leger": "Dragon de foudre pure, évoquant un éclair devenu bête.",
+   "difference_avec_ancienne": "Remplace le corps indéfini par une spirale resserrée de plasma rose.",
+   "signature_cinematique": "Une spirale rose se tord dans l'air, un grésillement monte, les arbres se dressent."
+  },
+  "description_courte": "Il a laissé des traces de verre fondu au sommet de plusieurs pics. Les foudroyeurs de la Tour le suivent aux aurores roses.",
+  "familier": {
+   "possible": false
+  }
+ },
+ {
+  "id": "dra30",
+  "nouveau_nom": "Ulbrodène",
+  "sous_titre": "Le Poids Sans Nom",
+  "groupe": "dragons",
+  "rang": "◆◆◆◆ Légendaire",
+  "cr": 23,
+  "role_jeu": "evenement_cinematique",
+  "taille_garrot_m": 12,
+  "hauteur_sprite_px": 439,
+  "hors_format_sprite": true,
+  "element_principal": "Terre",
+  "element_secondaire": "Éther",
+  "etats_infliges": [],
+  "lignee_draconique": true,
+  "terrain": "Zones de haute densité, anomalies gravitationnelles",
+  "apparence": {
+   "silhouette": "Corps tassé et énorme, rond comme une pierre de moulin, quatre pattes courtes. Les ailes sont des disques lourds. Sa masse paraît varier ; tout autour, le sol s'affaisse.",
+   "trait_distinctif": "Des pierres et des gouttes flottent en orbite autour de lui, attirées en anneaux par sa masse.",
+   "trait_cle": "pierres-en-orbite",
+   "couleurs": [
+    "gris plomb",
+    "violet sombre",
+    "brun sale"
+   ],
+   "rappel_leger": "Dragon de gravité, colosse lent qui plie le paysage.",
+   "difference_avec_ancienne": "Remplace l'allure pesante par un corps rond entouré de pierres en orbite.",
+   "signature_cinematique": "Un anneau de pierres tourne dans le ciel et l'ombre d'un disque immense glisse sur la plaine."
+  },
+  "description_courte": "Sa taille varie selon la densité de la roche. Autour de lui, la poussière monte au lieu de tomber et les pierres lentement s'enroulent.",
+  "familier": {
+   "possible": false
+  }
+ },
+ {
+  "id": "dra31",
+  "nouveau_nom": "Oïfilande",
+  "sous_titre": "Le Tissu sous la Forêt",
+  "groupe": "dragons",
+  "rang": "◆◆◆◆ Légendaire",
+  "cr": 21,
+  "role_jeu": "evenement_cinematique",
+  "taille_garrot_m": 8.0,
+  "hauteur_sprite_px": 293,
+  "hors_format_sprite": true,
+  "element_principal": "Terre",
+  "element_secondaire": "Ombre",
+  "etats_infliges": [
+   "Poison"
+  ],
+  "lignee_draconique": true,
+  "terrain": "Forêts anciennes à réseaux de champignons géants",
+  "apparence": {
+   "silhouette": "Corps étalé, rampant et diffus, sans contour net, entre mille filaments. Tête en ombrelle. Plusieurs ailes comme des chapeaux de champignon.",
+   "trait_distinctif": "Un chapeau de champignon géant et phosphorescent lui sert de tête et libère des spores qui lient les sols voisins.",
+   "trait_cle": "tete-chapeau-champignon",
+   "couleurs": [
+    "blanc champignon",
+    "vert phosphorescent",
+    "brun humus"
+   ],
+   "rappel_leger": "Dragon-réseau, évoquant un organisme forestier.",
+   "difference_avec_ancienne": "Remplace le réseau invisible par une tête en chapeau de champignon phosphorescent.",
+   "signature_cinematique": "Un chapeau luminescent flotte entre les troncs et des fils blancs se tendent d'arbre en arbre."
+  },
+  "description_courte": "Un cercle de champignons se forme à chacun de ses passages et se relie aux autres. Les forestiers y voient un seul organisme.",
+  "familier": {
+   "possible": false
+  }
+ },
+ {
+  "id": "dra32",
+  "nouveau_nom": "Zhurévine",
+  "sous_titre": "L'Eau Qui Ronge",
+  "groupe": "dragons",
+  "rang": "◆◆◆◆ Légendaire",
+  "cr": 22,
+  "role_jeu": "evenement_cinematique",
+  "taille_garrot_m": 10.0,
+  "hauteur_sprite_px": 366,
+  "hors_format_sprite": true,
+  "element_principal": "Eau",
+  "element_secondaire": "Terre",
+  "etats_infliges": [
+   "Poison"
+  ],
+  "lignee_draconique": true,
+  "terrain": "Karst calcaire, sources sulfureuses, eaux acides",
+  "apparence": {
+   "silhouette": "Corps lisse et luisant, quadrupède à cou de reptile, ailes à membranes percées de trous. La gueule est dentée de stalactites jaunes. L'ensemble paraît fondre.",
+   "trait_distinctif": "Les ailes sont des membranes rongées de trous irréguliers, comme une dentelle brûlée.",
+   "trait_cle": "ailes-dentelle-rongee",
+   "couleurs": [
+    "vert acide",
+    "jaune soufre",
+    "blanc calcaire"
+   ],
+   "rappel_leger": "Dragon d'acide, grand dragon dissolvant.",
+   "difference_avec_ancienne": "Remplace l'aspect dissolvant diffus par des ailes de dentelle rongée et une gueule de stalactites.",
+   "signature_cinematique": "Une aile percée de trous passe devant la lune, et la pluie qui suit fait siffler la pierre."
+  },
+  "description_courte": "Les sources deviennent jaunes là où il s'abreuve. Les grottes de la région portent des trous inexplicables.",
+  "familier": {
+   "possible": false
+  }
+ },
+ {
+  "id": "dra33",
+  "nouveau_nom": "Ysvélune",
+  "sous_titre": "La Draperie du Pôle",
+  "groupe": "dragons",
+  "rang": "◆◆◆◆ Légendaire",
+  "cr": 21,
+  "role_jeu": "evenement_cinematique",
+  "taille_garrot_m": 8.0,
+  "hauteur_sprite_px": 293,
+  "hors_format_sprite": true,
+  "element_principal": "Éther",
+  "element_secondaire": "Glace",
+  "etats_infliges": [
+   "Éblouissement"
+  ],
+  "lignee_draconique": true,
+  "terrain": "Régions polaires, champ magnétique intense",
+  "apparence": {
+   "silhouette": "Corps long et fin comme un rideau, entièrement composé d'ailes en voiles. Aucune patte visible. La tête est un fin croissant.",
+   "trait_distinctif": "Ses ailes en rideaux ondoient et se colorent de vert et de violet comme des aurores.",
+   "trait_cle": "ailes-rideaux-auroraux",
+   "couleurs": [
+    "vert aurore",
+    "violet",
+    "bleu glacé"
+   ],
+   "rappel_leger": "Dragon-aurore, apparition polaire majestueuse.",
+   "difference_avec_ancienne": "Remplace la lumière indistincte par un corps de rideaux d'ailes ondulantes.",
+   "signature_cinematique": "Un rideau vert et violet se déploie dans le ciel polaire, et chaque pli est une aile."
+  },
+  "description_courte": "Les nuits polaires s'éclairent à son passage. Les trappeurs interrompent la chasse pour le regarder passer.",
+  "familier": {
+   "possible": false
+  }
+ },
+ {
+  "id": "dra34",
+  "nouveau_nom": "Nyprisel",
+  "sous_titre": "Le Spectre en Gloire",
+  "groupe": "dragons",
+  "rang": "◆◆◆◆ Légendaire",
+  "cr": 21,
+  "role_jeu": "evenement_cinematique",
+  "taille_garrot_m": 8.0,
+  "hauteur_sprite_px": 293,
+  "hors_format_sprite": true,
+  "element_principal": "Éther",
+  "element_secondaire": null,
+  "etats_infliges": [
+   "Éblouissement"
+  ],
+  "lignee_draconique": true,
+  "terrain": "Arc-en-ciel permanents, prismes naturels",
+  "apparence": {
+   "silhouette": "Corps de verre transparent, quadrupède fin, ailes en lamelles de verre. La tête est un prisme. Il ne se voit qu'à travers sa lumière.",
+   "trait_distinctif": "Son corps transparent décompose la lumière en un arc-en-ciel qui se projette autour de lui.",
+   "trait_cle": "corps-verre-arc-en-ciel",
+   "couleurs": [
+    "transparent",
+    "irisé",
+    "blanc"
+   ],
+   "rappel_leger": "Dragon-prisme, évoquant une statue de verre vivante.",
+   "difference_avec_ancienne": "Remplace le spectre mobile par un corps de verre prismatique à arcs-en-ciel projetés.",
+   "signature_cinematique": "Un arc-en-ciel apparaît par ciel sec et se déplace tout seul au-dessus de la muraille."
+  },
+  "description_courte": "On le repère aux arcs-en-ciel sans pluie. Il est presque invisible hors du soleil.",
+  "familier": {
+   "possible": false
+  }
+ },
+ {
+  "id": "dra35",
+  "nouveau_nom": "Oïbleuline",
+  "sous_titre": "La Flamme Sans Chaleur",
+  "groupe": "dragons",
+  "rang": "◆◆◆◆ Légendaire",
+  "cr": 22,
+  "role_jeu": "evenement_cinematique",
+  "taille_garrot_m": 9.0,
+  "hauteur_sprite_px": 329,
+  "hors_format_sprite": true,
+  "element_principal": "Feu",
+  "element_secondaire": "Glace",
+  "etats_infliges": [],
+  "lignee_draconique": true,
+  "terrain": "Feux de gaz naturels, combustion froide",
+  "apparence": {
+   "silhouette": "Corps maigre, lisse, quadrupède, avec un long cou. Ses ailes sont de longues flammes bleues dressées. La silhouette est celle d'un cierge vivant.",
+   "trait_distinctif": "Des flammes bleues froides dansent sur ses flancs sans rien brûler, et givrent ce qu'elles touchent.",
+   "trait_cle": "flammes-bleues-froides",
+   "couleurs": [
+    "bleu cobalt",
+    "blanc",
+    "noir"
+   ],
+   "rappel_leger": "Dragon de feu froid, paradoxe vivant.",
+   "difference_avec_ancienne": "Remplace la flamme bleue ordinaire par des flammes froides givrantes en guise d'ailes.",
+   "signature_cinematique": "Une flamme bleue immobile éclaire la brume sans la dissiper, et le givre se forme dessous."
+  },
+  "description_courte": "Ses flammes ne chauffent pas. Les mains qui s'en approchent reviennent engourdies et les gelées couvrent les prairies.",
+  "familier": {
+   "possible": false
+  }
+ },
+ {
+  "id": "dra36",
+  "nouveau_nom": "Ysenduré",
+  "sous_titre": "Ce Qui Demeure",
+  "groupe": "dragons",
+  "rang": "◆◆◆◆ Légendaire",
+  "cr": 24,
+  "role_jeu": "evenement_cinematique",
+  "taille_garrot_m": 12.0,
+  "hauteur_sprite_px": 439,
+  "hors_format_sprite": true,
+  "element_principal": "Terre",
+  "element_secondaire": "Éther",
+  "etats_infliges": [],
+  "lignee_draconique": true,
+  "terrain": "Roches non érodées depuis des millénaires",
+  "apparence": {
+   "silhouette": "Corps de statue de granit massif, quadrupède figé, sans ailes visibles. Les yeux sont fermés, la pose est celle d'un gardien. Il ne bouge presque jamais.",
+   "trait_distinctif": "Il est entièrement recouvert d'une patine de lichens et de mousses millénaires, comme une statue de temple.",
+   "trait_cle": "patine-lichens-millenaires",
+   "couleurs": [
+    "gris granit",
+    "vert lichen",
+    "ocre"
+   ],
+   "rappel_leger": "Dragon-statue, symbole d'immuabilité.",
+   "difference_avec_ancienne": "Remplace la forme éternelle abstraite par une statue de granit couverte de lichens.",
+   "signature_cinematique": "Une statue de granit couverte de lichens ouvre un œil, une seule fois, et la vallée retient son souffle."
+  },
+  "description_courte": "On le prend pour un monument. Les moines de la région affirment qu'il n'a pas bougé depuis la fondation de leur ordre.",
+  "familier": {
+   "possible": false
+  }
+ }
+]

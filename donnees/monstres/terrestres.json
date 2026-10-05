@@ -1,0 +1,783 @@
+[
+ {
+  "id": "ter01",
+  "nouveau_nom": "Maltuile",
+  "sous_titre": "Le Four de Pierre",
+  "groupe": "terrestres",
+  "rang": "◆◆ Rare",
+  "cr": 5,
+  "role_jeu": "mini_boss",
+  "taille_garrot_m": 2.8,
+  "hauteur_sprite_px": 102,
+  "hors_format_sprite": false,
+  "element_principal": "Feu",
+  "element_secondaire": null,
+  "etats_infliges": [],
+  "lignee_draconique": false,
+  "terrain": "Zones rocheuses chaudes, collines arides, bordures volcaniques",
+  "apparence": {
+   "silhouette": "Corps en tonneau bas sur quatre piliers de pattes, tête large et plate portée au ras du sol. Dos bombé, queue courte et épaisse comme une bûche. Silhouette de four à pain en marche.",
+   "trait_distinctif": "Son dos est couvert de plaques rouge brique empilées comme des tuiles de toit, dont les joints laissent filer de minces fumées.",
+   "trait_cle": "dos-tuiles-cuites",
+   "couleurs": [
+    "rouge brique",
+    "gris cendre",
+    "ocre fumé"
+   ],
+   "rappel_leger": "Grande bête cuirassée et placide, repère pédagogique des chasseurs débutants.",
+   "difference_avec_ancienne": "Remplace le corps trapu à moignons d'ailes et crête de roche par un dos en tuiles fumantes et une tête plate."
+  },
+  "description_courte": "Bête lourde des collines chaudes, prévisible et patiente. Ses plaques dorsales chauffent au combat et fument entre les coups. Les chasseurs de rang moyen s'y exercent avant de s'attaquer aux fauves cuirassés.",
+  "familier": {
+   "possible": true,
+   "lien_max": "conditionne",
+   "difficulte_dd": 12,
+   "roles": [
+    "bete_de_somme",
+    "garde"
+   ],
+   "aide_combat": "Ne combat pas de lui-même : il charge et piétine quiconque menace directement la zone où il se tient, servant de diversion et de barrière vivante. Mis K.O. par la fatigue, il se rétablit au camp.",
+   "transport": "terrestre",
+   "capacite_transport": "groupe de 2-4",
+   "age_ideal": "Jeune de moins de 3 mois (conditionnement de 4 mois minimum)",
+   "limite": "Ne suit son maître que sur terrain connu et défend uniquement sa zone immédiate ; redevient capricieux s'il est longtemps éloigné de son dresseur."
+  }
+ },
+ {
+  "id": "ter02",
+  "nouveau_nom": "Mortelaine",
+  "sous_titre": "La Gueule des Charognes",
+  "groupe": "terrestres",
+  "rang": "◆◆◆ Élite",
+  "cr": 11,
+  "role_jeu": "boss",
+  "taille_garrot_m": 3.5,
+  "hauteur_sprite_px": 128,
+  "hors_format_sprite": false,
+  "element_principal": "Feu",
+  "element_secondaire": null,
+  "etats_infliges": [
+   "Poison"
+  ],
+  "lignee_draconique": false,
+  "terrain": "Marais chauds, zones de décomposition organique et de charognes",
+  "apparence": {
+   "silhouette": "Grand bipède lourd à l'échine voûtée, tête plus large que le cou. La mâchoire inférieure est décalée de côté, gueule toujours entrouverte. Silhouette de bloc penché, reconnaissable à sa bouche de travers.",
+   "trait_distinctif": "Sa mâchoire inférieure pend de travers, laissant béer une gueule hérissée de crocs inégaux et ruisselante de bave verdâtre.",
+   "trait_cle": "machoire-decalee-beante",
+   "couleurs": [
+    "bleu de nuit",
+    "vert vase",
+    "jaune bile"
+   ],
+   "rappel_leger": "Gros prédateur bipède de marais, annoncé par son odeur et ses infections.",
+   "difference_avec_ancienne": "Garde la corpulence massive mais change la tête : mâchoire décalée visible, loin de l'ancienne coloration bleu-noir uniforme."
+  },
+  "description_courte": "Charognard colossal des marais chauds. Son haleine précède sa silhouette, et sa salive empoisonne toute plaie. Les autres bêtes désertent son territoire. Les guildes exigent filtres et antidotes.",
+  "familier": {
+   "possible": false
+  }
+ },
+ {
+  "id": "ter03",
+  "nouveau_nom": "Orgelane",
+  "sous_titre": "La Marcheuse d'Orgues",
+  "groupe": "terrestres",
+  "rang": "◆◆◆◆ Légendaire",
+  "cr": 20,
+  "role_jeu": "boss",
+  "taille_garrot_m": 4.5,
+  "hauteur_sprite_px": 165,
+  "hors_format_sprite": false,
+  "element_principal": "Terre",
+  "element_secondaire": null,
+  "etats_infliges": [],
+  "lignee_draconique": false,
+  "terrain": "Grandes plaines, forêts primaires à grands arbres",
+  "apparence": {
+   "silhouette": "Colosse bipède à l'allure de montagne mobile, dos très haut et front bas. Le cou est court, la queue épaisse traîne un sillon. En ombre chinoise, le dos se découpe en tuyaux dressés.",
+   "trait_distinctif": "Son dos porte des colonnes de basalte hexagonales dressées comme les tuyaux d'un orgue, qui sonnent sourdement quand elle marche.",
+   "trait_cle": "dos-orgues-basalte",
+   "couleurs": [
+    "gris basalte",
+    "vert mousse",
+    "noir bleuté"
+   ],
+   "rappel_leger": "Géante terrestre solitaire dont le passage modifie le paysage.",
+   "difference_avec_ancienne": "Remplace l'ancienne masse unie par un dos de colonnes de basalte sonores."
+  },
+  "description_courte": "La plus massive des bipèdes ordinaires. Chacun de ses pas creuse le sol, et les colonnes de pierre de son dos résonnent à des lieues. Aucune autre grande bête ne survit longtemps sur son territoire.",
+  "familier": {
+   "possible": false
+  }
+ },
+ {
+  "id": "ter04",
+  "nouveau_nom": "Nervaille",
+  "sous_titre": "La Faucheuse des Sous-Bois",
+  "groupe": "terrestres",
+  "rang": "◆◆◆ Élite",
+  "cr": 9,
+  "role_jeu": "boss",
+  "taille_garrot_m": 3.0,
+  "hauteur_sprite_px": 110,
+  "hors_format_sprite": false,
+  "element_principal": "Neutre",
+  "element_secondaire": null,
+  "etats_infliges": [],
+  "lignee_draconique": false,
+  "terrain": "Forêts mixtes, sous-bois denses, végétation épaisse",
+  "apparence": {
+   "silhouette": "Quadrupède long et bas, tête en coin plate comme une bêche, dos en dents de scie. La queue s'achève en une grande faux recourbée vers le haut. Silhouette d'outil de jardin dressé.",
+   "trait_distinctif": "Une unique faux cornée, large comme une porte, prolonge sa queue et se replie en croissant par-dessus son dos.",
+   "trait_cle": "queue-faux-unique",
+   "couleurs": [
+    "vert sapin",
+    "acier brossé",
+    "brun écorce"
+   ],
+   "rappel_leger": "Prédateur solitaire tranchant, spécialiste de l'embuscade en sous-bois.",
+   "difference_avec_ancienne": "Passe d'une queue à deux lames en V à une faux unique recourbée, et d'une crête de plaques à une tête en bêche."
+  },
+  "description_courte": "Tueur silencieux des taillis denses. Chaque arête de son corps coupe, jusqu'au bord de ses plaques dorsales. Il fauche les fourrés pour dégager ses charges, puis revient finir ce qu'il a blessé.",
+  "familier": {
+   "possible": false
+  }
+ },
+ {
+  "id": "ter05",
+  "nouveau_nom": "Oubliette",
+  "sous_titre": "La Boule des Gouffres",
+  "groupe": "terrestres",
+  "rang": "◆◆◆ Élite",
+  "cr": 12,
+  "role_jeu": "boss",
+  "taille_garrot_m": 3.3,
+  "hauteur_sprite_px": 121,
+  "hors_format_sprite": false,
+  "element_principal": "Feu",
+  "element_secondaire": null,
+  "etats_infliges": [],
+  "lignee_draconique": false,
+  "terrain": "Grottes karstiques, galeries minières abandonnées",
+  "apparence": {
+   "silhouette": "Corps allongé et bas, sept grands anneaux dorsaux qui coulissent. Petite tête pointue, pattes courtes. Enroulée, elle forme une sphère nette comme une bille de pierre.",
+   "trait_distinctif": "Sa carapace est faite de sept segments coulissants comme ceux d'un cloporte géant, percés d'évents d'où sifflent des flammèches bleues.",
+   "trait_cle": "carapace-cloporte",
+   "couleurs": [
+    "ardoise",
+    "bleu gaz",
+    "brun charbon"
+   ],
+   "rappel_leger": "Grande bête cuirassée qui se roule en boule pour charger ou se protéger.",
+   "difference_avec_ancienne": "Remplace l'armure de plaques bombées par sept anneaux articulés de cloporte et des évents flamboyants."
+  },
+  "description_courte": "Hôte des cavernes, elle s'enroule en sphère et dévale les galeries à pleine vitesse. Ses évents laissent fuir un gaz qui s'enflamme au moindre choc. Les mineurs la redoutent plus que l'éboulement.",
+  "familier": {
+   "possible": false
+  }
+ },
+ {
+  "id": "ter06",
+  "nouveau_nom": "Névelune",
+  "sous_titre": "La Meute des Franges de Givre",
+  "groupe": "terrestres",
+  "rang": "◆◆◆ Élite",
+  "cr": 10,
+  "role_jeu": "boss",
+  "taille_garrot_m": 3.2,
+  "hauteur_sprite_px": 117,
+  "hors_format_sprite": false,
+  "element_principal": "Glace",
+  "element_secondaire": null,
+  "etats_infliges": [],
+  "lignee_draconique": false,
+  "terrain": "Zones arctiques, toundras enneigées, neige permanente",
+  "apparence": {
+   "silhouette": "Quadrupède massif à long museau et épaules hautes. Le pelage tombe en longues mèches gelées jusqu'au sol, effaçant les pattes. De loin, un monticule de neige qui avance.",
+   "trait_distinctif": "De longues franges de glaçons pendent de ses flancs et cliquettent à chaque pas, comme les franges d'un tapis gelé.",
+   "trait_cle": "franges-de-glacons",
+   "couleurs": [
+    "gris bleu",
+    "blanc givre",
+    "noir fumé"
+   ],
+   "rappel_leger": "Grande bête des neiges vivant en petite meute, parfois dressée comme monture polaire.",
+   "difference_avec_ancienne": "Passe d'un pelage blanc dense à des mèches de glaçons et à un long museau."
+  },
+  "description_courte": "Rare bête terrestre à vivre en petites meutes de deux à quatre, adaptée aux terres de givre. Ses franges de glace servent de camouflage et d'armure. Une seule guilde nordique en dresse, par grand froid.",
+  "familier": {
+   "possible": true,
+   "lien_max": "conditionne",
+   "difficulte_dd": 16,
+   "roles": [
+    "monture_terre",
+    "bete_de_somme"
+   ],
+   "aide_combat": "Peu apte au combat de chasse en solo : il charge les proies, brise la glace sous leurs pas et arrache l'attention de la bête visée, laissant le chasseur manœuvrer. Il peut être mis K.O. par épuisement, jamais tué.",
+   "transport": "terrestre",
+   "capacite_transport": "1 personnage",
+   "age_ideal": "Non précisé (conditionnement long, froid de -20 °C minimum)",
+   "limite": "Le dressage ne tient qu'en froid extrême ; en climat doux il s'agite, surchauffe et peut redevenir sauvage."
+  }
+ },
+ {
+  "id": "ter07",
+  "nouveau_nom": "Mazurque",
+  "sous_titre": "La Danseuse Cuivrée",
+  "groupe": "terrestres",
+  "rang": "◆◆◆ Élite",
+  "cr": 11,
+  "role_jeu": "boss",
+  "taille_garrot_m": 3.4,
+  "hauteur_sprite_px": 124,
+  "hors_format_sprite": false,
+  "element_principal": "Foudre",
+  "element_secondaire": null,
+  "etats_infliges": [],
+  "lignee_draconique": false,
+  "terrain": "Hautes herbes, plaines ouvertes légèrement humides",
+  "apparence": {
+   "silhouette": "Quadrupède haut sur pattes, cou long et tête fine. Une grande collerette ronde, déployable, encadre la tête. Au repos, la collerette plie sur les épaules comme un éventail clos.",
+   "trait_distinctif": "Une collerette de membranes à nervures de cuivre s'ouvre autour de sa tête pour la parade et crépite d'étincelles.",
+   "trait_cle": "collerette-cuivree",
+   "couleurs": [
+    "cuivre",
+    "bleu orage",
+    "crème"
+   ],
+   "rappel_leger": "Grande bête électrique de plaine, à la parade spectaculaire.",
+   "difference_avec_ancienne": "Passe de deux cornes conductrices à une collerette ronde de membranes."
+  },
+  "description_courte": "Grande bête de plaine, danseuse à la saison des amours. Sa collerette cuivrée se tend, crépite et décharge des arcs sur ses rivaux. Les chasseurs guettent l'instant où elle replie sa parure.",
+  "familier": {
+   "possible": false
+  }
+ },
+ {
+  "id": "ter08",
+  "nouveau_nom": "Ocremont",
+  "sous_titre": "Le Seigneur des Terres Fendues",
+  "groupe": "terrestres",
+  "rang": "◆◆◆◆ Légendaire",
+  "cr": 22,
+  "role_jeu": "boss",
+  "taille_garrot_m": 5.0,
+  "hauteur_sprite_px": 183,
+  "hors_format_sprite": false,
+  "element_principal": "Feu",
+  "element_secondaire": "Terre",
+  "etats_infliges": [],
+  "lignee_draconique": false,
+  "terrain": "Grandes savanes, plaines dégagées, zones arides étendues",
+  "apparence": {
+   "silhouette": "Quadrupède colossal, haut sur pattes, front en terrasse large. Corps équilibré, dos plat comme une table. Il avance à longues foulées sur le sol sec.",
+   "trait_distinctif": "Un large bossage osseux en forme d'enclume couronne son front, et de fines fissures incandescentes courent sur son dos comme sur une terre craquelée.",
+   "trait_cle": "front-enclume",
+   "couleurs": [
+    "ocre rouge",
+    "brun poussière",
+    "orange braise"
+   ],
+   "rappel_leger": "Immense seigneur de la plaine, solitaire et très territorial.",
+   "difference_avec_ancienne": "Remplace les deux cornes frontales droites par un bossage en enclume et un dos de terre fissurée."
+  },
+  "description_courte": "Maître de la savane, il impose son territoire sur des lieues. Rapide malgré sa masse, il charge front baissé et fend le sol à coups de crâne. Le dos fissuré luit au crépuscule.",
+  "familier": {
+   "possible": false
+  }
+ },
+ {
+  "id": "ter09",
+  "nouveau_nom": "Mâchefer",
+  "sous_titre": "Le Volcan en Cuirasse",
+  "groupe": "terrestres",
+  "rang": "◆◆◆ Élite",
+  "cr": 13,
+  "role_jeu": "boss",
+  "taille_garrot_m": 3.4,
+  "hauteur_sprite_px": 124,
+  "hors_format_sprite": false,
+  "element_principal": "Feu",
+  "element_secondaire": "Terre",
+  "etats_infliges": [],
+  "lignee_draconique": false,
+  "terrain": "Zones volcaniques actives, coulées, poches magmatiques",
+  "apparence": {
+   "silhouette": "Grand bipède trapu, dos large et bras courts. Un manteau de scories sombres le recouvre en plaques épaisses. Il s'avance avec le raclement d'un tas de cendres.",
+   "trait_distinctif": "Sa carapace de scories noires se détache en plaques fumantes, découvrant une peau orange vif qui se refroidit en quelques secondes.",
+   "trait_cle": "carapace-de-scories",
+   "couleurs": [
+    "noir de forge",
+    "orange vif",
+    "gris cendre"
+   ],
+   "rappel_leger": "Brute volcanique cuirassée dont l'armure de roche sert de bouclier.",
+   "difference_avec_ancienne": "Change l'armure de lave lisse figée en plaques de scories qui se détachent et laissent voir la peau chaude."
+  },
+  "description_courte": "Né des coulées, il se revêt de scories noircies qui tombent en lambeaux fumants au combat. Dessous, la peau rougeoie. La chasse est une course contre la fonte de son armure.",
+  "familier": {
+   "possible": false
+  }
+ },
+ {
+  "id": "ter10",
+  "nouveau_nom": "Marnelin",
+  "sous_titre": "Le Bâtisseur de Stalagmites",
+  "groupe": "terrestres",
+  "rang": "◆◆◆ Élite",
+  "cr": 11,
+  "role_jeu": "boss",
+  "taille_garrot_m": 3.3,
+  "hauteur_sprite_px": 121,
+  "hors_format_sprite": false,
+  "element_principal": "Terre",
+  "element_secondaire": null,
+  "etats_infliges": [],
+  "lignee_draconique": false,
+  "terrain": "Zones minières, terrains calcaires, dépôts minéraux riches",
+  "apparence": {
+   "silhouette": "Quadrupède râblé à tête carrée et pattes de pilier. Le dos porte des cônes de pierre blanche de plus en plus hauts. La silhouette ressemble à une grotte vivante.",
+   "trait_distinctif": "Des cônes de calcaire blanc, comme des stalagmites, croissent sur son dos et grossissent au cours du combat.",
+   "trait_cle": "stalagmites-dorsales",
+   "couleurs": [
+    "blanc crayeux",
+    "gris pierre",
+    "jaune soufre"
+   ],
+   "rappel_leger": "Grande bête cuirassée dont la défense s'épaissit pendant le combat.",
+   "difference_avec_ancienne": "Remplace l'ancienne peau d'écailles qui durcit par des cônes de calcaire visibles dont la taille croît."
+  },
+  "description_courte": "Les mineurs le reconnaissent à ses cônes de calcaire, plus hauts à chaque coup reçu. Plus on le frappe, plus il durcit. Les chasseurs avisés frappent vite et se retirent.",
+  "familier": {
+   "possible": false
+  }
+ },
+ {
+  "id": "ter11",
+  "nouveau_nom": "Nuagrin",
+  "sous_titre": "Le Poing d'Orage",
+  "groupe": "terrestres",
+  "rang": "◆◆◆ Élite",
+  "cr": 14,
+  "role_jeu": "boss",
+  "taille_garrot_m": 3.0,
+  "hauteur_sprite_px": 110,
+  "hors_format_sprite": false,
+  "element_principal": "Foudre",
+  "element_secondaire": null,
+  "etats_infliges": [],
+  "lignee_draconique": false,
+  "terrain": "Montagnes rocheuses, falaises, hauts vents",
+  "apparence": {
+   "silhouette": "Quadrupède trapu, tête basse, poitrail énorme. Les membres antérieurs sont démesurés et se terminent en gros poings. En ombre chinoise : un bloc musclé aux avant-bras en massue.",
+   "trait_distinctif": "Ses antérieurs finissent en poings noueux, bulbeux, d'où jaillissent des arcs bleus à chaque coup.",
+   "trait_cle": "poings-en-boule",
+   "couleurs": [
+    "indigo",
+    "bleu électrique",
+    "gris acier"
+   ],
+   "rappel_leger": "Petit et dense, frappeur électrique et très agressif.",
+   "difference_avec_ancienne": "Remplace le pelage jaune-or par une peau indigo lisse et des poings démesurés."
+  },
+  "description_courte": "Le plus petit, mais le plus dense. Il frappe de ses poings noueux qui crépitent d'arcs bleus. Les chasseurs le décrivent comme un orage compact, d'une agressivité sans pareille envers les siens.",
+  "familier": {
+   "possible": false
+  }
+ },
+ {
+  "id": "ter12",
+  "nouveau_nom": "Morillane",
+  "sous_titre": "La Coralline des Sous-Bois",
+  "groupe": "terrestres",
+  "rang": "◆◆ Rare",
+  "cr": 7,
+  "role_jeu": "membre_de_meute",
+  "taille_garrot_m": 2.7,
+  "hauteur_sprite_px": 99,
+  "hors_format_sprite": false,
+  "element_principal": "Neutre",
+  "element_secondaire": null,
+  "etats_infliges": [
+   "Poison"
+  ],
+  "lignee_draconique": false,
+  "terrain": "Forêts humides fongiques, zones de décomposition avancée",
+  "apparence": {
+   "silhouette": "Quadrupède souple à tête étroite, dos tapissé d'ombelles. Vit en petit groupe. La silhouette est hérissée de petites formes arrondies.",
+   "trait_distinctif": "Son dos et sa queue portent des ombelles blanc-rose en forme de corail, qui libèrent un nuage de spores à chaque secousse.",
+   "trait_cle": "ombelles-corail-fongique",
+   "couleurs": [
+    "blanc rosé",
+    "brun feuille",
+    "vert-de-gris"
+   ],
+   "rappel_leger": "Petite brute de meute dont les nuages de spores troublent les chasseurs.",
+   "difference_avec_ancienne": "Remplace les champignons de tailles variées par des ombelles de corail uniformes."
+  },
+  "description_courte": "Vit en meute de trois à six dans les sous-bois humides. Ses ombelles libèrent des spores hallucinogènes qui sèment la confusion. Masque intégral obligatoire pour toute approche.",
+  "familier": {
+   "possible": true,
+   "lien_max": "conditionne",
+   "difficulte_dd": 13,
+   "roles": [
+    "soin",
+    "garde",
+    "assistant_combat"
+   ],
+   "aide_combat": "Souffle ses spores sur les ennemis pour les empoisonner ou les troubler, pendant que le dresseur, masqué, frappe. Mis K.O. par épuisement des spores, il se rétablit au camp.",
+   "transport": null,
+   "capacite_transport": null,
+   "age_ideal": "Non précisé (jeunes de préférence)",
+   "limite": "Le dresseur doit porter un masque intégral pendant tout le conditionnement ; les spores restent un risque pour les alliés non protégés."
+  }
+ },
+ {
+  "id": "ter13",
+  "nouveau_nom": "Ouessane",
+  "sous_titre": "La Voile des Falaises",
+  "groupe": "terrestres",
+  "rang": "◆◆◆ Élite",
+  "cr": 10,
+  "role_jeu": "boss",
+  "taille_garrot_m": 3.2,
+  "hauteur_sprite_px": 117,
+  "hors_format_sprite": false,
+  "element_principal": "Vent",
+  "element_secondaire": null,
+  "etats_infliges": [],
+  "lignee_draconique": false,
+  "terrain": "Falaises, canyons, vents permanents",
+  "apparence": {
+   "silhouette": "Bipède long et élancé, cou sinueux, membres antérieurs courts. Une large membrane relie sa queue à ses pattes arrière. Planant, il évoque une voile triangulaire.",
+   "trait_distinctif": "Une membrane tendue entre ses pattes arrière et sa queue se déploie en voile triangulaire pour planer depuis les crêtes.",
+   "trait_cle": "queue-voile-tendue",
+   "couleurs": [
+    "ocre sienne",
+    "turquoise",
+    "blanc os"
+   ],
+   "rappel_leger": "Grande bête planeuse qui bondit des falaises sur ses proies.",
+   "difference_avec_ancienne": "Remplace les bras-ailes à bandes jaune et noir par une voile de queue et des teintes turquoise."
+  },
+  "description_courte": "Dormeur des falaises qui plane sur plusieurs dizaines de mètres. Sa voile caudale le porte jusqu'au fond des canyons. Il ne vole pas, mais retombe sur sa proie comme un poids.",
+  "familier": {
+   "possible": false
+  }
+ },
+ {
+  "id": "ter14",
+  "nouveau_nom": "Mélassine",
+  "sous_titre": "La Gluante des Roselières",
+  "groupe": "terrestres",
+  "rang": "◆◆ Rare",
+  "cr": 8,
+  "role_jeu": "mini_boss",
+  "taille_garrot_m": 2.8,
+  "hauteur_sprite_px": 102,
+  "hors_format_sprite": false,
+  "element_principal": "Eau",
+  "element_secondaire": null,
+  "etats_infliges": [
+   "Poison"
+  ],
+  "lignee_draconique": false,
+  "terrain": "Marais, berges de rivières lentes, zones humides denses",
+  "apparence": {
+   "silhouette": "Quadrupède aplati, large tête de crapaud, dos bas. La gorge pend en sac. Silhouette trapue d'énorme batracien.",
+   "trait_distinctif": "Un sac gulaire translucide et gonflé de bulles pend sous sa gorge, suintant un mucus doré en longs fils.",
+   "trait_cle": "sac-gulaire-gluant",
+   "couleurs": [
+    "vert marais",
+    "ambre",
+    "jaune boue"
+   ],
+   "rappel_leger": "Gros prédateur d'embuscade des marais, collant et empoisonné.",
+   "difference_avec_ancienne": "Remplace le corps entier couvert de mucus par un sac gulaire translucide et une tête de crapaud."
+  },
+  "description_courte": "Presque indétectable dans la vase. Son sac gulaire déverse une glu ambrée qui prend en quelques instants. Les chasseurs recommandent de ne jamais combattre à pied dans l'eau stagnante.",
+  "familier": {
+   "possible": false
+  }
+ },
+ {
+  "id": "ter15",
+  "nouveau_nom": "Mancenille",
+  "sous_titre": "La Vendangeuse de Venins",
+  "groupe": "terrestres",
+  "rang": "◆◆◆ Élite",
+  "cr": 13,
+  "role_jeu": "boss",
+  "taille_garrot_m": 3.1,
+  "hauteur_sprite_px": 113,
+  "hors_format_sprite": false,
+  "element_principal": "Neutre",
+  "element_secondaire": null,
+  "etats_infliges": [
+   "Poison"
+  ],
+  "lignee_draconique": false,
+  "terrain": "Zones tropicales, forêts chaudes, végétation dense",
+  "apparence": {
+   "silhouette": "Quadrupède allongé à queue épaisse et ordinaire. Sous la gorge pendent des grappes arrondies. Le profil rappelle un varan massif orné de fruits.",
+   "trait_distinctif": "Des grappes de poches violacées, semblables à des raisins, pendent sous sa gorge et son ventre, chacune contenant un venin différent.",
+   "trait_cle": "gorge-grappes-venin",
+   "couleurs": [
+    "violet prune",
+    "vert jungle",
+    "jaune soufre"
+   ],
+   "rappel_leger": "Grande bête venimeuse des forêts chaudes, aux multiples toxines.",
+   "difference_avec_ancienne": "Déplace le venin de la queue à cinq têtes vers des grappes de poches sous la gorge."
+  },
+  "description_courte": "Rampante et massive, elle porte ses venins comme des fruits mûrs. Chaque poche percée libère une toxine différente. Le chasseur prudent la poursuit avec un arsenal complet d'antidotes.",
+  "familier": {
+   "possible": false
+  }
+ },
+ {
+  "id": "ter16",
+  "nouveau_nom": "Nyctale",
+  "sous_titre": "L'Ombre Sans Pas",
+  "groupe": "terrestres",
+  "rang": "◆◆◆ Élite",
+  "cr": 10,
+  "role_jeu": "boss",
+  "taille_garrot_m": 2.9,
+  "hauteur_sprite_px": 106,
+  "hors_format_sprite": false,
+  "element_principal": "Ombre",
+  "element_secondaire": null,
+  "etats_infliges": [],
+  "lignee_draconique": false,
+  "terrain": "Forêts denses sombres, gorges profondes, conifères",
+  "apparence": {
+   "silhouette": "Bipède souple aux longues pattes, tête petite et lisse. Les contours de son corps se défont en filaments. La silhouette est floue, comme dessinée au fusain.",
+   "trait_distinctif": "Les contours de son corps s'effilochent en fins filaments de fumée froide qui traînent derrière elle.",
+   "trait_cle": "contours-effiloches",
+   "couleurs": [
+    "noir de suie",
+    "gris brume",
+    "bleu minuit"
+   ],
+   "rappel_leger": "Chasseuse discrète des forêts sombres, à demi insaisissable.",
+   "difference_avec_ancienne": "Passe d'une silhouette à demi transparente à des contours effilochés en fumée."
+  },
+  "description_courte": "Presque jamais vue, jamais entendue. Elle se dissout en brume dans la pénombre et ne laisse aucune empreinte. Les pisteurs apprennent à repérer le froid de son passage.",
+  "familier": {
+   "possible": false
+  }
+ },
+ {
+  "id": "ter17",
+  "nouveau_nom": "Mirodine",
+  "sous_titre": "L'Armure aux Mille Facettes",
+  "groupe": "terrestres",
+  "rang": "◆◆◆ Élite",
+  "cr": 12,
+  "role_jeu": "boss",
+  "taille_garrot_m": 3.3,
+  "hauteur_sprite_px": 121,
+  "hors_format_sprite": false,
+  "element_principal": "Feu",
+  "element_secondaire": "Vent",
+  "etats_infliges": [],
+  "lignee_draconique": false,
+  "terrain": "Déserts chauds, zones de vent brûlant",
+  "apparence": {
+   "silhouette": "Quadrupède aux épaules larges, dos plat, tête courte. Le dos est couvert de facettes brillantes comme un œil de mouche. La silhouette renvoie la lumière.",
+   "trait_distinctif": "Son dos est couvert de petites plaques hexagonales polies comme des miroirs, qui renvoient la lumière du désert.",
+   "trait_cle": "plaques-facettes-hexa",
+   "couleurs": [
+    "argent poli",
+    "vert-de-gris",
+    "sable clair"
+   ],
+   "rappel_leger": "Grande bête cuirassée du désert, qui renvoie les souffles qu'on lui lance.",
+   "difference_avec_ancienne": "Remplace l'armure noire et dorée en miroirs convexes par des facettes hexagonales argentées."
+  },
+  "description_courte": "Armure vivante du désert. Chaque plaque renvoie la chaleur et les souffles élémentaires vers leur source. Les chasseurs avisés évitent le feu et préfèrent les armes de choc.",
+  "familier": {
+   "possible": false
+  }
+ },
+ {
+  "id": "ter18",
+  "nouveau_nom": "Mortaise",
+  "sous_titre": "La Foreuse des Limons",
+  "groupe": "terrestres",
+  "rang": "◆◆◆ Élite",
+  "cr": 11,
+  "role_jeu": "boss",
+  "taille_garrot_m": 2.9,
+  "hauteur_sprite_px": 106,
+  "hors_format_sprite": false,
+  "element_principal": "Terre",
+  "element_secondaire": null,
+  "etats_infliges": [],
+  "lignee_draconique": false,
+  "terrain": "Sols meubles, plaines de limon, terres agricoles profondes",
+  "apparence": {
+   "silhouette": "Corps long et cylindrique, pattes avant larges en pelles. Le museau est une tarière spiralée, les yeux minuscules. La silhouette ressemble à un foret géant couché.",
+   "trait_distinctif": "Son museau est une longue tarière en spirale, qu'elle fait tourner pour percer la terre.",
+   "trait_cle": "museau-tariere",
+   "couleurs": [
+    "brun limon",
+    "rouge argile",
+    "beige terre"
+   ],
+   "rappel_leger": "Grande bête fouisseuse qui surgit du sol sous les pieds des chasseurs.",
+   "difference_avec_ancienne": "Remplace la tête en coin par un museau en tarière spiralée."
+  },
+  "description_courte": "Elle vit surtout sous terre dans un réseau de galeries personnel. Un simple soulèvement du sol trahit sa position. Les fermiers abandonnent les champs où elle s'installe.",
+  "familier": {
+   "possible": false
+  }
+ },
+ {
+  "id": "ter19",
+  "nouveau_nom": "Nitrelle",
+  "sous_titre": "La Porteuse de Poudre",
+  "groupe": "terrestres",
+  "rang": "◆◆◆ Élite",
+  "cr": 11,
+  "role_jeu": "boss",
+  "taille_garrot_m": 2.8,
+  "hauteur_sprite_px": 102,
+  "hors_format_sprite": false,
+  "element_principal": "Feu",
+  "element_secondaire": null,
+  "etats_infliges": [],
+  "lignee_draconique": false,
+  "terrain": "Végétation sèche, zones arides à hautes graminées",
+  "apparence": {
+   "silhouette": "Quadrupède svelte et nerveux, tête effilée, queue lourde. La queue se termine en massue boursouflée de vessies. Ressemble à une bête armée d'une grappe de ballons.",
+   "trait_distinctif": "Une queue en massue couverte de vessies rosées et translucides, gonflées de gaz, qui éclatent en flammes.",
+   "trait_cle": "queue-massue-vessies",
+   "couleurs": [
+    "jaune paille",
+    "roux",
+    "rose pâle"
+   ],
+   "rappel_leger": "Bête explosive des plaines sèches, dont le gaz s'enflamme à l'impact.",
+   "difference_avec_ancienne": "Déplace les vésicules du dos et des flancs vers une queue en massue."
+  },
+  "description_courte": "Sa queue gonflée de gaz explose à chaque coup qui la perce. Les graminées sèches prennent feu autour d'elle. Les chasseurs tranchent de loin ou éloignent le combat de l'herbe.",
+  "familier": {
+   "possible": false
+  }
+ },
+ {
+  "id": "ter20",
+  "nouveau_nom": "Mousseline",
+  "sous_titre": "La Marqueterie Vivante",
+  "groupe": "terrestres",
+  "rang": "◆◆ Rare",
+  "cr": 8,
+  "role_jeu": "mini_boss",
+  "taille_garrot_m": 2.7,
+  "hauteur_sprite_px": 99,
+  "hors_format_sprite": false,
+  "element_principal": "Neutre",
+  "element_secondaire": null,
+  "etats_infliges": [],
+  "lignee_draconique": false,
+  "terrain": "Végétation variée, prairies, lisières forêt-plaine",
+  "apparence": {
+   "silhouette": "Quadrupède souple, bas sur pattes, aux yeux globuleux sur pédoncules. Le corps se fond avec le sol. La silhouette est trapue, découpée en facettes.",
+   "trait_distinctif": "Ses yeux en tourelles, saillants sur pédoncules, pivotent indépendamment ; sa peau forme une marqueterie de losanges qui change de teinte.",
+   "trait_cle": "yeux-tourelles",
+   "couleurs": [
+    "vert prairie",
+    "brun terre",
+    "jaune paille"
+   ],
+   "rappel_leger": "Petite bête embusquée, maîtresse du camouflage au sol.",
+   "difference_avec_ancienne": "Remplace les chromatophores généraux par une peau en losanges et des yeux en tourelles."
+  },
+  "description_courte": "Elle se couche dans l'herbe et disparaît. Seuls ses yeux pivotent. Les chasseurs l'utilisent dressée pour débusquer des proies cachées.",
+  "familier": {
+   "possible": true,
+   "lien_max": "conditionne",
+   "difficulte_dd": 12,
+   "roles": [
+    "eclaireur",
+    "pisteur",
+    "garde",
+    "assistant_combat"
+   ],
+   "aide_combat": "Embusquée et invisible, elle charge sur signal pour débusquer ou paniquer les proies, créant une diversion. Elle protège aussi le périmètre du camp. Mise K.O. par la fatigue, elle se rétablit ensuite.",
+   "transport": null,
+   "capacite_transport": null,
+   "age_ideal": "Jeune de moins de 2 mois (conditionnement de 3 mois minimum)",
+   "limite": "Reste une bête d'embuscade : elle n'engage pas les grandes proies de front, et son camouflage la rend difficile à suivre dans l'herbe haute."
+  }
+ },
+ {
+  "id": "ter21",
+  "nouveau_nom": "Mnémire",
+  "sous_titre": "La Mémoire de Cristal",
+  "groupe": "terrestres",
+  "rang": "◆◆◆◆ Légendaire",
+  "cr": 18,
+  "role_jeu": "boss",
+  "taille_garrot_m": 3.5,
+  "hauteur_sprite_px": 128,
+  "hors_format_sprite": false,
+  "element_principal": "Éther",
+  "element_secondaire": null,
+  "etats_infliges": [],
+  "lignee_draconique": true,
+  "terrain": "Zones de corruption légère, forte énergie draconique ambiante",
+  "apparence": {
+   "silhouette": "Quadrupède puissant, tête allongée, dos large hérissé de cristaux. La masse est dissymétrique, plus fournie sur l'épaule gauche. La silhouette scintille.",
+   "trait_distinctif": "Des géodes de cristal violet poussent sur son épaule gauche et s'allument quand elle absorbe de l'énergie.",
+   "trait_cle": "grappes-de-geodes",
+   "couleurs": [
+    "violet améthyste",
+    "blanc nacré",
+    "noir bleuté"
+   ],
+   "rappel_leger": "Grande bête qui accumule l'énergie ambiante pour la restituer en un seul assaut.",
+   "difference_avec_ancienne": "Remplace les excroissances osseuses blanches par des géodes de cristal violet asymétriques."
+  },
+  "description_courte": "Elle boit l'énergie draconique de l'air et des coups. Ses géodes s'allument avant la décharge. Les chasseurs expérimentés la harcèlent sans lui offrir de souffle à absorber.",
+  "familier": {
+   "possible": false
+  }
+ },
+ {
+  "id": "ter22",
+  "nouveau_nom": "Noroche",
+  "sous_titre": "Le Roi des Strates",
+  "groupe": "terrestres",
+  "rang": "◆◆◆◆ Légendaire",
+  "cr": 21,
+  "role_jeu": "boss",
+  "taille_garrot_m": 4.8,
+  "hauteur_sprite_px": 176,
+  "hors_format_sprite": false,
+  "element_principal": "Terre",
+  "element_secondaire": null,
+  "etats_infliges": [],
+  "lignee_draconique": true,
+  "terrain": "Roche primaire, massifs montagneux reculés",
+  "apparence": {
+   "silhouette": "Colosse bipède, large et bas, comme une falaise qui avance. Le crâne porte un demi-anneau de pierre. Les épaules sont étagées.",
+   "trait_distinctif": "Son dos est fait de strates rocheuses empilées comme une falaise, traversées par une veine luisante d'énergie draconique.",
+   "trait_cle": "dos-strates-falaise",
+   "couleurs": [
+    "gris schiste",
+    "ocre strié",
+    "bleu éther"
+   ],
+   "rappel_leger": "Second géant solitaire, forteresse de pierre mouvante.",
+   "difference_avec_ancienne": "Remplace quatre cornes et crête dorsale par un demi-anneau de pierre et un dos de strates."
+  },
+  "description_courte": "Forteresse de roche mouvante des massifs reculés. Ses strates dorsales s'écaillent comme une falaise sous l'orage. Une veine d'énergie draconique y circule. Aucun chasseur ne l'approche sans escorte.",
+  "familier": {
+   "possible": false
+  }
+ }
+]

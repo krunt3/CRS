@@ -1,0 +1,598 @@
+[
+ {
+  "id": "cui01",
+  "nouveau_nom": "Tisonnier",
+  "sous_titre": "Le Four des Récifs",
+  "groupe": "cuirassees",
+  "rang": "◆◆◆ Élite",
+  "cr": 11,
+  "role_jeu": "boss",
+  "taille_garrot_m": 2.8,
+  "hauteur_sprite_px": 102,
+  "hors_format_sprite": false,
+  "element_principal": "Feu",
+  "element_secondaire": null,
+  "etats_infliges": [],
+  "lignee_draconique": false,
+  "terrain": "Côtes rocheuses volcaniques, lave en mer, récifs basaltiques chauds",
+  "apparence": {
+   "silhouette": "Crustacé massif, large et bas, dont la grosse pince gauche est deux fois plus grande que la droite. Il avance de travers, carapace en voûte.",
+   "trait_distinctif": "Une courte cheminée de pierre noire sur le dos laisse échapper un panache de vapeur et de cendres.",
+   "trait_cle": "cheminee-dorsale-fumante",
+   "couleurs": [
+    "noir basalte",
+    "rouge cuivre",
+    "gris cendre"
+   ],
+   "rappel_leger": "Cuirassé de feu des côtes volcaniques, véritable bloc chauffé en marche.",
+   "difference_avec_ancienne": "Cheminée dorsale fumante et pinces dissymétriques, au lieu d'une carapace uniforme rougeoyante."
+  },
+  "description_courte": "Crustacé des côtes de lave, il se chauffe jusqu'à faire bouillir l'eau alentour. Sa cheminée dorsale fume avant l'attaque : signe d'alerte pour les pêcheurs de Cap-Basalte.",
+  "familier": {
+   "possible": false
+  }
+ },
+ {
+  "id": "cui02",
+  "nouveau_nom": "Tramail",
+  "sous_titre": "L'Araignée des Gouffres",
+  "groupe": "cuirassees",
+  "rang": "◆◆◆ Élite",
+  "cr": 12,
+  "role_jeu": "boss",
+  "taille_garrot_m": 1.8,
+  "hauteur_sprite_px": 66,
+  "hors_format_sprite": false,
+  "element_principal": "Foudre",
+  "element_secondaire": "Eau",
+  "etats_infliges": [],
+  "lignee_draconique": false,
+  "terrain": "Fonds de 20 à 200 m, canyons sous-marins, fonds sableux profonds",
+  "apparence": {
+   "silhouette": "Crustacé à corps rond, bas et lisse, perché sur dix pattes interminables ployées comme des échasses. Tête minuscule à pédoncules oculaires.",
+   "trait_distinctif": "Chaque patte est cerclée d'anneaux bleu pâle phosphorescents qui s'allument en séquence quand il charge.",
+   "trait_cle": "pattes-annelees-phosphorescentes",
+   "couleurs": [
+    "noir violacé",
+    "bleu pâle",
+    "blanc nacré"
+   ],
+   "rappel_leger": "Grand prédateur de fond à longues pattes, patient et territorial.",
+   "difference_avec_ancienne": "Carapace lisse noir violacé et pattes annelées lumineuses, à la place d'un corps déguisé en bloc rocheux."
+  },
+  "description_courte": "Il guette dans les canyons sous-marins, immobile comme un trépied. Ses anneaux de lumière s'allument en séquence juste avant la décharge. Territorialisme extrême : aucun partage.",
+  "familier": {
+   "possible": false
+  }
+ },
+ {
+  "id": "cui03",
+  "nouveau_nom": "Tamarel",
+  "sous_titre": "Le Blindé des Viviers",
+  "groupe": "cuirassees",
+  "rang": "◆◆◆ Élite",
+  "cr": 10,
+  "role_jeu": "boss",
+  "taille_garrot_m": 2.5,
+  "hauteur_sprite_px": 92,
+  "hors_format_sprite": false,
+  "element_principal": "Eau",
+  "element_secondaire": null,
+  "etats_infliges": [],
+  "lignee_draconique": false,
+  "terrain": "Fonds rocheux de 5 à 80 m, récifs rocheux, épaves profondes",
+  "apparence": {
+   "silhouette": "Crustacé allongé en torpille, carapace en huit anneaux, pince droite énorme et pince gauche fine. Il se tient dressé sur ses pattes arrière, antennes en arrière.",
+   "trait_distinctif": "Sa pince broyeuse est tapissée de balanes blanches et de petits coquillages comme un vieux quai.",
+   "trait_cle": "pince-tapissee-de-balanes",
+   "couleurs": [
+    "brun-rouge",
+    "blanc coquille",
+    "vert marin"
+   ],
+   "rappel_leger": "Grand crustacé de fond aux pinces dissymétriques, très recherché des pêcheurs.",
+   "difference_avec_ancienne": "Pince couverte de balanes et pose dressée de torpille, plutôt qu'un homard classique."
+  },
+  "description_courte": "Géant des récifs rocheux, au goût renommé. Port-Agenon élève des individus en viviers profonds depuis trente ans, récoltant carapaces, pinces et œufs.",
+  "familier": {
+   "possible": true,
+   "lien_max": "conditionne",
+   "difficulte_dd": 14,
+   "roles": [
+    "recolte",
+    "garde",
+    "bete_de_somme"
+   ],
+   "aide_combat": "Le familier ouvre la garde de la proie avec sa pince broyeuse et la repousse vers les chasseurs sous l'eau. Il peut être mis K.O. par fatigue.",
+   "transport": null,
+   "capacite_transport": null,
+   "age_ideal": "juvénile élevé en vivier (programme d'aquaculture)",
+   "limite": "Confiné aux zones d'élevage marines : sauvage dès qu'il quitte son vivier."
+  }
+ },
+ {
+  "id": "cui04",
+  "nouveau_nom": "Sirocal",
+  "sous_titre": "Le Dard des Dunes",
+  "groupe": "cuirassees",
+  "rang": "◆◆◆ Élite",
+  "cr": 10,
+  "role_jeu": "boss",
+  "taille_garrot_m": 1.4,
+  "hauteur_sprite_px": 51,
+  "hors_format_sprite": false,
+  "element_principal": "Terre",
+  "element_secondaire": null,
+  "etats_infliges": [
+   "Poison"
+  ],
+  "lignee_draconique": false,
+  "terrain": "Sable profond, dunes, sables mouvants",
+  "apparence": {
+   "silhouette": "Crustacé trapu à six pattes courtes et deux pinces plates, queue relevée en spirale au-dessus du dos. Il s'enfonce dans le sable jusqu'à ce que seul le dard dépasse.",
+   "trait_distinctif": "Sa queue en ressort se termine par un dard translucide ambre dans lequel on voit nager le venin.",
+   "trait_cle": "dard-ambre-translucide",
+   "couleurs": [
+    "rouge sable",
+    "ivoire",
+    "ambre"
+   ],
+   "rappel_leger": "Prédateur de désert à dard venimeux, embusqué sous le sable.",
+   "difference_avec_ancienne": "Six pattes, queue en ressort et dard ambre visible, à la place d'une forme beige-dorée de huit pattes."
+  },
+  "description_courte": "Embusqué dans les dunes, il ne laisse dépasser que son dard ambré. Le venin visible dans la pointe sert d'avertissement, rarement lu à temps. Solitaire exclusif.",
+  "familier": {
+   "possible": false
+  }
+ },
+ {
+  "id": "cui05",
+  "nouveau_nom": "Terrelin",
+  "sous_titre": "Le Tertre Paisible",
+  "groupe": "cuirassees",
+  "rang": "◆◆◆ Élite",
+  "cr": 11,
+  "role_jeu": "boss",
+  "taille_garrot_m": 3.0,
+  "hauteur_sprite_px": 110,
+  "hors_format_sprite": false,
+  "element_principal": "Terre",
+  "element_secondaire": null,
+  "etats_infliges": [],
+  "lignee_draconique": false,
+  "terrain": "Forêts tempérées à sol meuble, zones humides, berges boueuses",
+  "apparence": {
+   "silhouette": "Immense tortue en dôme aplati, à l'allure de colline mobile, pattes de pilier et tête petite à gros bec. Elle avance en ondulant, très lente.",
+   "trait_distinctif": "Un petit jardin de fougères et un arbuste à baies poussent dans les fentes de sa carapace.",
+   "trait_cle": "jardin-sur-carapace",
+   "couleurs": [
+    "vert mousse",
+    "brun terre",
+    "jaune pâle"
+   ],
+   "rappel_leger": "Colosse placide dont la carapace est un abri pour quatre adultes.",
+   "difference_avec_ancienne": "Carapace plantée d'un jardin vivant et pattes de pilier, au lieu d'un dôme nu de lichens."
+  },
+  "description_courte": "Colosse lent, tolérant avec ses semblables. Les fermiers de berge dressent des individus pour tirer et labourer. Sa carapace porte quatre adultes et son jardin en fruits.",
+  "familier": {
+   "possible": true,
+   "lien_max": "conditionne",
+   "difficulte_dd": 13,
+   "roles": [
+    "bete_de_somme",
+    "monture_terre",
+    "recolte",
+    "garde"
+   ],
+   "aide_combat": "Le familier s'interpose comme rempart mouvant et encaisse les coups à la place des chasseurs, avançant lentement. Il peut être mis K.O. par fatigue.",
+   "transport": "terrestre",
+   "capacite_transport": "groupe de 2-4",
+   "age_ideal": "jeune individu élevé selon les traditions agricoles",
+   "limite": "Déplacement très lent (3 m par round) ; sa carapace pèse trop lourd pour franchir ponts et gués étroits."
+  }
+ },
+ {
+  "id": "cui06",
+  "nouveau_nom": "Stélian",
+  "sous_titre": "Le Menhir Rampant",
+  "groupe": "cuirassees",
+  "rang": "◆◆◆ Élite",
+  "cr": 11,
+  "role_jeu": "boss",
+  "taille_garrot_m": 2.2,
+  "hauteur_sprite_px": 81,
+  "hors_format_sprite": false,
+  "element_principal": "Terre",
+  "element_secondaire": null,
+  "etats_infliges": [],
+  "lignee_draconique": false,
+  "terrain": "Substrat granitique, massifs montagneux stables, grands éboulis",
+  "apparence": {
+   "silhouette": "Bête trapue, large comme haute, carapace en bloc à angles vifs comme un menhir couché. Pattes courtes, tête basse enfoncée entre les épaules.",
+   "trait_distinctif": "Une crête de gros cristaux de quartz rose brut hérisse son dos de l'épaule à la queue.",
+   "trait_cle": "crete-de-quartz-rose",
+   "couleurs": [
+    "gris granit",
+    "rose quartz",
+    "blanc laiteux"
+   ],
+   "rappel_leger": "Roc vivant des massifs montagneux, immobile comme un éboulis.",
+   "difference_avec_ancienne": "Crête de quartz rose et forme en bloc anguleux, au lieu d'un dôme de granite lisse."
+  },
+  "description_courte": "On le prend pour un éboulis jusqu'à ce qu'il bouge. Sa crête de quartz rose se lit de loin. Solitaire absolu, il défend son versant de roche avec obstination.",
+  "familier": {
+   "possible": false
+  }
+ },
+ {
+  "id": "cui07",
+  "nouveau_nom": "Salpine",
+  "sous_titre": "Le Pelleteur de Lagune",
+  "groupe": "cuirassees",
+  "rang": "◆◆ Rare",
+  "cr": 7,
+  "role_jeu": "mini_boss",
+  "taille_garrot_m": 1.6,
+  "hauteur_sprite_px": 59,
+  "hors_format_sprite": false,
+  "element_principal": "Eau",
+  "element_secondaire": null,
+  "etats_infliges": [],
+  "lignee_draconique": false,
+  "terrain": "Fonds sableux côtiers de 5 à 30 m, bancs de sable, lagunes",
+  "apparence": {
+   "silhouette": "Crabe large et plat, carapace ronde et lisse, quatre pattes avant en larges pelles. Il avance de côté en projetant le sable.",
+   "trait_distinctif": "Le bord de ses pattes-pelles est frangé de soies orange en forme de balai.",
+   "trait_cle": "pattes-pelles-frangees",
+   "couleurs": [
+    "sable clair",
+    "orange vif",
+    "blanc crème"
+   ],
+   "rappel_leger": "Petit crabe fouisseur des ports, familier des pêcheurs.",
+   "difference_avec_ancienne": "Pattes-pelles frangées de soies orange, à la place d'une simple carapace lisse."
+  },
+  "description_courte": "Le crabe le plus commun des côtes habitées. Il nettoie les fonds de port et vit en couple. Les pêcheurs d'Aubesable l'élèvent en aquaculture passive.",
+  "familier": {
+   "possible": true,
+   "lien_max": "conditionne",
+   "difficulte_dd": 11,
+   "roles": [
+    "recolte",
+    "signal",
+    "eclaireur"
+   ],
+   "aide_combat": "Le familier creuse sous la proie pour la déséquilibrer et signale les déchets de pêche. Il peut être mis K.O. par fatigue.",
+   "transport": null,
+   "capacite_transport": null,
+   "age_ideal": "jeune de moins de 3 mois",
+   "limite": "Le conditionnement s'efface après six semaines d'absence du dresseur, mais se rétablit vite."
+  }
+ },
+ {
+  "id": "cui08",
+  "nouveau_nom": "Syrtelle",
+  "sous_titre": "La Jardinière de Récif",
+  "groupe": "cuirassees",
+  "rang": "◆◆◆ Élite",
+  "cr": 9,
+  "role_jeu": "boss",
+  "taille_garrot_m": 1.8,
+  "hauteur_sprite_px": 66,
+  "hors_format_sprite": false,
+  "element_principal": "Foudre",
+  "element_secondaire": null,
+  "etats_infliges": [],
+  "lignee_draconique": false,
+  "terrain": "Récifs coralliens profonds (30-80 m), roche coralligène",
+  "apparence": {
+   "silhouette": "Crabe bas et large, camouflé sous une carapace en rocaille. Six pattes courtes plus ses deux pinces rondes.",
+   "trait_distinctif": "Sur son dos poussent des branches de corail dont les polypes pâles clignotent d'étincelles électriques.",
+   "trait_cle": "recif-vivant-sur-le-dos",
+   "couleurs": [
+    "rose corail",
+    "bleu abyssal",
+    "blanc crème"
+   ],
+   "rappel_leger": "Embusqué de récif confondu avec le corail qui l'abrite.",
+   "difference_avec_ancienne": "Branches de corail étincelantes à la place d'une colonie discrète d'éponges."
+  },
+  "description_courte": "Installé depuis des années sur un récif, il ne se distingue plus du corail. Les étincelles qui parcourent ses polypes sont le seul indice de sa présence.",
+  "familier": {
+   "possible": false
+  }
+ },
+ {
+  "id": "cui09",
+  "nouveau_nom": "Tourmentin",
+  "sous_titre": "Le Volcan des Dorsales",
+  "groupe": "cuirassees",
+  "rang": "◆◆◆◆ Légendaire",
+  "cr": 16,
+  "role_jeu": "boss",
+  "taille_garrot_m": 2.8,
+  "hauteur_sprite_px": 102,
+  "hors_format_sprite": false,
+  "element_principal": "Feu",
+  "element_secondaire": "Foudre",
+  "etats_infliges": [],
+  "lignee_draconique": false,
+  "terrain": "Côtes basaltiques, dorsales sous-marines côtières",
+  "apparence": {
+   "silhouette": "Crustacé gigantesque, large et bas, à quatre pinces dont deux plus petites au-dessus des grandes. Carapace noire aplatie au dos creusé de sillons.",
+   "trait_distinctif": "Ses deux pinces centrales font office d'électrodes entre lesquelles saute un arc incandescent orange.",
+   "trait_cle": "pinces-electrodes-jumelles",
+   "couleurs": [
+    "noir de jais",
+    "orange lave",
+    "bleu cobalt"
+   ],
+   "rappel_leger": "Légendaire des côtes, mélange de forge et d'orage.",
+   "difference_avec_ancienne": "Paire de pinces-électrodes à arc orange à la place de pinces classiques sur carapace thermique."
+  },
+  "description_courte": "Rien ne tolère sa présence. Quand l'arc saute entre ses pinces centrales, l'eau bout. Même les équipes Légendaires n'engagent qu'à distance.",
+  "familier": {
+   "possible": false
+  }
+ },
+ {
+  "id": "cui10",
+  "nouveau_nom": "Stalline",
+  "sous_titre": "La Perle du Reflux",
+  "groupe": "cuirassees",
+  "rang": "◆◆◆ Élite",
+  "cr": 10,
+  "role_jeu": "boss",
+  "taille_garrot_m": 1.7,
+  "hauteur_sprite_px": 62,
+  "hors_format_sprite": false,
+  "element_principal": "Glace",
+  "element_secondaire": "Eau",
+  "etats_infliges": [],
+  "lignee_draconique": false,
+  "terrain": "Plages nordiques à sable glacé, zones inter-tidales, côtes arctiques",
+  "apparence": {
+   "silhouette": "Crustacé large et bas, carapace en coupole, patte avant en lame recourbée. Il glisse sur le sable gelé en patinant.",
+   "trait_distinctif": "Ses deux pinces sont en lames recourbées comme des patins, bordées d'un givre blanc.",
+   "trait_cle": "pinces-lames-de-patin",
+   "couleurs": [
+    "bleu glacier",
+    "blanc nacré",
+    "gris perle"
+   ],
+   "rappel_leger": "Cuirassé du littoral gelé, adapté aux cycles de marée et de gel.",
+   "difference_avec_ancienne": "Pinces en lames de patin qui glissent sur le givre, au lieu d'une armure de sable glacé."
+  },
+  "description_courte": "Vit entre glace et marée, patinant d'une flaque gelée à l'autre. Les couples saisonniers se retrouvent chaque hiver sur les mêmes plages.",
+  "familier": {
+   "possible": false
+  }
+ },
+ {
+  "id": "cui11",
+  "nouveau_nom": "Sabotin",
+  "sous_titre": "Le Roulier des Sous-bois",
+  "groupe": "cuirassees",
+  "rang": "◆◆ Rare",
+  "cr": 6,
+  "role_jeu": "mini_boss",
+  "taille_garrot_m": 0.8,
+  "hauteur_sprite_px": 29,
+  "hors_format_sprite": false,
+  "element_principal": "Neutre",
+  "element_secondaire": null,
+  "etats_infliges": [
+   "Poison"
+  ],
+  "lignee_draconique": false,
+  "terrain": "Forêts tempérées à sous-bois dense, végétation basse épaisse",
+  "apparence": {
+   "silhouette": "Petit cuirassé articulé en quatorze plaques, tête minuscule et pattes courtes. Il se roule en boule parfaite quand il se défend.",
+   "trait_distinctif": "Ses plaques vertes sont tachées de pois blancs, comme un champignon vénéneux.",
+   "trait_cle": "plaques-pois-champignon",
+   "couleurs": [
+    "vert bouteille",
+    "blanc crème",
+    "rouge discret"
+   ],
+   "rappel_leger": "Petit roulier de sous-bois, rouleur et venimeux.",
+   "difference_avec_ancienne": "Pois blancs sur plaques vertes à la place d'une carapace unie."
+  },
+  "description_courte": "Les éleveurs le connaissent bien : roulé en boule, il ressemble à un gros champignon. Il se laisse guider vers de nouveaux pâturages à l'aide de signaux alimentaires.",
+  "familier": {
+   "possible": true,
+   "lien_max": "conditionne",
+   "difficulte_dd": 11,
+   "roles": [
+    "garde",
+    "signal"
+   ],
+   "aide_combat": "Le familier se roule en boule venimeuse devant la proie pour l'empoisonner et la tenir à distance. Il peut être mis K.O. par fatigue.",
+   "transport": null,
+   "capacite_transport": null,
+   "age_ideal": "jeune individu conditionné en milieu agricole",
+   "limite": "Technique de déplacement plutôt que dressage fonctionnel : le conditionnement dure environ deux mois."
+  }
+ },
+ {
+  "id": "cui12",
+  "nouveau_nom": "Tenebelle",
+  "sous_titre": "La Lanterne Noire",
+  "groupe": "cuirassees",
+  "rang": "◆◆◆ Élite",
+  "cr": 10,
+  "role_jeu": "boss",
+  "taille_garrot_m": 1.2,
+  "hauteur_sprite_px": 44,
+  "hors_format_sprite": false,
+  "element_principal": "Ombre",
+  "element_secondaire": "Eau",
+  "etats_infliges": [],
+  "lignee_draconique": false,
+  "terrain": "Mi-profondeur (40-120 m), colonne d'eau en pleine mer",
+  "apparence": {
+   "silhouette": "Dôme flottant semi-rigide, huit tentacules courts pendus sur le bord. Il dérive verticalement en pulsant doucement.",
+   "trait_distinctif": "Son dôme noir encre est strié de cercles concentriques bleu pâle qui palpitent comme des ondes.",
+   "trait_cle": "dome-encre-anneaux-pales",
+   "couleurs": [
+    "noir encre",
+    "bleu pâle",
+    "violet profond"
+   ],
+   "rappel_leger": "Flotteur pélagique, aussi lent qu'inquiétant.",
+   "difference_avec_ancienne": "Dôme noir encre à cercles bleus palpitants, au lieu d'un simple dôme sombre."
+  },
+  "description_courte": "Dérivant sans territoire dans les eaux profondes, il ne se remarque qu'au pâle battement de ses anneaux. Les marins le croient un mauvais présage.",
+  "familier": {
+   "possible": false
+  }
+ },
+ {
+  "id": "cui13",
+  "nouveau_nom": "Spinelle",
+  "sous_titre": "La Boule d'Aiguilles",
+  "groupe": "cuirassees",
+  "rang": "◆◆ Rare",
+  "cr": 6,
+  "role_jeu": "mini_boss",
+  "taille_garrot_m": 1.5,
+  "hauteur_sprite_px": 55,
+  "hors_format_sprite": false,
+  "element_principal": "Neutre",
+  "element_secondaire": null,
+  "etats_infliges": [
+   "Poison"
+  ],
+  "lignee_draconique": false,
+  "terrain": "Fonds rocheux de 10 à 60 m, récifs à fort courant",
+  "apparence": {
+   "silhouette": "Sphère de carapace couverte de longues épines mobiles, sans membres visibles. Elle roule et pivote sur le fond en orientant ses épines.",
+   "trait_distinctif": "Ses épines sont de verre vert pâle à pointe violette, les plus longues formant une collerette de lances.",
+   "trait_cle": "epines-vitreuses-pointes-violettes",
+   "couleurs": [
+    "vert pâle",
+    "violet",
+    "gris rocheux"
+   ],
+   "rappel_leger": "Grand hérisson marin, défensif et venimeux.",
+   "difference_avec_ancienne": "Épines de verre vert à pointe violette et collerette de lances, plutôt qu'un hérissement uniforme."
+  },
+  "description_courte": "Il ne chasse pas : on le heurte. Ses épines vitreuses se dressent vers la menace en collerette. Les pêcheurs de récif apprennent à repérer leurs pointes violettes.",
+  "familier": {
+   "possible": false
+  }
+ },
+ {
+  "id": "cui14",
+  "nouveau_nom": "Tulline",
+  "sous_titre": "Le Fantôme de Verre",
+  "groupe": "cuirassees",
+  "rang": "◆◆◆ Élite",
+  "cr": 9,
+  "role_jeu": "boss",
+  "taille_garrot_m": 1.4,
+  "hauteur_sprite_px": 51,
+  "hors_format_sprite": false,
+  "element_principal": "Ombre",
+  "element_secondaire": null,
+  "etats_infliges": [],
+  "lignee_draconique": false,
+  "terrain": "Fonds de 5 à 50 m, transition eau claire/eau trouble",
+  "apparence": {
+   "silhouette": "Crustacé en cloche aplatie, carapace de verre, six pattes en rames. Il glisse près du fond, presque invisible en eau claire.",
+   "trait_distinctif": "Sa carapace de verre est piquée de points lumineux comme un ciel étoilé en miniature.",
+   "trait_cle": "carapace-verre-constellee",
+   "couleurs": [
+    "verre incolore",
+    "bleu nuit",
+    "argent"
+   ],
+   "rappel_leger": "Cuirassé quasi invisible qui jaillit de l'eau trouble.",
+   "difference_avec_ancienne": "Points lumineux constellés dans un verre clair, plutôt que des organes visibles en ombre."
+  },
+  "description_courte": "En eau claire on ne voit que ses points lumineux, comme des étoiles. Il chasse à la limite de l'eau trouble pour jaillir sans être vu.",
+  "familier": {
+   "possible": false
+  }
+ },
+ {
+  "id": "cui15",
+  "nouveau_nom": "Sarbacane",
+  "sous_titre": "La Sarbacane des Failles",
+  "groupe": "cuirassees",
+  "rang": "◆◆◆ Élite",
+  "cr": 10,
+  "role_jeu": "boss",
+  "taille_garrot_m": 0.6,
+  "hauteur_sprite_px": 22,
+  "hors_format_sprite": false,
+  "element_principal": "Foudre",
+  "element_secondaire": null,
+  "etats_infliges": [
+   "Poison"
+  ],
+  "lignee_draconique": false,
+  "terrain": "Récifs coralliens et rocheux de 5 à 40 m, anfractuosités marines",
+  "apparence": {
+   "silhouette": "Long corps de serpent de mer, tête et cou casqués d'un heaume articulé, reste du corps nu et musclé. Elle jaillit des fissures comme une flèche.",
+   "trait_distinctif": "Sa tête est enfermée dans un heaume rond à visière fendue, dont la fente laisse voir de petits yeux.",
+   "trait_cle": "heaume-a-visiere-fendue",
+   "couleurs": [
+    "vert olive",
+    "jaune venin",
+    "gris fer"
+   ],
+   "rappel_leger": "Murène venimeuse à tête cuirassée, embusquée dans les failles.",
+   "difference_avec_ancienne": "Heaume rond à visière fendue plutôt qu'une carapace articulée sur tête et cou."
+  },
+  "description_courte": "Elle jaillit des fissures du récif, casquée de pied en cap sur la tête. Son venin se mêle à des décharges. Territoire d'anfractuosité à ne pas approcher.",
+  "familier": {
+   "possible": false
+  }
+ },
+ {
+  "id": "cui16",
+  "nouveau_nom": "Tournelle",
+  "sous_titre": "Le Rempart des Bergers",
+  "groupe": "cuirassees",
+  "rang": "◆◆◆ Élite",
+  "cr": 9,
+  "role_jeu": "boss",
+  "taille_garrot_m": 2.0,
+  "hauteur_sprite_px": 73,
+  "hors_format_sprite": false,
+  "element_principal": "Terre",
+  "element_secondaire": null,
+  "etats_infliges": [],
+  "lignee_draconique": false,
+  "terrain": "Plaines à sol dur, zones arides compactes, steppes rocheuses",
+  "apparence": {
+   "silhouette": "Tortue massive à carapace plate et large, pattes arrière fortes lui permettant de se dresser. Elle se plante entre la menace et ceux qu'elle garde.",
+   "trait_distinctif": "Le bord de sa carapace est dentelé en créneaux réguliers comme le haut d'un rempart.",
+   "trait_cle": "carapace-a-creneaux",
+   "couleurs": [
+    "brun ocre",
+    "gris pierre",
+    "jaune paille"
+   ],
+   "rappel_leger": "Gardienne placide des troupeaux, tortue de plaine à bouclier mobile.",
+   "difference_avec_ancienne": "Bord de carapace à créneaux au lieu d'une double couche lisse."
+  },
+  "description_courte": "Des familles d'éleveurs adoptent depuis 250 ans des individus qui s'interposent contre les prédateurs. En couple, elle défend un territoire commun.",
+  "familier": {
+   "possible": true,
+   "lien_max": "affectif",
+   "difficulte_dd": 15,
+   "roles": [
+    "garde",
+    "assistant_combat",
+    "bete_de_somme"
+   ],
+   "aide_combat": "Le familier se dresse en bouclier devant un allié attaqué à moins de 10 m et prend les coups à sa place. Il peut être mis K.O. par fatigue.",
+   "transport": null,
+   "capacite_transport": null,
+   "age_ideal": "jeune adopté par une famille d'éleveurs (tradition pastorale)",
+   "limite": "Lien affectif avec un groupe précis seulement : sauvage avec les étrangers et en couple territorial."
+  }
+ }
+]

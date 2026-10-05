@@ -1,0 +1,261 @@
+[
+ {
+  "id": "cra01",
+  "nouveau_nom": "Staviel",
+  "sous_titre": "Le Grimpeur d'Orage",
+  "groupe": "cramponnees",
+  "rang": "◆◆◆ Élite",
+  "cr": 10,
+  "role_jeu": "boss",
+  "taille_garrot_m": 2.4,
+  "hauteur_sprite_px": 88,
+  "hors_format_sprite": false,
+  "element_principal": "Foudre",
+  "element_secondaire": null,
+  "etats_infliges": [],
+  "lignee_draconique": false,
+  "terrain": "Falaises rocheuses, falaises côtières, escarpements de montagne",
+  "apparence": {
+   "silhouette": "Wyverne trapue aux épaules énormes et au cou court, tête plate et étroite à bec corné sans aucune corne. Elle se tient plaquée à la paroi, bras écartés en croix, queue courte repliée sous le ventre.",
+   "trait_distinctif": "Chaque main porte un large peigne de vingt-quatre griffes alignées qui crépitent d'arcs bleus au contact de la roche.",
+   "trait_cle": "griffes-en-peigne-crepitantes",
+   "couleurs": [
+    "gris schiste",
+    "bleu électrique",
+    "orange lichen"
+   ],
+   "rappel_leger": "Grand grimpeur de paroi musclé, couple territorial défendant son pan de falaise.",
+   "difference_avec_ancienne": "Tête plate à bec corné et griffes en peigne lumineuses à la place d'un crâne cornu et de gros crampons sombres."
+  },
+  "description_courte": "Grimpeur de paroi aux griffes en peigne qui crépitent d'électricité. Les couples se partagent un pan de falaise et le défendent avec une fureur d'orage. Approche déconseillée par temps sec.",
+  "familier": {
+   "possible": false
+  }
+ },
+ {
+  "id": "cra02",
+  "nouveau_nom": "Tessane",
+  "sous_titre": "La Tisseuse des Parois",
+  "groupe": "cramponnees",
+  "rang": "◆◆◆ Élite",
+  "cr": 11,
+  "role_jeu": "boss",
+  "taille_garrot_m": 2.2,
+  "hauteur_sprite_px": 81,
+  "hors_format_sprite": false,
+  "element_principal": "Neutre",
+  "element_secondaire": null,
+  "etats_infliges": [
+   "Poison"
+  ],
+  "lignee_draconique": false,
+  "terrain": "Falaises calcaires à anfractuosités, cavernes profondes accessibles par les parois",
+  "apparence": {
+   "silhouette": "Wyverne longiligne au thorax étroit et à l'abdomen renflé, portée par quatre membres fins. Elle se suspend la tête en bas sous les surplombs, ailes réduites repliées comme un manteau.",
+   "trait_distinctif": "Une voilure de soie translucide est tendue entre ses flancs et ses ailes courtes, comme un hamac lumineux.",
+   "trait_cle": "voilure-de-soie-tendue",
+   "couleurs": [
+    "gris perle",
+    "vert-de-gris",
+    "ocre pâle"
+   ],
+   "rappel_leger": "Prédatrice embusquée qui piège ses proies dans des toiles verticales.",
+   "difference_avec_ancienne": "Corps élancé à voilure de soie tendue, au lieu d'une silhouette massive de grimpeuse."
+  },
+  "description_courte": "Solitaire absolue des cavernes de paroi, elle file des toiles de soie venimeuse tendues sur des gouffres. Les tisserands légendaires paient cher sa soie de combat.",
+  "familier": {
+   "possible": false
+  }
+ },
+ {
+  "id": "cra03",
+  "nouveau_nom": "Ulhemar",
+  "sous_titre": "Le Roi des Piliers",
+  "groupe": "cramponnees",
+  "rang": "◆◆◆◆ Légendaire",
+  "cr": 16,
+  "role_jeu": "boss",
+  "taille_garrot_m": 3.1,
+  "hauteur_sprite_px": 113,
+  "hors_format_sprite": false,
+  "element_principal": "Foudre",
+  "element_secondaire": null,
+  "etats_infliges": [],
+  "lignee_draconique": true,
+  "terrain": "Grandes falaises calcaires, escarpements à strates, piliers rocheux",
+  "apparence": {
+   "silhouette": "Immense wyverne à la poitrine en tonneau, au cou épais et au dos long. Elle se dresse au sommet des piliers, ailes entrouvertes, queue lestée lourdement pendue dans le vide.",
+   "trait_distinctif": "Un halo d'arcs osseux nacrés cercle son crâne comme une couronne et s'illumine de blanc lors des charges.",
+   "trait_cle": "halo-de-lames-osseuses",
+   "couleurs": [
+    "blanc os",
+    "bleu nuit",
+    "or pâle"
+   ],
+   "rappel_leger": "Souverain solitaire d'une falaise, aux attaques draconiques et électriques.",
+   "difference_avec_ancienne": "Halo de lames osseuses en cercle à la place des quatre cornes en éventail et de la corne dorsale."
+  },
+  "description_courte": "Un seul par falaise assez haute. Son halo d'os pâle se voit de loin les nuits d'orage. Sa chasse est rare et mortelle, même pour les équipes de rang Légendaire.",
+  "familier": {
+   "possible": false
+  }
+ },
+ {
+  "id": "cra04",
+  "nouveau_nom": "Sérelin",
+  "sous_titre": "Le Planeur des Gorges",
+  "groupe": "cramponnees",
+  "rang": "◆◆ Rare",
+  "cr": 7,
+  "role_jeu": "mini_boss",
+  "taille_garrot_m": 2.0,
+  "hauteur_sprite_px": 73,
+  "hors_format_sprite": false,
+  "element_principal": "Vent",
+  "element_secondaire": null,
+  "etats_infliges": [],
+  "lignee_draconique": false,
+  "terrain": "Parois ventilées, falaises exposées, gorges à courants d'air constants",
+  "apparence": {
+   "silhouette": "Wyverne effilée aux longs bras et aux grandes ailes, corps mince en fuseau. Elle plane les bras à demi tendus, tête dans l'axe, queue fine servant de gouvernail.",
+   "trait_distinctif": "Chaque bout d'aile porte deux rubans de peau écarlate qui flottent comme des fanions dans le courant.",
+   "trait_cle": "fanions-d-aile-ecarlates",
+   "couleurs": [
+    "crème",
+    "rouge brique",
+    "gris ardoise"
+   ],
+   "rappel_leger": "Grimpeuse légère et rapide, qui plane plus qu'elle ne vole.",
+   "difference_avec_ancienne": "Rubans écarlates aux ailes et corps en fuseau, à la place d'une ligne aérodynamique uniforme."
+  },
+  "description_courte": "Plus rapide à la verticale qu'aucune autre cramponnée, elle plane sur trois cents mètres. Certaines guildes de surveillance la dressent pour patrouiller les parois.",
+  "familier": {
+   "possible": true,
+   "lien_max": "conditionne",
+   "difficulte_dd": 12,
+   "roles": [
+    "eclaireur",
+    "signal",
+    "garde"
+   ],
+   "aide_combat": "Le familier survole la paroi et attire l'attention de la proie par des passes rapides, ce qui donne un tour de répit aux chasseurs. Il signale aussi les chutes de pierres. Il peut être mis K.O. par fatigue.",
+   "transport": null,
+   "capacite_transport": null,
+   "age_ideal": "jeune adulte conditionné par programme de surveillance (reprise de la fiche : dressage conditionné DD 12)",
+   "limite": "Reste une sauvage peu docile : il répond à des signaux codés visibles et se détourne si le programme de nourrissage est interrompu."
+  }
+ },
+ {
+  "id": "cra05",
+  "nouveau_nom": "Scorine",
+  "sous_titre": "La Grimpeuse de Cendre",
+  "groupe": "cramponnees",
+  "rang": "◆◆◆ Élite",
+  "cr": 10,
+  "role_jeu": "boss",
+  "taille_garrot_m": 2.3,
+  "hauteur_sprite_px": 84,
+  "hors_format_sprite": false,
+  "element_principal": "Feu",
+  "element_secondaire": "Terre",
+  "etats_infliges": [],
+  "lignee_draconique": false,
+  "terrain": "Flancs de volcans actifs, lave refroidie rugueuse, caldeiras",
+  "apparence": {
+   "silhouette": "Wyverne ramassée, au dos bossu et aux pattes arrière puissantes, tête triangulaire basse. Elle avance par bonds sur la lave, bras repliés contre la poitrine.",
+   "trait_distinctif": "Tout son dos est hérissé de scories noires dont les fissures rougeoient comme des braises mal éteintes.",
+   "trait_cle": "dos-de-scories-braisees",
+   "couleurs": [
+    "noir basalte",
+    "rouge braise",
+    "jaune soufre"
+   ],
+   "rappel_leger": "Grimpeuse volcanique, mi-animal mi-roche, qui se fond dans les coulées.",
+   "difference_avec_ancienne": "Dos de scories incandescentes et allure bossue au lieu de griffes de verre volcanique comme signe principal."
+  },
+  "description_courte": "Hôte des flancs de volcan, elle se confond avec la lave refroidie. Seules les braises de son dos trahissent sa présence. Solitaire, elle chasse à l'embuscade dans la cendre.",
+  "familier": {
+   "possible": false
+  }
+ },
+ {
+  "id": "cra06",
+  "nouveau_nom": "Talvire",
+  "sous_titre": "Le Scribe de Lames",
+  "groupe": "cramponnees",
+  "rang": "◆◆◆ Élite",
+  "cr": 12,
+  "role_jeu": "boss",
+  "taille_garrot_m": 2.2,
+  "hauteur_sprite_px": 81,
+  "hors_format_sprite": false,
+  "element_principal": "Neutre",
+  "element_secondaire": null,
+  "etats_infliges": [
+   "Saignée"
+  ],
+  "lignee_draconique": false,
+  "terrain": "Falaises de tout type, parois mixtes, gorges profondes",
+  "apparence": {
+   "silhouette": "Wyverne sèche et nerveuse, au cou long et fin, aux membres antérieurs longs et grêles. Elle se tient accroupie, bras repliés comme des mantes, prête à frapper.",
+   "trait_distinctif": "Chaque bras se termine par une unique faux de cinquante centimètres qui se replie dans une gaine comme une lame de canif.",
+   "trait_cle": "faux-repliables-canif",
+   "couleurs": [
+    "gris acier",
+    "blanc cassé",
+    "bleu ardoise"
+   ],
+   "rappel_leger": "Prédatrice de précision spécialisée dans les entailles profondes.",
+   "difference_avec_ancienne": "Faux repliables en gaine, silhouette sèche de mante, à la place de griffes-lames multiples sur un corps standard."
+  },
+  "description_courte": "Plus qu'un grimpeur, un tueur de précision : ses faux repliables sectionnent les tendons avant que la proie ne comprenne. Les chasseurs expérimentés apprennent à lire ses postures.",
+  "familier": {
+   "possible": false
+  }
+ },
+ {
+  "id": "cra07",
+  "nouveau_nom": "Urtelle",
+  "sous_titre": "Le Grimpeur à Cible",
+  "groupe": "cramponnees",
+  "rang": "◆◆ Rare",
+  "cr": 8,
+  "role_jeu": "mini_boss",
+  "taille_garrot_m": 2.2,
+  "hauteur_sprite_px": 81,
+  "hors_format_sprite": false,
+  "element_principal": "Vent",
+  "element_secondaire": null,
+  "etats_infliges": [],
+  "lignee_draconique": false,
+  "terrain": "Falaises de toutes natures, transition falaise/forêt",
+  "apparence": {
+   "silhouette": "Wyverne trapue aux bras forts et aux ailes de planeur courtes, tête large. Elle se déplace en reptation sur la paroi, ventre collé à la roche.",
+   "trait_distinctif": "Chaque aile porte une grande tache en cible de cercles concentriques noir et ocre, visible de loin.",
+   "trait_cle": "ailes-en-cible-concentrique",
+   "couleurs": [
+    "vert mousse",
+    "ocre",
+    "noir"
+   ],
+   "rappel_leger": "Grimpeur de lisière, plus tolérant que ses cousins, au vol plané court.",
+   "difference_avec_ancienne": "Cibles concentriques sur les ailes au lieu de bandes jaunes et noires sur le corps."
+  },
+  "description_courte": "Variante de lisière, elle plane sur cent mètres entre falaise et canopée. Agressive mais sensible aux rappels alimentaires, ce qui permet aux guildes de la conditionner.",
+  "familier": {
+   "possible": true,
+   "lien_max": "conditionne",
+   "difficulte_dd": 14,
+   "roles": [
+    "garde",
+    "signal",
+    "eclaireur"
+   ],
+   "aide_combat": "Le familier détourne l'attention de la proie en montrant ses ailes à cible et prévient d'une vibration contre la roche. Il peut être mis K.O. par fatigue.",
+   "transport": null,
+   "capacite_transport": null,
+   "age_ideal": "jeune conditionné selon des techniques adaptées de celles d'un grand prédateur de plaine",
+   "limite": "Le signal de dressage est une vibration frappée sur la paroi, pas un son ; il redevient agressif sur terrain plat."
+  }
+ }
+]
