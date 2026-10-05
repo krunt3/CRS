@@ -38,6 +38,17 @@ Attention : les importeurs sont maintenus par la communauté, pas par Godot. Un 
 - Vérifier la compatibilité de l'importeur LDtk choisi avec la version de Godot utilisée.
 - Mesurer les performances sur le téléphone cible.
 
+
+## Précision de krunt (2026-10-05) : ce que MapForge devait être
+Un logiciel « comme Tiled, mais avec création de monde complet ». C'est la bonne intuition, et c'est exactement la partie que Tiled, LDtk et Godot **ne font pas** : un monde cohérent (régions, routes, tensions, amorces de quête, lieux liés au canon StoryForge et au roster de monstres), pas seulement des tuiles. Conclusion : **MapForge n'est pas un éditeur de tuiles à reconstruire**, c'est une couche « monde » à poser **au-dessus** d'un éditeur existant : carte du monde (Azgaar ou saisie), liste de zones, pour chaque zone ses tensions, ses monstres (clés du roster), ses amorces, ses marques ; export en JSON vers Godot/LDtk. À décider **après** la démo ; pour la démo, une zone suffit, avec un fichier JSON écrit à la main.
+
+## Protocole de l'essai LDtk (une journée)
+1. Installer LDtk ; créer une zone 3/4 de 40×30 tuiles (tuiles du test PixelForge) avec un calque de sol, un calque d'obstacles, un calque d'entités (monstre, PNJ, déclencheur de quête, point d'intérêt de Traque) ; chaque entité a des champs : `cle_id` (roster), `dd`, `tags`.
+2. Faire la même zone dans Godot seul (TileMapLayer + terrains + scènes d'entités).
+3. Importer la zone LDtk dans Godot 4 avec un importeur MIT (vérifier la compatibilité avec la version de Godot utilisée).
+4. Comparer : temps passé, lisibilité, facilité de poser et de modifier les entités, rechargement après modification, performance sur le téléphone cible.
+5. Décider : LDtk pour toutes les zones, ou Godot seul.
+
 ## Sources
 - [LDtk (dépôt officiel, licence MIT)](https://github.com/deepnight/ldtk)
 - [Importeurs LDtk pour Godot 4 (bibliothèque d'assets)](https://godotengine.org/asset-library/asset/2181) · [heygleeson/godot-ldtk-importer](https://github.com/heygleeson/godot-ldtk-importer)
