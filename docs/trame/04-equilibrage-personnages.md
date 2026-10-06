@@ -1,5 +1,9 @@
 # Équilibrage des quatre personnages (Krunt3, Taranis, Cyril, Pascal) et de deux recrues
 
+> **Réconciliation (2026-10-06, Claude)** : ce document avait rattaché Krunt3 à l'**Ordre du Flux**. Or `05-antagoniste-et-technique.md` fait de l'Ordre du Flux **l'antagoniste recommandé** (il a détruit la famille de Krunt). `03-correspondance-personnages.md` recommande les **Frères de l'Épreuve** : cette valeur est retenue ici (fiche JSON de Krunt3 corrigée). Pour Pascal, `03` propose le clan Pierres Hautes avec les Sentinelles du Pacte (ordre à créer) ; ce document propose le Culte des Ancêtres Veilleurs : **décision à prendre par krunt**.
+
+
+
 Rédigé le 2026-10-06. Domaine : accorder les fiches aux livres (StoryForge fait foi), les équilibrer pour qu'elles portent la quête de `02-trame-v1.md`, leur donner des rôles et des courbes de progression différents, et traiter le cas des trois Loups.
 
 **Légende.** `LIVRE` = ce que disent les livres (avec numéro). `PROP` = ma proposition. `INVENTÉ` = valeur d'équilibrage sans appui dans les livres, **à tester**. Rien n'est figé tant que krunt ne l'a pas validé. Aucun commit n'a été fait.
@@ -390,7 +394,7 @@ Ces deux recrues ne prennent **pas** de Posture Loup et complètent les trois mo
   "clan-devise": "Nul ne nous commande. Nul ne nous possède.",
   "guilde-nom": "Guilde Martiale",
   "guilde-spec": "Administration de la guerre",
-  "ordre-nom": "Ordre du Flux",
+  "ordre-nom": "Frères de l'Épreuve",
   "ordre-philo": "Dettes et correction (Arbitres du Flux)",
   "ecole": "Danse Rouge",
   "tech-ecole": "Danse Rouge",
