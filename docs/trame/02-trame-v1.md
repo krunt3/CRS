@@ -29,7 +29,7 @@ Chaque joueur vit **son histoire dans son monde** ; le choix est fait **séparé
 
 ### Karma, sanctions, survie (comment ça se joue)
 - **Karma = marques + Honneur** (jamais en chiffres), selon le chapitre 06 : *Loyauté, Compassion* (aider) ; *Abandon* (partir) ; *Corruption exposée* si le héros reste près de Krunt trop longtemps.
-- **Sanction du clan = horloge** dans le journal (Acte, Trace, Conséquence) : si le héros ne rentre pas, la Faveur du clan baisse par crans, des « Appels du Clan » restent sans réponse, des PNJ du clan arrivent, des contrats se ferment. **Le moment de la sanction est aléatoire pour les clans sans échéance fixe** (jet visible hebdomadaire, « tôt ou tard ») ; la Guilde Martiale a une échéance fixe de 7 jours. **Passe v3 : chaque clan a son propre honneur** et la sanction distingue l'abandon, l'absence et l'ignorance de la légende du phœnix : voir `10` §5.
+- **Sanction du clan = horloge** dans le journal (Acte, Trace, Conséquence) : si le héros ne rentre pas, la Faveur du clan baisse par crans, des « Appels du Clan » restent sans réponse, des PNJ du clan arrivent, des contrats se ferment. **Le moment de la sanction est aléatoire pour les clans sans échéance fixe** (jet visible hebdomadaire, « tôt ou tard ») ; la Guilde Martiale a une échéance fixe de 7 jours. **Passe v3 : chaque clan a son propre honneur et sa propre façon de penser** (rien n'est imposé par type ; ce que les livres ne disent pas est à documenter dans StoryForge) : voir `10` §5.
 - **Survie** : eau, provisions, abri, repos, météo des Marches (règles du Livre I Exploration & Survie et du Livre X, ch. 12), chasse pour se nourrir. La survie est la **première boucle de jeu** : elle justifie les trois modes (Traque, quêtes de plateforme de récolte, chasse) avant toute grande intrigue.
 - **Bastion** : établir un Bastion en terres hostiles devient un but narratif (l'Atlas dit : « nul n'y établit de présence durable sans un Bastion actif »). L'Ancrage monte avec les actes d'entraide.
 
@@ -56,7 +56,7 @@ Chaque joueur vit **son histoire dans son monde** ; le choix est fait **séparé
 
 ## 7. Le prologue et la démo (propositions)
 - **Prologue** (une scène par héros, 3 à 5 minutes) : la vie normale, puis l'enlèvement. Pour Krunt, une courte séquence commune racontée en images fixes : la perte, la technique, ce qui tourne mal.
-- **Démo (16 mars 2028)** : **Krunt seul** (décision de krunt) : de l'arrivée dans les Marches (J1 à J4) jusqu'au premier choix **non définitif** (partager ou non les provisions avec un tombé blessé), avec la première chasse (le chef de meute et ses éclaireurs), la Braise affichée et un teaser de l'arrivée des trois autres. Scénario en douze étapes : `10` §8. L'abandon complet est hors démo.
+- **Démo (16 mars 2028)** : **Krunt seul** (décision de krunt) : de l'arrivée dans les Marches (J1 à J4) jusqu'au premier choix **non définitif** (partager ou non les provisions avec un tombé blessé), avec la première chasse (le chef de meute et ses éclaireurs), la Braise affichée et un signe discret de la présence des trois autres. Scénario en douze étapes : `10` §8. L'abandon complet est hors démo.
 
 ## Décisions de krunt du 2026-10-06 (réponses aux questions de la v1)
 - **Krunt est le héros** de l'histoire (et non un simple PNJ) : son personnage « Krunt3 » porte la malédiction. Les trois autres joueurs sont ceux que le phénomène lui amène.
@@ -69,7 +69,7 @@ Chaque joueur vit **son histoire dans son monde** ; le choix est fait **séparé
 
 ## 8. Questions ouvertes pour krunt (v1, en partie répondues ci-dessus)
 1. **Krunt3 est-il jouable ?** Si c'est lui qui est maudit, il devient le PNJ central. Dans ce cas, **les joueurs sont Taranis, Cyril, Pascal** et qui d'autre en quatrième ? (Il y a deux comptes de test.)
-2. **Dans le jeu solo, les trois autres joueurs apparaissent-ils ?** **Répondu par krunt : oui, en PNJ**, chacun ne contrôlant que son propre personnage (arrivée J3 à J10, règles dans `10` §6). La recommandation initiale (« non ») est abandonnée.
+2. **Dans le jeu solo, les trois autres joueurs apparaissent-ils ?** **Répondu par krunt : oui, en PNJ**, chacun ne contrôlant que son propre personnage (tous arrivés au moment du cataclysme par un portail magique, règles dans `10` §6). La recommandation initiale (« non ») est abandonnée.
 3. **Entité E1, E2 ou E3 ?**
 4. **Pourquoi les inconnus ?** L'entité a-t-elle choisi des talents précis (mon hypothèse E1) ou est-ce au hasard ?
 5. **Les terres hostiles : Marches Frontalières ou ailleurs ?**

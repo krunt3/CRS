@@ -347,7 +347,7 @@ Chaque École porte un **tabou** avec un détecteur, un compteur et une sanction
 | Quoi | Règle |
 |---|---|
 | Techniques canoniques, portes, rangs, niveaux | **non remboursables** (c'est de l'histoire, pas un choix de build) |
-| Variantes, passifs, sommets (PS) | remboursés à 100 % au Bastion (ou à un Camp avec Veillée), coût en Écus = 10 x PS remboursés, **gratuit la première fois par rang d'École** |
+| Variantes, passifs, sommets (PS) | remboursés à 100 % au Bastion (ou à un Camp où se tient la veillée du Retour au Clan, rituel du Livre I), coût en Écus = 10 x PS remboursés, **gratuit la première fois par rang d'École** |
 | Paires exclusives de variantes | échange libre au Camp avant une chasse (c'est un équipement de build) |
 | Changer d'École | **une fois par campagne**, par une quête de rupture doctrinale ; rang ramené à I, Honneur −2, ancienne Posture non touchée ; interdit en démo |
 | Changer de Posture | jalon narratif uniquement ; crée une Résonance (§3.5) |

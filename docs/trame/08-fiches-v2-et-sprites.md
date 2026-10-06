@@ -59,6 +59,8 @@ Rédigé le 2026-10-06. Domaine : (1) appliquer les décisions de krunt aux quat
 
 Mana : les livres se contredisent ([L] Livre I ch. 3 §7 : « 2 × rang » ; Livre VI : 6 à 8 au rang I). Je garde la valeur du Livre VI et la formule de `04` §4.1 (6, +1 si VOL final ≥ 8, +1 si métier de magie, plafond 8). Si krunt choisit le Livre I, remplacer par 2 pour les quatre. [V5]
 
+**Niveau de départ (décision de krunt, 2026-10-06, après la passe v3).** Après le cataclysme, **chacun recommence à zéro** : niveau 1, École au rang I (Danse Rouge pour Krunt3), Mana de départ de niveau 1 (colonne ci-dessus), aucune Technique au-delà du rang I. **Seule exception : le « tombé par accident »**, qui commence à un **niveau plus élevé**. Dans `10` §4.2 le tombé est **Taranis** (proposition à confirmer par krunt). **Valeur proposée [P] : niveau 3** pour Taranis (reste dans la plage « niveaux 1-5 » de l'équipement, donc aucun changement d'équipement ni de bagage), niveau 1 pour Krunt3, Cyril et Pascal. Valeur à tester ; elle ne change pas les attributs de création. *Lecture de ma part : « recommence à zéro » vaut pour le niveau, l'École et le Mana ; la valeur de Mana à 6/6/8/6 reste la valeur de niveau 1 [à confirmer].*
+
 ---
 
 ## 3. Les quatre fiches v2
@@ -100,7 +102,8 @@ Notes de cohérence :
 |---|---|---|---|---|
 | Vitalité max (4 + END) | **13** | **10** | **10** | **12** |
 | Endurance max | 10 | 10 | 10 | 10 |
-| Mana de départ [V5] | 6 | 6 | 8 | 6 |
+| Mana de départ [V5] (niveau 1) | 6 | 6 | 8 | 6 |
+| **Niveau de départ** (krunt, après le cataclysme) | **1** | **3** [P] (le tombé) | **1** | **1** |
 | Honneur | 4 | 4 | 5 | 6 |
 | Défense (AGI + END) | 17 | 17 | 12 | 14 |
 | Défense avec armure et bouclier | **19** (cuir +2) | **19** (cuir +2) | **13** (vêtements renforcés +1) | **18** (cuir +2, bouclier +2) |
@@ -697,9 +700,9 @@ Sous le plafond de 32 pour les quatre ; il reste 2 couleurs libres chez Krunt3, 
 |---|---|---|
 | **V1** | Danse Rouge pour « Deux Lames » (Ours + Danse Rouge = tension créative du Livre VI) ? | oui (§6) |
 | **V2** | Régions : Îles des Serments (Krunt3), Déserts Rouges (Taranis), Cœur Impérial (Cyril), Hautes Terres Claniques (Pascal) ; **Taranis aux Marches** serait-il préférable (il est chez lui) ? | Déserts Rouges |
-| **V3** | Le bagage de Taranis : contenu, durée (épuisé vers J10), et la boussole qui réagit à l'entité (piste de trame) ? | oui, sauf la boussole si l'on ne veut pas lier Taranis à l'entité |
-| **V4** | Pascal : Sentinelles du Pacte (ajout à StoryForge) ou Culte des Ancêtres Veilleurs ? | Sentinelles du Pacte |
-| **V5** | Mana de départ : Livre VI (6 à 8) ou Livre I (2) ? | Livre VI (6, 6, 8, 6) |
+| **V3** | Le bagage de Taranis (le tombé, niveau 3 proposé) : contenu, durée (épuisé vers J10), et la boussole qui réagit à l'entité (piste de trame) ? | oui, sauf la boussole si l'on ne veut pas lier Taranis à l'entité |
+| **V4** | Pascal : krunt dit « dans les sentinelles des ancêtres » ; Sentinelles du Pacte [INV] (ajout à StoryForge) ou Culte des Ancêtres Veilleurs (canonique) ? **Non tranché** ; les livres donnent le second ; à vérifier dans StoryForge | à vérifier avant de choisir |
+| **V5** | Mana de départ : Livre VI (6 à 8) ou Livre I (2) ? Partiellement tranché : tous recommencent au niveau 1 (krunt) ; valeur de Mana au niveau 1 à confirmer | Livre VI (6, 6, 8, 6) |
 | **V6** | Ingénieur Méthodique de Pascal sans synergie ; Canal Stable de Cyril avec la synergie du livre ; lecture de « Karma » comme Honneur | accepter |
 | **V7** | Handicap unique « Réceptacle » (neutre : l'entité n'est pas forcément une malédiction) | accepter, à confirmer avec la version finale de l'entité (`05`) |
 | **V8** | Contenu de la **Dette de Sang** de Krunt3 (créancier du pacte) ; le prix « oublier des noms » est retiré (décision de krunt) | contenu = la Braise et la Dette du Flux (`10` §4.3) ; dosage à confirmer |

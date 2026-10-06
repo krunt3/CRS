@@ -1,12 +1,12 @@
 # 06 : L'entité en couches, le coût du pacte et le choix des talents (v2)
 
-> **Remplacé en partie par `10-trame-v3.md` (passe v3, 2026-10-06).** Points tranchés ou repris dans `10` : le retrait de l'ancien coût par oubli de noms (acquis : décision de krunt, journal `00`) ; le rite funéraire = la Veillée et la technique = le Rappel (noms à confirmer) ; la Braise comme coût du pacte ; la sanction de clan (`10` §5, qui remplace §5.2 ci-dessous) ; les trois autres joueurs en PNJ dans le solo de chacun (`10` §6, qui remplace les notes sur les « PNJ originaux » du §4.5) ; la chronologie (`10` §7). En cas de doute, `10` prévaut.
+> **Remplacé en partie par `10-trame-v3.md` (passe v3, 2026-10-06).** Points tranchés ou repris dans `10` : le retrait de l'ancien coût par oubli de noms (acquis : décision de krunt, journal `00`) ; le rite funéraire et la technique oubliée restent **sans nom** (les deux noms proposés ont été rejetés par krunt, journal `00`) ; la Braise comme **seul** coût du pacte (aucun autre coût) ; la sanction de clan (`10` §5, qui remplace §5.2 ci-dessous) ; les trois autres joueurs en PNJ dans le solo de chacun, tous arrivés au cataclysme par un portail magique (`10` §6, qui remplace les notes sur les « PNJ originaux » du §4.5) ; la chronologie (`10` §7). En cas de doute, `10` prévaut.
 
 Rédigé le 2026-10-06 pour la trame du Jeu B (« le Réceptacle »). Fait suite à `00-decisions.md` et à `01` à `05`. Il répond aux trois demandes de krunt du 2026-10-06 : (1) l'entité est **peut-être les deux** (écho de phœnix ET Gardien du Continent Nord) et **ne maudit peut-être pas Krunt** ; (2) l'**ancien coût du pacte (l'oubli de noms) est rejeté, avec le rite qui portait son nom** : il faut un autre coût de pacte ; (3) **les talents des trois autres : choisis ou hasard ?**
 
 **Légende.** `[L1]` à `[L10]` = ce que dit un livre (numéro de livre, chapitre ou section quand je l'ai). **[P]** = proposition de ma part, inventée. **[!]** = contradiction avec les livres ou point que **krunt doit trancher**. Tous les chiffres (DD, crans, délais) sont des **hypothèses à tester**. Aucun nom de monstre ou de jeu protégé.
 
-**Note sur le nom rejeté.** Le journal des décisions (`00`) retire **complètement** l'ancien nom, pour l'ensemble : le **coût du pacte** (l'oubli d'un nom à chaque usage) **et** le **rite** des Lames Franches (05 §2.2) qui le portait. Le coût est remplacé par la Braise (§2) ; le rite est rebaptisé « **Veillée** » (rite funéraire de C : on veille neuf nuits les morts pour les laisser partir) et la technique de Krunt « **le Rappel** » (déjà le nom de la nuit, 05 §6.2). **[!] Ces deux nouveaux noms sont des propositions à confirmer par krunt.**
+**Note sur le nom rejeté.** Le journal des décisions (`00`) retire **complètement** l'ancien nom, pour l'ensemble : le **coût du pacte** (l'oubli d'un nom à chaque usage) **et** le **rite** des Lames Franches (05 §2.2) qui le portait. Le coût est remplacé par la Braise (§2) ; les deux noms de remplacement que j'avais proposés (pour le rite et pour la technique) sont **rejetés par krunt** : le rite funéraire de C (on veille neuf nuits les morts pour les laisser partir) et la technique de Krunt restent **sans nom** ([nom à définir]) ; on écrit « le rite » ou « la technique oubliée ».
 
 ---
 
@@ -16,7 +16,7 @@ Rédigé le 2026-10-06 pour la trame du Jeu B (« le Réceptacle »). Fait suite
 2. **Ce qui rend l'ensemble cohérent avec l'Atlas** : l'Atlas dit que le phœnix filtre « comme un rein, pas comme un médecin » [L4 ch.13 §1], donc **sans volonté**. La **volonté** appartient au Gardien ; l'Écho est un organe. On évite ainsi un « phœnix qui pense », qui contredirait le livre.
 3. **La malédiction n'existe pas comme telle.** Ce que tout le monde appelle malédiction est la somme de **trois dettes humaines** (la Corruption du rite de Krunt, la Dette du Flux, la rupture avec les Lames) lues à travers **un symptôme qui ressemble à une possession**. L'Écho est le **thermomètre et le fusible**, pas la cause : il brûle la Corruption que Krunt a lui-même produite.
 4. **Le Gardien ne force presque rien.** L'Atlas lui prête des moyens doux : tempêtes « localisées », glace, pannes, et surtout une **conviction collective de rentrer** [L4 ch.12 §2, cinquième expédition]. Le seul acte violent est le **transport** (le « Filet »). Donc : **l'abandon est vraiment permis**, et même facilité par une « conviction » à J14. C'est le test du choix.
-5. **Coût du pacte (remplace l'ancien coût par l'oubli de noms) : la Braise** [P]. Une **jauge de 8 crans** sur Krunt (un brasero) et un **cadran de 24 h** autour : le **Loyer de l'Écho** du document 05, rendu visible. Chaque usage de pouvoir **monte** la Braise ; il faut la **libérer de façon contrôlée** (avec l'aide des trois autres) ; trop haute : **Embrasement**. Options retenues en seconde ligne : le **Gage** (les alliés prennent de la braise sur eux), l'**horloge du Registre** (Flux), la **Vacance** (l'Écho prend la main).
+5. **Coût du pacte (remplace l'ancien coût par l'oubli de noms) : la Braise** [P]. Une **jauge de 8 crans** sur Krunt (un brasero) et un **cadran de 24 h** autour : le **Loyer de l'Écho** du document 05, rendu visible. Chaque usage de pouvoir **monte** la Braise ; il faut la **libérer de façon contrôlée** (avec l'aide des trois autres) ; trop haute : **Embrasement**. Options retenues en seconde ligne : l'**horloge du Registre** (Flux), la **Vacance** (l'Écho prend la main). L'option « les alliés prennent de la braise sur eux » est **écartée** (krunt : Braise seule).
 6. **Talents : version mixte, « deux appelés, un tombé »** [P]. Cyril et Pascal sont **appelés** (pièces du remède). Taranis est **tombé** (hasard apparent) : en réalité, c'est lui que **le Gardien** a choisi (un Navigateur est le seul passeur possible vers le Nord). Le hasard réel (trois Loups) est **intégré**, pas effacé : le Filet a pris **une dizaine** de personnes au hasard.
 7. **Recrues** : les autres « tombés » du Filet (survivants, cadavres, campements) sont le **vivier** pour ajouter un joueur ou un PNJ (§4.5).
 8. **Fins ouvertes** : délivrer, contenir, exploiter, laisser faire, **allier** (§1.7).
@@ -48,7 +48,7 @@ Fil rouge : **le Gardien agit par persuasion et par obstacle, jamais par violenc
 | Étage | Ce que c'est vraiment [P] | Ce qu'il **veut** | Ce qu'il **sait** | Comment il **agit** | Ce qu'il **ne fait pas** |
 |---|---|---|---|---|---|
 | **0. La surface** (ce qu'on croit) | « Krunt est maudit : possédé par un esprit de feu » | (rumeur) | (rumeur) | Symptômes visibles (§1.3) | n/a |
-| **1. L'Écho** | Le **cycle inachevé** d'un jeune phœnix tué en Absorption dans les Ravins de Keth, il y a ~11 mois (05 §3.1). Un organe sans cerveau : il **absorbe, chauffe, appelle**. | **Finir sa Transformation** : brûler la Corruption qu'il porte et se refermer. Il ne « veut » pas au sens humain : c'est une **tendance**. | La Corruption portée par Krunt (il est la jauge) ; les lieux des autres « lumières » ; des **fragments** de sa propre mort (le convoi, les chasseurs). | **Brûle en continu** la Corruption autour de Krunt (zone de 5 km, 1 point/jour) ; **retient** les Rappelés pour qu'ils ne deviennent pas des créatures de Corruption ; envoie des **images** quand la Braise est haute. | Ne parle pas ; ne pille pas la mémoire de Krunt (pas de Prix des Noms) ; n'attaque pas. |
+| **1. L'Écho** | Le **cycle inachevé** d'un jeune phœnix tué en Absorption dans les Ravins de Keth, il y a ~11 mois (05 §3.1). Un organe sans cerveau : il **absorbe, chauffe, appelle**. | **Finir sa Transformation** : brûler la Corruption qu'il porte et se refermer. Il ne « veut » pas au sens humain : c'est une **tendance**. | La Corruption portée par Krunt (il est la jauge) ; les lieux des autres « lumières » ; des **fragments** de sa propre mort (le convoi, les chasseurs). | **Brûle en continu** la Corruption autour de Krunt (zone de 5 km, 1 point/jour) ; **retient** les revenus pour qu'ils ne deviennent pas des créatures de Corruption ; envoie des **images** quand la Braise est haute. | Ne parle pas ; ne pille pas la mémoire de Krunt (pas de Prix des Noms) ; n'attaque pas. |
 | **2. Le Gardien** | La volonté qui garde le Nord (hyp. C). **Perd** à la mort du jeune phœnix un « organe » local de son réseau. L'Écho est le **dernier fil** : il s'y **branche**. | Trois choses compatibles : (a) **clore le cycle brisé** (que la Corruption libérée soit « rendue à l'origine ») ; (b) **savoir si des humains ont compris le cycle** (condition d'accès du Nord) ; (c) **garder le Nord fermé** tant que non. | Le réseau des phœnix (ses « lumières ») ; qui a tué (la chaîne des cendres) ; ce que portent les gens qu'il a pris. | **Convictions** (rester, rentrer, aller), **météo et pannes** localisées, **rêves**. **Un seul acte fort : le Filet** (transport). | **Ne punit pas** : pas de sanction du Gardien. Il ne retient personne contre sa volonté. |
 | **3. Krunt** | Un homme en deuil qui a **forcé le cycle** pour ramener ses proches. | Retrouver les siens ; ne pas être une « lame liée ». | Ce qu'il a fait ; il ne sait pas **ce qui l'habite**. | Sa voix, ses choix, sa culpabilité : **la voix des morts que l'on entend la nuit est en grande partie la sienne** (l'Écho ne fait que les amplifier avec leurs noms). | n/a |
 
@@ -66,7 +66,7 @@ Fil rouge : **le Gardien agit par persuasion et par obstacle, jamais par violenc
 | Les créatures corrompues **l'évitent** (Signature Éthérique) | Il est « pire qu'elles » | Elles évitent un **brasier** : preuve que ce n'est pas de la Corruption qui l'habite, c'est ce qui la **mange**. |
 | La Corruption **baisse** autour de lui (−1/jour, 5 km) | « Il aspire la vie » | La Corruption **baisse** : un malédicteur la **sèmerait**. **Indice central.** |
 | Montée de Corruption **en lui** | « Le démon le consume » | Corruption de **son propre rite** (Nécro-animation +5, rite interdit, cendres brutes) ; l'Écho est **surchargé**, il n'a pas de filtre complet. |
-| Les Rappelés qui ne peuvent pas quitter la ferme | « Revenants maudits » | Le **Fil de sang** de l'Inversion (05 §2.5), pas l'Écho. |
+| Les revenus qui ne peuvent pas quitter la ferme | « Revenants maudits » | Le **Fil de sang** de l'Inversion (05 §2.5), pas l'Écho. |
 
 **Le point de vue de chaque groupe.**
 
@@ -90,7 +90,7 @@ Fil rouge : **le Gardien agit par persuasion et par obstacle, jamais par violenc
 | Elle fait | Effet pour Krunt | Effet pour les autres | Réserve |
 |---|---|---|---|
 | Brûle la Corruption autour (1/jour, 5 km, tant que la Braise n'est pas saturée) | Le **sauve** de la mort immédiate (cendres brutes + Nécro-animation) | Rend les Marches **habitables**, **réduit** la Corruption de groupe | Effet **limité** par la Braise : si elle sature, **inversion** (libération brute). |
-| Retient les Rappelés dans un état stable | Lui **laisse sa famille** | Les rend inoffensifs | Ils **stagnent** : c'est la dette du Flux. |
+| Retient les revenus dans un état stable | Lui **laisse sa famille** | Les rend inoffensifs | Ils **stagnent** : c'est la dette du Flux. |
 | **Transporte** (le Filet) | Lui donne des **alliés** | Les arrache à leur foyer **sans leur demander** | **Seul acte violent** ; imputable au Gardien, pas à Krunt. |
 | Envoie des convictions et des rêves | Donne des **images** du ravin | Pousse à **rester ou à partir** selon le moment | Peut passer pour une **contrainte mentale** (palier E3). |
 | Se **branche** sur le réseau des phœnix | Peut sentir d'autres « lumières » | Mène **à terme** vers un phœnix vivant (voie *Délivrer*) | Le **Gardien est avisé** : il apprend où sont les autres. **Risque ou chance** : à voir selon la fin. |
@@ -143,11 +143,11 @@ Chaque joueur vit sa fin **dans son monde**, la table **compare** (règle de la 
 
 | Fin | Comment | Conditions | Prix | Pour Krunt3 | Pour le monde | Marques |
 |---|---|---|---|---|---|---|
-| **1. Délivrer** | **Finir le cycle** : transférer l'Écho à un **phœnix vivant** (juvénile de l'Île du Rivage, adulte des Îles Brûlantes, [L4]) ou à un site isolé avec filtre (cendres, Mage Blanc, Onguent). | Passage au Nord **pas nécessaire** ; E3 + E5 ; un phœnix vivant et sa **confiance** [L4 ch.12 §4]. | Longue quête ; **la Braise tombe à 0** : plus de pouvoirs. | **Survit**, sans pouvoirs, **avec sa famille déliée** (la Veillée finie). | Un phœnix de plus en Absorption ; **moins de Corruption** aux Marches. | `cycle_clos` (Monde, +), `dette_du_flux` levée |
+| **1. Délivrer** | **Finir le cycle** : transférer l'Écho à un **phœnix vivant** (juvénile de l'Île du Rivage, adulte des Îles Brûlantes, [L4]) ou à un site isolé avec filtre (cendres, Mage Blanc, Onguent). | Passage au Nord **pas nécessaire** ; E3 + E5 ; un phœnix vivant et sa **confiance** [L4 ch.12 §4]. | Longue quête ; **la Braise tombe à 0** : plus de pouvoirs. | **Survit**, sans pouvoirs, **avec sa famille déliée** (le rite achevé). | Un phœnix de plus en Absorption ; **moins de Corruption** aux Marches. | `cycle_clos` (Monde, +), `dette_du_flux` levée |
 | **2. Contenir** | **Sceller** l'Écho : sceau runique (Mage Blanc, serment de Cyril/Pascal), Krunt **Veilleur** d'un lieu. | G2 ou G3 ; E4 ; serment des deux Sceau Pourpre. | Corruption fixée à 24 ; **Krunt lié** à un site ; Braise **bloquée à 4**. | Veilleur, **perd sa mobilité** ; Lames : « possession » confirmée. | Un **foyer de filtre** statique : Marches stabilisées. | `veilleur`, `sceau_pose` |
 | **3. Exploiter** | Faire de Krunt une **bombe de purification** (Cœur Gris, Fissure Centrale) [L4 ch.14 §4]. | Alliés : Guilde Martiale, Voile Noir, une Théocratie ; la Braise **montée volontairement** à 8. | **Mort de Krunt**, zone détruite ; **le Gardien** réagit (tempêtes jusqu'aux côtes ?). | Mort. | Terres Ravagées **nettoyées** (peut-être) ; **catastrophe possible** (tort sur la solution). | `purification`, `embrasement` (Monde, −) |
 | **4. Laisser faire** | Personne n'intervient : la Braise monte, **Krunt marche vers le Nord** par conviction. | Aucune ; l'abandon par les trois. | **Perte du héros** ; le Gardien referme ; peut-être **une Dernière Migration humaine**. | Disparaît ; **réapparaît** dans douze ans ? | **Mystère** : A (le Nord stocke), B (renaissance) ou C. | `abandon` (ou `migration`) |
-| **5. L'Écho allié** | Krunt et l'Écho **négocient un pacte consenti** : l'Écho **brûle** la Corruption **où Krunt la porte** (il devient un **filtre mobile**), en échange du **Passage** vers le Nord et d'une **liberté** (la Braise devient un **Foyer** : ressource, plus un coût). | **E5 + E6 atteints** ; G1 ou G3 favorable ; **Dette du Flux soldée** (les Rappelés **déliés par consentement**, pas par Rite de Restitution) ; **serment** de Cyril (témoin) ; **passeur** Taranis ; filtre Pascal. | **Exil** de Krunt : il ne reviendra qu'avec le Nord. | **Un phœnix-homme** ; compagnon des trois. | **Premier filtre humain** : la Corruption **baisse** ; les Théocraties et le Flux se **divisent**. | `pacte_consenti` (Monde, ++), `foyer` |
+| **5. L'Écho allié** | Krunt et l'Écho **négocient un pacte consenti** : l'Écho **brûle** la Corruption **où Krunt la porte** (il devient un **filtre mobile**), en échange du **Passage** vers le Nord et d'une **liberté** (la Braise devient un **Foyer** : ressource, plus un coût). | **E5 + E6 atteints** ; G1 ou G3 favorable ; **Dette du Flux soldée** (les revenus **déliés par consentement**, pas par Rite de Restitution) ; **serment** de Cyril (témoin) ; **passeur** Taranis ; filtre Pascal. | **Exil** de Krunt : il ne reviendra qu'avec le Nord. | **Un phœnix-homme** ; compagnon des trois. | **Premier filtre humain** : la Corruption **baisse** ; les Théocraties et le Flux se **divisent**. | `pacte_consenti` (Monde, ++), `foyer` |
 
 **Pourquoi la fin 5 est nécessaire** : elle **donne un sens** à « l'entité ne le maudit peut-être pas » : le pacte est une **créance** (on paie un loyer) **jusqu'à ce qu'il devienne un contrat** (on partage). **La Braise de la fin 5 est la même jauge, avec un autre sens** : ce qui était coût devient réserve.
 
@@ -180,23 +180,23 @@ Chaque joueur vit sa fin **dans son monde**, la table **compare** (règle de la 
 
 ### 2.2 Les quatre options
 
-| | **A. La Braise** (jauge + cadran 24 h) | **B. Le Gage** (les autres paient) | **C. Le Registre** (horloge du Flux) | **D. La Vacance** (l'Écho prend la main) |
+| | **A. La Braise** (jauge + cadran 24 h) | **B. Les autres paient** (écartée) | **C. Le Registre** (horloge du Flux) | **D. La Vacance** (l'Écho prend la main) |
 |---|---|---|---|---|
-| **Principe** | Chaque pouvoir **monte** une jauge de chaleur ; le **Loyer** fait monter la jauge chaque jour ; il faut **libérer** de façon contrôlée avant l'**Embrasement**. | Chaque usage exige un **gage** donné **librement** par un allié (un point d'Endurance max, une ration, une promesse). Krunt tient un **registre de dettes**. | Chaque usage **inscrit une ligne** dans le registre du **Flux** ; 6 lignes = **mandat de Bris**. On l'efface en **restituant**. | À chaque usage, **jet de VOL** : l'échec donne la **main à l'Écho** pour une scène. |
-| **Coût d'utilisation** | +1 à +3 braises selon le pouvoir (Absorption +1, Cycle Accéléré +2, Souffle du Réceptacle +3) | 1 gage par pouvoir | +1 ligne par usage | un jet ; la **conséquence** est la perte de contrôle |
+| **Principe** | Chaque pouvoir **monte** une jauge de chaleur ; le **Loyer** fait monter la jauge chaque jour ; il faut **libérer** de façon contrôlée avant l'**Embrasement**. | Chaque usage exige un don **libre** d'un allié (un point d'Endurance max, une ration, une promesse). Krunt tient un **registre de dettes**. **Écartée** par krunt. | Chaque usage **inscrit une ligne** dans le registre du **Flux** ; 6 lignes = **mandat de Bris**. On l'efface en **restituant**. | À chaque usage, **jet de VOL** : l'échec donne la **main à l'Écho** pour une scène. |
+| **Coût d'utilisation** | +1 à +3 braises selon le pouvoir (Absorption +1, Cycle Accéléré +2, Souffle du Réceptacle +3) | 1 don par pouvoir | +1 ligne par usage | un jet ; la **conséquence** est la perte de contrôle |
 | **Récurrence** | **Loyer quotidien** : +2 braises à chaque Aube (24 h) ; +1 de plus en zone de Corruption | Au fil de l'usage | Quasi nulle sans usage (c'est un compte à rebours) | Aléatoire |
 | **Corruption** | Braise ≥ 5 : Corruption de Krunt **+1/jour** ; **Embrasement** : +2 à Krunt, +1 aux alliés à portée | Aucune directe ; **+1 Corruption à l'allié** s'il donne de l'Endurance max au-delà d'un seuil | **+1** à chaque ligne ≥ 3 (le Flux « marque ») | +1 à chaque Vacance, +2 si l'Écho brûle |
 | **Honneur** | Aucune perte directe ; **Embrasement** public : Honneur −1 (Reconnu → Suspect) | **Allié** : Honneur +1 à Loyauté (Compassion) ; **Krunt** : −1 si la dette n'est pas rendue | **Honneur** suspendu auprès du Flux/Sceau Pourpre à 4 lignes | Honneur −1 si un témoin voit la Vacance |
 | **Tension** | **+1** à chaque Embrasement (collective) | **+1** quand un allié refuse (la meute se tend) | **+1** par palier du compte à rebours (2, 4, 6) | **+1** par Vacance |
-| **Marques du monde** | `braise_haute` (Région), `embrasement` (Région, Faction), `libération_contrôlée` (+ Faction : Flux) | `gage_donné` (personnage allié), `gage_dû` (Krunt), `loyauté` / `compassion` | `dette_du_flux` (déjà), `ligne_du_registre` | `emprise` (Krunt) |
-| **Lisible à l'écran** | **Excellent** : brasero à **8 crans** + **cadran 24 h** autour ; les créatures **reculent** quand c'est haut ; **dé visible** à chaque Libération | **Bon** : un **carnet de dettes** (liste), icônes de gage | **Bon** : une **horloge de 6 segments** | **Faible** : une **bascule** en cinématique |
+| **Marques du monde** | `braise_haute` (Région), `embrasement` (Région, Faction), `libération_contrôlée` (+ Faction : Flux) | (option écartée) `loyauté` / `compassion` | `dette_du_flux` (déjà), `ligne_du_registre` | `emprise` (Krunt) |
+| **Lisible à l'écran** | **Excellent** : brasero à **8 crans** + **cadran 24 h** autour ; les créatures **reculent** quand c'est haut ; **dé visible** à chaque Libération | **Bon** : un **carnet de dettes** (liste), icônes de don | **Bon** : une **horloge de 6 segments** | **Faible** : une **bascule** en cinématique |
 | **Moteur de jeu** | **Fort** : chaque journée doit **ménager un temps et un lieu** (survie, lieu isolé, aides) | **Fort pour la table** (dilemmes, karma) ; **faible en solo** (qui paie ?) | **Fort pour la macro** (tempo de l'enquête) ; **ne crée pas de décisions quotidiennes** | **Fort pour le drame** ; **fatigant** si fréquent |
 | **Cohérence avec l'entité** | **Totale** : la Braise **est** la température du filtre (§1.4) | Bonne : « aider » = porter | Moyenne : le Flux n'est pas l'entité | Moyenne : l'entité **sans langage** n'agit pas |
 | **Risque** | Peut devenir une **corvée** si le Loyer est trop sévère | Peut être **contourné** par un joueur qui ne donne jamais | Se confond avec la créance 1 de 05 | **Prive le joueur** de son avatar (voulu pour Krunt3, mauvais pour les autres) |
 
-### 2.3 Recommandation : **A, la Braise**, avec **B, le Gage**, comme soupape
+### 2.3 Recommandation : **A, la Braise, seule** (décision de krunt)
 
-**Retenir la Braise comme coût du pacte.** C'est **la plus lisible**, **la plus récurrente**, **la plus fidèle** à la vérité de l'entité, et elle réutilise une idée **déjà proposée** (le Loyer de l'Écho toutes les 24 h, 05 §2.6). Elle donne à **chaque** personnage un **rôle** au moment de la libération (voir §2.4). **Le Gage** (option B) est un **mode d'aide optionnel** (un allié prend sur lui une partie de la braise), qui **traduit le karma positif** en mécanique. **Le Registre** (C) **reste** comme **horloge de trame** (créance 1 de 05, la Dette du Flux) : ce n'est pas le pacte, c'est l'échéance du **Flux**. **La Vacance** (D) devient la **conséquence d'un Embrasement** (le trou noir après l'explosion), pas une règle d'usage.
+**Retenir la Braise comme coût du pacte.** C'est **la plus lisible**, **la plus récurrente**, **la plus fidèle** à la vérité de l'entité, et elle réutilise une idée **déjà proposée** (le Loyer de l'Écho toutes les 24 h, 05 §2.6). Elle donne à **chaque** personnage un **rôle** au moment de la libération (voir §2.4). **L'option B** (un allié prend sur lui une partie de la braise) est **écartée** : krunt tranche **Braise seule**. Le karma positif (Loyauté, Compassion) passe par les aides à la libération (§2.4) et les marques, pas par un coût porté. **Le Registre** (C) **reste** comme **horloge de trame** (créance 1 de 05, la Dette du Flux) : ce n'est pas le pacte, c'est l'échéance du **Flux**. **La Vacance** (D) devient la **conséquence d'un Embrasement** (le trou noir après l'explosion), pas une règle d'usage.
 
 **Alignement avec « tourne mal »** : krunt a dit « un pacte à payer, un coût d'utilisation ». **Les deux sont là** : le **coût d'utilisation** (chaque pouvoir monte la Braise) et le **pacte à payer** (le Loyer quotidien). Quand l'entité devient alliée (§1.7, fin 5), le même brasero devient un **Foyer** : on **transforme le coût en ressource**.
 
@@ -214,8 +214,7 @@ Chaque joueur vit sa fin **dans son monde**, la table **compare** (règle de la 
 | **Seuil Embrasement (7-8)** | Chaque combat ou stress : **VOL DD 14** ; échec = **Débordement** (zone 5 m, **chaleur 1d6**). |
 | **Embrasement** (9 ou plus, ou 1 naturel) | **Libération non contrôlée** : dégâts de zone à tous (3d6, 5 m), **+2 Corruption** à Krunt, **+1** aux alliés, **Tension +1**, Braise **tombe à 3**, **Vacance** d'une scène (D), marque `embrasement` (Région). **Deux Embrasements en 7 jours = Saturation** (événement de trame, 02 §3). |
 | **Budget** | Une journée normale : **+2** Loyer, **−3** libération = **−1 net** : Krunt peut dépenser **environ 1 braise** (un Cycle Accéléré) par jour sans danger. **Combat** : le Souffle du Réceptacle (+3) **exige** une libération le lendemain. |
-| **Gage (soupape B)** | Un allié peut, **par serment libre**, **prendre 1 braise** : il perd **1 Endurance max** jusqu'au repos long (brûlure) et gagne `loyauté` ; refuser **ne coûte rien**, mais l'**absence de gage** durcit la libération (DD +1). |
-| **Marques** | `braise_haute` (Région, quand ≥ 5 plus de 3 jours), `embrasement`, `gage_donné`, `loyauté`, `compassion`, `abandon` (si départ). |
+| **Marques** | `braise_haute` (Région, quand ≥ 5 plus de 3 jours), `embrasement`, `loyauté`, `compassion`, `abandon` (si départ). |
 | **Relation aux Marques de Pacte (04 §5.4)** | Les **Marques de Pacte** (progression : rang d'École, plafond d'attribut) **restent** ; elles **montent à chaque Embrasement**, pas à chaque usage. La Braise est la **jauge court terme**, les Marques de Pacte le **compte long terme**. |
 | **Fin (§1.7)** | *Délivrer* : Braise → 0 ; *Contenir* : bloquée à 4 ; *Exploiter* : montée à 8 volontairement ; *Laisser faire* : monte seule ; *Allié* : **Foyer** (le Loyer devient **+0**, la Braise devient une **réserve** que l'on dépense en pouvoirs). |
 
@@ -234,7 +233,7 @@ Le document 05 prévoit une Corruption de départ de Krunt de **12 à 16**, dont
 | Si l'on change… | …alors | Section |
 |---|---|---|
 | la lecture du Gardien (G1, G2, G3) | les fins accessibles et le sens de la Braise changent | §1.5, §1.7 |
-| le coût (Braise, Gage…) | le rôle des trois autres à chaque libération change | §2.4 |
+| le coût (la Braise) | le rôle des trois autres à chaque libération change | §2.4 |
 | la règle de sélection (appelés, tombé) | les « pourquoi moi » et les soupçons de clan changent | §4.3, §4.4 |
 
 Cohérence de l'ensemble [P] : la **Braise** est la température du filtre (étage 1) ; le **Gardien** (étage 2) juge si les trois ont compris pourquoi elle monte ; les **talents** sont ce qui permet de la libérer (stabiliser, doser, trouver le lieu, passer au Nord). Les trois demandes de krunt forment **un seul système**.
@@ -260,13 +259,15 @@ Pourquoi **ces trois** (Taranis, Cyril, Pascal) ? Krunt a posé deux contraintes
 | **Recrutement** | Difficile : chaque recrue doit être **une pièce**. | **Facile** : n'importe qui peut avoir été pris. | **Facile et motivé** : les autres **tombés** (§4.5). |
 | **Risque** | **Cliché** (« l'élu ») ; l'intrigue **ferme** la liberté. | Intrigue **molle**. | **Complexité** : il faut tenir deux couches. |
 
-### 4.3 Recommandation : **C, « deux appelés, un tombé »** [P]
+### 4.3 Recommandation : **C, « deux appelés, un tombé par accident »** [P]
+
+> **Passe v3 bis (krunt).** Le nom des rôles « deux appelés, un tombé par accident » est gardé, **modifiable plus tard**. La lecture « Taranis tombé, mais en vérité choisi par le Gardien » ci-dessous est **abandonnée pour l'instant** : le tombé est tombé **par accident**. Qui est le tombé reste une proposition (Taranis) à confirmer par krunt. Après le cataclysme, tous recommencent au niveau 1, sauf le tombé (niveau supérieur, voir `10` §2 et `08`).
 
 **La règle de sélection du Filet** [P] :
 
-1. **Le Filet** (l'Écho, aveugle) **attrape** ceux qui **résonnent** avec un cycle brisé : toute personne qui, à l'instant du Rappel, **porte quelque chose qui ressemble à une pièce du cycle** (route, serment, filtre). Il en prend **une dizaine** sur le continent, **sans choisir** vraiment : c'est le **hasard**.
+1. **Le Filet** (l'Écho, aveugle) **attrape** ceux qui **résonnent** avec un cycle brisé : toute personne qui, à l'instant du rite, **porte quelque chose qui ressemble à une pièce du cycle** (route, serment, filtre). Il en prend **une dizaine** sur le continent, **sans choisir** vraiment : c'est le **hasard**. **Passe v3 bis (krunt) : les trois autres personnages-joueurs arrivent tous au moment du cataclysme, par un portail magique qui les transporte** [lecture : le « Filet » est ce portail ; à confirmer].
 2. **Le Gardien** (voyant) **ratifie** : il **garde** ceux qui peuvent **servir la clôture du cycle** ou **le Passage**, et **laisse partir** (par conviction, E4) les autres.
-3. Sur la dizaine, **quatre** arrivent **au cratère** avec Krunt ; **les autres** sont dispersés (§4.5).
+3. Sur la dizaine, **quatre** (Krunt et les trois autres personnages-joueurs) arrivent **au cratère** ; **les autres** sont dispersés (§4.5).
 
 **Les trois « pourquoi moi »** (chaque joueur reçoit une **autre réponse**, à des paliers différents) :
 
@@ -288,7 +289,7 @@ Pourquoi **ces trois** (Taranis, Cyril, Pascal) ? Krunt a posé deux contraintes
 | **Sceau Pourpre x Sceau Pourpre** (Cyril x Pascal) | **Frères de serment** : mais **un seul** a prêté un **serment d'aide**. | Un des deux **trahit** la procédure : l'**autre** doit **témoigner** ou se taire. |
 | **Navigateurs Gris x Sceau Pourpre** (Taranis x Cyril, Pascal) | Alliés **par commerce** (Marchands Libres) [L5 ch.4], mais **le Sceau** est l'allié du **Flux** ; les **Navigateurs** sont ennemis du **Voile Noir** (qui est la source des cendres). | Taranis **voit le Voile** derrière les cendres de Pascal : **soupçon croisé** sur le kit de départ. |
 | **Navigateurs Gris x Lames Franches** (Taranis x Krunt3) | **Bloc de la Liberté Martiale** [L5 ch.7 §1-2]. | **La seule vraie alliance** : le lien **le plus simple**, donc **le plus fragile** (la dette de Taranis envers le Cercle). |
-| **Pascal x Taranis** | Ni alliés ni ennemis ; **Sentinelles** et Navigateurs se croisent aux frontières. | Le couple qui **découvre** l'amitié (E3 : recoupement des cendres). |
+| **Pascal x Taranis** | Ni alliés ni ennemis ; **Sentinelles** (ordre de Pascal, non tranché) et Navigateurs se croisent aux frontières. | Le couple qui **découvre** l'amitié (E3 : recoupement des cendres). |
 
 **Ce que le choix « mixte » apporte** : il **sépare** les **soupçons** (Sceau) des **sympathies** (Navigateurs/Lames) sans que personne soit **coupable** ; il crée des **recoupements** (Cyril x Pascal pour E2, Taranis x Pascal pour E3, Taranis x Cyril pour E4) qui **forcent** les trois à **se parler**, y compris entre clans rivaux.
 
@@ -300,16 +301,16 @@ Le Filet a pris **une dizaine** de personnes. Le sort des **autres** fournit des
 |---|---|---|
 | **Morts à l'arrivée** (arrivés trop loin des Marches, dans un ravin, un lac) | ~3 | **Cairn** et effets personnels : survie et **indices** (lettre, insigne de clan, carte). |
 | **Repartis** (conviction dès J1 : « rentrer ») | ~2 | **PNJ** qui **portent la rumeur** dans leur clan : première **pression** (05 §5.2, « premier signe »). |
-| **Dispersés** (campés à une ou deux journées) | ~2 à 3 | **Recrues**, trouvées **J3 à J10** : un campement, un cri la nuit. |
+| **Dispersés** (campés à une ou deux journées) | ~2 à 3 | **Recrues**, trouvées **entre le troisième et le dixième jour** (ce sont des tombés PNJ, pas les trois autres personnages-joueurs) : un campement, un cri la nuit. |
 | **Au cratère** | 4 (Krunt + 3) | Les joueurs. |
 
 **Protocole de recrutement** [P] :
 - **Un joueur supplémentaire** : il crée **un tombé** (clan, guilde, métier, Honneur). Il reçoit **un fil** (une phrase : « ce qui m'a pris ») et **une raison de rester ou de partir**. **Il ne remplace pas les trois**, mais il **commence en retard** (il arrive J4 à J10) et **accepte** les marques déjà déposées. **Équilibrage** : la recrue est **plus faible** (rang I, ★1) mais **sans handicap de départ** (Profil Étincelle, 04 §5).
 - **Un PNJ** : les deux **recrues du document 04 §8** s'insèrent comme **tombés** : **la Langue du Pacte** (Perception des Esprits) arrive **vers J10** (elle **débloque E5** : parler à l'Écho ou au Gardien) ; **la Gardienne des Pierres** (Cendres Liées, Porte-Cendres) arrive **après le premier Embrasement** (elle **résiste** à la Corruption : elle est la **réponse** à la Braise).
-- **Recrutement par les actes** : une recrue PNJ **s'attache** si **un gage a été donné** (Braise, §2) ou si **un service** a été rendu (marque `Dette`).
+- **Recrutement par les actes** : une recrue PNJ **s'attache** si **un service** lui a été rendu (marque `Dette`).
 - **Sanction** : chaque tombé a **son clan** et **son horloge** (même règle que 05 §5.1) ; ne pas les **laisser nuls**.
 
-**Mise en scène** : dans le jeu **solo**, ces recrues et les autres « tombés » sont des **PNJ originaux** ; **en plus**, depuis la passe v3 (décision de krunt), **les trois autres joueurs apparaissent eux aussi en PNJ** dans le monde de chacun (arrivée J3 à J10, `10` §6) ; à la **table**, les recrues peuvent être jouées par un joueur invité.
+**Mise en scène** : dans le jeu **solo**, ces recrues et les autres « tombés » sont des **PNJ originaux** ; **en plus**, depuis la passe v3 (décision de krunt), **les trois autres joueurs apparaissent eux aussi en PNJ** dans le monde de chacun, **tous arrivés au moment du cataclysme par un portail magique** (pas de calendrier d'arrivée étalé ; `10` §6) ; à la **table**, les recrues peuvent être jouées par un joueur invité.
 
 ---
 
@@ -327,16 +328,16 @@ Le Filet a pris **une dizaine** de personnes. Le sort des **autres** fournit des
 
 ### 5.2 Sanctions de clan
 
-> **Passe v3 : remplacé par `10-trame-v3.md` §5** (types de clans, honneur propre à chaque clan, Légende du Cycle, distinction abandon / absence / ignorance). Les ajouts ci-dessous sont repris dans la table de `10`.
+> **Passe v3 : remplacé par `10-trame-v3.md` §5** (honneur propre à chaque clan, sans types imposés ni attribution de légende du phœnix). Les ajouts ci-dessous sont repris dans la table de `10`.
 
 | Clan / guilde | 05 §5 dit | **Changement proposé** |
 |---|---|---|
 | **Sceau Pourpre** (Cyril, Pascal) | Sanction lente, juridique | **Ajouter** : à la semaine 2, le clan demande un **Rapport de Témoin** (le Serment de Témoin de 05, palier 4) sur ce qu'il voit de Krunt ; le **remettre** accélère l'Arbitre du Flux (J30 → J20) ; le **refuser** = Mise à l'écart. **Dilemme** ; le **soupçon de complot** (§4.4) ajoute un **DD +2** aux jets de réhabilitation tant que les deux restent ensemble. |
 | **Navigateurs Gris** (Taranis) | Désaveu rapide, cartes qui mentent | **Ajouter** : première lecture « **disparu** » (Boussole voilée = recherche) pendant **7 jours**, **puis** désaveu s'il n'envoie aucun signe. La demande « **La Route Impossible** » devient **la carte du chemin vers le Nord** (lien avec le Gardien). Un Passeur **qui est au courant du Nord** et **se tait** perd davantage. |
-| **Lames Franches** (Krunt3) | Code Brisé ; rupture si possession | **Ajouter** : si E1 à E3 sont établis, la **requalification** « filtre, pas possession » est un **argument de défense** (le Cercle de Fer peut **juger** : DD 20) ; **les Rappelés** restent le problème. |
+| **Lames Franches** (Krunt3) | Code Brisé ; rupture si possession | **Ajouter** : si E1 à E3 sont établis, la **requalification** « filtre, pas possession » est un **argument de défense** (le Cercle de Fer peut **juger** : DD 20) ; **les revenus** restent le problème. |
 | **Guilde Martiale** (Krunt3, Pascal) | 7 jours, clause | **Inchangé.** |
 | **Guilde de Chasse** (Taranis) | Primes retirées | **Ajouter** : **offre de silence** : un relais du Contrat Phœnix propose de **l'argent** à Taranis pour qu'il **taise** le cratère (marque `silence_acheté` si accepté ; **Honneur** −1 ; **primes retirées** si refusé). |
-| **Marchands Libres** (Cyril) | Prêt qui empire | **Ajouter** : le **carnet de gages** (Braise B) est lu comme un **Compte ouvert** : Cyril peut **acheter** un gage (monétiser la dette), au risque de **perdre** la Loyauté. |
+| **Marchands Libres** (Cyril) | Prêt qui empire | **Ajouter** : (retiré : l'option de Braise qui le fondait est écartée ; le Compte ouvert reste une idée de clan à documenter). |
 | **Gardien** | (absent) | **Nouveau** : **aucune sanction**. Effets : tempêtes localisées, **convictions** ; l'abandon est **permis**. Il peut **fermer** le chemin du retour si G2. |
 
 ### 5.3 Pacte (05 §2.6, §0 point 5, §7.2 point 4)
@@ -346,10 +347,10 @@ Le Filet a pris **une dizaine** de personnes. Le sort des **autres** fournit des
 | 6 | **Créance 3 « Prix des Noms » : supprimée.** Remplacée par la **Braise** (§2). |
 | 7 | **Créance 2 « Loyer de l'Écho »** : devient **la Braise** (jauge de 8 crans + cadran 24 h) avec ses seuils, ses aides et ses Embrasements (§2.4). |
 | 8 | **Créance 1 « Dette du Flux »** : inchangée, mais **explicitée comme horloge de trame** (le Registre, option C). |
-| 9 | **Marques du monde** (05 §2.6) : retirer `nom_perdu` ; ajouter `braise_haute`, `embrasement`, `gage_donné`, `gage_dû`, `cycle_clos`, `pacte_consenti`, `veilleur`, `silence_acheté`. |
+| 9 | **Marques du monde** (05 §2.6) : retirer `nom_perdu` ; ajouter `braise_haute`, `embrasement`, `cycle_clos`, `pacte_consenti`, `veilleur`, `silence_acheté`. |
 | 10 | **Corruption de départ** : inchangée (12 à 16) ; **montée** : +1/jour à partir de Flamme, +2 par Embrasement (au lieu de +1 par usage). |
 | 11 | **Honneur de Krunt3** : « Reconnu → Suspect » (05 §7.1 point 12) **pas à cause de l'oubli**, mais du **premier Embrasement public**. |
-| 12 | **Renommer** : l'ancien nom du rite → **Veillée** (rite C) ; l'ancien nom de la technique → **le Rappel** ; « Rôle des Noms » **conservé** (il reste un objet). Fait dans le document 05 (passe v3). |
+| 12 | **Renommer** : l'ancien nom du rite et celui de la technique sont retirés ; les deux noms proposés en remplacement sont **rejetés** par krunt : rite et technique **sans nom** ([nom à définir]) ; « Rôle des Noms » **conservé** (il reste un objet). |
 | 13 | 04 §5.4 (Marques de Pacte) : le **Souffle du Réceptacle** ajoute **+3 braises** (au lieu de +1 Marque et +1 Tension) ; les **Marques de Pacte** montent à chaque **Embrasement**. |
 
 ### 5.4 Entité (05 §3)
@@ -363,7 +364,7 @@ Le Filet a pris **une dizaine** de personnes. Le sort des **autres** fournit des
 
 ### 5.5 Chronologie (05 §6)
 
-> **Chronologie canonique J0 à J60 reportée dans `10-trame-v3.md` §7** (une seule table, Neuf Nuits *avant* J0 uniquement, visite d'audit à T-18 jours, arrivée des trois autres en PNJ entre J3 et J10). Le tableau ci-dessous est conservé comme liste de changements.
+> **Chronologie canonique J0 à J60 reportée dans `10-trame-v3.md` §7** (une seule table, Neuf Nuits *avant* J0 uniquement, visite d'audit à T-18 jours, arrivée des trois autres personnages-joueurs au cataclysme, par un portail magique). Le tableau ci-dessous est conservé comme liste de changements.
 
 | Quand | Changement |
 |---|---|
@@ -372,8 +373,8 @@ Le Filet a pris **une dizaine** de personnes. Le sort des **autres** fournit des
 | **T-6 semaines** | **Ajouter** : les **boussoles** des Navigateurs dérivent vers les Ravins (indice pour Taranis). |
 | **J0** | Remplacer « l'Écho transporte Krunt puis les trois autres » par **le Filet** : ~10 personnes prises, **4 arrivées au cratère**, les autres **dispersées**. |
 | **J1 (Aube)** | **Premier Loyer** (**+2 braises**) ; cadran visible (au lieu de J6). |
-| **J3-J4** | **Première Libération contrôlée** (avec l'aide des trois **à la table** ; en solo, les PNJ arrivent après, l'aide complète vient plus tard) ; **premier chef de meute** inchangé. |
-| **J3-J10** | **Rencontre des tombés** (recrues, cairns). **En solo : arrivée des trois autres joueurs en PNJ** (Taranis J3, Pascal J5, Cyril J8, ±2 jours ; `10` §6). |
+| **J3-J4** | **Première Libération contrôlée** (avec l'aide des trois, arrivés au cataclysme) ; **premier chef de meute** inchangé. |
+| **J3-J10** | **Rencontre des tombés** (recrues, cairns). Les trois autres personnages-joueurs, eux, sont arrivés **au cataclysme** (`10` §6). |
 | **J10** | Arrivée de la **recrue B** (Langue du Pacte) : débloque E5. |
 | **J14** | **Vague de conviction** (E4) : **premier départ libre** ; premier **Appel du Clan** (existant). |
 | **J20 ou J30** | Arbitre du Flux : **J20** si le Rapport de Témoin est remis ; **J30** sinon. |
@@ -384,8 +385,8 @@ Le Filet a pris **une dizaine** de personnes. Le sort des **autres** fournit des
 ### 5.6 Ce qui reste à trancher **[!]** (pour krunt, par ordre d'importance)
 
 1. **La lecture du Gardien** : G1, G2 ou **G3 (recommandée)**.
-2. **Nom du rite** : le retrait porte sur le coût **et** sur le rite (décision de krunt, journal `00`) ; reste à **confirmer le nom de remplacement** (Veillée) ?
-3. **Le coût** : Braise **seule**, ou **Braise + Gage** ? **Montrer les crans** à l'écran ?
+2. **Nom du rite** : **tranché** : retiré sans nom de remplacement (krunt rejette les deux noms proposés) ; [nom à définir] plus tard.
+3. **Le coût** : **Braise seule** (tranché par krunt). Reste : **montrer les crans** à l'écran ?
 4. **Talents** : **mixte (recommandé)** ou **choisis** ? Taranis est-il **le tombé qui est choisi** ?
 5. **La Dernière Migration** : le phœnix tué est-il un **juvénile** (05) ou un **migrateur** (plus grave) ?
 6. **Fin 5 (Écho allié)** : veut-on **la fin où l'entité est une alliée** ?
@@ -399,6 +400,6 @@ Le Filet a pris **une dizaine** de personnes. Le sort des **autres** fournit des
 
 1. **Couvert** : entité en quatre étages (Écho, Gardien, Krunt, surface), symptômes et rumeurs, vérité par paliers E0-E7 recoupés entre les trois joueurs, cinq fins ; quatre coûts de pacte comparés ; talents (choisis, hasard, mixte) ; liste des changements au document 05.
 2. **Faible** : le Gardien (motifs) reste **inventé** et **hors Atlas** sur le transport ; les chiffres de la Braise sont **non testés** ; les « fils » personnels (serment de Cyril, passé de Pascal) sont des **gabarits à écrire** avec les joueurs.
-3. **Recommandation 1** : **retenir la Braise** (jauge 8 crans + cadran 24 h) comme coût du pacte, avec le **Gage** en soupape ; **le Registre** reste l'horloge du Flux.
+3. **Recommandation 1** : **retenir la Braise** (jauge 8 crans + cadran 24 h) comme coût du pacte, **seule** (krunt) ; **le Registre** reste l'horloge du Flux.
 4. **Recommandation 2** : **talents mixtes « deux appelés, un tombé »** ; Taranis, l'air du hasard, est en vérité **le choisi du Gardien** (passeur et cartographe).
 5. **Recommandation 3** : **Gardien de lecture G3** (juge de la compréhension), ce qui garde les cinq fins ouvertes et fait de la **fin « Écho allié »** le **couronnement** de la compréhension du cycle.

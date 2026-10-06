@@ -2,7 +2,7 @@
 
 Rédigé le 2026-10-05 après la précision de krunt sur la structure du jeu. Chiffres de départ à tester. Ce chapitre **complète et corrige** les cinq autres.
 
-> **Mise à jour du 2026-10-06 (passe v3, décisions de krunt).** Deux points du chapitre d'origine sont **remplacés** : (1) il n'y a pas « quatre intrigues séparées » mais **une intrigue commune avec des différences** (mêmes faits fondateurs, mêmes antagonistes, mêmes échéances ; différences de statistiques, de métier, de clan, de marques et de fin) ; (2) **les trois autres joueurs apparaissent dans le mode solo de chacun, en PNJ** : « chaque joueur aura son personnage, et pas un autre » (chacun ne contrôle que le sien). La règle « Ne pas créer de copies PNJ » est donc supprimée. Voir `docs/trame/10-trame-v3.md` §1 et §6.
+> **Mise à jour du 2026-10-06 (passe v3, décisions de krunt).** Deux points du chapitre d'origine sont **remplacés** : (1) il n'y a pas « quatre intrigues séparées » mais **une intrigue commune avec des différences** (mêmes faits fondateurs, mêmes antagonistes, mêmes échéances ; différences de statistiques, de métier, de clan, de marques et de fin) ; (2) **les trois autres joueurs apparaissent dans le mode solo de chacun, en PNJ** : « chaque joueur aura son personnage, et pas un autre » (chacun ne contrôle que le sien). La règle « Ne pas créer de copies PNJ » est donc supprimée. Arrivée : les trois autres arrivent **tous au moment du cataclysme, par un portail magique** (pas de calendrier étalé) ; ce qui se passe après l'arrivée est une case ouverte. Voir `docs/trame/10-trame-v3.md` §1 et §6.
 
 ## 1. Ce que krunt a décidé
 
@@ -14,7 +14,7 @@ Rédigé le 2026-10-05 après la précision de krunt sur la structure du jeu. Ch
 
 | Chapitre | Hypothèse des agents | Correction |
 |---|---|---|
-| Tous | « Un héros actif, les trois autres en compagnons ou soutiens » | **Corrigé (passe v3, décision de krunt)** : chaque joueur ne contrôle que **son** personnage, mais **les trois autres apparaissent dans son monde en PNJ** (arrivée J3 à J10, comportement et mémoire du monde : `docs/trame/10-trame-v3.md` §6). La règle d'origine « Ne pas créer de copies PNJ » est **supprimée**. Les autres compagnons du joueur restent des PNJ originaux et des familiers. |
+| Tous | « Un héros actif, les trois autres en compagnons ou soutiens » | **Corrigé (passe v3, décision de krunt)** : chaque joueur ne contrôle que **son** personnage, mais **les trois autres apparaissent dans son monde en PNJ** (tous arrivés au moment du cataclysme par un portail magique, comportement et mémoire du monde : `docs/trame/10-trame-v3.md` §6). La règle d'origine « Ne pas créer de copies PNJ » est **supprimée**. Les autres compagnons du joueur restent des PNJ originaux et des familiers. |
 | 01 | « Combat sans d20 » | Reste vrai pour le **combat** (hitbox, esquive). Les dés interviennent **avant et autour** du combat : réaction des créatures, dressage, fuite, rencontres. |
 | 02 | Artisanat déterministe | À garder (pas de perte de matériaux par malchance), sauf choix explicite du joueur (mode « Forcer »). |
 | 04 | Joute en mode Auto par défaut | Compatible : on ajoute des **jets visibles** aux points de bascule (persuasion, défi, jugement). |

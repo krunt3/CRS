@@ -1,6 +1,6 @@
 # 05 : L'antagoniste, la technique oubliée, l'entité et les terres hostiles
 
-> **Remplacé en partie par `10-trame-v3.md` (passe v3, 2026-10-06) et par `06-entite-et-pacte-v2.md`.** Corrigés dans cette passe : coût du pacte (la Braise ; plus d'oubli de noms) ; ancien nom du rite retiré (le rite devient la Veillée, la technique le Rappel, noms à confirmer par krunt) ; ordre de Krunt3 = Frères de l'Épreuve (« Ordre du Jugement » = surnom, pas l'Ordre du Flux) ; Taranis = Chasseur-Pisteur + Cartographe ; région de Taranis = Déserts Rouges ; sanctions de clan (voir `10` §5) ; arbitre disparu à Aurath ; chronologie (voir `10` §7). En cas de doute, `10` prévaut.
+> **Remplacé en partie par `10-trame-v3.md` (passe v3, 2026-10-06) et par `06-entite-et-pacte-v2.md`.** Corrigés dans cette passe : coût du pacte (la Braise ; plus d'oubli de noms) ; ancien nom du rite retiré ; les deux noms de remplacement proposés ensuite sont **rejetés** par krunt (journal `00`, 2026-10-06 après la passe v3) : le rite et la technique oubliée restent **sans nom** (« le rite », « la technique oubliée » ; [nom à définir]) ; ordre de Krunt3 = Frères de l'Épreuve (« Ordre du Jugement » = surnom, pas l'Ordre du Flux) ; Taranis = Chasseur-Pisteur + Cartographe ; région de Taranis = Déserts Rouges ; sanctions de clan (voir `10` §5) ; arbitre disparu à Aurath ; chronologie (voir `10` §7). En cas de doute, `10` prévaut.
 
 
 Rédigé le 2026-10-06 pour la trame du Jeu B (« le Réceptacle »). Fait suite à `01-personnages-et-point-de-depart.md` et `02-trame-v1.md`. Il applique les décisions de krunt du 2026-10-06 : Krunt3 est le héros ; l'antagoniste qui a détruit sa famille est **un ordre ou un pays** ; la technique oubliée combine **A + B + C** ; « ça tourne mal » = **un pacte à payer** ; les trois autres joueurs sont transportés auprès de lui et peuvent l'aider ou l'abandonner (sanctions de clan).
@@ -12,12 +12,12 @@ Rédigé le 2026-10-06 pour la trame du Jeu B (« le Réceptacle »). Fait suite
 1. **Antagoniste recommandé : l'Ordre du Flux** (ses Brise-Flux), qui a détruit la famille de Krunt par un *Bris de Stagnation* déguisé en catastrophe. Appui livresque direct : la **« huitième famille »** de la Purge des Sept Lignées, dont l'Ordre « n'a pas encore décidé si ça constitue une dette » [L5 ch.8, conflit 2].
 2. **Derrière lui** (vérité optionnelle, à trancher) : un **informateur du Voile Noir** et un **commanditaire d'une Maison Ancienne** qui voulait effacer une lignée et ses archives.
 3. **Fausse piste solide : l'Administration des Pratiques** (Sceau de l'Équilibre, Cœur Impérial) et son « Audit de la Saison Rouge » ; seconde fausse piste : les Théocraties Sacrées.
-4. **Technique : le Rappel.** Rite funéraire des Lames Franches, la Veillée (C), calqué sur le cycle des phœnix (A), retourné par un morceau de Nécrotechnie (B). Les trois pistes s'emboîtent : le rite funéraire *est* une copie humaine du cycle du phœnix ; la nécromancie en est l'inversion.
+4. **Technique : la technique oubliée** (sans nom ; [nom à définir]). Rite funéraire des Lames Franches (C, **[INV]**, à documenter dans StoryForge), calqué sur le cycle des phœnix (A), retourné par un morceau de Nécrotechnie (B). Les trois pistes s'emboîtent : le rite funéraire *est* une copie humaine du cycle du phœnix ; la nécromancie en est l'inversion.
 5. **Pacte : deux créances** : la Dette du Flux (restituer) et la **Braise** (le Loyer de l'Écho : une jauge de 8 crans et un cadran de 24 h, voir `06` §2 et `10` §4.3). L'ancien prix par l'oubli de noms est supprimé.
 6. **Entité : l'écho d'un jeune phœnix tué en pleine phase d'Absorption**, cycle interrompu, qui cherche à finir sa Transformation à travers Krunt. Il a pris à ses côtés quatre personnes dont les talents sont les pièces d'un filtre.
 7. **Terres hostiles : les Marches Frontalières**, aux Ravins de Keth. Taranis y est chez lui côté clan et guilde, mais pas côté naissance ; c'est un atout et un piège (sanction la plus rapide).
 8. **Sanctions** : Guilde Martiale (délai de 7 jours, clause), Navigateurs Gris (désaveu rapide et discret), Sceau Pourpre (lente, juridique, déclenchée par le serment), Lames Franches (ne punissent pas l'abandon mais la possession des morts).
-9. **Chronologie** : une frise relative autour du **J0 = nuit du Rappel**, accrochée aux Âges du Livre V (Mort du Phœnix de l'Île Cendrée, Terres Ravagées, Sept Brasiers).
+9. **Chronologie** : une frise relative autour du **J0 = nuit du rite**, accrochée aux Âges du Livre V (Mort du Phœnix de l'Île Cendrée, Terres Ravagées, Sept Brasiers).
 10. Principaux **[!]** : le rite funéraire des Lames Franches **n'existe pas dans les livres** ; Krunt3 n'est pas Mage Noir niveau 30 ; la Nuit des Sept Brasiers est datée de deux façons ; « Sceau de l'Équilibre » (Atlas) et « Sceau Pourpre » (Livre V) sont deux entités distinctes ; la région « Plaines Franches » et l'école « Deux Lames » ne sont pas dans les livres. Liste complète en §7.
 
 ---
@@ -126,7 +126,7 @@ DD indicatifs, d20 + attribut + compétence. Tous les jets sont **visibles** (r�
 
 ---
 
-## 2. La technique oubliée : le Rappel (A + B + C)
+## 2. La technique oubliée : le rite (A + B + C)
 
 ### 2.1 Les trois racines (ce que disent les livres)
 
@@ -138,18 +138,18 @@ DD indicatifs, d20 + attribut + compétence. Tous les jets sont **visibles** (r�
 
 ### 2.2 L'histoire de la technique **[P]**
 
-**Naissance (Ère des Guerres Sans Nom, 2e Âge).** Sur un champ de bataille, des soldats abandonnés sans sépulture assistent, de loin, à la **Transformation d'un phœnix** : la lumière purifie la plaine, et les morts autour semblent *apaisés*. Ils copient le geste à leur échelle : un feu, des cendres, des noms. C'est **la Veillée** (nom proposé, à confirmer par krunt) : neuf nuits où l'on veille les morts, puis une nuit où l'on rappelle chaque mort par son nom pour **le délier** de son serment et de sa dette (écho de leur doctrine : un contrat qui ne peut être quitté est nul). Le rite est *funéraire* : on rappelle pour **laisser partir**. Les Lames le gardent comme un secret de clan, **le Rôle des Noms** (liste cumulée des morts du clan) et la **Cendre Mère** (cendre du premier rite, mêlée de cendres de phœnix).
+**Naissance (Ère des Guerres Sans Nom, 2e Âge).** Sur un champ de bataille, des soldats abandonnés sans sépulture assistent, de loin, à la **Transformation d'un phœnix** : la lumière purifie la plaine, et les morts autour semblent *apaisés*. Ils copient le geste à leur échelle : un feu, des cendres, des noms. C'est **le rite** (sans nom ; [nom à définir]) : neuf nuits où l'on veille les morts, puis une nuit où l'on rappelle chaque mort par son nom pour **le délier** de son serment et de sa dette (écho de leur doctrine : un contrat qui ne peut être quitté est nul). Le rite est *funéraire* : on rappelle pour **laisser partir**. Les Lames le gardent comme un secret de clan, **le Rôle des Noms** (liste cumulée des morts du clan) et la **Cendre Mère** (cendre du premier rite, mêlée de cendres de phœnix).
 
 **Perte.** Après la *Révolte des Trois Camps* et, surtout, la **Guerre des Contrats Empoisonnés** (purge interne des Lames), les « Veilleurs de Noms » (gardiens du rite) sont dispersés ou exécutés. Il n'en reste **qu'une lignée**, qui a rejoint les Lames : celle de Krunt, la future « huitième famille ». Le rite devient un rite domestique, transmis à voix basse, dont personne ne comprend plus la raison mécanique : c'est une **copie du cycle du phœnix**, et la Cendre Mère en est le « filtre ». Le Flux, lui, y voit une *mémoire qui retient*.
 
 **Pourquoi Krunt la trouve.** Il est l'héritier de la lignée ; après le Bris, il possède le Rôle des Noms et un fragment de la Cendre Mère, mais le rite, tel que transmis, **ne sait que délier**. Pour **ramener**, il lui faut l'inverse. Un **courtier du Voile** (à Dureth, voir §1.2 C4) lui vend un **manuscrit de Nécrotechnie** (le « Codex du Seuil ») qui contient la clé du niveau 30 « empruntée » à un Mage Noir mort, et des **cendres brutes** de phœnix tué (matériau du Convoi Fantôme). Krunt, en deuil, assemble les trois : **C** (le rite), **A** (les cendres, le cycle), **B** (l'inversion). **[P]**
 
-### 2.3 Les étapes du Rappel (comment Krunt l'a fait) **[P]**
+### 2.3 Les étapes du rite (comment Krunt l'a fait) **[P]**
 
 | # | Étape | Ce qui s'y passe | Lien avec les livres |
 |---|---|---|---|
 | 1 | **Le Lieu** | La ferme ruinée, encore chaude de l'onde de retour du Bris (éther instable). | Zone d'éther instable, L2 ch.7 |
-| 2 | **Les Neuf Nuits** (la Veillée) | Il attend neuf nuits (coutume des Lames : on veille avant de laisser partir). Il est au bout de ses forces. Ces neuf nuits ont lieu **avant** J0, jamais après. | [P] |
+| 2 | **Les Neuf Nuits** (le rite) | Il attend neuf nuits (coutume des Lames : on veille avant de laisser partir). Il est au bout de ses forces. Ces neuf nuits ont lieu **avant** J0, jamais après. | [P] |
 | 3 | **Le Feu des Noms** | Il brûle le Rôle des Noms avec la Cendre Mère dans un feu rituel : il lit chaque nom. C'est un **rite de clan**, pas une Technique d'École : Krunt3 n'a pas d'école de feu (Danse Rouge est en mode Flux). | [P] ; l'école Cendres Vives (L6) n'est qu'un parallèle (Préservation artificielle interdite) |
 | 4 | **L'Inversion** | Il lit les noms à l'envers : au lieu de délier, il *retient*. C'est la Nécro-animation : la Lecture spectrale des morts récents + la Fusion « cible liée ». | L7 Mage Noir niv. 23-25 ; L2 +5 Corruption |
 | 5 | **La Saturation** | Il verse les cendres brutes du phœnix tué sur les corps : la Corruption brute des cendres sert de « carburant » du cycle. | L4 ch.13 §3 : libération non transformée |
@@ -170,13 +170,13 @@ DD indicatifs, d20 + attribut + compétence. Tous les jets sont **visibles** (r�
 
 ### 2.5 Ce qui tourne mal
 
-1. **Pas de filtre** : la Cendre Mère n'a suffi que pour *un* mort ; les autres sont rappelés « pleins de Corruption », changés (voir « Les Rappelés » ci-dessous).
+1. **Pas de filtre** : la Cendre Mère n'a suffi que pour *un* mort ; les autres sont rappelés « pleins de Corruption », changés (voir « Les morts revenus » ci-dessous).
 2. **Les cendres brutes** libèrent une Corruption non transformée ; elle reste dans la zone (petite zone morte) et dans l'officiant. [L4 ch.13 §3]
 3. **L'écho entre** : l'entité s'installe dans la porte ouverte.
 4. **Le Flux voit** : toute nécro-animation est une dette (L6 ch.11 : « Réaction hostile garantie de l'Ordre du Flux si découvert »).
 5. **Les Lames voient** : « Une lame qui retient les morts est un maître qu'on ne peut plus quitter » ; rupture des liens claniques si confirmé.
 
-**Les Rappelés (famille revenue)** : ils *reviennent changés*, liés à Krunt par le Fil (sang) et à leur foyer par la stagnation. Ils ne quittent pas un rayon d'environ un kilomètre autour de la ferme (zone morte). **Option** : un seul (la mère, ou un enfant) a vraiment « repris » grâce à la Cendre Mère ; **les autres sont des échos**. À trancher par krunt.
+**Les morts revenus (famille revenue)** : ils *reviennent changés*, liés à Krunt par le Fil (sang) et à leur foyer par la stagnation. Ils ne quittent pas un rayon d'environ un kilomètre autour de la ferme (zone morte). **Option** : un seul (la mère, ou un enfant) a vraiment « repris » grâce à la Cendre Mère ; **les autres sont des échos**. À trancher par krunt.
 
 ### 2.6 Le pacte à payer : deux créances (Dette du Flux, Braise)
 
@@ -184,14 +184,14 @@ Le « coût d'utilisation » n'est pas payé une fois : il se **renouvelle**, et
 
 | Créance | Créancier | Nature du prix | Échéance | Conséquence mécanique (hypothèse) |
 |---|---|---|---|---|
-| **1. La Dette du Flux** | Ordre du Flux | **Restituer** : rendre à qui de droit (les Rappelés doivent être *déliés*, ou un sacrifice équivalent doit être consenti : Rite de Restitution). | Dès J0 (la Veillée a eu lieu **avant**) ; première visite d'un Arbitre à J+20 (Rapport de Témoin remis) ou J+30 ; mandat de Bris à J+60 si rien n'est fait. | Marque **Dette du Flux** (Faction, Monde) ; Honneur suspendu auprès du Sceau Pourpre et du Flux ; à J+60 : Tension du groupe monte par crans (arrivée d'un Brise-Flux). |
+| **1. La Dette du Flux** | Ordre du Flux | **Restituer** : rendre à qui de droit (les morts revenus doivent être *déliés*, ou un sacrifice équivalent doit être consenti : Rite de Restitution). | Dès J0 (le rite a eu lieu **avant**) ; première visite d'un Arbitre à J+20 (Rapport de Témoin remis) ou J+30 ; mandat de Bris à J+60 si rien n'est fait. | Marque **Dette du Flux** (Faction, Monde) ; Honneur suspendu auprès du Sceau Pourpre et du Flux ; à J+60 : Tension du groupe monte par crans (arrivée d'un Brise-Flux). |
 | **2. La Braise** (ancien Loyer de l'Écho) | L'entité | **Nourrir** : chaque pouvoir monte une jauge de 8 crans ; un Loyer de +2 braises à chaque Aube ; il faut la **libérer de façon contrôlée** (VOL + Absorption, DD 13, visible) avant l'**Embrasement** (voir `06` §2.4 et `10` §4.3). | **Toutes les 24 h** (premier Loyer **J1 à l'Aube**). | Défaut : Embrasement (dégâts de zone, +2 Corruption à Krunt, +1 aux alliés, Tension +1). Les alliés peuvent aider : Mage Blanc (stabiliser), Alchimiste (Onguent de Purge, −2 par semaine, L2 ch.7 §6), Taranis (lieu isolé). |
 | *3. (supprimée)* | | Décision de krunt : le coût par l'oubli de noms est **retiré** (la fatigue et le deuil suffisent). | | À 25+ Corruption : « Transgression Finale », trois voies (L2 ch.7 §3 : Rupture, Résistance, Sacrifice) ; l'Honneur de Krunt passe de Reconnu à Suspect à cause du **premier Embrasement public**, pas d'un oubli. |
 
 **Corruption de départ de Krunt (hypothèse)** : Pacte avec entité non reconnue +3 ; Rituel interdit complété +2 à +4 ; Nécro-animation +5 ; à quoi s'ajoute la Corruption brute des cendres. **Total ≈ 12 à 16** : seuil « La Marque » ou « L'Emprise » [L2 ch.7 §3]. La Braise le fait monter de **+1 par jour à partir de Flamme** et de **+2 par Embrasement** (`06` §2.5). Les autres personnages démarrent à 0 à 1 et gagnent « Présence prolongée aux côtés d'une créature corrompue (arc entier) : VOL DD 12, +1 » [L2 ch.7 §2].
 
 **Marques du monde (mémoire du monde, chapitre 06)** à déposer dans le monde de chaque joueur [P] :
-- `rite_interdit` (Monde, −3), `necro_animation` (Région/Faction : Théocraties, Flux, Porte-Cendres), `dette_du_flux` (Faction : Flux, Sceau Pourpre), `fil_de_sang` (Personnage : lien aux Rappelés), `phoenix_tue` (Monde, −5 et événement) si on découvre l'origine des cendres ; pour la Braise : `braise_haute`, `embrasement`, `gage_donné`, `gage_dû` (`06` §5.3 ; liste unique à écrire, `10` §9). La marque `nom_perdu` est supprimée.
+- `rite_interdit` (Monde, −3), `necro_animation` (Région/Faction : Théocraties, Flux, Porte-Cendres), `dette_du_flux` (Faction : Flux, Sceau Pourpre), `fil_de_sang` (Personnage : lien aux morts revenus), `phoenix_tue` (Monde, −5 et événement) si on découvre l'origine des cendres ; pour la Braise : `braise_haute`, `embrasement` (`06` §5.3 ; liste unique à écrire, `10` §9). La marque `nom_perdu` est supprimée.
 - Marques positives pour les aidants : `loyaute` et `compassion` (Krunt), `abandon` (si départ).
 
 ---
@@ -214,9 +214,9 @@ Le « coût d'utilisation » n'est pas payé une fois : il se **renouvelle**, et
 
 | Registre | Manifestation | Déclencheur | Seuil de Corruption (L2) |
 |---|---|---|---|
-| **Voix** | Chaleur plutôt que mots : une voix de braises qui prononce les *noms des morts de la famille* ; à haut niveau, elle parle avec la voix d'un des Rappelés. | Nuit, fatigue, Corruption | 4 à 7 : rêves ; 13+ : voix |
+| **Voix** | Chaleur plutôt que mots : une voix de braises qui prononce les *noms des morts de la famille* ; à haut niveau, elle parle avec la voix d'un des morts revenus. | Nuit, fatigue, Corruption | 4 à 7 : rêves ; 13+ : voix |
 | **Symptômes** | Peau chaude sans fièvre ; veines qui rougeoient ; froid inversé ; fatigue et deuil (plus d'oubli de noms) ; Krunt ne brûle pas au feu, mais *s'éteint* près de l'eau. | Corruption, usage | 8 à 12 : marques ; 19+ : visible à tous |
-| **Pouvoirs de Krunt** | (1) **Absorption de Corruption** ; (2) **Cycle Accéléré** (rayon 5 m) ; (3) **Signature Éthérique** (les créatures corrompues l'évitent) ; (4) chaleur passive, **Tension qui se récupère plus vite dans un rayon de 100 m** (comme près d'un phœnix, L4 ch.14 §3). | Après le Rappel | dès la Marque |
+| **Pouvoirs de Krunt** | (1) **Absorption de Corruption** ; (2) **Cycle Accéléré** (rayon 5 m) ; (3) **Signature Éthérique** (les créatures corrompues l'évitent) ; (4) chaleur passive, **Tension qui se récupère plus vite dans un rayon de 100 m** (comme près d'un phœnix, L4 ch.14 §3). | Après le rite | dès la Marque |
 | **Effet de zone** | Réduction de Corruption **1 point par jour** autour de lui, rayon 5 km, **tant qu'il est en Absorption** [L4 ch.14 §3 : effet « disparaît dès que le phœnix part »]. | Permanent | tant que non saturé |
 | **Saturation** | Libération rapide puis explosive (comme un phœnix en Saturation) : fin de zone, mort possible. | Corruption ≥ 19-24 | « La Saturation » |
 
@@ -277,7 +277,7 @@ Le tableau d'affiliation donne pour les **Marches Frontalières** : clan dominan
 
 ### 4.4 La première semaine
 
-Contraintes : chacun arrive **avec ce qu'il portait** à l'instant du transport, sans provisions ; Krunt est en transe ; le groupe est à une dizaine de kilomètres du **Poste 7** et à environ 3 jours de **Dureth** (distances **[INV]**, non données par l'Atlas). *En solo, voir `10` §6 : le joueur est seul avec Krunt3 et les trois autres arrivent entre J3 et J10.* Règles de survie : eau 1 L toutes les 4 h (1 L/2 h en chaleur) ; une ration par jour ; fatigue, froid, déshydratation [L10 ch.12] ; recherche de nourriture DD 12 (terrain normal), 16 (difficile) [L10 §4].
+Contraintes : chacun arrive **avec ce qu'il portait** à l'instant du transport, sans provisions ; Krunt est en transe ; le groupe est à une dizaine de kilomètres du **Poste 7** et à environ 3 jours de **Dureth** (distances **[INV]**, non données par l'Atlas). *Les trois autres personnages-joueurs arrivent tous au moment du cataclysme, par un portail magique (décision de krunt, `10` §6) ; ce qui se passe ensuite est une case ouverte.* Règles de survie : eau 1 L toutes les 4 h (1 L/2 h en chaleur) ; une ration par jour ; fatigue, froid, déshydratation [L10 ch.12] ; recherche de nourriture DD 12 (terrain normal), 16 (difficile) [L10 §4].
 
 | Jour | Objectif | Qui porte | Risque | Mode de jeu (démo) |
 |---|---|---|---|---|
@@ -299,7 +299,7 @@ Contraintes : chacun arrive **avec ce qu'il portait** à l'instant du transport,
 
 ### 5.1 Principe commun
 
-> **Passe v3.** Le système complet (types de clans : donneur d'ordres, gardien de légende, autre ; honneur propre à chaque clan ; règle de la Légende du Cycle ; distinction entre sanction de l'**abandon**, de l'**absence** et de l'**ignorance de la légende**) est dans `10-trame-v3.md` §5. Il remplace cette section sur la logique de sanction ; les valeurs de délai de ce document sont reprises dans la table de `10`.
+> **Passe v3.** Le système complet (honneur propre à chaque clan, sans types imposés ; les attributions « gardien de la légende du phœnix » sont **retirées**, case ouverte à appuyer dans la recherche de StoryForge) est dans `10-trame-v3.md` §5. Il remplace cette section sur la logique de sanction ; les valeurs de délai de ce document sont reprises dans la table de `10`.
 
 Les livres ne prévoient pas de sanction de clan pour « abandon d'un inconnu ». Ils prévoient : des **obligations universelles** (défense d'un membre en danger direct, ne pas agir contre les intérêts du clan) [L5 ch.2 §3] ; une **échelle d'exclusion** : Désaveu discret, Mise à l'écart (DD +3), Exclusion formelle (désavantage dans la zone), Exil [L1 ch.9 §VII.c] ; la **pression de clan** (désavantage ; résistances répétées = risque d'exclusion) [L1 ch.9 §V.b]. J'attache donc la sanction à une **obligation concrète** que chaque clan peut invoquer. **[P]**
 
@@ -310,11 +310,11 @@ Les livres ne prévoient pas de sanction de clan pour « abandon d'un inconnu »
 | | **Sceau Pourpre** (Cyril, Pascal) | **Navigateurs Gris** (Taranis) | **Lames Franches** (Krunt3) |
 |---|---|---|---|
 | **Ce que le clan attend** | Qu'un **serment tenu** le reste : « L'émotion ne justifie jamais la rupture d'un serment ». | **Que celui qui connaît la route ne laisse personne sur une route qu'il a ouverte.** | **Qu'on ne retienne jamais personne, même mort** (« une lame ne doit jamais être liée à vie »). |
-| **Déclencheur** | Un **serment d'aide** prononcé la première nuit (choix libre du joueur, **[P]** : la nuit où l'on décide de rester) puis rompu ; ou des « Appels du Clan » ignorés (un arbitre senior a disparu à **Aurath**, Cœur Impérial, hook de l'Atlas : pas aux Marches). | Abandonner le groupe **en terre des Navigateurs** ; refuser un rôle de Passeur quand on le lui demande. | Krunt3 *retient* les Rappelés (maître qu'on ne peut plus quitter) ; ou abandonne un compagnon qui a dit « reste ». |
-| **Forme** | Légale : citation → **Désaveu discret** → **Mise à l'écart** → **Exclusion formelle** (Excommunication diplomatique) ; sanction éventuelle par les **Exécuteurs Mandatés** si le serment était public. | **Cartes qui mentent** : cartes « vives » volontairement fausses, Passeurs qui ne répondent plus, caches vidées, Vigies qui ne préviennent plus ; **Boussole éteinte** (exclusion du réseau). | Le **Cercle de Fer** convoque un « Code Brisé » ; **rupture de contrat**, réseaux de mercenaires fermés ; **Briseurs de Serments** lancés contre lui si les Rappelés sont confirmés. |
+| **Déclencheur** | Un **serment d'aide** prononcé la première nuit (choix libre du joueur, **[P]** : la nuit où l'on décide de rester) puis rompu ; ou des « Appels du Clan » ignorés (un arbitre senior a disparu à **Aurath**, Cœur Impérial, hook de l'Atlas : pas aux Marches). | Abandonner le groupe **en terre des Navigateurs** ; refuser un rôle de Passeur quand on le lui demande. | Krunt3 *retient* les morts revenus (maître qu'on ne peut plus quitter) ; ou abandonne un compagnon qui a dit « reste ». |
+| **Forme** | Légale : citation → **Désaveu discret** → **Mise à l'écart** → **Exclusion formelle** (Excommunication diplomatique) ; sanction éventuelle par les **Exécuteurs Mandatés** si le serment était public. | **Cartes qui mentent** : cartes « vives » volontairement fausses, Passeurs qui ne répondent plus, caches vidées, Vigies qui ne préviennent plus ; **Boussole éteinte** (exclusion du réseau). | Le **Cercle de Fer** convoque un « Code Brisé » ; **rupture de contrat**, réseaux de mercenaires fermés ; **Briseurs de Serments** lancés contre lui si les morts revenus sont confirmés. |
 | **Premier signe** | Semaine 2 (lettre d'un Juge de Serment) | Semaine 1 à 2 (cartes fausses, caches vidées) | Semaine 1 (un Capitaine Fractal refuse un contrat) |
 | **Délai typique** | **Lent** (semaines à mois) ; irrévocable une fois prononcé. | **Rapide et discret** (le clan est chez lui). | **Variable** ; **dur si la possession des morts est confirmée** (rupture des liens, L6 ch.11). |
-| **Comment l'éviter / la lever** | Faire certifier l'aide comme « serment tenu » ; **contester le mandat du Flux** en droit ; réhabilitation formelle. | Rapporter l'information demandée (« La Route Impossible ») ; faire acte de Passeur pour d'autres. | **Délier** les Rappelés (la Veillée) ; faire juger l'affaire par le Cercle de Fer (précédent). |
+| **Comment l'éviter / la lever** | Faire certifier l'aide comme « serment tenu » ; **contester le mandat du Flux** en droit ; réhabilitation formelle. | Rapporter l'information demandée (« La Route Impossible ») ; faire acte de Passeur pour d'autres. | **Délier** les morts revenus (le rite) ; faire juger l'affaire par le Cercle de Fer (précédent). |
 | **Effet de jeu** | Honneur, accès aux archives, Exécuteurs, cartes « Sceau » du chapitre 04. | Perte du bonus d'exploration et de survie ; routes alternatives fermées. | Perte de bonus de duel/escarmouche et du réseau de mercenaires. |
 
 ### 5.3 Les guildes (les sanctions les plus concrètes)
@@ -344,7 +344,7 @@ Ordres de la campagne absents des livres : **Ordre du Jugement** (Krunt3) et **S
 
 ## 6. Chronologie
 
-**Notation.** `T-` = avant le J0 ; `J` = jours après le J0. **J0 = la nuit du Rappel.** Les événements `[L5]` sont de la frise du Livre V ; `[P]` sont inventés.
+**Notation.** `T-` = avant le J0 ; `J` = jours après le J0. **J0 = la nuit du rite.** Les événements `[L5]` sont de la frise du Livre V ; `[P]` sont inventés.
 
 ### 6.1 Avant
 
@@ -352,7 +352,7 @@ Ordres de la campagne absents des livres : **Ordre du Jugement** (Krunt3) et **S
 |---|---|---|
 | 1er Âge | Phœnix actifs et nombreux ; la Corruption est régulée ; « Début des Dettes » (Flux) | L5 ch.1 §1 |
 | 2e Âge (Guerres Sans Nom) | Naissance des **Lames Franches** et du **Sceau Pourpre** | L5 ch.1 §2 |
-| 2e Âge | **Naissance de la Veillée** (rite funéraire, copie du cycle d'un phœnix) | **[P]** |
+| 2e Âge | **Naissance du rite** (rite funéraire, copie du cycle d'un phœnix) | **[P]** |
 | 2e Âge | Révolte des Trois Camps ; plus tard Guerre des Contrats Empoisonnés : **les Veilleurs de Noms sont dispersés** | L5 clan 2 ; **[P]** |
 | 3e Âge | Ascension Ratée du Ciel Brisé ; naissance des Failles | L5 ch.1 §3 |
 | 4e Âge (il y a ~300 ans) | **Mort du Phœnix de l'Île Cendrée** ; naissance des Théocraties | L5 ch.1 §4 |
@@ -377,8 +377,8 @@ Ordres de la campagne absents des livres : **Ordre du Jugement** (Krunt3) et **S
 | Quand | Événement |
 |---|---|
 | T-9 à T0 | Krunt retrouve les corps ; veille ; achat à Dureth (via un courtier du Voile) des cendres brutes et du Codex du Seuil. |
-| **J0** (nuit) | **Le Rappel** : les sept noms, le feu, l'inversion ; les Rappelés se lèvent ; Krunt devient réceptacle. Une petite zone morte se forme autour de la ferme. |
-| J0 + quelques heures | **Le Filet** (instantané) dépose Krunt au cratère des Ravins de Keth, en transe jusqu'au J1-J2. Quatre personnes arrivent au cratère à la table (J0) ; **en solo**, les trois autres sont dispersés et arrivent entre J3 et J10 (`10` §6). |
+| **J0** (nuit) | **Le rite** : les sept noms, le feu, l'inversion ; les morts revenus se lèvent ; Krunt devient réceptacle. Une petite zone morte se forme autour de la ferme. |
+| J0 + quelques heures | **Le Filet** (instantané) dépose Krunt au cratère des Ravins de Keth, en transe jusqu'au J1-J2. Quatre personnes arrivent au cratère à la table (J0) ; les trois autres personnages-joueurs arrivent aussi à J0, par un portail magique (`10` §6) ; leur sort ensuite est une case ouverte. |
 
 ### 6.3 Après
 
@@ -386,11 +386,11 @@ Ordres de la campagne absents des livres : **Ordre du Jugement** (Krunt3) et **S
 |---|---|---|
 | **J1 à J7** | **Première semaine** (§4.4) | Survie, premier boss |
 | **J7** | Délai de grâce de la Guilde Martiale | Sanction n°1 |
-| **J9** | Les Rappelés *stagnent* (première limite de la Dette du Flux ; les Neuf Nuits sont **avant** J0) | Pacte, créance 1 |
+| **J9** | Les morts revenus *stagnent* (première limite de la Dette du Flux ; les Neuf Nuits sont **avant** J0) | Pacte, créance 1 |
 | J14 | Premier Appel du Clan ; premier désaveu des Navigateurs Gris | Sanction n°2 |
 | **J20 ou J30** | **Première visite d'un Arbitre du Flux** (« La Dette des Personnages ») : J20 si le Rapport de Témoin du Sceau est remis, sinon J30 | Palier 7 |
 | J30 à J60 | Poursuite par les Théocraties (rumeur, inquisiteur) | Fausse piste n°2 |
-| **J60** | Appel d'offres de la **Route du Nord** (« dans deux mois » à l'ouverture de l'Atlas) ; mandat de Bris contre les Rappelés si aucune restitution | Tensions des Marches |
+| **J60** | Appel d'offres de la **Route du Nord** (« dans deux mois » à l'ouverture de l'Atlas) ; mandat de Bris contre les morts revenus si aucune restitution | Tensions des Marches |
 | J90 | Le Cœur Gris accélère ; premières mutations de créatures autour des Ravins | Entités |
 | ~18 mois | La **Fissure Centrale** atteint les Marches | L5 ch.1 §5 |
 
@@ -404,7 +404,7 @@ Ordres de la campagne absents des livres : **Ordre du Jugement** (Krunt3) et **S
 
 | # | Constat | Gravité |
 |---|---|---|
-| 1 | **Le rite funéraire des Lames Franches n'existe pas** dans les livres (le Livre V ne mentionne aucun rite des morts) : la Veillée (nom proposé) et les Veilleurs de Noms sont inventés. | **[!]** à valider |
+| 1 | **Le rite funéraire des Lames Franches n'existe pas** dans les livres (le Livre V ne mentionne aucun rite des morts) : le rite funéraire (sans nom ; [nom à définir]) et les Veilleurs de Noms sont inventés. | **[!]** à valider |
 | 2 | **Nécromancie** (L7 Mage Noir nv.30, mot « Nécromancie »), **Nécrotechnie** (L6) et **Nécro-animation** (L2) : trois mots pour des notions voisines. Krunt3 n'est pas Mage Noir ; la « clé empruntée » du Codex est une rustine. | **[!]** |
 | 3 | Les Techniques liées au phénix exigent un phénix **vivant** (L6 ch.12) ; ici elles viennent d'un écho. | **[!]** |
 | 4 | **Nuit des Sept Brasiers** : le Livre V ch.1 la place au **4e Âge**, la fiche du clan Cendres Liées la place à la **fin de l'Ère des Guerres Sans Nom** (2e Âge). | **[!]** contradiction interne du Livre V |
@@ -415,15 +415,15 @@ Ordres de la campagne absents des livres : **Ordre du Jugement** (Krunt3) et **S
 | 9 | Livre V : l'exclusion des Lames Franches est « une rupture de contrat, sans marque infamante » ; Livre VI : la Nécrotechnie confirmée entraîne la « rupture de tous les liens claniques ». Compatible, mais à dire. | **[P]** |
 | 10 | **Sauver une vie ne fait pas de bruit** : épigraphe du Mage Blanc placée sous le Mage Noir (coquille du Livre VII). | **[!]** détail |
 | 11 | **Tension** : collective au Livre I, individuelle dans la fiche VTT (gauge-ten par personnage). | **[!]** détail de règle |
-| 12 | **Honneur** de la fiche Krunt3 = 4 (Reconnu) : après le Rappel et selon le secret, passage en Suspect (2-3) ou Paria (0-1). | **[P]** |
+| 12 | **Honneur** de la fiche Krunt3 = 4 (Reconnu) : après le rite et selon le secret, passage en Suspect (2-3) ou Paria (0-1). | **[P]** |
 
 ### 7.2 Décisions à prendre par krunt (par ordre d'importance)
 
 1. **Valider l'Ordre du Flux comme antagoniste** (ou choisir C2, C3, C5). La huitième famille est-elle bien la famille de Krunt ? Sa lignée est-elle d'origine noble (couche 3) ?
 2. **Jusqu'où va la vérité** : s'arrête-t-elle au Flux (couche 1), au Voile (couche 2), ou à la Maison Ancienne (couche 3) ?
-3. **Le rite C** : l'ancien nom est retiré (décision de krunt) ; proposition : **la Veillée**, à confirmer ; l'écrire dans le Livre V comme complément du clan Lames Franches ? (`10` Q1, Q11)
-4. **Le prix** : **tranché par krunt** : le prix par l'oubli de noms est supprimé ; deux créances (Dette du Flux, Braise). Reste : Braise seule ou Braise + Gage ? (`10` Q2)
-5. **Les Rappelés** : sept échos, un seul revenu, ou aucun (illusion de l'entité) ? Combien de membres dans la famille ?
+3. **Le rite C** : l'ancien nom est retiré (décision de krunt) ; les noms de remplacement proposés sont **rejetés** : le rite reste sans nom ([nom à définir]) ; l'écrire dans StoryForge comme complément du clan Lames Franches ? (`10` Q11)
+4. **Le prix** : **tranché par krunt** : le prix par l'oubli de noms est supprimé ; deux créances (Dette du Flux, Braise) ; **Braise seule, pas d'autre coût** (journal `00`, après la passe v3).
+5. **Les morts revenus** : sept échos, un seul vraiment revenu, ou aucun (illusion de l'entité) ? Combien de membres dans la famille ?
 6. **L'entité** : écho de phœnix (E1), version double (E1b), Gardien du Nord (E2) ou ancêtre (E3).
 7. **Origine de Taranis** : **résolu** : Déserts Rouges (Atlas région 9).
 8. **Un phœnix tué il y a onze mois** et un Convoi qui transporte ses cendres : acceptable ?
@@ -436,5 +436,5 @@ Ordres de la campagne absents des livres : **Ordre du Jugement** (Krunt3) et **S
 
 - Les **jets chiffrés** (DD, coûts) sont des hypothèses à tester en partie réelle.
 - Le **détail des arbres de compétences** relève de `docs/mecaniques/03` et de `04-equilibrage-personnages.md`.
-- La mise en scène des **Rappelés** (la famille) dans le jeu solo reste à écrire (scènes, dialogues).
+- La mise en scène des **morts revenus** (la famille) dans le jeu solo reste à écrire (scènes, dialogues).
 - Les noms propres (PNJ, lieux) : à fixer dans StoryForge ; les noms des livres font foi.
