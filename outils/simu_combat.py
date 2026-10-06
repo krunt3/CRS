@@ -3,14 +3,14 @@
 """
 simu_combat.py : essais d'équilibrage du combat du Jeu B (CRS), par simulation Monte-Carlo.
 
-Python 3.8+, bibliothèque standard seulement. Reproductible : toutes les tirages dérivent de
+Python 3.8+, bibliothèque standard seulement. Reproductible : tous les tirages dérivent de
 SEED (une graine par cellule de résultat, obtenue par CRC32 de l'étiquette de la cellule).
 
 Usage
     python3 outils/simu_combat.py                      # rapport complet (Markdown) sur la sortie standard
     python3 outils/simu_combat.py --sections echelle,K # seulement certaines sections
     python3 outils/simu_combat.py --n 500 --seed 7     # moins de tirages, autre graine
-    sections : echelle, livre, jeu, K, tank, leviers, variantes, competence
+    sections : echelle, livre, jeu, K, tank, leviers, variantes, competence, equiv, modeles
 
 Ce que la simulation fait (voir docs/trame/07-essais-equilibrage.md pour les limites)
     * temps abstrait : 1 round = 4 s ; les héros agissent par ordre d'initiative, puis les monstres ;
@@ -60,7 +60,7 @@ PRESETS = {
         cad_escorte=0.6,         # INVENTÉ : les éclaireurs attaquent « en alternance »
         f_recu=0.65 / 4.0,       # facteur 0,65 puis conversion point de coup -> case (1 case = 4 PC), §4.1-4.2
         armure_pct=True,         # PC reçus x (1 - min(0,35 ; 0,05 x CA)), §4.3
-        regen_end=4.0,           # INVENTÉ : 2 /s après 0,8 s (§3.2) ramené à ~1 /s utile (garde, roulades, coups)
+        regen_end=5.0,           # 2 /s après 0,8 s sans dépense (§3.2) : environ 5 par round de 4 s si l'on dépense toutes les 2,5 s (dérivé)
         b_cout_end=0.4,          # modèle B : Endurance par touche (INVENTÉ)
         perseverer=1.0,          # 4 PC = 1 case par round d'action à Endurance 0 (§3.2)
         busy_potion=0.3, busy_tech=0.12, busy_soin=0.35, techs_round=2,
@@ -93,13 +93,15 @@ HEROS = {
 
 # Options de simulation par défaut (modifiables par expérience)
 OPTS_DEFAUT = dict(
-    tank=True,                  # Krunt3 joue Provocation / Mur de Chair / Interposition
+    tank=True,                  # Krunt3 : True = Provocation + Mur de Chair + Interposition ; "provoc" = Provocation seule ; False = aucun
+    krunt_kit="base",           # "base" (cuir, Double Lame) ; "plaques" (CA 4) ; "bouclier" (Épée et Bouclier, maille : kit de Pascal) ; INVENTÉ
     flanc_limite=True,          # Flanc Coordonné : au plus un bonus par cible et par round (docs/trame/04 §7.3)
     bagage_taranis=True,        # correction de krunt : Taranis part avec un bagage (contenu INVENTÉ ci-dessous)
     pascal="base",              # "base" = attaque de base seule (correction de krunt) ; "soutien" ; "bombe"
     souffle=False,              # Souffle du Réceptacle de Krunt3 (docs/trame/04 §5.4, INVENTÉ)
     ouverture=True,             # Provocation : « les alliés bénéficient d'une Ouverture gratuite » (Livre VI)
     esquive=ESQUIVE_BASE,       # compétence du joueur (esquive_base)
+    soin_mana=2,                # coût en Mana du soin de Vitalité de Cyril (Livre VII : soins mineurs ; INVENTÉ : 2)
     kd=1.0,                     # coefficient de réglage des DÉGÂTS des monstres (en plus du facteur 0,65) ; INVENTÉ
     prio_escorte=True,          # les héros tuent les éclaireurs d'abord
     phases=True,                # phases et agonie des fiches
@@ -273,7 +275,8 @@ def construit(scenario, Kb, Km, phases=True):
         listes = [SOU_P12, SOU_P3] if phases else [SOU_P12, SOU_P12]
         b = Mon("Légendaire CR 18 (Garuvorn Sourd)", 79, Kb, 21, 25, "legende", [0.40], listes,
                 res={"tranchant": 0.75, "contondant": 0.75}, cad=1.7, cad_p2=1.0, att_par_action=2,
-                agonie=(3.5 if phases else 0), agonie_att=SOU_P3, regen=3.0, cr=18)
+                agonie=(3.5 if phases else 0), agonie_att=SOU_P3, regen=0.0, cr=18)
+        b.regen_frac = 0.01 if phases else 0.0           # Régénération de rage (phase 3) : 3 Vitalité du livre par round = ~4 % ; ramenée à 1 % (INVENTÉ)
         b.resist_feu = 0.5
         return b, [], 4
     raise ValueError(scenario)
@@ -290,6 +293,11 @@ NOM_SCEN = {"eclaireurs": "4 éclaireurs (cro01)", "chef_seul": "chef de meute s
 class Hero:
     def __init__(self, nom, palier, P, o):
         c = evolue(HEROS[nom], palier)
+        if nom == "Krunt3" and o.get("krunt_kit") == "plaques":
+            c["ca"] += 2
+            c["defense"] += 2
+        elif nom == "Krunt3" and o.get("krunt_kit") == "bouclier":
+            c.update(bouclier=True, dice=(1, 8), ca=c["ca"] + 3, defense=c["defense"] + 3)
         self.nom, self.c = nom, c
         self.vitmax = float(4 + c["END"])
         self.vit = self.vitmax
@@ -325,6 +333,8 @@ class Hero:
         self.coups = 0
         self.potions_utilisees = 0
         self.premier_tombe_round = None
+        self.end_fatal = None
+        self.rounds_end_bas = 0
 
     def p_esquive(self, base):
         p = base + ESQUIVE_PAR_AGI * (self.c["AGI"] - 8)
@@ -392,12 +402,15 @@ class Combat:
             h.end -= tampon
             h.end_use += tampon
             d_cases -= tampon
+        reel = min(d_cases, h.vit)
+        pre_end = h.end + (tampon if self.m == "A" else 0.0)
         h.vit -= d_cases
-        h.vit_perdue += d_cases
+        h.vit_perdue += reel
         if h.vit <= 0:
             h.vit = 0
             h.alive = False
             h.premier_tombe_round = self.round
+            h.end_fatal = pre_end
 
     def convertir(self, h, dmg_livre):
         """Dégâts du Livre -> cases de Vitalité du héros, selon l'échelle."""
@@ -500,7 +513,7 @@ class Combat:
 
     def interposition(self, cible):
         """Krunt3 prend le coup à la place d'un allié (réaction, 2 Endurance)."""
-        if not self.o["tank"] or self.solo:
+        if self.o["tank"] is not True or self.solo:
             return cible
         k = next((h for h in self.vivants() if h.nom == "Krunt3"), None)
         if k is None or k is cible or k.end < COUT_ESQUIVE + 0.0 or k.stun:
@@ -661,7 +674,7 @@ class Combat:
                 h.taunt = True
                 techs -= 1
                 busy += P["busy_tech"]
-            if techs >= 1 and h.end >= 2 + RESERVE_END and any(x.c["melee"] for x in alliés):
+            if o["tank"] is True and techs >= 1 and h.end >= 2 + RESERVE_END and any(x.c["melee"] for x in alliés):
                 self.payer_end(h, 2)
                 h.mur = True
                 techs -= 1
@@ -674,9 +687,9 @@ class Combat:
                 for x in malades:
                     x.dots = []
                 busy += P["busy_tech"]
-            if blesses and h.mana >= 2 and busy < 0.9:
+            if blesses and h.mana >= o["soin_mana"] and busy < 0.9:
                 cible = min(blesses, key=lambda x: x.vit / x.vitmax)
-                h.mana -= 2
+                h.mana -= o["soin_mana"]
                 cible.vit = min(cible.vitmax, cible.vit + 1.0)
                 busy += P["busy_soin"]
         if h.nom == "Pascal":
@@ -814,6 +827,8 @@ class Combat:
             self.round += 1
             for h in self.vivants():
                 h.riposte_ok = True
+                if h.end < COUT_ESQUIVE:
+                    h.rounds_end_bas += 1
                 h.end = min(h.endmax, h.end + P["regen_end"])
                 if h.huile:
                     h.huile_r -= 1
@@ -839,7 +854,7 @@ class Combat:
                 t = o["terrain"]
                 if t and h.alive:
                     if rng.random() < t.get("feu_p", 0):
-                        self.subit(h, de(rng, 1, 6) * (P["f_recu"] if P["nom"] == "jeu" else 1.0))
+                        self.subit(h, de(rng, 1, 6) * (P["f_recu"] if P["nom"] == "jeu" else 1.0) * o["kd"])
                         h.coups -= 1
                         self.hits_par_nom[h.nom] -= 1
                     if rng.random() < t.get("instable_p", 0):
@@ -847,8 +862,9 @@ class Combat:
             for m in self.monstres():
                 m.hit_par = set()
                 m._flanc_pris = False
-                if m.regen and m.agonie_restante is None and m.vit > 0 and m.vit < m.vitmax:
-                    m.vit = min(m.vitmax, m.vit + m.regen)
+                rf = getattr(m, "regen_frac", 0.0)
+                if rf and m.phase() >= 1 and m.agonie_restante is None and m.vit > 0:
+                    m.vit = min(m.vitmax, m.vit + rf * m.vitmax)
             # déclencheur de phase 2 du chef
             if self.boss is not None and self.boss.role == "chef" and not self.boss.declenche:
                 morts = sum(1 for e in self.escortes if e.vit <= 0)
@@ -893,9 +909,12 @@ def une_cellule(etiquette, preset, modele, noms, scenario, Kb, Km, n, opts=None,
     o = dict(OPTS_DEFAUT)
     if opts:
         o.update(opts)
-    P = PRESETS[preset]
+    P = dict(PRESETS[preset])
+    for k in ("cad_boss", "cad_escorte", "touches", "regen_end", "f_recu", "b_cout_end"):
+        if k in o:
+            P[k] = o[k]                                    # surcharge d'un paramètre d'échelle pour une expérience
     rng = random.Random(seed_de(etiquette, base_seed))
-    out = dict(n=n, vic=0, defaite=0, abandon=0, rounds_v=[], rounds_all=[], tombe_un=0, tombe_k=0, tombe_autre=0,
+    out = dict(spir=0, mort_solo=0, end_bas=0.0, n=n, vic=0, defaite=0, abandon=0, rounds_v=[], rounds_all=[], tombe_un=0, tombe_k=0, tombe_autre=0,
                vit={h: [] for h in noms}, end={h: [] for h in noms}, dmg={h: 0.0 for h in noms},
                coups={h: 0 for h in noms}, pots=0, vit_v=[], tension=0)
     for _ in range(n):
@@ -913,7 +932,7 @@ def une_cellule(etiquette, preset, modele, noms, scenario, Kb, Km, n, opts=None,
         un = False
         vit_tot = 0.0
         for h in c.heros:
-            out["vit"][h.nom].append(min(h.vit_perdue, h.vitmax))
+            out["vit"][h.nom].append(h.vit_perdue)
             out["end"][h.nom].append(h.end_use)
             out["dmg"][h.nom] += h.dmg / tot_dmg
             out["coups"][h.nom] += c.hits_par_nom[h.nom]
@@ -924,7 +943,13 @@ def une_cellule(etiquette, preset, modele, noms, scenario, Kb, Km, n, opts=None,
                     out["tombe_k"] += 1
                 else:
                     out["tombe_autre"] += 1
-            vit_tot += min(h.vit_perdue, h.vitmax)
+            vit_tot += h.vit_perdue
+        for h in c.heros:
+            out["end_bas"] += h.rounds_end_bas / max(1, c.round) / len(c.heros)
+            if not h.alive and h.end_fatal is not None:
+                out["mort_solo"] += 1
+                if h.end_fatal < COUT_ESQUIVE:
+                    out["spir"] += 1
         if un:
             out["tombe_un"] += 1
         if r == "victoire":
@@ -971,202 +996,421 @@ def moy_ou_na(l):
 TOUS = ["Krunt3", "Taranis", "Cyril", "Pascal"]
 DUO = ["Krunt3", "Cyril"]
 
+# Réglage recommandé pour le prototype (résultat des essais E3 à E7 ; voir le document 07)
+RECO = dict(K=20, K_meute=4, kd=0.15, cad_boss=1.2, cad_escorte=0.4)
+# Population de joueurs à la première tentative (esquive moyenne, poids) : INVENTÉ, pour simuler 35 à 50 % de victoires
+POP = [(0.35, 0.15), (0.45, 0.30), (0.55, 0.30), (0.65, 0.20), (0.75, 0.05)]
+DECALAGE_JETONS = 0.07          # INVENTÉ : trois Jetons de Connaissance élargissent la fenêtre d'esquive (docs/mecaniques/01 §3.2)
+
+
+def opts_reco(**kw):
+    o = dict(kd=RECO["kd"], cad_boss=RECO["cad_boss"], cad_escorte=RECO["cad_escorte"])
+    o.update(kw)
+    return o
+
+
+def population(etiquette, noms, scenario, K, Km, n, opts, modele="C", decalage=0.0, palier=None):
+    """Victoire pondérée sur la population de joueurs POP ; durée médiane des victoires ; cases perdues par minute."""
+    n_e = max(100, n // 3)
+    w, durees, vit_v, perdu_min = 0.0, [], [], []
+    for esq, p in POP:
+        o = dict(opts)
+        o["esquive"] = min(0.95, esq + decalage)
+        r = une_cellule("%s|e%.2f|d%.2f" % (etiquette, esq, decalage), "jeu", modele, noms, scenario, K, Km, n_e, opts=o, palier=palier)
+        w += p * r["vic"] / n_e
+        durees += r["rounds_v"]
+        vit_v += r["vit_v"]
+        tot_vit = sum(sum(r["vit"][h]) for h in noms) / n_e
+        tot_t = sum(r["rounds_all"]) / n_e * DUREE_ROUND_S / 60.0
+        perdu_min.append(p * tot_vit / max(tot_t, 1e-9) / len(noms))
+    return dict(win=w, dur=mediane(durees), vit_v=moy(vit_v), par_min=sum(perdu_min))
+
+
+def calibre(modele, noms, scenario, K, Km, cible, n, opts, palier=None, par_population=False, etiquette="cal"):
+    """Cherche par dichotomie (échelle log) le kd qui donne la victoire visée. Retourne kd."""
+    lo, hi = math.log(0.003), math.log(1.5)
+    for it in range(9):
+        mid = (lo + hi) / 2
+        kd = math.exp(mid)
+        o = dict(opts)
+        o["kd"] = kd
+        if par_population:
+            v = population("%s|%d" % (etiquette, it), noms, scenario, K, Km, n, o, modele=modele, palier=palier)["win"]
+        else:
+            r = une_cellule("%s|%d" % (etiquette, it), "jeu", modele, noms, scenario, K, Km, n, opts=o, palier=palier)
+            v = r["vic"] / n
+        if v > cible:
+            lo = mid                                       # trop facile : on peut monter les dégâts
+        else:
+            hi = mid
+    return math.exp((lo + hi) / 2)
+
 
 def config_nom(noms):
-    return {1: "solo ", 2: "duo ", 4: "table "}.get(len(noms), "") + "+".join(noms) if len(noms) < 4 else "table (4)"
+    return "+".join(noms) if len(noms) < 4 else "4 héros"
 
 
-def section_echelle():
+def section_echelle(n=0):
     print("### E0. Le problème d'échelle en chiffres (calcul direct, sans tirage)\n")
     lignes = []
     for nom in TOUS:
         c = evolue(HEROS[nom], 0)
         nd, df = c["dice"]
         de_moy = moy_de(nd, df)
-        att_livre = de_moy
         att_jeu = de_moy + c["dmg_attr"] // 4
-        lignes.append([nom, "%dd%d (%.1f)" % (nd, df, de_moy), "%.1f" % att_jeu, "%.1f" % (att_jeu * 2.4)])
-    print(table(["Héros", "Arme (dé moyen, Livre IX)", "Dégâts par touche (formule §4.3)", "Dégâts par round de 4 s (2,4 touches)"], lignes))
+        lignes.append([nom, "%dd%d (%.1f)" % (nd, df, de_moy), "%.1f" % att_jeu, "%.1f" % (att_jeu * 2.4), "%.1f" % (att_jeu * 2.4 / DUREE_ROUND_S),
+                       "%d cases = %d PC" % (4 + c["END"], 4 * (4 + c["END"]))])
+    print(table(["Héros", "Arme (dé moyen, Livre IX)", "Dégâts par touche (formule §4.3)", "Par round de 4 s (2,4 touches)", "Par seconde", "Vitalité"], lignes))
     print()
-    print("Combien de touches pour abattre la créature, aux chiffres bruts du Livre III (K = 1) ?\n")
+    print("Touches nécessaires pour abattre la créature aux chiffres bruts du Livre III (K = 1), dureté de zone incluse ; héros au palier 0 (éclaireur, chef) ou 2 (élite, légendaire).\n")
     lignes = []
     for sc in ["eclaireurs", "chef_seul", "elite", "legende"]:
-        b, esc, _ = construit(sc, 1, 1)
+        b, esc, pal = construit(sc, 1, 1)
         m = b if b is not None else esc[0]
         v = m.vitmax
-        dureté = min(1.3, max(0.35, 1.0 + (10 - m.defense) * 0.04))
-        ligne = [NOM_SCEN[sc].replace("4 éclaireurs", "un éclaireur"), "%d" % v, m.defense, "%.2f" % dureté]
-        for nom in ["Krunt3", "Taranis", "Cyril", "Pascal"]:
-            c = evolue(HEROS[nom], 0 if sc in ("eclaireurs", "chef_seul") else 2)
+        durete = min(1.3, max(0.35, 1.0 + (10 - m.defense) * 0.04))
+        ligne = [NOM_SCEN[sc].replace("4 éclaireurs", "un éclaireur"), "%d" % v, m.defense, "%.2f" % durete]
+        for nom in TOUS:
+            c = evolue(HEROS[nom], 2 if sc in ("elite", "legende") else 0)
             nd, df = c["dice"]
-            dmg_t = (moy_de(nd, df) + c["qual"] + c["dmg_attr"] // 4) * dureté
-            ligne.append("%.0f" % math.ceil(v / dmg_t))
+            dmg_t = (moy_de(nd, df) + c["qual"] + c["dmg_attr"] // 4) * durete
+            ligne.append("%d" % math.ceil(v / dmg_t))
         lignes.append(ligne)
-    print(table(["Cible", "Vitalité du livre", "Défense", "Dureté", "Touches Krunt3", "Touches Taranis", "Touches Cyril", "Touches Pascal"], lignes))
+    print(table(["Cible", "Vitalité du livre", "Défense", "Dureté", "Krunt3", "Taranis", "Cyril", "Pascal"], lignes))
     print()
-    print("(Héros au palier 0 pour les éclaireurs et le chef ; palier 2 pour l'élite ; au palier 2 aussi pour le légendaire dans ce calcul seulement.)\n")
+    print("Temps pour abattre le chef de meute seul (27 Vitalité) à 2,4 touches par round : table de quatre héros = %.1f s ; héros seul = %.1f à %.1f s."
+          % (27 / (sum((moy_de(*HEROS[h]["dice"]) + HEROS[h]["dmg_attr"] // 4) * 0.96 for h in TOUS) * 2.4 / DUREE_ROUND_S),
+             27 / ((moy_de(*HEROS["Krunt3"]["dice"]) + HEROS["Krunt3"]["dmg_attr"] // 4) * 0.96 * 2.4 / DUREE_ROUND_S),
+             27 / ((moy_de(*HEROS["Pascal"]["dice"]) + HEROS["Pascal"]["dmg_attr"] // 4) * 0.96 * 2.4 / DUREE_ROUND_S)))
+    print()
+    print("Vitalité effective à viser pour une durée cible T : PV_chasse = T x DPS_héros x rendement (rendement mesuré ~ 0,8). Exemple pour T = 150 s :\n")
+    lignes = []
+    for sc, cible_nom in [("chef_seul", "chef (27, Déf. 11)"), ("elite", "élite (58, Déf. 19)"), ("legende", "légendaire (79, Déf. 21)")]:
+        b, _, pal = construit(sc, 1, 1)
+        durete = min(1.3, max(0.35, 1.0 + (10 - b.defense) * 0.04))
+        ligne = [cible_nom]
+        for nom in TOUS:
+            c = evolue(HEROS[nom], 0 if sc == "chef_seul" else (2 if sc == "elite" else 4))
+            nd, df = c["dice"]
+            dps = (moy_de(nd, df) + c["qual"] + c["dmg_attr"] // 4) * durete * 2.4 / DUREE_ROUND_S * facteur_res(c, b)
+            pv = 150 * dps * 0.8
+            ligne.append("%.0f PV (K = %.0f)" % (pv, pv / b.vitmax))
+        lignes.append(ligne)
+    print(table(["Cible", "Krunt3", "Taranis", "Cyril", "Pascal"], lignes))
+    print()
 
 
-def ligne_standard(r, noms, scen_nom, extra=None):
+def facteur_res(c, m):
+    f = 1.0
+    if "dorsal" in m.res:
+        f *= m.res["dorsal"]
+    if c["arme"] == "tranchant" and "tranchant" in m.res:
+        f *= m.res["tranchant"]
+    return f
+
+
+def ligne_standard(r, noms, scen_nom):
     n = r["n"]
     return [scen_nom, pct(r["vic"], n), pct(r["defaite"], n), pct(r["tombe_un"], n),
             fmt_s(mediane(r["rounds_all"])),
             " / ".join("%.1f" % moy(r["vit"][h]) for h in noms),
-            " / ".join("%.1f" % moy(r["end"][h]) for h in noms)] + (extra or [])
+            " / ".join("%.1f" % moy(r["end"][h]) for h in noms)]
 
 
 def section_livre(n):
     print("### E1. Échelle « Livre » (tour par tour, d20 contre Défense, K = 1) : les trois modèles\n")
-    print("Colonnes : victoire / défaite (tous les héros à 0) / au moins un héros à 0 / durée médiane / Vitalité perdue (cases) / Endurance dépensée, par héros dans l'ordre listé.\n")
-    for (titre, noms) in [("Un héros seul", None), ("Deux héros (Krunt3 + Cyril)", DUO), ("La table (quatre héros)", TOUS)]:
+    print("Colonnes : victoire, défaite (tous les héros à 0), au moins un héros à 0, durée médiane (1 round = 4 s), Vitalité perdue (cases) et Endurance dépensée par héros (ordre : Krunt3 / Taranis / Cyril / Pascal pour la table).\n")
+    plan = [("Un héros seul", [[h] for h in TOUS], ["chef_meute"]),
+            ("Un héros seul (Krunt3 uniquement)", [["Krunt3"]], ["elite", "legende"]),
+            ("Deux héros (Krunt3 + Cyril)", [DUO], ["chef_meute", "elite"]),
+            ("La table (quatre héros)", [TOUS], ["chef_seul", "chef_meute", "elite", "legende"])]
+    for titre, configs, scs in plan:
         print("**%s**\n" % titre)
         lignes = []
-        configs = [[h] for h in TOUS] if noms is None else [noms]
         for cfg in configs:
-            for sc in ["chef_meute", "elite", "legende"]:
+            for sc in scs:
                 for mod in "ABC":
                     r = une_cellule("livre|%s|%s|%s" % (mod, "+".join(cfg), sc), "livre", mod, cfg, sc, 1, 1, n)
-                    lignes.append([("+".join(cfg) if len(cfg) < 4 else "4 héros"), mod] + ligne_standard(r, cfg, NOM_SCEN[sc]))
+                    lignes.append([config_nom(cfg), mod] + ligne_standard(r, cfg, NOM_SCEN[sc]))
         print(table(["Héros", "Modèle", "Scénario", "Victoire", "Défaite", "≥ 1 à terre", "Durée méd.", "Vit. perdue", "End. dépensée"], lignes))
         print()
+    print("**Réconciliation avec le document 04 §6.2 (chef seul, quatre héros, échelle Livre, K = 1, modèle A)**\n")
+    lignes = []
+    for nom, o in [("tank joué, agonie 2 rounds (cas par défaut ici)", dict()), ("sans tank, agonie 2 rounds", dict(tank=False)),
+                   ("sans tank, sans agonie ni phases (proche du document 04)", dict(tank=False, phases=False))]:
+        r = une_cellule("rec04|%s" % nom, "livre", "A", TOUS, "chef_seul", 1, 1, n, opts=o)
+        lignes.append([nom, pct(r["vic"], n), "%.1f rounds (%s)" % (moy(r["rounds_all"]), fmt_s(moy(r["rounds_all"]))), pct(r["tombe_un"], n)])
+    print(table(["Cas", "Victoire", "Durée moyenne", "≥ 1 à terre"], lignes))
+    print()
+    print("**Combien de K pour que la table dure ? (échelle Livre, modèle A, quatre héros, chef + éclaireurs ; K_meute = 1)**\n")
+    lignes = []
+    for K in [1, 2, 3, 4, 6, 8]:
+        for sc in ["chef_meute", "elite"]:
+            r = une_cellule("livreK|%s|%d" % (sc, K), "livre", "A", TOUS, sc, K, 1, n)
+            lignes.append([NOM_SCEN[sc], K, pct(r["vic"], n), fmt_s(mediane(r["rounds_all"])), pct(r["tombe_un"], n), pct(r["defaite"], n)])
+    print(table(["Scénario", "K", "Victoire", "Durée méd.", "≥ 1 à terre", "Défaite"], lignes))
+    print()
 
 
 def section_jeu(n):
-    print("### E2. Échelle « jeu » (temps réel tactile), K = 1 : la démo sans correction\n")
+    print("### E2. Échelle « jeu » (temps réel tactile), K = 1, facteur 0,65 du document 01 : la démo sans correction\n")
     lignes = []
     for cfg in [["Krunt3"], ["Taranis"], ["Cyril"], ["Pascal"], DUO, TOUS]:
         for sc in ["chef_seul", "chef_meute"]:
             r = une_cellule("jeu1|C|%s|%s" % ("+".join(cfg), sc), "jeu", "C", cfg, sc, 1, 1, n)
-            lignes.append([("+".join(cfg) if len(cfg) < 4 else "4 héros"), NOM_SCEN[sc], pct(r["vic"], n), fmt_s(mediane(r["rounds_v"] or r["rounds_all"])),
-                           "%.1f" % moy(r["vit_v"]) if r["vit_v"] else "n/a"])
-    print(table(["Héros", "Scénario", "Victoire", "Durée médiane", "Vit. perdue / héros (victoires)"], lignes))
+            lignes.append([config_nom(cfg), NOM_SCEN[sc], pct(r["vic"], n), fmt_s(mediane(r["rounds_all"])),
+                           "%.1f" % (sum(sum(r["vit"][h]) for h in cfg) / n / len(cfg))])
+    print(table(["Héros", "Scénario", "Victoire", "Durée médiane", "Vit. perdue / héros (cases)"], lignes))
     print()
 
 
 def section_K(n):
-    print("### E3. Coefficient K sur la Vitalité du chef de meute (échelle jeu, modèle C, héros seul, chef + éclaireurs)\n")
-    print("K_meute = max(1, K_boss / 5) (le document 01 donne K = 20 et K = 4). Le tableau donne : victoire / durée médiane des victoires / Vitalité perdue (cases) par victoire / Potions de Soin utilisées par combat.\n")
-    Ks = [1, 2, 4, 6, 8, 10, 15, 20, 30]
-    for mod in "CAB":
-        print("**Modèle %s**\n" % mod)
-        lignes = []
-        for K in Ks:
-            ligne = [K]
-            for h in TOUS:
-                r = une_cellule("K|%s|%s|%d" % (mod, h, K), "jeu", mod, [h], "chef_meute", K, max(1, K // 5), n)
-                ligne.append("%s / %s / %s" % (pct(r["vic"], n), fmt_s(mediane(r["rounds_v"])), moy_ou_na(r["vit_v"])))
-            lignes.append(ligne)
-        print(table(["K"] + TOUS, lignes))
-        print()
-    print("**Table (quatre héros), modèle C, chef + éclaireurs**\n")
+    print("### E3. Le coefficient K sur la Vitalité du chef de meute\n")
+    print("**E3a. K seul, sans toucher aux dégâts reçus (échelle jeu, document 01 : facteur 0,65, une attaque toutes les 2,5 s), modèle C, héros seul, chef + éclaireurs (K_meute = max(1, K/5)), joueur moyen (esquive 55 %)**\n")
     lignes = []
-    for K in [1, 5, 10, 20, 40, 60, 80, 100]:
-        r = une_cellule("Kt|C|%d" % K, "jeu", "C", TOUS, "chef_meute", K, max(1, K // 5), n)
-        lignes.append([K, pct(r["vic"], n), fmt_s(mediane(r["rounds_v"])), pct(r["tombe_un"], n), moy_ou_na(r["vit_v"])])
-    print(table(["K", "Victoire", "Durée médiane", "≥ 1 à terre", "Vit. perdue / héros"], lignes))
+    for K in [1, 2, 4, 6, 8, 10, 15, 20, 30]:
+        ligne = [K]
+        for h in TOUS:
+            r = une_cellule("K|%s|%d" % (h, K), "jeu", "C", [h], "chef_meute", K, max(1, K // 5), n)
+            ligne.append("%s / %s" % (pct(r["vic"], n), fmt_s(mediane(r["rounds_all"]))))
+        lignes.append(ligne)
+    print(table(["K"] + TOUS + [], lignes))
+    print("\nLecture : victoire / durée médiane. Quand K monte, la durée monte mais la victoire disparaît : le chef frappe trop longtemps.\n")
+    print("**E3b. K et coefficient de dégâts reçus kd (en plus du 0,65), tempo du chef 1,2 action par round (une toutes les 3,3 s), éclaireurs 0,4 : victoire à la première tentative (population de joueurs) / durée médiane d'une victoire, Krunt3 seul**\n")
+    lignes = []
+    for K in [8, 12, 16, 20, 25, 30]:
+        ligne = [K]
+        for kd in [0.08, 0.10, 0.12, 0.15, 0.20]:
+            p = population("K3b|K3|%d|%.2f" % (K, kd), ["Krunt3"], "chef_meute", K, max(1, K // 5), n, opts_reco(kd=kd))
+            ligne.append("%.0f %% / %s" % (100 * p["win"], fmt_s(p["dur"])))
+        lignes.append(ligne)
+    print(table(["K", "kd 0,08", "kd 0,10", "kd 0,12", "kd 0,15", "kd 0,20"], lignes))
+    print()
+    print("**E3c. Réglage recommandé (K_meute = %d, kd = %.2f, tempo %.1f et %.1f), héros seul, chef + éclaireurs, modèle C ; population de joueurs. K propre à chaque personnage (voir E3d)**\n" % (RECO["K_meute"], RECO["kd"], RECO["cad_boss"], RECO["cad_escorte"]))
+    lignes = []
+    for nom, K, o in [("Krunt3", 20, {}), ("Taranis", 20, {}), ("Taranis", 18, {}), ("Cyril (soin 2 Mana)", 20, {}), ("Cyril (soin 4 Mana)", 16, dict(soin_mana=4)),
+                      ("Pascal « base »", 10, dict(pascal="base")), ("Pascal « soutien »", 14, dict(pascal="soutien")), ("Pascal « bombe »", 12, dict(pascal="bombe"))]:
+        h = nom.split(" ")[0]
+        a = population("K3c|%s|%d|0" % (nom, K), [h], "chef_meute", K, max(1, K // 5), n, opts_reco(**o))
+        b = population("K3c|%s|%d|j" % (nom, K), [h], "chef_meute", K, max(1, K // 5), n, opts_reco(**o), decalage=DECALAGE_JETONS)
+        lignes.append([nom, K, "%.0f %%" % (100 * a["win"]), "%.0f %%" % (100 * b["win"]), fmt_s(a["dur"]),
+                       "%.1f" % a["vit_v"], "%.1f" % a["par_min"]])
+    print(table(["Héros seul", "K", "1re tentative", "avec 3 Jetons", "Durée médiane (victoire)", "Vit. perdue par victoire (cases)", "Vit. perdue par minute"], lignes))
+    print()
+    print("**E3d. K nécessaire pour Cyril et Pascal « base » (même kd) : victoire 1re tentative / durée médiane**\n")
+    lignes = []
+    for h, Ks, o in [("Pascal", [6, 8, 10, 14], dict(pascal="base")), ("Pascal", [8, 10, 14, 20], dict(pascal="soutien")), ("Cyril", [20, 28, 36], {})]:
+        for K in Ks:
+            p = population("K3d|%s|%s|%d" % (h, o.get("pascal"), K), [h], "chef_meute", K, max(1, K // 5), n, opts_reco(**o))
+            lignes.append([h + (" (%s)" % o["pascal"] if o else ""), K, "%.0f %%" % (100 * p["win"]), fmt_s(p["dur"])])
+    print(table(["Héros", "K", "Victoire 1re tentative", "Durée médiane (victoire)"], lignes))
+    print()
+    print("**E3e. La table, modèle C, échelle jeu (pour mémoire : le jeu est solo ; pour le prototype à plusieurs ou la table avec un dé), kd = %.2f, chef + éclaireurs**\n" % RECO["kd"])
+    lignes = []
+    for K in [20, 40, 60, 80, 100]:
+        r = une_cellule("Kt|C|%d" % K, "jeu", "C", TOUS, "chef_meute", K, max(1, K // 5), n, opts=opts_reco())
+        lignes.append([K, pct(r["vic"], n), fmt_s(mediane(r["rounds_v"])), pct(r["tombe_un"], n)])
+    print(table(["K", "Victoire", "Durée médiane", "≥ 1 à terre"], lignes))
     print()
 
 
 def section_tank(n):
-    print("### E4. Le rôle de tank de Krunt3 (échelle jeu et échelle livre, quatre héros)\n")
-    print("Colonnes : part des coups subis par Krunt3 / Krunt3 à terre / un autre héros à terre / victoire / Vitalité perdue Krunt3 vs moyenne des trois autres. « sans tank » : Krunt3 attaque seulement.\n")
+    print("### E4. Le rôle de tank de Krunt3 (quatre héros)\n")
+    print("« Tank joué » : Krunt3 utilise Provocation, Mur de Chair et Interposition (Livre VI : 2 Endurance chacune). Part des coups : part des coups reçus par Krunt3 (25 % = pas de rôle). « Autre à terre » : probabilité qu'un des trois autres héros tombe.\n")
+    print("**E4a. Échelle Livre, K = 1 (chiffres bruts)**\n")
     lignes = []
-    for preset, K, scen in [("livre", 1, "chef_meute"), ("jeu", 10, "chef_meute"), ("livre", 1, "elite"), ("jeu", 10, "elite")]:
+    for scen in ["chef_meute", "elite"]:
         for mod in "ABC":
             for tank in (True, False):
-                r = une_cellule("tank|%s|%s|%s|%s" % (preset, mod, scen, tank), preset, mod, TOUS, scen, K, max(1, K // 5), n, opts=dict(tank=tank))
+                r = une_cellule("tank|livre|%s|%s|%s" % (mod, scen, tank), "livre", mod, TOUS, scen, 1, 1, n, opts=dict(tank=tank))
                 coups = sum(r["coups"].values()) or 1
                 autres = [moy(r["vit"][h]) for h in TOUS if h != "Krunt3"]
-                lignes.append([preset, NOM_SCEN[scen], "K=%d" % K, mod, "oui" if tank else "non",
-                               pct(r["coups"]["Krunt3"], coups), pct(r["tombe_k"], n),
-                               pct(r["tombe_autre"], n * 3), pct(r["vic"], n),
+                lignes.append([NOM_SCEN[scen], mod, "oui" if tank else "non", pct(r["coups"]["Krunt3"], coups), pct(r["tombe_k"], n),
+                               pct(r["tombe_autre"], n * 3), pct(r["tombe_un"], n), pct(r["vic"], n),
                                "%.1f vs %.1f" % (moy(r["vit"]["Krunt3"]), moy(autres))])
-    print(table(["Échelle", "Scénario", "K", "Modèle", "Tank joué", "Part des coups", "Krunt3 à terre", "Autre à terre (par héros)", "Victoire", "Vit. perdue K3 vs autres"], lignes))
+    print(table(["Scénario", "Modèle", "Tank joué", "Part des coups", "Krunt3 à terre", "Autre à terre (par héros)", "≥ 1 à terre", "Victoire", "Vit. perdue K3 vs autres"], lignes))
     print()
-    print("**Krunt3 seul en première ligne dans un duo (Krunt3 + Cyril), échelle jeu, K = 5, chef + éclaireurs**\n")
+    print("**E4b. Échelle jeu, à difficulté égale : kd calibré par modèle pour que les quatre héros (joueurs moyens) gagnent 75 % du temps SANS tank (Krunt3 attaque seulement), K = 60, chef + éclaireurs ; puis on joue le tank à trois niveaux. « provoc » = Provocation seule ; « complet » = Provocation + Mur de Chair + Interposition**\n")
     lignes = []
     for mod in "ABC":
-        r = une_cellule("duo|%s" % mod, "jeu", mod, DUO, "chef_meute", 5, 1, n)
-        lignes.append([mod, pct(r["vic"], n), fmt_s(mediane(r["rounds_v"])), pct(r["tombe_k"], n), pct(r["tombe_autre"], n),
+        kd = calibre(mod, TOUS, "chef_meute", 60, 12, 0.75, max(300, n // 2), dict(cad_boss=RECO["cad_boss"], cad_escorte=RECO["cad_escorte"], tank=False),
+                     etiquette="cal4|%s" % mod)
+        kits = ["base"] if mod != "C" else ["base", "plaques", "bouclier"]
+        for kit in kits:
+            for tank in (False, "provoc", True):
+                o = opts_reco(kd=kd, tank=tank, krunt_kit=kit)
+                r = une_cellule("tankj|%s|%s|%s" % (mod, kit, tank), "jeu", mod, TOUS, "chef_meute", 60, 12, n, opts=o)
+                coups = sum(r["coups"].values()) or 1
+                autres = [moy(r["vit"][h]) for h in TOUS if h != "Krunt3"]
+                lignes.append([mod, "%.3f" % kd, kit, {False: "aucun", "provoc": "provoc", True: "complet"}[tank], pct(r["coups"]["Krunt3"], coups), pct(r["tombe_k"], n),
+                               pct(r["tombe_autre"], n * 3), pct(r["tombe_un"], n), pct(r["vic"], n), fmt_s(mediane(r["rounds_all"])),
+                               "%.1f vs %.1f" % (moy(r["vit"]["Krunt3"]), moy(autres))])
+    print(table(["Modèle", "kd calibré", "Kit de Krunt3", "Tank", "Part des coups", "Krunt3 à terre", "Autre à terre (par héros)", "≥ 1 à terre", "Victoire", "Durée méd.", "Vit. perdue K3 vs autres"], lignes))
+    print()
+    print("**E4c. Élite (K = 40, héros au palier 2), modèle C, même méthode (kd calibré sans tank pour 75 %)**\n")
+    lignes = []
+    kd = calibre("C", TOUS, "elite", 40, 1, 0.75, max(300, n // 2), dict(cad_boss=RECO["cad_boss"], tank=False), etiquette="cal4e")
+    for kit in ["base", "plaques", "bouclier"]:
+        for tank in (False, "provoc", True):
+            o = opts_reco(kd=kd, tank=tank, krunt_kit=kit)
+            r = une_cellule("tankje|%s|%s" % (kit, tank), "jeu", "C", TOUS, "elite", 40, 1, n, opts=o)
+            coups = sum(r["coups"].values()) or 1
+            autres = [moy(r["vit"][h]) for h in TOUS if h != "Krunt3"]
+            lignes.append(["C", "%.3f" % kd, kit, {False: "aucun", "provoc": "provoc", True: "complet"}[tank], pct(r["coups"]["Krunt3"], coups), pct(r["tombe_k"], n),
+                           pct(r["tombe_autre"], n * 3), pct(r["tombe_un"], n), pct(r["vic"], n), fmt_s(mediane(r["rounds_all"])),
+                           "%.1f vs %.1f" % (moy(r["vit"]["Krunt3"]), moy(autres))])
+    print(table(["Modèle", "kd calibré", "Kit de Krunt3", "Tank", "Part des coups", "Krunt3 à terre", "Autre à terre (par héros)", "≥ 1 à terre", "Victoire", "Durée méd.", "Vit. perdue K3 vs autres"], lignes))
+    print()
+    print("**E4d. Duo Krunt3 + Cyril, échelle jeu, K = 40, kd calibré sans tank pour 75 %, modèle C, selon le kit de Krunt3**\n")
+    lignes = []
+    kd = calibre("C", DUO, "chef_meute", 40, 8, 0.75, max(300, n // 2), dict(cad_boss=RECO["cad_boss"], cad_escorte=RECO["cad_escorte"], tank=False), etiquette="cal2")
+    for kit in ["base", "bouclier"]:
+        r = une_cellule("duo|%s" % kit, "jeu", "C", DUO, "chef_meute", 40, 8, n, opts=opts_reco(kd=kd, krunt_kit=kit))
+        lignes.append([kit, "%.3f" % kd, pct(r["vic"], n), fmt_s(mediane(r["rounds_all"])), pct(r["tombe_k"], n), pct(r["tombe_autre"], n),
                        moy_ou_na(r["vit"]["Krunt3"]), moy_ou_na(r["vit"]["Cyril"])])
-    print(table(["Modèle", "Victoire", "Durée", "Krunt3 à terre", "Cyril à terre", "Vit. perdue Krunt3", "Vit. perdue Cyril"], lignes))
+    print(table(["Kit de Krunt3", "kd calibré", "Victoire", "Durée", "Krunt3 à terre", "Cyril à terre", "Vit. perdue Krunt3", "Vit. perdue Cyril"], lignes))
     print()
 
 
 def section_leviers(n):
-    print("### E5. Les leviers de réglage, un par un (échelle jeu, modèle C, Krunt3 seul, démo)\n")
+    print("### E5. Les leviers de réglage, un par un (échelle jeu, modèle C, Krunt3 seul, joueur moyen)\n")
+    print("Tous les essais gardent le facteur de dégâts reçus de l'essai considéré ; « brut » = facteur 0,65 du document 01 (kd = 1, une attaque toutes les 2,5 s).\n")
     lignes = []
+    brut = dict(kd=1.0, cad_boss=1.6, cad_escorte=0.6)
     cas = [
-        ("L0 chef seul, K = 1", "chef_seul", 1, 1, {}),
-        ("L1 chef seul, K = 8", "chef_seul", 8, 1, {}),
-        ("L2 chef + éclaireurs, K = 8, K_meute = 2", "chef_meute", 8, 2, {}),
-        ("L3 L2 sans phases ni agonie (une seule phase)", "chef_meute", 8, 2, dict(phases=False)),
-        ("L4 L2 + terrain (feu 25 %/round, sol instable 20 %/round)", "chef_meute", 8, 2, dict(terrain=dict(feu_p=0.25, instable_p=0.20))),
-        ("L5 K = 12 chef seul (K seul, sans meute)", "chef_seul", 12, 1, {}),
-        ("L6 K = 12 + éclaireurs K_meute = 2 + terrain", "chef_meute", 12, 2, dict(terrain=dict(feu_p=0.25, instable_p=0.20))),
+        ("L0 brut : chef seul, K = 1", "chef_seul", 1, 1, brut),
+        ("L1 brut : chef seul, K = 6", "chef_seul", 6, 1, brut),
+        ("L2 brut : chef + éclaireurs, K = 6, K_meute = 1", "chef_meute", 6, 1, brut),
+        ("L3 K = 20 seul, brut (chef seul)", "chef_seul", 20, 1, brut),
+        ("L4 K = 20, dégâts kd = 0,15, tempo 1,2 (chef seul)", "chef_seul", 20, 1, opts_reco()),
+        ("L5 L4 + éclaireurs (K_meute = 4)", "chef_meute", 20, 4, opts_reco()),
+        ("L6 L5 sans phases ni agonie", "chef_meute", 20, 4, opts_reco(phases=False)),
+        ("L7 L5 + terrain (feu 25 % par round, sol instable 20 %)", "chef_meute", 20, 4, opts_reco(terrain=dict(feu_p=0.25, instable_p=0.20))),
+        ("L8 L5 + terrain, avec kd = 0,12 pour compenser", "chef_meute", 20, 4, opts_reco(kd=0.12, terrain=dict(feu_p=0.25, instable_p=0.20))),
     ]
     for (nom, sc, K, Km, o) in cas:
         r = une_cellule("lev|%s" % nom, "jeu", "C", ["Krunt3"], sc, K, Km, n, opts=o)
-        lignes.append([nom, pct(r["vic"], n), fmt_s(mediane(r["rounds_v"])), moy_ou_na(r["vit_v"]), "%.1f" % (r["pots"] / n)])
-    print(table(["Configuration", "Victoire", "Durée médiane", "Vit. perdue (victoires)", "Potions / combat"], lignes))
+        tot_min = sum(r["rounds_all"]) / n * DUREE_ROUND_S / 60.0
+        lignes.append([nom, pct(r["vic"], n), fmt_s(mediane(r["rounds_all"])), moy_ou_na(r["vit_v"]), "%.1f" % (moy(r["vit"]["Krunt3"]) / tot_min)])
+    print(table(["Configuration", "Victoire", "Durée médiane", "Vit. perdue (victoires)", "Vit. perdue par minute"], lignes))
     print()
 
 
 def section_variantes(n):
-    print("### E6. Variantes de fiches (échelle jeu, modèle C, K = 5 : chef + éclaireurs)\n")
-    print("Part des dégâts infligés à la table (quatre héros) et durée solo, avec et sans le bagage de Taranis ; trois versions de Pascal.\n")
+    print("### E6. Variantes de fiches\n")
+    print("**Part des dégâts infligés et risque, table de quatre héros, échelle Livre K = 1 puis K = 3 (modèle A)**\n")
     lignes = []
-    for nom, o in [("référence (bagage Taranis ; Pascal « base »)", {}),
-                   ("sans bagage de Taranis", dict(bagage_taranis=False)),
-                   ("Pascal « soutien » (Garde Haute, Herbes)", dict(pascal="soutien")),
-                   ("Pascal « bombe » (3 bombes de feu, niveau 5)", dict(pascal="bombe")),
-                   ("Flanc Coordonné cumulable", dict(flanc_limite=False)),
-                   ("Krunt3 avec Souffle du Réceptacle", dict(souffle=True))]:
-        r = une_cellule("var|%s" % nom, "jeu", "C", TOUS, "chef_meute", 5, 1, n, opts=o)
-        parts = " / ".join("%.0f %%" % (100 * r["dmg"][h] / n) for h in TOUS)
-        r2 = une_cellule("var1|%s" % nom, "jeu", "C", ["Taranis"], "chef_meute", 5, 1, n, opts=o)
-        r3 = une_cellule("var1p|%s" % nom, "jeu", "C", ["Pascal"], "chef_meute", 5, 1, n, opts=o)
-        lignes.append([nom, parts, fmt_s(mediane(r["rounds_v"])), pct(r["tombe_un"], n), pct(r2["vic"], n), pct(r3["vic"], n)])
-    print(table(["Variante", "Part des dégâts K3 / Tar / Cyr / Pas", "Durée table", "≥ 1 à terre", "Taranis seul : victoire", "Pascal seul : victoire"], lignes))
+    refs = [("livre", dict(), 1, "A"), ("livre", dict(), 3, "A")]
+    variantes = [("référence (bagage Taranis ; Pascal « base » ; Flanc limité)", {}),
+                 ("sans bagage de Taranis", dict(bagage_taranis=False)),
+                 ("Pascal « soutien » (Garde Haute, Herbes)", dict(pascal="soutien")),
+                 ("Pascal « bombe » (3 bombes de feu, niveau 5)", dict(pascal="bombe")),
+                 ("Flanc Coordonné cumulable", dict(flanc_limite=False)),
+                 ("Krunt3 avec Souffle du Réceptacle", dict(souffle=True))]
+    for preset, base, K, mod in refs:
+        for nom, o in variantes:
+            oo = dict(base)
+            oo.update(o)
+            r = une_cellule("var|%s|%d|%s" % (preset, K, nom), preset, mod, TOUS, "chef_meute", K, max(1, K // 5) if preset == "jeu" else 1, n, opts=oo)
+            parts = " / ".join("%.0f %%" % (100 * r["dmg"][h] / n) for h in TOUS)
+            lignes.append(["%s K=%d" % (preset, K), nom, parts, fmt_s(mediane(r["rounds_all"])), pct(r["tombe_un"], n), pct(r["vic"], n)])
+    print(table(["Échelle", "Variante", "Part des dégâts K3 / Tar / Cyr / Pas", "Durée méd.", "≥ 1 à terre", "Victoire"], lignes))
     print()
-    print("**Parts de dégâts de référence, échelle livre (K = 1) et jeu (K = 5), quatre héros, par scénario**\n")
+    print("**Parts des dégâts à la table en temps réel (échelle jeu, modèle C, K = 60, kd = %.2f, chef + éclaireurs)**\n" % RECO["kd"])
     lignes = []
-    for preset, K in [("livre", 1), ("jeu", 5)]:
-        for sc in ["chef_meute", "elite", "legende"]:
-            r = une_cellule("parts|%s|%s" % (preset, sc), preset, "C", TOUS, sc, K, max(1, K // 5), n)
-            lignes.append([preset, NOM_SCEN[sc], " / ".join("%.0f %%" % (100 * r["dmg"][h] / n) for h in TOUS)])
-    print(table(["Échelle", "Scénario", "Part des dégâts K3 / Tar / Cyr / Pas"], lignes))
+    for nom, o in [("référence", {}), ("sans bagage de Taranis", dict(bagage_taranis=False)), ("Pascal « bombe »", dict(pascal="bombe")), ("Pascal « soutien »", dict(pascal="soutien"))]:
+        r = une_cellule("varj|%s" % nom, "jeu", "C", TOUS, "chef_meute", 60, 12, n, opts=opts_reco(**o))
+        lignes.append([nom, " / ".join("%.0f %%" % (100 * r["dmg"][h] / n) for h in TOUS), fmt_s(mediane(r["rounds_all"]))])
+    print(table(["Variante", "Part des dégâts K3 / Tar / Cyr / Pas", "Durée méd."], lignes))
+    print()
+    print("**Taranis seul, avec et sans bagage ; Cyril avec soin limité (4 Mana au lieu de 2), kd = %.2f, K = %d, 1re tentative**\n" % (RECO["kd"], RECO["K"]))
+    lignes = []
+    for nom, h, o in [("Taranis avec bagage", "Taranis", {}), ("Taranis sans bagage", "Taranis", dict(bagage_taranis=False)),
+                      ("Cyril soin 2 Mana", "Cyril", {}), ("Cyril soin 4 Mana", "Cyril", dict(soin_mana=4))]:
+        p = population("var1|%s" % nom, [h], "chef_meute", RECO["K"], RECO["K_meute"], n, opts_reco(**o))
+        lignes.append([nom, "%.0f %%" % (100 * p["win"]), fmt_s(p["dur"]), "%.1f" % p["par_min"]])
+    print(table(["Cas", "Victoire 1re tentative", "Durée médiane", "Vit. perdue par minute"], lignes))
     print()
 
 
 def section_competence(n):
-    print("### E7. Sensibilité à l'habileté du joueur (échelle jeu, modèle C, héros seul, chef + éclaireurs)\n")
+    print("### E7. Sensibilité à l'habileté du joueur, et rangs supérieurs\n")
+    print("**Victoire / durée médiane selon l'esquive du joueur (réglage recommandé, héros seul, chef + éclaireurs, modèle C)**\n")
     lignes = []
-    for K in [4, 6, 8, 10]:
-        ligne = [K]
-        for esq in (0.40, 0.55, 0.70):
-            r = une_cellule("sk|%d|%.2f" % (K, esq), "jeu", "C", ["Krunt3"], "chef_meute", K, max(1, K // 5), n, opts=dict(esquive=esq))
-            ligne.append("%s / %s" % (pct(r["vic"], n), fmt_s(mediane(r["rounds_v"]))))
-        lignes.append(ligne)
-    print(table(["K (Krunt3)", "Novice (esquive 40 %)", "Moyen (55 %)", "Bon (70 %)"], lignes))
+    for h in ["Krunt3", "Taranis"]:
+        for esq in (0.35, 0.45, 0.55, 0.65, 0.75):
+            r = une_cellule("sk|%s|%.2f" % (h, esq), "jeu", "C", [h], "chef_meute", RECO["K"], RECO["K_meute"], n, opts=opts_reco(esquive=esq))
+            lignes.append([h, "%.0f %%" % (100 * esq), pct(r["vic"], n), fmt_s(mediane(r["rounds_all"])), moy_ou_na(r["vit_v"])])
+    print(table(["Héros", "Esquive du joueur", "Victoire", "Durée médiane", "Vit. perdue (victoires)"], lignes))
     print()
-    print("**Élite et légendaire, échelle jeu, héros évolués (palier 2 et 4), quatre héros, modèle C, selon K et facteur de dégâts reçus**\n")
+    print("**Rangs supérieurs : kd calibré pour 45 % de victoires à la première tentative (population), Krunt3 seul, modèle C**\n")
     lignes = []
-    for sc, K in [("elite", 5), ("elite", 10), ("elite", 20), ("legende", 5), ("legende", 10), ("legende", 20), ("legende", 40)]:
-        r = une_cellule("el|%s|%d" % (sc, K), "jeu", "C", TOUS, sc, K, 1, n)
-        lignes.append([NOM_SCEN[sc], K, pct(r["vic"], n), fmt_s(mediane(r["rounds_v"])), pct(r["tombe_un"], n), moy_ou_na(r["vit_v"])])
-    print(table(["Scénario", "K", "Victoire", "Durée médiane", "≥ 1 à terre", "Vit. perdue / héros"], lignes))
+    for sc, K, pal in [("chef_meute", 20, 0), ("elite", 8, 2), ("elite", 10, 2), ("elite", 12, 2), ("legende", 4, 4), ("legende", 5, 4), ("legende", 6, 4)]:
+        base = dict(cad_boss=RECO["cad_boss"], cad_escorte=RECO["cad_escorte"])
+        Km = RECO["K_meute"] if sc == "chef_meute" else 1
+        kd = calibre("C", ["Krunt3"], sc, K, Km, 0.45, n, base, palier=pal, par_population=True, etiquette="rang|%s|%d" % (sc, K))
+        p = population("rangv|%s|%d" % (sc, K), ["Krunt3"], sc, K, Km, n, opts_reco(kd=kd), palier=pal)
+        p2 = population("rangj|%s|%d" % (sc, K), ["Krunt3"], sc, K, Km, n, opts_reco(kd=kd), palier=pal, decalage=DECALAGE_JETONS)
+        lignes.append([NOM_SCEN[sc], K, pal, "%.3f" % kd, "%.0f %%" % (100 * p["win"]), "%.0f %%" % (100 * p2["win"]), fmt_s(p["dur"]), "%.1f" % p["par_min"]])
+    print(table(["Scénario", "K", "Palier des héros", "kd calibré", "1re tentative", "avec 3 Jetons", "Durée médiane", "Vit. perdue par minute"], lignes))
     print()
-    print("**Même chose, héros seul (Krunt3), échelle jeu**\n")
+    print("**Quatre héros contre l'élite et le légendaire (échelle jeu, modèle C), K de table, kd du tableau précédent**\n")
     lignes = []
-    for sc, K in [("elite", 2), ("elite", 4), ("elite", 8), ("legende", 2), ("legende", 4), ("legende", 8)]:
-        r = une_cellule("el1|%s|%d" % (sc, K), "jeu", "C", ["Krunt3"], sc, K, 1, n)
-        lignes.append([NOM_SCEN[sc], K, pct(r["vic"], n), fmt_s(mediane(r["rounds_v"])), moy_ou_na(r["vit_v"])])
-    print(table(["Scénario", "K", "Victoire", "Durée médiane", "Vit. perdue"], lignes))
+    for sc, kd, Ks in [("elite", 0.06, [30, 40, 50]), ("legende", 0.02, [12, 16, 20])]:
+        for K in Ks:
+            r = une_cellule("el4|%s|%d" % (sc, K), "jeu", "C", TOUS, sc, K, 1, n, opts=opts_reco(kd=kd))
+            lignes.append([NOM_SCEN[sc], K, kd, pct(r["vic"], n), fmt_s(mediane(r["rounds_all"])), pct(r["tombe_un"], n)])
+    print(table(["Scénario", "K", "kd", "Victoire", "Durée médiane", "≥ 1 à terre"], lignes))
     print()
 
 
-SECTIONS = {"echelle": lambda n: section_echelle(), "livre": section_livre, "jeu": section_jeu, "K": section_K,
+def section_modeles(n):
+    print("### E9. Les trois modèles à difficulté égale, héros seul (Krunt3, K = 20, chef + éclaireurs, échelle jeu)\n")
+    print("kd calibré par modèle pour 45 % de victoires à la première tentative (population). « Spirale » : part des Hors Combat survenus quand l'Endurance était sous 2 (plus d'esquive possible), critère du document 01 §4.6 (seuil : moins de 25 % des échecs). « Temps sans esquive » : part des rounds passés avec moins de 2 Endurance.\n")
+    lignes = []
+    for mod in "ABC":
+        base = dict(cad_boss=RECO["cad_boss"], cad_escorte=RECO["cad_escorte"])
+        kd = calibre(mod, ["Krunt3"], "chef_meute", 20, 4, 0.45, n, base, par_population=True, etiquette="mod|%s" % mod)
+        o = dict(base)
+        o["kd"] = kd
+        p = population("modv|%s" % mod, ["Krunt3"], "chef_meute", 20, 4, n, o, modele=mod)
+        p2 = population("modj|%s" % mod, ["Krunt3"], "chef_meute", 20, 4, n, o, modele=mod, decalage=DECALAGE_JETONS)
+        r = une_cellule("modr|%s" % mod, "jeu", mod, ["Krunt3"], "chef_meute", 20, 4, n, opts=o)
+        spir = 100.0 * r["spir"] / r["mort_solo"] if r["mort_solo"] else 0.0
+        lignes.append([mod, "%.3f" % kd, "%.0f %%" % (100 * p["win"]), "%.0f %%" % (100 * p2["win"]), fmt_s(p["dur"]), "%.1f" % p["par_min"],
+                       "%.0f %%" % spir, "%.0f %%" % (100 * r["end_bas"] / n), "%.1f" % moy(r["end"]["Krunt3"])])
+    print(table(["Modèle", "kd calibré", "1re tentative", "avec 3 Jetons", "Durée médiane", "Vit. perdue par minute", "Spirale", "Temps sans esquive", "Endurance dépensée"], lignes))
+    print()
+    print("**Modèle C : effet de la régénération d'Endurance (par round de 4 s) sur la spirale, même méthode**\n")
+    lignes = []
+    for regen in [3.0, 5.0, 6.5, 8.0]:
+        base = dict(cad_boss=RECO["cad_boss"], cad_escorte=RECO["cad_escorte"], regen_end=regen)
+        kd = calibre("C", ["Krunt3"], "chef_meute", 20, 4, 0.45, n, base, par_population=True, etiquette="reg|%.1f" % regen)
+        o = dict(base)
+        o["kd"] = kd
+        r = une_cellule("regr|%.1f" % regen, "jeu", "C", ["Krunt3"], "chef_meute", 20, 4, n, opts=o)
+        spir = 100.0 * r["spir"] / r["mort_solo"] if r["mort_solo"] else 0.0
+        lignes.append(["%.1f (%.2f /s)" % (regen, regen / DUREE_ROUND_S), "%.3f" % kd, "%.0f %%" % spir, "%.0f %%" % (100 * r["end_bas"] / n)])
+    print(table(["Régénération par round", "kd calibré", "Spirale", "Temps sans esquive"], lignes))
+    print()
+
+
+def section_equiv(n):
+    print("### E8. Équivalence tempo / dégâts par coup (Krunt3 seul, K = 20, chef + éclaireurs, modèle C ; kd calibré pour 45 % de victoires à la première tentative)\n")
+    print("Le prototype peut choisir : beaucoup de petits coups ou peu de gros coups, à pression égale. PC = points de coup (1 case = 4 PC). Morsure déchirante = 2d6+7, 14 en moyenne dans le Livre III ; armure de Krunt3 = cuir (-10 %).\n")
+    lignes = []
+    for cad in [0.4, 0.6, 0.8, 1.2, 1.6]:
+        base = dict(cad_boss=cad, cad_escorte=cad / 3)
+        kd = calibre("C", ["Krunt3"], "chef_meute", 20, 4, 0.45, n, base, par_population=True, etiquette="eq|%.1f" % cad)
+        p = population("eqv|%.1f" % cad, ["Krunt3"], "chef_meute", 20, 4, n, dict(kd=kd, **base))
+        pc = 14 * 0.65 * kd * 0.9
+        lignes.append(["%.1f" % cad, "toutes les %.1f s" % (DUREE_ROUND_S / cad), "%.3f" % kd, "%.2f PC (%.1f %% de la Vitalité)" % (pc, 100 * pc / 52.0),
+                       "%.0f %%" % (100 * p["win"]), fmt_s(p["dur"]), "%.1f" % p["par_min"]])
+    print(table(["Actions du chef par round", "Cadence", "kd calibré", "Morsure déchirante, PC après armure", "1re tentative", "Durée médiane", "Vit. perdue par minute"], lignes))
+    print()
+
+
+SECTIONS = {"modeles": section_modeles, "equiv": section_equiv, "echelle": section_echelle, "livre": section_livre, "jeu": section_jeu, "K": section_K,
             "tank": section_tank, "leviers": section_leviers, "variantes": section_variantes, "competence": section_competence}
 
 
@@ -1175,7 +1419,7 @@ def main():
     ap = argparse.ArgumentParser(description="Essais d'équilibrage du combat du Jeu B (CRS)")
     ap.add_argument("--n", type=int, default=N_DEFAUT, help="tirages par cellule (défaut %d)" % N_DEFAUT)
     ap.add_argument("--seed", type=int, default=SEED)
-    ap.add_argument("--sections", default="echelle,livre,jeu,K,tank,leviers,variantes,competence")
+    ap.add_argument("--sections", default="echelle,livre,jeu,K,tank,leviers,variantes,competence,equiv,modeles")
     a = ap.parse_args()
     SEED = a.seed
     print("<!-- simu_combat.py : graine %d, %d tirages par cellule, 1 round = %d s -->\n" % (SEED, a.n, DUREE_ROUND_S))
