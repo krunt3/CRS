@@ -1,5 +1,8 @@
 # Équilibrage des quatre personnages (Krunt3, Taranis, Cyril, Pascal) et de deux recrues
 
+> **Remplacé en partie par `08-fiches-v2-et-sprites.md` (fiches v2) et `07-essais-equilibrage.md` (simulations).** Ne plus utiliser les fiches de ce document : Taranis n'est plus Espion et part avec un bagage de départ, Pascal est au Sceau Pourpre, l'ordre de Krunt3 est celui des Frères de l'Épreuve. Voir `09-revalidation.md`.
+
+
 > **Réconciliation (2026-10-06, Claude)** : ce document avait rattaché Krunt3 à l'**Ordre du Flux**. Or `05-antagoniste-et-technique.md` fait de l'Ordre du Flux **l'antagoniste recommandé** (il a détruit la famille de Krunt). `03-correspondance-personnages.md` recommande les **Frères de l'Épreuve** : cette valeur est retenue ici (fiche JSON de Krunt3 corrigée). Pour Pascal, `03` propose le clan Pierres Hautes avec les Sentinelles du Pacte (ordre à créer) ; ce document propose le Culte des Ancêtres Veilleurs : **décision à prendre par krunt**.
 
 

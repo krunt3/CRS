@@ -1,5 +1,8 @@
 # Trame 03 : correspondance entre les fiches des quatre personnages, les livres et StoryForge
 
+> **À lire avec `09-revalidation.md` (2026-10-06).** Ce document est un brouillon antérieur aux décisions de krunt. Corrections en vigueur : **Pascal reste au clan Sceau Pourpre** (et non Pierres Hautes) ; **Taranis est Chasseur-Pisteur + Cartographe** (et non Espion) ; régions de l'Atlas **sans surnoms**. Les fiches à jour sont dans `08-fiches-v2-et-sprites.md`.
+
+
 Rédigé le 2026-10-06. Règle de krunt : **les noms de StoryForge (= les livres) font foi, l'application du VTT s'adapte.**
 Sources lues : fiches du VTT extraites de la base (Krunt3, Taranis, Cyril, Pascal), Livres I, II, IV (Atlas), V, VI, VII, IX, `docs/mecaniques/00 à 06`, `docs/trame/01` et `02`.
 

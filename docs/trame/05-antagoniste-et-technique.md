@@ -1,5 +1,8 @@
 # 05 : L'antagoniste, la technique oubliée, l'entité et les terres hostiles
 
+> **Partiellement remplacé par `06-entite-et-pacte-v2.md` (2026-10-06).** La « Quittance des Noms » est **rejetée** par krunt (coût du pacte) ; l'ordre de Krunt3 est les **Frères de l'Épreuve** (« Ordre du Jugement » n'est qu'un surnom populaire, ce n'est pas l'Ordre du Flux, qui est l'antagoniste) ; Taranis est **Chasseur-Pisteur + Cartographe**. Les passages sur ces points sont périmés. Voir `09-revalidation.md` pour la liste des corrections.
+
+
 Rédigé le 2026-10-06 pour la trame du Jeu B (« le Réceptacle »). Fait suite à `01-personnages-et-point-de-depart.md` et `02-trame-v1.md`. Il applique les décisions de krunt du 2026-10-06 : Krunt3 est le héros ; l'antagoniste qui a détruit sa famille est **un ordre ou un pays** ; la technique oubliée combine **A + B + C** ; « ça tourne mal » = **un pacte à payer** ; les trois autres joueurs sont transportés auprès de lui et peuvent l'aider ou l'abandonner (sanctions de clan).
 
 **Légende.** `[L5 ch.8]` = ce que dit un livre (L1 à L10, numéros de chapitre ou de section). **[P]** = proposition de ma part, inventée. **[!]** = contradiction avec les livres, ou point que **krunt doit trancher**. Les DD et les valeurs chiffrées sont des **hypothèses à tester**. Aucun nom de monstre ou de jeu protégé n'est utilisé.

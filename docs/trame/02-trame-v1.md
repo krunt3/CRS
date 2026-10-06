@@ -1,5 +1,8 @@
 # Trame v1 : le Réceptacle
 
+> **À lire avec `00-decisions.md` et `09-revalidation.md`.** Les questions du §8 sont en grande partie répondues ; les documents 06 (entité, pacte), 07 (essais) et 08 (fiches v2) prévalent sur les propositions de ce document.
+
+
 Rédigée le 2026-10-06. Les passages **« krunt »** sont ses mots (dictée du 2026-10-06). Tout le reste est une **proposition de Claude** à discuter. Cadre retenu dans le formulaire : voyage du héros en 12 étapes.
 
 ## 1. Ce que krunt a posé
