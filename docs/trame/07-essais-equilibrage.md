@@ -1,5 +1,7 @@
 # Essais d'équilibrage du combat : trois modèles de dégâts, quatre fiches, cinq adversaires
 
+> **Rejeu v3 (2026-10-06).** La revalidation (`09`) relevait que ce document simulait le Taranis de `04` (AGI 12, Vitalité 9, bagage de 4 potions, piège et huile) et le Pascal en maille (Défense 19), alors que `08` a changé les attributs, la Vitalité, le bagage et l'armure. Le script `outils/simu_combat.py` a été mis à jour avec les fiches v2 (Taranis AGI 11 / END 6 / Vitalité 10, bagage de `08` ; Pascal cuir + bouclier, Défense 18) et **rejoué : voir §12**. Les tableaux des §3, §4 et §7 (Krunt3 seul, calibrage de K et de kd) ne dépendent pas de Taranis ni de Pascal et restent valables ; les tableaux qui les concernent (§1.2, §5 pour le kit « maille », §6) sont **corrigés ou annotés** ci-dessous, et les nouveaux chiffres sont au §12.
+
 Rédigé le 2026-10-06 (Claude). Domaine : mesurer, par simulation réelle (Monte-Carlo, graine fixée), ce que valent les trois modèles de dégâts du chapitre `docs/mecaniques/01-chasse-et-combat.md` §4.5, si Krunt3 peut tenir la première ligne, pourquoi le chef de meute de la démo est « trivial » pour des fiches équilibrées, et avec quels réglages on obtient un combat de boss de 2 à 4 minutes en solo.
 
 **Légende.** `LIVRE` = ce que disent les livres (numéro). `DOC` = ce que disent les documents du dépôt. `MESURÉ` = résultat de `outils/simu_combat.py` (reproductible). `INVENTÉ` = valeur d'équilibrage sans appui dans les livres, à confirmer au prototype. Aucun commit n'a été fait.
@@ -14,9 +16,9 @@ Rédigé le 2026-10-06 (Claude). Domaine : mesurer, par simulation réelle (Mont
 2. **Il faut deux leviers, pas un** : K ≈ 20 sur la Vitalité (durée) **et** un coefficient de dégâts reçus kd ≈ 0,17 par-dessus le 0,65 du document 01, à tempo d'attaque égal (une action du chef toutes les 3,3 s). Autrement dit les dégâts reçus tombent à 0,11 PC par point de dégât du livre, soit une morsure déchirante de 1,4 PC (2,7 % de la Vitalité) au lieu de 9 PC. À pression égale on peut choisir moins de coups plus lourds : 5 s entre deux actions et 2,4 PC par morsure (§7.3, la table d'équivalence).
 3. **La grandeur qui compte est la pression** : environ **5,3 cases (21 PC) de Vitalité perdues par minute** pour un joueur moyen (esquive 55 %) donnent 45 % de victoires à la première tentative et 2 min 24 s de combat, quel que soit le tempo choisi (E8). Cette valeur est le vrai paramètre de réglage, K et kd n'en sont que deux écritures.
 4. **Les trois modèles à difficulté égale** (kd recalibré pour que Krunt3 seul gagne 45 % des premières tentatives) : le modèle A (Livre I) est une spirale par construction (100 % des défaites à Endurance sous 2) et récompense peu le savoir (3 Jetons : + 6 points) ; B (Livres II / IX) : spirale 56 %, + 14 points ; **C (deux barres) : spirale 35 à 39 % à 5 d'Endurance par round, 8 % à 8 (2 /s, la valeur du document 01), + 19 points**. C est le meilleur sur les trois critères ; A reste jouable seulement avec un tampon d'Endurance qui se régénère (kd 4 fois plus haut).
-5. **Krunt3 ne peut pas tenir la première ligne** avec la Double Lame et le cuir, dans aucun des trois modèles : avec Provocation il encaisse 26 à 58 % des coups (au lieu de 22 à 25 %) mais tombe dans 95 à 100 % des combats de 2 minutes, et la victoire de l'équipe baisse (75 % sans tank, 64 % avec Provocation, 43 % avec Provocation, Mur de Chair et Interposition, modèle C). **Avec Épée et Bouclier et maille (garde de 60 %), il tient** : en duo avec Cyril, 94 % de victoires contre 12 % (§5).
+5. **Krunt3 ne peut pas tenir la première ligne** avec la Double Lame et le cuir, dans aucun des trois modèles : avec Provocation il encaisse 26 à 58 % des coups (au lieu de 22 à 25 %) mais tombe dans 95 à 100 % des combats de 2 minutes, et la victoire de l'équipe baisse (75 % sans tank, 64 % avec Provocation, 43 % avec Provocation, Mur de Chair et Interposition, modèle C). **Avec Épée et Bouclier et maille (garde de 60 %), il tient** : en duo avec Cyril, 94 % de victoires contre 12 % (§5). *(Rejeu v3, §12 : la maille n'est pas disponible à la création ; avec cuir + bouclier, 85 % contre 12 %. Le kit de tank est celui de Pascal, `04` §4.5.)*
 6. **Les fiches équilibrées diffèrent d'un facteur 2 en dégâts** (21,6 contre 10,8 par round) : avec un K unique de 20, Krunt3 gagne un combat de 2 min 24 s à 44 à 63 % et Pascal « attaque de base seule » ne gagne jamais (0 %). Il faut un K propre à chaque personnage en solo (Krunt3 20, Taranis 18, Cyril 16, Pascal 10), ou un kit offensif pour Pascal.
-7. **Deux déséquilibres que les essais mettent au jour** : le **soin de Cyril** (Vitalité + 1 case pour 2 Mana, Mana gagné en frappant) la rend quasi invulnérable en solo (100 % de victoires à K = 20) ; à 4 Mana, 77 %. **Taranis** inflige 35 à 38 % des dégâts de la table (parts Krunt3 / Taranis / Cyril / Pascal : 24 / 35 / 23 / 18 % à K = 1), grâce à *Tir Ciblé* (Exposé), au *Flanc Coordonné* et à l'huile de son bagage ; sans bagage 29 à 32 %, et en solo 18 % de victoires au lieu de 39 %.
+7. **Deux déséquilibres que les essais mettent au jour** : le **soin de Cyril** (Vitalité + 1 case pour 2 Mana, Mana gagné en frappant) la rend quasi invulnérable en solo (100 % de victoires à K = 20) ; à 4 Mana, 77 %. **Taranis** (fiche d'origine) infligeait 35 à 38 % des dégâts de la table (parts Krunt3 / Taranis / Cyril / Pascal : 24 / 35 / 23 / 18 % à K = 1), grâce à *Tir Ciblé* (Exposé), au *Flanc Coordonné* et à l'huile de son bagage ; **avec la fiche v2 (rejeu v3, §12), il tombe à 29 à 30 % et n'est plus le premier des dégâts** ; en solo, 41 % de victoires avec le bagage v3 contre 12 % sans les Herbes.
 8. **Le seuil « 3 à 7 cases perdues par victoire » du document 01 §4.6 est incompatible avec 35 à 50 % de victoires** : un combat qui se gagne à 45 % se gagne avec 1 à 3 cases restantes (10 à 12 cases perdues sur 13). À proposer : mesurer à la place **la Vitalité restante** et **les cases perdues par minute**.
 9. **Rien ici n'est une preuve** : ce sont des simulations en temps abstrait, avec une IA de héros simple et un joueur « moyen » à probabilité d'esquive constante. Elles donnent l'ordre de grandeur de K, kd et du tempo, et classent les modèles ; les valeurs finales viendront des tests à la main (§9). Limites au §10.
 
@@ -48,17 +50,17 @@ Rédigé le 2026-10-06 (Claude). Domaine : mesurer, par simulation réelle (Mont
 
 | | Krunt3 | Taranis | Cyril | Pascal |
 |---|---|---|---|---|
-| Attributs finaux (FOR / AGI / END) | 9 / 8 / 9 | 5 / 12 / 5 | 5 / 6 / 6 | 7 / 6 / 8 |
-| Vitalité (cases / PC) | 13 / 52 | 9 / 36 | 10 / 40 | 12 / 48 |
-| Défense avec armure ; CA | 19 ; 2 (cuir) | 19 ; 2 (cuir) | 13 ; 1 | 19 ; 5 (maille + bouclier) |
-| Bonus d'attaque ; arme | 13 ; Double Lame 1d6+1d6 | 16 ; Arc 1d8 | 9 ; Épée Longue 1d8 | 10 ; Épée et Bouclier 1d6 |
+| Attributs finaux (FOR / AGI / END) | 9 / 8 / 9 | 5 / **11** / **6** (v2 ; était 5 / 12 / 5) | 5 / 6 / 6 | 7 / 6 / 8 |
+| Vitalité (cases / PC) | 13 / 52 | **10 / 40** (v2 ; était 9 / 36) | 10 / 40 | 12 / 48 |
+| Défense avec armure ; CA | 19 ; 2 (cuir) | 19 ; 2 (cuir) | 13 ; 1 | **18 ; 4 (cuir + bouclier)** (v2 ; était 19 ; 5, maille + bouclier : la maille exige un forgeron de niveau 8-15 [L Livre VIII]) |
+| Bonus d'attaque ; arme | 13 ; Double Lame 1d6+1d6 | **15** (v2 ; était 16) ; Arc 1d8 | 9 ; Épée Longue 1d8 | 10 ; Épée et Bouclier 1d6 |
 | Dégâts par touche (jeu) | 9,0 | 7,5 | 5,5 | 4,5 |
 | Mana ; mode | 6 ; Flux | 6 ; Rituel | 8 ; Flux | 6 ; Ancrage |
 | Posture | Ours (Provocation, Mur de Chair, Interposition) | Loup | Loup | Loup |
 | Spécificités simulées | Provocation selon le test ; Souffle du Réceptacle (variante) | *Tir Ciblé* (2 Mana, Exposé), **bagage de départ** | Soin de Vitalité + 1 case (2 Mana) ; *Présence Rassurante* | **attaque de base seule** (correction de krunt) |
-| Potions de soin (Endurance + 7) | 2 | **4** (bagage) | 2 | 3 (alchimiste) |
+| Potions de soin (Endurance + 7) | 2 | 2 (v2 ; était 4, bagage) **+ 2 Herbes Stabilisantes** (+2 cases de Vitalité) | 2 | 3 (alchimiste) |
 
-**Bagage de départ de Taranis (INVENTÉ ; krunt n'a donné que le principe)** : 4 potions de soin, 1 Piège à Colle posé avant le combat (le boss perd 0,75 round, la moitié pour CR 10 ou plus), 1 Huile de Feu (+ 2,5 aux coups pendant 22 rounds, x 1,5 sur la faiblesse Feu du chef). **Pascal, attaque de base seule** : variantes « soutien » (Garde Haute, 3 Herbes Stabilisantes + 2 Vitalité) et « bombe » (3 bombes de feu 2d6, niveau 5) comparées au §6.
+**Bagage de départ de Taranis, version v3 (`08` §4)** : ni piège à colle ni huile de feu ; 2 Herbes Stabilisantes (+2 cases de Vitalité sous 50 % de Vitalité) en plus des 2 potions de base. *(Version d'origine de ce document, INVENTÉE et remplacée : 4 potions de soin, 1 Piège à Colle posé avant le combat, 1 Huile de Feu.)* **Pascal, attaque de base seule** : variantes « soutien » (Garde Haute, 3 Herbes Stabilisantes + 2 Vitalité) et « bombe » (3 bombes de feu 2d6, niveau 5) comparées au §6.
 
 ### 1.3 Les adversaires (LIVRE III, section V ; ids de `donnees/monstres/crochues.json`)
 
@@ -292,18 +294,20 @@ Le tank **déplace** les coups (25 % à 60 % des coups sur Krunt3) et **protège
 | Jeu K = 60, kd 0,15, référence | 20 / **38** / 24 / 17 % | 0 % | 100 % |
 | Jeu K = 60, sans bagage | 22 / 32 / 26 / 19 % | 0 % | 100 % |
 
-- **Taranis est le premier dégâts de la table (35 à 38 %)** alors que sa part théorique est de 29 % (4,5 /s sur 15,9) : *Tir Ciblé* met la cible en Exposé (x 1,25 pour tous), le *Flanc Coordonné* ajoute un d6 à ses tirs et à ceux des autres Loups, l'huile de feu ajoute 2,5. Sans bagage il redescend à 29 à 32 %. Le document 04 §6.4 point 3 voulait « surveiller » : c'est mesuré. Pas de correction nécessaire tant qu'il reste la fiche la plus fragile (Vitalité 9, Mana 6 en Rituel : *Tir Ciblé* 3 fois par combat).
+- **[Obsolète, voir §12] Taranis (fiche d'origine) est le premier dégâts de la table (35 à 38 %)** alors que sa part théorique est de 29 % (4,5 /s sur 15,9) : *Tir Ciblé* met la cible en Exposé (x 1,25 pour tous), le *Flanc Coordonné* ajoute un d6 à ses tirs et à ceux des autres Loups, l'huile de feu ajoute 2,5. Sans bagage il redescend à 29 à 32 %. Le document 04 §6.4 point 3 voulait « surveiller » : c'est mesuré. Pas de correction nécessaire tant qu'il reste la fiche la plus fragile (Vitalité 9, Mana 6 en Rituel : *Tir Ciblé* 3 fois par combat).
 - **Pascal « base » est le dernier (17 à 18 %)**, ce qui est voulu (rempart) ; ses bombes à 3 charges le montent à 29 à 33 %.
 - ***Flanc Coordonné* cumulable** ne change presque pas les parts de dégâts et réduit un peu le risque (« ≥ 1 à terre » 58 % contre 67 % à K = 1) : la meute tombe plus vite. La limite du document 04 §7.3 ne se justifie pas par cette simulation : à garder pour la lisibilité plus que pour l'équilibre.
 
 ### 6.2 Taranis avec son bagage (solo, E3c et E6)
+
+> **Obsolète pour la fiche v2 : voir §12.** Le tableau ci-dessous mesure l'ancien bagage (4 potions, piège, huile). Le rejeu v3 (2 Herbes Stabilisantes, ni piège ni huile) donne 41 % de victoire à la première tentative avec le bagage et 12 % sans, à K = 20 et kd 0,15.
 
 | | Taranis avec bagage | sans bagage |
 |---|---|---|
 | Victoire à la 1re tentative (K = 20, kd 0,15, chef + éclaireurs) | **39 %** | **18 %** |
 | Durée médiane | 2 min 08 s | 2 min 44 s |
 
-Le bagage (4 potions, piège, huile) vaut **21 points de victoire** en solo : il fait de Taranis un personnage qui ne souffre pas au départ, ce que krunt a demandé. Une fois le piège posé, il compense une partie de sa Vitalité de 9. À garder comme **bagage à usage unique par chasse** (les consommables se reconstituent au camp).
+Le bagage d'origine (4 potions, piège, huile) valait **21 points de victoire** en solo : il fait de Taranis un personnage qui ne souffre pas au départ, ce que krunt a demandé. *(Conclusion remplacée par le rejeu v3 : les 2 Herbes valent environ 29 points de victoire en solo, à ± 6 points ; c'est un soin de Vitalité à surveiller.)* À garder comme **bagage à usage unique par chasse** (les consommables se reconstituent au camp).
 
 ### 6.3 Pascal sans bombes (solo, E3c et E3d)
 
@@ -447,7 +451,7 @@ Réglage K = 20, kd 0,15, tempo 1,2, chef + éclaireurs :
 | Cibles | 45 % de victoires en première tentative sans jeton, 60 à 65 % avec 3 | DOC 01 §4.6 (35 à 50 % et 60 à 75 %) |
 | Soin de Cyril | Vitalité + 1 case pour **4 Mana** (au lieu de 2) | E3d |
 | Tank de Krunt3 | pas de Provocation systématique ; sinon Épée et Bouclier + maille | §5 |
-| Taranis | bagage à usage unique par chasse (4 potions, piège, huile) | §6.2 |
+| Taranis | bagage à usage unique par chasse (2 Herbes Stabilisantes ; ni piège ni huile en v3) | §6.2, §12 |
 | Pascal (base) | K = 10, ou lui donner dès le niveau 1 un petit kit offensif | §6.3 |
 
 **Formule de contrôle** : durée ≈ 7 s x K (chef + éclaireurs, Krunt3). Victoire ≈ − 9 points par + 0,01 de kd autour de K = 20 (à tempo 1,2).
@@ -507,7 +511,7 @@ Réglage K = 20, kd 0,15, tempo 1,2, chef + éclaireurs :
 | 5 | **K propre à chaque personnage en solo, ou un kit de départ pour Pascal ?** | facteur 2 entre Krunt3 et Pascal « base » |
 | 6 | **Soin de Cyril : 4 Mana** accepté ? | à 2 Mana elle ne perd jamais en solo |
 | 7 | **Le « 3 à 7 cases perdues par victoire »** (document 01 §4.6) remplacé par **les cases perdues par minute** et la **Vitalité restante** ? | incompatible avec 35 à 50 % de victoires (10 à 12 cases perdues sur 13) |
-| 8 | **Contenu du bagage de Taranis** (aujourd'hui 4 potions, piège, huile : inventé) | vaut 21 points de victoire en solo |
+| 8 | **Contenu du bagage de Taranis** (v3 : carquois, instruments, carnet de pisteur, 7 jours de rations, 2 Herbes Stabilisantes, Carnet des Routes, boussole éteinte) | les 2 Herbes valent environ 29 points de victoire en solo (§12) |
 | 9 | Phase 2 : passage forcé à 30 % si le déclencheur manque | oui, mesuré utile (phases : 18 points de victoire) |
 
 ---
@@ -515,3 +519,31 @@ Réglage K = 20, kd 0,15, tempo 1,2, chef + éclaireurs :
 ## Annexe : liste des tableaux produits par le script
 
 `echelle` (E0), `livre` (E1 + réconciliation + K de table), `jeu` (E2), `K` (E3a à E3e), `tank` (E4a à E4d), `leviers` (E5), `variantes` (E6), `competence` (E7), `equiv` (E8), `modeles` (E9). La graine de base est `SEED = 20261006` ; chaque tableau utilise une graine dérivée de l'étiquette de sa cellule (CRC32), donc ajouter un tableau ne modifie pas les autres. Les paramètres modifiables (PRESETS, ESQUIVE_BASE, P_PROVOC, P_INTERPO, RECO, POP, BAGAGE_TARANIS, HEROS) sont en tête du fichier.
+
+---
+
+## 12. Rejeu v3 (2026-10-06) : fiche v2 de Taranis, Défense 18 de Pascal
+
+**Ce qui a changé dans `outils/simu_combat.py`** : Taranis AGI 11 / END 6 (Vitalité 10), attaque 15 (11 + 3 + 1 de rang I), initiative 17, dégâts par touche 11 ; Pascal en cuir + bouclier (CA 4, Défense 18) ; bagage v3 de Taranis : ni piège à colle ni huile de feu, 2 Herbes Stabilisantes (+2 cases de Vitalité, utilisées sous 50 % de Vitalité), 2 potions de base ; le kit « bouclier » de Krunt3 (variante du §5) est cuir + bouclier (+2 CA) et non plus maille + bouclier (+3). Graine 20261006, **300 tirages par cellule** (± 6 points sur un pourcentage), rapport complet exécuté en 4 min 30 s ; les sections `variantes` (7 s) et `tank` suffisent pour les tableaux ci-dessous.
+
+**E6 : parts des dégâts et risque (table de quatre héros, modèle A)**
+
+| Échelle, variante | Krunt3 / Taranis / Cyril / Pascal | ≥ 1 à terre | Victoire |
+|---|---|---|---|
+| Livre K = 1, référence (bagage v3 ; Pascal « base ») | 23 % / **29 %** / 25 % / 23 % | 72 % | 99 % |
+| Livre K = 1, sans les Herbes | 23 / 30 / 25 / 23 % | 74 % | 98 % |
+| Livre K = 1, Pascal « bombe » (hors décision de krunt) | 20 / 25 / 22 / 33 % | 73 % | 100 % |
+| Livre K = 3, référence | 18 / **30** / 25 / 26 % | 93 % | **76 %** (était 94 %) |
+| Livre K = 3, sans les Herbes | 18 / 30 / 26 / 25 % | 89 % | 74 % |
+| Jeu K = 60, kd 0,15, modèle C, référence | 24 / **29** / 27 / 20 % | 0 % | 100 % (durée 2 min 08 s) |
+
+**Taranis seul, K = 20, kd 0,15, modèle C, première tentative** : avec le bagage v3 **41 %** (3 min 16 s), sans les Herbes **12 %** ; K = 18 : 58 % (E3c, rapport complet). Cyril : 100 % avec le soin à 2 Mana, 77 % à 4 Mana (inchangé). Pascal « base » : K = 10 donne 71 % à la première tentative (inchangé).
+
+**Tank de Krunt3 (E4b, modèle C, K = 60, kd calibré sans tank pour 75 %)** : sans tank, victoire 80 % ; Provocation seule 58 % (Krunt3 à terre 98 %) ; Provocation + Mur de Chair + Interposition 42 % (Krunt3 à terre 100 %). Avec le kit cuir + bouclier : 62 % sans tank, 67 % avec Provocation, 61 % en complet ; **duo Krunt3 + Cyril** (K = 40) : 12 % avec le kit de base, **85 % avec cuir + bouclier** (était 94 % avec maille + bouclier).
+
+**Ce que cela change dans les conclusions**
+1. **Taranis n'est plus le premier des dégâts** (29 à 30 % à quatre contre 35 à 38 %) : il n'écrase plus la table, la correction du §6.4 point 3 de `04` (un point d'AGI vers END) a suffi. Pas d'autre réglage à faire.
+2. **Le bagage de `08` vaut moins que celui de la v1 à la table** (plus de piège ni d'huile) mais **les 2 Herbes pèsent lourd en solo** (41 % contre 12 %). À surveiller au test : l'Herbe Stabilisante est un soin de Vitalité de +2 cases (DD 10 [L Livre VII]) ; si krunt la trouve trop forte, passer à 1 Herbe (question `10` Q23).
+3. **La table est plus difficile à K = 3** (76 % de victoires au lieu de 94 %) : la Défense 18 de Pascal, la perte du piège et de l'huile de Taranis et son point d'AGI en moins jouent ensemble. Le chef de meute reste « trivial » à K = 1 (99 %).
+4. **Krunt3 reste un fer de lance** : le résultat du tank est inchangé (Provocation seule : Krunt3 à terre dans 98 % des combats ; complet : 100 %). Pour tenir la première ligne il faudrait cuir + bouclier, c'est-à-dire l'école de Pascal (Gardien Mobile).
+5. **Pas rejoué** : le calibrage de K_perso et kd pour les quatre personnages (E3c, tableau du §8) est inchangé pour Krunt3, Cyril et Pascal et très proche pour Taranis (K = 18 : 58 %) : à confirmer au prototype. Les sections E1, E2, E5, E7, E8, E9 (Krunt3 seul) ne dépendent pas de ces fiches.

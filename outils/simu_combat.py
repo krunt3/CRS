@@ -83,11 +83,13 @@ PTS_ATTR = [0, 2, 4, 4, 7]      # points d'attribut cumulés par palier d'histoi
 HEROS = {
     "Krunt3": dict(FOR=9, AGI=8, END=9, atk=13, dice=(2, 6), dmg_attr=9, ca=2, defense=19, init=15,
                    mana=6, mode="flux", melee=True, bouclier=False, arme="tranchant", poids_cible=1.0),
-    "Taranis": dict(FOR=5, AGI=12, END=5, atk=16, dice=(1, 8), dmg_attr=12, ca=2, defense=19, init=18,
+    # v3 (docs/trame/08 §3.2) : Taranis AGI 11 / END 6 (Vitalité 10), attaque 11 + 3 + 1 (rang I) = 15
+    "Taranis": dict(FOR=5, AGI=11, END=6, atk=15, dice=(1, 8), dmg_attr=11, ca=2, defense=19, init=17,
                     mana=6, mode="rituel", melee=False, bouclier=False, arme="perçant", poids_cible=0.5),
     "Cyril": dict(FOR=5, AGI=6, END=6, atk=9, dice=(1, 8), dmg_attr=5, ca=1, defense=13, init=15,
                   mana=8, mode="flux", melee=True, bouclier=False, arme="tranchant", poids_cible=0.8),
-    "Pascal": dict(FOR=7, AGI=6, END=8, atk=10, dice=(1, 6), dmg_attr=7, ca=5, defense=19, init=12,
+    # v3 (docs/trame/08 §3.6) : Pascal en cuir +2 et bouclier +2 (la maille exige un forgeron de niveau 8+) : CA 4, Défense 18
+    "Pascal": dict(FOR=7, AGI=6, END=8, atk=10, dice=(1, 6), dmg_attr=7, ca=4, defense=18, init=12,
                    mana=6, mode="ancrage", melee=True, bouclier=True, arme="tranchant", poids_cible=1.0),
 }
 
@@ -108,8 +110,10 @@ OPTS_DEFAUT = dict(
     terrain=None,               # {"feu_p":.., "instable_p":..} (INVENTÉ)
     potions=None,               # surcharge du nombre de Potions de Soin par héros
 )
-# Bagage de départ de Taranis (INVENTÉ ; krunt : « il part avec un bagage de départ »)
-BAGAGE_TARANIS = dict(potions=4, piege_colle=1, huile_feu=1)
+# Bagage de départ de Taranis, version v3 (docs/trame/08 §4) : ni piège à colle ni huile de feu ; 2 Herbes Stabilisantes
+# (+2 cases de Vitalité) ; les 2 potions de base sont celles de tout le monde (INVENTÉ). L'ancienne version de 07
+# (4 potions, piège, huile) valait « 21 points de victoire » : elle est remplacée.
+BAGAGE_TARANIS = dict(potions=2, piege_colle=0, huile_feu=0, herbes=2)
 POTIONS_BASE = dict(Krunt3=2, Taranis=2, Cyril=2, Pascal=3)   # INVENTÉ ; Pascal alchimiste : 3 potions mineures
 
 
@@ -297,7 +301,7 @@ class Hero:
             c["ca"] += 2
             c["defense"] += 2
         elif nom == "Krunt3" and o.get("krunt_kit") == "bouclier":
-            c.update(bouclier=True, dice=(1, 8), ca=c["ca"] + 3, defense=c["defense"] + 3)
+            c.update(bouclier=True, dice=(1, 8), ca=c["ca"] + 2, defense=c["defense"] + 2)   # v3 : cuir + bouclier (08 §3.6), plus de maille
         self.nom, self.c = nom, c
         self.vitmax = float(4 + c["END"])
         self.vit = self.vitmax
@@ -323,6 +327,8 @@ class Hero:
             self.piege, self.huile = BAGAGE_TARANIS["piege_colle"], BAGAGE_TARANIS["huile_feu"]
         self.potions = pot
         self.herbes = 3 if (nom == "Pascal" and o["pascal"] == "soutien") else 0
+        if nom == "Taranis" and o["bagage_taranis"]:
+            self.herbes = BAGAGE_TARANIS["herbes"]
         self.bombes = 3 if (nom == "Pascal" and o["pascal"] == "bombe") else 0
         self.souffle_dispo = (nom == "Krunt3" and o["souffle"])
         self.souffle_rounds = 0
@@ -704,6 +710,10 @@ class Combat:
                     h.mana -= 2
                     h.garde = True
                     busy += P["busy_tech"]
+        if h.nom == "Taranis" and h.herbes > 0 and h.vit <= 0.5 * h.vitmax and busy < 0.9:
+            h.herbes -= 1                                   # bagage v3 : Herbe Stabilisante, +2 cases de Vitalité
+            h.vit = min(h.vitmax, h.vit + 2.0)
+            busy += P["busy_soin"]
         # attaque
         frac = max(0.0, 1.0 - busy - (perdu if jeu else 0.0))
         if not jeu and (busy >= 1.0 or perdu):

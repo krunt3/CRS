@@ -1,5 +1,7 @@
 # 08 : Fiches v2 des quatre personnages et briefs de sprites
 
+> **Passe v3 (2026-10-06)** : somme d'attributs de Pascal corrigée (7/6/8/9/5/7 = 42), comptes de palette recalculés (Pascal 23), contenu de la Dette de Sang aligné sur la Braise. Synthèse canonique des fiches : `10-trame-v3.md` §2. Reste de ce document : référence (JSON du VTT, sprites).
+
 Rédigé le 2026-10-06. Domaine : (1) appliquer les décisions de krunt aux quatre fiches (Krunt3, Taranis, Cyril, Pascal) en respectant les règles de création des livres ; (2) écrire un brief de sprite et un prompt PixelLab simplifié pour chacun, avec la déclinaison « porteur de l'entité » de Krunt3 (sans spoiler).
 
 **Légende.** **[L]** = ce que disent les livres (livre et lieu). **[P]** = proposition de Claude. **[INV]** = invention sans appui dans les livres, à tester. **[V#]** = point à valider par krunt (liste en §10). Aucun commit n'a été fait. Ce document remplace les fiches JSON de `04-equilibrage-personnages.md` §9.1 à 9.4 ; le reste de `04` (profils de progression, simulation, recrues) reste valable sous réserve des corrections du §8.
@@ -12,7 +14,7 @@ Rédigé le 2026-10-06. Domaine : (1) appliquer les décisions de krunt aux quat
 - **Décisions de krunt appliquées** : Krunt3 aux Frères de l'Épreuve (« Ordre du Jugement » en surnom), Ours, Danse Rouge, Espion/Infiltrateur, Lames Franches, Îles des Serments ; Taranis Chasseur-Pisteur + Cartographe, Navigateurs Gris, Guilde de Chasse, **avec un bagage de départ** (§4) ; Cyril Sceau Pourpre, Mage Blanc ; Pascal Sceau Pourpre, Alchimiste, **attaque de base seule jusqu'aux bombes** ; régions de l'Atlas sans surnoms.
 - **Ordre de Pascal** : je recommande **Sentinelles du Pacte** (fiche déjà rédigée dans `03` §3.4, à ajouter à StoryForge), avec **Culte des Ancêtres Veilleurs** (canonique, Hautes Terres) en repli (§5).
 - **« Deux Lames »** : le Livre VI justifie de **garder Danse Rouge** ; je n'ai pas de meilleure proposition (§6).
-- **Sprites** : quatre silhouettes volontairement incompatibles (Krunt3 large et bas à manteau de fourrure, Taranis haut et étroit avec arc vertical et sac bossu, Cyril colonne à manteau évasé, Pascal court et carré avec bouclier rond). Chacun a une palette de 26 à 30 couleurs sur 32 (§9). Le sprite à la hache à deux mains est abandonné : Krunt3 porte **deux lames courtes**.
+- **Sprites** : quatre silhouettes volontairement incompatibles (Krunt3 large et bas à manteau de fourrure, Taranis haut et étroit avec arc vertical et sac bossu, Cyril colonne à manteau évasé, Pascal court et carré avec bouclier rond). Chacun a une palette de 23 à 30 couleurs sur 32 (§9.6, comptes recalculés). Le sprite à la hache à deux mains est abandonné : Krunt3 porte **deux lames courtes**.
 
 ---
 
@@ -40,7 +42,7 @@ Rédigé le 2026-10-06. Domaine : (1) appliquer les décisions de krunt aux quat
 
 | Règle [L] | Source | Krunt3 | Taranis | Cyril | Pascal |
 |---|---|---|---|---|---|
-| 42 points, 3 à 12 par attribut | Livre I ch. 3 §7 étape 3 | 42 (9/8/8/4/7/6) | 42 (5/11/6/9/6/5) | 42 (5/6/6/8/9/8) | 42 (7/6/8/9/5/6) |
+| 42 points, 3 à 12 par attribut | Livre I ch. 3 §7 étape 3 | 42 (9/8/8/4/7/6) | 42 (5/11/6/9/6/5) | 42 (5/6/6/8/9/8) | 42 (7/6/8/9/5/**7**, +1 VOL d'origine) |
 | Bonus d'origine après répartition | Livre I ch. 2 §4 ; Livre II ch. 4 | Îles : +1 END | aucun | aucun | Hautes Terres : +1 VOL |
 | Vitalité = 4 + END | Livre I ch. 2 §4 | 13 | 10 | 10 | 12 |
 | Endurance = 10 | Livre I ch. 3 §7 étape 4 | 10 | 10 | 10 | 10 |
@@ -147,7 +149,7 @@ Contrôles : Krunt3 a 2 Majeurs et 3 mineurs (limites atteintes) ; gain de handi
 
 Handicaps uniques de Krunt3 (le Livre VIII ch. 4 §3 exige des conditions d'activation claires et une validation du MJ avant la première session) :
 - **Réceptacle** [INV, [V7]] : une entité habite Krunt3. *Activation* : au moins une fois par arc, et sur Échec critique ou quand il se met en danger, le MJ déclenche une manifestation involontaire (chaleur, vision, impulsion). *Limites* : l'entité n'est ni alliée ni ennemie par défaut ; la manifestation peut aider ou gêner au choix du MJ. Rédigé **neutre** pour tenir compte de la décision « l'entité ne le maudit peut-être pas ».
-- **Dette de Sang : créancier du pacte** : le Livre VIII définit Dette de Sang comme « obligation narrative récurrente envers une faction, une personne ou une institution » (déclenchement : une fois par arc minimum). Le **contenu** de la dette (créancier, prix) est celui de la trame révisée : **« Quittance des Noms » est rejetée**, le prix « oublier des noms » (`05` §2.6 créance 3) ne doit donc pas figurer sur la fiche. Les créances 1 (Ordre du Flux) et 2 (Loyer de l'Écho) de `05` restent des pistes. [V8]
+- **Dette de Sang : créancier du pacte** : le Livre VIII définit Dette de Sang comme « obligation narrative récurrente envers une faction, une personne ou une institution » (déclenchement : une fois par arc minimum). Le **contenu** de la dette (créancier, prix) est celui de la trame révisée : **l'ancien coût par l'oubli de noms est retiré** (décision de krunt), il ne doit donc pas figurer sur la fiche. La dette est celle de la **Braise** (Loyer quotidien de l'Écho, `06` §2 et `10` §4.3) et de la **Dette du Flux** (`05` §2.6 créance 1). [V8 : résolu par la décision de krunt, reste à confirmer le dosage]
 
 ### 3.6 Équipement de départ et Éclats
 
@@ -480,7 +482,7 @@ Examen du Livre VI [L], chapitre « Écoles Martiales » et §5 de compatibilit�
 | 12 | **Pascal, points de savoir** | 4 PS « déjà dépensés dans le kit » | 2 PS | le kit est limité par le Livre VIII |
 | 13 | **Pascal, attaque** | Bombe de Feu de départ proposée | attaque de base seule jusqu'au niveau 4 | décision de krunt |
 | 14 | **Krunt3, compétences** | Discrétion 2, Commandement 1, Perception 1, Athlétisme 1, Résistance mentale 1 | Discrétion **3**, **sans Commandement** | un Espion doit être fort en Discrétion ; chez les Lames « aucun membre ne peut commander un autre sans son consentement » [L Livre V clan 2] |
-| 15 | **Krunt3, Dette de Sang** | « Dette de Sang (le Pacte) » ; prix implicite (noms) | dette au « créancier du pacte », contenu laissé à la trame révisée | la « Quittance des Noms » est rejetée |
+| 15 | **Krunt3, Dette de Sang** | « Dette de Sang (le Pacte) » ; prix implicite (noms) | dette au « créancier du pacte » : la Braise et la Dette du Flux | le coût par l'oubli de noms est retiré (décision de krunt) |
 | 16 | **Krunt3, Réceptacle** | handicap unique présenté comme malédiction | formulation neutre (l'entité ne le maudit peut-être pas) | décision de krunt du 2026-10-06 |
 | 17 | **`tech-ecole`, `tech-posture`** | nom de l'école, nom de la Posture | **Technique** de rang I et Technique d'ouverture | `03` §7.3 |
 | 18 | **`ordre-philo` de Cyril** | vide | vide, mais l'option « Ordre du Flux » est écartée explicitement | antagoniste validé |
@@ -655,7 +657,7 @@ Valeurs de départ **choisies à la main** [INV], à réajuster dans PixelForge 
 
 **Tronc commun (8)** : contour `#1d1a24` ; blanc cassé `#f3ece0` ; acier sombre `#4a5160`, moyen `#7d8696`, clair `#b9c1cc` ; cuir sombre `#4a3022`, moyen `#7a5232`, clair `#a97b4a`.
 
-| | Krunt3 (30) | Taranis (24) | Cyril (26) | Pascal (26) |
+| | Krunt3 (30) | Taranis (24) | Cyril (26) | Pascal (23) |
 |---|---|---|---|---|
 | Peau (3) | `#8f4a36` `#b9694a` `#d98d66` (rouge hâlé) | `#7a5a3a` `#a47b52` `#cfa174` (olive hâlé) | `#b98462` `#e1ad87` `#f4cfaa` (clair) | `#6e4430` `#946248` `#bb8661` (brun) |
 | Cheveux, barbe | cuivre roux `#5a2418` `#8d3a1f` `#c2602a` | brun très sombre `#2a1f1a` `#4a3628` | brun `#2d2430` `#4d3f4a` | noir brun `#241a17` `#3d2c26` |
@@ -700,7 +702,7 @@ Sous le plafond de 32 pour les quatre ; il reste 2 couleurs libres chez Krunt3, 
 | **V5** | Mana de départ : Livre VI (6 à 8) ou Livre I (2) ? | Livre VI (6, 6, 8, 6) |
 | **V6** | Ingénieur Méthodique de Pascal sans synergie ; Canal Stable de Cyril avec la synergie du livre ; lecture de « Karma » comme Honneur | accepter |
 | **V7** | Handicap unique « Réceptacle » (neutre : l'entité n'est pas forcément une malédiction) | accepter, à confirmer avec la version finale de l'entité (`05`) |
-| **V8** | Contenu de la **Dette de Sang** de Krunt3 (créancier du pacte) ; « Quittance des Noms » rejetée donc le prix « oublier des noms » est retiré | à décider avec le remplaçant du coût du pacte |
+| **V8** | Contenu de la **Dette de Sang** de Krunt3 (créancier du pacte) ; le prix « oublier des noms » est retiré (décision de krunt) | contenu = la Braise et la Dette du Flux (`10` §4.3) ; dosage à confirmer |
 | **V9** | Flanc Coordonné de Pascal : lecture souple (gardé) ou stricte (retiré au rang II) ? | gardé |
 | **V10** | `05` §2.3 : réécrire le « Feu des Noms » comme rite de clan (Krunt3 n'a pas d'école de feu) | oui |
 | **V11** | Sprite de Krunt3 : peau hâlée rougie (proposée) ou rouge franche ? Garde-t-on la barbe rousse tressée ? | hâlée rougie, barbe gardée |
@@ -724,7 +726,7 @@ Sous le plafond de 32 pour les quatre ; il reste 2 couleurs libres chez Krunt3, 
 ## Compte rendu (5 lignes)
 
 1. **Couvert** : quatre fiches v2 conformes aux règles de création (42 points, jauges, 17 compétences, PA, équipement « niveaux 1-5 »), en JSON (clés du VTT) et en tableaux, avec 20 corrections (liste du §8) par rapport à `04` ; bagage de Taranis défini dans les limites des Livres I, VIII et IX ; Danse Rouge justifiée ; ordre de Pascal tranché ; briefs et prompts PixelLab pour les quatre, avec palettes, tailles et test d'ombre chinoise, et la variante « porteur » de Krunt3 en calque de braises sans spoiler.
-2. **Faible** : Éclats, bagage, objectifs et relations sont des inventions à valider ; le contenu de la Dette de Sang de Krunt3 dépend du coût du pacte remplaçant la « Quittance des Noms » ; les palettes et dimensions de sprites n'ont pas été testées dans PixelLab ; le Mana de départ reste ambigu entre les livres.
+2. **Faible** : Éclats, bagage, objectifs et relations sont des inventions à valider ; le contenu de la Dette de Sang de Krunt3 dépend du dosage de la Braise (qui remplace l'ancien coût par l'oubli de noms) ; les palettes et dimensions de sprites n'ont pas été testées dans PixelLab ; le Mana de départ reste ambigu entre les livres.
 3. **Recommandation 1** : valider d'abord V2 (régions, surtout Taranis) et V4 (Sentinelles du Pacte), car ils conditionnent les listes StoryForge et du VTT.
 4. **Recommandation 2** : générer les sprites dans l'ordre Krunt3 (profil puis calque porteur), Pascal, Cyril, Taranis, et faire le test d'ombre chinoise **avant** l'animation ; le calque de braises est un fichier à part.
-5. **Recommandation 3** : fixer le coût du pacte (remplaçant la « Quittance des Noms ») avant de figer la Dette de Sang et le handicap Réceptacle de Krunt3, et réécrire le « Feu des Noms » de `05` §2.3 en rite de clan.
+5. **Recommandation 3** : fixer le dosage de la Braise (qui a remplacé l'ancien coût par l'oubli de noms) avant de figer la Dette de Sang et le handicap Réceptacle de Krunt3 ; le « Feu des Noms » de `05` §2.3 est déjà réécrit en rite de clan (passe v3).

@@ -4,11 +4,30 @@ Rédigé le 2026-10-06 par un relecteur indépendant. Périmètre relu en entier
 
 **Légende.** **EN VIGUEUR** = valeur recommandée pour toute la trame. **CORRIGER** = document à modifier. **[L]** = fait vérifié dans un livre. **[P]** = proposition des agents. **[INV]** = invention. Les numéros « §n » renvoient aux sections des documents cités.
 
+## Suivi de la passe v3 (2026-10-06)
+
+La passe v3 a appliqué les corrections « haute » (§5.1) et produit le document canonique `10-trame-v3.md`. État :
+
+| # | Correction | État | Où |
+|---|---|---|---|
+| H1 | Bandeaux d'obsolescence | **fait** (01 à 08, plus `mecaniques/06`) | en tête de chaque document |
+| H2 | Ordre de Krunt3 = Frères de l'Épreuve, Juge-mentor = Gardien d'île | **fait** | 01, 02, 04, 05 ; `10` §3.2 |
+| H3 | Pacte : Prix des Noms supprimé, Braise, marques, rite renommé | **fait** | 05 (§0, §2, §3, §6), 06, 08 ; `10` §4 |
+| H4 | Fiches de 04 : Taranis (métier, région, attributs, Résonance), Pascal (ordre, cuir, bombe), Éclats | **fait** (§9 marqué obsolète et valeurs corrigées) | 04 |
+| H5 | Pascal au Sceau Pourpre ; Honneur alignés | **fait** | 03 |
+| H6 | Table de sanction « abandon / absence » | **fait** : une ligne par clan, avec le nouvel honneur propre à chaque clan | `10` §5 ; pointeurs dans 02, 05, 06 |
+| H7 | Règle des trois autres en solo, voie solo / voie table | **fait** : ils apparaissent en PNJ (décision de krunt, plus « PNJ tombés originaux ») | `10` §3.4 et §6 ; `mecaniques/06` corrigé |
+| H8 | 07 rejoué avec les fiches 08 | **fait** pour Taranis et Pascal (script mis à jour, §12 de 07). **Non appliqué** : K_perso et soin à 4 Mana sur 08 (questions `10` Q25 et Q30) | 07, `outils/simu_combat.py` |
+| H9 | Affirmations fausses sur les livres | **fait** (guillemets Marches, arbitre à Aurath, convoi, contrat de phœnix annotés) | 02, 03, 05, 06 ; `10` §3.5 |
+| H10 | Chronologie canonique | **fait** (visite d'audit à T-18 jours : le doublon T-9 jours de 05 est corrigé) | `10` §7 ; 05 §6, 06 §5.5 |
+
+Moyennes et basses : rang V (M4), Neuf Nuits et feu rituel (M5), « chez lui » de Taranis (M8), verrous de jet (M10), PRE de Pascal et palettes (B1) : **faites**. Renommer « Saturation » (M1), table unique des marques (M3), K / kd de `mecaniques/01` (M6), clan de démonstration (M7) : **proposés dans `10`, non tranchés** (questions).
+
 ## 0. Verdict en douze lignes
 
 1. **La trame tient debout** : l'antagoniste (Ordre du Flux, couches de vérité), l'entité en étages (Écho, Gardien, Krunt), le coût en Braise et les fiches v2 sont cohérents entre eux **à condition de lire 06 et 08 comme prioritaires sur 04 et 05**. Rien ne l'écrit encore en tête des documents anciens.
-2. **Dette principale : les documents 03, 04 et 05 contiennent des valeurs que 06 et 08 ont remplacées**, sans bandeau d'obsolescence : Prix des Noms et « Quittance » (05), Ordre du Jugement = Flux (05), fiches JSON de 04 §9 (Taranis Espion et aux Marches, Pascal Culte des Ancêtres, Éclats, Défense), Pascal en Pierres Hautes (03 §2.5, §11). Un lecteur qui prend 04 §9 pour les fiches importe des valeurs fausses.
-3. **Deux décisions de krunt sont violées** quelque part : *Ordre de Krunt3 = Frères de l'Épreuve* (05 le traite encore comme Ordre du Jugement = Flux) et *« Quittance des Noms » rejetée* (05 en est plein ; 06 renomme le rite mais l'interprétation du rejet reste à confirmer).
+2. **Dette principale : les documents 03, 04 et 05 contiennent des valeurs que 06 et 08 ont remplacées**, sans bandeau d'obsolescence : le prix par l'oubli de noms et l'ancien nom du rite (05), Ordre du Jugement = Flux (05), fiches JSON de 04 §9 (Taranis Espion et aux Marches, Pascal Culte des Ancêtres, Éclats, Défense), Pascal en Pierres Hautes (03 §2.5, §11). Un lecteur qui prend 04 §9 pour les fiches importe des valeurs fausses.
+3. **Deux décisions de krunt sont violées** quelque part : *Ordre de Krunt3 = Frères de l'Épreuve* (05 le traite encore comme Ordre du Jugement = Flux) et *retrait de l'ancien coût du pacte et du rite qui portait son nom* (05 en est plein ; 06 renomme le rite, mais le nom de remplacement reste à confirmer).
 4. **Une décision est détournée sans que personne ne le signale** : krunt dit que le clan sanctionne **ceux qui abandonnent Krunt** ; 02 §5 et 05 §5 construisent surtout une sanction pour **absence prolongée** (désertion, Appel du Clan sans réponse). Les deux logiques coexistent sans être distinguées (section 1, ligne 29).
 5. **Les livres sont bien cités dans l'ensemble** (trente-trois affirmations sondées, environ vingt-cinq exactes, section 3), avec trois erreurs réelles : une citation d'Atlas inexistante (« personne n'y est chez soi »), un arbitre disparu placé aux Marches alors que l'Atlas le place à Aurath, et des Résonances de départ qui contredisent la règle du Livre VI. Plus un écart non signalé : le phœnix tué « aux Ravins de Keth » ne s'accorde pas avec le seul contrat de phœnix de l'Atlas (cible : Îles Brûlantes).
 6. **Le point faible n'est pas la cohérence, c'est le périmètre** : la trame ajoute à la démo une jauge à crans, un cadran de 24 h, un mini-jeu de libération, trois échelles de découverte, quatre horloges de clan, deux recrues et quatorze nouvelles marques. Pour un développeur seul sur 75 semaines, **seule une tranche verticale minimale est réaliste** (section 4.4).
@@ -51,7 +70,7 @@ Les valeurs EN VIGUEUR sont choisies pour respecter dans l'ordre : (1) les déci
 | 22 | **Progression : rang d'École V** | 04 §1.3 : rang V « vers niveau 20-22 » (Livre X l.1512 : rang V au niveau **20**) ; 04 §5.3 : Étincelle, Graine, Pacte atteignent le rang V à 100 % avec niveau **15-16** | Ou le rang V est hors campagne, ou le tableau §5.3 s'arrête au rang IV | **04** §5.3 |
 | 23 | **Profil Étincelle / PS de Pascal** | 04 §5 : Étincelle × 1,25, 0 PS ; Pascal 4 PS. 08 §4/§8 : Étincelle « tempéré » × 1,15, 1 PS ; Pascal 2 PS | **08** | **04** §5.2, §9.2/§9.4 |
 | 24 | **Coût du pacte** | 05 §0 n°5, §2.6 : trois créances (Flux, Loyer de l'Écho, **Prix des Noms**) ; 06 §2 : **Braise** (jauge 8 crans + cadran 24 h) + Gage ; Registre = horloge du Flux ; 04 §5.4 : Marques de Pacte (Souffle du Réceptacle = +1 Marque et +1 Tension) ; 08 §3.5 : Dette de Sang « créancier du pacte », contenu laissé vide | **Braise** (06 §2.4) ; Prix des Noms supprimé ; Souffle du Réceptacle = +3 braises ; Marques de Pacte montent à chaque Embrasement (06 §2.4) | **05** (§0, §2.2, §2.5, §2.6, §3.1, §5.2 ligne « comment lever », §6.1, §7.2 n°4), **04** §5.4 |
-| 25 | **Nom du rite, de la technique, de la nuit** | 05 : rite = « Quittance des Noms », technique = « Quittance Inversée », nuit = « nuit du Rappel » (§6.2) ; 06 §0 et §5.3 n°12 : rite = **Veillée**, technique = « **le Rappel** » ; 00 : « Coût du pacte : Quittance des Noms : non » | Le journal 00 rejette le **coût** ; le rejet du nom du **rite** est une extrapolation de 06 (question 1). Provisoire : rite = Veillée, technique = Rappel, nuit = **J0** (« la nuit du Rappel »), à ne pas dupliquer | **05** (9 occurrences), **08** §3.5 (cohérent) |
+| 25 | **Nom du rite, de la technique, de la nuit** | 05 (avant la passe v3) : l'ancien nom du rite, l'ancien nom de la technique, nuit = « nuit du Rappel » (§6.2) ; 06 §0 et §5.3 n°12 : rite = **Veillée**, technique = « **le Rappel** » ; 00 : coût du pacte rejeté, puis retrait complet « pour l'ensemble » | Le journal 00 rejette désormais le **coût et le rite** (« pour l'ensemble ») ; reste à **confirmer le nom de remplacement** (question 1). Provisoire : rite = Veillée, technique = Rappel, nuit = **J0** (« la nuit du Rappel »), à ne pas dupliquer | **05** (9 occurrences de l'ancien nom, supprimées à la passe v3), **08** §3.5 (cohérent) |
 | 26 | **Les Neuf Nuits** | 05 §2.3 étape 2 : neuf nuits de veille **avant** le Rappel (T-9 à T0) ; 05 §2.6 créance 1 et §6.3 J9 : « Neuf Nuits passées » **après** J0 ; 06 : Veillée = veiller neuf nuits les morts | Les Neuf Nuits sont **avant** J0 (Veillée). Après J0, la limite est « J9 : les Rappelés stagnent » sans réemployer le mot | **05** §2.6 et §6.3 |
 | 27 | **Premier Loyer / première libération** | 05 §4.4 : premier Loyer de l'Écho **J6** ; 06 §5.5 : premier Loyer **J1 à l'Aube** (+2 braises), première libération contrôlée **J3-J4** | **06 §5.5** (J1 ; libération J3-J4) | **05** §4.4 (J6), tableau de la première semaine |
 | 28 | **Transport et arrivée** | 05 §6.2 : « l'Écho transporte Krunt (transe, 3 jours de marche) puis les trois autres » ; 05 §4.4 : J1 déjà sur place ; 06 §5.5 : Filet, une dizaine de personnes prises, **4 arrivent au cratère** ; Poste 7 « à une dizaine de km » et Dureth « à ~3 jours » : [INV] non signalé | Filet instantané ; arrivée J0 (nuit) / J1 (aube) ; distances Poste 7 et Dureth à marquer [P] | **05** §4.3, §4.4, §6.2 |
@@ -93,7 +112,7 @@ Statuts : **R** respectée partout ; **P** partielle (appliquée dans les docume
 | D12 | Taranis = Chasseur-Pisteur + Cartographe (plus Espion) | **V** (04, 05) | 04 §4.2, §7.2, JSON §9.2 (Espion principal) ; 05 §1.5 et §3.2 (libellés « pisteur-espion », « archer-espion »). Respectée par 03 (rang 1), 06, 08 |
 | D13 | Régions de l'Atlas, **sans surnoms** | **P** | 08 respecte. 03 §12 n°4 garde les noms du VTT comme « noms vernaculaires » (c'est un surnom) ; 04 §3.2/§9.2 met Taranis aux Marches ; 05 §4.2 laisse « Steppes du Vent » |
 | D14 | Lieu d'arrivée : Marches Frontalières | **R** | 02 §4, 05 §4 (Ravins de Keth), 06 |
-| D15 | « Quittance des Noms » : non (coût du pacte à remplacer) | **P** | 06 remplace le coût par la Braise ; **05 n'est pas mis à jour** (9 occurrences de « Quittance »). 06 va plus loin en renommant le rite : interprétation à confirmer (question 1) |
+| D15 | Ancien coût du pacte (oubli de noms) rejeté, puis retrait complet du rite qui portait ce nom | **P** puis **R** après la passe v3 | 06 remplace le coût par la Braise ; **05 n'était pas mis à jour** (9 occurrences de l'ancien nom) : fait à la passe v3. 06 renomme le rite (Veillée) : nom à confirmer (question 1) |
 | D16 | Krunt3 = krunt, jouable ; PNJ pendant les phases de JDR ; un autre MJ pourra prendre la suite | **P** | 08 §3.1 le dit. **Rien n'est dit** sur la façon dont Krunt3 est joué en solo par krunt **et** vu comme PNJ dans trois mondes (06 §2.4 mentionne seulement le brasero au-dessus d'un PNJ) |
 | D17 | Entité peut-être écho de phœnix **et** Gardien ; peut-être **ne maudit pas** Krunt | **R** | 06 §1 (quatre étages), 08 §3.5 (Réceptacle rédigé neutre) |
 | D18 | Talents des trois : choisis ou hasard ? à développer | **O** | 06 §4 propose « deux appelés, un tombé » ; krunt n'a pas tranché |
@@ -269,7 +288,7 @@ Cadre : zone des Marches (Ravins de Keth, Poste 7), un héros, un chef de meute 
 
 | # | Question | Recommandation |
 |---|---|---|
-| 1 | « Quittance des Noms : non » porte-t-il sur le **coût** seul ou aussi sur le **nom du rite** ? | Le coût seul est certain (00). Garder **Veillée** pour le rite et **le Rappel** pour la technique, sauf avis contraire |
+| 1 | Le retrait de l'ancien nom porte-t-il sur le **coût** seul ou aussi sur le **nom du rite** ? | **Répondu par krunt** : sur l'ensemble (coût et rite). Reste à confirmer le nom de remplacement : garder **Veillée** pour le rite et **le Rappel** pour la technique, sauf avis contraire |
 | 2 | Coût du pacte : **Braise seule** ou **Braise + Gage** ? Montrer les crans à l'écran ? | Braise + Gage optionnel ; crans visibles (pictogrammes), chiffres cachés ; Gage hors démo |
 | 3 | Lecture du Gardien : G1 protecteur, G2 geôlier, G3 régulateur ? | **G3** (respecte l'Atlas, garde les fins ouvertes) |
 | 4 | Talents : choisis, hasard ou **mixte (« deux appelés, un tombé »)** ? Taranis est-il « le tombé choisi » ? | Mixte, Taranis choisi par le Gardien |

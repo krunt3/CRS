@@ -1,6 +1,6 @@
 # Trame v1 : le Réceptacle
 
-> **À lire avec `00-decisions.md` et `09-revalidation.md`.** Les questions du §8 sont en grande partie répondues ; les documents 06 (entité, pacte), 07 (essais) et 08 (fiches v2) prévalent sur les propositions de ce document.
+> **Remplacé en partie par `10-trame-v3.md` (passe v3, 2026-10-06).** À lire avec `00-decisions.md` et `09-revalidation.md`. Les questions du §8 sont répondues dans `10` ; les documents 06 (entité, pacte), 07 (essais), 08 (fiches v2) et surtout **10** prévalent sur ce document pour : l'entité (§3), la sanction des clans et les voies (§5), les terres hostiles (§4), la démo (§7), le rôle des trois autres joueurs en solo (§8 question 2 : ils apparaissent en PNJ).
 
 
 Rédigée le 2026-10-06. Les passages **« krunt »** sont ses mots (dictée du 2026-10-06). Tout le reste est une **proposition de Claude** à discuter. Cadre retenu dans le formulaire : voyage du héros en 12 étapes.
@@ -17,26 +17,26 @@ Rédigée le 2026-10-06. Les passages **« krunt »** sont ses mots (dictée du 
 - **Fin** : ouverte et dépendante des choix. À la dernière image, le monde a changé selon ce que chaque héros a fait de Krunt : sauvé, délivré, enfermé, jugé, ou laissé.
 
 ## 3. Qui ou quoi est l'entité ? (à choisir)
-- **E1, l'écho d'un phœnix** (ma préférée, liée à l'Atlas) : copier le cycle de mort et renaissance sans le filtre du phœnix libère de la Corruption brute. Krunt en devient le réceptacle, un phœnix manqué : la Corruption s'accumule en lui. L'entité arrache des inconnus **dont les talents sont les pièces du remède** : un archer-pisteur (retrouver les restes ou les traces d'un phœnix), un mage blanc (stabiliser), un alchimiste (les cendres neutralisent la Corruption), un porteur de serment (lier). C'est cohérent avec l'équipe réelle (voir `01-personnages-et-point-de-depart.md`). **Danger** : Krunt approche d'une « Saturation » : si elle se déclenche, la libération détruit tout autour (comme l'Île Cendrée).
+- **E1, l'écho d'un phœnix** (ma préférée, liée à l'Atlas) : copier le cycle de mort et renaissance sans le filtre du phœnix libère de la Corruption brute. Krunt en devient le réceptacle, un phœnix manqué : la Corruption s'accumule en lui. L'entité arrache des inconnus **dont les talents sont les pièces du remède** : un archer-pisteur (retrouver les restes ou les traces d'un phœnix), un mage blanc (stabiliser), un alchimiste (les cendres neutralisent la Corruption), un porteur de serment (lier). C'est cohérent avec l'équipe réelle (voir `01-personnages-et-point-de-depart.md`). **Danger** : Krunt approche d'une « Saturation » (dans `10`, l'événement de trame s'appelle **Embrasement général** : le mot Saturation est réservé au seuil de Corruption 19-24 du Livre II) : s'il se déclenche, la libération détruit tout autour (comme l'Île Cendrée).
 - **E2, le Gardien du Continent Nord** (Atlas, hypothèse C) : une volonté ancienne qui utilise Krunt comme interface et rassemble des témoins.
 - **E3, un ancêtre du clan** (Lames Franches) : plus intime, moins relié au reste du monde.
 
 ## 4. Où sommes-nous ? (terres hostiles)
-Je propose les **Marches Frontalières** : aucun gouvernement, pression de créatures élevée, « personne n'y est chez soi », donc aucun clan ne protège. C'est aussi la zone de la démo. Arrivée près des **Ravins de Keth** (convoi disparu), avec le **Poste 7** (l'Ourse de Fer, neutre) comme refuge fragile, et **Dureth** (« le Carrefour des Refusés ») comme ville où échouent ceux que leur clan a rejetés : **le chemin de l'abandon mène à Dureth**. Alternative : Terres Sans Nom (perceptions faussées, « des gens qui connaissent votre nom »), plus étrange, moins jouable pour une démo.
+Je propose les **Marches Frontalières** : aucun gouvernement, pression de créatures élevée ; l'Atlas dit que ces terres « n'appartiennent à personne complètement » et que « chaque acteur présent a une raison de ne pas vouloir de témoin ». Aucun clan ne protège les trois étrangers (Taranis est, lui, chez lui côté clan et guilde, mais étranger côté naissance). C'est aussi la zone de la démo. Arrivée près des **Ravins de Keth** (convoi disparu), avec le **Poste 7** (l'Ourse de Fer, neutre) comme refuge fragile, et **Dureth** (« le Carrefour des Refusés ») comme ville où échouent ceux que leur clan a rejetés : **le chemin de l'abandon mène à Dureth**. Alternative : Terres Sans Nom (perceptions faussées, « des gens qui connaissent votre nom »), plus étrange, moins jouable pour une démo.
 
 ## 5. Structure : le choix « aider ou abandonner »
 Chaque joueur vit **son histoire dans son monde** ; le choix est fait **séparément**, et c'est précieux pour la table : quatre personnages qui se retrouvent avec des karmas différents.
 
 ### Karma, sanctions, survie (comment ça se joue)
 - **Karma = marques + Honneur** (jamais en chiffres), selon le chapitre 06 : *Loyauté, Compassion* (aider) ; *Abandon* (partir) ; *Corruption exposée* si le héros reste près de Krunt trop longtemps.
-- **Sanction du clan = horloge** dans le journal (Acte, Trace, Conséquence) : si le héros ne rentre pas, la Faveur du clan baisse par crans, des « Appels du Clan » restent sans réponse, des PNJ du clan arrivent, des contrats se ferment. **Le moment de la sanction est aléatoire**, selon un jet visible (« tôt ou tard »). Chaque clan sanctionne à sa façon (à écrire à partir du Livre V).
+- **Sanction du clan = horloge** dans le journal (Acte, Trace, Conséquence) : si le héros ne rentre pas, la Faveur du clan baisse par crans, des « Appels du Clan » restent sans réponse, des PNJ du clan arrivent, des contrats se ferment. **Le moment de la sanction est aléatoire pour les clans sans échéance fixe** (jet visible hebdomadaire, « tôt ou tard ») ; la Guilde Martiale a une échéance fixe de 7 jours. **Passe v3 : chaque clan a son propre honneur** et la sanction distingue l'abandon, l'absence et l'ignorance de la légende du phœnix : voir `10` §5.
 - **Survie** : eau, provisions, abri, repos, météo des Marches (règles du Livre I Exploration & Survie et du Livre X, ch. 12), chasse pour se nourrir. La survie est la **première boucle de jeu** : elle justifie les trois modes (Traque, quêtes de plateforme de récolte, chasse) avant toute grande intrigue.
 - **Bastion** : établir un Bastion en terres hostiles devient un but narratif (l'Atlas dit : « nul n'y établit de présence durable sans un Bastion actif »). L'Ancrage monte avec les actes d'entraide.
 
 ### Les trois voies (chacune avec ses coûts)
 1. **Aider Krunt** : plus de karma, accès à la vérité, mais exposition à la Corruption, brouille avec le clan, risque de Saturation.
 2. **Abandonner** : retour seul à travers les terres hostiles, puis sanctions du clan, arrivée possible à Dureth si le clan rejette. La vérité reste cachée ; l'entité se rappelle à vous.
-3. **Livrer Krunt** (variante) : le remettre à l'Ordre du Jugement, à la Guilde Martiale ou aux Théocraties. Gain de statut, perte de karma, conséquences politiques.
+3. **Livrer Krunt** (variante) : le remettre aux Frères de l'Épreuve (jugement par l'épreuve), à l'Ordre du Flux (Arbitres, jugement de correction), à la Guilde Martiale ou aux Théocraties. (L'ancien « Ordre du Jugement » est un surnom des Frères de l'Épreuve.) Gain de statut, perte de karma, conséquences politiques.
 
 ## 6. Les 12 étapes du voyage, pour un héros
 | # | Étape | Dans cette trame |
@@ -56,7 +56,7 @@ Chaque joueur vit **son histoire dans son monde** ; le choix est fait **séparé
 
 ## 7. Le prologue et la démo (propositions)
 - **Prologue** (une scène par héros, 3 à 5 minutes) : la vie normale, puis l'enlèvement. Pour Krunt, une courte séquence commune racontée en images fixes : la perte, la technique, ce qui tourne mal.
-- **Démo (16 mars 2028)** : de l'arrivée dans les Marches jusqu'au premier choix **non définitif** (partager ou non les provisions avec Krunt), avec la première chasse (le chef de meute et ses éclaireurs) et un seul Retour au Clan reporté. L'abandon complet est hors démo.
+- **Démo (16 mars 2028)** : **Krunt seul** (décision de krunt) : de l'arrivée dans les Marches (J1 à J4) jusqu'au premier choix **non définitif** (partager ou non les provisions avec un tombé blessé), avec la première chasse (le chef de meute et ses éclaireurs), la Braise affichée et un teaser de l'arrivée des trois autres. Scénario en douze étapes : `10` §8. L'abandon complet est hors démo.
 
 ## Décisions de krunt du 2026-10-06 (réponses aux questions de la v1)
 - **Krunt est le héros** de l'histoire (et non un simple PNJ) : son personnage « Krunt3 » porte la malédiction. Les trois autres joueurs sont ceux que le phénomène lui amène.
@@ -69,7 +69,7 @@ Chaque joueur vit **son histoire dans son monde** ; le choix est fait **séparé
 
 ## 8. Questions ouvertes pour krunt (v1, en partie répondues ci-dessus)
 1. **Krunt3 est-il jouable ?** Si c'est lui qui est maudit, il devient le PNJ central. Dans ce cas, **les joueurs sont Taranis, Cyril, Pascal** et qui d'autre en quatrième ? (Il y a deux comptes de test.)
-2. **Dans le jeu solo, les trois autres joueurs apparaissent-ils ?** Chaque joueur vit seul dans son monde. Recommandation : **non**, ce sont d'autres rescapés en PNJ ; les quatre vrais personnages ne se retrouvent qu'à la table. Sinon quatre mondes contiennent trois doubles PNJ.
+2. **Dans le jeu solo, les trois autres joueurs apparaissent-ils ?** **Répondu par krunt : oui, en PNJ**, chacun ne contrôlant que son propre personnage (arrivée J3 à J10, règles dans `10` §6). La recommandation initiale (« non ») est abandonnée.
 3. **Entité E1, E2 ou E3 ?**
 4. **Pourquoi les inconnus ?** L'entité a-t-elle choisi des talents précis (mon hypothèse E1) ou est-ce au hasard ?
 5. **Les terres hostiles : Marches Frontalières ou ailleurs ?**

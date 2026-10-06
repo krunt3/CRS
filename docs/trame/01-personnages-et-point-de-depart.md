@@ -1,5 +1,7 @@
 # Trame : les quatre personnages et le point de départ
 
+> **Remplacé en partie par `10-trame-v3.md` (passe v3, 2026-10-06).** Ce document décrit la sauvegarde du VTT **telle qu'elle était** (§1) : les valeurs de la table ne sont plus les fiches en vigueur. Corrections de décision de krunt : l'ordre de Krunt3 est les **Frères de l'Épreuve** (« Ordre du Jugement » = surnom, pas l'Ordre du Flux) ; Taranis est **Chasseur-Pisteur + Cartographe** (et non Espion) ; Pascal est au **Sceau Pourpre** ; régions de l'Atlas sans surnoms. Fiches à jour : `08-fiches-v2-et-sprites.md` et `10` §2.
+
 Rédigé le 2026-10-06 à partir de la sauvegarde de la base du VTT fournie par krunt (campagne `Z6TPSX`). Seules les données de jeu ont été lues (fiches de personnage, PNJ). Le fichier n'est **pas** copié dans le dépôt.
 
 ## 1. Les quatre personnages joueurs (d'après la sauvegarde)
@@ -7,10 +9,10 @@ Rédigé le 2026-10-06 à partir de la sauvegarde de la base du VTT fournie par 
 |---|---|---|---|---|
 | Posture | **Ours** | Loup | Loup | Loup |
 | École | Deux Lames | Arc Précis | Lame Droite | Lame Droite |
-| Métier | Espion / Infiltrateur | Espion / Infiltrateur | Mage Blanc | Alchimiste (3 étoiles) |
+| Métier | Espion / Infiltrateur | Espion / Infiltrateur *(v3 : Chasseur-Pisteur + Cartographe)* | Mage Blanc | Alchimiste (3 étoiles) |
 | Clan | Lames Franches (« Nul ne nous commande. Nul ne nous possède. ») | Navigateurs Gris (« Là où la route meurt, nous avançons encore. ») | Sceau Pourpre (« Un serment scellé vaut plus qu'une armée ») | Sceau Pourpre |
 | Guilde | Guilde Martiale (administration de la guerre) | Guilde de Chasse (contrats, formation) | Marchands Libres (commerce, contrats) | Guilde Martiale |
-| Ordre | Ordre du Jugement (justice et loi) | — | — | Sentinelles du Pacte (protection des frontières) |
+| Ordre | Ordre du Jugement (justice et loi) *(v3 : Frères de l'Épreuve, « Ordre du Jugement » en surnom)* | — | — | Sentinelles du Pacte (protection des frontières) |
 | Région d'origine | Plaines Franches | Steppes du Vent (Vent) | Terres du Sceau (Métal) | Cols Fortifiés (Terre) |
 | Notes | Sprite : humanoïde musclé à la peau rouge, barbe rousse tressée, hache à deux mains dans le dos ; attributs détaillés (FOR 5, AGI 5, END 3, ESP 3, VOL 5, PRE 6) | Joueur sans fiche détaillée | Journal de temps libre, inventaire | Fiche très remplie (Éclats 5 000, « sabre laser », adamentium) : peut-être un essai de l'outil |
 Deux autres comptes (« jioness6 », « Jioness 67 ») existent avec des fiches par défaut : probablement des tests.
@@ -19,7 +21,7 @@ Deux autres comptes (« jioness6 », « Jioness 67 ») existent avec des fiches 
 - **Trois Loups et un Ours.** La Posture Loup (meute) est partagée ; l'Ours est le solitaire. Voulu ou hasard ? À demander à krunt.
 - **Une équipe complémentaire sans l'avoir cherché** : un guerrier à deux lames, un archer-espion, un mage blanc (soin), un alchimiste. Compétences de chasse, de soin, de fabrication et d'infiltration se répartissent bien, ce qui sert la trame.
 - **Deux Sceau Pourpre** (Cyril et Pascal) : un clan juridique et d'engagement, avec un lien « serment ». Le Livre V place ce clan autour des serments et de l'arbitrage.
-- **Un Ordre du Jugement** (Krunt3), qui n'existe dans aucun des dix livres : à intégrer au canon ou à remplacer. De même les ordres « Sentinelles du Pacte ».
+- **Un Ordre du Jugement** (Krunt3), qui n'existe dans aucun des dix livres : à intégrer au canon ou à remplacer. De même les ordres « Sentinelles du Pacte ». **Résolu pour Krunt3 (décision de krunt)** : Frères de l'Épreuve, « Ordre du Jugement » en surnom populaire. Sentinelles du Pacte : question ouverte (`10` Q17).
 - **Les régions d'origine ne sont pas celles de l'Atlas.** Plaines Franches, Steppes du Vent, Terres du Sceau, Cols Fortifiés n'apparaissent dans aucun des livres analysés : l'application du VTT a sa propre liste d'origines (avec des éléments Vent, Métal, Terre : le système Wu Xing). C'est une inconsistance de plus entre l'application et l'Atlas, à ajouter à la liste de `docs/audit/`.
 - **Canon déjà posé dans la campagne** : 4 PNJ au ton japonisant (Yamada Renjiro « le Spectre aux Cendres », exorciste errant ; le daimyo usurpateur Kuroda ; une sentinelle Veille-Fumée ; un veilleur solitaire), régions « Monts Brumeux de Kogame », « Monts Brûlés », « Forêt de Kurogane ». Ils colorent un coin du monde et se marient bien avec une histoire de cendres et de revenants.
 
@@ -43,7 +45,7 @@ Cadre : voyage du héros en 12 étapes, repris par chaque personnage depuis son 
 3. **Refus** : chacun a de bonnes raisons de ne pas s'en mêler.
 4. **Mentor** : l'exorciste errant (le Spectre aux Cendres) ou un Veilleur de Sanctuaire.
 5. **Franchissement du seuil** : première chasse ou première enquête dans les Marches Frontalières.
-6. **Épreuves, alliés, ennemis** : chasses, quêtes de plateforme, diplomatie ; l'Ordre du Jugement veut punir, la Guilde Martiale veut utiliser, le Voile Noir veut récupérer la technique.
+6. **Épreuves, alliés, ennemis** : chasses, quêtes de plateforme, diplomatie ; l'Ordre du Flux veut faire restituer (c'est l'antagoniste, pas l'ordre de Krunt3), la Guilde Martiale veut utiliser, le Voile Noir veut récupérer la technique.
 7. **Approche de la caverne la plus profonde** : retrouver Krunt3 et la famille revenue.
 8. **Épreuve suprême** : face à ce que la technique a fait.
 9. **Récompense** : une vérité sur la technique.

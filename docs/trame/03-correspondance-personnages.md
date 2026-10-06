@@ -1,6 +1,6 @@
 # Trame 03 : correspondance entre les fiches des quatre personnages, les livres et StoryForge
 
-> **À lire avec `09-revalidation.md` (2026-10-06).** Ce document est un brouillon antérieur aux décisions de krunt. Corrections en vigueur : **Pascal reste au clan Sceau Pourpre** (et non Pierres Hautes) ; **Taranis est Chasseur-Pisteur + Cartographe** (et non Espion) ; régions de l'Atlas **sans surnoms**. Les fiches à jour sont dans `08-fiches-v2-et-sprites.md`.
+> **Remplacé en partie par `10-trame-v3.md` (passe v3, 2026-10-06).** Ce document est un brouillon antérieur aux décisions de krunt. Corrections en vigueur, appliquées dans le corps du texte : **Pascal reste au clan Sceau Pourpre** (décision de krunt : l'option A, Pierres Hautes, est abandonnée, l'option B est retenue) ; **Taranis est Chasseur-Pisteur + Cartographe** (et non Espion) ; régions de l'Atlas **sans surnoms** ; Honneur de départ 4 / 4 / 5 / 6 ; Mana de départ provisoirement 6 / 6 / 8 / 6 (Livre VI, `10` Q22). Les fiches à jour sont dans `08-fiches-v2-et-sprites.md` et `10` §2.
 
 
 Rédigé le 2026-10-06. Règle de krunt : **les noms de StoryForge (= les livres) font foi, l'application du VTT s'adapte.**
@@ -15,7 +15,7 @@ Sources lues : fiches du VTT extraites de la base (Krunt3, Taranis, Cyril, Pasca
 | Champ de la fiche VTT | Verdict | Détail court |
 |---|---|---|
 | Régions d'origine (Plaines Franches, Steppes du Vent, Terres du Sceau, Cols Fortifiés) | **4 ABSENTES** | Aucune n'est dans l'Atlas (20 régions). Remplacées par : Îles des Serments, Déserts Rouges, Cœur Impérial, Hautes Terres Claniques (§2). |
-| Clans (Lames Franches, Navigateurs Gris, Sceau Pourpre) | **OK** | Les trois existent ; devises exactes (à un point final près). Option : Pascal vers Pierres Hautes (§5). |
+| Clans (Lames Franches, Navigateurs Gris, Sceau Pourpre) | **OK** | Les trois existent ; devises exactes (à un point final près). Pascal reste au Sceau Pourpre (décision de krunt). |
 | Guildes (Martiale, de Chasse, Marchands Libres) | **OK** | Les trois existent (Livre V ch. 4). Seules les **spécialités** « Administration de la guerre » et « Commerce, contrats, économie » sont à reformuler (§4). |
 | Ordres (Ordre du Jugement, Sentinelles du Pacte) | **2 ABSENTS** | Jugement → **Frères de l'Épreuve** (canon). Sentinelles du Pacte → **fiche d'ordre à créer** (§3). |
 | Éléments Wu Xing (Vent, Métal, Terre) | **2 OK + 1 à convertir** | Métal et Terre sont des éléments Wu Xing ; **Vent n'est pas Wu Xing** (c'est une affinité de Forge et une École mystique) (§6). |
@@ -78,7 +78,7 @@ Particularité **[L]** : les Lames Franches n'ont « ni territoire fixe, ni capi
 
 | Rang | Région candidate | Justification | Réserves |
 |---|---|---|---|
-| **1** | **Déserts Rouges** (Atlas Région 9) | Atlas : biome « **steppe rocailleuse** … saisons des **vents** » (littéralement une steppe à vent) ; Guilde de Chasse présente (V §5) ; école « De Chasse » favorable en région 9 (Livre VI §5) ; avantage « survie extrême, réduction de fatigue » ; passages de contrebande (Passage Bas de Tyr) : terrain d'un Navigateur Gris et d'un pisteur. | Clan dominant « — » (les Navigateurs Gris, « clan des marges », y sont un étranger plausible). Ordre local : Ordre du Sable (Livre V, Livre II) ou « Ordres du Silence » (Livre IX) : **conflit entre livres**. |
+| **1** | **Déserts Rouges** (Atlas Région 9) | Atlas : biome « **steppe rocailleuse** … saisons des **vents** » (littéralement une steppe à vent) ; Guilde de Chasse présente (V §5) ; école « De Chasse » favorable en région 9 (Livre VI §5) ; avantage « survie extrême, réduction de fatigue » [L Livre IX l.745 ; **le Livre II dit « endurance réduite »** : écart entre livres, non tranché, `10` Q18] ; passages de contrebande (Passage Bas de Tyr) : terrain d'un Navigateur Gris et d'un pisteur. | Clan dominant « — » (les Navigateurs Gris, « clan des marges », y sont un étranger plausible). Ordre local : Ordre du Sable (Livre V, Livre II) ou « Ordres du Silence » (Livre IX) : **conflit entre livres**. |
 | 2 | Marches Frontalières (Atlas Région 7) | **Correspondance parfaite au tableau V §5** : Navigateurs Gris + Guilde de Chasse + ordre « — ». | Lieu d'arrivée de la trame : Taranis serait chez lui (contraire à la prémisse). À réserver si krunt veut un guide local. |
 | 3 | Archipels Nomades (Atlas Région 14) | Navigateurs Gris dominants ; « +1 mobilité, avantage esquive » : bon pour un archer. | Guilde de Chasse absente (guilde « Navigateurs »). Mer : éloigné des steppes. |
 
@@ -103,8 +103,8 @@ Particularité **[L]** : les Lames Franches n'ont « ni territoire fixe, ni capi
 | 3 | Marches Frontalières | Frontière par excellence ; Sentinelles du Pacte y trouvent leur place d'ordre (§3). | Lieu d'arrivée de la trame (§2.1). |
 
 **Cohérence à deux options [P]** (clan, région, guilde, ordre doivent aller ensemble, Livre V §5) :
-- **Option A (recommandée)** : région Hautes Terres Claniques + clan **Pierres Hautes** + Guilde Martiale + ordre **Sentinelles du Pacte** (créé). Cohérent à 100 % avec le profil « Terre, cols, frontières, défense » ; sort Pascal du doublon Sceau Pourpre avec Cyril, ce qui donne au groupe quatre clans différents sur trois ; **ennemis des Lames Franches comme Cyril** (tension partagée).
-- **Option B (changement minimal)** : garder Sceau Pourpre, région Cœur Impérial ou Hautes Terres (rupture culturelle à jouer, permise par V §5), Guilde Martiale, Sentinelles du Pacte.
+- **Option A (écartée par krunt, conservée pour mémoire)** : région Hautes Terres Claniques + clan **Pierres Hautes** + Guilde Martiale + ordre **Sentinelles du Pacte** (créé). Cohérent à 100 % avec le profil « Terre, cols, frontières, défense » ; sort Pascal du doublon Sceau Pourpre avec Cyril, ce qui donne au groupe quatre clans différents sur trois ; **ennemis des Lames Franches comme Cyril** (tension partagée).
+- **Option B (retenue par krunt)** : garder Sceau Pourpre (« adoption par serment » aux Hautes Terres), région Cœur Impérial ou Hautes Terres (rupture culturelle à jouer, permise par V §5), Guilde Martiale, Sentinelles du Pacte.
 
 ---
 
@@ -120,7 +120,7 @@ Particularité **[L]** : les Lames Franches n'ont « ni territoire fixe, ni capi
 | Rang | Ordre canonique | Ce qui correspond | Ce qui ne correspond pas |
 |---|---|---|---|
 | **1** | **Frères de l'Épreuve** (Confrérie des Îles des Serments ; Atlas Région 6, Livre II ch. 4, tableau V §5) | « Seuls ceux qui ont prouvé leur valeur peuvent **juger** la valeur des autres » ; chaque île a un **Gardien, « juge en dernier ressort des conflits »** ; la Salle des Défis enregistre et tranche ; ordre « ni religieux ni militaire » ; favorable aux écoles martiales (Livre VI §5) ; **Guilde Martiale** présente. Va avec la région 1 de Krunt3. | « Loi » écrite : ici la justice est celle de l'épreuve, pas du code. Pas de fiche dans Livre V ch. 5. |
-| 2 | Ordre du Flux (V ch. 5, ordre 1) | **Arbitres du Flux : juges itinérants avec Droit de Correction** ; punit « ce qui persiste au-delà de son cycle » : c'est **exactement** l'ordre qui punira la résurrection de la famille de Krunt (Livre VI : nécrotechnie « interdite universellement par l'Ordre du Flux »). | Allié du **Sceau Pourpre** donc ennemi naturel d'un Lame Franche ; morale « non humaine » : pas un ordre qu'on rejoint par choix de duelliste. À utiliser comme **force qui jugera Krunt**, pas comme son ordre. |
+| 2 | Ordre du Flux (V ch. 5, ordre 1) | **Arbitres du Flux : juges itinérants avec Droit de Correction** ; punit « ce qui persiste au-delà de son cycle » : c'est **exactement** l'ordre qui punira la résurrection de la famille de Krunt (Livre VI : nécrotechnie « interdite universellement par l'Ordre du Flux »). | Allié du **Sceau Pourpre** ; **« ennemi naturel d'un Lame Franche » est une déduction [P]** : le Livre V ne donne aucune hostilité Flux/Lames (le Flux est aussi allié des Maisons Anciennes) ; morale « non humaine » : pas un ordre qu'on rejoint par choix de duelliste. À utiliser comme **force qui jugera Krunt**, pas comme son ordre. |
 | 3 | Ordre Dogmatique (V ch. 5, ordre 8) | « Loi Sacrée », Purificateurs. | Fanatique, hostile aux clans libres ; incompatible avec Lames Franches. |
 
 Structures de justice d'appoint (pas des ordres) : **Juges de Serment** (clan Sceau Pourpre), **Vallée des Serments** (Atlas, Hautes Terres : « il n'y a pas de tribunal, pas de loi écrite », des anciens, du feu).
@@ -220,21 +220,21 @@ Remarque [L] : Livre V Guilde 2 : « impossibilité de changer de camp sans diss
 
 ### 5.3 Ce que cela donne pour des amitiés entre clans rivaux (matrice des quatre personnages)
 
-Hypothèse de départ (option A) : Krunt3 = Lames Franches ; Taranis = Navigateurs Gris ; Cyril = Sceau Pourpre ; Pascal = Pierres Hautes (option B : Sceau Pourpre).
+Hypothèse de départ (option B, retenue) : Krunt3 = Lames Franches ; Taranis = Navigateurs Gris ; Cyril = Sceau Pourpre ; Pascal = Sceau Pourpre (l'option A, Pierres Hautes, est abandonnée ; les lignes ci-dessous qui y renvoient sont des variantes).
 
 | Paire | Relation de clan [L] | Ponts possibles [L/P] | Tension à jouer |
 |---|---|---|---|
 | Krunt3 – Taranis | **Alliés** (même Bloc Liberté Martiale ; Lames : « Navigateurs Gris » alliés dans la table V ch. 7) | Les deux acceptent un contrat qui se renouvelle, pas une loi | Aucune : c'est **l'amitié facile** du groupe (le pont vers les autres). |
 | Krunt3 – Cyril | **Rivaux structurels** (Lames vs Sceau) ; **doublement** : Cyril est **Mage Blanc**, Krunt3 va devenir ce que le Mage Noir est (Livre VII ch. 2 : « Mage Noir + Mage Blanc : incompatibilité doctrinale totale ») | **Guilde Martiale** alliée du Sceau et des Lames ; les **Marchands Libres** de Cyril sont alliés du Sceau et des Navigateurs Gris (donc de Taranis) ; hook « La Lame sans Choix » (Livre V clan 2 : contrat valide selon le Sceau, nul selon le Code des Lames) | Cyril aide un homme que son clan doit juger : **conflit d'obligations** (V ch. 2 §4). Sanction du Sceau : lourde. |
-| Krunt3 – Pascal | Rivaux (Lames vs Sceau ou vs Pierres Hautes) | **Guilde Martiale commune dans le VTT** : le seul lien déjà inscrit sur les fiches de deux rivaux ; Pascal est Sentinelle (serment de veille), Krunt3 est devenu un « seuil » ambulant | Pascal tient une frontière, Krunt3 en est une. |
+| Krunt3 – Pascal | Rivaux (Lames vs Sceau Pourpre) | **Guilde Martiale commune dans le VTT** : le seul lien déjà inscrit sur les fiches de deux rivaux ; Pascal est Sentinelle (serment de veille), Krunt3 est devenu un « seuil » ambulant | Pascal tient une frontière, Krunt3 en est une. |
 | Taranis – Cyril | Pas d'hostilité ; **Marchands Libres alliés des Navigateurs Gris** (Guilde 1) | Contrats de route, convois (Marches : « Route du Nord ») | Les Gris refusent « les chemins prédestinés » ; Cyril « les serments scellés » : philosophies opposées, **amitié sans obligation**. |
 | Taranis – Pascal | Aucune relation écrite | Sentinelles du Pacte ↔ Navigateurs Gris : frontières contre passages (tension dans la fiche §3.4) | Taranis ouvre les routes que Pascal doit fermer. |
-| Cyril – Pascal | Même clan (option B) ou clans alliés via Maisons Anciennes (option A : Sceau et Pierres Hautes) | Serment commun ; Mage Blanc + Alchimiste = synergie naturelle (Livre VII, fiche Mage Blanc : « Alchimiste, potions complémentaires ») | Option B : ils sont des **doublons de clan** : intérêts alignés mais aucun contraste. |
+| Cyril – Pascal | Même clan : le Sceau Pourpre (frères de serment ; un seul des deux a prêté un serment d'aide) | Serment commun ; Mage Blanc + Alchimiste = synergie naturelle (Livre VII, fiche Mage Blanc : « Alchimiste, potions complémentaires ») | Doublons de clan : intérêts alignés ; le contraste vient du métier, de l'École et de la région. |
 
 **Mécanismes d'amitié (appuyés sur les livres) [P]**
 1. **Serment d'amitié à la Vallée des Serments** (Atlas, Hautes Terres) : les serments inter-claniques y sont prononcés devant témoins, les serments brisés jugés « sans loi écrite » ; la décision de rester ensemble peut s'y sceller : un lien que le Sceau Pourpre est tenu de reconnaître.
 2. **« Les seuls à n'avoir aucun intérêt » (hook V clan 1, Le Juge Disparu)** : les héros, étrangers aux conflits locaux, sont les seuls en qui chaque clan peut avoir confiance : excellent motif pour que des rivaux travaillent ensemble.
-3. **Survie plutôt que politique** : dans les Marches, « personne n'y est chez soi » (Atlas, Régions) : aucune appartenance clanique n'y est protégée ni reconnue ; les rivalités s'y suspendent.
+3. **Survie plutôt que politique** : les Marches « n'appartiennent à personne complètement » et « chaque acteur présent a une raison de ne pas vouloir de témoin » (Atlas, Régions) : l'appartenance clanique n'y protège pas les trois étrangers (Taranis, lui, est chez lui côté clan et guilde) ; les rivalités s'y suspendent.
 4. **Asymétrie des sanctions** (Livre V §2) : si Cyril aide Krunt3, il risque l'exclusion du Sceau (« aussi dommageable qu'une perte de citoyenneté ») ; si Krunt3 aide Cyril, les Lames n'ont qu'une rupture de contrat. Deux amis, deux risques inégaux : ressort dramatique.
 5. **Le Flux comme arbitre commun** : l'Ordre du Flux est allié du Sceau, ennemi du Voile Noir, **juge de la nécrotechnie** ; il est l'adversaire que Cyril et Krunt3 finissent par avoir en commun.
 
@@ -323,7 +323,7 @@ Points [L] à connaître : (a) **2 métiers max** sans pénalité ; (b) le **Liv
 
 ### 9.1 Règles de création [L] (Livre I ch. 3 §7 et ch. 2)
 - **42 points** à répartir sur FOR, AGI, END, ESP, VOL, PRE ; **min 3, max 12** ; bonus d'origine ensuite. Les attributs valent **1 à 20** (au-delà : rare).
-- **Vitalité max = 4 + END** (7 à 16 cases) ; **Endurance max = 10** à la création ; **Mana de départ = 2 × rang** (rang I = 2) selon Livre I (docs/mecaniques/03 retient d'autres valeurs : 6 pour le rang I ; à trancher) ; **Honneur de départ 4 à 6** (« Reconnu »), ±1 selon l'origine.
+- **Vitalité max = 4 + END** (7 à 16 cases) ; **Endurance max = 10** à la création ; **Mana de départ = 2 × rang** (rang I = 2) selon Livre I, mais Livre VI : 6 à 8 (docs/mecaniques/03 : 6 pour le rang I) : **tranché provisoirement à 6 / 6 / 8 / 6, à confirmer par krunt** (`10` Q22) ; **Honneur de départ 4 à 6** (« Reconnu »), ±1 selon l'origine.
 - **Forge** (0 à 40, paliers de 10) et **Tension** : **jauges COLLECTIVES** (portées par le groupe).
 - 12 points de compétence + 2 (École) + 2 (Métier) + 1 (Posture), 3 max par compétence.
 - Une seule jauge systémique pour la réputation : **l'Honneur** (« ni karma, ni jauge cachée parallèle », Livre I §8) : le « karma » de la trame = Honneur + marques.
@@ -338,7 +338,7 @@ Points [L] à connaître : (a) **2 métiers max** sans pénalité ; (b) le **Liv
 | `gauge-vit` | 20 / 15 / 20 / 11 | 4 + END | Krunt3 (END 3 +1 = 4) : **8** ; autres : selon END final (END 7 → 11). |
 | `gauge-end` | 20 / 15 / 20 / 13 | 10 | **10** pour tous. |
 | `gauge-mana` | 20 / 10 / 20 / 9 | 2 (L I, rang I) ; 6 (docs/mecaniques/03) | **2 ou 6** ; à trancher avant import. |
-| `gauge-hon` | 4 / 5 / **7** / 5 | 4 à 6 à la création | **Cyril : 6** ; 7 = « Estimé » : non autorisé au départ. Krunt3 (4) : bas, cohérent avec Lames Franches (honneur « personnel » ; ouvert au malheur). |
+| `gauge-hon` | 4 / 5 / **7** / 5 | 4 à 6 à la création | **Cyril : 5** (v2 ; 7 = « Estimé » n'est pas autorisé au départ) ; **Taranis : 4**, **Pascal : 6** (v2, `08` §3.2). Krunt3 (4) : bas, cohérent avec Lames Franches (honneur « personnel » ; ouvert au malheur). |
 | `gauge-ten` | 1 (Krunt3) / 0 | **Collective**, 0 au départ | Passer au niveau **groupe** ; supprimer des fiches. |
 | `gauge-forge` | 0 | **Collective**, 0 au départ | idem. |
 | `m1-stars-val` | Pascal : 3 | ★1 à la création | **1**. |
@@ -375,7 +375,7 @@ Points [L] à connaître : (a) **2 métiers max** sans pénalité ; (b) le **Liv
 | ecole | Arc Précis | **Souffle Long** (alt. Rafale) / *Tir Ciblé* | remplacer |
 | posture | Loup | Loup / *Appel de Meute* | OK |
 | m1 | Espion / Infiltrateur | **Chasseur-Pisteur** + Cartographe (ou Espion + Cartographe) | existe ; doublon à lever |
-| attr / jauges | 10 partout ; 15/15/10/5 | 42 pts ; Vit 4+END, End 10, Mana 2/6, Hon 5 | corriger |
+| attr / jauges | 10 partout ; 15/15/10/5 | 42 pts (5/11/6/9/6/5) ; Vit 10, End 10, Mana 6, Hon 4 (v2) | corriger |
 
 ### Cyril
 | Champ | Avant | Après | Statut |
@@ -387,21 +387,21 @@ Points [L] à connaître : (a) **2 métiers max** sans pénalité ; (b) le **Liv
 | ecole | Lame Droite | **Flux Tranchant** / *Première Vague* | remplacer |
 | posture | Loup | Loup | OK |
 | m1 | Mage Blanc | Mage Blanc ★1 | OK |
-| gauge-hon | 7 | **6** | corriger |
+| gauge-hon | 7 | **5** (v2) | corriger |
 | attr / jauges | 10 partout ; 20/20/20 | 42 pts ; Vit 4+END ; End 10 ; Mana 2/6 | corriger |
 
 ### Pascal
 | Champ | Avant | Après | Statut |
 |---|---|---|---|
 | region / elem | Cols Fortifiés / Terre | **Hautes Terres Claniques** / Terre (Phœnix, Centre) | remplacer la région ; élément OK |
-| clan / devise | Sceau Pourpre | Option A : **Pierres Hautes** (« La montagne ne fuit pas l'orage… ») ; option B : garder Sceau Pourpre | à trancher |
+| clan / devise | Sceau Pourpre | **Sceau Pourpre** (décision de krunt ; l'option Pierres Hautes est abandonnée) | décidé |
 | guilde | Guilde Martiale / Administration de la guerre | idem / **Capitaineries de défense (garde, siège)** | ajuster la spécialité |
 | ordre / philo | Sentinelles du Pacte / Protection des frontières | **Sentinelles du Pacte** (fiche §3.4) / « Veiller les seuils : nul ne passe sans être nommé » | créer dans StoryForge |
 | ecole | Lame Droite | **Gardien Mobile** (alt. Mur Vivant) / *Garde Haute* | remplacer |
 | posture | Loup | Loup | OK |
 | m1 / étoiles | Alchimiste / ★★★ | Alchimiste ★1 | corriger les étoiles |
 | equipement | sabre laser, adamentium, Boulet Légendaire, 5 000 Éclats | arme d'école (épée, qualité Standard) ; budget de départ à fixer | remplacer |
-| attr / jauges | 10 partout ; 11/13/9/5 | 42 pts ; Vit 4+END ; End 10 ; Mana 2/6 ; Hon 5 | corriger |
+| attr / jauges | 10 partout ; 11/13/9/5 | 42 pts ; Vit 4+END ; End 10 ; Mana 6 ; Hon 6 (v2) | corriger |
 
 ---
 
@@ -442,7 +442,7 @@ Taranis;tech-ecole;Arc Précis;Tir Ciblé;remplacer;Livre VI École 12 rang I
 Taranis;posture;Loup;Loup;ok;Livre VI ch.4 §2
 Taranis;tech-posture;Loup;Appel de Meute;ajuster;Livre VI ch.4 §2
 Taranis;m1-nom;Espion / Infiltrateur;Chasseur-Pisteur (+ Cartographe);remplacer (recommandé);Livre VII bloc 2 et 3
-Taranis;gauge-hon;5;5;ok;Livre I ch.3 §7
+Taranis;gauge-hon;5;4;corriger (v2, 08 §3.2);Livre I ch.3 §7
 Cyril;region;Terres du Sceau;Cœur Impérial;remplacer;Atlas Région 1 / Livre V §5
 Cyril;region-elem;Métal;Métal (Tigre Blanc, Ouest);ok;Livre I ch.3 §4.6
 Cyril;clan-nom;Sceau Pourpre;Sceau Pourpre;ok;Livre V clan 1
@@ -454,11 +454,11 @@ Cyril;ecole;Lame Droite;Flux Tranchant (alt. Gardien Mobile);remplacer;Livre VI 
 Cyril;tech-ecole;Lame Droite;Première Vague;remplacer;Livre VI École 2 rang I
 Cyril;posture;Loup;Loup;ok;Livre VI ch.4 §2
 Cyril;m1-nom;Mage Blanc;Mage Blanc (★1);ok;Livre VII p.155
-Cyril;gauge-hon;7;6;corriger;Livre I ch.3 §7 (4 à 6)
+Cyril;gauge-hon;7;5;corriger (v2, 08 §3.2);Livre I ch.3 §7 (4 à 6)
 Pascal;region;Cols Fortifiés;Hautes Terres Claniques;remplacer;Atlas Région 4 / Livre V §5
 Pascal;region-elem;Terre;Terre (Phœnix, Centre);ok;Livre I ch.3 §4.6
-Pascal;clan-nom;Sceau Pourpre;Pierres Hautes (option A) ou Sceau Pourpre (option B);à trancher;Livre V clans 9 et 1
-Pascal;clan-devise;Un serment scellé vaut plus qu'une armée;La montagne ne fuit pas l'orage. Elle l'endure, puis elle demeure. (option A);à trancher;Livre V clan 9
+Pascal;clan-nom;Sceau Pourpre;Sceau Pourpre;ok (décision de krunt);Livre V clan 1
+Pascal;clan-devise;Un serment scellé vaut plus qu'une armée;Un serment scellé vaut plus qu'une armée.;ok (point final);Livre V clan 1
 Pascal;guilde-nom;Guilde Martiale;Guilde Martiale;ok;Livre V Guilde 2
 Pascal;guilde-spec;Administration de la guerre;Capitaineries de défense (garde, siège);ajuster;Livre V Guilde 2
 Pascal;ordre-nom;Sentinelles du Pacte;Sentinelles du Pacte [INV];créer dans StoryForge;fiche §3.4
@@ -541,5 +541,5 @@ Pascal;eclats;5000;(budget de départ à fixer);à fixer;Livre IX glossaire (Éc
 1. **Couvert** : les 4 personnages champ par champ ; régions (4 absentes → Îles des Serments, Déserts Rouges, Cœur Impérial, Hautes Terres), ordres (Jugement → Frères de l'Épreuve ; **fiche complète créée pour Sentinelles du Pacte**), guildes (les 3 existent), éléments, écoles/postures, métiers, relations de clans (matrice, ponts, mécanismes d'amitié), tableau importable, listes StoryForge et VTT.
 2. **Faible** : attributs, jauges et valeurs de départ ne sont ramenés qu'aux **règles** (la répartition fine des 42 points et l'équilibrage relèvent de docs/trame/04) ; la fiche des Sentinelles du Pacte et les alliés/ennemis des Frères de l'Épreuve sont **inventés** (marqués [INV] / [P]) ; les éléments par région sont une convention sans appui des livres ; numéros de ligne approximatifs (livres lus en copie de travail).
 3. **Recommandation 1** : adopter les quatre régions de l'Atlas ci-dessus (aucun héros n'est originaire des Marches : c'est leur terre d'arrivée) et traiter les noms du VTT comme des surnoms.
-4. **Recommandation 2** : Krunt3 → **Frères de l'Épreuve** ; Pascal → **Pierres Hautes** (option A) + **Sentinelles du Pacte** créées dans StoryForge ; Pascal et Cyril ne doivent plus partager clan, école ni région (le groupe passe de « 2 Sceau » à 4 clans, 4 écoles, 4 régions distinctes).
+4. **Recommandation 2** : Krunt3 → **Frères de l'Épreuve** ; Pascal **reste au Sceau Pourpre** (décision de krunt, en remplacement de la recommandation Pierres Hautes) + **Sentinelles du Pacte** à créer dans StoryForge (ou repli, `10` Q17) ; Pascal et Cyril partagent le clan mais ne partagent ni école ni région (4 écoles, 4 régions distinctes).
 5. **Recommandation 3** : corriger côté VTT les listes déroulantes (régions, écoles, ordres, guildes) et les règles de création (42 points, Vitalité 4 + END, Tension et Forge collectives, ★1) avant d'importer le tableau §11 ; ponts d'amitié entre rivaux : Guilde Martiale (Krunt3-Pascal), Marchands Libres (Cyril-Taranis), bloc Liberté Martiale (Krunt3-Taranis).

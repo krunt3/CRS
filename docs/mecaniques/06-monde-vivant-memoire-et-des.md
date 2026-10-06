@@ -2,9 +2,11 @@
 
 Rédigé le 2026-10-05 après la précision de krunt sur la structure du jeu. Chiffres de départ à tester. Ce chapitre **complète et corrige** les cinq autres.
 
+> **Mise à jour du 2026-10-06 (passe v3, décisions de krunt).** Deux points du chapitre d'origine sont **remplacés** : (1) il n'y a pas « quatre intrigues séparées » mais **une intrigue commune avec des différences** (mêmes faits fondateurs, mêmes antagonistes, mêmes échéances ; différences de statistiques, de métier, de clan, de marques et de fin) ; (2) **les trois autres joueurs apparaissent dans le mode solo de chacun, en PNJ** : « chaque joueur aura son personnage, et pas un autre » (chacun ne contrôle que le sien). La règle « Ne pas créer de copies PNJ » est donc supprimée. Voir `docs/trame/10-trame-v3.md` §1 et §6.
+
 ## 1. Ce que krunt a décidé
 
-1. **Quatre joueurs, quatre personnages, quatre mondes.** À la table (JDR en ligne avec un Maître du Jeu), les quatre joueurs jouent ensemble. Dans le jeu vidéo, **chacun joue son personnage de son côté, en solo, dans un monde ouvert en pixel art**. Il n'y a pas forcément une seule intrigue : **chaque joueur développe la sienne**. Le lien entre les joueurs, c'est la table et le journal d'événements (PocketBase), pas un réseau temps réel.
+1. **Quatre joueurs, quatre personnages, quatre mondes.** À la table (JDR en ligne avec un Maître du Jeu), les quatre joueurs jouent ensemble. Dans le jeu vidéo, **chacun joue son personnage de son côté, en solo, dans un monde ouvert en pixel art**. ~~Il n'y a pas forcément une seule intrigue : chaque joueur développe la sienne.~~ **Corrigé (passe v3) : une intrigue commune, avec des différences par joueur.** Les trois autres personnages apparaissent dans le monde de chacun en PNJ. Le lien entre les joueurs, c'est la table et le journal d'événements (PocketBase), pas un réseau temps réel.
 2. **Le monde se souvient.** Chaque interaction, chaque choix modifie le ressenti et la réaction du monde envers ce joueur. Exemple de krunt : tuer un animal blessé → les autres animaux ont peur de lui, le dressage devient presque impossible ; aider un animal blessé → l'animal peut lui rendre la pareille, se laisser dresser, ou (cas des dragons légendaires) l'aider ou l'attaquer.
 3. **Il y aura des dés dans le jeu.** Dans les moments de réaction du monde (rencontre avec un animal, un dragon légendaire, dressage, négociation), le résultat dépend d'un lancer **aléatoire**, comme à la table. Le combat reste en temps réel, adresse du joueur.
 
@@ -12,7 +14,7 @@ Rédigé le 2026-10-05 après la précision de krunt sur la structure du jeu. Ch
 
 | Chapitre | Hypothèse des agents | Correction |
 |---|---|---|
-| Tous | « Un héros actif, les trois autres en compagnons ou soutiens » | Faux. Les trois autres personnages sont des **joueurs réels, hors du jeu solo**. Ne pas créer de copies PNJ. Les compagnons du joueur sont des PNJ originaux et des familiers. |
+| Tous | « Un héros actif, les trois autres en compagnons ou soutiens » | **Corrigé (passe v3, décision de krunt)** : chaque joueur ne contrôle que **son** personnage, mais **les trois autres apparaissent dans son monde en PNJ** (arrivée J3 à J10, comportement et mémoire du monde : `docs/trame/10-trame-v3.md` §6). La règle d'origine « Ne pas créer de copies PNJ » est **supprimée**. Les autres compagnons du joueur restent des PNJ originaux et des familiers. |
 | 01 | « Combat sans d20 » | Reste vrai pour le **combat** (hitbox, esquive). Les dés interviennent **avant et autour** du combat : réaction des créatures, dressage, fuite, rencontres. |
 | 02 | Artisanat déterministe | À garder (pas de perte de matériaux par malchance), sauf choix explicite du joueur (mode « Forcer »). |
 | 04 | Joute en mode Auto par défaut | Compatible : on ajoute des **jets visibles** aux points de bascule (persuasion, défi, jugement). |
@@ -31,6 +33,7 @@ Chaque événement du journal (Acte, Trace, Conséquence : Trinité du Livre I) 
 | Famille (groupe du roster) | tous les canidés, toutes les grandes volantes | réaction de la famille, plus faible |
 | Région | Hautes Terres Claniques | prix, accès, hospitalité |
 | Faction (clan, guilde, ordre) | Porteurs de Cicatrices | réputation (chapitre 04) |
+| Personnage (PNJ, dont les trois autres joueurs) | un PNJ compagnon se souvient d'un geste cruel | confiance, aide à la libération de la Braise, départ |
 | Monde | « a tué un phœnix » | rumeurs, contrats, Terres Inconnues |
 
 ### 3.3 Table des gestes qui déposent une marque (extrait de départ)
@@ -97,15 +100,15 @@ Nouvelles collections PocketBase (proposition) :
 - `jets` : `{id, joueur_id, evenement_id, contexte, d20, modificateurs[], dd, resultat}`.
 Le roster `donnees/monstres/*.json` fournit déjà `cle_id`, `familier.difficulte_dd`, `lien_max`, `cr`, `groupe`. Le journal (Acte/Trace/Conséquence) devient la source de vérité ; le Maître du Jeu peut y lire et y écrire pour injecter des conséquences dans le monde de chaque joueur.
 
-## 6. Les quatre intrigues et le monde ouvert
-- **Un monde, quatre histoires.** Mêmes cartes, mêmes 20 régions, mêmes 40 tensions du monde ; l'**origine**, le **clan**, le **métier** et les **marques** décident des portes qui s'ouvrent.
+## 6. Une intrigue commune, quatre mondes
+- **Un monde par joueur, une intrigue commune avec des différences.** Mêmes cartes, mêmes 20 régions, mêmes 40 tensions du monde, mêmes faits fondateurs ; l'**origine**, le **clan**, le **métier** et les **marques** décident des portes qui s'ouvrent et des indices qu'on obtient. Les trois autres joueurs sont des PNJ du monde.
 - **Les arcs personnels** viennent de gabarits (hooks de l'Atlas) filtrés par l'origine et les marques, plus quelques arcs écrits à la main par joueur (la « trame » du projet).
 - **Un cadre commun pour la table** : les quatre mondes partagent un calendrier et des tensions de départ identiques, pour que les récits se rejoignent aux sessions JDR. Le Maître du Jeu peut y faire avancer une tension pour tous.
 - **Monde ouvert pixel art** : à l'échelle d'un développeur seul, il s'agit de **grandes zones reliées** (carte-monde par îles et zones débloquées, chapitre 05), chargées une à la fois, pas d'un monde continu. Démo : une zone.
 
 ## 7. Honnêteté sur l'ampleur
 - La mémoire du monde est **bon marché si elle reste de la donnée** : une table de gestes, des marques, cinq crans, quelques effets. Elle devient **très chère** si on veut une simulation d'animaux individuels. Je recommande : espèce et famille seulement, créature individuelle réservée aux animaux liés à une quête.
-- Quatre intrigues séparées multiplient l'écriture. Sans gabarits, c'est le mur de production. Il faut un moteur d'amorces (Atlas : 60 hooks) plutôt que quatre scénarios.
+- Quatre mondes sur une même intrigue multiplient l'écriture des différences (lentilles d'indices, voie solo et voie table, comportement des PNJ). Sans gabarits, c'est le mur de production. Il faut un moteur d'amorces (Atlas : 60 hooks) plutôt que quatre scénarios.
 - Le hasard visible fait partie du pitch (« comme à la table ») ; c'est un choix à tester avec de vrais joueurs, pas à défendre sur papier.
 
 ## 8. Questions ouvertes

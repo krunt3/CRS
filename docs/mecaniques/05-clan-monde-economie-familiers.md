@@ -594,6 +594,8 @@ Garde-fous : (1) tout nombre de ce tableau doit pouvoir changer **sans coder** (
 
 **Recommandation de zone** : **Marches Frontalières** (Dureth, Poste 7, Ravins de Keth), avec le clan **Porteurs de Cicatrices** comme clan de démonstration (il n'a pas d'ancrage régional, il peut donc être « amené » par le héros). Raisons : les contrats de la Guilde de Chasse y sont naturels (bourgs, postes de chasse), la tension **T14 Disparition du Convoi** est un fil d'enquête prêt à jouer (3 hooks, contrats, Ourse de Fer), les meutes de rang I-II sont dans la liste du roster (bipèdes de meute `cro`, Alizade, Dorgane), et le familier-démo (Alizade, conditionné, CR 1) est dans la même zone. Alternative : Hautes Terres Claniques (Kûrath-Shon).
 
+> **Mise à jour du 2026-10-06 (décision de krunt)** : la démo met en scène **Krunt seul** (Krunt3, clan Lames Franches) ; les trois autres personnages n'apparaissent que dans un teaser. Le **clan de démonstration** (Porteurs de Cicatrices ci-dessus, ou Lames Franches, le clan du héros) reste à confirmer : proposition dans `docs/trame/10-trame-v3.md` §9 Q27 (Lames Franches comme clan du héros, un Cicatrisé PNJ prête la Consignation).
+
 **Sous-ensemble minimal v0.1 (démo)** :
 1. **Journal d'événements** : collection `evenements` avec le gabarit Acte/Trace/Conséquence, 1 événement par chasse et par contrat, affichage dans le Carnet (liste simple) ; synchronisation manuelle.
 2. **Contrats** : tableau de 3 contrats (1 Nécessité, 2 Contrats) avec primes de la formule, 1 clause chacun, rendu avec certification en 3 qualités (pas de Rare).
