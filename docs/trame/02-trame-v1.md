@@ -55,7 +55,16 @@ Chaque joueur vit **son histoire dans son monde** ; le choix est fait **séparé
 - **Prologue** (une scène par héros, 3 à 5 minutes) : la vie normale, puis l'enlèvement. Pour Krunt, une courte séquence commune racontée en images fixes : la perte, la technique, ce qui tourne mal.
 - **Démo (16 mars 2028)** : de l'arrivée dans les Marches jusqu'au premier choix **non définitif** (partager ou non les provisions avec Krunt), avec la première chasse (le chef de meute et ses éclaireurs) et un seul Retour au Clan reporté. L'abandon complet est hors démo.
 
-## 8. Questions ouvertes pour krunt
+## Décisions de krunt du 2026-10-06 (réponses aux questions de la v1)
+- **Krunt est le héros** de l'histoire (et non un simple PNJ) : son personnage « Krunt3 » porte la malédiction. Les trois autres joueurs sont ceux que le phénomène lui amène.
+- **L'antagoniste qui a détruit sa famille** est **un ordre ou un pays**, à choisir pour être crédible et **pas découvrable trop vite** (voir `05-antagoniste-et-technique.md`).
+- **« Tourne mal »** = **un pacte à payer, un coût d'utilisation**.
+- **La technique oubliée : A, B et C à la fois** (cycle des phœnix, nécromancie interdite, rite funéraire des Lames Franches) : voir `05`.
+- **Les trois autres découvriront les liens et amitiés entre eux, même entre clans rivaux** (les Lames Franches et le Sceau Pourpre sont ennemis dans le Livre V).
+- **Trois Loups et un Ours** : hasard de création, assumé comme obligation (« on fait avec ce qu'on a ; au pire on recrutera un joueur ou un PNJ »).
+- **Noms** : ceux de StoryForge (= les livres) font foi ; l'application s'adapte. Fiches de personnage à corriger et équilibrer : voir `03-correspondance-personnages.md` et `04-equilibrage-personnages.md`.
+
+## 8. Questions ouvertes pour krunt (v1, en partie répondues ci-dessus)
 1. **Krunt3 est-il jouable ?** Si c'est lui qui est maudit, il devient le PNJ central. Dans ce cas, **les joueurs sont Taranis, Cyril, Pascal** et qui d'autre en quatrième ? (Il y a deux comptes de test.)
 2. **Dans le jeu solo, les trois autres joueurs apparaissent-ils ?** Chaque joueur vit seul dans son monde. Recommandation : **non**, ce sont d'autres rescapés en PNJ ; les quatre vrais personnages ne se retrouvent qu'à la table. Sinon quatre mondes contiennent trois doubles PNJ.
 3. **Entité E1, E2 ou E3 ?**
