@@ -29,3 +29,10 @@
 | Métier de Taranis | **Chasseur-Pisteur + Cartographe** (plus Espion) : oui |
 | Régions | **Atlas, sans surnoms** pour les régions : oui |
 | Lieu d'arrivée | **Marches Frontalières** : oui, pour la session en cours |
+
+## 2026-10-06 (après la revalidation `09-revalidation.md`)
+Dictée de krunt, avec ma lecture entre crochets.
+- **« Quittance des Noms » : on la retire complètement, pour l'ensemble** (le coût du pacte **et** le rite qui portait ce nom). [Le coût est remplacé par la Braise du document 06 ; le nom du rite (« Veillée » / « le Rappel ») du document 06 est une proposition de remplacement à confirmer.]
+- **Sanction des clans : chaque clan a son propre honneur.** Krunt : « certains clans [ont un but de donneur] donc il faut accepter de faire la mission qui lui est attribuée » [**lecture à confirmer** : certains clans fonctionnent comme donneurs d'ordres : refuser la mission que le clan attribue est une faute d'honneur]. « Pour d'autres clans, savoir qu'il y a un lien avec le phœnix est un énorme avantage : **les jeunes ne sont pas au courant, mais les anciens des clans le savent** et se fâcheraient si un des jeunes avait ignoré cette légende. »
+- **Les trois autres joueurs apparaissent dans le mode solo** : « chaque joueur aura son personnage, et pas un autre » [chacun ne contrôle que son propre personnage ; les trois autres figurent dans son monde comme personnages non joueurs, ce qui lève l'interdiction « pas de copies PNJ » du chapitre `mecaniques/06`].
+- **Démo : il n'y aura que Krunt** (seul personnage de la démo).
