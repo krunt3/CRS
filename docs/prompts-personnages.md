@@ -151,3 +151,48 @@ Remarques :
 - **4 directions suffisent en vue 3/4** (sud, nord, est, et l'ouest en miroir de l'est). Le miroir place l'épée sur l'épaule gauche : acceptable si le personnage est considéré comme ambidextre dans le jeu ; sinon générer l'ouest séparément.
 - **Même palette que la vue de profil** (`donnees/palette_chasseur_wyverne_32.json`) pour que le personnage reste cohérent.
 - Si le résultat reste trop chargé : remplacer `about 24 colors` par `exactly 20 colors`, ou passer le personnage à 56 px de haut (même taille de case, plus de pixels pour le détail).
+
+
+## Personnage 2 : le guerrier aux deux lames (référence du 2026-10-08), candidat pour Krunt3
+
+Référence fournie par l'utilisateur : illustration réaliste, homme blond aux cheveux courts, barbe courte blonde, regard calme, armure sombre à écailles de dragon (plastron, grandes épaulières à pointes, tassettes en écailles, jambières et bottes renforcées de cuir brun et de laiton), ceinture de cuir à bourses. **Deux épées courtes tenues en garde basse** : celle de droite (côté gauche de l'image) a une lame de flammes orange, celle de gauche une lame violette à fumée sombre ; deux poignées dépassent aussi derrière les épaules (rangement dans le dos).
+
+**À 64 px (ou 48 px en 3/4), garder seulement** : la silhouette large et basse, les épaulières à pointes, les deux lames de couleurs opposées (orange / violet) qui sont l'élément emblématique, la cape d'écailles en pointes autour des hanches, les cheveux blonds. Les écailles se suggèrent par un motif à deux tons.
+
+Rapport avec la trame : `docs/trame/08` donne déjà à Krunt3 « deux lames courtes » et une braise orange ; le violet est un ajout à décider (second élément, ou ombre / Éther) : à valider par krunt avant de l'imposer.
+
+### Prompt complet (profil, case 128, personnage ~64 px)
+
+```
+A human monster hunter in his early thirties, broad and sturdy athletic build, fair skin, short messy blond hair, short blond beard, calm serious determined expression. He wears a full set of dark gunmetal-black dragon-scale armor: a scale breastplate with a raised collar, large spiked shoulder pauldrons, scale-pattern tassets like a short jagged skirt around the hips, armored vambraces, greaves and heavy boots, with brown leather straps, a wide brown belt with pouches and bronze buckles. Two short swords crossed in a sheath on his back, and he holds two short swords low in a ready stance: the one in his right hand has a blade of orange flames, the one in his left hand has a blade of dark purple smoky energy. Standing pose, wide stance. Large readable head, simplified face with clear eyes, strong readable silhouette with spiked shoulder plates. Scales suggested by a simple two-tone pattern, not individual scales. Dominant colors: dark charcoal and brown; accents: bright orange flame, violet, bronze. Clean pixel art, selective dark outline of one pixel, flat shading with three tones per material, limited palette of about 28 colors, no anti-aliasing, no gradients, no dithering, transparent background.
+```
+
+### Prompt court
+
+```
+Human monster hunter, early thirties, broad sturdy build, short messy blond hair and short beard, calm serious face. Dark charcoal dragon-scale armor with large spiked shoulder plates and a jagged scale skirt, brown leather belt and straps, bronze buckles. Two short swords held low: right one with an orange flame blade, left one with a purple smoky blade. Large readable head, strong silhouette. Clean pixel art, one-pixel dark outline, flat shading, about 28 colors, no anti-aliasing, no gradients, transparent background.
+```
+
+### Version 3/4 pour 48 px (case 64×64, vue « low top-down »)
+
+```
+A human monster hunter in his early thirties, sturdy build, fair skin, short blond hair, short blond beard. Very simple design for a tiny sprite: dark charcoal armor made of large flat color areas with only two tones, no scale pattern, no small details; two big spiked shoulder plates and a jagged skirt forming one readable shape; brown belt and boots. Two short swords held low, one with a bright orange flame blade, one with a violet blade, the two colors clearly readable. Face clearly lit, large dark eyes. Three-quarter top-down view, camera slightly above, like a classic 16-bit action RPG. Idle standing pose. Strong readable silhouette. Clean pixel art, selective dark outline of one pixel, flat shading with only two tones per material, limited palette of about 24 colors, no anti-aliasing, no gradients, no dithering, no noise, no texture, transparent background.
+```
+
+### Négatif
+
+`scales pattern, small details, texture, noise, speckle, gradients, blurry, 3D render, painting, photo, text, watermark, cropped, extra limbs, helmet, tiny details`
+
+### Réglages et variations
+
+Mêmes réglages que le personnage 1 (case 128 ou 64, 4 ou 8 directions, une seule ligne de style).
+
+| Problème | Correction |
+|---|---|
+| Lames trop discrètes | `oversized glowing blades, the flame and the purple glow clearly visible` |
+| Armure illisible | `very simple armor shapes, large flat color areas` |
+| Couleurs trop nombreuses | `exactly 24 colors` |
+| Deux lames de même couleur | répéter `the right blade is orange fire, the left blade is violet` |
+| Variante sans le violet (si krunt le refuse) | remplacer la lame violette par `a plain steel blade` |
+
+Animations utiles : attente (`standing idle, slow breathing, the two flame trails flickering`), attaque (`fast alternating slashes with the two short swords, leaving an orange and a violet trail`), dégâts, mort.
